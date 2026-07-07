@@ -21,8 +21,9 @@ export function TradeJournal() {
   const [filterTag, setFilterTag] = useState<string>("ALL");
   const [filterSymbol, setFilterSymbol] = useState<string>("ALL");
   const [noteInput, setNoteInput] = useState<Record<string, string>>({});
-  // Persistent trade notes (in-memory; would be localStorage in production)
-  const [tradeNotes, setTradeNotes] = useState<Record<string, string>>({});
+  // Trade notes persisted in Zustand store (survives navigation)
+  const tradeNotes = useTradingStore((s) => s.indicatorTradeNotes);
+  const setTradeNote = useTradingStore((s) => s.setIndicatorTradeNote);
 
   // All tags present in fills
   const allTags = useMemo(() => {
@@ -343,7 +344,7 @@ export function TradeJournal() {
                           <input
                             type="text"
                             value={tradeNotes[f.id] ?? ""}
-                            onChange={(e) => setTradeNotes({ ...tradeNotes, [f.id]: e.target.value })}
+                            onChange={(e) => setTradeNote(f.id, e.target.value)}
                             placeholder="Add note..."
                             className="w-full bg-transparent border-0 focus:outline-none focus:bg-muted/30 rounded px-1 py-0.5 text-[11px]"
                           />

@@ -629,11 +629,11 @@ function SignalsTab({ candles, signalRules, setSignalRules, signalLog, setSignal
             priceAtSignal: candles[candles.length - 1]?.close ?? 0,
             evaluated: false,
           };
-          setSignalLog((prev: SignalLogEntry[]) => [entry, ...prev].slice(0, 500));
+          setSignalLog([entry, ...signalLog].slice(0, 500));
         }
       }
     }
-  }, [evaluations]);
+  }, [evaluations, signalLog, setSignalLog, symbol, candles]);
 
   const firedCount = evaluations.filter((e: any) => e.fired).length;
 

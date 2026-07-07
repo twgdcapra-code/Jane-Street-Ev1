@@ -63,10 +63,10 @@ export function computeRiskMetrics(input: RiskInput): RiskMetrics {
 
   // ---- Historical VaR ----
   const sorted = [...portfolioPL].sort((a, b) => a - b);
-  const var95Idx = Math.floor(0.05 * sorted.length);
-  const var99Idx = Math.floor(0.01 * sorted.length);
-  const histVar95 = -(sorted[var95Idx] ?? 0);
-  const histVar99 = -(sorted[var99Idx] ?? 0);
+  const var95Idx = Math.max(0, Math.floor(0.05 * sorted.length));
+  const var99Idx = Math.max(0, Math.floor(0.01 * sorted.length));
+  const histVar95 = -sorted[var95Idx];
+  const histVar99 = -sorted[var99Idx];
   // ES = mean of tail beyond VaR
   const tail95 = sorted.slice(0, var95Idx + 1);
   const tail99 = sorted.slice(0, var99Idx + 1);

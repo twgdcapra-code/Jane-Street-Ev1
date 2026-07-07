@@ -25,6 +25,7 @@ import {
   sma,
   vwap,
 } from "./indicators";
+import { ADVANCED_STRATEGIES } from "./strategies-advanced";
 
 export type Signal = {
   time: number;
@@ -469,6 +470,8 @@ export const STRATEGIES: StrategyDef[] = [
   MarketMaking,
   Breakout,
   Volatility,
+  // Advanced strategies from research (see research/advanced_strategies.md)
+  ...ADVANCED_STRATEGIES,
 ];
 
 export const STRATEGY_MAP: Record<string, StrategyDef> = STRATEGIES.reduce(
