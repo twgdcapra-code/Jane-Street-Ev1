@@ -53,7 +53,7 @@ export function SystemMonitor() {
       <Card>
         <CardHeader className="py-3">
           <CardTitle className="text-sm flex items-center gap-2">
-            <Server className="w-4 h-4" /> System Architecture (Jane Street-inspired)
+            <Server className="w-4 h-4" /> System Architecture (TwigCapra-inspired)
           </CardTitle>
         </CardHeader>
         <CardContent>
@@ -102,8 +102,8 @@ export function SystemMonitor() {
             />
           </div>
           <div className="text-[10px] text-muted-foreground mt-3 leading-relaxed">
-            Inspired by Jane Street's "no silos" architecture — a single integrated view across all functions.
-            <br />Real Jane Street tech: OCaml · Hardcaml (FPGA) · Bonsai (web) · Superstore (columnar DB) · JX (internal cross).
+            Inspired by TwigCapra's "no silos" architecture — a single integrated view across all functions.
+            <br />Real TwigCapra tech: OCaml · Hardcaml (FPGA) · Bonsai (web) · Superstore (columnar DB) · JX (internal cross).
             <br />This simulator: TypeScript · Zustand · Recharts — a tribute, not a clone.
           </div>
         </CardContent>

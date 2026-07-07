@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { useTradingStore } from "@/lib/trading/store";
 import { CONTRACTS } from "@/lib/trading/contracts";
-import { fmtCompact, fmtPct, fmtPrice } from "@/lib/trading/format";
+import { fmtCompact, fmtPct, fmtPrice, decimalsFor } from "@/lib/trading/format";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -91,7 +91,7 @@ export function MarketWatch() {
             </thead>
             <tbody>
               {rows.map(({ contract, quote }) => {
-                const decimals = contract.symbol === "BRR" ? 0 : contract.symbol === "6E" || contract.symbol === "6B" || contract.symbol === "NG" ? 4 : 2;
+                const decimals = decimalsFor(contract.symbol);
                 const up = quote.change >= 0;
                 return (
                   <tr

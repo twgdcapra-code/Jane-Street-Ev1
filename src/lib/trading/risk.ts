@@ -9,11 +9,11 @@
  *  - Stress tests (2008 GFC, 2020 COVID, 2022 rate shock, Flash Crash, custom)
  *  - Greeks aggregation (Black's model for options on futures)
  *
- * Aligns with Jane Street's "no silos" risk philosophy: a single engine that
+ * Aligns with TwigCapra's "no silos" risk philosophy: a single engine that
  * sees the entire book, not siloed by strategy.
  */
 import type { Candle, Position, RiskMetrics, StressScenario } from "./types";
-import { getContract } from "./contracts";
+import { getContract, MICRO_TO_FULL } from "./contracts";
 import { correlation } from "./indicators";
 
 export interface RiskInput {
@@ -338,12 +338,23 @@ export function runStressTest(
   positions: Position[],
   scenario: Omit<StressScenario, "portfolioImpact" | "worstPosition" | "worstImpact">,
 ): StressScenario {
+  // Auto-mirror shocks to micro contracts (so a position in MNQ gets the NQ shock)
+  const fullShock: Record<string, number> = { ...scenario.shock };
+  for (const pos of positions) {
+    if (pos.netQty === 0) continue;
+    if (!(pos.symbol in fullShock)) {
+      const fullEq = MICRO_TO_FULL[pos.symbol];
+      if (fullEq && fullEq in fullShock) {
+        fullShock[pos.symbol] = fullShock[fullEq];
+      }
+    }
+  }
   let totalImpact = 0;
   let worstSym = "";
   let worstImpact = 0;
   for (const p of positions) {
     if (p.netQty === 0) continue;
-    const shock = scenario.shock[p.symbol] ?? 0;
+    const shock = fullShock[p.symbol] ?? 0;
     const contract = getContract(p.symbol);
     const newPrice = p.lastPrice * (1 + shock);
     const pnl = p.netQty * (newPrice - p.lastPrice) * contract.pointValue;

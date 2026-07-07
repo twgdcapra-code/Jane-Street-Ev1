@@ -15,7 +15,7 @@
  *  - Marks working orders against current quotes (limit fills, stop triggers)
  *  - Recomputes positions & account
  *
- * This single store mirrors Jane Street's "no silos" risk discipline — every
+ * This single store mirrors TwigCapra's "no silos" risk discipline — every
  * module reads from the same state, so risk always sees the live book.
  */
 "use client";
@@ -37,6 +37,25 @@ import type {
 import { getContract } from "./contracts";
 import { getEngine } from "./market-engine";
 import { computeAccount, computePosition } from "./analytics";
+import {
+  type AlgoState,
+  type AlgoType,
+  type AlgoParams,
+  createAlgo,
+  stepAlgo,
+  recordAlgoFill,
+  cancelAlgo as cancelAlgoEngine,
+  pauseAlgo as pauseAlgoEngine,
+  resumeAlgo as resumeAlgoEngine,
+} from "./execution-algos";
+import {
+  type PriceAlert,
+  type Watchlist,
+  type AlertCondition,
+  createPriceAlert,
+  evaluateAlert,
+  DEFAULT_WATCHLISTS,
+} from "./alerts";
 
 const INITIAL_CASH = 1_000_000;
 const COMMISSION_PER_CONTRACT = 2.25;
@@ -54,6 +73,11 @@ interface TradingState {
   positions: Record<string, Position>;
   // Strategies
   strategies: Strategy[];
+  // Execution algorithms
+  algos: AlgoState[];
+  // Price alerts & watchlists
+  priceAlerts: PriceAlert[];
+  watchlists: Watchlist[];
   // Alerts & logs
   alerts: Alert[];
   logs: LogEntry[];
@@ -79,6 +103,21 @@ interface TradingState {
   updateStrategy: (id: string, updates: Partial<Strategy>) => void;
   removeStrategy: (id: string) => void;
   toggleStrategy: (id: string) => void;
+  // Algo actions
+  startAlgo: (type: AlgoType, params: AlgoParams) => string;
+  cancelAlgo: (id: string) => void;
+  pauseAlgo: (id: string) => void;
+  resumeAlgo: (id: string) => void;
+  // Price alert actions
+  addPriceAlert: (symbol: string, condition: AlertCondition, threshold: number, name: string) => void;
+  removePriceAlert: (id: string) => void;
+  togglePriceAlert: (id: string) => void;
+  resetPriceAlert: (id: string) => void;
+  // Watchlist actions
+  addWatchlist: (name: string) => void;
+  removeWatchlist: (id: string) => void;
+  addWatchlistEntry: (watchlistId: string, symbol: string, note?: string) => void;
+  removeWatchlistEntry: (watchlistId: string, symbol: string) => void;
   log: (level: LogEntry["level"], module: string, message: string, metadata?: Record<string, unknown>) => void;
   onQuote: (q: Quote) => void;
   init: () => void;
@@ -133,6 +172,9 @@ export const useTradingStore = create<TradingState>((set, get) => ({
   ],
   alerts: [],
   logs: [],
+  algos: [],
+  priceAlerts: [],
+  watchlists: DEFAULT_WATCHLISTS,
   metrics: [
     { name: "Tick-to-Trade Latency", value: 0.42, unit: "μs", status: "healthy", target: 5 },
     { name: "Order Ack Latency", value: 1.8, unit: "ms", status: "healthy", target: 10 },
@@ -179,9 +221,15 @@ export const useTradingStore = create<TradingState>((set, get) => ({
       executeOrder: (id: string, quote?: Quote) => void;
       updatePositions: (q: Quote) => void;
       applyFill: (order: Order, fillQty: number, fillPrice: number) => void;
+      stepAlgos: (q: Quote) => void;
+      evaluateAlerts: (q: Quote) => void;
     };
     storeInternal.markOrders(q);
     storeInternal.updatePositions(q);
+    // Step active algos
+    storeInternal.stepAlgos(q);
+    // Evaluate price alerts
+    storeInternal.evaluateAlerts(q);
   },
 
   placeOrder: (o) => {
@@ -333,6 +381,90 @@ export const useTradingStore = create<TradingState>((set, get) => ({
     }
   },
 
+  startAlgo: (type, params) => {
+    const algo = createAlgo(type, params);
+    set({ algos: [algo, ...get().algos] });
+    get().log("INFO", "AlgoEngine", `Algo ${type} started: ${params.side} ${params.totalQty} ${params.symbol}`, { algoId: algo.id });
+    get().addAlert({
+      type: "ORDER",
+      severity: "INFO",
+      message: `Algo ${type} started: ${params.side} ${params.totalQty} ${params.symbol}`,
+    });
+    return algo.id;
+  },
+
+  cancelAlgo: (id) => {
+    const algo = get().algos.find((a) => a.id === id);
+    if (!algo) return;
+    cancelAlgoEngine(algo);
+    set({ algos: get().algos.map((a) => (a.id === id ? { ...a, ...algo } : a)) });
+    get().log("WARN", "AlgoEngine", `Algo ${id} cancelled`, { filled: algo.filledQty, total: algo.params.totalQty });
+  },
+
+  pauseAlgo: (id) => {
+    const algo = get().algos.find((a) => a.id === id);
+    if (!algo) return;
+    pauseAlgoEngine(algo);
+    set({ algos: get().algos.map((a) => (a.id === id ? { ...a, ...algo } : a)) });
+    get().log("INFO", "AlgoEngine", `Algo ${id} paused`);
+  },
+
+  resumeAlgo: (id) => {
+    const algo = get().algos.find((a) => a.id === id);
+    if (!algo) return;
+    resumeAlgoEngine(algo);
+    set({ algos: get().algos.map((a) => (a.id === id ? { ...a, ...algo } : a)) });
+    get().log("INFO", "AlgoEngine", `Algo ${id} resumed`);
+  },
+
+  addPriceAlert: (symbol, condition, threshold, name) => {
+    const quote = get().quotes[symbol];
+    const alert = createPriceAlert(symbol, condition, threshold, name, quote?.last);
+    set({ priceAlerts: [alert, ...get().priceAlerts] });
+    get().log("INFO", "Alerts", `Price alert created: ${name} (${condition} ${threshold})`, { symbol });
+  },
+
+  removePriceAlert: (id) => set({ priceAlerts: get().priceAlerts.filter((a) => a.id !== id) }),
+
+  togglePriceAlert: (id) =>
+    set({ priceAlerts: get().priceAlerts.map((a) => (a.id === id ? { ...a, enabled: !a.enabled } : a)) }),
+
+  resetPriceAlert: (id) =>
+    set({
+      priceAlerts: get().priceAlerts.map((a) =>
+        a.id === id ? { ...a, triggered: false, triggeredAt: undefined, triggeredValue: undefined } : a,
+      ),
+    }),
+
+  addWatchlist: (name) => {
+    const wl: Watchlist = {
+      id: `wl-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`,
+      name,
+      entries: [],
+      createdAt: Date.now(),
+    };
+    set({ watchlists: [...get().watchlists, wl] });
+    get().log("INFO", "Watchlist", `Watchlist created: ${name}`);
+  },
+
+  removeWatchlist: (id) => set({ watchlists: get().watchlists.filter((w) => w.id !== id) }),
+
+  addWatchlistEntry: (watchlistId, symbol, note) =>
+    set({
+      watchlists: get().watchlists.map((w) =>
+        w.id === watchlistId && !w.entries.some((e) => e.symbol === symbol)
+          ? { ...w, entries: [...w.entries, { symbol, note, addedAt: Date.now() }] }
+          : w,
+      ),
+    }),
+
+  removeWatchlistEntry: (watchlistId, symbol) =>
+    set({
+      watchlists: get().watchlists.map((w) =>
+        w.id === watchlistId ? { ...w, entries: w.entries.filter((e) => e.symbol !== symbol) } : w,
+      ),
+    }),
+
   log: (level, module, message, metadata) => {
     const entry: LogEntry = {
       id: `log-${logCounter++}`,
@@ -355,10 +487,17 @@ function seedDemoData(set: (partial: Partial<TradingState>) => void, get: () => 
   const state = get();
   const esQuote = state.quotes["ES"];
   const nqQuote = state.quotes["NQ"];
+  const mnqQuote = state.quotes["MNQ"];
   if (esQuote) {
     const pos = computePosition("ES", 2, esQuote.last - 5, 0, esQuote.last);
     set({ positions: { ...get().positions, ES: pos } });
     get().log("INFO", "Position", "Seeded position: LONG 2 ES", { avgPrice: pos.avgPrice });
+  }
+  if (mnqQuote) {
+    // Seed a Micro NQ long position to demonstrate micro contract support
+    const pos = computePosition("MNQ", 10, mnqQuote.last - 2, 0, mnqQuote.last);
+    set({ positions: { ...get().positions, MNQ: pos } });
+    get().log("INFO", "Position", "Seeded position: LONG 10 MNQ (Micro NQ)", { avgPrice: pos.avgPrice });
   }
   if (nqQuote) {
     const order: Order = {
@@ -392,6 +531,8 @@ const store = useTradingStore as unknown as TradingState & {
   executeOrder: (id: string, quote?: Quote) => void;
   updatePositions: (q: Quote) => void;
   applyFill: (order: Order, fillQty: number, fillPrice: number) => void;
+  stepAlgos: (q: Quote) => void;
+  evaluateAlerts: (q: Quote) => void;
 };
 
 store.markOrders = (q: Quote) => {
@@ -556,4 +697,90 @@ store.updatePositions = (q: Quote) => {
   useTradingStore.setState({
     positions: { ...state.positions, [q.symbol]: newPos },
   });
+};
+
+// Step all running algos on each tick — generates child orders as needed
+store.stepAlgos = (q: Quote) => {
+  const state = useTradingStore.getState();
+  const activeAlgos = state.algos.filter(
+    (a) => (a.status === "RUNNING" || a.status === "QUEUED") && a.params.symbol === q.symbol,
+  );
+  if (activeAlgos.length === 0) return;
+  const storeInternal = useTradingStore as unknown as TradingState & {
+    applyFill: (order: Order, fillQty: number, fillPrice: number) => void;
+  };
+  for (const algo of activeAlgos) {
+    // Make a working copy
+    const working: AlgoState = { ...algo, log: [...algo.log], schedule: algo.schedule ? [...algo.schedule] : undefined };
+    const childOrders = stepAlgo(working, q);
+    // Place each child order (immediate fill simulation)
+    for (const child of childOrders) {
+      const fillPrice = child.orderType === "MARKET"
+        ? (working.params.side === "BUY" ? q.ask : q.bid)
+        : (child.price ?? q.last);
+      // Directly apply the fill to algo and to the position
+      recordAlgoFill(working, child.qty, fillPrice);
+      // Apply as a synthetic fill via the OMS so positions update
+      const fakeOrder: Order = {
+        id: `algo-${algo.id}-slice-${working.childOrdersPlaced}`,
+        clientId: `algo-${algo.id}`,
+        symbol: working.params.symbol,
+        side: working.params.side,
+        type: child.orderType,
+        tif: "DAY",
+        qty: child.qty,
+        filledQty: 0,
+        avgFillPrice: 0,
+        price: child.price,
+        status: "WORKING",
+        createdAt: Date.now(),
+        updatedAt: Date.now(),
+        tag: `algo:${algo.type}`,
+        strategy: algo.id,
+      };
+      storeInternal.applyFill(fakeOrder, child.qty, fillPrice);
+    }
+    // Persist algo state
+    useTradingStore.setState({
+      algos: useTradingStore.getState().algos.map((a) => (a.id === algo.id ? { ...working } : a)),
+    });
+  }
+};
+
+// Evaluate all enabled, non-triggered price alerts against current quote + candle history
+store.evaluateAlerts = (q: Quote) => {
+  const state = useTradingStore.getState();
+  const alertsForSymbol = state.priceAlerts.filter(
+    (a) => a.symbol === q.symbol && a.enabled && !a.triggered,
+  );
+  if (alertsForSymbol.length === 0) return;
+  const candles = getEngine().getCandles(q.symbol, 100);
+  let changed = false;
+  for (const alert of alertsForSymbol) {
+    // Make a working copy
+    const working: PriceAlert = { ...alert };
+    const fired = evaluateAlert(working, q, candles);
+    if (fired) {
+      changed = true;
+      // Notify via app alert system
+      useTradingStore.getState().addAlert({
+        type: "PRICE",
+        severity: "WARN",
+        message: `Alert triggered: ${alert.name} — ${alert.condition.replace(/_/g, " ")} ${alert.threshold} (${q.symbol} @ ${q.last.toFixed(4)})`,
+        symbol: q.symbol,
+      });
+      useTradingStore.getState().log("WARN", "Alerts", `Price alert fired: ${alert.name}`, {
+        symbol: q.symbol,
+        condition: alert.condition,
+        threshold: alert.threshold,
+        triggeredValue: working.triggeredValue,
+      });
+      // Persist the triggered state
+      useTradingStore.setState({
+        priceAlerts: useTradingStore.getState().priceAlerts.map((a) =>
+          a.id === alert.id ? { ...working } : a,
+        ),
+      });
+    }
+  }
 };

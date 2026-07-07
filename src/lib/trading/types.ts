@@ -1,6 +1,6 @@
 /**
- * JSC Terminal — Core Type System
- * Inspired by Jane Street's strict typing discipline (a la OCaml).
+ * TWG Terminal — Core Type System
+ * Inspired by TwigCapra's strict typing discipline (a la OCaml).
  * All domain entities are modeled as discriminated unions where applicable.
  */
 

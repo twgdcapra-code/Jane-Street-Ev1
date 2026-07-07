@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useTradingStore } from "@/lib/trading/store";
 import { getContract } from "@/lib/trading/contracts";
-import { fmtPrice } from "@/lib/trading/format";
+import { fmtPrice, decimalsFor } from "@/lib/trading/format";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -37,7 +37,7 @@ function OrderTicketInner({ compact = false }: { compact?: boolean }) {
   const placeOrder = useTradingStore((s) => s.placeOrder);
   const quote = quotes[selectedSymbol];
   const contract = getContract(selectedSymbol);
-  const decimals = selectedSymbol === "BRR" ? 0 : selectedSymbol === "6E" || selectedSymbol === "6B" || selectedSymbol === "NG" ? 4 : 2;
+  const decimals = decimalsFor(selectedSymbol);
 
   const [side, setSide] = useState<Side>("BUY");
   const [type, setType] = useState<OrderType>("LIMIT");

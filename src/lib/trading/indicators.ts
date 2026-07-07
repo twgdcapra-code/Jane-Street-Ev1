@@ -2,7 +2,7 @@
  * Technical Indicator Library
  *
  * Vectorised pure functions over Candle[] / number[].
- * Inspired by the kind of statistical primitives Jane Street's quant
+ * Inspired by the kind of statistical primitives TwigCapra's quant
  * researchers chain together — but exposed as classic TA names.
  */
 import type { Candle } from "./types";

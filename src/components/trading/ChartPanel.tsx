@@ -20,7 +20,7 @@ import { getEngine } from "@/lib/trading/market-engine";
 import { useTradingStore } from "@/lib/trading/store";
 import { atr, bollingerBands, ema, macd, rsi, sma, vwap } from "@/lib/trading/indicators";
 import { getContract } from "@/lib/trading/contracts";
-import { fmtPrice, fmtTime } from "@/lib/trading/format";
+import { fmtPrice, fmtTime, decimalsFor } from "@/lib/trading/format";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -60,7 +60,7 @@ export function ChartPanel({ symbol }: { symbol: string }) {
   const quote = quotes[symbol];
   const candles = useMemo(() => getEngine().getCandles(symbol, lookback), [symbol, lookback, quotes]);
 
-  const decimals = symbol === "BRR" ? 0 : symbol === "6E" || symbol === "6B" || symbol === "NG" ? 4 : 2;
+  const decimals = decimalsFor(symbol);
 
   // Compute indicators
   const closes = candles.map((c) => c.close);

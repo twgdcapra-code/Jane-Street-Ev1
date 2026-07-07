@@ -3,7 +3,7 @@
 import { useMemo } from "react";
 import { useTradingStore } from "@/lib/trading/store";
 import { computeAccount } from "@/lib/trading/analytics";
-import { fmtMoney, fmtPct, fmtPrice, fmtTime, pnlColor, bgPnlColor } from "@/lib/trading/format";
+import { fmtMoney, fmtPct, fmtPrice, fmtTime, pnlColor, bgPnlColor, decimalsFor } from "@/lib/trading/format";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -126,8 +126,8 @@ export function Dashboard() {
                           <td className={cn("py-2 px-3 text-right font-mono tabular-nums", p.netQty > 0 ? "text-emerald-400" : "text-rose-400")}>
                             {p.netQty > 0 ? "+" : ""}{p.netQty}
                           </td>
-                          <td className="py-2 px-3 text-right font-mono tabular-nums">{fmtPrice(p.avgPrice, p.symbol === "BRR" ? 0 : p.symbol === "6E" || p.symbol === "6B" ? 4 : 2)}</td>
-                          <td className="py-2 px-3 text-right font-mono tabular-nums">{quote ? fmtPrice(quote.last, p.symbol === "BRR" ? 0 : p.symbol === "6E" || p.symbol === "6B" ? 4 : 2) : "—"}</td>
+                          <td className="py-2 px-3 text-right font-mono tabular-nums">{fmtPrice(p.avgPrice, decimalsFor(p.symbol))}</td>
+                          <td className="py-2 px-3 text-right font-mono tabular-nums">{quote ? fmtPrice(quote.last, decimalsFor(p.symbol)) : "—"}</td>
                           <td className="py-2 px-3 text-right font-mono tabular-nums text-muted-foreground">{fmtMoney(p.exposure, 0)}</td>
                           <td className={cn("py-2 px-3 text-right font-mono tabular-nums font-medium", pnlColor(p.unrealizedPnL))}>
                             {p.unrealizedPnL >= 0 ? "+" : ""}{fmtMoney(p.unrealizedPnL, 0)}

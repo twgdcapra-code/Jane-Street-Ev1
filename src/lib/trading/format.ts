@@ -1,6 +1,18 @@
 /**
  * Display formatting helpers.
  */
+import { MICRO_TO_FULL } from "./contracts";
+
+/** Standard decimal places per symbol type — used by all UI panels. */
+export function decimalsFor(symbol: string): number {
+  const baseSym = MICRO_TO_FULL[symbol] ?? symbol;
+  if (symbol === "BRR" || baseSym === "BRR") return 0;
+  if (["6E", "6B", "M6E", "NG"].includes(baseSym) || ["6E", "6B", "M6E", "NG"].includes(symbol)) return 4;
+  if (baseSym === "ZN" || baseSym === "ZB" || symbol === "MUB") return 4; // treasuries quote in 32nds, but we display decimals
+  if (symbol === "SR3") return 3;
+  if (symbol === "MUB") return 3;
+  return 2;
+}
 
 export function fmtPrice(p: number, decimals = 2): string {
   if (!isFinite(p)) return "—";

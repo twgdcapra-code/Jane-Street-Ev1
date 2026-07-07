@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { getEngine } from "@/lib/trading/market-engine";
 import { useTradingStore } from "@/lib/trading/store";
 import { getContract } from "@/lib/trading/contracts";
-import { fmtPrice } from "@/lib/trading/format";
+import { fmtPrice, decimalsFor } from "@/lib/trading/format";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
@@ -14,7 +14,7 @@ export function OrderBook({ symbol }: { symbol: string }) {
   const quote = quotes[symbol];
   const book = useMemo(() => getEngine().getOrderBook(symbol, 10), [symbol, tickCount]);
   const contract = getContract(symbol);
-  const decimals = symbol === "BRR" ? 0 : symbol === "6E" || symbol === "6B" || symbol === "NG" ? 4 : 2;
+  const decimals = decimalsFor(symbol);
 
   const maxSize = useMemo(
     () => Math.max(...book.bids.map((b) => b.size), ...book.asks.map((a) => a.size), 1),

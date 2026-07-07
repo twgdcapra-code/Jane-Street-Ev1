@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JSC Terminal · Jane Street Capital Tribute Edition",
-  description: "A comprehensive futures trading system inspired by Jane Street's tech stack, strategies, and risk discipline. For research and education only.",
-  keywords: ["Jane Street", "futures trading", "quantitative", "OCaml", "market making", "stat arb"],
-  authors: [{ name: "JSC Terminal" }],
+  title: "TWG Terminal · TwigCapra Capital Tribute Edition",
+  description: "A comprehensive futures trading system inspired by TwigCapra's tech stack, strategies, and risk discipline. For research and education only.",
+  keywords: ["TwigCapra", "futures trading", "quantitative", "OCaml", "market making", "stat arb"],
+  authors: [{ name: "TWG Terminal" }],
 };
 
 export default function RootLayout({

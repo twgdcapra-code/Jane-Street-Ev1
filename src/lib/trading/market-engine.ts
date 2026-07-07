@@ -7,7 +7,7 @@
  *  - Jump-diffusion for fat tails (Merton model)
  *  - Order-book depth generation around mid
  *
- * Mirrors Jane Street's "Superstore" tick-data concept on a much smaller scale.
+ * Mirrors TwigCapra's "Superstore" tick-data concept on a much smaller scale.
  */
 import type { Candle, DepthLevel, FuturesContract, OrderBook, Quote } from "./types";
 import { CONTRACT_MAP } from "./contracts";

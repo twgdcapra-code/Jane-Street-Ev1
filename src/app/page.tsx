@@ -10,12 +10,15 @@ import {
   CircleDot,
   Cpu,
   Gauge,
+  Layers,
   LayoutDashboard,
   LineChart,
   type LucideIcon,
   Radar,
   RefreshCw,
   ShieldAlert,
+  Sigma,
+  Star,
   Terminal as TerminalIcon,
   TrendingUp,
   Zap,
@@ -34,6 +37,11 @@ import { PortfolioAnalytics } from "@/components/trading/PortfolioAnalytics";
 import { ResearchTerminal } from "@/components/trading/ResearchTerminal";
 import { SystemMonitor } from "@/components/trading/SystemMonitor";
 import { AlertsPanel } from "@/components/trading/AlertsPanel";
+import { SpreadTrading } from "@/components/trading/SpreadTrading";
+import { ExecutionAlgos } from "@/components/trading/ExecutionAlgos";
+import { OptionsLab } from "@/components/trading/OptionsLab";
+import { AlertsWatchlist } from "@/components/trading/AlertsWatchlist";
+import { TradeJournal } from "@/components/trading/TradeJournal";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -46,7 +54,12 @@ type ModuleId =
   | "risk"
   | "portfolio"
   | "research"
-  | "system";
+  | "system"
+  | "spreads"
+  | "algos"
+  | "options"
+  | "alerts"
+  | "journal";
 
 interface ModuleDef {
   id: ModuleId;
@@ -59,12 +72,17 @@ const MODULES: ModuleDef[] = [
   { id: "dashboard", name: "Dashboard", icon: LayoutDashboard, description: "Account, positions, working orders, P&L" },
   { id: "markets", name: "Market Watch", icon: Radar, description: "Live quotes across all futures contracts" },
   { id: "chart", name: "Charting", icon: LineChart, description: "Candlestick charts with technical indicators" },
-  { id: "strategy", name: "Strategy Lab", icon: Brain, description: "6 quant strategies inspired by Jane Street" },
+  { id: "strategy", name: "Strategy Lab", icon: Brain, description: "6 quant strategies inspired by TwigCapra" },
   { id: "backtest", name: "Backtester", icon: TrendingUp, description: "Walk-forward strategy validation" },
+  { id: "spreads", name: "Spread Trading", icon: Layers, description: "Calendar, inter-commodity, butterfly spreads" },
+  { id: "algos", name: "Execution Algos", icon: Cpu, description: "TWAP, VWAP, Iceberg, POV, Implementation Shortfall" },
+  { id: "options", name: "Options Lab", icon: Sigma, description: "Black's model, Greeks, vol surface, strategies" },
   { id: "risk", name: "Risk Manager", icon: ShieldAlert, description: "VaR, stress tests, Monte Carlo" },
   { id: "portfolio", name: "Portfolio", icon: Gauge, description: "Sharpe, Sortino, correlation matrix" },
-  { id: "research", name: "Research", icon: BookOpen, description: "Factor analysis and cointegration tools" },
-  { id: "system", name: "System Monitor", icon: Cpu, description: "Latency, throughput, event log" },
+  { id: "alerts", name: "Alerts & Watchlist", icon: Star, description: "Price/technical alerts and symbol watchlists" },
+  { id: "journal", name: "Trade Journal", icon: BookOpen, description: "Tag-based P&L attribution and trade notes" },
+  { id: "research", name: "Research", icon: TrendingUp, description: "Factor analysis and cointegration tools" },
+  { id: "system", name: "System Monitor", icon: Activity, description: "Latency, throughput, event log" },
 ];
 
 export default function Home() {
@@ -99,8 +117,8 @@ export default function Home() {
             <Zap className="w-4 h-4 text-white" fill="white" />
           </div>
           <div className="flex flex-col leading-tight">
-            <span className="text-sm font-semibold tracking-tight">JSC Terminal</span>
-            <span className="text-[10px] text-muted-foreground -mt-0.5">Jane Street Capital · Tribute Edition</span>
+            <span className="text-sm font-semibold tracking-tight">TWG Terminal</span>
+            <span className="text-[10px] text-muted-foreground -mt-0.5">TwigCapra Capital · Tribute Edition</span>
           </div>
         </div>
         <div className="h-6 w-px bg-border mx-1" />
@@ -248,10 +266,20 @@ function ModuleRenderer({ active, selectedSymbol }: { active: ModuleId; selected
       return <StrategyLab />;
     case "backtest":
       return <Backtester />;
+    case "spreads":
+      return <SpreadTrading />;
+    case "algos":
+      return <ExecutionAlgos />;
+    case "options":
+      return <OptionsLab />;
     case "risk":
       return <RiskManager />;
     case "portfolio":
       return <PortfolioAnalytics />;
+    case "alerts":
+      return <AlertsWatchlist />;
+    case "journal":
+      return <TradeJournal />;
     case "research":
       return <ResearchTerminal />;
     case "system":

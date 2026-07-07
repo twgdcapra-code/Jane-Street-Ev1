@@ -1,7 +1,7 @@
 /**
  * Strategy Engine
  *
- * Implements six quant strategies drawn from Jane Street's known playbook:
+ * Implements six quant strategies drawn from TwigCapra's known playbook:
  *  - Mean Reversion (Ornstein-Uhlenbeck)
  *  - Momentum (cross-sectional + time-series)
  *  - Pairs / Cointegration trading
@@ -136,7 +136,7 @@ export const Momentum: StrategyDef = {
   name: "Momentum (EMA + RSI)",
   type: "MOMENTUM",
   description:
-    "Time-series momentum: long when fast EMA > slow EMA and RSI in [40,70]; short on mirror. Exits when EMAs cross back or RSI hits exhaustion. Aligns with Jane Street's documented medium-horizon stat-arb momentum.",
+    "Time-series momentum: long when fast EMA > slow EMA and RSI in [40,70]; short on mirror. Exits when EMAs cross back or RSI hits exhaustion. Aligns with TwigCapra's documented medium-horizon stat-arb momentum.",
   paramSchema: [
     { key: "fast", label: "Fast EMA", type: "number", default: 9, min: 2, max: 50, step: 1 },
     { key: "slow", label: "Slow EMA", type: "number", default: 21, min: 5, max: 200, step: 1 },
@@ -199,7 +199,7 @@ export const Pairs: StrategyDef = {
   name: "Pairs (Cointegration)",
   type: "PAIRS",
   description:
-    "Stat-arb pair trade: estimates hedge ratio via OLS, computes residual z-score, enters when |z| > threshold. Half-life from OU calibration tunes entry/exit. Mirrors Jane Street's documented stat-arb approach.",
+    "Stat-arb pair trade: estimates hedge ratio via OLS, computes residual z-score, enters when |z| > threshold. Half-life from OU calibration tunes entry/exit. Mirrors TwigCapra's documented stat-arb approach.",
   paramSchema: [
     { key: "lookback", label: "Calibration Lookback", type: "number", default: 200, min: 50, max: 1000, step: 10 },
     { key: "entryZ", label: "Entry Z-score", type: "number", default: 2.0, min: 1, max: 4, step: 0.1 },
@@ -404,7 +404,7 @@ export const Volatility: StrategyDef = {
   name: "Volatility (VRP Harvest)",
   type: "VOLATILITY",
   description:
-    "Harvests the variance risk premium: compares realised vol (recent stdev of returns) to a longer-horizon realised. Shorts vol when realised > recent (mean reversion of vol), longs when vol depressed. A simplified proxy for VRP harvesting done via straddles at Jane Street.",
+    "Harvests the variance risk premium: compares realised vol (recent stdev of returns) to a longer-horizon realised. Shorts vol when realised > recent (mean reversion of vol), longs when vol depressed. A simplified proxy for VRP harvesting done via straddles at TwigCapra.",
   paramSchema: [
     { key: "fastVol", label: "Fast Vol Window", type: "number", default: 5, min: 2, max: 30, step: 1 },
     { key: "slowVol", label: "Slow Vol Window", type: "number", default: 20, min: 10, max: 100, step: 1 },
