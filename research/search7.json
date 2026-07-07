@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1jpqd1s/why_does_jane_street_use_purely_ocaml",
+    "name": "Why does Jane street use purely Ocaml : r/ExperiencedDevs - Reddit",
+    "snippet": "I just learnt that Jane street uses Ocaml for pretty much everything. I also assume that they have a lot of talented developers and are very smart people. OCaml programming : r/quant - Reddit Caml trading – experiences with functional programming on Wall ... More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/technology",
+    "name": "Technology :: Jane Street",
+    "snippet": "It's no secret that we're big believers in functional programming and use OCaml, a statically typed functional language, as our primary development platform.",
+    "host_name": "www.janestreet.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/quant-insider_jane-street-is-the-only-firm-that-uses-ocaml-activity-7186994843758260224-WzYC",
+    "name": "Quant Insider's Post - LinkedIn",
+    "snippet": "Jane Street is the only firm that uses Ocaml, and all the other major HFT's use C++ for developing trading systems.",
+    "host_name": "www.linkedin.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ocaml.org/success-stories/large-scale-trading-system",
+    "name": "Large Scale Trading System · Success Stories - OCaml",
+    "snippet": "Jane Street is a quantitative trading firm and liquidity provider with a unique focus on technology and collaborative problem solving.",
+    "host_name": "ocaml.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cs.rice.edu/~javaplt/411/23-spring/NewReadings/functional_programming_on_Wall_Street.pdf",
+    "name": "[PDF] experiences with functional programming on Wall Street",
+    "snippet": "Jane Street Capital is a successful proprietary trading company that uses OCaml as its primary development language.",
+    "host_name": "www.cs.rice.edu",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/functional-programming",
+    "name": "Functional Programming :: Jane Street",
+    "snippet": "Jane Street is a quantitative trading firm and liquidity provider with a unique focus on technology and collaborative problem solving.",
+    "host_name": "www.janestreet.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://softwareengineeringdaily.com/2015/11/09/automated-trading-and-ocaml-with-yaron-minsky",
+    "name": "Automated Trading and OCaml with Yaron Minsky",
+    "snippet": "Jane Street Capital is a quantitative trading firm known for its emphasis on technology and specifically functional programming. OCaml is ...",
+    "host_name": "softwareengineeringdaily.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=hKcOkWzj0_s",
+    "name": "Caml Trading - YouTube",
+    "snippet": "Jane Street Capital is a proprietary trading company that has shifted from developing software in mainstream programming languages to ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/1924367/why-do-hedge-funds-and-financial-services-often-use-ocaml",
+    "name": "Why do hedge funds and financial services often use OCaml?",
+    "snippet": "- Performance of OCaml is usually a big argument, but I think also the \"quants\" love it because the functional paradigm lends itself very well ...",
+    "host_name": "stackoverflow.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.efinancialcareers.my/news/jane-street-s-extremely-popular-new-ocaml-feature-is-in-python-but-not-c",
+    "name": "Jane Street's \"extremely popular\" new OCAML feature is in Python",
+    "snippet": "Labelled tuples is a feature that makes structured data easier to read, and is one that other functional programming languages don't seem to have.",
+    "host_name": "www.efinancialcareers.my",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

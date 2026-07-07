@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://th.tradingview.com/scripts/es1!",
+    "name": "ชาร์ต S&P 500 E-Mini Futures - TradingView",
+    "snippet": "S&P 500 — ย่อมาจาก Standard and Poor's 500, เป็นดัชนีของตลาดหุ้นของสหรัฐอเมริกา ที่ขึ้นกับมูลค่าตลาดของบริษัท 500 อันดับแรกที่มีหุ้นสามัญจดทะเบียนอยู่ในตลาดหลักทรัพย์นิวยอร์ก หรือ NASDAQ ...",
+    "host_name": "th.tradingview.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mtscapital.co.th/en/global-futures/indices",
+    "name": "MTS Gold Future บริษัท เอ็มทีเอส โกลด์ ฟิวเจอร์ จำกัด",
+    "snippet": "S&P 500 is viewed as a gauge for market performance. - How do you trade E-mini S&P500 Futures? Equity Index futures are “futures contracts” on equity indices.",
+    "host_name": "www.mtscapital.co.th",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/markets/equities/sp/e-mini-sandp500.html",
+    "name": "E-mini S&P 500 Futures Overview - CME Group",
+    "snippet": "ES futures offer significantly more daily liquidity, at 8x the value of all S&P 500 ETFs combined, including SPY, IVV and VOO.",
+    "host_name": "www.cmegroup.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com",
+    "name": "Jane Street: Home",
+    "snippet": "Jane Street is a quantitative trading firm and liquidity provider with a unique focus on technology and collaborative problem solving.",
+    "host_name": "www.janestreet.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/global-market-structure-2024",
+    "name": "Global Market Structure & Liquidity Trends 2024 - Jane Street",
+    "snippet": "Jane Street is a quantitative trading firm and liquidity provider with a unique focus on technology and collaborative problem solving.",
+    "host_name": "www.janestreet.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fin.bus.ku.ac.th/BA%20747%20Investment%20Analysis%20and%20Portfolio%20Management/Lecture%20Slides/futures%20contracts.pdf",
+    "name": "[PDF] Futures contracts",
+    "snippet": "futures contract is an agreement between two parties in which one party, the buyer, agrees to buy from the other party, the seller, an underlying asset.",
+    "host_name": "fin.bus.ku.ac.th",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://www.mtsgold.co.th/en/research/detail.php?ID=30469&SECTION_ID=22",
+    "name": "[สาระน่ารู้] E-mini S&P500 Futures คืออะไร - MTS Gold",
+    "snippet": "E-mini S&P500 Futures ดัชนี S&P 500 เป็นดัชนีที่รวบรวมบริษัทตรายใหญ่กว่า 500 แห่งที่นำโดยอุตสาหกรรมที่เป็นตัวชี้วัดเศรษฐกิจของประเทศ และเป็นดัชนีสำคัญที่บ่งชี้ถึงสภาวะของตลาดหุ้นในขณะนั้น ซึ่งถือเป็น ...",
+    "host_name": "www.mtsgold.co.th",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://finance.yahoo.com/news/trading-p-500-e-mini-180936199.html",
+    "name": "Trading the E-mini S&P 500 futures - Yahoo Finance",
+    "snippet": "This means one must place an initial 50% deposit down on the transaction, equating to a 2:1 leverage ratio. However, with the E-mini S&P the ...",
+    "host_name": "finance.yahoo.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.schwab.com/learn/story/what-is-micro-e-mini-future",
+    "name": "What is a Micro E-Mini Future? | Charles Schwab",
+    "snippet": "Micro E-minis are electronically traded futures contracts that allow you to take positions on the future value of a stock index, commodity, or currency.",
+    "host_name": "www.schwab.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/trading-course/e-mini-futures",
+    "name": "E-Mini Futures | Trading Course | Traders' Academy",
+    "snippet": "CME E-mini S&P 500 futures contract, ticker symbol ES, is one of the most liquid futures contracts in the world and one of the most efficient and cost- ...",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

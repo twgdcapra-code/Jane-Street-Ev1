@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.stackai.com/insights/agentic-ai-in-quantitative-trading-how-jane-street-could-revolutionize-market-making",
+    "name": "Agentic AI in Quantitative Trading: How Jane Street Could  - StackAI",
+    "snippet": "The open question is whether execution algorithms AI agents can make the system more adaptive without introducing fragility.",
+    "host_name": "www.stackai.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com",
+    "name": "Jane Street: Home",
+    "snippet": "Jane Street is a quantitative trading firm and liquidity provider. We build low-latency networks, hack compilers and design distributed systems. Jane Street ...",
+    "host_name": "www.janestreet.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.facebook.com/bloombergbusiness/posts/high-frequency-trading-has-transformed-wall-street-into-a-universe-of-algorithms/1386727183313371",
+    "name": "High frequency trading has transformed Wall Street into a",
+    "snippet": "These orders are managed by high-speed algorithms which replicate the role of a market maker. ... Jane Street wasn't simply making ...",
+    "host_name": "www.facebook.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DY7gFe2Bkm6/?hl=en",
+    "name": "Jane Street is one of the most advanced trading firms  - Instagram",
+    "snippet": "Ron Minsky, Jane Street's head of technology, explains here that some of their trading systems can react in under 100 nanoseconds. That is so ...",
+    "host_name": "www.instagram.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@navnoorbawa/market-making-alpha-how-virtu-won-1-237-days-and-why-jane-street-keeps-ending-up-in-court-6894a05cd980",
+    "name": "Market Making Alpha: How Virtu Won 1,237 Days — and Why Jane Street",
+    "snippet": "The model divides counterparties into two populations: informed traders who know the asset's true value and trade profitably against the market ...",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/tech-talks/building-an-exchange",
+    "name": "How to Build an Exchange - Jane Street",
+    "snippet": "This talk looks at the question of how to design an exchange through the lens of JX, a crossing engine we built at Jane Street in the last two years.",
+    "host_name": "www.janestreet.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mohak-pachisia-0a56a71b6_the-options-strategy-that-sparked-a-hedge-activity-7319963103285112832-uIG4",
+    "name": "How Jane Street won a hedge fund war with a powerful options strategy",
+    "snippet": "Market makers use real-time pricing models, ultra-low-latency infrastructure, and smart order speed and precision — every microsecond counts.",
+    "host_name": "www.linkedin.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tesi.luiss.it/20973/1/671791_ANGELINI_BERARDO%20MARIA.pdf",
+    "name": "[PDF] FLASH MARKETS AND A MARKET MAKING ALGORITHM FOR THE",
+    "snippet": "It is an architecture-based computer developed by John von Neumann, which consists of five core components: CPU (central process unit), random access memory ( ...",
+    "host_name": "tesi.luiss.it",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/bbgoriginals_how-a-secretive-trading-empire-is-taking-activity-7455889031931994113-LJu5",
+    "name": "Jane Street's Algorithmic Trading Dominance on Wall Street - LinkedIn",
+    "snippet": "Jane systems employ statistical arbitrage, market making, & latency arbitrage to capitalize on micro-trends-liquidity gaps, executing ...",
+    "host_name": "www.linkedin.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=iwRaNYa8yTw&vl=en",
+    "name": "Inside a Real High-Frequency Trading System | HFT Architecture - YouTube",
+    "snippet": "In this video, we dive into the **real-world architecture** of an HFT system: ✓ Market ... Go to channel Jane Street · How to Build an Exchange.",
+    "host_name": "www.youtube.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

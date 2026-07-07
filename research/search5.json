@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.linkedin.com/posts/hktenzin_janestreet-tradingsecrets-highfrequencytrading-activity-7352098599364694018-BXdq",
+    "name": "Jane Street under scrutiny for trading tactics and risk management",
+    "snippet": "The positions were spread across multiple banks, including Citigroup and Goldman Sachs, with little visibility into the trader's total exposure.",
+    "host_name": "www.linkedin.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quora.com/How-does-the-risk-manager-respond-when-there-is-a-VaR-limit-breach-but-the-trading-desk-is-making-positive-P-L",
+    "name": "How does the risk manager respond when there is a VaR limit breach",
+    "snippet": "Any kind of limit breach is a serious thing. The risk manager's job is to report it, and the management deals with it. How they deal with it ...",
+    "host_name": "www.quora.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.investopedia.com/ask/answers/061515/what-stress-testing-value-risk-var.asp",
+    "name": "How Stress Testing Enhances Value at Risk Analysis - Investopedia",
+    "snippet": "VaR has some in high-volatility scenarios. It can be beneficial to combine stress testing with VaR for a comprehensive risk management strategy.",
+    "host_name": "www.investopedia.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.msci.com/resources/research/technical_documentation/RMGuide.pdf",
+    "name": "[PDF] Risk Management: A Practical Guide | MSCI",
+    "snippet": "Chase's two principal risk measurement tools are VAR and stress testing. VAR measures market risk in an everyday market environment, while stress testing.",
+    "host_name": "www.msci.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cargill.com/commodity-price-risk/benefits-of-stress-testing-in-risk-management",
+    "name": "The Benefits of Stress Testing in Risk Management - Cargill",
+    "snippet": "Stress testing is a simulation technique used to evaluate a portfolio against underlying futures price movement. This can help determine portfolio risk.",
+    "host_name": "www.cargill.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arongroups.co/forex-articles/market-risk-models",
+    "name": "Market Risk Models for Traders: VaR, Validation & Stress Tests",
+    "snippet": "Integrating VaR with Position Sizing and Risk Per Trade. Calculating Optimal Position Sizes Using VaR Limits. Practical Applications: VaR in ...",
+    "host_name": "arongroups.co",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=jNJ6B6yzLq4",
+    "name": "Conditional Value at Risk and Stress Testing in Financial Risk  - YouTube",
+    "snippet": "I this weeks class we learn about Conditional Value at Risk and Stress Testing. These classes are all based on the book Trading and Pricing ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/the-investors-handbook/measuring-market-risk-var-expected-shortfall-and-what-happens-when-the-numbers-move-346c3f5c35e9",
+    "name": "Measuring Market Risk: VaR, Expected Shortfall, and What",
+    "snippet": "Stress tests apply extreme but plausible shocks: a 300 basis point rate move, a 40% equity drawdown, a sharp currency devaluation, and measure ...",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.thefinanalytics.com/post/value-at-risk-for-risk-professionals-methodologies-computation-and-practical-applications",
+    "name": "Value-at-Risk (VaR) for Risk Professionals: Methodologies",
+    "snippet": "Trading desks use VaR to set position limits and monitor daily risk. ... risk management uses VaR along with backtesting and stress testing.",
+    "host_name": "www.thefinanalytics.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://analystprep.com/study-notes/cfa-level-2/explain-constraints-used-in-managing-market-risks-including-risk-budgeting-position-limits-scenario-limits-and-stop-loss-limits",
+    "name": "Constraints in Market Risk Management | CFA Level II",
+    "snippet": "Explain constraints used in managing market risks, including risk budgeting, position limits, scenario limits, and stop-loss limits.",
+    "host_name": "analystprep.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.blackrock.com/au/insights/ishares/authorised-participants-and-market-makers",
+    "name": "Authorised participants and market makers – Part 1 - BlackRock",
+    "snippet": "APs and market makers have an economic incentive to take advantage of arbitrage opportunities in the market. This involves trading the ETF shares or underlying ...\nUnderstand ETF liquidity and the creation and redemption process that lets ETFs trade even when volume is low.",
+    "host_name": "www.blackrock.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@finomicsedge/jane-street-built-a-record-with-discipline-what-that-means-for-your-own-risk-choices-621ac039755a",
+    "name": "Jane Street Built a Record With Discipline, What That Means for",
+    "snippet": "Authorized Participant status in the ETF ecosystem gives Jane Street direct access to creation and redemption mechanisms, earning arbitrage ...",
+    "host_name": "medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://am.jpmorgan.com/content/dam/jpm-am-aem/emea/regional/en/pdfs/the-etf-buyers-guide-to-trading.pdf",
+    "name": "[PDF] The ETF buyer's guide to trading - J.P. Morgan Asset Management",
+    "snippet": "Arbitrage results from market inefficiencies and provides a mechanism for keeping ETF prices from deviating substantially from the NAV for long periods of time.",
+    "host_name": "am.jpmorgan.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/lana-marshania_rather-than-forecasting-returnsjane-street-activity-7420171214729527297-kSNv",
+    "name": "Jane Street's ETF Market Making Approach - LinkedIn",
+    "snippet": "The primary market governs creation and redemption, while the secondary market facilitates exchange trading by retail investors, funds, and ...\nETFs operate in a two-market system. The primary market governs creation and redemption, while the secondary market facilitates exchange trading ...",
+    "host_name": "www.linkedin.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/quant/comments/1t1hbrh/what_are_the_hidden_etf_costs_that_jane_street_is",
+    "name": "What are the hidden ETF costs that Jane Street is thriving on? - Reddit",
+    "snippet": "The creation/redemption arbitrage is another structural edge that doesn't cost ETF holders directly but generates significant revenue.",
+    "host_name": "www.reddit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5350558.pdf?abstractid=5350558",
+    "name": "[PDF] ETFs Mispricing and Wholesalers as Authorized Participants",
+    "snippet": "This is achieved through arbitrage with the creation and redemption of ETF units by authorized participants in the primary market. In this paper, I investigate ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://www.centerforfinancialstability.org/etfs/ETFAnalysis/credit-etf-trading-in-stressed-markets-jane-street-20190723.pdf",
+    "name": "[PDF] Credit ETF Trading in Stressed Markets - Center for Financial Stability",
+    "snippet": "APs can execute in-kind creations and redemptions on behalf of clients, their own market making units, or third-party market makers. For more on ...\nAn in-kind redemption is one in which the AP delivers ETF shares to the fund in exchange for securities. APs can execute in-kind creations and ...",
+    "host_name": "www.centerforfinancialstability.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://apjfs.org/file/download/6713?view=1",
+    "name": "[PDF] Do ETFs Have a Bright Side? Primary Market Activity of Authorized",
+    "snippet": "The arbitrage profit of APs that result from the creation and redemption of ETF shares constrains the deviations of ETF share prices from NAV. 11We interpolate ...",
+    "host_name": "apjfs.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

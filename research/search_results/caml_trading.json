@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.cambridge.org/core/journals/journal-of-functional-programming/article/caml-trading-experiences-with-functional-programming-on-wall-street/02F18023B4C43BF6E53512AA7062A9A5",
+    "name": "Caml trading – experiences with functional programming on Wall",
+    "snippet": "Caml trading – experiences with functional programming on Wall Street. Part of: JFP Research Articles. Published online by Cambridge University Press: 24 April ...",
+    "host_name": "www.cambridge.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/220676605_Caml_trading_-_Experiences_with_functional_programming_on_Wall_Street",
+    "name": "Caml trading - Experiences with functional programming on Wall",
+    "snippet": "We have over twenty OCaml programmers and hundreds of thousands of lines of OCaml code. We use OCaml for a wide range of tasks: critical trading systems, ...",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.infoq.com/presentations/jane-street-caml-ocaml",
+    "name": "Caml Trading - Experiences with OCaml on Wall Street - InfoQ",
+    "snippet": "Yaron Minsky shows the reasons for choosing Ocaml and how it worked out.",
+    "host_name": "www.infoq.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cs.rice.edu/~javaplt/411/23-spring/NewReadings/functional_programming_on_Wall_Street.pdf",
+    "name": "[PDF] experiences with functional programming on Wall Street",
+    "snippet": "Caml trading – experiences with functional programming on Wall Street. YARON MINSKY and STEPHEN WEEKS. Jane Street Capital, New York Plaza ...",
+    "host_name": "www.cs.rice.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=hKcOkWzj0_s",
+    "name": "Caml Trading - YouTube",
+    "snippet": "Jane Street Capital is a proprietary trading company that has shifted from developing software in mainstream programming languages to ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=2986257",
+    "name": "Caml Trading: Experiences in Functional Programming on Wall Street",
+    "snippet": "The biggest performance killer in functional languages is efficiently implementing closures on a stack based machine (i.e. funarg problem).",
+    "host_name": "news.ycombinator.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com/caml-trading-talk-at-cmu",
+    "name": "Caml Trading talk at CMU - Jane Street Blog",
+    "snippet": "I was at CMU several weeks ago, and gave a version of my “Caml Trading” talk there. See below if you are interested in seeing the video.",
+    "host_name": "blog.janestreet.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.flickr.com/photos/qconpictures/14413067304",
+    "name": "Yaron Minsky - Caml Trading - Experiences with OCaml on Wall Street",
+    "snippet": "We run a large and successful trading business on software written almost entirely in OCaml, a statically typed functional programming language.",
+    "host_name": "www.flickr.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

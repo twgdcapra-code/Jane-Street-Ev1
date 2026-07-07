@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://ryanoconnellfinance.com/kelly-criterion",
+    "name": "Kelly Criterion: Optimal Position Sizing for Traders | Ryan OConnell, CFA",
+    "snippet": "The Kelly Criterion is a mathematical formula that determines the optimal fraction of capital to risk on each bet or trade to maximize long-term ...",
+    "host_name": "ryanoconnellfinance.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.alphatheory.com/blog/kelly-criterion-in-practice-1",
+    "name": "Analysis of The Kelly Criterion in Practice - Alpha Theory",
+    "snippet": "Kelly Criterion is the superior method for generating the maximum long-term geometric expected return when the whole portfolio can be wagered on a single ...",
+    "host_name": "www.alphatheory.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DTc2w6aiQn9",
+    "name": "Day 9 of Breaking Into Quant Trading: Kelly Criterion Why having a big edge doesn't mean",
+    "snippet": "Most people will bet a lot of their bankroll into this. If you bet more than 70% of your bankroll, your long term outcome is ruin despite having ...",
+    "host_name": "www.instagram.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantt.co.uk/resources/kelly-criterion-explained",
+    "name": "Kelly Criterion: Optimal Bet Sizing Explained 2026 - Quantt",
+    "snippet": "The Kelly criterion recommends a 262.5% allocation - meaning you should lever up 2.6x. This is a common result and highlights why full Kelly is ...",
+    "host_name": "www.quantt.co.uk",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mahersaham.com/blogs/kelly-criterion-position-sizing-stocks",
+    "name": "Kelly Criterion: How Much Capital Per Stock? | Maher Saham | Mahersaham",
+    "snippet": "The Kelly Criterion gives the optimal position size for stocks. Learn the formula K% = W - (1-W)/R, a worked example, Half Kelly and limits ...",
+    "host_name": "mahersaham.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/from-the-diaries-of-john-henry/an-optimal-trade-a374064fda91",
+    "name": "An Optimal Trade. The Kelly Criterion in Practice | by Nicholas Teague | From the Diaries of John Henry | Medium",
+    "snippet": "The criterion derives an optimal bet size and allocation to maximize expected returns for the portfolio for a given time period.",
+    "host_name": "medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/346138244_Practical_Implementation_of_the_Kelly_Criterion_Optimal_Growth_Rate_Number_of_Trades_and_Rebalancing_Frequency_for_Equity_Portfolios",
+    "name": "Practical Implementation of the Kelly Criterion: Optimal Growth Rate, Number of Trades, and Rebalancing Frequency for Equity Portfolios - ResearchGate",
+    "snippet": "We develop a general framework to apply the Kelly criterion to the stock market data, and consequently, to portfolio optimization.",
+    "host_name": "www.researchgate.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kelly_criterion",
+    "name": "Kelly criterion - Wikipedia",
+    "snippet": "In probability theory, the Kelly criterion is a formula for risk allocation with the sizing a sequence of bets by maximizing the long-term expected value of ...",
+    "host_name": "en.wikipedia.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/p/DXOqDd1k65O",
+    "name": "How much should you bet? One formula decides. Given an edge, the Kelly Criterion tells  - Instagram",
+    "snippet": "Traders treat the Kelly Criterion like a cheat code: plug in your win rate and your win/loss ratio, and it hands you a position size. Taking ...",
+    "host_name": "www.instagram.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/PMTraders/comments/1am7lcy/using_kelly_criterion_to_estimate_position_sizing",
+    "name": "Using Kelly Criterion to Estimate Position Sizing for Short Options : r/PMTraders - Reddit",
+    "snippet": "The Kelly Criterion is a theory on how to find optimal bet sizing for a known bet with known probabilities. It works wonderfully in stateful games such as ...",
+    "host_name": "www.reddit.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://signalsandthreads.com/building-a-ui-framework",
+    "name": "Building a UI Framework - Signals and Threads",
+    "snippet": "Ty Overby is a programmer in Jane Street's web platform group where he works on Bonsai, our OCaml library for building interactive browser-based UI.",
+    "host_name": "signalsandthreads.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/janestreet/bonsai",
+    "name": "janestreet/bonsai: A library for building dynamic webapps, using  - GitHub",
+    "snippet": "Bonsai is a UI library for building performant, reactive web applications in OCaml, partly inspired by Elm. It is used to build almost all web applications ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://discuss.ocaml.org/t/tutorial-full-stack-web-dev-in-ocaml-w-dream-bonsai-and-graphql/9963",
+    "name": "Tutorial: Full-Stack Web Dev in OCaml w/ Dream, Bonsai, and GraphQL",
+    "snippet": "I decided to use this opportunity to explore the OCaml web development ecosystem. I used Dream for the backend, and Bonsai for the frontend.",
+    "host_name": "discuss.ocaml.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/ocaml/comments/12rne4j/ann_library_for_functional_web_applications_in",
+    "name": "[ANN] Library for functional web applications in ocaml - Reddit",
+    "snippet": "Can you comment on how this is different to JaneStreet's Bonsai? The pattern of using incremental to build web applications feels right to me. OCaml UI framework Why does Jane street use purely Ocaml : r/ExperiencedDevs More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tarides.com/blog/2025-05-15-ocaml-web-development-essential-tools-and-libraries-in-2025",
+    "name": "OCaml Web Development: Essential Tools and Libraries in 2025 - Tarides",
+    "snippet": "Bonsai is a client-side web framework created by Jane Street that lets users build web pages from the client (the browser) by creating ...",
+    "host_name": "tarides.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/tech-talks/intro-to-incr-dom",
+    "name": "Introduction to Incr dom: Writing Dynamic Web Apps in OCaml",
+    "snippet": "This is a framework for writing web UIs that we designed at Jane Street a few years ago and it's what we've been using to write a lot of our internal web UIs.",
+    "host_name": "www.janestreet.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=NT1_A1AfBL0",
+    "name": "Building a UI Framework with Ty Overby - YouTube",
+    "snippet": "Ty Overby is a programmer in Jane Street's web platform group where he works on Bonsai, our OCaml library for building interactive ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com/icfp-2024-index",
+    "name": "ICFP 2024 - Jane Street Blog",
+    "snippet": "Bonsai is the frontend web framework we use to build the vast majority of web apps at Jane Street. It features a functional user-facing API, ...",
+    "host_name": "blog.janestreet.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

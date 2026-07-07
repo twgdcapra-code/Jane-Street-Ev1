@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://medium.com/@navnoorbawa/from-black-scholes-to-billions-how-quantitative-hedge-funds-extract-value-from-derivatives-markets-f018f4d93bbe",
+    "name": "From Black-Scholes to Billions: How Quantitative Hedge Funds Extract",
+    "snippet": "Jane Street: $1 Billion India Options Strategy. In April 2024, Jane Street sued Millennium Management in Manhattan federal court, alleging ...",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantt.co.uk/resources/options-market-making-guide",
+    "name": "Options Market Making - Quantt",
+    "snippet": "Options pricing theory - understanding Black-Scholes, the Greeks, and the volatility surface is table stakes; Programming - Python at minimum ...",
+    "host_name": "www.quantt.co.uk",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mohak-pachisia-0a56a71b6_the-options-strategy-that-sparked-a-hedge-activity-7319963103285112832-uIG4",
+    "name": "How Jane Street won a hedge fund war with a powerful options strategy",
+    "snippet": "The options strategy that sparked a Hedge Fund war in 2024: Jane Street vs Millennium. Let's dive into what made this strategy so powerful. Missing: Black- Scholes",
+    "host_name": "www.linkedin.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model",
+    "name": "Black–Scholes model - Wikipedia",
+    "snippet": "Black–Scholes–Merton model is a mathematical model for the dynamics of a financial market containing derivative investment instruments. Missing: Jane | Show results with: Jane",
+    "host_name": "en.wikipedia.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=44483909",
+    "name": "According to Indian regulators, every trading day Jane Street would",
+    "snippet": "Black-Scholes is rarely used to actually price options. It's most commonly used to back out what the current implied volatility is.",
+    "host_name": "news.ycombinator.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.investopedia.com/terms/b/blackscholes.asp",
+    "name": "Black-Scholes Model: What It Is, How It Works, and the Options Formula",
+    "snippet": "The Black-Scholes model was the first widely used mathematical method to calculate the theoretical value of an option contract. Missing: Jane | Show results with: Jane",
+    "host_name": "www.investopedia.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@navnoorbawa/how-hedge-funds-monetise-options-time-decay-theta-harvesting-the-volatility-risk-premium-insti-f85b987f2a79",
+    "name": "How Hedge Funds Monetise Options Time Decay: Theta Harvesting, the",
+    "snippet": "Their approach uses a hybrid of plain vanilla options and volatility swaps capped at 2.5× strike to control vomma risk. The portfolio is delta- ...",
+    "host_name": "medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantblueprint.com/glossary/volatility-smile",
+    "name": "Volatility Smile Explained | Quant Blueprint",
+    "snippet": "The volatility smile matters because it reveals that the market disagrees with a core Black-Scholes assumption. Real-world return distributions have fatter ...",
+    "host_name": "www.quantblueprint.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.firstrade.com/resources/guides/options/volatility-greeks",
+    "name": "Volatility and the Greeks - Firstrade",
+    "snippet": "The Black-Scholes formula was the first widely used model for option pricing. This formula can be used to calculate a theoretical value for an option using ... Missing: Jane Street",
+    "host_name": "www.firstrade.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.columbia.edu/~mh2078/FoundationsFE/BlackScholes.pdf",
+    "name": "[PDF] The Black-Scholes Model",
+    "snippet": "Every trading desk computes the Black-Scholes implied volatility surface and the Greeks they compute and use are Black-Scholes Greeks. Arbitrage Constraints ... Missing: Jane | Show results with: Jane",
+    "host_name": "www.columbia.edu",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

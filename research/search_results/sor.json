@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.quodfinancial.com/dark-pools-vs-lit-markets-how-sor-navigates-liquidity-fragmentation",
+    "name": "Dark Pools vs Lit Markets: How SOR Navigates Fragmentation",
+    "snippet": "Dark pools cut market impact; lit markets drive price discovery. Learn how smart order routing navigates between them for best execution.",
+    "host_name": "www.quodfinancial.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.iosco.org/library/pubdocs/pdf/ioscopd353.pdf",
+    "name": "[PDF] Principles for Dark Liquidity - IOSCO",
+    "snippet": "For the purposes of this report, a dark pool refers to any pool of liquidity that can be accessed electronically and provides no pre-trade ...",
+    "host_name": "www.iosco.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nri.com/en/knowledge/publication/lakyara_200812/files/lakyaravol47.pdf",
+    "name": "[PDF] Smart order routing takes DMA to a new level",
+    "snippet": "2) Dark pools, also known as dark liquidity pools, are proprietary trading platforms whereby brokers cross customer orders in-house. Note.",
+    "host_name": "www.nri.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.smart-trade.net/wp-content/uploads/2016/12/Smart_Order_Routing_The_Route_to_Liquidity_Access_and_Best_Execution.pdf",
+    "name": "[PDF] Smart Order Routing: The Route to Liquidity Access & Best Execution",
+    "snippet": "Adaptive SOR technologies dynamically seek out liquidity across a large number of execution venues using a set of dynamic decision-mak- ing processes. As the ...",
+    "host_name": "www.smart-trade.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantt.co.uk/resources/smart-order-routing-guide",
+    "name": "Smart Order Routing: How It Works & Why It Matters in 2026 | Quantt",
+    "snippet": "The concern with dark pool routing is that your order might reveal information about your trading intentions. If you send an indication of ...",
+    "host_name": "www.quantt.co.uk",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.hk.daiwacm.com/pdf/DRECT%20Guidebook%20v11.pdf",
+    "name": "[PDF] DRECT Guidebook",
+    "snippet": "This document aims to answer questions about Daiwa's SOR and dark pool so that investors may make better informed trading decisions. We believe our Daiwa ...",
+    "host_name": "www.hk.daiwacm.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.morganstanley.com/content/dam/msdotcom/en/assets/pdfs/sales_and_trading_disclosures/MS_Asia_Equity_Order_Handling_and_Routing_FAQs.pdf",
+    "name": "[PDF] Morgan Stanley's Asia Cash Equity Order Handling & Routing",
+    "snippet": "MS POOL is a real-time continuous crossing dark liquidity pool. It crosses eligible orders at or within the best prevailing bid and offer (in accordance with ...",
+    "host_name": "www.morganstanley.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://igier.unibocconi.eu/sites/default/files/media/publication/421.pdf",
+    "name": "[PDF] Dark Pool Trading Strategies - WORKING PAPER SERIES",
+    "snippet": "In our model traders can use IOC instructions to route orders and we suggest that this routing technology enhances the competition from the new trading venue.",
+    "host_name": "igier.unibocconi.eu",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

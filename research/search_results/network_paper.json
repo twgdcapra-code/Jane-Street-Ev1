@@ -1,0 +1,74 @@
+[
+  {
+    "url": "http://www.icfpconference.org/icfp2014",
+    "name": "ICFP 2014 : The 19th ACM SIGPLAN International Conference on",
+    "snippet": "ICFP 2014 provides a forum for researchers and developers to hear about the latest work on the design, implementations, principles, and uses of functional ...",
+    "host_name": "www.icfpconference.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://icfp25.sigplan.org/track/icfp-2025-papers",
+    "name": "ICFP Papers - ICFP 2025",
+    "snippet": "ICFP 2025 seeks original papers on the art and science of functional programming. Submissions are invited on all topics from principles to practice,\nPACMPL issue ICFP 2025 seeks original papers on the art and science of functional programming. Submissions are invited on all topics from principles to practice ...",
+    "host_name": "icfp25.sigplan.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://signalsandthreads.com/the-network-as-a-program",
+    "name": "The Network as a Program - Signals and Threads",
+    "snippet": "Jane Street sometimes publishes papers at ICFP, which is the main conference in functional programming, sends people to the conference.\nSo people understand that functional programming is being used industrially, but Jane Street's a little not unique, but there's not as much of a ... Missing: ACM | Show results with: ACM",
+    "host_name": "signalsandthreads.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/10.1145/3674633",
+    "name": "Functional Programming in Financial Markets (Experience Report)",
+    "snippet": "In this experience report we focus on how we leverage functional programming to orchestrate type-driven large-scale pricing workflows.",
+    "host_name": "dl.acm.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com/icfp-2024-index",
+    "name": "ICFP 2024 - Jane Street Blog",
+    "snippet": "ICFP 2024, the International Conference on Functional Programming, in Milan next week! Please see below for a full list of papers and talks ...\nBonsai is the frontend web framework we use to build the vast majority of web apps at Jane Street. It features a functional user-facing API ... Missing: ACM | Show results with: ACM",
+    "host_name": "blog.janestreet.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://conf.researchr.org/home/icfp-2016",
+    "name": "ICFP 2016 - conf.researchr.org",
+    "snippet": "ICFP provides a forum for researchers and developers to hear about the latest work on the design, implementations, principles, and uses of functional ...",
+    "host_name": "conf.researchr.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dblp.org/db/conf/icfp/index",
+    "name": "ICFP - dblp",
+    "snippet": "Proceedings of the 20th ACM SIGPLAN International Conference on Functional Programming, ICFP 2015, Vancouver, BC, Canada, September 1-3, 2015.",
+    "host_name": "dblp.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://anil.recoil.org/notes/icfp25-ocaml5-js-docker",
+    "name": "Jane Street and Docker on moving to OCaml 5 at ICFP/SPLASH 2025",
+    "snippet": "Jane Street's production deployment of OCaml 5 and Docker's migration to direct-style programming with Eio presented at ICFP.",
+    "host_name": "anil.recoil.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

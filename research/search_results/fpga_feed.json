@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.exegy.com/products/nxfeed",
+    "name": "nxFeed - Exegy",
+    "snippet": "nxFeed is a feed handler which streamlines market data application development by processing data feeds on FPGA and making them available to applications via a ... Missing: Jane | Show results with: Jane",
+    "host_name": "www.exegy.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.doc.ic.ac.uk/~wl/papers/09/hoti09dt.pdf",
+    "name": "[PDF] FPGA Accelerated Low-Latency Market Data Feed Processing - Imperial College London",
+    "snippet": "An alternative hardware-accelerated market data architec- ture is the Exegy Ticker Plant [5]. In this approach, incoming market data enters the system via a ...",
+    "host_name": "www.doc.ic.ac.uk",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/283096978_FPGA_based_low-latency_market_data_feed_handler",
+    "name": "FPGA based low-latency market data feed handler | Request PDF - ResearchGate",
+    "snippet": "This paper presents the design and implementation of a hardware accelerator for financial market data in FAST protocol. We propose a parallel data decoding ... Missing: Jane Street smart plant",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.ni.com/t5/LabVIEW-in-Finance/Application-Example-Market-Data-Handling/td-p/3486201",
+    "name": "Application Example: Market Data Handling - NI Community",
+    "snippet": "Market Data Handling is the most popular application of FPGAs in the low latency, high throughput domain; see article below. Missing: Jane handler smart",
+    "host_name": "forums.ni.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.globenewswire.com/fr/news-release/2021/07/19/2264565/0/en/NovaSparks-Unveils-the-First-FPGA-Market-Data-Aggregator.html",
+    "name": "NovaSparks Unveils the First FPGA Market Data Aggregator - GlobeNewswire",
+    "snippet": "The FPGA-Based Market Data Consolidator Builds Composite Order Books Across Multiple Venues in Under 500ns...",
+    "host_name": "www.globenewswire.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/FPGA-Based-Low-Latency-Market-Data-Feed-Handler-Zhou-Jiang/3c68d9bfc12f347e1fac7de10665e18d46d420a5",
+    "name": "FPGA Based Low-Latency Market Data Feed Handler | Semantic Scholar",
+    "snippet": "An Accelerator for Decoding Market Data Based on FPGA · A FAST Hardware Decoder Optimized for Template Features to Obtain Order Book Data in Low ...",
+    "host_name": "www.semanticscholar.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.exegy.com/design-patterns-market-data-part-3",
+    "name": "Design Patterns for Market Data - Part 3: Conquering the Compromises - Exegy",
+    "snippet": "Learn about our no compromises vision and how Exegy is eliminating the tradeoff between software feed handlers and centralized ticker plants. Missing: Jane | Show results with: Jane",
+    "host_name": "www.exegy.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://img.electronicdesign.com/files/base/ebm/electronicdesign/document/2024/04/66268874f73766001ebdb648-ed_120809_de.pdf?dl=66268874f73766001ebdb648-ed_120809_de.pdf",
+    "name": "[PDF] Electronic Design",
+    "snippet": "ELECTRONIC DESIGN (ISSN 0013-4872) is published monthly with an extra issue in March, June and September by Penton Media Inc., 9800 Metcalf Ave., ...",
+    "host_name": "img.electronicdesign.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.janestreet.com/tech-talks/building-an-exchange",
+    "name": "How to Build an Exchange - Jane Street",
+    "snippet": "This talk looks at the question of how to design an exchange through the lens of JX, a crossing engine we built at Jane Street in the last two years.",
+    "host_name": "www.janestreet.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=b1e4t2k2KJY",
+    "name": "How to Build an Exchange - YouTube",
+    "snippet": "This talk looks at the question of how to design an exchange through the lens of JX, a crossing engine we built at Jane Street in the last two ...",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com/how-to-build-an-exchange",
+    "name": "How to Build an Exchange - Jane Street Blog",
+    "snippet": "The first talk is on February 2nd, and is an overview of the architecture of a modern exchange. The talk is being given by Brian Nigito.",
+    "host_name": "blog.janestreet.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=27879230",
+    "name": "How to Build an Exchange (2017) [video] - Hacker News",
+    "snippet": "A pretty great tech talk by Brian Nigito of Jane Street [2017] - a quantitative trading firm which also provides an Electronic Trading ...",
+    "host_name": "news.ycombinator.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jvvreddy_how-to-build-an-exchange-activity-7424888512577122304--n1c",
+    "name": "Jane Street's Real-Time Stock Exchange System Design - LinkedIn",
+    "snippet": "I recently watched a tech talk by Jane Street that breaks down how a real electronic exchange is engineered from the ground up. It walks ...",
+    "host_name": "www.linkedin.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://keypointt.com/2025-06-16-How-to-build-an-exchange",
+    "name": "How to build an exchange | Tech Reading and Notes",
+    "snippet": "This presentation from Jane Street provides a deep dive into the engineering required to build a high-performance, reliable financial exchange.",
+    "host_name": "keypointt.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=zR9PpXWsKFQ",
+    "name": "Production Engineering When Trading Billions of Dollars a Day - YouTube",
+    "snippet": "In this talk, Mark Doss, a production engineer at Jane Street, explores the day-to-day technical operations of a trading firm, with a heavy ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DY7gFe2Bkm6/?hl=en",
+    "name": "Jane Street is one of the most advanced trading firms  - Instagram",
+    "snippet": "Ron Minsky, Jane Street's head of technology, explains here that some of their trading systems can react in under 100 nanoseconds. That is so ...",
+    "host_name": "www.instagram.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://vis.ethz.ch/en/events/999",
+    "name": "VIS x Jane Street: Tech Talk",
+    "snippet": "Jane Street is coming to ETH! We will be hosting a Tech Talk on Tuesday, 4th November at 6:15 pm CET. Register here to hear from one of our technologists ...",
+    "host_name": "vis.ethz.ch",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/@janestreet",
+    "name": "Jane Street - YouTube",
+    "snippet": "Get a peek at how Jane Street approaches problems, and how those ideas relate to tech more broadly. ... Get to Know Us: Haley Talks Operations at Jane Street.",
+    "host_name": "www.youtube.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

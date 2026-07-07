@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://signalsandthreads.com/finding-signal-in-the-noise",
+    "name": "Finding Signal in the Noise: Machine Learning and the Markets",
+    "snippet": "Listen in on Jane Street's Ron Minsky as he has conversations with engineers working on everything from clock synchronization to reliable ...",
+    "host_name": "signalsandthreads.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/join-jane-street/machine-learning",
+    "name": "Machine Learning - Jane Street",
+    "snippet": "No silos. Researchers, engineers, and traders sit a few feet away from each other and work together to train models, build systems, and run trading strategies.",
+    "host_name": "www.janestreet.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://signalsandthreads.com/the-network-as-a-program",
+    "name": "The Network as a Program - Signals and Threads",
+    "snippet": "So Jane Street sometimes publishes papers at ICFP, which is the main conference in functional programming, sends people to the conference. I ...",
+    "host_name": "signalsandthreads.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1jpqd1s/why_does_jane_street_use_purely_ocaml",
+    "name": "Why does Jane street use purely Ocaml : r/ExperiencedDevs - Reddit",
+    "snippet": "I just learnt that Jane street uses Ocaml for pretty much everything. I also assume that they have a lot of talented developers and are very smart people.",
+    "host_name": "www.reddit.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=zR9PpXWsKFQ",
+    "name": "Production Engineering When Trading Billions of Dollars a Day",
+    "snippet": "Comments · Caml Trading · Did Jane Street Rig the Market To Make Billions? · Matt Godbolt: Advanced Skylake Deep Dive · Volume Strips with J. Peter ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/tech-talks/making-ocaml-safe-for-performance-engineering",
+    "name": "Making OCaml Safe for Performance Engineering - Jane Street",
+    "snippet": "Jane Street is a trading firm that uses a variety of high-performance systems built in OCaml to provide liquidity to financial markets worldwide.",
+    "host_name": "www.janestreet.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=0ML7ZLMdcl4",
+    "name": "AI Engineering at Jane Street - John Crepezzi - YouTube",
+    "snippet": "... talk explores our journey in creating custom assistants and editor tooling for OCaml, tackling everything from data collection and model ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/technology",
+    "name": "Technology :: Jane Street",
+    "snippet": "Jane Street is an incredible place to develop as an engineer. From low-latency networking to compilers to distributed systems design, you can find people with ...",
+    "host_name": "www.janestreet.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jane-street-global_production-engineering-when-trading-billions-activity-7475170869435207681-67Q0",
+    "name": "Production Engineering When Trading Billions of Dollars a Day",
+    "snippet": "In a recent #TechTalk, Jane Street production engineer Mark Doss walks through the day-to-day work of monitoring and operating those systems ...",
+    "host_name": "www.linkedin.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://signalsandthreads.com/why-testing-is-hard-and-how-to-fix-it",
+    "name": "Why Testing is Hard and How to Fix it - Signals and Threads",
+    "snippet": "Listen in on Jane Street's Ron Minsky as he has conversations with engineers working on everything from clock synchronization to reliable multicast, build ...",
+    "host_name": "signalsandthreads.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

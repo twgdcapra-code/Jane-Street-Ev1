@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://arxiv.org/html/2403.12180v1",
+    "name": "Advanced Statistical Arbitrage with Reinforcement Learning - arXiv",
+    "snippet": "Abstract. Statistical arbitrage is a prevalent trading strategy which takes advantage of mean reverse property of spread of paired stocks.",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantt.co.uk/resources/statistical-arbitrage-strategies",
+    "name": "Statistical Arbitrage Strategies 2026: 6 Approaches With Code - Quantt",
+    "snippet": "Six statistical arbitrage strategies actually used by hedge funds and prop firms - pairs trading, basket arbitrage, mean reversion, momentum ...",
+    "host_name": "www.quantt.co.uk",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mbrenndoerfer.com/writing/mean-reversion-statistical-arbitrage-pairs-trading",
+    "name": "Mean Reversion and Statistical Arbitrage: Pairs Trading Strategies",
+    "snippet": "This chapter develops the theoretical foundations of mean reversion, builds practical implementations of pairs trading and statistical arbitrage ...",
+    "host_name": "mbrenndoerfer.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.quantinsti.com/tag/mean-reversion-statistical-arbitrage",
+    "name": "Mean Reversion & Statistical Arbitrage - QuantInsti Blog",
+    "snippet": "The pairs trading strategy is one of the most known trading strategies. It is based on a slight anomaly in the price of one of the pairs.",
+    "host_name": "blog.quantinsti.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portfoliooptimizationbook.com/slides/slides-pairs-trading.pdf",
+    "name": "[PDF] slides-pairs-trading.pdf - Portfolio Optimization Book",
+    "snippet": "Pairs trading (or statistical arbitrage):. Market neutral. Trade mean-reverting fluctuations of relative mispricings between two securities. 20 ...",
+    "host_name": "portfoliooptimizationbook.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.econstor.eu/bitstream/10419/116783/1/833997289.pdf",
+    "name": "[PDF] Statistical arbitrage pairs trading strategies: Review and outlook",
+    "snippet": "The time series approach focuses on finding optimal trading rules for mean-reverting spreads. The stochastic control approach aims at ...",
+    "host_name": "www.econstor.eu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hammer.purdue.edu/articles/thesis/Quantitative_Methods_of_Statistical_Arbitrage/25654227",
+    "name": "Quantitative Methods of Statistical Arbitrage",
+    "snippet": "Statistical arbitrage is a prevalent trading strategy which takes advantage of mean reverse property of spreads constructed from pairs or portfolios of assets.",
+    "host_name": "hammer.purdue.edu",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.stephentwomey.com/blog/statistical-arbitrage-strategy",
+    "name": "Statistical Arbitrage Strategy Explained - Stephen Twomey",
+    "snippet": "Statistical arbitrage, often called “Stat Arb,” is a quantitative trading strategy that attempts to profit from temporary pricing inefficiencies ...",
+    "host_name": "www.stephentwomey.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/p/zbw/iwqwdp/102017.html",
+    "name": "Pairs trading with a mean-reverting jump-diffusion model on",
+    "snippet": "The established statistical arbitrage strategy enables us to perform intraday and overnight trading. Essentially, we conduct a 3-step calibration procedure ...",
+    "host_name": "ideas.repec.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/mean-reversion-trading-strategies",
+    "name": "Mean Reversion Trading Strategies - QuestDB",
+    "snippet": "Statistical arbitrage extends pairs trading to multiple securities, using more complex statistical relationships to identify trading opportunities. Next ...",
+    "host_name": "questdb.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

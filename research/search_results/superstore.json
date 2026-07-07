@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://signalsandthreads.com/building-a-data-warehouse-from-scratch",
+    "name": "Building a Data Warehouse from Scratch - Signals and Threads",
+    "snippet": "In this episode, Ron and Jacob discuss Superstore, a distributed columnar database ... Jane Street was buying the storage appliances that ...",
+    "host_name": "signalsandthreads.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=EnsZazeC1h4",
+    "name": "Building a Data Warehouse From Scratch with Jacob Baskin",
+    "snippet": "... Jane Street's database infrastructure team. In this episode, Ron and Jacob discuss Superstore, a distributed columnar database now central to ...",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.pdl.cmu.edu/talk-series/2024/073124.shtml",
+    "name": "Superstore - Parallel Data Lab",
+    "snippet": "BIO: Jacob Baskin is a software engineer at Jane Street. His previous jobs have included CTO and co-founder of Coord, an urban transportation startup, and ...",
+    "host_name": "www.pdl.cmu.edu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/shorts/Oq7Mfi0-I-8",
+    "name": "8 Figures on a Design Doc - YouTube",
+    "snippet": "Jacob Baskin joined Jane Street's database infrastructure team and almost immediately began building Superstore, a distributed columnar ...",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://podcasts.apple.com/gb/podcast/signals-and-threads/id1528917129",
+    "name": "Signals and Threads - Apple Podcasts",
+    "snippet": "... Jane Street's database infrastructure team. In this episode, Ron and Jacob discuss Superstore, a distributed columnar database now central to Jane Street's ...",
+    "host_name": "podcasts.apple.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://signalsandthreads.com",
+    "name": "Signals and Threads",
+    "snippet": "In this episode, Ron and Jacob discuss Superstore, a distributed columnar database now central to Jane Street's tech stack that Jacob began building practically ...",
+    "host_name": "signalsandthreads.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.radio.net/podcast/signals-and-threads",
+    "name": "Signals and Threads podcast | Listen online for free - Radio.net",
+    "snippet": "In this episode, Ron and Jacob discuss Superstore, a distributed columnar database now central to Jane Street's tech stack that Jacob began building practically ...",
+    "host_name": "www.radio.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/in/jacob-baskin-4a0a29b1",
+    "name": "Jacob Baskin - Jane Street - LinkedIn",
+    "snippet": "Experience: Jane Street · Education: Brown University · Location: ...",
+    "host_name": "www.linkedin.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

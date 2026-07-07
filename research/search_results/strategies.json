@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.quantt.co.uk/resources/statistical-arbitrage-strategies",
+    "name": "Statistical Arbitrage Strategies 2026: 6 Approaches With Code - Quantt",
+    "snippet": "This guide covers 6 specific stat arb strategies with practical implementations. For the introductory pairs trading walkthrough with detailed ...",
+    "host_name": "www.quantt.co.uk",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.stephentwomey.com/blog/statistical-arbitrage-strategy",
+    "name": "Statistical Arbitrage Strategy Explained - Stephen Twomey",
+    "snippet": "Statistical arbitrage, often called “Stat Arb,” is a quantitative trading strategy that attempts to profit from temporary pricing inefficiencies ...",
+    "host_name": "www.stephentwomey.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3660230_code3010420.pdf?abstractid=3436788&mirid=1",
+    "name": "[PDF] robust statistical arbitrage strategies",
+    "snippet": "Abstract. We investigate statistical arbitrage strategies when there is ambiguity about the underlying time-discrete financial model.",
+    "host_name": "papers.ssrn.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/369432830_Comparisons_of_Different_Arbitrage_Strategies_in_Context_of_Various_Models",
+    "name": "Comparisons of Different Arbitrage Strategies in Context of Various",
+    "snippet": "S Statistical arbitrage is one of the key topics of research today due to its significance statistical features and the ability to control the drawdown.",
+    "host_name": "www.researchgate.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://math.nyu.edu/faculty/avellane/Lecture6Quant.pdf",
+    "name": "[PDF] Lecture 6: Back-testing statistical-arbitrage strategies",
+    "snippet": "ETFs in trading time outperformed PCAs after 2005. Best strategy among those tested. Page 39. Comparing performance of MR strategies. Jan 2007-March 2008.",
+    "host_name": "math.nyu.edu",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cqf.com/blog/quant-finance-101/what-is-statistical-arbitrage",
+    "name": "What is Statistical Arbitrage?",
+    "snippet": "Statistical arbitrage strategies often employ risk controls, such as stop-loss orders, position sizing rules, and portfolio diversification, to manage the ...",
+    "host_name": "www.cqf.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sanya-sud-4a2a9791_jane-street-the-line-between-market-manipulation-activity-7366850168333197314-HW9q",
+    "name": "Jane Street Case: Market Manipulation or Arbitrage? - LinkedIn",
+    "snippet": "Its model focuses on capturing small spreads, hedging exposures instantly and advanced risk systems to process billions in daily trading volume ...",
+    "host_name": "www.linkedin.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/quant/comments/mpbphg/advanced_statistical_arbitrage_strategies",
+    "name": "Advanced Statistical Arbitrage Strategies : r/quant - Reddit",
+    "snippet": "The following is a good starting point: The Definitive Guide to Pairs Trading. Its 175 pages of the most advanced techniques.",
+    "host_name": "www.reddit.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.investopedia.com/terms/s/statisticalarbitrage.asp",
+    "name": "Statistical Arbitrage Simplified: Essential Strategies and Risks",
+    "snippet": "Learn how statistical arbitrage uses quantitative strategies to exploit pricing inefficiencies. Discover the risks, strategies, and examples in trading.",
+    "host_name": "www.investopedia.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tesi.luiss.it/31820/1/716921_FABBRI_NICCOLO%27.pdf",
+    "name": "[PDF] Performance Analysis of Statistical Arbitrage Portfolio",
+    "snippet": "The majority of trades nowadays are executed by algorithms. Institu- tional investors exploit arbitrages in seconds or even milliseconds, securing.",
+    "host_name": "tesi.luiss.it",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

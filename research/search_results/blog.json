@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://blog.janestreet.com/why-ocaml",
+    "name": "Why OCaml? - Jane Street Blog",
+    "snippet": "It spends a lot of time on how OCaml fits into the space of programming language designs, and why we think OCaml is in a real sweet spot in that design space.",
+    "host_name": "blog.janestreet.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com/search/?query=ocaml",
+    "name": "Why OCaml? - Jane Street Blog",
+    "snippet": "Interested in learning OCaml? In the NYC area? Then this might be for you! Jane Street is running a day-long workshop on March 24th to teach OCaml.",
+    "host_name": "blog.janestreet.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quora.com/Why-does-Jane-Street-use-OCaml",
+    "name": "Why does Jane Street use OCaml? - Quora",
+    "snippet": "OCaml has a more familiar execution model and a much simpler runtime, which makes it easier to predict the performance of a function and write ...",
+    "host_name": "www.quora.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com/ocaml-the-ultimate-refactoring-tool",
+    "name": "OCaml, the ultimate refactoring tool - Jane Street Blog",
+    "snippet": "OCaml doesn't automate the work of refactoring, but it does greatly reduce the number of bugs that your refactoring introduces. And in the end, that's far more ...",
+    "host_name": "blog.janestreet.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com/observations-of-a-functional-programmer",
+    "name": "Observations of a functional programmer - Jane Street Blog",
+    "snippet": "Hope you enjoy! Yaron Minsky joined Jane Street back in 2002, and claims the dubious honor of having convinced the firm to start using OCaml.\nTeach your children well Some thoughts on the place of functional programming in the university curriculum, and how much tools matter there. Use ...",
+    "host_name": "blog.janestreet.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/tech-talks/ocaml-all-the-way-down",
+    "name": "OCaml All The Way Down - Jane Street",
+    "snippet": "Did you know that Jane Street uses OCaml for, like, everything? Did you also know that Jane Street builds FPGA designs? A problem? Missing: blog index",
+    "host_name": "www.janestreet.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1jpqd1s/why_does_jane_street_use_purely_ocaml",
+    "name": "Why does Jane street use purely Ocaml : r/ExperiencedDevs - Reddit",
+    "snippet": "I just learnt that Jane street uses Ocaml for pretty much everything. I also assume that they have a lot of talented developers and are very smart people. Missing: index | Show results with: index\nJane Street are the core maintainers for the OCaml standard library. Dude LOVES functional programming. There's clearly demand for jobs that ...",
+    "host_name": "www.reddit.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/functional-programming",
+    "name": "Functional Programming :: Jane Street",
+    "snippet": "In addition to our extensive work on the core OCaml language, we often take a PL approach to challenging problems we face on a daily basis. See below for some ... Missing: posts index\nFunctional Programming at Jane Street. In addition to our extensive work on the core OCaml language, we often take a PL approach to challenging problems we ...",
+    "host_name": "www.janestreet.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

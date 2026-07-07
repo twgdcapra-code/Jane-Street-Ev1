@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://discuss.ocaml.org/t/do-you-use-core-or-other-jane-street-libs-tell-us-how/8229",
+    "name": "Do you use Core (or other Jane Street libs)? Tell us how! - Community",
+    "snippet": "We use Base in everything, and Core/Async whenever those libraries are relevant. We also use a lot of the stuff in ppx_jane (ppx_inline_test, ppx_assert, ppx_ ... [ANN] v0.12 release of Jane Street packages - Community - OCaml Do you use Core (or other Jane Street libs)? Tell us how! - Page 2 More results from discuss.ocaml.org\nMostly for personal projects. The Core and Async libraries are comprehensive and there's rarely data structures I've needed that are missing ... [ANN] v0.12 release of Jane Street packages - Community - OCaml Do you use Core (or other Jane Street libs)? Tell us how! - Page 2 More results from discuss.ocaml.org",
+    "host_name": "discuss.ocaml.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/tech-talks/ocaml-all-the-way-down",
+    "name": "OCaml All The Way Down - Jane Street",
+    "snippet": "More specifically, what we can do is design hardware, FPGAs, ASICs in OCaml using a DSL called Hardcaml. Recently, I've been looking at how we can do embedded ...\nHere, we're using the CORDIC core that I mentioned that's in Hardcaml, as well. The CORDIC core is actually pretty general. It'll do all sorts of functions ...",
+    "host_name": "www.janestreet.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ocaml.janestreet.com/ocaml-core/v0.12/doc",
+    "name": "JaneStreet packages v0.12 documentation - Jane Street Blog",
+    "snippet": "This is a set of open-source OCaml libraries released by Jane Street that are sourced from our internal development repo. The packages are released together and ...",
+    "host_name": "ocaml.janestreet.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com/advent-of-hardcaml-2024",
+    "name": "Advent of Hardcaml - Jane Street Blog",
+    "snippet": "Hardcaml's strong type system and expressive metaprogramming capabilities allow us to implement highly flexible circuits concisely using OCaml.",
+    "host_name": "blog.janestreet.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1jpqd1s/why_does_jane_street_use_purely_ocaml",
+    "name": "Why does Jane street use purely Ocaml : r/ExperiencedDevs - Reddit",
+    "snippet": "I just learnt that Jane street uses Ocaml for pretty much everything. I also assume that they have a lot of talented developers and are very smart people.",
+    "host_name": "www.reddit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hardcaml.org",
+    "name": "Hardcaml | About",
+    "snippet": "Hardcaml is an OCaml library for designing and testing hardware designs. An industrial-strength framework for FPGA development, allowing engineers to design, ...\nHardcaml integrates simulation directly into the OCaml runtime, allowing testbenches to benefit from the power of a fully-featured software language. This ...",
+    "host_name": "hardcaml.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/janestreet",
+    "name": "Jane Street - GitHub",
+    "snippet": "bonsai ... async async Public. Jane Street Capital's asynchronous execution library.",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ocaml.org/p/core/v0.16.0",
+    "name": "core v0.16.0 · OCaml Package",
+    "snippet": "The Core suite of libraries is an industrial strength alternative to OCaml's standard library that was developed by Jane Street, ...",
+    "host_name": "ocaml.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2312.15035v1",
+    "name": "Hardcaml: An OCaml Hardware Domain-Specific Language  - arXiv",
+    "snippet": "Hardcaml is a collection of OCaml libraries that designers can use to express circuits with the same amount of control as Verilog or VHDL, but ...\nHardcaml is industrially proven, and has been used at Jane Street internally for many large FPGA designs. As a case study we highlight several ...",
+    "host_name": "arxiv.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com/search/?query=ocaml",
+    "name": "Why OCaml? - Jane Street Blog",
+    "snippet": "We recently released a version of our open source libraries with a much anticipated change – Async_kernel, the heart of the Async concurrent programmi... By ...\nInterested in learning OCaml? In the NYC area? Then this might be for you! Jane Street is running a day-long workshop on March 24th to teach OCaml.",
+    "host_name": "blog.janestreet.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

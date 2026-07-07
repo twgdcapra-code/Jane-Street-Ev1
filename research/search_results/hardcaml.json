@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.janestreet.com/tech-talks/ocaml-all-the-way-down",
+    "name": "OCaml All The Way Down - Jane Street",
+    "snippet": "The Hardcaml DSL is used to describe a hardware design as an in-memory data structure on your PC. That is then processed and turned into Verilog, and that's ...",
+    "host_name": "www.janestreet.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com/advent-of-hardcaml-2024",
+    "name": "Advent of Hardcaml - Jane Street Blog",
+    "snippet": "Hardcaml includes a simulation backend as well as support for compiling down to RTL, so the entire project, from designing the hardware to ...",
+    "host_name": "blog.janestreet.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=GJX5VbKvh90",
+    "name": "Programmable Hardware with Andy Ray - YouTube",
+    "snippet": "The ever-widening availability of FPGAs has opened the door to solving a broad set of performance-critical problems in hardware.",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2312.15035v1",
+    "name": "Hardcaml: An OCaml Hardware Domain-Specific Language  - arXiv",
+    "snippet": "Hardcaml is industrially proven, and has been used at Jane Street internally for many large FPGA designs. As a case study we highlight ...",
+    "host_name": "arxiv.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://signalsandthreads.com/programmable-hardware",
+    "name": "Programmable Hardware - Signals and Threads",
+    "snippet": "The final one was called Hardcaml, which is a hardware design language embedded inside OCaml, which itself is the primary programming language ...",
+    "host_name": "signalsandthreads.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/janestreet/hardcaml",
+    "name": "Hardcaml is an OCaml library for designing hardware. - GitHub",
+    "snippet": "Hardcaml is an OCaml library for designing and testing hardware designs. Hardcaml includes a simulation backend as well as support for compiling down to RTL ...",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hardcaml.org",
+    "name": "Hardcaml | About",
+    "snippet": "Hardcaml is an OCaml library for designing and testing hardware designs. An industrial-strength framework for FPGA development, allowing engineers to design, ...",
+    "host_name": "hardcaml.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=18104761",
+    "name": "OCaml All the Way Down – How Jane Street Builds FPGA Designs [video]",
+    "snippet": "How does Jane St. use FPGAs to make money trading? My impression was that unless the application demands real speed (i.e., microseconds), write ...",
+    "host_name": "news.ycombinator.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.dice.com/job-detail/cb975863-39ff-4903-ac37-42df2112972f",
+    "name": "FPGA Engineer - Jane Street - New York, NY, US | Dice.com",
+    "snippet": "We use Hardcaml, an OCaml library for succinctly describing hardware in RTL. Hardcaml is tightly integrated into our development environment, so you'll also ...",
+    "host_name": "www.dice.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://anil.recoil.org/notes/fpgas-hardcaml",
+    "name": "Programming FPGAs using OCaml - Anil Madhavapeddy",
+    "snippet": "Hardcaml is industrially proven, and has been used at Jane Street internally for many large FPGA designs. Let's look at the source code ...",
+    "host_name": "anil.recoil.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

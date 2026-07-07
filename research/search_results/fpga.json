@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3696348.3696890",
+    "name": "Network Design Considerations for Trading Systems - ACM Digital Library",
+    "snippet": "This paper pulls back the curtain on one such area: the low-latency networks used for algorithmic trading systems. We present requirements and ...",
+    "host_name": "dl.acm.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.blackcoretech.com/knowledge/co-location-fast-networks-and-high-speed-nics-optimizing-your-electronic-trading-stack",
+    "name": "Co-location, fast networks, and high-speed NICs - optimizing your",
+    "snippet": "FPGA is a common choice for high-Frequency trading, due to its predictable and low-latency characteristics.",
+    "host_name": "www.blackcoretech.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DZYmy-GMnUP",
+    "name": "An HFT (High-Frequency Trading) Hardware Engineer is  - Instagram",
+    "snippet": "* FPGA-based trading platforms * Network cards (NICs) * Switches and routers * Microwave communication systems * Fiber-optic networks * Time ...",
+    "host_name": "www.instagram.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/performance-engineering",
+    "name": "Performance Engineering :: Jane Street",
+    "snippet": "We write our lowest-latency software systems in OCaml, which combines a powerful type system with good and predictable performance and a low overhead runtime.",
+    "host_name": "www.janestreet.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2402.09527v10",
+    "name": "Design and Implementation of a Scalable Financial Exchange in the",
+    "snippet": "To reduce latency, exchanges often use FPGAs as gateways [2] and L1 switches that perform low-latency physical-layer multicast",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dasanik2001_janestreet-fpga-highfrequencytrading-activity-7473392363835506688-8Fs1",
+    "name": "Jane Street's FPGA Advantage in High-Frequency Trading - LinkedIn",
+    "snippet": "Why FPGAs? • Process market data directly in hardware • Eliminate operating system overheads. FPGA → Ultra-low-latency market data processing ...",
+    "host_name": "www.linkedin.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/quant/comments/1t2kjjc/jane_street_hft",
+    "name": "Jane Street — HFT? : r/quant - Reddit",
+    "snippet": "Any co-located market maker ends up needing the same kernel-bypass networking (DPDK or RDMA), the same tick-to-trade latency budgets, and ... My experience with FPGAs and High Frequency Trading Firms FPGA Interview Problem for Low Latency More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=RCb8PsdipHI",
+    "name": "FPGAs and low latency trading - Williston Hayes - Optiver - FPL2020",
+    "snippet": "... FPGAs are in the low latency trading space. In addition, our domain forces us to make design decisions and implementation choices that ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/262293285_A_low-latency_library_in_FPGA_hardware_for_High-Frequency_Trading_HFT",
+    "name": "(PDF) A low-latency library in FPGA hardware for High-Frequency",
+    "snippet": "In this paper, we survey existing solutions and describe how FPGAs are being used in electronic trading to approach the goal of zero latency. We present an FPGA ...",
+    "host_name": "www.researchgate.net",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.bso.co/all-insights/benefits-of-low-latency-networks-for-prop-trading-firms",
+    "name": "How Prop Trading Firms Benefit from Low-Latency Networks",
+    "snippet": "A low-latency network reduces the time it takes to send and receive data from exchanges. This faster access enables prop firms to act on market movements ...",
+    "host_name": "www.bso.co",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

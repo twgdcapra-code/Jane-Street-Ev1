@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1jpqd1s/why_does_jane_street_use_purely_ocaml",
+    "name": "Why does Jane street use purely Ocaml : r/ExperiencedDevs - Reddit",
+    "snippet": "I just learnt that Jane street uses Ocaml for pretty much everything. I also assume that they have a lot of talented developers and are very smart people. Caml trading – experiences with functional programming on Wall ... OCaml programming : r/quant - Reddit More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/technology",
+    "name": "Technology :: Jane Street",
+    "snippet": "It's no secret that we're big believers in functional programming and use OCaml, a statically typed functional language, as our primary development platform.",
+    "host_name": "www.janestreet.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/functional-programming",
+    "name": "Functional Programming :: Jane Street",
+    "snippet": "Jane Street is a quantitative trading firm and liquidity provider with a unique focus on technology and collaborative problem solving.",
+    "host_name": "www.janestreet.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/quant-insider_jane-street-is-the-only-firm-that-uses-ocaml-activity-7186994843758260224-WzYC",
+    "name": "Quant Insider's Post - LinkedIn",
+    "snippet": "Jane Street is the only firm that uses Ocaml, and all the other major HFT's use C++ for developing trading systems.",
+    "host_name": "www.linkedin.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cs.rice.edu/~javaplt/411/23-spring/NewReadings/functional_programming_on_Wall_Street.pdf",
+    "name": "[PDF] experiences with functional programming on Wall Street",
+    "snippet": "Jane Street Capital is a successful proprietary trading company that uses OCaml as its primary development language.",
+    "host_name": "www.cs.rice.edu",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quora.com/Why-does-Jane-Street-use-OCaml",
+    "name": "Why does Jane Street use OCaml? - Quora",
+    "snippet": "OCaml has a more familiar execution model and a much simpler runtime, which makes it easier to predict the performance of a function and write ... Why doesn't Jane Street uses multiple programming languages? How is OCaml taught at Jane Street Capital? - Quora More results from www.quora.com",
+    "host_name": "www.quora.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/tech-talks/ocaml-all-the-way-down",
+    "name": "OCaml All The Way Down - Jane Street",
+    "snippet": "Jane Street is a quantitative trading firm and liquidity provider with a unique focus on technology and collaborative problem solving.",
+    "host_name": "www.janestreet.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=v1CmGbOGb2I",
+    "name": "Why OCaml - YouTube",
+    "snippet": "A summary of why Jane Street uses OCaml, including a discussion of how OCaml fits into the broader space of programming languages.",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://digitalfreepen.com/2017/01/07/jane-street-ocaml.html",
+    "name": "Learned at Jane Street - Practical functional programming and",
+    "snippet": "In that sense, OCaml is nice because despite having a fairly high level of abstraction, it's easy to get a sense of what the code compiles to, ...",
+    "host_name": "digitalfreepen.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=2986257",
+    "name": "Caml Trading: Experiences in Functional Programming on Wall Street",
+    "snippet": "The biggest performance killer in functional languages is efficiently implementing closures on a stack based machine (i.e. funarg problem). experiences with functional programming on Wall Street [pdf] or I know Jane Street love OCaml, but you have to wonder how much ... More results from news.ycombinator.com",
+    "host_name": "news.ycombinator.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]
