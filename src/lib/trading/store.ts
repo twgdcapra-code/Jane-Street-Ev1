@@ -118,7 +118,7 @@ interface TradingState {
   addAlert: (a: Omit<Alert, "id" | "timestamp" | "acknowledged">) => void;
   ackAlert: (id: string) => void;
   clearAlerts: () => void;
-  addStrategy: (s: Omit<Strategy, "id" | "createdAt" | "pnl" | "trades" | "sharpe" | "maxDrawdown">) => void;
+  addStrategy: (s: Omit<Strategy, "id" | "createdAt" | "pnl" | "trades" | "sharpe" | "maxDrawdown" | "currentSignal" | "positionQty" | "avgEntryPrice" | "realizedPnL" | "unrealizedPnL" | "pnlHistory" | "peakPnL" | "lastSignalAt" | "lastSignalPrice">) => void;
   updateStrategy: (id: string, updates: Partial<Strategy>) => void;
   removeStrategy: (id: string) => void;
   toggleStrategy: (id: string) => void;
