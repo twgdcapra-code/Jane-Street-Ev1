@@ -51,6 +51,7 @@ import { TermStructure } from "@/components/trading/TermStructure";
 import { EconomicCalendar } from "@/components/trading/EconomicCalendar";
 import { PositionSizer } from "@/components/trading/PositionSizer";
 import { VolatilityAnalyzer } from "@/components/trading/VolatilityAnalyzer";
+import { IndicatorsLab } from "@/components/trading/IndicatorsLab";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -74,7 +75,8 @@ type ModuleId =
   | "termstructure"
   | "economic"
   | "sizer"
-  | "volatility";
+  | "volatility"
+  | "indicators";
 
 interface ModuleDef {
   id: ModuleId;
@@ -102,6 +104,7 @@ const MODULES: ModuleDef[] = [
   { id: "economic", name: "Economic Calendar", icon: Calendar, description: "Macro events with market impact analysis" },
   { id: "sizer", name: "Position Sizer", icon: Calculator, description: "Kelly, vol targeting, what-if sizing" },
   { id: "volatility", name: "Volatility Analyzer", icon: Waves, description: "Realized vol, GARCH forecast, regime detection" },
+  { id: "indicators", name: "Indicators Lab", icon: Layers, description: "40+ indicators, signal builder, prediction engine, ML log" },
   { id: "research", name: "Research", icon: TrendingUp, description: "Factor analysis and cointegration tools" },
   { id: "system", name: "System Monitor", icon: Activity, description: "Latency, throughput, event log" },
 ];
@@ -313,6 +316,8 @@ function ModuleRenderer({ active, selectedSymbol }: { active: ModuleId; selected
       return <PositionSizer />;
     case "volatility":
       return <VolatilityAnalyzer />;
+    case "indicators":
+      return <IndicatorsLab />;
     case "research":
       return <ResearchTerminal />;
     case "system":
