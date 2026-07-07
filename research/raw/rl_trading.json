@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://arxiv.org/html/2411.07585v1",
+    "name": "Reinforcement Learning Framework for Quantitative Trading - arXiv",
+    "snippet": "We investigate how a reinforcement learning agent can utilize financial indicators in specific market conditions and trends to enhance overall ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cis.upenn.edu/~mkearns/papers/rlexec.pdf",
+    "name": "[PDF] Reinforcement Learning for Optimized Trade Execution",
+    "snippet": "Abstract. We present the first large-scale empirical application of reinforcement learning to the important problem of optimized trade execution.",
+    "host_name": "www.cis.upenn.edu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/iel8/6287639/10820123/10872909.pdf",
+    "name": "Federated Reinforcement Learning in Stock Trading Execution: The FPPO",
+    "snippet": "This paper presents the Federated Proximal Policy Optimization (FPPO) algorithm, an adaptive trade execution framework that leverages joint ...",
+    "host_name": "ieeexplore.ieee.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mathworks.com/help/deeplearning/ug/deep-reinforcement-learning-for-optimal-trade-execution.html",
+    "name": "Deep Reinforcement Learning for Optimal Trade Execution - MathWorks",
+    "snippet": "This example shows how to use the Reinforcement Learning Toolbox™ and Deep Learning Toolbox™ to design agents for optimal trade execution.",
+    "host_name": "www.mathworks.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ripublication.com/adsa21/v16n2p47.pdf",
+    "name": "[PDF] Reinforcement Learning Algorithms for Automated Stock Trading",
+    "snippet": "We train reinforcement learning agent & acquire trading methodology utilizing four reinforcement algorithms which are Deep Q- learning (DQN), Deep Deterministic ...",
+    "host_name": "www.ripublication.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@sgino209/deep-reinforcement-learning-for-automated-stock-trading-c661299ebe0f",
+    "name": "Deep Reinforcement Learning for Automated Stock Trading - Medium",
+    "snippet": "Overview. This project aims to create an automated stock trading system utilizing deep reinforcement learning (DRL).",
+    "host_name": "medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/653424734/Reinforcement-Learning-For-Trade-Execution",
+    "name": "Reinforcement Learning for Trade Execution | PDF | Order (Exchange)",
+    "snippet": "This document discusses using reinforcement learning to develop optimal trade execution strategies. It describes simulations conducted to train trading ...",
+    "host_name": "www.scribd.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.mlq.ai/deep-reinforcement-learning-trading-strategies-automl",
+    "name": "Deep Reinforcement Learning for Trading: Strategy Development",
+    "snippet": "In this guide, we're going to review how deep reinforcement learning can be used to improve the efficiency and performance of existing trading strategies.",
+    "host_name": "blog.mlq.ai",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1568494626006162",
+    "name": "Algorithmic trading by reinforcement learning in a collaborative manner",
+    "snippet": "We propose an algorithmic trading method by combining RL with distributed learning. ... A novel loss function integrating RL and imitation learning is proposed.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/AI4Finance-Foundation/FinRL",
+    "name": "AI4Finance-Foundation/FinRL: FinRL®: Financial Reinforcement Learning.",
+    "snippet": "FinRL is the original open-source framework for financial reinforcement learning, organized around three core layers: Market Environments; DRL Agents; Financial ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

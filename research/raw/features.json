@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://smallake.kr/wp-content/uploads/2019/10/SSRN-id3305277.pdf",
+    "name": "[PDF] Investigating Limit Order Book Characteristics for Short Term Price",
+    "snippet": "In this paper, we employ a machine learning approach to investigate Limit Order Book features and their potential to predict short term price movements.\nWith the proliferation of algorithmic high-frequency trading in financial markets, the Limit Order Book has generated increased research interest.",
+    "host_name": "smallake.kr",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@writeronepagecode/quant-trading-with-python-a-guide-to-limit-order-book-analysis-ep-2-365-8db2e017a623",
+    "name": "Quant Trading with Python: A Guide to Limit Order Book Analysis EP",
+    "snippet": "This guide provides a comprehensive walkthrough of a professional-grade quant trading workflow. We begin by implementing a custom order book ...",
+    "host_name": "medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/57770/feature-engineering-for-mid-price-prediction-quickly-changing-features",
+    "name": "Feature engineering for mid-price prediction - quickly changing",
+    "snippet": "Yes, imbalances and other metrics change quickly; that is why HFTs need to be quick. Your modeling cannot ignore that without suffering. I would ...\nYes, imbalances and other metrics change quickly; that is why HFTs need to be quick. Your modeling cannot ignore that without suffering. I would ... Limit order book modeling based on computational statistics market microstructure - Order Flow Imbalance calculation More results from quant.stackexchange.com",
+    "host_name": "quant.stackexchange.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cis.upenn.edu/~mkearns/papers/KearnsNevmyvakaHFTRiskBooks.pdf",
+    "name": "[PDF] Machine Learning for Market Microstructure and High Frequency",
+    "snippet": "In this chapter, we overview the uses of machine learning for high frequency trading and market microstructure data and problems.",
+    "host_name": "www.cis.upenn.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/945310331/Order-Book-Features-Extracted-by-Quantitative-Strategies",
+    "name": "Order Book Features for Trading Insights | PDF - Scribd",
+    "snippet": "These features help algorithms identify supply/demand imbalances and improve trading decisions, with machine learning techniques enhancing predictive accuracy.",
+    "host_name": "www.scribd.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2403.09267v1",
+    "name": "Deep Limit Order Book Forecasting A microstructural guide - arXiv",
+    "snippet": "We exploit cutting-edge deep learning methodologies to explore the predictability of high-frequency Limit Order Book mid-price changes for a heterogeneous set ...",
+    "host_name": "arxiv.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/391292844_Deep_Reinforcement_Learning_for_Optimizing_Order_Book_Imbalance-Based_High-Frequency_Trading_Strategies",
+    "name": "Deep Reinforcement Learning for Optimizing Order Book Imbalance",
+    "snippet": "This paper proposes an innovative deep reinforcement learning ・ leveraging order book imbalance as a predictive ・ real-time order book data into a DRL model, ...\nThe approach integrates real-time order book data into a DRL model, enabling adaptive and optimized trading decisions in dynamic market conditions. The ...",
+    "host_name": "www.researchgate.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://trepo.tuni.fi/bitstream/handle/10024/117394/978-952-03-1288-6.pdf?sequence=5&isAllowed=y",
+    "name": "[PDF] Mid-Price Movement Prediction in Limit Order Books Using Feature",
+    "snippet": "The thesis develops novel methods for the identification of limit order book char- acteristics which provide traders and market makers an ...\nThis thesis introduces feature engineering for LOB high-frequency trading data by utilizing machine and deep learning for the task of mid ...",
+    "host_name": "trepo.tuni.fi",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/nicolezattarin/LOB-feature-analysis",
+    "name": "nicolezattarin/LOB-feature-analysis - GitHub",
+    "snippet": "Feature engineering of a Limit Order Book. Extraction of features from a LOB in order to analyse the behaviour of trade market.",
+    "host_name": "github.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4226309_code3881963.pdf?abstractid=4226309&mirid=1",
+    "name": "[PDF] The relevance of features to limit order book learning",
+    "snippet": "To examine the contribution of input elements to ML models, we propose three novel statistical measures for ranking each feature set from the. LOB data and the ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -113,3 +113,64 @@ Stage Summary:
 - All strategies work in both Backtester and live execution engine
 - Lint clean, tsc clean (0 errors in src/)
 - All 21 modules still load with 0 console errors
+
+---
+Task ID: 4 (Executional Charting module)
+Agent: Main agent
+Task: Research and build advanced Executional Charting module with neon prediction overlay, multi-model ML ensemble, execution plugins, and self-learning pattern engine
+
+Work Log:
+- Launched research subagent → produced /home/z/my-project/research/executional_charting.md (7,761 words, 20 web searches)
+  Covers: HMM (Baum-Welch/Viterbi), Kalman Filter, ARIMA/GARCH, LSTM/Transformer, Triple-barrier labeling,
+  Volume profile, Footprint charts, TPO Market Profile, WebGL/Canvas/SVG, SOR algorithms, VWAP/TWAP/IS/POV,
+  FIX protocol, TCA, CPCV, Deflated Sharpe Ratio, Heston, OU, Hawkes processes, Copulas, neon visualization
+- Created 3 new engine files:
+  1. prediction-engine.ts (559 lines) — 7 prediction models:
+     - HMM (3-state bull/bear/neutral with Baum-Welch-style EM)
+     - Kalman Filter (local linear trend with predict/update)
+     - ARIMA(1,1,1) (differencing + AR(1) + MA(1))
+     - GARCH(1,1) (method of moments estimation, h-step forecast)
+     - Mean Reversion (Ornstein-Uhlenbeck with half-life)
+     - Momentum Continuation (decaying ROC)
+     - Bayesian Ensemble (probability-weighted combination)
+     - Prediction accuracy evaluation (directional + MAE/MAPE)
+  2. execution-plugins.ts (328 lines) — extensible broker adapter system:
+     - ExecutionAdapter interface (connect/disconnect/placeOrder/cancelOrder/getPositions)
+     - 5 adapter stubs: Simulation (active), Tradovate, Interactive Brokers, NinjaTrader, TradingView
+     - Smart Order Router (square-root impact model, VWAP/TWAP/IS/POV/ARRIVAL benchmarks)
+     - Transaction Cost Analysis (slippage decomposition, market impact, timing cost)
+  3. pattern-learning.ts (239 lines) — self-improving pattern engine:
+     - Prediction history tracking (every prediction recorded with timestamp)
+     - Accuracy evaluation (directional correctness + MAE/MAPE)
+     - Dynamic weight adjustment (reinforcement learning — recent accuracy drives weight)
+     - Pattern mining (finds recurring candle sequences with win rate + significance)
+     - Adaptation log (tracks system improvements over time)
+- Created ExecutionalCharting.tsx (1,008 lines) with 5 tabs:
+  1. Neon Chart + Prediction — candlestick chart with NEON HOLLOW predicted candle overlay
+     (cyan for bullish predictions, fuchsia for bearish, with glow effect), volume profile sidebar,
+     prediction summary banner with bull/bear probabilities + execute BUY/SELL buttons, predicted
+     candle detail table with neon color indicators
+  2. Prediction Models — model forecast comparison chart (each model as a line with thickness
+     proportional to weight), model performance table with weights/confidence/accuracy/streak/
+     last-10 results, individual model detail cards
+  3. Pattern Mining — current pattern match banner, pattern length selector (2-5 candles),
+     discovered patterns table with sequence visualization, occurrences, avg return, win rate,
+     significance score, prediction direction
+  4. Execution Plugins — active plugin cards (Simulation is primary), available broker adapters
+     (Tradovate, IBKR, NinjaTrader, TradingView), Smart Order Router with urgency selection
+     (LOW/MEDIUM/HIGH) and recommended benchmark, estimated slippage, child order count
+  5. Self-Learning — overall stats (total predictions, evaluated, accuracy, recent accuracy),
+     adaptation log, model weight distribution bars (self-adjusting), recent prediction log table
+     with direction correctness tracking
+- Wired into sidebar as module #22 "Executional Charting"
+- All additive — zero existing files modified except page.tsx (import + ModuleId + MODULES + switch case)
+
+Stage Summary:
+- 22 sidebar modules total (was 21)
+- 4 new files (3 engine + 1 UI), 2,134 new lines
+- Codebase: 20,473 lines across 46 files
+- Lint clean, tsc clean (0 errors in src/)
+- All 5 tabs tested via Agent Browser: neon overlay renders, predictions generate, patterns mine,
+  execution plugins display, SOR recommends, self-learning tracks
+- Zero console errors, zero page errors
+- Research report saved to /home/z/my-project/research/executional_charting.md (7,761 words)

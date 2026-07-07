@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.econstor.eu/bitstream/10419/104833/1/tdb139.pdf",
+    "name": "[PDF] Stochastic volatility with an Ornstein-Uhlenbeck process",
+    "snippet": "In this paper, we reexamine and extend the stochastic volatility model of Stein and Stein (1991) where volatility follows a mean-reversion Ornstein-Uhlenbeck ...",
+    "host_name": "www.econstor.eu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@simonleung5jobs/stochastic-volatility-models-and-statistical-simulation-51ff813084b1",
+    "name": "Stochastic Volatility Models Simulation and Statistical Model - Medium",
+    "snippet": "Modeling stock volatility with the Ornstein-Uhlenbeck (OU) process can be done by treating volatility as a mean-reverting process. The OU ...",
+    "host_name": "medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/ornstein-uhlenbeck-process-for-mean-reversion",
+    "name": "Ornstein-Uhlenbeck Process for Mean Reversion - QuestDB",
+    "snippet": "The Ornstein-Uhlenbeck process is a stochastic model pulling values back to a long-term mean, widely used for mean-reversion trading, rates, and volatility.",
+    "host_name": "questdb.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://economics.princeton.edu/published-papers/option-pricing-under-stochastic-volatility-the-exponential-ornstein-uhlenbeck-model",
+    "name": "[PDF] Option pricing under stochastic volatility: the exponential Ornstein",
+    "snippet": "We study the pricing problem for a European call option when the volatility of the underlying asset is random and follows the exponential Ornstein-Uhlenbeck ...",
+    "host_name": "economics.princeton.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/2265268_Mean-Reverting_Stochastic_Volatility",
+    "name": "(PDF) Mean-Reverting Stochastic Volatility - ResearchGate",
+    "snippet": "In this paper, we relax the power parameter of instantaneous variance and develop a new stochastic volatility plus jumps model that generalize ...",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2512.19821v1",
+    "name": "1 The major stochastic (local) volatility models - arXiv",
+    "snippet": "is a mean-reverting Ornstein-Uhlenbeck process. When the Heston model is recalibrated, for example every business day, the Heston parameters ...",
+    "host_name": "arxiv.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1062940818304923",
+    "name": "Variance swaps with double exponential Ornstein-Uhlenbeck",
+    "snippet": "we propose a two-factor log normal stochastic volatility model is given by an Ornstein-Uhlenbeck process which is a mean-reverting, model is given by an ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://uregina.ca/~kozdron/Teaching/Regina/441Fall14/Notes/L31-32-Nov19.pdf",
+    "name": "[PDF] The Ornstein-Uhlenbeck Process as a Model of Volatility",
+    "snippet": "The parameter a measures the speed of the mean-reversion, b is the average level of volatility, Heston's model involves a system of stochastic differential ...",
+    "host_name": "uregina.ca",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.arfjournals.com/image/catalog/Journals%20Papers/JES/2025/No%201%20(2025)/Article_4.pdf",
+    "name": "[PDF] Parameter Estimation in Levy Driven Stochastic Volatility Models",
+    "snippet": "In the following, we obtain nonparametric estimators of the minimum contrast estimator of the mean reversion parameter in the Heston model using ...",
+    "host_name": "www.arfjournals.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=gPPyJZnFNHg",
+    "name": "Trading stock volatility with the Ornstein-Uhlenbeck process",
+    "snippet": "Understanding and modelling volatility accurately is of utmost importance in financial mathematics. The emergence of volatility clustering ...",
+    "host_name": "www.youtube.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

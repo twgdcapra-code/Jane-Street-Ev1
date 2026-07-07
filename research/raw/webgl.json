@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.fusioncharts.com/blog/canvas-vs-svg-charts",
+    "name": "Canvas vs. SVG: Which is Best for JavaScript Charts? - Fusioncharts",
+    "snippet": "As a general rule, Canvas is often preferred for high-performance, data-intensive applications, while SVG is better suited for interactive, ...",
+    "host_name": "www.fusioncharts.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.svggenie.com/blog/svg-vs-canvas-vs-webgl-performance-2025",
+    "name": "SVG vs Canvas vs WebGL: Which Should You Use? (2026",
+    "snippet": "An accessible, CSS-styled SVG chart is better than a high-performance Canvas chart that took 3 weeks to build and breaks on screen readers.",
+    "host_name": "www.svggenie.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.yworks.com/blog/svg-canvas-webgl",
+    "name": "SVG, Canvas, WebGL? Visualization options for the web - yWorks",
+    "snippet": "A comparison of the various options for rendering graphics in modern browsers in the context of graph and network visualization.",
+    "host_name": "www.yworks.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://imld.de/cnt/uploads/Horak-2018-Graph-Performance.pdf",
+    "name": "[PDF] Comparing Rendering Performance of Common Web Technologies for",
+    "snippet": "We found that SVG and Canvas almost perform on par, with per- formance drops starting at around 10,000 graphical elements, while. WebGL performs slightly better ...",
+    "host_name": "imld.de",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scichart.com/blog/best-webgl-based-chart-rendering-libraries",
+    "name": "Best WebGL-Based Chart Rendering Libraries for Apps - SciChart",
+    "snippet": "Looking for WebGL-based chart rendering libraries? Our guide breaks down the best options for big data, real-time speed, and deep UI ...",
+    "host_name": "www.scichart.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://apexcharts.com/blog/svg-vs-canvas-charts",
+    "name": "SVG vs Canvas Charts: What Actually Matters (2026) | ApexCharts.js",
+    "snippet": "This is the nuance most comparisons miss. SVG wins on interactivity, styling, crisp export, and accessibility. Each mark is a real element you ...",
+    "host_name": "apexcharts.com",
+    "rank": 5,
+    "date": "Jul 3, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://lightningchart.com/blog/trader/fintech-charts-comparison",
+    "name": "Fintech Charts: WebGL Vs HTML5 Charts Comparison - LightningChart",
+    "snippet": "Learn how WebGL Fintech charts components are replacing HTML5 Fintech charts with high-performance technology.",
+    "host_name": "lightningchart.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quora.com/Which-is-better-for-data-visualizations-on-the-browser-SVG-or-Canvas",
+    "name": "Which is better for data visualizations on the browser: SVG or Canvas?",
+    "snippet": "There are some key differences. SVG is vector based and Canvas is a bitmap you draw on. Scaling with SVG is natural and with Canvas it ...",
+    "host_name": "www.quora.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev3lop.com/blog/svg-vs-canvas-vs-webgl-rendering-choice-for-data-visualization",
+    "name": "SVG vs. Canvas vs. WebGL: Rendering Choice for Data",
+    "snippet": "In summary, SVG, Canvas, and WebGL each provide powerful visualization capabilities uniquely suited for different business scenarios. Your ...",
+    "host_name": "dev3lop.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=wjtfQ8NI2T8",
+    "name": "SVG, Canvas, and WebGL: The Power, the Beauty, and the Cost - YouTube",
+    "snippet": "https://2020.cascadiajs.com Do you want to tell meaningful stories with your data? We will explore the path towards building gpu-performant ...",
+    "host_name": "www.youtube.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

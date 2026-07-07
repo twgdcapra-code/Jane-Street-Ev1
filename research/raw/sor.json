@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://medium.com/@simomenaldo/a-deep-dive-into-execution-algorithms-757d0f77c3d6",
+    "name": "A Deep Dive into Execution Algorithms | by Simone Menaldo - Medium",
+    "snippet": "From the simple, yet effective, VWAP and TWAP strategies to the sophisticated, data-driven adaptive and smart-routing systems, these algorithms ...",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/algorithmic-execution-strategies",
+    "name": "Algorithmic Execution Strategies - QuestDB",
+    "snippet": "TWAP strategies divide orders into equal-sized pieces and execute them at regular time intervals. This approach is simple but may not adapt well to changing ...",
+    "host_name": "questdb.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mbrenndoerfer.com/writing/execution-algorithms-optimal-trading-strategies",
+    "name": "Optimal Execution Algorithms: TWAP, VWAP & Market Impact",
+    "snippet": "The simplest execution algorithm is TWAP, which divides the total order into equal-sized pieces and executes one piece at regular intervals ...",
+    "host_name": "mbrenndoerfer.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/7-execution-algorithms-you-should-know-benjamin-jacob-vl7pf",
+    "name": "7 Execution Algorithms You Should Know About. - LinkedIn",
+    "snippet": "1. Volume Weighted Average Price (VWAP) · 2. Time Weighted Average Price (TWAP) · 3. Implementation Shortfall (IS) · 4. Percentage of Volume (POV).",
+    "host_name": "www.linkedin.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sc.com/en/uploads/sites/66/content/docs/Execution-algorithms-standard-chartered-Jan-2026.pdf",
+    "name": "[PDF] Standard Chartered Execution Algorithms",
+    "snippet": "These provide information on our order routing and circumstances in which an order may be cancelled by us prior to its completion, even if completion would.",
+    "host_name": "www.sc.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://holaprime.com/blogs/trading-education/twap-vwap-in-forex-accounts",
+    "name": "Algorithmic Execution (TWAP/VWAP) in Forex Accounts - Hola Prime",
+    "snippet": "Execution algorithms like TWAP and VWAP aim to reduce this “shoe-tying” problem. They give you cleaner entries and exits, reduce market impact, ...",
+    "host_name": "holaprime.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.bit.com/institution/algo-execution",
+    "name": "BIT (formerly Matrixport) Algorithmic Execution - Smart Trading",
+    "snippet": "Professional algorithmic execution with TWAP, VWAP, POV strategies. Reduce costs and market impact for large orders.",
+    "host_name": "www.bit.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stockalpha.ai/alpha-learning/algorithmic-trade-execution-minimizing-slippage-with-vwap-and-twap-strategies",
+    "name": "Algorithmic Trade Execution: Minimizing Slip | Alpha Learning",
+    "snippet": "Advanced guide to algorithmic execution: VWAP, TWAP, and Implementation Shortfall strategies to reduce slippage and market impact for large ...",
+    "host_name": "stockalpha.ai",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.bestexresearch.com/insights/is-zero-reinventing-vwap-algorithms-to-minimize-implementation-shortfall",
+    "name": "INTRODUCING IS ZERO: Reinventing VWAP Algorithms to Minimize",
+    "snippet": "According to our recent poll, 72% of traders use the VWAP algorithm to minimize Implementation Shortfall (IS) for low-urgency trades—a ...",
+    "host_name": "www.bestexresearch.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/1206.5324",
+    "name": "[PDF] Effective Trade Execution1 - arXiv",
+    "snippet": "The objective of the VWAP strategy is to adjust the trade path to closely target the execution method. Percent of Volume (POV). POV is an algorithm designed to ...",
+    "host_name": "arxiv.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

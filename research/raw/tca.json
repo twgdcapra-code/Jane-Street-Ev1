@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://questdb.com/glossary/transaction-cost-modeling",
+    "name": "Transaction Cost Modeling - QuestDB",
+    "snippet": "Transaction cost modeling is the systematic approach to estimating and analyzing the total costs associated with executing trades in financial markets.",
+    "host_name": "questdb.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.talos.com/insights/execution-insights-through-transaction-cost-analysis-tca-benchmarks-and-slippage",
+    "name": "Execution Insights Through Transaction Cost Analysis (TCA)",
+    "snippet": "Learn how to measure trade execution performance using TCA benchmarks like arrival price, TWAP and VWAP.",
+    "host_name": "www.talos.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fe.training/free-resources/portfolio-management/transaction-costs",
+    "name": "Transaction Costs - In-Depth Guide with Excel Template - Financial Edge",
+    "snippet": "Transaction costs are the expenses incurred when buying or selling a financial asset, such as stocks, bonds, or derivatives.",
+    "host_name": "www.fe.training",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quodfinancial.com/transaction-cost-analysis-tca-institutional-trading",
+    "name": "Transaction Cost Analysis (TCA) in Institutional Trading - Quod Financial",
+    "snippet": "At its core, transaction cost analysis is the discipline of measuring what you paid to execute – not just the commission on the ticket, but ...",
+    "host_name": "www.quodfinancial.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@simomenaldo/transaction-cost-analysis-7b8f92164b8b",
+    "name": "Transaction Cost Analysis - Medium",
+    "snippet": "This article provides a comprehensive overview of the key concepts and benchmarks in TCA, from the foundational principle of implementation ...",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.bfinance.com/insights/transaction-cost-analysis",
+    "name": "Transaction cost analysis: Has transparency really improved?",
+    "snippet": "Transaction cost analysis (TCA) awareness is on the rise, with equity and bond investors increasingly recognising trading as a key area of leakage.",
+    "host_name": "www.bfinance.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/384458498_The_impact_of_transactions_costs_and_slippage_on_algorithmic_trading_performance",
+    "name": "The impact of transactions costs and slippage on algorithmic trading",
+    "snippet": "This study examines how these hidden expenses reduce profitability by eroding returns. Transaction costs include fees, commissions, and bid-ask spreads.",
+    "host_name": "www.researchgate.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://milltech.com/resources/glossary/transaction-cost-analysis-tca",
+    "name": "Transaction Cost Analysis (TCA) - Definition - MillTech",
+    "snippet": "Transaction Cost Analysis evaluates past trade data to assess execution quality and determine if trades were made at fair, competitive prices.",
+    "host_name": "milltech.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.plus-concepts.com/f2f2013/seoul/PDF/1540%20-%20Joel%20Kim,%20Dataroad.pdf",
+    "name": "[PDF] Actionable and Comparable Transaction Cost Analysis",
+    "snippet": "TCA: Transaction Cost Analysis . TCA . □ calculate/estimate/predict/analysis of transaction costs. □ in order to. ▷ evaluate the quality and performance of ...",
+    "host_name": "www.plus-concepts.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/quant/comments/1dlgzqx/transaction_cost_analysis_and_minimizing_slippage",
+    "name": "Transaction Cost Analysis and Minimizing Slippage : r/quant - Reddit",
+    "snippet": "Trying to implement different slippage models on simulated data to optimize the execution of my algorithm. What would you guys consider ...",
+    "host_name": "www.reddit.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590123025017748",
+    "name": "A hybrid approach to time series forecasting: Integrating ARIMA and",
+    "snippet": "This hybrid model enhances forecast accuracy by leveraging ARIMA's ability to capture linear dependencies and short-term fluctuations.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://machinelearningplus.com/time-series/arima-model-time-series-forecasting-python",
+    "name": "ARIMA Model - Complete Guide to Time Series Forecasting in Python",
+    "snippet": "Using ARIMA model, you can forecast a time series using the series past values. In this post, we build an optimal ARIMA model from scratch and extend it to ...",
+    "host_name": "machinelearningplus.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.machinelearningmastery.com/arima-for-time-series-forecasting-with-python",
+    "name": "How to Create an ARIMA Model for Time Series Forecasting in Python",
+    "snippet": "The ARIMA (AutoRegressive Integrated Moving Average) model stands as a statistical powerhouse for analyzing and forecasting time series data.",
+    "host_name": "www.machinelearningmastery.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s40822-023-00243-x",
+    "name": "Forecasting volatility by using wavelet transform, ARIMA and",
+    "snippet": "This work explores econometric alternatives for time series forecasting, such as the ARIMA and GARCH models, which have been widely used in the financial ...",
+    "host_name": "link.springer.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.kaggle.com/questions-and-answers/438359",
+    "name": "How accurate is time series forecasting with ARIMA? - Kaggle",
+    "snippet": "ARIMA can be accurate for time series forecasting when data is stationary and you choose the right model parameters. It's a valuable tool but may not work ...",
+    "host_name": "www.kaggle.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://robotwealth.com/fitting-time-series-models-to-the-forex-market-are-arimagarch-predictions-profitable",
+    "name": "Time Series: ARIMA/GARCH for FX? - Robot Wealth",
+    "snippet": "Explore ARIMA and GARCH time series analysis to build effective and profitable FX trading strategies using model forecasts and predictions.",
+    "host_name": "robotwealth.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.jumpingrivers.com/blog/time-series-forecasting-python-arima",
+    "name": "Time Series Forecasting in Python - Jumping Rivers",
+    "snippet": "We introduce the ARIMA framework for time series forecasting and demonstrate the process using a real world example with Python.",
+    "host_name": "www.jumpingrivers.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.quantinsti.com/forecasting-stock-returns-using-arima-model",
+    "name": "Forecasting Stock Prices Using ARIMA Model - QuantInsti Blog",
+    "snippet": "Use the ARIMA Model for Stock Price Forecasting in Python with a step-by-step guide on data preparation, parameter tuning, backtesting, ...",
+    "host_name": "blog.quantinsti.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=FNdDfCgwzho",
+    "name": "Build ARCH and GARCH Models in Time Series using Python",
+    "snippet": "In this video, we build ARCH and GARCH models in Python to forecast stock market volatility using real financial time series data.",
+    "host_name": "www.youtube.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pub.towardsai.net/statistical-forecasting-for-time-series-data-part-5-arma-garch-model-for-time-series-forecasting-98beeedcfba8",
+    "name": "Statistical Forecasting for Time Series Data Part 5: ARMA+GARCH",
+    "snippet": "In this part, the 2 models introduced previously (SARIMA and GARCH) are combined to build predictions and effective confidence intervals for S&P 500 Returns.",
+    "host_name": "pub.towardsai.net",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

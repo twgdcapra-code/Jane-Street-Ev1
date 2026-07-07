@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://traderevolution.com/learn/what-is-fix-protocol",
+    "name": "What Is FIX Protocol? - TraderEvolution",
+    "snippet": "LP connectivity: Brokers use FIX to connect to liquidity providers. The order routing engine sends FIX messages to LPs and receives execution reports back.",
+    "host_name": "traderevolution.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rishi-jha-168719172_what-is-fix-protocol-the-messaging-language-activity-7466597858000113664-ti4g",
+    "name": "What is FIX Protocol in Trading Systems | Rishi Jha posted on the topic",
+    "snippet": "FIX (Financial Information eXchange) is a standardized messaging protocol used in capital markets for: order placement trade execution market ...",
+    "host_name": "www.linkedin.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fixsol.com/fix-adapter-for-trading-connectivity",
+    "name": "FIX Adapter for easy trading by FIXSOL",
+    "snippet": "FIXSOL's FIX adapter simplifies complex order flows, enhances liquidity access and supports secure global trading infrastructure. Designed on FIX protocol ...",
+    "host_name": "www.fixsol.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/insights/fix-vs-proprietary-binary-protocols-pros-cons-for-modern-trading",
+    "name": "FIX vs proprietary binary protocols: pros & cons for modern trading",
+    "snippet": "FIX reduces protocol fragmentation. Brokers and institutional routing platforms frequently prioritise FIX Connectivity for ecosystem ...",
+    "host_name": "www.onixs.biz",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rapidaddition.com/what-is-fix-protocol",
+    "name": "What is FIX Protocol – The Journey to Frictionless Electronic Trading",
+    "snippet": "FIX Protocol is used to exchange real-time trading information between brokers, banks, investment managers, hedge funds, exchanges, and other market ...",
+    "host_name": "rapidaddition.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://plus-concepts.com/f2f2009/shanghai/PPT/0925%20-%20Grace%20Lin.pdf",
+    "name": "[PDF] Setting the Scene Electronic Trading and the FIX Protocol",
+    "snippet": "Dark Pools and Smart Order Routing. FIX is a standard way of communicating trading information electronically between brokers. For “plain” order routing, FIX ...",
+    "host_name": "plus-concepts.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fixsim.com/fix-protocol-tutorial",
+    "name": "FIX Protocol Overview and Tutorial - FIXSIM",
+    "snippet": "FIX (Financial Information eXchange) is the messaging standard used by banks, broker-dealers, validate order routing, execution handling,",
+    "host_name": "www.fixsim.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=fTmdTZwOewU",
+    "name": "FIX API in Trade Processor: how it works and when brokers need it",
+    "snippet": "FIX API connectivity changes what a broker can do with their infrastructure – enabling institutional-grade connectivity for professional ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.inforeachinc.com/smart-fixgate",
+    "name": "Smart FIXGate | Simplify FIX Routing & Risk Controls - InfoReach",
+    "snippet": "Smart FIXGate is an automated and highly configurable FIX protocol order router, engineered to process high volumes of transactions with ultra-low latency.",
+    "host_name": "www.inforeachinc.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://flyerft.com/insights/education/how-fix-protocol-enhances-order-routing",
+    "name": "How FIX Protocol Enhances Order Routing",
+    "snippet": "FIX's network enhances each aspect of your order routing – reducing errors, saving time and boosting client outcomes across the board with broker-neutral ...",
+    "host_name": "flyerft.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

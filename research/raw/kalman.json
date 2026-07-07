@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://blog.quantinsti.com/kalman-filter",
+    "name": "Kalman Filter Python: Tutorial and Strategies - QuantInsti Blog",
+    "snippet": "The Kalman filter combines information from a series of measurements with predictions from a dynamic model to produce optimal estimates of the system's state. Real-world examples of... · Key statistical terms and...",
+    "host_name": "blog.quantinsti.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/intro-to-artificial-intelligence/kalman-filter-in-stock-trading-552e1e4b2dfb",
+    "name": "Kalman filter in stock trading - Medium",
+    "snippet": "Implementation in Python I've implemented a sample code of the algorithm use case in stock trading and published it in the GitHub repo.",
+    "host_name": "medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mql5.com/en/articles/17273",
+    "name": "The Kalman Filter for Forex Mean-Reversion Strategies - MQL5",
+    "snippet": "The Kalman filter is a recursive algorithm used in algorithmic trading to estimate the true state of a financial time series by filtering out noise from price",
+    "host_name": "www.mql5.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://paperswithbacktest.com/course/kalman-filter-trading",
+    "name": "Kalman Filter for Trading - Papers With Backtest",
+    "snippet": "How the Kalman filter extracts trading signals from noisy market data, with applications in pairs trading, dynamic hedging, and trend estimation.",
+    "host_name": "paperswithbacktest.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantitativepy.substack.com/p/implementing-a-kalman-filter-based",
+    "name": "Implementing a Kalman Filter-Based Trading Strategy",
+    "snippet": "Let's walk through the implementation of the Kalman Filter trading strategy in Python. We'll use the yfinance library to fetch stock data, ...",
+    "host_name": "quantitativepy.substack.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/kalman-filter-python-tutorial-and-strategies-part-ii",
+    "name": "Kalman Filter Python: Tutorial and Strategies – Part II",
+    "snippet": "Kalman Filter is a type of prediction algorithm. Tracking moving averages in trading algorithms. Predicting future price movements based on ...",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/herzog-ch/stock-prediction-using-kalman-in-python",
+    "name": "Using a Kalman filter for predicting stock prices in python - GitHub",
+    "snippet": "This is a prototype implementation for predicting stock prices using a Kalman filter. A generic Kalman filter using numpy matrix operations is implemented.",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/299967173_Application_of_Kalman_Filter_in_the_Prediction_of_Stock_Price",
+    "name": "Application of Kalman Filter in the Prediction of Stock Price",
+    "snippet": "A popular algorithm for this purpose is the well-known Kalman filter [11], [12]. Kalman filter has been used in the prediction of stock price [13], [14] . ...",
+    "host_name": "www.researchgate.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantstart.com/articles/kalman-filter-based-pairs-trading-strategy-in-qstrader",
+    "name": "Kalman Filter-Based Pairs Trading Strategy In QSTrader | QuantStart",
+    "snippet": "The Kalman Filter is used to dynamically track the hedging ratio between the two in order to keep the spread stationary (and hence mean reverting). To create ...",
+    "host_name": "www.quantstart.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/11quw7z/kalman_filters",
+    "name": "Kalman Filters : r/algotrading - Reddit",
+    "snippet": "Kalman filters are the rich man's moving average. They're mostly used in machine vision for tracking objects with distinguishable velocities.",
+    "host_name": "www.reddit.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

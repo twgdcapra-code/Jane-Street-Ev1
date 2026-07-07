@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.youtube.com/watch?v=Sajs1C3dufE",
+    "name": "Heikin Ashi Charts on TradingView: Tutorial - YouTube",
+    "snippet": "Welcome to our Heikin Ashi Charts tutorial on TradingView! In this video, we dive deep into understanding Heikin Ashi candlesticks, ...",
+    "host_name": "www.youtube.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.investopedia.com/trading/heikin-ashi-better-candlestick",
+    "name": "Master Trending Markets with Heikin-Ashi Charts - Investopedia",
+    "snippet": "How to Use Heikin-Ashi Charts in Trading · Hollow or green candles with no lower \"shadows\" indicate a strong uptrend: Let your profits ride!",
+    "host_name": "www.investopedia.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/heikin-ashi-candlesticks",
+    "name": "Heikin-Ashi Candlesticks - ChartSchool - StockCharts.com",
+    "snippet": "Heikin-Ashi candlesticks can be used to identify trending periods, potential reversal points, and classic chart patterns.",
+    "host_name": "chartschool.stockcharts.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://in.tradingview.com/scripts/heikin-ashi/page-2",
+    "name": "Heikin-ashi — Indicators and Strategies — TradingView — India",
+    "snippet": "Heikin Ashi Candles filter out noise in the market and provide a clear representation of market trends. In this mode, candlesticks are plotted based on RSI ...",
+    "host_name": "in.tradingview.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.schwab.com/learn/story/heikin-ashi-candles-reversals-and-strategies",
+    "name": "How to Use Heikin Ashi Charts | Charles Schwab",
+    "snippet": "Heikin ashi charts can potentially help traders identify when trends are likely to reverse. Learn how to read these charts and how to use them ...",
+    "host_name": "www.schwab.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.highcharts.com/blog/tutorials/how-to-read-hollow-candlesticks",
+    "name": "How to Read Hollow Candlesticks - Highcharts",
+    "snippet": "Candles within the Hollow candlestick chart are hollow or solid, depending on how high or low the current close price is compared to the current open price.",
+    "host_name": "www.highcharts.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.oanda.com/us-en/skills-and-insights/education/technical-analysis/price-charts-and-candlesticks/heikin-ashi-candles-explained",
+    "name": "Heikin-Ashi candles: a powerful tool for traders to identify market trends",
+    "snippet": "Heikin Ashi candles are a modified candlestick charting technique designed to filter out market noise and provide more explicit trend ...\nHeikin-Ashi charts, an alternative to more commonly used OHLC candles, are a technical analysis tool that helps to smooth out charts and ...",
+    "host_name": "www.oanda.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=OLSHvDuHNt8",
+    "name": "What type of chart is best for trading? Candlestick, Heikin Ashi  - YouTube",
+    "snippet": "https://bit.ly/36DOZfp · 0:30 A Hollow Candlestick Chart plots the data series using a sequence of candlestick figures. · 0:52 Regular candlestick ...\n... Hollow Candlestick Chart plots the data series using a sequence of candlestick figures. A single candlestick consists of a body and a wick ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ig.com/en/trading-strategies/how-to-trade-using-the-heikin-ashi-candlestick-201218",
+    "name": "What is the Heikin Ashi Candlestick and How Can I Use it? - IG",
+    "snippet": "The Heikin Ashi (HA) is a type of price chart that uses averages to show the price movement of an asset. This chart is used as a form of technical analysis.",
+    "host_name": "www.ig.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://help.ctrader.com/knowledge-base/chart-types/heikin-ashi-chart",
+    "name": "Heikin Ashi chart - Knowledge base - cTrader Help Centre",
+    "snippet": "Heikin Ashi candlesticks use the open-close data from the prior period and the open-high-low-close (OHLC) data from the current period to create a candlestick.",
+    "host_name": "help.ctrader.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

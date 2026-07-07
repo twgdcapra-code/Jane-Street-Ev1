@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://dl.acm.org/doi/10.1145/3700058.3700075",
+    "name": "Comparative Analysis of LSTM, GRU, and Transformer Models for",
+    "snippet": "In this paper, we explore the application of AI to stock price trend prediction, especially empirical analysis based on Long short-term memory network (LSTM), ...",
+    "host_name": "dl.acm.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cdn.aui.ma/sse-capstone-repository/pdf/spring-2023/FORECASTING%20US%20STOCK%20PRICES%20USING%20LSTM%20AND%20DEEP%20LEARNING-BASED%20TRANSFORMER%20MODELS.pdf",
+    "name": "[PDF] forecasting us stock prices using lstm and deep learning based",
+    "snippet": "The objective is to forecast US Stock prices using the LSTM and Transformer models and to try and identify the best precise approach for stock price forecasting ...",
+    "host_name": "cdn.aui.ma",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/2413-4155/7/1/7",
+    "name": "LSTM–Transformer-Based Robust Hybrid Deep Learning Model for",
+    "snippet": "This paper proposes a novel financial time series forecasting model based on the deep learning ensemble model LSTM-mTrans-MLP.",
+    "host_name": "www.mdpi.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@mskmay66/transformers-vs-lstm-for-stock-price-time-series-prediction-3a26fcc1a782",
+    "name": "Transformers vs. LSTM for Stock Price Time Series Prediction",
+    "snippet": "We used LSTM and CNN-LSTM model architectures to predict future stock prices using only previous prices as inputs and we did fairly well.",
+    "host_name": "medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/iel8/6287639/10820123/11072109.pdf",
+    "name": "A Hybrid LSTM-GRU Model for Stock Price Prediction - IEEE Xplore",
+    "snippet": "We combined LSTM and GRU to capture long and short information horizons in stock sequences … the difficulty in hyperparameter tuning.",
+    "host_name": "ieeexplore.ieee.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/379522577_Forecasting_Stock_Price_A_Deep_Learning_Approach_with_LSTM_And_Hyperparameter_Optimization",
+    "name": "Forecasting Stock Price: A Deep Learning Approach with LSTM And",
+    "snippet": "The study by You (2024) employed an LSTM network for stock price forecasting, utilizing automated hyperparameter tuning through Optuna. LSTM ...",
+    "host_name": "www.researchgate.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2503.22192v1",
+    "name": "An Advanced Ensemble Deep Learning Framework for Stock Price",
+    "snippet": "This research proposes a cutting-edge ensemble deep learning framework for stock price prediction by combining three advanced neural network ...",
+    "host_name": "arxiv.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/lstm-vs-transformers-stock-price-prediction-what-actually-hegde-inxjc",
+    "name": "LSTM vs Transformers for Stock Price Prediction - LinkedIn",
+    "snippet": "This study investigates whether Transformers can replace LSTMs for stock price prediction, or whether recurrent architectures still provide ...",
+    "host_name": "www.linkedin.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://lup.lub.lu.se/student-papers/record/9158003/file/9158016.pdf",
+    "name": "[PDF] Predicting Prices of Tech Stocks using the Transformer",
+    "snippet": "The authors of this paper use a recurrent neural network (RNN) to predict patterns in stock prices. Since the Transformer architecture was ...",
+    "host_name": "lup.lub.lu.se",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/944774693/Untitled-Document-1",
+    "name": "Hybrid CNN-LSTM-Transformer Stock Prediction | PDF - Scribd",
+    "snippet": "This paper presents a hybrid deep learning model combining CNN, LSTM, and Transformer for real-time stock price prediction, achieving improved accuracy by ...",
+    "host_name": "www.scribd.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

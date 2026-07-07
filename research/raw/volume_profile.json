@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://ninjatrader.com/trading-platform/free-trading-charts/order-flow-trading",
+    "name": "Order Flow Trading & Volumetric Bars | NinjaTrader",
+    "snippet": "A footprint chart displays the buy and sell volume transacted at each individual price level within a bar, giving traders visibility into whether buyers or ...",
+    "host_name": "ninjatrader.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantvps.com/blog/analyzing-footprint-charts?srsltid=AfmBOopkhSjX8yJJ_Ayw4eBLEl4Ql0YoLXq56uTLYiQ38fjrXPQhZ0a2",
+    "name": "Top Footprint Chart Platforms: Analyze Order Flow Like a Pro",
+    "snippet": "VolFix.net goes beyond standard footprint charts by including Market Profile and Volume Profile features. These tools reveal where trading activity clusters ...",
+    "host_name": "www.quantvps.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.motivewave.com/order-flow-trading.htm",
+    "name": "Order Flow - MotiveWave® | Best Professional Trading Platform",
+    "snippet": "The Volume Profile Study displays the distribution of volume traded at each price for a given period, identifying key support and resistance levels. The ... Missing: visualization | Show results with: visualization",
+    "host_name": "www.motivewave.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://gocharting.com/features/orderflow",
+    "name": "Orderflow Analysis — Footprint Charts & Delta - GoCharting",
+    "snippet": "Order Flow charts (also called Footprint charts) show the volume traded at each price level inside every candle — split into buy volume and sell volume. This ... Missing: visualization | Show results with: visualization",
+    "host_name": "gocharting.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradingview.com/support/solutions/43000726164-volume-footprint-charts-a-complete-guide",
+    "name": "Volume footprint charts: a complete guide - TradingView",
+    "snippet": "A volume footprint chart is a powerful trading tool that displays the distribution of buying and selling volume at each price level within individual candles ...",
+    "host_name": "www.tradingview.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=PMi-KQZUeD8",
+    "name": "Order Flow Trading Setup: Footprint, Volume Profile, DOM & Delta",
+    "snippet": "... charts inside Optimus Flow (also works for Quantower users). I'll show you my chart layout and explain how I use each tool: ✓ Footprint chart ... Missing: visualization platform",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://charts.vtrender.com",
+    "name": "Vtrender™ Charts",
+    "snippet": "Real-time order flow visualization showing market depth and liquidity. Track large orders and institutional activity with precision. REAL-TIME DATA ...",
+    "host_name": "charts.vtrender.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.trader-dale.com/how-to-trade-using-volume-profile-and-order-flow-a-step-by-step-strategy",
+    "name": "How to Trade Using Volume Profile and Order Flow: 2026 Guide",
+    "snippet": "What software do I need? You need a platform that supports Volume Profile and Footprint charts. Many professional traders use platforms like Sierra Chart ...",
+    "host_name": "www.trader-dale.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://community.optimusfutures.com/t/what-are-the-best-futures-platforms-for-order-flow-trading/6825",
+    "name": "What Are the Best Futures Platforms for Order Flow Trading?",
+    "snippet": "Optimus Flow (Quantower-powered). Advanced suite: DOM Surface heatmaps, 3D liquidity visualization, footprint charts, and volume profiles.",
+    "host_name": "community.optimusfutures.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cannontrading.com/software/volumetrica-trading",
+    "name": "Order Flow, Heat Map, Volume Profile - Volumetrica Trading",
+    "snippet": "VolSys is a professional trading platform which its main goal is the analysis of the volume profiles, time and sales, order flow and footprint.",
+    "host_name": "www.cannontrading.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

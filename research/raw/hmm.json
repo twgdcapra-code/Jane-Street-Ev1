@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://questdb.com/glossary/market-regime-detection-using-hidden-markov-models",
+    "name": "Market Regime Detection Using Hidden Markov Models - QuestDB",
+    "snippet": "Hidden Markov Models detect market regimes by modeling hidden states and transitions, identifying volatility and trend phases to inform trading strategies.",
+    "host_name": "questdb.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3406068_code3576909.pdf?abstractid=3406068&mirid=1",
+    "name": "[PDF] Market Regime Identification Using Hidden Markov Model",
+    "snippet": "In Baum, Petrie and Weiss (1970), the Baum-Welch algorithm, also called EM algorithm is developed to estimate parameters in HMMs. A gentle tutorial of the. EM ...\nThe mathematics of HMM is presented with three main problems, followed by the Markov chain and two algorithms, which specifically are the Expectation- ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://math.uni.lu/eml/assets/reports/2020/AdrovicCinoProenca.pdf",
+    "name": "[PDF] Experimental Mathematics: Stock trading with hidden Markov models",
+    "snippet": "Baum-Welch algorithm. The Baum-Welch algorithm is used to find the unknown parameters of a hidden. Markov model. It's a special case of the EM algorithm ...",
+    "host_name": "math.uni.lu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cloud-conf.net/datasec/2025/proceedings/pdfs/IDS2025-3SVVEmiJ6JbFRviTl4Otnv/966100a067/966100a067.pdf",
+    "name": "[PDF] HMM-Based Market Regime Detection with RL for Portfolio Management",
+    "snippet": "The HMM parameters T, Ψ, and Π are estimated from historical data using the Baum-Welch algorithm, a variant of the Expectation-Maximization (EM) method. C.\nAbstract — This paper studies the impact of combining a Hidden Markov Model (HMM) with a. Reinforcement Learning (RL) framework, implemented.",
+    "host_name": "www.cloud-conf.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cube.exchange/what-is/market-regime-detection-with-hidden-markov-models",
+    "name": "What Is Market Regime Detection with Hidden Markov Models?",
+    "snippet": "Market regime detection with Hidden Markov Models is a way to infer the market condition you cannot observe directly from the price and ...",
+    "host_name": "www.cube.exchange",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradingview.com/script/ggqF9HsV-Hidden-Markov-Model-Baum-Welch-UAlgo",
+    "name": "Hidden Markov Model: Baum-Welch [UAlgo] - TradingView",
+    "snippet": "Hidden Markov Model: Baum-Welch is a regime detection and reversal signaling indicator that applies a 3 state Hidden Markov Model to ...",
+    "host_name": "www.tradingview.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantstart.com/articles/market-regime-detection-using-hidden-markov-models-in-qstrader",
+    "name": "Market Regime Detection using Hidden Markov Models in QSTrader",
+    "snippet": "In this article the Hidden Markov Model will be utilised within the QSTrader framework as a risk-managing market regime filter.",
+    "host_name": "www.quantstart.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/722079008/MTL106-Assignment2B",
+    "name": "HMM for Market Regime Detection | PDF | Time Series - Scribd",
+    "snippet": "It describes building an HMM with hidden states representing market regimes and observable returns. The Baum-Welch algorithm is used to estimate HMM parameters ...",
+    "host_name": "www.scribd.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=FoMHdshE6oM&vl=en",
+    "name": "The Baum-Welch Algorithm | Hidden Markov Models Part 4 - YouTube",
+    "snippet": "This video explains how the Baum-Welch algorithm learns Hidden Markov Model parameters directly from observation sequences using ...",
+    "host_name": "www.youtube.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developers.lseg.com/en/article-catalog/article/market-regime-detection",
+    "name": "Market regime detection using Statistical and ML based approaches",
+    "snippet": "We use statistical and ML models to identify normal or crash market regimes for S&P 500 and build an investment strategy around that.",
+    "host_name": "developers.lseg.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

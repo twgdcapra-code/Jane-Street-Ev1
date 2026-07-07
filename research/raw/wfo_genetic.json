@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://journals.adbascientific.com/iteb/article/view/126",
+    "name": "Adaptive Multi-Asset Trading Strategy Optimization via Genetic Algorithms",
+    "snippet": "This study presents a comprehensive Genetic Algorithm (GA) framework designed to develop and optimize an adaptive trading strategy for multi- ...",
+    "host_name": "journals.adbascientific.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/the-future-of-backtesting-a-deep-dive-into-walk-forward-analysis",
+    "name": "The Future of Backtesting: A Deep Dive into Walk Forward Analysis",
+    "snippet": "Walk forward analysis is a sophisticated technique used to test and optimize trading strategies. Unlike traditional backtesting, which evaluates a strategy ...",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.buildalpha.com/walk-forward-optimization",
+    "name": "What is Walk Forward Optimization? - Build Alpha",
+    "snippet": "Walk Forward Optimization (WFO) is a technique used in trading strategy development to evaluate the performance of a strategy over multiple periods of data.",
+    "host_name": "www.buildalpha.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://eveince.substack.com/p/walk-forward-optimization-for-algorithmic",
+    "name": "Walk-forward optimization for algorithmic trading strategies on",
+    "snippet": "Walk-Forward Optimization is a sequential optimization and backtesting applied to evaluate an investment strategy. It optimizes the parameter ...",
+    "host_name": "eveince.substack.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.quantinsti.com/walk-forward-optimization-introduction",
+    "name": "Walk-Forward Optimization (WFO) - QuantInsti Blog",
+    "snippet": "Learn how Walk-Forward Optimization (WFO) works, its limitations, and how to implement it for backtesting trading strategies.",
+    "host_name": "blog.quantinsti.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/6217160.pdf?abstractid=6217160&mirid=1",
+    "name": "[PDF] A novel approach to trading strategy parameter optimization, using",
+    "snippet": "This study introduces a novel approach to walk-forward optimization by parameterizing the lengths of training and testing windows.",
+    "host_name": "papers.ssrn.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://grokipedia.com/page/Walk_forward_optimization",
+    "name": "Walk forward optimization - Grokipedia",
+    "snippet": "Walk-forward optimization (WFO) is a simulation technique employed in algorithmic trading to evaluate the robustness and real-world viability of trading ...",
+    "host_name": "grokipedia.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/1j187b3/my_walkforward_optimization_backtesting_system",
+    "name": "My Walkforward Optimization Backtesting System for a Trend",
+    "snippet": "I've been working on a trend-following trading strategy and wanted to share how I use walkforward optimization to backtest and evaluate its performance.",
+    "host_name": "www.reddit.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantbeckman.com/p/with-code-walk-forward-cvcl-optimization",
+    "name": "[WITH CODE] Walk-Forward optimization - by Quant Beckman",
+    "snippet": "Let S represent our trading strategy, which is a function of a parameter vector θ. This vector θ belongs to a predefined parameter space Θ, such ...",
+    "host_name": "www.quantbeckman.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantifiedstrategies.com/trading-strategy-optimization-backtesting",
+    "name": "Trading Strategy Optimization: Example, Definition, Backtesting",
+    "snippet": "By optimizing trading parameters, genetic algorithms help in achieving more stable returns and potentially reduced volatilities. However ...",
+    "host_name": "www.quantifiedstrategies.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

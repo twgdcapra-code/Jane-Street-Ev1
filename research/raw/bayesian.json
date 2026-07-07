@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://scholar.its.ac.id/en/publications/prediction-of-stock-prices-using-markov-chain-monte-carlo",
+    "name": "Prediction of Stock Prices Using Markov Chain Monte Carlo",
+    "snippet": "Apply Bayesian inference to create prediction model and Markov Chain Monte Carlo (MCMC) to generate predicted data. ... keywords = \"Apache Spark, Bayesian ...",
+    "host_name": "scholar.its.ac.id",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/347957337_Prediction_of_Stock_Prices_Using_Markov_Chain_Monte_Carlo",
+    "name": "Prediction of Stock Prices Using Markov Chain Monte Carlo",
+    "snippet": "This paper utilises Bayesian approach to extract latent common trends and cycles of non-stationary panel data. I develop a Markov Chain Monte Carlo (MCMC) ...",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/chaitanyasagar_stock-market-analysis-using-mcmc-bayesian-activity-7096715578811318273-UC8C",
+    "name": "Stock Market Analysis using MCMC Bayesian Inference - LinkedIn",
+    "snippet": "Many people want to predict stock market prices. The authors of this paper have proposed a Markov Chain Monte Carlo (MCMC) Bayesian ...",
+    "host_name": "www.linkedin.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantstart.com/articles/Markov-Chain-Monte-Carlo-for-Bayesian-Inference-The-Metropolis-Algorithm",
+    "name": "Markov Chain Monte Carlo for Bayesian Inference - QuantStart",
+    "snippet": "In this article we are going to discuss MCMC as a means of computing the posterior distribution when conjugate priors are not applicable.",
+    "host_name": "www.quantstart.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nature.com/nature-index/topics/l4/markov-chain-monte-carlo-methods-in-bayesian-inference",
+    "name": "Markov Chain Monte Carlo Methods in Bayesian Inference - Nature",
+    "snippet": "Bayesian inference relies on the computation of posterior distributions to update beliefs about model parameters in the light of observed data. Markov Chai.",
+    "host_name": "www.nature.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.publichealth.columbia.edu/research/population-health-methods/markov-chain-monte-carlo",
+    "name": "Markov Chain Monte Carlo",
+    "snippet": "Markov Chain Monte Carlo (MCMC) simulations allow for parameter estimation such as means, variances, expected values, and exploration of the posterior ...",
+    "host_name": "www.publichealth.columbia.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/document/9297965",
+    "name": "Prediction of Stock Prices Using Markov Chain Monte Carlo",
+    "snippet": "Apply Bayesian inference to create prediction model and Markov Chain Monte Carlo (MCMC) to generate predicted data. By mathematically predicting stock prices ...",
+    "host_name": "ieeexplore.ieee.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@simonleung5jobs/an-alternative-simulation-method-for-stock-price-forecasting-using-python-1bc1649edb99",
+    "name": "An alternative simulation method for stock price forecasting using",
+    "snippet": "It demonstrates how to use “classical” Monte Carlo Simulation to forecast stock closing price. In this article, an alternative method is used, known as Markov ...",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://gnedenko.net/index.php/RTA/article/view/97",
+    "name": "MARKOV CHAIN MONTE CARLO AND MODERN BAYESIAN",
+    "snippet": "Markov Chain Monte Carlo (MCMC) techniques are now the foundation of contemporary Bayesian computation and facilitate efficient sampling from ...",
+    "host_name": "gnedenko.net",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/79/how-useful-is-markov-chain-monte-carlo-for-quantitative-finance",
+    "name": "How useful is Markov chain Monte Carlo for quantitative finance?",
+    "snippet": "MCMC can be used for Bayesian inference of other models with hidden variables. Gibbs sampling, for example, is used in Hidden Markov Models.",
+    "host_name": "quant.stackexchange.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

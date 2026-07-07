@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://mlfinpy.readthedocs.io/en/latest/Labelling.html",
+    "name": "Data Labelling - Mlfin.py",
+    "snippet": "The triple-barrier method tackles this issue by dynamically setting the upper and lower barriers for each observation based on their given volatilities. Meta- ...",
+    "host_name": "mlfinpy.readthedocs.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hudsonthames.org/does-meta-labeling-add-to-signal-efficacy-triple-barrier-method",
+    "name": "Does Meta Labeling Add to Signal Efficacy? - Hudson & Thames",
+    "snippet": "Our results confirm the fact that a combination of event-based sampling, triple-barrier method and meta labeling improves the performance of the strategies.",
+    "host_name": "hudsonthames.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=0lsNKBfFh8A",
+    "name": "Book2-Chapter3-Labeling - YouTube",
+    "snippet": "Subscribe and keep informed! Book 2: Marcos Lopez de Prado, (2018), “Advances in Financial Machine Learning”. Chapter 3: Labeling.",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/1lnm48w/meta_labeling_for_algorithmic_trading_how_to",
+    "name": "Meta Labeling for Algorithmic Trading: How to Amplify a Real Edge",
+    "snippet": "The meta label is a machine learning model that predicts whether each individual signal should be taken or skipped based on features available at the time. How to label financial time series for Machine Learning classification ... Triple-Barrier Labeling in Production (López de Prado) – My ... - Reddit More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@yairoz/the-triple-barrier-method-labeling-financial-time-series-for-ml-in-elixir-e539301b90d6",
+    "name": "The Triple Barrier Method: Labeling Financial Time Series for ML in",
+    "snippet": "The triple barrier method solves those problems. First, it sets a vertical barrier on the time line, in which we will exit our trade no matter what.",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mql5.com/en/articles/19253",
+    "name": "MetaTrader 5 Machine Learning Blueprint (Part 3): Trend-Scanning",
+    "snippet": "The triple-barrier method we explored in Part 2 was a significant improvement over fixed-time horizon labeling, but it still relied on predetermined time limits ...",
+    "host_name": "www.mql5.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://williamsantos.me/posts/2022/triple-barrier-labelling-algorithm",
+    "name": "Algorithmic trading: triple barrier labelling",
+    "snippet": "Triple barrier labelling is a technique for assigning labels to an otherwise unlabelled financial time series, according to some risk parameters.",
+    "host_name": "williamsantos.me",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sefidian.com/2021/06/26/labeling-financial-data-for-machine-learning",
+    "name": "Labeling financial data for Machine Learning - Sefidian Academy",
+    "snippet": "The triple barrier method involves “labeling an observation according to the first barrier touched of out three barriers… two horizontal ...",
+    "host_name": "www.sefidian.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://research.mental-momentum.ai/r/meta-labeling-triple-barrier-methods-lq4i7w",
+    "name": "Meta-labeling and triple-barrier methods in machine learning trading",
+    "snippet": "Learn how Marcos López de Prado's triple-barrier method and meta-labeling architectures improve machine learning trading by reducing false positives.",
+    "host_name": "research.mental-momentum.ai",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantresearch.org/Innovations.htm",
+    "name": "innovations - Marcos M. Lopez de Prado",
+    "snippet": "Triple-Barrier Labeling Method, Machine Learning, A supervised learning labeling method that is congruent with a predefined trading strategy (profit-taking ...",
+    "host_name": "www.quantresearch.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

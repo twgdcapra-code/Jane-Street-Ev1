@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://id.tradingview.com/scripts/tpo",
+    "name": "TPO — Indikator dan Strategi - TradingView",
+    "snippet": "RS: Market ProfileA Market Profile (time price opportunity) implementation with an option to mark a point of control (POC) based on volume.",
+    "host_name": "id.tradingview.com",
+    "rank": 0,
+    "date": "Jun 30, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=0sgQTJORQiQ",
+    "name": "Time Price Opportunity (TPO) / Market Profile: Beginners Tutorial - YouTube",
+    "snippet": "In this video i'll breakdown everything you need to know about the TPO market profile chart: How To set Up a TPO Chart What is a TPO chart ...",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sierrachart.com/index.php?page=doc/StudiesReference/TimePriceOpportunityCharts.html",
+    "name": "Time Price Opportunity (TPO) Profile Charts - Sierra Chart",
+    "snippet": "The TPO Profile Chart study allows you to clearly see the areas where the market is trading at most of the time. The TPO Profile Chart study ...\nBy using a TPO chart, you are able to analyze the amount of trading activity, based on time, for each price level the market traded at for any given time period. The TPO Profile Chart study allows you to clearly see the areas where the market is trading at most of the time.",
+    "host_name": "www.sierrachart.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ninjatrader.medium.com/the-practical-application-of-time-price-opportunity-tpo-profile-charts-in-futures-trading-216a8fb43781",
+    "name": "The Practical Application of Time Price Opportunity (TPO) Profile Charts in",
+    "snippet": "Market Profile divides the trading day into 30-minute time blocks, also known as TPOs (Time Price Opportunities). Each TPO represents a specific ... What are Time Price... · How TPO Profile Charts Work",
+    "host_name": "ninjatrader.medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mql5.com/en/articles/21388",
+    "name": "Hybrid Time Price Opportunity (TPO) Market Profiles for Session Analysis",
+    "snippet": "In this article, we develop a custom indicator in MQL5 for hybrid Time Price Opportunity (TPO) market profiles, supporting multiple session timeframes",
+    "host_name": "www.mql5.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.overcharts.com/en/helpcenter/docs/tpo-profile-overview",
+    "name": "TPO Profile - Overview - Overcharts Help Center",
+    "snippet": "TPO Profile - Session",
+    "host_name": "www.overcharts.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://atas.net/blog/analyzing-tpo-5-important-elements-in-jim-daltons-opinion",
+    "name": "Analyzing TPO: 5 important elements in Jim Dalton's opinion | ATAS",
+    "snippet": "TPO (Time Price Opportunity) is a classical visualization of the market profile. TPO could be built by any time period, not 30 minutes only.",
+    "host_name": "atas.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bookmap.com/blog/market-profile-trading-understanding-its-power-and-impact",
+    "name": "Market Profile Trading: Understanding its Power and Impact - Bookmap",
+    "snippet": "Time Price Opportunity (TPO) charting is one of the core foundations of Market Profile Trading. Instead of focusing only on price movement, TPO methodology ...",
+    "host_name": "bookmap.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://optimusfutures.com/blog/tpo-charts-explained-for-beginners-market-profile-guide",
+    "name": "TPO Charts Explained for Beginners: Market Profile Guide",
+    "snippet": "In this Quantower (Optimus Flow) tutorial, we break down TPO Charts (Time Price Opportunity) from the ground up so you can master Market Profile ...",
+    "host_name": "optimusfutures.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradingview.com/support/solutions/43000713306-time-price-opportunity-tpo-indicator",
+    "name": "Time Price Opportunity (TPO) indicator — TradingView",
+    "snippet": "With the Time Price Opportunity (TPO) indicator, also known as \"Market Profile,\" you can analyze market activity by price level as it develops over time. It provides you with a unique perspective on market dynamics, price distribution, and price targets to help predict future market behavior.",
+    "host_name": "www.tradingview.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

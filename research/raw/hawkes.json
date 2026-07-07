@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://arxiv.org/html/2408.03594v1",
+    "name": "Forecasting high frequency order flow imbalance using Hawkes processes",
+    "snippet": "This paper uses Hawkes processes to estimate the OFI while accounting for the lagged dependence in the order flow between bids and offers.",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.176412729.90497182/v1",
+    "name": "[PDF] OPTIMAL EXECUTION UNDER SELF-EXCITING ORDER FLOW",
+    "snippet": "This paper addresses these limitations by developing a unified stochastic control framework that integrates self-exciting order flow dynamics through Hawkes ...",
+    "host_name": "www.techrxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@ibrahimlanre1890/hawkes-processes-a-stochastic-gem-2baa7dd1ea55",
+    "name": "Hawkes Processes: A Stochastic Gem | by Ibrahim Lanre Adedimeji",
+    "snippet": "Hawkes processes provide a mathematical framework for describing this behavior by modeling markets as self exciting systems in which past events ...",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://wp.lancs.ac.uk/finec2018/files/2018/09/FINEC-2018-047-Mikko-Pakkanen.pdf",
+    "name": "[PDF] Limit order book modelling with state-dependent Hawkes processes",
+    "snippet": "Hawkes-process models of the order flow allow to capture self- and cross-excitation effects between market events.",
+    "host_name": "wp.lancs.ac.uk",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://epubs.siam.org/doi/10.1137/22M1470815",
+    "name": "Order Book Queue Hawkes Markovian Modeling - SIAM Publications Library",
+    "snippet": "The Hawkes process [14, 16], also called a “self-exciting and mutually exciting point process,” is a type of stochastic point process whose essential property ...",
+    "host_name": "epubs.siam.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.maths.ox.ac.uk/system/files/attachments/Hawkes%20Process-Driven%20Models%20for%20Limit%20Order%20Book%20Dynamics_0.pdf",
+    "name": "[PDF] Hawkes Process-Driven Models for Limit Order Book Dynamics",
+    "snippet": "In this dissertation, we investigate the use of Hawkes processes to model limit order book dynamics. We give empirical evidence for the applicability of ...",
+    "host_name": "www.maths.ox.ac.uk",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/272422571_Hawkes_Processes_in_Finance",
+    "name": "(PDF) Hawkes Processes in Finance - ResearchGate",
+    "snippet": "In this paper we propose an overview of the recent academic literature devoted to the applications of Hawkes processes in finance.",
+    "host_name": "www.researchgate.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=BotPHbWFRUA",
+    "name": "Hawkes Processes for Quant Finance - YouTube",
+    "snippet": "... self-exciting Poisson process in a standard diffusion to get a Hawkes Jump-Diffusion Model which can better capture the empirical dynamics ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/10.1145/3534678.3539462",
+    "name": "State Dependent Parallel Neural Hawkes Process for Limit Order",
+    "snippet": "This research presents a state-dependent parallel neural Hawkes process designed to predict and simulate limit order book events in financial markets. The limit ...",
+    "host_name": "dl.acm.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://web.maths.unsw.edu.au/~fengchen/pubs/StindlChen2021-FastRH.pdf",
+    "name": "[PDF] Accelerating the estimation of renewal Hawkes self-exciting point processes",
+    "snippet": "The Hawkes process (Hawkes, 1971a,b) is a point process model where a self- exciting effect exists among events of the process so that the occurrence of an.",
+    "host_name": "web.maths.unsw.edu.au",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

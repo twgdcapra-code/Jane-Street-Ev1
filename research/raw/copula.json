@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://eaj.ebujournals.lu/index.php/EAJ_II/article/view/86",
+    "name": "A Methodical Investigation into the Application of Copula Theory in",
+    "snippet": "This method review explores the utilization of copula theory in modeling dependency among financial assets. It examines copula theory ...",
+    "host_name": "eaj.ebujournals.lu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://janelleturing.medium.com/copula-models-for-multivariate-financial-data-correlation-and-dependency-analysis-in-python-134972883a99",
+    "name": "Copula Models for Multivariate Financial Data: Correlation and",
+    "snippet": "Copula models provide a powerful framework for analyzing and quantifying the correlations and dependencies between multiple variables in financial data.",
+    "host_name": "janelleturing.medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://analystprep.com/study-notes/frm/part-2/market-risk-measurement-and-management/financial-correlation-modeling-bottom-up-approaches",
+    "name": "Financial Correlation Modeling and Copula Methods - AnalystPrep",
+    "snippet": "Copula functions allow for modeling dependencies between assets by separating marginal distributions from their copula, providing a more ...",
+    "host_name": "analystprep.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/381112444_Unraveling_Financial_Interconnections_A_Methodical_Investigation_into_the_Application_of_Copula_Theory_in_Modeling_Asset_Dependence",
+    "name": "A Methodical Investigation into the Application of Copula Theory in",
+    "snippet": "This method review explores the utilization of copula theory in modeling dependency among financial assets. It examines copula theory ...",
+    "host_name": "www.researchgate.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://risk-engineering.org/copula-multivariate-dependencies",
+    "name": "Copula methods: Modelling correlation between risks",
+    "snippet": "Copula are functions that describe dependencies between variables, and are used in risk models with correlated inputs.",
+    "host_name": "risk-engineering.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DYcmzo7piBi",
+    "name": "Copulas provide a powerful framework for modeling  - Instagram",
+    "snippet": "This allows you to capture nonlinear relationships, model tail dependence, better understand how assets behave during market stress, and build ...",
+    "host_name": "www.instagram.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://janelleturing.medium.com/copula-models-for-multivariate-financial-data-correlation-and-dependency-analysis-in-python-5ec0c3a3df08",
+    "name": "Copula Models for Multivariate Financial Data: Correlation and",
+    "snippet": "In this tutorial, we will explore how to use copula models in Python to analyze and visualize the correlation and dependency structure of financial assets.",
+    "host_name": "janelleturing.medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://wire.insiderfinance.io/copulas-in-finance-applications-and-python-implementation-0047cb326df8",
+    "name": "Copulas in Finance: Applications and Python Implementation | by Kenneth",
+    "snippet": "Copulas are powerful tools in financial modeling and analyzing the dependence structure between various financial derivatives and assets.",
+    "host_name": "wire.insiderfinance.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mediatum.ub.tum.de/doc/1207187/document.pdf",
+    "name": "[PDF] Modeling Dependencies among Financial Asset Returns Using",
+    "snippet": "We discuss three copula-based approaches to describe statistical dependencies within a fi- nancial portfolio. The first model to be considered is the ...",
+    "host_name": "mediatum.ub.tum.de",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S2405918822000162",
+    "name": "Vine copula based dependence modeling in sustainable finance",
+    "snippet": "We explain how cross-sectional and temporal dependencies can be captured by models based on vine copulas, more specifically, using ARMA-GARCH and stationary ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

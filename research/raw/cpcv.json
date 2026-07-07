@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4686376_code4361537.pdf?abstractid=4686376&mirid=1",
+    "name": "[PDF] Backtest Overfitting in the Machine Learning Era",
+    "snippet": "Combinatorial Purged Cross-Validation (CPCV) is intro- duced by Lopez de Prado [2018] as an innovative approach to address the limitations of single-path ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantbeckman.com/p/with-code-combinatorial-purged-cross",
+    "name": "[WITH CODE] Combinatorial Purged Cross Validation for Optimization",
+    "snippet": "Marcos Lopez de Prado, in his seminal work proposed a solution that addresses the data leakage problem, which is especially pernicious when ...",
+    "host_name": "www.quantbeckman.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/725401650/SSRN-id4778909",
+    "name": "Combinatorial Purged Cross-Validation Insights | PDF",
+    "snippet": "Further advancing the field, Lopez paucity of research dedicated to critically evaluating the back- de Prado's Combinatorial Purged Cross-Validation (CPCV).",
+    "host_name": "www.scribd.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/quant/comments/1rlobeh/opensourced_a_cheat_sheet_on_lopez_de_prados",
+    "name": "Open-sourced a cheat sheet on Lopez de Prado's backtesting  - Reddit",
+    "snippet": "Combinatorial Purged Cross-Validation (CPCV) instead of walk-forward. Deflated Sharpe Ratio and Probabilistic Sharpe Ratio for correcting ... Combinatorial Purged CV Question : r/quant What is \"one path\" in Cross Validation(CV)? : r/quant More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/topics/lopez-de-prado",
+    "name": "lopez-de-prado · GitHub Topics",
+    "snippet": "Empirical asset-pricing research framework (Python) with formal overfitting control — Combinatorial Purged CV, Deflated Sharpe Ratio, Probability of ...",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ivanblancosanchez_new-research-backtest-overfitting-in-activity-7183469596148998144-KtKZ",
+    "name": "Ivan Blanco's Post - LinkedIn",
+    "snippet": "\" In this book, Lopez de Prado explains how combinatorial purged cross-validation tackles the issue of backtest overfitting. We employ ...",
+    "host_name": "www.linkedin.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantresearch.org/Innovations.htm",
+    "name": "innovations - Marcos M. Lopez de Prado",
+    "snippet": "Combinatorial Purged Cross-Validation (CPCV), Strategy Selection, Meta-Research, Machine Learning, CPCV generates the precise number of combinations of ...",
+    "host_name": "www.quantresearch.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950705124011110",
+    "name": "Backtest overfitting in the machine learning era: A comparison of out-of",
+    "snippet": "Further advancing the field, Lopez de Prado's Combinatorial Purged Cross-Validation (CPCV) method offers a robust solution for backtesting trading strategies.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pub.towardsai.net/combinatorial-purgedkfold-cross-validation-for-deep-reinforcement-learning-f8df689ca874",
+    "name": "Combinatorial PurgedKFold Cross-Validation for Deep",
+    "snippet": "Bailey, D. and Lopez de Prado, M., 2014. The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting and Non-Normality. SSRN ...",
+    "host_name": "pub.towardsai.net",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://grokipedia.com/page/purged_cross_validation",
+    "name": "Purged cross-validation - Grokipedia",
+    "snippet": "Introduced by Marcos López de Prado in 2018, it addresses the unique challenges of path-dependent labels in financial datasets, where outcomes depend on ...",
+    "host_name": "grokipedia.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]
