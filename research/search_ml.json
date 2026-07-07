@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://blog.quantinsti.com/regime-adaptive-trading-python",
+    "name": "Market Regime using Hidden Markov Model - QuantInsti Blog",
+    "snippet": "This project builds a Python-based adaptive trading strategy that: Detects current market regime using a Hidden Markov Model (HMM); Trains ...",
+    "host_name": "blog.quantinsti.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.aimspress.com/article/doi/10.3934/DSFE.2025019",
+    "name": "A multi-model ensemble-HMM voting framework for market regime",
+    "snippet": "In this paper, we present a framework for detecting market regime shifts using a combination of tree-based ensemble learning models and ...",
+    "host_name": "www.aimspress.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2407.19858v6",
+    "name": "Integrating Hidden Markov Models with Neural Networks - arXiv",
+    "snippet": "The use of HMMs in financial markets has evolved from simple regime-switching models to advanced volatility modeling methods Gorynin et al. ( ...",
+    "host_name": "arxiv.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantstart.com/articles/hidden-markov-models-an-introduction",
+    "name": "Hidden Markov Models - An Introduction | QuantStart",
+    "snippet": "This article series will discuss the mathematical theory behind Hidden Markov Models (HMM) and how they can be applied to the problem of regime detection for ...",
+    "host_name": "www.quantstart.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/hikmah-techstack/market-regime-detection-from-hidden-markov-models-to-wasserstein-clustering-6ba0a09559dc",
+    "name": "Market Regime Detection: From Hidden Markov Models to  - Medium",
+    "snippet": "These market regimes differ not just in price direction, but in their underlying statistical properties: volatility, correlation structure, and ...",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/398722347_Machine_Learning-Driven_Market_Regime_Analysis_in_Equity_Markets_A_Gaussian_Hidden_Markov_Model_Approach",
+    "name": "(PDF) Machine Learning-Driven Market Regime Analysis in Equity",
+    "snippet": "The research employs a multivariate Hidden Markov Model (HMM) with improved data preprocessing techniques and principal component analysis (PCA) ...",
+    "host_name": "www.researchgate.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://discovery.ucl.ac.uk/10192012/2/Thesis_Piotr_Pomorski_Final.pdf",
+    "name": "[PDF] Construction of Effective Regime- Switching Portfolios Using a",
+    "snippet": "This thesis proposes and tests a detection-prediction-optimisation regime- switching framework to harness the regime shifts in financial ...",
+    "host_name": "discovery.ucl.ac.uk",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/market-regime-detection-using-hidden-markov-models-trading-pham-fkkpc",
+    "name": "Market Regime Detection using Hidden Markov Models in  - LinkedIn",
+    "snippet": "In quantitative finance, we use Hidden Markov Models (HMM) to solve this exact problem. The core idea is elegant: “There are hidden states we ...",
+    "host_name": "www.linkedin.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

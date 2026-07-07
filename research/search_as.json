@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://hummingbot.org/blog/guide-to-the-avellaneda--stoikov-strategy",
+    "name": "Guide to the Avellaneda & Stoikov Strategy - Hummingbot",
+    "snippet": "Today we will explore: The Avellaneda & Stoikov market-making model; Inventory risk management; Optimal bid & ask spread determination ...",
+    "host_name": "hummingbot.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantbeckman.com/p/can-you-manage-inventoryor-is-it",
+    "name": "[WITH CODE] Market Making: Avellaneda–Stoikov model",
+    "snippet": "They turned market making into an optimization problem: balance inventory risk against spread profit, using stochastic calculus. But Avellaneda- ...",
+    "host_name": "www.quantbeckman.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://journals.plos.org/plosone/article/file?type=printable&id=10.1371/journal.pone.0277042",
+    "name": "[PDF] Stoikov market-making algorithm - Research journals - PLOS",
+    "snippet": "Two further contributions are, first, that the initial parameters for the Avellaneda-Stoikov equations are optimised with a genetic algorithm, ...",
+    "host_name": "journals.plos.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://web.stanford.edu/class/msande448/2018/Final/Reports/gr5.pdf",
+    "name": "[PDF] Optimal High-Frequency Market Making - Stanford University",
+    "snippet": "In this paper, we implement the high frequency market making pricing model proposed by Avellaneda and Stoikov (2008). We choose this model for ...",
+    "host_name": "web.stanford.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@degensugarboo/avellaneda-and-stoikov-mm-paper-implementation-b7011b5a7532",
+    "name": "Avellaneda and Stoikov MM paper implementation - Medium",
+    "snippet": "The value of q on the formula measures how many units the market maker inventory is from the desired target. · γ parameter is a value that must ...",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hftbacktest.readthedocs.io/en/py-v2.1.0/tutorials/GLFT%20Market%20Making%20Model%20and%20Grid%20Trading.html",
+    "name": "Guéant–Lehalle–Fernandez-Tapia Market Making Model - HftBacktest",
+    "snippet": "This model represents an advanced evolution of the well-known Avellaneda-Stoikov model ... Implement a Market Maker using the Model  . Note: This example is ...",
+    "host_name": "hftbacktest.readthedocs.io",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2409.02025v2",
+    "name": "Logarithmic regret in the ergodic Avellaneda–Stoikov market making",
+    "snippet": "Avellaneda and Stoikov [10] have proposed a formulation of the market making task as a stochastic control problem within a parsimonious model.",
+    "host_name": "arxiv.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/fedecaccia/avellaneda-stoikov",
+    "name": "Avellaneda-Stoikov HFT market making algorithm implementation",
+    "snippet": "Figure 1 show results of a simulation using the following parameters: gamma: 0.1; sigma: 2; T: 1; k: 1.5; M: 0.5. The first chart shows price, ...",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -62,17 +62,29 @@ export function IndicatorsLab() {
   const [timeframe, setTimeframe] = useState<Timeframe>("1m");
   const [lookback, setLookback] = useState(150);
   const [useHeikinAshi, setUseHeikinAshi] = useState(false);
-  const [activeIndicators, setActiveIndicators] = useState<ActiveIndicator[]>([
-    { uid: makeUid(), indicatorId: "ema", params: { period: 9 }, enabled: true, color: "#3b82f6" },
-    { uid: makeUid(), indicatorId: "ema", params: { period: 21 }, enabled: true, color: "#a855f7" },
-    { uid: makeUid(), indicatorId: "vwap", params: {}, enabled: true, color: "#facc15" },
-    { uid: makeUid(), indicatorId: "rsi", params: { period: 14 }, enabled: true, color: "#8b5cf6" },
-  ]);
-  const [presets, setPresets] = useState<IndicatorPreset[]>(DEFAULT_PRESETS);
-  const [signalRules, setSignalRules] = useState<SignalRule[]>([]);
-  const [signalLog, setSignalLog] = useState<SignalLogEntry[]>([]);
+  // Persisted state from Zustand store (survives navigation)
+  const activeIndicators = useTradingStore((s) => s.indicatorActiveIndicators);
+  const setActiveIndicators = useTradingStore((s) => s.setIndicatorActiveIndicators);
+  const presets = useTradingStore((s) => s.indicatorPresets);
+  const setPresets = useTradingStore((s) => s.setIndicatorPresets);
+  const signalRules = useTradingStore((s) => s.indicatorSignalRules);
+  const setSignalRules = useTradingStore((s) => s.setIndicatorSignalRules);
+  const signalLog = useTradingStore((s) => s.indicatorSignalLog);
+  const setSignalLog = useTradingStore((s) => s.setIndicatorSignalLog);
   const selectSymbol = useTradingStore((s) => s.selectSymbol);
   const tickCount = useTradingStore((s) => s.tickCount);
+
+  // Initialize default indicators on first load if empty
+  useEffect(() => {
+    if (activeIndicators.length === 0) {
+      setActiveIndicators([
+        { uid: makeUid(), indicatorId: "ema", params: { period: 9 }, enabled: true, color: "#3b82f6" },
+        { uid: makeUid(), indicatorId: "ema", params: { period: 21 }, enabled: true, color: "#a855f7" },
+        { uid: makeUid(), indicatorId: "vwap", params: {}, enabled: true, color: "#facc15" },
+        { uid: makeUid(), indicatorId: "rsi", params: { period: 14 }, enabled: true, color: "#8b5cf6" },
+      ]);
+    }
+  }, [activeIndicators.length, setActiveIndicators]);
 
   // Sync with global symbol selector
   const globalSymbol = useTradingStore((s) => s.selectedSymbol);

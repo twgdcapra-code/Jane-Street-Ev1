@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/html/2508.16598v1",
+    "name": "Kelly, VIX, and Hybrid Approaches in Put-Writing on Index Options - arXiv",
+    "snippet": "The Kelly criterion (Kelly Jr., , 1956) , originally developed in information theory, offers a mathematically optimal approach to position sizing by maximizing ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.facebook.com/M4MarketsOfficial/posts/-position-size-can-shape-long-term-performance-the-kelly-criterion-is-one-approa/1002936972591295",
+    "name": "Position size can shape long-term performance. The Kelly Criterion is",
+    "snippet": "The Kelly Criterion is one approach traders use to balance opportunity and risk based on probabilities. Swipe to understand how it works. #M4 ...",
+    "host_name": "www.facebook.com",
+    "rank": 1,
+    "date": "Jun 29, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.avatrade.com/education/technical-analysis-indicators-strategies/the-kelly-criterion",
+    "name": "Kelly Criterion in Trading: A Practical Guide | AvaTrade",
+    "snippet": "Learn the Kelly Criterion for position sizing, how to estimate win rate and payoff, and why fractional Kelly can reduce drawdowns for traders.",
+    "host_name": "www.avatrade.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.atlaspeakresearch.com/report/07bf72",
+    "name": "The Kelly Criterion in Financial Markets: Optimal Position Sizing",
+    "snippet": "The Kelly Criterion is the most rigorous known framework for converting probabilistic edge into position size when the objective is long-run ...",
+    "host_name": "www.atlaspeakresearch.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3231836_code1554519.pdf?abstractid=2063848&mirid=1",
+    "name": "[PDF] Trade Sizing Techniques for Drawdown and Tail Risk Control",
+    "snippet": "This article introduces three algorithms for trade sizing with the objective of controlling tail risk or maximum drawdown when applied to a trading strategy ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://experts.deriv.com/insights/kelly-criterion-position-sizing",
+    "name": "The Kelly Criterion: A retail trader's guide to position sizing",
+    "snippet": "A fractional Kelly approach can help reduce drawdown risk while maintaining long-term growth potential. Risk warning: Trading involves substantial risk and you ...",
+    "host_name": "experts.deriv.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.backtestbase.com/education/how-much-risk-per-trade",
+    "name": "Kelly Criterion Calculator | Free Trading Position Size Tool",
+    "snippet": "Free Kelly Criterion calculator for traders. Enter your win rate and average win/loss to get Full, Half, and Quarter Kelly position sizes instantly.",
+    "host_name": "www.backtestbase.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@tmapendembe_28659/kelly-criterion-vs-fixed-fractional-which-risk-model-maximizes-long-term-growth-972ecb606e6c",
+    "name": "Kelly Criterion vs Fixed Fractional: Which Risk Model Maximizes Long",
+    "snippet": "... fractional position sizing experience significantly lower maximum drawdowns and lower volatility in returns. You sleep better, your blood ...",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -53,8 +53,8 @@ export function detectRegime(candles: Candle[]): RegimeAssessment {
     };
   }
   const closes = candles.map((c) => c.close);
-  const adxArr = adx(candles, 14);
-  const lastADX = (adxArr[adxArr.length - 1] as number) ?? 0;
+  const adxResult = adx(candles, 14);
+  const lastADX = (adxResult.adx[adxResult.adx.length - 1] as number) ?? 0;
   const atrArr = atr(candles, 14);
   const lastATR = (atrArr[atrArr.length - 1] as number) ?? 0;
   const lastPrice = closes[closes.length - 1];

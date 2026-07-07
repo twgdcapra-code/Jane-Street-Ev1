@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.quantresearch.org/VPIN.pdf",
+    "name": "[PDF] VPIN 1 The Volume Synchronized Probability of INformed Trading",
+    "snippet": "In the year 2010, David Easley, Marcos Lopez de Prado and Maureen O'Hara proposed a high-frequency estimate of. PIN, which they denominated VPIN. This ...",
+    "host_name": "www.quantresearch.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantresearch.org/From%20PIN%20to%20VPIN.pdf",
+    "name": "[PDF] From PIN to VPIN - QuantResearch.org",
+    "snippet": "Easley, López de Prado and O'Hara belong to this second group. Departing from the well- known PIN model to measure the probability of informed trading,.",
+    "host_name": "www.quantresearch.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://visualhft.com/blog/volume-synchronized-probability-of-informed-trading-vpin",
+    "name": "Volume-Synchronized Probability of Informed Trading (VPIN) - VisualHFT",
+    "snippet": "Developed by Easley, López de Prado, and O'Hara, it's crucial for detecting informed trading and market sentiment, particularly in volatile ...",
+    "host_name": "visualhft.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.stern.nyu.edu/sites/default/files/assets/documents/con_035928.pdf",
+    "name": "[PDF] 1 Flow Toxicity and Liquidity in a High Frequency World David Easley",
+    "snippet": "As discussed in Easley, López de Prado and O'Hara. [2011a], this excessive ... This paper presents a new procedure to estimate the Volume-Synchronized Probability ...",
+    "host_name": "www.stern.nyu.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@kryptonlabs/vpin-the-coolest-market-metric-youve-never-heard-of-e7b3d6cbacf1",
+    "name": "VPIN: The Coolest Market Metric You've Never Heard Of - Medium",
+    "snippet": "In 2010, Easley, Lopez de Prado, and O'Hara proposed a high-frequency estimate for PIN, which they called VPIN, or Volume-Synchronized ...",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scispace.com/pdf/volume-synchronized-probability-of-informed-trading-vpin-3afk7rj2zq.pdf",
+    "name": "[PDF] Volume-Synchronized Probability of Informed Trading (VPIN), Market",
+    "snippet": "Easley, Kiefer, & O'Hara (1997a) study on the relationship between stock characteristics and information risks by taking trade size as the indicator. Their ...",
+    "host_name": "scispace.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

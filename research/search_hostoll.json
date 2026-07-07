@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/html/2508.04344v1",
+    "name": "Performative Market Making - arXiv",
+    "snippet": "Note that the fundamental behaviour of the A&S model dictates that as it becomes more risk-averse ( γ \\gamma increases), its PnL declines and ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/a/inm/oropre/v60y2012i3p541-565.html",
+    "name": "Optimal Market-Making with Risk Aversion - IDEAS/RePEc",
+    "snippet": "One approach to reduce the risk brought by price uncertainty is to adjust the inventory at the price of losing potential spread gain. Using stochastic dynamic ...",
+    "host_name": "ideas.repec.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3639715_code4257898.pdf?abstractid=3639715",
+    "name": "[PDF] Short-Term Market Changes and Market Making with Inventory",
+    "snippet": "where γ is the absolute risk aversion coefficient, x is the initial dollar amount in the bond, y is the initial stock price, and q is the initial number of the ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rodneywhitecenter.wharton.upenn.edu/wp-content/uploads/2014/03/8001.pdf",
+    "name": "[PDF] On Dealer Markets - Under Competition",
+    "snippet": "Our approach is to apply our model [Ho and Stoll (1979)] of an individual dealer operating under return and transactions uncertainty to the case of more ...",
+    "host_name": "rodneywhitecenter.wharton.upenn.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@simomenaldo/understanding-market-maker-behavior-b4a846441477",
+    "name": "Understanding Market Maker Behavior | by Simone Menaldo",
+    "snippet": "This paper presents a now-classic model for optimal market making, balancing inventory and adverse selection risk. Ho, T., & Stoll, H. R. (1981) ...",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://people.orie.cornell.edu/sfs33/StoikovSaglam.pdf",
+    "name": "[PDF] Option market making under inventory risk∗ - Cornell University",
+    "snippet": "We propose a mean-variance framework to analyze the optimal quoting policy of an option market maker. The market maker's profits come from ...",
+    "host_name": "people.orie.cornell.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://web.stanford.edu/class/msande448/2018/Final/Reports/gr5.pdf",
+    "name": "[PDF] Optimal High-Frequency Market Making - Stanford University",
+    "snippet": "This pricing model is integrated with a proprietary inventory control model that dynamically adjusts the order size to mitigate inventory risk, ...",
+    "host_name": "web.stanford.edu",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.vertoxquant.com/p/market-making-models",
+    "name": "Market Making Models - VertoxQuant",
+    "snippet": "The Ho and Stoll Model is an inventory-based market making model. They make the following assumptions: We've all heard those 2 names being ...",
+    "host_name": "www.vertoxquant.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -87,7 +87,7 @@ export function StrategyLab() {
                           <span>P&L: <span className={s.pnl >= 0 ? "text-emerald-400" : "text-rose-400"}>{fmtMoney(s.pnl, 0)}</span></span>
                           <span>Trades: <span className="text-foreground">{s.trades}</span></span>
                           <span>Sharpe: <span className="text-foreground">{s.sharpe.toFixed(2)}</span></span>
-                          <span>MDD: <span className="text-rose-400">{(s.maxDrawdown * 100).toFixed(1)}%</span></span>
+                          <span>MDD: <span className="text-rose-400">${s.maxDrawdown.toFixed(0)}</span></span>
                         </div>
                       </div>
                       <div className="flex items-center gap-2">

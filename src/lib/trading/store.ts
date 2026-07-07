@@ -24,6 +24,7 @@ import { create } from "zustand";
 import type {
   Account,
   Alert,
+  Candle,
   Fill,
   Order,
   OrderStatus,
@@ -37,6 +38,7 @@ import type {
 import { getContract } from "./contracts";
 import { getEngine } from "./market-engine";
 import { computeAccount, computePosition } from "./analytics";
+import { STRATEGIES } from "./strategies";
 import {
   type AlgoState,
   type AlgoType,
@@ -56,6 +58,17 @@ import {
   evaluateAlert,
   DEFAULT_WATCHLISTS,
 } from "./alerts";
+import { type SignalRule, type SignalLogEntry } from "./indicators-intelligence";
+import { type IndicatorPreset, DEFAULT_PRESETS } from "./indicator-registry";
+
+// ActiveIndicator type (defined in IndicatorsLab but needed here for persistence)
+interface ActiveIndicator {
+  uid: string;
+  indicatorId: string;
+  params: Record<string, number>;
+  enabled: boolean;
+  color: string;
+}
 
 const INITIAL_CASH = 1_000_000;
 const COMMISSION_PER_CONTRACT = 2.25;
@@ -78,6 +91,12 @@ interface TradingState {
   // Price alerts & watchlists
   priceAlerts: PriceAlert[];
   watchlists: Watchlist[];
+  // Indicators Lab state (persisted across navigation)
+  indicatorSignalRules: SignalRule[];
+  indicatorSignalLog: SignalLogEntry[];
+  indicatorPresets: IndicatorPreset[];
+  indicatorActiveIndicators: ActiveIndicator[];
+  indicatorTradeNotes: Record<string, string>;
   // Alerts & logs
   alerts: Alert[];
   logs: LogEntry[];
@@ -118,6 +137,12 @@ interface TradingState {
   removeWatchlist: (id: string) => void;
   addWatchlistEntry: (watchlistId: string, symbol: string, note?: string) => void;
   removeWatchlistEntry: (watchlistId: string, symbol: string) => void;
+  // Indicators Lab actions (persisted)
+  setIndicatorSignalRules: (rules: SignalRule[]) => void;
+  setIndicatorSignalLog: (log: SignalLogEntry[]) => void;
+  setIndicatorPresets: (presets: IndicatorPreset[]) => void;
+  setIndicatorActiveIndicators: (indicators: ActiveIndicator[]) => void;
+  setIndicatorTradeNote: (fillId: string, note: string) => void;
   log: (level: LogEntry["level"], module: string, message: string, metadata?: Record<string, unknown>) => void;
   onQuote: (q: Quote) => void;
   init: () => void;
@@ -147,13 +172,20 @@ export const useTradingStore = create<TradingState>((set, get) => ({
       type: "MEAN_REVERSION",
       description: "Z-score based mean reversion on E-mini S&P",
       symbols: ["ES"],
-      params: { lookback: 30, entryZ: 2, exitZ: 0, stopZ: 4 },
+      params: { lookback: 30, entryZ: 2, exitZ: 0, stopZ: 4 } as StrategyParams,
       enabled: false,
       pnl: 0,
       trades: 0,
       sharpe: 0,
       maxDrawdown: 0,
       createdAt: Date.now(),
+      currentSignal: 0,
+      positionQty: 0,
+      avgEntryPrice: 0,
+      realizedPnL: 0,
+      unrealizedPnL: 0,
+      pnlHistory: [],
+      peakPnL: 0,
     },
     {
       id: "strat-2",
@@ -161,13 +193,20 @@ export const useTradingStore = create<TradingState>((set, get) => ({
       type: "MOMENTUM",
       description: "EMA cross momentum on E-mini Nasdaq",
       symbols: ["NQ"],
-      params: { fast: 9, slow: 21, rsiPeriod: 14, rsiUpper: 70, rsiLower: 30 },
+      params: { fast: 9, slow: 21, rsiPeriod: 14, rsiUpper: 70, rsiLower: 30 } as StrategyParams,
       enabled: false,
       pnl: 0,
       trades: 0,
       sharpe: 0,
       maxDrawdown: 0,
       createdAt: Date.now(),
+      currentSignal: 0,
+      positionQty: 0,
+      avgEntryPrice: 0,
+      realizedPnL: 0,
+      unrealizedPnL: 0,
+      pnlHistory: [],
+      peakPnL: 0,
     },
   ],
   alerts: [],
@@ -175,6 +214,11 @@ export const useTradingStore = create<TradingState>((set, get) => ({
   algos: [],
   priceAlerts: [],
   watchlists: DEFAULT_WATCHLISTS,
+  indicatorSignalRules: [],
+  indicatorSignalLog: [],
+  indicatorPresets: DEFAULT_PRESETS,
+  indicatorActiveIndicators: [],
+  indicatorTradeNotes: {},
   metrics: [
     { name: "Tick-to-Trade Latency", value: 0.42, unit: "μs", status: "healthy", target: 5 },
     { name: "Order Ack Latency", value: 1.8, unit: "ms", status: "healthy", target: 10 },
@@ -223,6 +267,7 @@ export const useTradingStore = create<TradingState>((set, get) => ({
       applyFill: (order: Order, fillQty: number, fillPrice: number) => void;
       stepAlgos: (q: Quote) => void;
       evaluateAlerts: (q: Quote) => void;
+      stepStrategies: (q: Quote) => void;
     };
     storeInternal.markOrders(q);
     storeInternal.updatePositions(q);
@@ -230,6 +275,8 @@ export const useTradingStore = create<TradingState>((set, get) => ({
     storeInternal.stepAlgos(q);
     // Evaluate price alerts
     storeInternal.evaluateAlerts(q);
+    // Execute enabled strategies
+    storeInternal.stepStrategies(q);
   },
 
   placeOrder: (o) => {
@@ -355,6 +402,13 @@ export const useTradingStore = create<TradingState>((set, get) => ({
       trades: 0,
       sharpe: 0,
       maxDrawdown: 0,
+      currentSignal: 0,
+      positionQty: 0,
+      avgEntryPrice: 0,
+      realizedPnL: 0,
+      unrealizedPnL: 0,
+      pnlHistory: [],
+      peakPnL: 0,
     };
     set({ strategies: [...get().strategies, strategy] });
     get().log("INFO", "Strategy", `Strategy created: ${s.name}`, { type: s.type });
@@ -465,6 +519,14 @@ export const useTradingStore = create<TradingState>((set, get) => ({
       ),
     }),
 
+  // Indicators Lab persisted actions
+  setIndicatorSignalRules: (rules) => set({ indicatorSignalRules: rules }),
+  setIndicatorSignalLog: (log) => set({ indicatorSignalLog: log }),
+  setIndicatorPresets: (presets) => set({ indicatorPresets: presets }),
+  setIndicatorActiveIndicators: (indicators) => set({ indicatorActiveIndicators: indicators }),
+  setIndicatorTradeNote: (fillId, note) =>
+    set({ indicatorTradeNotes: { ...get().indicatorTradeNotes, [fillId]: note } }),
+
   log: (level, module, message, metadata) => {
     const entry: LogEntry = {
       id: `log-${logCounter++}`,
@@ -533,6 +595,7 @@ const store = useTradingStore as unknown as TradingState & {
   applyFill: (order: Order, fillQty: number, fillPrice: number) => void;
   stepAlgos: (q: Quote) => void;
   evaluateAlerts: (q: Quote) => void;
+  stepStrategies: (q: Quote) => void;
 };
 
 store.markOrders = (q: Quote) => {
@@ -782,5 +845,160 @@ store.evaluateAlerts = (q: Quote) => {
         ),
       });
     }
+  }
+};
+
+// ============================================================
+// STRATEGY EXECUTION ENGINE
+// Runs on every tick. For each enabled strategy:
+//   1. Get candles for strategy's symbol
+//   2. Call strategy.generate() to get current signal (-1, 0, +1)
+//   3. If signal changed, place orders to adjust position
+//   4. Track P&L, update strategy stats (Sharpe, MDD)
+// Throttled to ~once per 3 seconds per strategy to avoid overtrading.
+// ============================================================
+store.stepStrategies = (q: Quote) => {
+  const state = useTradingStore.getState();
+  const enabledStrategies = state.strategies.filter((s) => s.enabled);
+  if (enabledStrategies.length === 0) return;
+  const now = Date.now();
+  let changed = false;
+  const updatedStrategies = state.strategies.map((s) => {
+    if (!s.enabled) return s;
+    // Throttle: only evaluate each strategy every 3 seconds
+    if (s.lastSignalAt && now - s.lastSignalAt < 3000) {
+      // Still update unrealized P&L
+      if (s.positionQty !== 0 && s.lastSignalPrice) {
+        const currentPrice = q.symbol === s.symbols[0] ? q.last : (state.quotes[s.symbols[0]]?.last ?? s.lastSignalPrice);
+        const unreal = s.positionQty * (currentPrice - s.avgEntryPrice) * getContract(s.symbols[0]).pointValue;
+        return { ...s, unrealizedPnL: unreal, pnl: s.realizedPnL + unreal };
+      }
+      return s;
+    }
+    const symbol = s.symbols[0];
+    if (!symbol) return s;
+    const quote = state.quotes[symbol];
+    if (!quote) return s;
+    // Get candles
+    const candles = getEngine().getCandles(symbol, 200);
+    if (candles.length < 30) return s;
+    // Get pair candles for PAIRS strategy
+    let pairCandles: Candle[] | undefined;
+    if (s.type === "PAIRS" && s.symbols.length > 1) {
+      pairCandles = getEngine().getCandles(s.symbols[1], 200);
+    }
+    // Find the strategy definition
+    const def = STRATEGIES.find((d) => d.type === s.type);
+    if (!def) return s;
+    // Generate signals
+    let signals: { signal: number; reason: string }[];
+    try {
+      signals = def.generate(candles, s.params, pairCandles);
+    } catch (e) {
+      return s;
+    }
+    if (signals.length === 0) return s;
+    const currentSignal = signals[signals.length - 1].signal;
+    const currentPrice = quote.last;
+    const contract = getContract(symbol);
+    const qtyPerTrade = 1; // 1 contract per signal change
+    let newStrategy = { ...s };
+    // Check if signal changed
+    if (currentSignal !== s.currentSignal) {
+      // Close existing position if any
+      if (s.positionQty !== 0) {
+        const closeSide = s.positionQty > 0 ? "SELL" : "BUY";
+        const closeQty = Math.abs(s.positionQty);
+        const fillPrice = closeSide === "BUY" ? quote.ask : quote.bid;
+        // Realize P&L
+        const pnlPerUnit = (fillPrice - s.avgEntryPrice) * (s.positionQty > 0 ? 1 : -1);
+        const realized = closeQty * pnlPerUnit * contract.pointValue - closeQty * COMMISSION_PER_CONTRACT;
+        newStrategy.realizedPnL += realized;
+        newStrategy.positionQty = 0;
+        newStrategy.avgEntryPrice = 0;
+        newStrategy.trades += 1;
+        // Place the order
+        useTradingStore.getState().placeOrder({
+          symbol,
+          side: closeSide,
+          type: "MARKET",
+          tif: "DAY",
+          qty: closeQty,
+          tag: `strat:${s.name}:close`,
+          strategy: s.id,
+        });
+        useTradingStore.getState().log("INFO", "Strategy", `[${s.name}] Close ${closeQty} ${symbol} @ ${fillPrice.toFixed(2)} realized=${realized.toFixed(2)}`, { strategyId: s.id });
+      }
+      // Open new position if signal is non-zero
+      if (currentSignal !== 0) {
+        const openSide = currentSignal > 0 ? "BUY" : "SELL";
+        const fillPrice = openSide === "BUY" ? quote.ask : quote.bid;
+        newStrategy.positionQty = currentSignal > 0 ? qtyPerTrade : -qtyPerTrade;
+        newStrategy.avgEntryPrice = fillPrice;
+        useTradingStore.getState().placeOrder({
+          symbol,
+          side: openSide,
+          type: "MARKET",
+          tif: "DAY",
+          qty: qtyPerTrade,
+          tag: `strat:${s.name}:open`,
+          strategy: s.id,
+        });
+        useTradingStore.getState().log("INFO", "Strategy", `[${s.name}] Open ${openSide} ${qtyPerTrade} ${symbol} @ ${fillPrice.toFixed(2)} signal=${currentSignal}`, { strategyId: s.id });
+        useTradingStore.getState().addAlert({
+          type: "STRATEGY",
+          severity: "INFO",
+          message: `[${s.name}] ${openSide} ${qtyPerTrade} ${symbol} @ ${fillPrice.toFixed(2)} — ${signals[signals.length - 1].reason}`,
+          symbol,
+        });
+      }
+      newStrategy.currentSignal = currentSignal;
+      newStrategy.lastSignalAt = now;
+      newStrategy.lastSignalPrice = currentPrice;
+      changed = true;
+    }
+    // Update unrealized P&L
+    if (newStrategy.positionQty !== 0) {
+      const unreal = newStrategy.positionQty * (currentPrice - newStrategy.avgEntryPrice) * contract.pointValue;
+      newStrategy.unrealizedPnL = unreal;
+      newStrategy.pnl = newStrategy.realizedPnL + unreal;
+    } else {
+      newStrategy.unrealizedPnL = 0;
+      newStrategy.pnl = newStrategy.realizedPnL;
+    }
+    // Track P&L history for Sharpe/MDD
+    newStrategy.pnlHistory = [...s.pnlHistory, { time: now, pnl: newStrategy.pnl }].slice(-200);
+    newStrategy.peakPnL = Math.max(s.peakPnL, newStrategy.pnl);
+    // Compute Sharpe (annualized) from recent P&L history
+    if (newStrategy.pnlHistory.length > 10) {
+      const returns: number[] = [];
+      for (let i = 1; i < newStrategy.pnlHistory.length; i++) {
+        const prev = newStrategy.pnlHistory[i - 1].pnl;
+        const curr = newStrategy.pnlHistory[i].pnl;
+        if (prev !== 0) returns.push((curr - prev) / Math.abs(prev));
+      }
+      if (returns.length > 5) {
+        const mean = returns.reduce((a, b) => a + b, 0) / returns.length;
+        const variance = returns.reduce((a, b) => a + (b - mean) ** 2, 0) / (returns.length - 1);
+        const sd = Math.sqrt(variance);
+        newStrategy.sharpe = sd > 0 ? (mean / sd) * Math.sqrt(252) : 0;
+      }
+    }
+    // Compute max drawdown
+    let peak = -Infinity;
+    let maxDD = 0;
+    for (const ph of newStrategy.pnlHistory) {
+      peak = Math.max(peak, ph.pnl);
+      const dd = ph.pnl - peak;
+      if (dd < maxDD) maxDD = dd;
+    }
+    newStrategy.maxDrawdown = maxDD;
+    return newStrategy;
+  });
+  if (changed) {
+    useTradingStore.setState({ strategies: updatedStrategies });
+  } else {
+    // Still update unrealized P&L even if no signal change
+    useTradingStore.setState({ strategies: updatedStrategies });
   }
 };

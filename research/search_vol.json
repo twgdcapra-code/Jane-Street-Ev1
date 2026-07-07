@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://thehedgefundjournal.com/harvesting-the-volatility-risk-premium-globally",
+    "name": "Harvesting the Volatility Risk Premium Globally",
+    "snippet": "The strategy initiates or increases sales of puts after a shock, to increase directional equity exposure, but focuses more on harvesting the carry from the ...",
+    "host_name": "thehedgefundjournal.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.imperial.ac.uk/media/imperial-college/faculty-of-natural-sciences/department-of-mathematics/math-finance/Shibo_Lu_01210524.pdf",
+    "name": "[PDF] Harvesting Volatility Risk Premium - Imperial College London",
+    "snippet": "Since the VRP harvesting requires implied volatility to be higher than the realised volatility of the underlying asset, in highly volatile markets, there is ...",
+    "host_name": "www.imperial.ac.uk",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://thesis.eur.nl/pub/73344/598210.pdf",
+    "name": "[PDF] An Analysis of the use of Volatility Risk Premium Strategies in the",
+    "snippet": "This thesis analyses the potential profitability of trading strategies based on the Volatility Risk. Premium (VRP) in the US equity options ...",
+    "host_name": "thesis.eur.nl",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.aqr.com/-/media/AQR/Documents/Whitepapers/Understanding-the-Volatility-Risk-Premium.pdf",
+    "name": "[PDF] Understanding the Volatility Risk Premium - AQR Capital Management",
+    "snippet": "The volatility risk premium (VRP) reflects the compensation investors earn for providing insurance against market losses.",
+    "host_name": "www.aqr.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dspace.cuni.cz/bitstream/handle/20.500.11956/191263/120472408.pdf",
+    "name": "[PDF] Volatility Risk Premium Across Multiple Asset Classes",
+    "snippet": "This paper analyzes the utilization of volatility risk premium for volatility fore- casting across 18 distinct markets in two time frame periods.",
+    "host_name": "dspace.cuni.cz",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/393158933_Harvesting_Volatility_Risk_Premium_with_Equity_Index_Options",
+    "name": "Harvesting Volatility Risk Premium with Equity Index Options",
+    "snippet": "This chapter explains how asset managers can harvest the VRP through strategies that sell options to monetize this discrepancy while managing associated risks.",
+    "host_name": "www.researchgate.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://english.phbs.pku.edu.cn/uploadfile/2024/0530/20240530092144610.pdf",
+    "name": "[PDF] Volatility-Managed Volatility Trading",
+    "snippet": "We develop volatility risk premium (VRP) timing strategies that involve trading two assets: a volatility asset and a risk-free asset. We first ...",
+    "host_name": "english.phbs.pku.edu.cn",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantpedia.com/strategies/volatility-risk-premium-effect",
+    "name": "Volatility Risk Premium Effect - Quantpedia",
+    "snippet": "Simple trading strategy. Each month, at-the-money straddle, with one month until maturity, is sold at the bid price with a 5% option premium, and an ...",
+    "host_name": "quantpedia.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

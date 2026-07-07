@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3637108_code434076.pdf?abstractid=3257420&mirid=1",
+    "name": "[PDF] Advances in Financial Machine Learning: Lecture 4/10",
+    "snippet": "Combinatorially-purged cross-validation (CPCV) is a variation of leave-p-out, where the train set in purged and embargoed. For example, by holding 2 out of 6 ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.oreilly.com/library/view/advances-in-financial/9781119482086/c03.xhtml",
+    "name": "Chapter 3 Labeling - Advances in Financial Machine Learning [Book]",
+    "snippet": "Virtually all ML papers label observations using the fixed-time horizon method. This method can be described as follows.",
+    "host_name": "www.oreilly.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://gildan-bonus-content.s3.amazonaws.com/GIL2476_AdvancesFinancial/GIL2476_AdvancesFinancial_BonusPDF.pdf",
+    "name": "[PDF] ADVANCES IN FINANCIAL MACHINE LEARNING - AWS",
+    "snippet": "PURGED CROSS-VALIDATION ADDRESSES BACKTEST OVERFITTING Given a sample of IID random variables,",
+    "host_name": "gildan-bonus-content.s3.amazonaws.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/328211649_Advances_in_Financial_Machine_Learning_Lecture_610",
+    "name": "Advances in Financial Machine Learning: Lecture 6/10 | Request PDF",
+    "snippet": "Cross-validation involves splitting observations into groups and alternating between them for training and validation purposes, validation involves splitting ...",
+    "host_name": "www.researchgate.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://reasonabledeviations.com/notes/adv_fin_ml",
+    "name": "Advances in Financial Machine Learning - Reasonable Deviations",
+    "snippet": "Meta-labelling can be used to learn the size of the bets after you know the side. ). It is important to calculate label uniqueness.",
+    "host_name": "reasonabledeviations.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantresearch.org/Innovations.htm",
+    "name": "innovations - Marcos M. Lopez de Prado",
+    "snippet": "Meta-labeling is a supervised learning labeling method that allows a secondary algorithm to predict whether a primary algorithm's bets will be successful. ...",
+    "host_name": "www.quantresearch.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/Neyt/How-To-Backtest-Correctly",
+    "name": "Neyt/How-To-Backtest-Correctly: Advanced Financial  - GitHub",
+    "snippet": "The open-source implementation of Marcos Lopez de Prado's Advances in Financial Machine Learning methodologies. ... Combinatorial Purged Cross-Validation",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bhakta-works.medium.com/the-pitfalls-of-standard-cross-validation-in-financial-machine-learning-aec03f672179",
+    "name": "The Pitfalls of Standard Cross-Validation in Financial",
+    "snippet": "Marcos López de Prado introduces two techniques: purging and embargoing. These methods aim to minimize leakage and preserve the integrity of ... Missing: meta | Show results with: meta",
+    "host_name": "bhakta-works.medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

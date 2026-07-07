@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://mbrenndoerfer.com/writing/volatility-trading-arbitrage-strategies-delta-hedging-variance-swaps",
+    "name": "Volatility Trading Strategies: Delta Hedging, VIX & Arbitrage",
+    "snippet": "# Calculate volatility risk premium vrp_series = (implied_vol - realized_vol).dropna() ... Calculate realized variance for a variance swap.",
+    "host_name": "mbrenndoerfer.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304405X15001762",
+    "name": "The cross-sectional variation of volatility risk premia - ScienceDirect",
+    "snippet": "This paper analyzes the determinants of the cross-sectional variation of the average volatility risk premia for a representative set of portfolios.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://research.cbs.dk/files/92148091/1622265_Thesis_14_.pdf",
+    "name": "[PDF] The Variance Risk Premium - CBS Research Portal",
+    "snippet": "... Variance Risk Premium is implemented by synthesizing. Variance Swap Rates from option prices and calculating the Realized Variance for the same period. The ...",
+    "host_name": "research.cbs.dk",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.netspar.nl/wp-content/uploads/035_Bekaert.pdf",
+    "name": "[PDF] The VIX, the Variance Premium and Stock Market Volatility - Netspar",
+    "snippet": "The variance premium predicts stock returns while the conditional stock market variance predicts economic activity and has a relatively higher predictive power ...",
+    "host_name": "www.netspar.nl",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.imperial.ac.uk/media/imperial-college/faculty-of-natural-sciences/department-of-mathematics/math-finance/Shibo_Lu_01210524.pdf",
+    "name": "[PDF] Harvesting Volatility Risk Premium - Imperial College London",
+    "snippet": "4.1 Variance swaps under different models a variance swap is a forward contract on future realized price variance, variance being the square of volatility.",
+    "host_name": "www.imperial.ac.uk",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://afajof.org/management/viewp.php?n=41580",
+    "name": "[PDF] Exploring the Variance Risk Premium Across Assets",
+    "snippet": "... realized variance. The dominant benchmarks for option volatility use the CBOE VIX formula for S&P 500 Index options (CBOE (2019)). This formula has also ...",
+    "host_name": "afajof.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

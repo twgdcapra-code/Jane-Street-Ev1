@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://qoppac.blogspot.com/2018/07/vol-targeting-and-trend-following.html",
+    "name": "Vol Targeting and Trend Following - This Blog is Systematic",
+    "snippet": "This is a post about volatility targeting - dynamically adjusting your positions according to your estimate of market volatility - in the context of trend ...",
+    "host_name": "qoppac.blogspot.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=iTGmh_UripE",
+    "name": "Rob Carver on Trend Following, Skew, and the Total Portfolio Shift",
+    "snippet": "Rob Carver returns for a conversation that quietly questions the foundations. Is trend following an edge - or just a reward for holding ...",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5140633.pdf?abstractid=5140633&mirid=1",
+    "name": "[PDF] Trend Following Strategies: A Practical Guide",
+    "snippet": "trend following strategies have negative Vega, meaning that short-term volatility in returns causes a decline in the strategy's net value. ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.grahamcapital.com/blog/trend-following-primer",
+    "name": "Trend-Following Primer - Graham Capital Management",
+    "snippet": "These strategies often target consistent volatility within a predetermined range and try to preserve upside potential and limit downside risk by running ...",
+    "host_name": "www.grahamcapital.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://concretumgroup.com/volatility-targeting-for-long-term-compounding",
+    "name": "Volatility Targeting for Long-Term Compounding - Concretum Group",
+    "snippet": "Volatility targeting and compounding explained: how stabilizing portfolio risk helps investors avoid behavioral mistakes and protect long-term returns.",
+    "host_name": "concretumgroup.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantconnect.com/research/15989/futures-trend-following-and-carry-in-different-risk-regimes",
+    "name": "Futures Trend Following and Carry in Different Risk Regimes",
+    "snippet": "In this tutorial, we build upon the Combined Carry and Trend strategy to include dynamic position sizing based on the current risk regime.",
+    "host_name": "www.quantconnect.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

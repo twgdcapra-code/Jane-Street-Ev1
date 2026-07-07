@@ -244,6 +244,9 @@ export function computeAccount(
   sessionPnL: number;
   marginCallLevel: number;
   leverage: number;
+  grossExposure: number;
+  netExposure: number;
+  totalUnrealizedPnL: number;
 } {
   let totalUnreal = 0;
   let totalSession = 0;
@@ -251,6 +254,7 @@ export function computeAccount(
   let initMargin = 0;
   let maintMargin = 0;
   let grossExposure = 0;
+  let netExposure = 0;
   for (const p of positions) {
     if (p.netQty === 0) continue;
     const contract = getContract(p.symbol);
@@ -260,6 +264,7 @@ export function computeAccount(
     initMargin += Math.abs(p.netQty) * contract.marginInitial;
     maintMargin += Math.abs(p.netQty) * contract.marginMaintenance;
     grossExposure += p.exposure;
+    netExposure += p.netQty > 0 ? p.exposure : -p.exposure;
   }
   const equity = cashBalance + totalUnreal;
   const buyingPower = Math.max(0, equity * 4 - initMargin); // 4x daytrading BP
@@ -277,5 +282,8 @@ export function computeAccount(
     sessionPnL: totalSession,
     marginCallLevel,
     leverage,
+    grossExposure,
+    netExposure,
+    totalUnrealizedPnL: totalUnreal,
   };
 }

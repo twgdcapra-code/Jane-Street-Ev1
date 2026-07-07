@@ -153,6 +153,9 @@ export interface Account {
   sessionPnL: number;
   marginCallLevel: number;
   leverage: number;
+  grossExposure: number;
+  netExposure: number;
+  totalUnrealizedPnL: number;
 }
 
 export interface StrategyParams {
@@ -179,6 +182,17 @@ export interface Strategy {
   sharpe: number;
   maxDrawdown: number;
   createdAt: number;
+  // Live execution state
+  currentSignal: number; // -1, 0, +1 (current position signal)
+  lastSignalAt?: number;
+  lastSignalPrice?: number;
+  positionQty: number; // current contracts held by this strategy
+  avgEntryPrice: number;
+  realizedPnL: number;
+  unrealizedPnL: number;
+  // P&L history for Sharpe/MDD computation
+  pnlHistory: { time: number; pnl: number }[];
+  peakPnL: number;
 }
 
 export interface BacktestTrade {

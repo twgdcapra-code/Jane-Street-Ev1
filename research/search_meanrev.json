@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://vn.tradingview.com/scripts/mean-reversion",
+    "name": "Mean-reversion — Chỉ báo và Chiến lược - TradingView",
+    "snippet": "... mean reversion setups by combining statistical Z-Score extremes with RSI momentum confirmation, Bollinger Band volatility filtering, and EMA trend alignment.",
+    "host_name": "vn.tradingview.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=c9-SIpy3dEw",
+    "name": "Mean Reversion Trading Strategy Explained & Backtested – 179% Profit",
+    "snippet": "In today's video, we're testing a mean reversion trading strategy built with Bollinger Bands, RSI, and ADX. We'll walk through the entire ...",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fmz.com/lang/en/strategy/489893",
+    "name": "A Mean Reversion Trading System Combining Stochastic RSI and",
+    "snippet": "The core concept of the strategy is to buy when the price is at the lower Bollinger Band and the Stochastic RSI is below 0.1 (oversold region), ...",
+    "host_name": "www.fmz.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.luxalgo.com/blog/mean-reversion-strategies-for-algorithmic-trading",
+    "name": "Mean Reversion Strategies for Algorithmic Trading - LuxAlgo",
+    "snippet": "Explore mean reversion strategies in algorithmic trading, focusing on key indicators, risk management, and advanced techniques for success.",
+    "host_name": "www.luxalgo.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.horizontrading.ai/learn/mean-reversion-trading-strategies",
+    "name": "Mean Reversion Trading Strategies That Actually Work — From RSI",
+    "snippet": "Learn practical mean reversion trading strategies that target the “fair value” of price. See how RSI, Bollinger Bands, and VWAP pullbacks ...",
+    "host_name": "www.horizontrading.ai",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pyquantlab.medium.com/enhancing-bollinger-bands-mean-reversion-leveraging-adx-and-rsi-filters-to-shift-returns-from-7-97b5fd70ac44",
+    "name": "Bollinger Bands Mean-Reversion with ADX and RSI - PyQuantLab",
+    "snippet": "By integrating both ADX and RSI filters, traders can achieve a balance between capturing high-probability mean-reversion trades and maintaining ...",
+    "host_name": "pyquantlab.medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scalablehuman.com/2025/10/24/kalman-filters-for-trading-boost-your-mean-reversion-strategy",
+    "name": "Kalman Filters for Trading: Boost Your Mean Reversion Strategy",
+    "snippet": "Kalman filters offer a dynamic edge in mean reversion trading by adapting to shifting market conditions, outperforming static tools like ...",
+    "host_name": "scalablehuman.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forextester.com/blog/mean-reversion-trading/?srsltid=AfmBOoqa2jbtowLpuu9zhChXh0zbxen7GngQoDE419cGr4JVKh91Ps1N",
+    "name": "Mean Reversion Trading: Understanding Strategies & Indicators",
+    "snippet": "Mean reversion trading bets that price swings will move back to an average. When markets stretch too far, they often start reversion to the mean.",
+    "host_name": "forextester.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

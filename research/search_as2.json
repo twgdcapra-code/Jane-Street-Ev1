@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://hummingbot.org/blog/guide-to-the-avellaneda--stoikov-strategy",
+    "name": "Guide to the Avellaneda & Stoikov Strategy - Hummingbot",
+    "snippet": "Bid price = reservation price - half of optimal spread · Ask price = reservation price + half of optimal spread. Missing: gamma sigma",
+    "host_name": "hummingbot.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantbeckman.com/p/can-you-manage-inventoryor-is-it",
+    "name": "[WITH CODE] Market Making: Avellaneda–Stoikov model",
+    "snippet": "The formulas are: \\(b = r - \\delta,\\quad a = r + \\delta\\) is related to the profitability of capturing the spread. The term 1/2 γσ2(T−t) is the ...",
+    "host_name": "www.quantbeckman.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@navnoorbawa/avellaneda-stoikov-charges-up-to-48-76-of-profit-for-inventory-skew-hsbc-funded-quants-traced-why-76caece5183d",
+    "name": "Avellaneda-Stoikov Charges Up to 48.76% of Profit for Inventory Skew",
+    "snippet": "A long position (q > 0) pulls the reservation price below the mid, tilting both quotes down so the dealer is more likely to sell back toward ... Missing: gamma sigma",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "Jul 4, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://mbrenndoerfer.com/writing/market-making-liquidity-provision-optimal-quoting-strategies",
+    "name": "Market Making & Liquidity Provision: Optimal Quoting Models",
+    "snippet": "The reservation price formula captures this adjustment precisely. The optimal spread around this reservation price is: δ ∗ = γ σ abs 2 ( T ...",
+    "host_name": "mbrenndoerfer.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.research.hangukquant.com/p/dummy-stoikov",
+    "name": "dummy stoikov - HangukQuant Research",
+    "snippet": "Here, we give low resolution walk through of inventory handling in the market-making framework of Avellaneda & Stoikov (AnS).",
+    "host_name": "www.research.hangukquant.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2606.01477v1",
+    "name": "Avellaneda–Stoikov and Cartea–Jaimungal as One Framework",
+    "snippet": "The optimal quoting strategy solves a Hamilton–Jacobi–Bellman equation, and the resulting reservation-price and optimal-spread formulas are by ...",
+    "host_name": "arxiv.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

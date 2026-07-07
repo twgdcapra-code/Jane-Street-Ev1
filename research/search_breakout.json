@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.whselfinvest.com/en-lu/trading-platform/store/trading-strategies/daytrading-traders-magazine-break-out-strategies",
+    "name": "The Trader's Magazine Breakout Package - WH SelfInvest",
+    "snippet": "The Donchian Channel Breakout strategy uses two Donchian channels to open and close positions. These channels are combined with a pair of crossing moving ...",
+    "host_name": "www.whselfinvest.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://kr.tradingview.com/scripts/donchianchannel",
+    "name": "Donchianchannel — 지표 및 전략 - 트레이딩뷰 - TradingView",
+    "snippet": "This indicator uses a Donchian Channel breakout to define trend direction and then projects an asymmetric \"cloud\" zone above or below price",
+    "host_name": "kr.tradingview.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradingcode.net/tradingview/donchian-channel-breakout",
+    "name": "Donchian Channel Breakout TradingView - TradingCode",
+    "snippet": "The Donchian Channel Breakout strategy opens positions when prices move just a single tick above the upper band or below the lower band.",
+    "host_name": "www.tradingcode.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pyquantlab.medium.com/a-donchian-channel-breakout-strategy-a-simple-trend-following-approach-18b7b74c4358",
+    "name": "A Donchian Channel Breakout Strategy: A Simple Trend-Following",
+    "snippet": "For risk management, the strategy utilizes a dynamic Average True Range (ATR)-based trailing stop. Once a position is opened, a stop-loss is ...",
+    "host_name": "pyquantlab.medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=1Lq9OUAdGKs",
+    "name": "I Backtested the Opening Range Breakout With an ATR Filter",
+    "snippet": "Quick recap of the Opening Range Breakout strategy · Explanation of the ATR filter and how it works · Full backtest results over 5 years of ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fxcc.com/donchian-channel-breakout-strategy",
+    "name": "Donchian Channel Breakout strategy",
+    "snippet": "The Donchian Breakout Strategy is a straightforward and effective trading approach that leverages the concept of breakouts to identify potential market trends.",
+    "host_name": "www.fxcc.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/6272239.pdf?abstractid=6272239&mirid=1",
+    "name": "[PDF] Evaluating the Performance of a Donchian Channel Breakout",
+    "snippet": "This study examines the performance of the Donchian Channel breakout strategy enhanced with the ATR-based volatility regime filter and ATR based risk management ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.altrady.com/blog/crypto-trading-strategies/donchian-channel-strategy",
+    "name": "Donchian Channel Strategy: How to Trade Breakouts - Altrady",
+    "snippet": "Learn the Donchian Channel strategy with entry rules, ATR position sizing, and exit signals for trend-following crypto trades.",
+    "host_name": "www.altrady.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

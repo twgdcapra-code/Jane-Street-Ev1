@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.cmegroup.com/education/files/deconstructing-futures-returns-the-role-of-roll-yield.pdf",
+    "name": "[PDF] Deconstructing Futures Returns: The Role of Roll Yield | CME Group",
+    "snippet": "– There is a direct relationship between roll yield and the slope of the futures term structure. • The decomposition of a futures return into its spot return ... Missing: calendar spread",
+    "host_name": "www.cmegroup.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.simplify.us/blog/introduction-carry-strategies",
+    "name": "An Introduction to Carry Strategies - Simplify Asset Management",
+    "snippet": "A carry strategy involves repeatedly taking advantage of the difference between a spot price and a forward price, or more generally between two forward prices. Missing: arbitrage spread",
+    "host_name": "www.simplify.us",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.investopedia.com/terms/f/futuresspread.asp",
+    "name": "Mastering Futures Spreads: Comprehensive Strategies and",
+    "snippet": "A futures spread strategy involves holding both a long and a short futures position to profit from price discrepancies rather than market direction. Missing: structure arbitrage",
+    "host_name": "www.investopedia.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.avatrade.com/education/market-terms/what-is-contango",
+    "name": "Spot vs Futures: Beating Contango - AvaTrade",
+    "snippet": "Understand contango vs backwardation, roll yield mechanics, and curve-reading tactics to design smarter futures and CFD strategies.",
+    "host_name": "www.avatrade.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/CFTCGlossary/index.htm",
+    "name": "Futures Glossary | CFTC",
+    "snippet": "Calendar Spread. (1) The purchase of one delivery month of a given futures contract and simultaneous sale of a different delivery month of the same futures ...",
+    "host_name": "www.cftc.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://thehedgefundjournal.com/harvesting-global-carry",
+    "name": "Harvesting Global Carry - The Hedge Fund Journal",
+    "snippet": "The trade will typically involve a long position in the highest carry contract and a short position in the lowest carry contract in the futures term structure.",
+    "host_name": "thehedgefundjournal.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID1619565_code895466.pdf?abstractid=1609776",
+    "name": "[PDF] Term Structure and Roll Yield: Not Your Father's Backwardation",
+    "snippet": "Fourth, it should be pointed out that calendar spreads are a quasi-arbitrage. Arbitrageurs engaged in 'cash and carry' and 'reverse cash and carry' strategies ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.returnstacked.com/managed-futures-yield-carry",
+    "name": "Managed Futures Yield (Carry) - Return Stacked® Portfolio Solutions",
+    "snippet": "Calendar Spread Carry: This strategy is commonly applied in the futures market, where an investor takes long positions in contracts with nearer expiration ...",
+    "host_name": "www.returnstacked.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

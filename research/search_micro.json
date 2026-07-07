@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://medium.com/@simomenaldo/understanding-order-flow-toxicity-58fa317b3d01",
+    "name": "Understanding Order Flow Toxicity | by Simone Menaldo - Medium",
+    "snippet": "A value of 0 suggests a balanced order flow. Persistent OFI in one direction is a strong signal of informed trading. Informed traders ...",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/382944327_Forecasting_High_Frequency_Order_Flow_Imbalance",
+    "name": "(PDF) Forecasting High Frequency Order Flow Imbalance",
+    "snippet": "The Order Flow Imbalance (OFI) is an indicator commonly used to estimate this asymmetry. This paper uses Hawkes processes to estimate the OFI ...",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://kr.tradingview.com/script/1WBsNQgT-Order-Flow-Microstructure-Engine",
+    "name": "Order Flow Microstructure Engine - 트레이딩뷰",
+    "snippet": "- Apply to a liquid instrument on an intraday timeframe (1m–1h). Defaults are tuned for index futures on 5-minute charts with 5-second sub-bars.",
+    "host_name": "kr.tradingview.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/order-flow-imbalance-models",
+    "name": "Order Flow Imbalance Models - QuestDB",
+    "snippet": "Order Flow Imbalance (OFI) models are mathematical frameworks that quantify the imbalance between buying and selling pressure in financial markets. Missing: VPIN | Show results with: VPIN\nTraders use OFI metrics to generate trading signals by: Identifying persistent imbalances; Detecting regime changes; Forecasting short-term price movements ... Missing: VPIN | Show results with: VPIN",
+    "host_name": "questdb.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2606.04217v2",
+    "name": "Polymarket-v1 Database - arXiv",
+    "snippet": "VPIN/PIN: higher indicates more informed trading. Note: the figure labels Order Flow Imbalance as “OFI” and uses “PIN” to denote True VPIN ...",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://microalphas.com/order-flow-imbalance",
+    "name": "Order Flow Imbalance (OFI): Reading Short-Horizon Price Pressure",
+    "snippet": "Order flow imbalance (OFI) is a measure of the net directional pressure in the limit order book over a short window — the degree to which the ...\nOrder flow imbalance measures the net buying pressure in the limit order book — and explains short-horizon price moves more reliably than ...",
+    "host_name": "microalphas.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/6688399.pdf?abstractid=6688399&mirid=1",
+    "name": "[PDF] Modelling Crypto Asset Order-Flow Imbalance as an Additive and",
+    "snippet": "This study models order-flow imbalance (OFI) in cryptocurrency markets as a stationary additive multiplicative stochastic process and ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantvps.com/blog/order-flow-imbalance-signals?srsltid=AfmBOorfM41OJAOssydfVgDEcRgrJp5OSdtWGw9QQlXf1dj1nSiuZ06G",
+    "name": "Order Flow Imbalance Signals: A Guide for High Frequency Traders",
+    "snippet": "When OFI is positive, it indicates stronger buy-side liquidity, while a negative OFI points to sell-side dominance. In thinner markets, these ...",
+    "host_name": "www.quantvps.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

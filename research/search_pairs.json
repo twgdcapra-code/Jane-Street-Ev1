@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.linkedin.com/posts/nburgessx_quant-finance-pairs-activity-7197697451879735296-NiKg",
+    "name": "#quant #finance #pairs #trading #statistical #arbitrage  - LinkedIn",
+    "snippet": "... formula for the half-life of an Ornstein-Uhlenbeck (OU) process. Half-life = -ln(2) / β where β is the adjustment coefficient obtained from ...\nThe mean reversion coefficient can be used to compute the half-life -life of an Ornstein-Uhlenbeck (OU) process. Half-life = -ln(2) / β ...",
+    "host_name": "www.linkedin.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2109.10662/1000",
+    "name": "[PDF] Evaluation of Dynamic Cointegration-Based Pairs Trading",
+    "snippet": "We calibrate the mean-reversion speed of the Ornstein-Uhlenbeck process to obtain the half-life used for the asset selection phase and look-back window.",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hudsonthames.org/pairs-trading-with-stochastic-control-and-ou-process",
+    "name": "Pairs Trading with Stochastic Control and OU process - Hudson & Thames",
+    "snippet": "This article introduces two pairs trading strategies, The half-life of the spread is calculated from the rate of mean reversion. Statistical Arbitrage: Pairs ...",
+    "host_name": "hudsonthames.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hudson-and-thames-arbitragelab.readthedocs-hosted.com/en/latest/optimal_mean_reversion/ou_model.html",
+    "name": "Trading Under the Ornstein-Uhlenbeck Model",
+    "snippet": "This module gives you the ability to calculate optimal values of entering and liquidating the position for your portfolio. The whole process takes only 2 steps.",
+    "host_name": "hudson-and-thames-arbitragelab.readthedocs-hosted.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/4906546.pdf?abstractid=4906546&mirid=1&type=2",
+    "name": "[PDF] Multivariate Cointegration in Statistical Arbitrage",
+    "snippet": "Alternatively, the evaluation could be performed through the half-life, calculated from the Ornstein-Uhlenbeck process, as employed by Teixeira [2014].",
+    "host_name": "papers.ssrn.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www2.stat.duke.edu/~scs/Projects/StructuralPhylogeny/multivariateOU.pdf",
+    "name": "[PDF] Review of Statistical Arbitrage, Cointegration, and Multivariate",
+    "snippet": "We introduce the multivariate Ornstein-Uhlenbeck process, solve it analytically, and discuss how it generalizes a vast class of continuous-time and discrete ...",
+    "host_name": "www2.stat.duke.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=UrE-ckatris",
+    "name": "The Ornstein-Uhlenbeck Process and Pairs Ratio Determination - YouTube",
+    "snippet": "In this video, we continue going over some of the material in the book Optimal Mean Reversion Trading: Mathematical Analysis And Practical ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://jonathankinlay.com/2018/09/developing-statistical-arbitrage-strategies-using-cointegration",
+    "name": "Developing Statistical Arbitrage Strategies Using Cointegration",
+    "snippet": "Halflife From which we estimate the half-life of mean reversion to be 23 days. we now estimate the half-life to be only 14 days. 500 days drops ...",
+    "host_name": "jonathankinlay.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]
