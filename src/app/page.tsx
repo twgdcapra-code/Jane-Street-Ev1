@@ -7,6 +7,7 @@ import {
   Bell,
   BookOpen,
   Brain,
+  Calendar,
   CircleDot,
   Cpu,
   Gauge,
@@ -16,11 +17,13 @@ import {
   type LucideIcon,
   Radar,
   RefreshCw,
+  Calculator,
   ShieldAlert,
   Sigma,
   Star,
   Terminal as TerminalIcon,
   TrendingUp,
+  Waves,
   Zap,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -42,6 +45,12 @@ import { ExecutionAlgos } from "@/components/trading/ExecutionAlgos";
 import { OptionsLab } from "@/components/trading/OptionsLab";
 import { AlertsWatchlist } from "@/components/trading/AlertsWatchlist";
 import { TradeJournal } from "@/components/trading/TradeJournal";
+import { MarketScanner } from "@/components/trading/MarketScanner";
+import { OrderFlow } from "@/components/trading/OrderFlow";
+import { TermStructure } from "@/components/trading/TermStructure";
+import { EconomicCalendar } from "@/components/trading/EconomicCalendar";
+import { PositionSizer } from "@/components/trading/PositionSizer";
+import { VolatilityAnalyzer } from "@/components/trading/VolatilityAnalyzer";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -59,7 +68,13 @@ type ModuleId =
   | "algos"
   | "options"
   | "alerts"
-  | "journal";
+  | "journal"
+  | "scanner"
+  | "orderflow"
+  | "termstructure"
+  | "economic"
+  | "sizer"
+  | "volatility";
 
 interface ModuleDef {
   id: ModuleId;
@@ -81,6 +96,12 @@ const MODULES: ModuleDef[] = [
   { id: "portfolio", name: "Portfolio", icon: Gauge, description: "Sharpe, Sortino, correlation matrix" },
   { id: "alerts", name: "Alerts & Watchlist", icon: Star, description: "Price/technical alerts and symbol watchlists" },
   { id: "journal", name: "Trade Journal", icon: BookOpen, description: "Tag-based P&L attribution and trade notes" },
+  { id: "scanner", name: "Market Scanner", icon: Radar, description: "Scan all contracts for technical setups" },
+  { id: "orderflow", name: "Order Flow / DOM", icon: Activity, description: "Depth ladder, trade tape, volume profile" },
+  { id: "termstructure", name: "Futures Curve", icon: TrendingUp, description: "Term structure, contango/backwardation" },
+  { id: "economic", name: "Economic Calendar", icon: Calendar, description: "Macro events with market impact analysis" },
+  { id: "sizer", name: "Position Sizer", icon: Calculator, description: "Kelly, vol targeting, what-if sizing" },
+  { id: "volatility", name: "Volatility Analyzer", icon: Waves, description: "Realized vol, GARCH forecast, regime detection" },
   { id: "research", name: "Research", icon: TrendingUp, description: "Factor analysis and cointegration tools" },
   { id: "system", name: "System Monitor", icon: Activity, description: "Latency, throughput, event log" },
 ];
@@ -280,6 +301,18 @@ function ModuleRenderer({ active, selectedSymbol }: { active: ModuleId; selected
       return <AlertsWatchlist />;
     case "journal":
       return <TradeJournal />;
+    case "scanner":
+      return <MarketScanner />;
+    case "orderflow":
+      return <OrderFlow />;
+    case "termstructure":
+      return <TermStructure />;
+    case "economic":
+      return <EconomicCalendar />;
+    case "sizer":
+      return <PositionSizer />;
+    case "volatility":
+      return <VolatilityAnalyzer />;
     case "research":
       return <ResearchTerminal />;
     case "system":
