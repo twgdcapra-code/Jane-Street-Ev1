@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.amibroker.com/guide/h_montecarlo.html",
+    "name": "Monte Carlo Simulation of your trading system - AmiBroker",
+    "snippet": "Various Monte Carlo simulation methods allow verification of the robustness of the trading system, find out the probability of ruin and many other statistical ...",
+    "host_name": "www.amibroker.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://journalplus.co/learn/glossary/monte-carlo-simulation",
+    "name": "What is Monte Carlo Simulation? Definition & Examples - JournalPlus",
+    "snippet": "Monte Carlo simulation stress-tests trading strategies by randomizing trade sequences to reveal worst-case drawdowns, probability of ruin, ...",
+    "host_name": "journalplus.co",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradingview.com/chart/ES1!/3PJxeFok-Monte-Carlo-Simulation-and-Statistical-Significance",
+    "name": "Monte Carlo Simulation and Statistical Significance - TradingView",
+    "snippet": "The median bootstrap drawdown is 14.8%. The 95th percentile is 22.1%. A risk manager should plan for the 95th percentile, not the observed value ...",
+    "host_name": "www.tradingview.com",
+    "rank": 2,
+    "date": "Jul 4, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jacob-amaral-32198287_for-monte-carlo-trade-simulations-i-prefer-activity-7397275026263072768-p_j5",
+    "name": "How to Bootstrap Monte Carlo Trade Simulations - LinkedIn",
+    "snippet": "Bootstrap resampling complements Monte Carlo by anchoring simulations in actual market data. By repeatedly sampling historical returns ...",
+    "host_name": "www.linkedin.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arongroups.co/forex-articles/monte-carlo-simulation-in-python-for-trading",
+    "name": "Monte Carlo Simulation in Python: Stress-Test Your Trading Strategy",
+    "snippet": "Monte Carlo Simulation in Python turns a single backtest into a probability map of drawdowns, not a single “true” outcome. Small changes in ...",
+    "host_name": "arongroups.co",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.marketcalls.in/amibroker/monte-carlo-analysis-trading-system-validation-to-take-informed-trading-decisions.html",
+    "name": "Monte Carlo analysis – Trading System Validation to take informed",
+    "snippet": "The bootstrap test is a statistical method that can be used in trading to assess the reliability of statistical estimates and to test hypotheses ...",
+    "host_name": "www.marketcalls.in",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=wsU7YLcPXmE",
+    "name": "Bootstrapping and Monte Carlo Sampling in Statistics - YouTube",
+    "snippet": "Here we estimate the error of our parameter estimate from the method of moments using Monte Carlo sampling and the bootstrap.",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@aaron_delarosa/implementing-monte-carlo-vs-bootstrapping-6e570798f122",
+    "name": "Implementing Monte Carlo vs Bootstrapping | by Aaron De la Rosa",
+    "snippet": "Both methods are used to generate simulated price paths for a given asset, or portfolio of assets but they use slightly differing methods.",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ryanoconnellfinance.com/simulation-methods-comparison",
+    "name": "Simulation Methods: Historical, Bootstrap, and Monte Carlo",
+    "snippet": "Bootstrap resampling does not create new information — it creates new combinations from existing information. The underlying risk factors and ...",
+    "host_name": "ryanoconnellfinance.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://jksus.org/the-bootstrap-method-for-monte-carlo-integration-inference",
+    "name": "The bootstrap method for Monte Carlo integration inference",
+    "snippet": "In this paper, the use of bootstrap method with Monte Carlo integration is introduced for one dimension. This approach is based on generating observations ...",
+    "host_name": "jksus.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://arxiv.org/html/2601.13421v2",
+    "name": "Market Making and Transient Impact in Spot FX - arXiv",
+    "snippet": "So, why Almgren-Chriss? First of all, the square root law is a meta feature which arises for relatively large parent orders due to latent ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mfe.baruch.cuny.edu/wp-content/uploads/2012/09/Chicago2016OptimalExecution.pdf",
+    "name": "[PDF] Three models of market impact - Baruch MFE Program",
+    "snippet": "Transaction-triggered price manipulation can exist in models that do not admit standard price manipulation in the sense of the Huberman and Stanzl definition.",
+    "host_name": "mfe.baruch.cuny.edu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cis.upenn.edu/~mkearns/finread/costestim.pdf",
+    "name": "[PDF] Direct Estimation of Equity Market Impact",
+    "snippet": "The transaction cost model embedded in our analysis is based on the model presented by Almgren and Chriss (2000) with nonlinear extensions from ...",
+    "host_name": "www.cis.upenn.edu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/cfm-imperial-institute-of-quantitative-finance/events/Lillo-Imperial-Lecture3.pdf",
+    "name": "[PDF] Market impact models and optimal execution algorithms",
+    "snippet": "A square-root model well describe price impact only in the central region (red curve). A logarithmic (more concave) model allows to capture the ...\nA square-root model well describe price impact only in the central region (red curve). Almgren-Chriss Continuous-time stock price model for a ...",
+    "host_name": "www.imperial.ac.uk",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@simomenaldo/price-impact-estimation-7c477592ea39",
+    "name": "Price Impact Estimation - Medium",
+    "snippet": "The Almgren-Chriss framework provides a rigorous model for optimizing trade execution by balancing market impact costs against timing risk ( ...",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/7049/typical-coefficients-uses-in-square-root-model-for-market-impact",
+    "name": "Typical coefficients uses in square-root model for market impact",
+    "snippet": "The square-root model is widely used to model equity market impact. It assumes that volatility, traded volume, total volume, and a spread cost are the drivers ...",
+    "host_name": "quant.stackexchange.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/optimal-execution-strategies-almgren-chriss-model",
+    "name": "Optimal Execution Strategies - Almgren-Chriss Model - QuestDB",
+    "snippet": "The Almgren-Chriss model is a mathematical framework for optimal trade execution that balances the tradeoff between market impact cost and timing risk.",
+    "host_name": "questdb.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://mathfinance.sns.it/wp-content/uploads/2010/12/Gatheral_Optim_Exec.pdf",
+    "name": "[PDF] Optimal order execution",
+    "snippet": "Almgren Chriss. Alfonsi Schied. Price manipulation. Linear transient impact. Square-root model. Conclusion. Impact of proprietary metaorders (from Tóth et al.).",
+    "host_name": "mathfinance.sns.it",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cfe.columbia.edu/sites/default/files/content/slides/2024/(Talk%203)%20Fengpei%20Li%20(Morgan%20StanleyDock).pdf",
+    "name": "[PDF] Do price trajectory data increase the efficiency of market impact  - CFE",
+    "snippet": "Main findings. • Standard estimation method on market Impact models could be \"inefficient.\" • For Almgren-Chriss model, there is an \"optimal\" calibration.",
+    "host_name": "cfe.columbia.edu",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/228754794_Direct_Estimation_of_Equity_Market_Impact",
+    "name": "(PDF) Direct Estimation of Equity Market Impact - ResearchGate",
+    "snippet": "We reject the com-mon square-root model for temporary impact as function of trade rate, in favor of a 3/5 power law across the range of order sizes considered.",
+    "host_name": "www.researchgate.net",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://portfoliooptimizationbook.com/book/8.2-seven-sins.html",
+    "name": "8.2 The Seven Sins of Quantitative Investing | Portfolio Optimization",
+    "snippet": "Survivorship bias is one of the common mistakes investors tend to make. ... An obvious example of look-ahead bias lies in companies' financial statement data.",
+    "host_name": "portfoliooptimizationbook.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/CFA/comments/1arcdr3/do_lookahead_bias_and_survivorship_bias_count_as",
+    "name": "Do look-ahead bias and survivorship bias count as separate pitfalls",
+    "snippet": "Look-ahead bias is that you are taking e.g. financial data for Q1 as of 1st January and you compare stock Q1 performance to financial Q1 ... How to prevent look ahead bias? : r/quant - Reddit How to audit your backtest for look-ahead bias before deploying ... More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rmp99_3-backtesting-pitfalls-that-ruin-your-trading-activity-7439369922931134464-7MHV",
+    "name": "3 Backtesting Pitfalls That Ruin Trading Strategies: Look-Ahead Bias",
+    "snippet": "4️⃣ Live markets move slower and feel harder. Backtests run in seconds, but live trading can stretch the same setup across hours or even days.",
+    "host_name": "www.linkedin.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hedgefundalpha.com/education/backtesting-mistakes-kill-quant-strategies-guide/?srsltid=AfmBOopQ6IeYj8a3iKTt6LZrM_ryaqvfJmQUj8teauMwURSUjWmUiBsE",
+    "name": "A Practical Guide To The Backtesting Mistakes That Kill Quant",
+    "snippet": "A guide to backtesting mistakes like look-ahead bias, overfitting, and cost errors that can quietly kill quant strategies.",
+    "host_name": "hedgefundalpha.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mbrenndoerfer.com/writing/backtesting-trading-strategies-simulation-frameworks",
+    "name": "Backtesting & Simulation: Frameworks for Strategy Validation",
+    "snippet": "Biases corrupt backtests in subtle but devastating ways. Look-ahead bias uses future information; survivorship bias excludes failed assets; ...",
+    "host_name": "mbrenndoerfer.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://starqube.com/backtesting-investment-strategies",
+    "name": "The critical pitfalls of backtesting trading strategies: a complete guide",
+    "snippet": "Look-ahead bias involves using information in a backtest that wouldn't have been available during actual trading. Common examples include: Using ...",
+    "host_name": "starqube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://analystprep.com/study-notes/cfa-level-2/problems-in-backtesting",
+    "name": "Problems in Backtesting and Biases in Data - AnalystPrep",
+    "snippet": "Learn common backtesting problems, including survivorship bias, look-ahead bias, and data snooping, and how they affect strategy results.",
+    "host_name": "analystprep.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fortraders.com/blog/how-to-avoid-bias-in-backtesting",
+    "name": "How To Avoid Bias in Backtesting | For Traders",
+    "snippet": "Survivorship Bias: Include both active and failed assets in datasets. Look-Ahead Bias: Use only data available at the time of testing. Curve ...",
+    "host_name": "www.fortraders.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2605.24564",
+    "name": "Summoning the Oracle to Slay It: Mitigating Look-Ahead Bias in",
+    "snippet": "In quantitative finance, backtests gate capital allocation, so a result inflated by undetected bias translates directly into capital ...",
+    "host_name": "arxiv.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/funny-ai-quant/look-ahead-bias-in-quantitative-finance-the-silent-killer-of-trading-strategies-bbbbb31d943a",
+    "name": "Look-ahead Bias in Quantitative Finance: The Silent Killer of Trading",
+    "snippet": "Inflated Performance Metrics: Backtests tainted by look-ahead bias often show unrealistically high returns and Sharpe ratios, setting dangerous ...",
+    "host_name": "medium.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

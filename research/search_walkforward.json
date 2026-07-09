@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://blog.quantinsti.com/walk-forward-optimization-introduction",
+    "name": "Walk-Forward Optimization (WFO) - QuantInsti Blog",
+    "snippet": "Learn how Walk-Forward Optimization (WFO) works, its limitations, and how to implement it for backtesting trading strategies.",
+    "host_name": "blog.quantinsti.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.amibroker.com/guide/h_walkforward.html",
+    "name": "Walk-forward testing and optimization - AmiBroker",
+    "snippet": "Click the Settings button, then switch to the Walk-Forward tab; Here you can see walk-forward settings for in-sample optimization and out-of-sample backtest.",
+    "host_name": "www.amibroker.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://clearedge.trading/post/walk-forward-optimization-futures-strategy-validation",
+    "name": "Walk-Forward Testing - ClearEdge Automation",
+    "snippet": "Walk-forward optimization splits historical data into rolling in-sample (training) and out-of-sample (testing) windows, typically using 70-80% for ...",
+    "host_name": "clearedge.trading",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@NFS303/walk-forward-analysis-a-production-ready-comparison-of-three-validation-approaches-69cd25fc9fc7",
+    "name": "Walk-Forward Analysis: A Production-Ready Comparison of",
+    "snippet": "The key metric is Walk-Forward Efficiency (WFE), calculated as: WFE = Out-of-Sample Sharpe Ratio / In-Sample Sharpe Ratio. A WFE above 0.5 ...",
+    "host_name": "medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.susanpotter.net/quant/walk-forward-optimization",
+    "name": "Walk-Forward Optimization: Anchored vs. Rolling Windows and When",
+    "snippet": "Walk-forward validation is the backbone of out-of-sample testing for trading strategies. The idea is simple: train on the past, test on the ...",
+    "host_name": "www.susanpotter.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portfoliooptimizationbook.com/book/8.4-backtesting-market-data.html",
+    "name": "8.4 Backtesting with Historical Market Data - Portfolio Optimization Book",
+    "snippet": "Figure 8.11 illustrates the rolling-window split of data into in-sample and out-of-sample corresponding to a walk-forward backtest. Data splitting in a rolling- ...",
+    "host_name": "portfoliooptimizationbook.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=shBaQzNsLRA",
+    "name": "Walk-Forward Analysis: Your Ultimate Guide! - YouTube",
+    "snippet": "... walk-forward analysis to take your out-of-sample testing to the next level! I'll cover the concept and benefits of walk-forward analysis ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Walk_forward_optimization",
+    "name": "Walk forward optimization - Wikipedia",
+    "snippet": "Walk forward optimization is a method used in finance to determine the optimal parameters for a trading strategy and to determine the robustness of the ...",
+    "host_name": "en.wikipedia.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/1iu2cze/strategy_optimization_in_sample_periods_vs_out_of",
+    "name": "Strategy optimization: in sample periods vs out of sample / walk",
+    "snippet": "When backtesting you will get an extremely good/bad trade depending on your market position that skews your backtest results. For regular ... My Walkforward Optimization Backtesting System for a Trend ... Even some algo traders don't know how to walk-forward analyze? More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://eveince.substack.com/p/walk-forward-optimization-for-algorithmic",
+    "name": "Walk-forward optimization for algorithmic trading strategies on",
+    "snippet": "Walk-Forward Optimization is a sequential optimization and backtesting applied to evaluate an investment strategy.",
+    "host_name": "eveince.substack.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

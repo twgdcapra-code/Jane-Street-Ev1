@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://medium.com/deep-origami/the-art-of-fractional-differentiation-in-engineering-memory-preserving-stationary-time-series-acdd8a2999fa",
+    "name": "The Art of Fractional Differentiation in engineering “Memory-preserving",
+    "snippet": "Professor Marcos Lopez de Prado shows us how to expand the conceptual formula of the dth differential feature (6) in a tractable manner that ...",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mlfinpy.readthedocs.io/en/latest/FractionalDifferentiated.html",
+    "name": "Fractionally Differentiated - Mlfin.py",
+    "snippet": "The method proposed by Marcos Lopez de Prado aims to make data stationary while preserving as much memory as possible, as it's the memory part that has ...",
+    "host_name": "mlfinpy.readthedocs.io",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hudsonthames.org/fractional-differentiation",
+    "name": "Fractional Differentiation - Hudson & Thames",
+    "snippet": "Marcos Lopez de Prado therein he discusses fractionally differencing the time series (as opposed to integer differencing). A fractionally differentiated ...",
+    "host_name": "hudsonthames.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mql5.com/en/articles/22014",
+    "name": "Feature Engineering for ML (Part 1): Fractional Differentiation - MQL5",
+    "snippet": "López de Prado introduced this technique to the financial ML community ... Pass the stationary, memory-preserving features to the model training pipeline.",
+    "host_name": "www.mql5.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/354130032_Fractional_differentiation_and_its_use_in_machine_learning",
+    "name": "Fractional differentiation and its use in machine learning - ResearchGate",
+    "snippet": "This concept has been proposed by Lopez de Prado. The aim is making time series stationary while keeping its memory and predictive power. ...",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=acyAhc7B7mI",
+    "name": "Book2-Chapter5-Fractionally Differentiated Features - YouTube",
+    "snippet": "Subscribe and keep informed! Book 2: Marcos Lopez de Prado, (2018), “Advances in Financial Machine Learning”.",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://zaurtarunov.substack.com/p/fractional-differencing",
+    "name": "Fractional Differencing: How to Save Time Series Memory - Substack",
+    "snippet": "This is the story of how I implemented fractional differencing using concepts described by Marcos Lopez de Prado in his book, Advances in ...",
+    "host_name": "zaurtarunov.substack.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.risklab.ai/research/financial-data-science/fractional_differentiation",
+    "name": "Fractional Differentiation - RiskLab AI",
+    "snippet": "This technique allows us to make a time series stationary while preserving memory, which is crucial for financial machine learning models.",
+    "host_name": "www.risklab.ai",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/p/war/wpaper/2020-32.html",
+    "name": "Fractional differentiation and its use in machine learning - IDEAS/RePEc",
+    "snippet": "This concept has been proposed by Lopez de Prado to find the most ... The aim is making time series stationary while keeping its memory and predictive power.",
+    "host_name": "ideas.repec.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://microalphas.com/fractional-differentiation",
+    "name": "Fractional Differentiation: Making Financial Series Stationary Without",
+    "snippet": "Fractional differentiation makes a price series stationary while preserving the maximum possible memory — resolving the dilemma that taking ...",
+    "host_name": "microalphas.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

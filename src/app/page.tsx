@@ -53,6 +53,7 @@ import { PositionSizer } from "@/components/trading/PositionSizer";
 import { VolatilityAnalyzer } from "@/components/trading/VolatilityAnalyzer";
 import { IndicatorsLab } from "@/components/trading/IndicatorsLab";
 import { ExecutionalCharting } from "@/components/trading/ExecutionalCharting";
+import { PortfolioBacktester } from "@/components/trading/PortfolioBacktester";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -78,7 +79,8 @@ type ModuleId =
   | "sizer"
   | "volatility"
   | "indicators"
-  | "execchart";
+  | "execchart"
+  | "portbt";
 
 interface ModuleDef {
   id: ModuleId;
@@ -108,6 +110,7 @@ const MODULES: ModuleDef[] = [
   { id: "volatility", name: "Volatility Analyzer", icon: Waves, description: "Realized vol, GARCH forecast, regime detection" },
   { id: "indicators", name: "Indicators Lab", icon: Layers, description: "40+ indicators, signal builder, prediction engine, ML log" },
   { id: "execchart", name: "Executional Charting", icon: Activity, description: "Neon prediction overlay, multi-model ensemble, execution plugins" },
+  { id: "portbt", name: "Portfolio Backtester", icon: Layers, description: "Multi-strategy backtesting with 6 allocation methods, Monte Carlo" },
   { id: "research", name: "Research", icon: TrendingUp, description: "Factor analysis and cointegration tools" },
   { id: "system", name: "System Monitor", icon: Activity, description: "Latency, throughput, event log" },
 ];
@@ -323,6 +326,8 @@ function ModuleRenderer({ active, selectedSymbol }: { active: ModuleId; selected
       return <IndicatorsLab />;
     case "execchart":
       return <ExecutionalCharting />;
+    case "portbt":
+      return <PortfolioBacktester />;
     case "research":
       return <ResearchTerminal />;
     case "system":

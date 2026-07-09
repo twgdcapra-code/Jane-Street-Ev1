@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2658641",
+    "name": "Determining Optimal Trading Rules Without Backtesting",
+    "snippet": "Calibrating a trading rule using a historical simulation (also called backtest) contributes to backtest overfitting, which in turn leads to ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/1408.1159",
+    "name": "[1408.1159] Determining Optimal Trading Rules without Backtesting",
+    "snippet": "In this paper we propose a procedure for determining the optimal trading rule (OTR) without running alternative model configurations through a backtest engine.",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantresearch.org/Lectures.htm",
+    "name": "Lopez de Prado, Marcos - QuantResearch.org",
+    "snippet": "Lopez de Prado, Marcos, 2014, Optimal Trading Rules Without Backtesting. Calibrating a trading rule using a historical simulation (also called backtest) ...",
+    "host_name": "www.quantresearch.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/315307298_Determining_Optimal_Trading_Rules_Without_Backtesting",
+    "name": "Determining Optimal Trading Rules Without Backtesting | Request PDF",
+    "snippet": "Lopez de Prado (2014) attempted to establish optimal trade rules without the use of backtesting in order to avoid overfitting by exclusively employing numerical ...",
+    "host_name": "www.researchgate.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/p/arx/papers/1408.1159.html",
+    "name": "Determining Optimal Trading Rules without Backtesting - IDEAS/RePEc",
+    "snippet": "Calibrating a trading rule using a historical simulation (also called backtest) contributes to backtest overfitting, which in turn leads to underperformance ...",
+    "host_name": "ideas.repec.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://caia.org/sites/default/files/tactical.pdf",
+    "name": "[PDF] Tactical Investment Algorithms - CAIA",
+    "snippet": "In other words, the optimal trading rule is to hold an inventory long enough until a small profit arises, even at the risk of experiencing some 5-fold or 7 ...",
+    "host_name": "caia.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/lopezdeprado_backtesting-stands-as-a-cornerstone-technique-activity-7223201504311074817-zGAW",
+    "name": "How backtesting can boost your investment strategy - LinkedIn",
+    "snippet": "Back testing is as important as forward testing. In as much as past results do not always determine future performance, you need some elements ...",
+    "host_name": "www.linkedin.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://escholarship.org/content/qt4w1110bb/qt4w1110bb.pdf",
+    "name": "[PDF] Lawrence Berkeley National Laboratory - eScholarship.org",
+    "snippet": "López de Prado, “Determining Optimal Trading Rules without. Backtesting”, (2014) Available at http://arxiv.org/abs/1408.1159. [7] Doyle, J ...",
+    "host_name": "escholarship.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=5JB7RscAAAAJ&hl=en",
+    "name": "‪Marcos Lopez de Prado‬ - ‪Google Scholar‬",
+    "snippet": "M Lopez de Prado. Journal of Portfolio Management, 2016. 552, 2016. Solving the optimal trading trajectory problem using a quantum annealer. G Rosenberg, P ...",
+    "host_name": "scholar.google.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scholar.google.de/citations?user=5JB7RscAAAAJ&hl=th",
+    "name": "‪Marcos Lopez de Prado‬ - ‪Google Scholar‬",
+    "snippet": "M Lopez de Prado. Journal of Portfolio Management, 2016. 545, 2016. Solving the optimal trading trajectory problem using a quantum annealer. G Rosenberg, P ...",
+    "host_name": "scholar.google.de",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

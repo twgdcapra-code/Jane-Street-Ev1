@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://portfoliooptimizer.io/blog/cluster-risk-parity-equalizing-risk-contributions-between-and-within-asset-classes",
+    "name": "Equalizing Risk Contributions Between and Within Asset Classes",
+    "snippet": "The ERC portfolio is defined as the risk-balanced portfolio such that the total risk contribution is the same for all assets in the portfolio. The equal risk contribution... · The cluster risk parity portfolio · Description",
+    "host_name": "portfoliooptimizer.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portfoliooptimizationbook.com/slides/slides-rpp.pdf",
+    "name": "[PDF] Risk Parity Portfolios",
+    "snippet": "Focuses on equalizing risk contribution from each asset. Shifts from dollar allocation to risk allocation. Concept of Risk Diversification. Aims for assets to ...",
+    "host_name": "portfoliooptimizationbook.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.robeco.com/docm/docu-enhancing-risk-parity-by-including-views-2017.pdf",
+    "name": "[PDF] ENHANCING RISK PARITY BY INCLUDING VIEWS | Robeco.com",
+    "snippet": "contribution of each asset to portfolio risk must equal. 1/N, the composition of the risk parity portfolio can be calculated easily by requiring that for ...",
+    "host_name": "www.robeco.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://www.thierry-roncalli.com/download/erc.pdf",
+    "name": "[PDF] On the properties of equally-weighted risk contributions portfolios∗",
+    "snippet": "In this paper, we consider a related approach, where the risk contribution from each portfolio components is made equal, which maxi- mizes diversification of ...",
+    "host_name": "www.thierry-roncalli.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://palomar.home.ece.ust.hk/ELEC5470_lectures/slides_risk_parity_portfolio.pdf",
+    "name": "[PDF] Risk Parity Portfolio",
+    "snippet": "The idea is to try to achieve equal risk contributions RCi = wi(Σw)i. √. wTΣw by penalizing the differences between the terms wi (Σw)i. Maillard et al. (2010) ...",
+    "host_name": "palomar.home.ece.ust.hk",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.top1000funds.com/wp-content/uploads/2012/08/Efficient-algorithms-for-computing-risk-parity-portfolio-weights.pdf",
+    "name": "[PDF] Efficient Algorithms for Computing Risk Parity Portfolio Weights",
+    "snippet": "This section first presents a rigorous mathematical definition for risk parity using the equal risk contribution notion of Maillard, Roncalli, and Teiletche ( ...",
+    "host_name": "www.top1000funds.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Risk_parity",
+    "name": "Risk parity - Wikipedia",
+    "snippet": "The best known version of risk parity is the equally-weighted risk contributions portfolio method. ... Equal risk contribution then means σ i ( w ) = σ j ...",
+    "host_name": "en.wikipedia.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/247906247_The_Properties_of_Equally_Weighted_Risk_Contribution_Portfolios",
+    "name": "The Properties of Equally Weighted Risk Contribution Portfolios",
+    "snippet": "In turn, Maillard et al. (2010) formalized the equal risk contribution (ERC) approach, which allocates risk equally across portfolio components, offering a ...",
+    "host_name": "www.researchgate.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.grahamcapital.com/wp-content/uploads/2023/07/Equal-Risk-Contribution-April-2019.pdf",
+    "name": "[PDF] Equal Risk Contribution Portfolios - Graham Capital Management",
+    "snippet": "The naive 1/n portfolio gives equal allocations to each asset, but the sources of risk are not balanced. The ERC portfolio on the other hand finds ...",
+    "host_name": "www.grahamcapital.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://digital.car.chula.ac.th/cgi/viewcontent.cgi?article=8716&context=chulaetd",
+    "name": "[PDF] Portfolio construction under group risk parity strategy in the stock",
+    "snippet": "The results indicates that highest group risk contribution of group risk parity, equal-weight, and minimum variance portfolios are 11.13%, 23.81%, and 65.10% ...",
+    "host_name": "digital.car.chula.ac.th",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

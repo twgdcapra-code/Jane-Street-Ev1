@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://alvarezquanttrading.com/blog/inverse-volatility-position-sizing",
+    "name": "Inverse Volatility Position Sizing - Alvarez Quant Trading",
+    "snippet": "Calculate the historical volatility for each stock to get HV · Take the inverse of the HV to get INV_HV. This means INV_HV = 1/ HV · Sum all the ...",
+    "host_name": "alvarezquanttrading.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/1mz1a51/does_anyone_else_prefer_inverse_volatility",
+    "name": "Does anyone else prefer inverse volatility weighting to ATR based",
+    "snippet": "Inverse volatility weighting formula is based on the entire portfolio's volatility, so as positions are added/removed, all weights are ...",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5246775.pdf?abstractid=5246775&mirid=1",
+    "name": "[PDF] Portfolio Building - Weighting Rules",
+    "snippet": "This paper compares six rules for assigning portfolio weights: equal-weight, capitalisation-weight, inverse-volatility, global minimum-variance, ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/a/eee/finana/v68y2020ics1057521919301371.html",
+    "name": "Constructing inverse factor volatility portfolios: A risk-based asset",
+    "snippet": "In IFV portfolio construction, the portfolio's weights are determined by using scaled inverse factor volatility treated as a proxy for a targeted exposure in ...",
+    "host_name": "ideas.repec.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantdare.com/risk-parity-versus-inverse-volatility",
+    "name": "Portfolio risk control: risk parity vs. inverse volatility - Quantdare",
+    "snippet": "In inverse volatility strategy the risk is measured with volatility, and assets are weighted in inverse proportion to their risk. To illustrate ...",
+    "host_name": "quantdare.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@muhammadibrahimkhan735/portfolio-weighting-made-simple-optimal-volatility-and-sharpe-methods-aa553901fe02",
+    "name": "Portfolio Weighting Made Simple: Optimal, Volatility, and Sharpe",
+    "snippet": "Equal volatility weighting (also known as inverse volatility) is a way to control the volatility contribution on each asset by adjusting the ...",
+    "host_name": "medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cxoadvisory.com/volatility-effects/inverse-volatility-weighting-of-volatility-assets",
+    "name": "Inverse-volatility Weighting of Volatility Assets - CXO Advisory",
+    "snippet": "Can long volatility investors improve performance of their portfolios by scaling positions inversely to some measure of volatility?",
+    "host_name": "www.cxoadvisory.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.pfolio.io/academy/volatility-scaling",
+    "name": "sizing positions by inverse volatility for stable risk exposure - pfolio",
+    "snippet": "For an asset with volatility σᵢ, the weight is wᵢ = (1 / σᵢ) / Σⱼ(1 / σⱼ), which produces a portfolio where each asset's volatility contribution ...",
+    "host_name": "www.pfolio.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://alphaarchitect.com/volatility-scaling-is-useful-for-factor-timing",
+    "name": "Volatility scaling: is it useful for factor timing? - Alpha Architect",
+    "snippet": "Volatility scaling is a beneficial overlay strategy for at least three equity factors although it may not be constant over time or over short investment ...",
+    "host_name": "alphaarchitect.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://arno.uvt.nl/show.cgi?fid=135571",
+    "name": "[PDF] “Betting on the low volatility puzzle” - arno",
+    "snippet": "The portfolio's inverse volatility weighted counterpart was the best overall performing strategy. In comparison to the low volatility quintile, ...",
+    "host_name": "arno.uvt.nl",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

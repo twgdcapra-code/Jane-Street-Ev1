@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://portfoliooptimizer.io/blog/the-diversification-ratio-measuring-portfolio-diversification",
+    "name": "The Diversification Ratio: Measuring Portfolio Diversification",
+    "snippet": "The diversification ratio can be interpreted as a correlation-based measure of portfolio diversification consistent with the intuition that portfolios with ...",
+    "host_name": "portfoliooptimizer.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4063676_code1693780.pdf?abstractid=4063676&mirid=1",
+    "name": "[PDF] Towards maximum diversification Yves Choueifaty Yves Coignard",
+    "snippet": "This means that the correlation of portfolio P with the Most-Diversified Portfolio M is proportional to the diversification ratio of portfolio P, namely D(P) .",
+    "host_name": "papers.ssrn.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tandfonline.com/doi/full/10.1080/23322039.2018.1427533",
+    "name": "The maximum diversification investment strategy: A portfolio",
+    "snippet": "The aim is to assess portfolio performance using cumulative returns, the Sharpe ratio and the daily volatilities of each portfolio. The four asset allocation ...",
+    "host_name": "www.tandfonline.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.hillsdaleinv.com/uploads/Risk_Parity,_Maximum_Diversification,_and_Minimum_Variance-_An_Analytic_Perspective.pdf",
+    "name": "[PDF] Risk Parity, Maximum Diversification, and Minimum Variance: An Analytic",
+    "snippet": "Maximum diversification portfolios use an objec- tive function recently introduced by Choueifaty and. Coignard [2008] that maximizes the ratio of weighted-.",
+    "host_name": "www.hillsdaleinv.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tobam.fr/wp-content/uploads/2022/02/TOBAM-JoPM-Maximum-Div-2008.pdf",
+    "name": "[PDF] Toward Maximum Diversification - tobam",
+    "snippet": "Let V be the covariance matrix of these assets and C the correlation matrix. Toward Maximum. Diversification. YVES CHOUEIFATY AND YVES COIGNARD. YVES CHOUEIFATY.",
+    "host_name": "www.tobam.fr",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cs.nuim.ie/~pmaguire/publications/Portfolio2014.pdf",
+    "name": "[PDF] Maximizing Positive Portfolio Diversification",
+    "snippet": "UPB draws on Choueifaty and Coignard's DR formula. [3] to quantify the number of equivalent risk factors and the expected impact on returns. Choueifaty et al.",
+    "host_name": "www.cs.nuim.ie",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ludgerhentschel.com/PDFs/Hentschel%20'25.pdf",
+    "name": "[PDF] The Limits of Diversification - Ludger Hentschel",
+    "snippet": "Sharpe ratio gains from diversification in the figure are entirely due to reductions in portfolio variance. We assume identical expected ...",
+    "host_name": "www.ludgerhentschel.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://oajournals.fupress.net/index.php/ijas/article/download/16759/15194",
+    "name": "[PDF] ONLINE FIRST ARTICLE doi.org/10.36253/ijas-16759",
+    "snippet": "Instead, the MD strategy aims to maximize the diversification ratio, defined as the ratio of the weighted sum of asset volatilities to the ...",
+    "host_name": "oajournals.fupress.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://research.cbs.dk/en/studentProjects/unveiling-diversification-strategies-the-most-diversified-portfol",
+    "name": "Unveiling Diversification Strategies: The Most Diversified Portfolio vs",
+    "snippet": "In this thesis, we investigate whether the framework of the most Diversiﬁed Portfolio developed by Choueifaty and Coignard ... Sharpe ratio relative to the ...",
+    "host_name": "research.cbs.dk",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.foliolab.ai/docs/guide/methods/maximum-diversification",
+    "name": "Maximum Diversification | Folio Lab",
+    "snippet": "Choueifaty and Coignard's Most Diversified Portfolio maximises the diversification ratio, the weighted-average asset volatility divided by the portfolio ...",
+    "host_name": "www.foliolab.ai",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

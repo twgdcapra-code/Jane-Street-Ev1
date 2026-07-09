@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf",
+    "name": "[PDF] THE DEFLATED SHARPE RATIO: CORRECTING FOR SELECTION",
+    "snippet": "We have explained how multiple testing leads to an increased probability of false positives, and hiding negative outcomes of multiple testing ...",
+    "host_name": "www.davidhbailey.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.pm-research.com/content/iijpormgmt/40/5/94",
+    "name": "Correcting for Selection Bias, Backtest Overfitting, and Non-Normality",
+    "snippet": "The deflated Sharpe ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non-normally distributed ...",
+    "host_name": "www.pm-research.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2460551",
+    "name": "Correcting for Selection Bias, Backtest Overfitting and Non-Normality",
+    "snippet": "The Deflated Sharpe Ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non-Normally distributed ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portfoliooptimizationbook.com/book/8.3-dangers-backtesting.html",
+    "name": "8.3 The Dangers of Backtesting - Portfolio Optimization Book",
+    "snippet": "For the multiple testing case, the deflated Sharpe ratio was developed in Bailey and López de Prado (2014) to provide a more robust performance statistic, in ...",
+    "host_name": "portfoliooptimizationbook.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Deflated_Sharpe_ratio",
+    "name": "Deflated Sharpe ratio - Wikipedia",
+    "snippet": "The Deflated Sharpe ratio (DSR) is a statistical method used to determine whether the Sharpe ratio of an investment strategy is statistically significant.",
+    "host_name": "en.wikipedia.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantresearch.org/Publications.htm",
+    "name": "publications - Marcos M. Lopez de Prado",
+    "snippet": "The Deflated Sharpe Ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non-Normally distributed ...",
+    "host_name": "www.quantresearch.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/The-Deflated-Sharpe-Ratio%3A-Correcting-for-Selection-Bailey-Prado/950f37470615dc6ae6e1f45f735408af11c48251",
+    "name": "Correcting for Selection Bias, Backtest Overfitting, and Non-Normality",
+    "snippet": "The Deflated Sharpe Ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non-Normally ...",
+    "host_name": "www.semanticscholar.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sofienkaabar_the-deflated-sharpe-ratio-by-bailey-lopez-activity-7449184574980509696-JiWa",
+    "name": "\"The Deflated Sharpe Ratio\" by Bailey & Lopez de Prado  - LinkedIn",
+    "snippet": "Backtest overfitting is the silent killer of most systematic strategies. A Sharpe of 2.5 on paper often becomes 0.3 live once you strip out ...",
+    "host_name": "www.linkedin.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://sdm.lbl.gov/oapapers/ssrn-id2507040-bailey.pdf",
+    "name": "[PDF] Statistical Overfitting and Backtest Performance - SDM",
+    "snippet": "Bailey, D., M. Lopez de Prado (2014): “The Deflated Sharpe Ratio: Correcting for Selection. Bias, Backtest Overfitting and Non-Normality”, Journal of ...",
+    "host_name": "sdm.lbl.gov",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantdare.com/deflated-sharpe-ratio-how-to-avoid-been-fooled-by-randomness",
+    "name": "Deflated Sharpe Ratio (how to avoid been fooled by randomness)",
+    "snippet": "The Deflated Sharpe Ratio can be used to determine the probability that a discovered strategy is a false positive. The key is to record all ...",
+    "host_name": "quantdare.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

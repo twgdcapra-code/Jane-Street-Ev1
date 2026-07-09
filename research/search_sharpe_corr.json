@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5520741.pdf?abstractid=5520741&mirid=1",
+    "name": "[PDF] HOW TO USE THE SHARPE RATIO",
+    "snippet": "“Gaussian i.i.d.” reproduces Lo [2002], hence assuming Normal and serially independent returns. “Gaussian + autocorrelation” relaxes ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/lopezdeprado_quantfinance-econometrics-riskmanagement-activity-7449802285963956224-IeB3",
+    "name": "Marcos Lopez de Prado's Post - LinkedIn",
+    "snippet": "Great work — having a closed-form correction for Sharpe inference under GARCH is useful. That said, the Omega ratio (Keating & Shadwick, 2002)? ...",
+    "host_name": "www.linkedin.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s11156-025-01474-6",
+    "name": "Estimated Sharpe ratio of asset returns with fat tails - Springer Nature",
+    "snippet": "This paper generalizes the results in Lo (2002) by allowing the distributions of asset returns exhibiting fat tails with the tail index 0 <",
+    "host_name": "link.springer.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/228139699_The_Statistics_of_Sharpe_Ratios",
+    "name": "(PDF) The Statistics of Sharpe Ratios - ResearchGate",
+    "snippet": "Lo (2002) shows that the Sharpe ratio has different asymptotic behavior under different return-generating processes and that the common square-root-of-time ...",
+    "host_name": "www.researchgate.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pdfs.semanticscholar.org/c215/d0a2064ce1a3565d276475abc84305418f0f.pdf",
+    "name": "[PDF] DEFLATING THE SHARPE RATIO - Semantic Scholar",
+    "snippet": "Sharpe ratio estimates tend to be overly optimistic, and they should be jointly corrected for its two sources of inflation: – Non-Normal returns. – Multiple ...",
+    "host_name": "pdfs.semanticscholar.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf",
+    "name": "[PDF] THE DEFLATED SHARPE RATIO: CORRECTING FOR SELECTION",
+    "snippet": "The Deflated Sharpe Ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non- ...",
+    "host_name": "www.davidhbailey.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://boston.qwafafew.org/wp-content/uploads/sites/4/2017/01/Lopez_de_Prado_Sharpe.pdf",
+    "name": "[PDF] Deflating the Sharpe Ratio by asking for a Minimum Track Record Length",
+    "snippet": "Because the Sharpe ratio only takes into account the first two moments, it wrongly “translates” skewness and excess kurtosis into standard deviation.",
+    "host_name": "boston.qwafafew.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0264999321001474",
+    "name": "Alpha decay and Sharpe ratio: Two measures of investor performance",
+    "snippet": "For example, Lo (2002) shows that when returns are not i.i.d., the ordinary Sharpe ratio and the modified version that takes into account the return ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/1906.00573",
+    "name": "[PDF] Conditional inference on the asset with maximum Sharpe ratio - arXiv",
+    "snippet": "Recent work by López de Prado and Bailey, adapting standard techniques from Multiple Hypothesis Testing (MHT), has gained attention in the field ...",
+    "host_name": "arxiv.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/a/taf/ufajxx/v58y2002i4p36-52.html",
+    "name": "The Statistics of Sharpe Ratios - IDEAS/RePEc",
+    "snippet": "The accuracy of Sharpe ratio estimators hinges on the statistical properties of returns (e.g., time-series properties, such as mean reversion, momentum, or time ...",
+    "host_name": "ideas.repec.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

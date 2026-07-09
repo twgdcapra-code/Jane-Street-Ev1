@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://hudsonthames.org/does-meta-labeling-add-to-signal-efficacy-triple-barrier-method",
+    "name": "Does Meta Labeling Add to Signal Efficacy? - Hudson & Thames",
+    "snippet": "Our results confirm the fact that a combination of event-based sampling, triple-barrier method and meta labeling improves the performance of the strategies.",
+    "host_name": "hudsonthames.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mlfinpy.readthedocs.io/en/latest/Labelling.html",
+    "name": "Data Labelling - Mlfin.py",
+    "snippet": "The triple-barrier method tackles this issue by dynamically setting the upper and lower barriers for each observation based on their given volatilities. Meta- ...",
+    "host_name": "mlfinpy.readthedocs.io",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=0lsNKBfFh8A",
+    "name": "Book2-Chapter3-Labeling - YouTube",
+    "snippet": "Subscribe and keep informed! Book 2: Marcos Lopez de Prado, (2018), “Advances in Financial Machine Learning”. Chapter 3: Labeling.",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@yairoz/the-triple-barrier-method-labeling-financial-time-series-for-ml-in-elixir-e539301b90d6",
+    "name": "The Triple Barrier Method: Labeling Financial Time Series for ML in",
+    "snippet": "The Triple Barrier — A Better Way To Label Time Series Data ... In this chart, our vertical barriers occur about an hour after each entry, but we ... The Triple Barrier — A Better... · Creating More and More Barriers",
+    "host_name": "medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sefidian.com/2021/06/26/labeling-financial-data-for-machine-learning",
+    "name": "Labeling financial data for Machine Learning - Sefidian Academy",
+    "snippet": "The triple barrier method involves “labeling an observation according to the first barrier touched of out three barriers… two horizontal ...",
+    "host_name": "www.sefidian.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.newsletter.quantreo.com/p/the-triple-barrier-labeling-of-marco",
+    "name": "The Triple Barrier Labeling of Marco Lopez de Prado - Quantreo",
+    "snippet": "The Triple Barrier Method is a natural foundation for building meta-labels. In meta-labelling, your goal isn't to predict the market directly — ...",
+    "host_name": "www.newsletter.quantreo.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://williamsantos.me/posts/2022/triple-barrier-labelling-algorithm",
+    "name": "Algorithmic trading: triple barrier labelling",
+    "snippet": "Triple barrier labelling is a technique for assigning labels to an otherwise unlabelled financial time series, according to some risk parameters.",
+    "host_name": "williamsantos.me",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/quant/comments/1rlobeh/opensourced_a_cheat_sheet_on_lopez_de_prados",
+    "name": "Open-sourced a cheat sheet on Lopez de Prado's backtesting",
+    "snippet": "Triple-Barrier Method for labeling (vs naive fixed-horizon labels). Meta-Labeling -- splitting side prediction from bet sizing to improve F1- ...",
+    "host_name": "www.reddit.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.oreilly.com/library/view/advances-in-financial/9781119482086/c03.xhtml",
+    "name": "Chapter 3 Labeling - Advances in Financial Machine Learning [Book]",
+    "snippet": "In this chapter we will discuss ways to label financial data. 3.2 The Fixed-Time Horizon Method. As it relates to finance, virtually all ML papers label ...",
+    "host_name": "www.oreilly.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mql5.com/en/articles/19253",
+    "name": "MetaTrader 5 Machine Learning Blueprint (Part 3): Trend-Scanning",
+    "snippet": "The triple-barrier method we explored in Part 2 was a significant improvement over fixed-time horizon labeling, but it still relied on predetermined time limits ...",
+    "host_name": "www.mql5.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

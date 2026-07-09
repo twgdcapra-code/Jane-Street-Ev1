@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4018704_code2372997.pdf?abstractid=2580551&mirid=1",
+    "name": "[PDF] Alpha Decay and Institutional Trading",
+    "snippet": "Cumulative NetSize reveals that the daily trades are small relative to the eventual maximum position size. Only 32.6% of the final position has been accumulated",
+    "host_name": "papers.ssrn.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.top1000funds.com/wp-content/uploads/2021/05/SSRN-id2580551.pdf",
+    "name": "[PDF] Alpha Decay* - Top1000funds.com",
+    "snippet": "Using a novel sample of professional asset managers, we document positive incremental alpha on newly purchased stocks that decays over twelve months. While.",
+    "host_name": "www.top1000funds.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.facebook.com/CQFInstitute/posts/-why-does-alpha-decay-once-a-strategy-goes-livedr-adam-rej-is-on-stage-now-exami/1442395837906883",
+    "name": "Understanding alpha decay in quantitative finance strategies",
+    "snippet": "Why does alpha decay once a strategy goes live? after an anomaly is discovered, often, the strategy becomes less profitable. In this article, ...",
+    "host_name": "www.facebook.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mavensecurities.com/alpha-decay-what-does-it-look-like-and-what-does-it-mean-for-systematic-traders",
+    "name": "Alpha Decay: what does it look like? And what does it mean for",
+    "snippet": "Alpha decay presents a serious challenge for systematic traders as it leads to poorly-informed trading decisions which can have a substantial financial cost.",
+    "host_name": "www.mavensecurities.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantstart.com/articles/simple-versus-advanced-systematic-trading-strategies-which-is-better",
+    "name": "Simple versus Advanced Systematic Trading Strategies - Which is Better?",
+    "snippet": "Capacity - Some more advanced strategy approaches only 'work' because they are capacity constrained. Large funds are unable to trade these strategies",
+    "host_name": "www.quantstart.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/derekbwong_alpha-decay-what-it-is-and-3-reasons-it-activity-7018574969076940800-_1jq",
+    "name": "Derek Wong's Post - LinkedIn",
+    "snippet": "Alpha decay can be seen in two ways: The decaying of the strategy's ability to generate risk-adjusted returns (eg, Sharpe ratio) The decrease in accuracy of ...",
+    "host_name": "www.linkedin.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2506.06356v1",
+    "name": "Deep Learning Enhanced Multi-Day Turnover Quantitative Trading",
+    "snippet": "The strategy's emphasis on position sizing based on liquidity constraints helps control market impact costs, while the multi-day holding ...",
+    "host_name": "arxiv.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=j88-K-gyuvs",
+    "name": "Alpha Decay: Why Your Trading Strategy Stops Working - YouTube",
+    "snippet": "Your backtest looked incredible. Then you went live and the edge vanished. That's alpha decay — and every trader runs into it eventually.",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://breakingalpha.io/insights/position-sizing-algorithmic-trading",
+    "name": "Position Sizing in Algorithmic Trading | Breaking Alpha Insights",
+    "snippet": "Capacity Constraints and Scaling. Position sizing must adapt as strategy capacity grows. What works for $10M may be infeasible at $1B due to ...",
+    "host_name": "breakingalpha.io",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.exegy.com/alpha-decay",
+    "name": "How to Stop Alpha Decay with Infrastructure That Delivers Edge",
+    "snippet": "Market makers and quant funds rely on their predictive edge, known as alpha, to make profitable trades. However, more than ever, alpha doesn't last.",
+    "host_name": "www.exegy.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

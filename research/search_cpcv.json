@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4686376_code4361537.pdf?abstractid=4686376&mirid=1",
+    "name": "[PDF] Backtest Overfitting in the Machine Learning Era",
+    "snippet": "Further advancing the field, Lopez de Prado's Combinatorial Purged Cross-Validation (CPCV) method offers a robust solution for backtesting trading strate-.",
+    "host_name": "papers.ssrn.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantbeckman.com/p/with-code-combinatorial-purged-cross",
+    "name": "[WITH CODE] Combinatorial Purged Cross Validation for Optimization",
+    "snippet": "The logic of CPCV is significantly more complex than a standard backtest. Implementing the purged splitting, managing the combinatorial paths, ...",
+    "host_name": "www.quantbeckman.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stats.stackexchange.com/questions/443159/what-is-combinatorial-purged-cross-validation-for-time-series-data",
+    "name": "What is Combinatorial Purged Cross-Validation for time series data?",
+    "snippet": "I'm trying to understand the \"Combinatorial Purged Cross-Validation\" technique for time series data described in Marcos Lopez de Prado's \"Advances in Financial ... Combinatorial symmetric CV vs Combinatorial purged CV Are Purging and Embargo better than TimeSeriesSplit? - Cross Validated More results from stats.stackexchange.com",
+    "host_name": "stats.stackexchange.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pub.towardsai.net/the-combinatorial-purged-cross-validation-method-363eb378a9c5",
+    "name": "The Combinatorial Purged Cross-Validation method - Towards AI",
+    "snippet": "CPCV provides the exact number of combinations of training/testing sets required to construct a set of backtesting paths while purging training ...",
+    "host_name": "pub.towardsai.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.quantinsti.com/cross-validation-embargo-purging-combinatorial",
+    "name": "Cross Validation in Finance: Purging, Embargoing, Combinatorial",
+    "snippet": "In this blog, we understand the concept of embargoing and purging and its application in cross validation of financial data.",
+    "host_name": "blog.quantinsti.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://grokipedia.com/page/purged_cross_validation",
+    "name": "Purged cross-validation - Grokipedia",
+    "snippet": "Purged cross-validation integrates purging and embargoing mechanisms into the standard k-fold process to mitigate lookahead bias in time series data, ensuring ...",
+    "host_name": "grokipedia.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ivanblancosanchez_new-research-backtest-overfitting-in-activity-7183469596148998144-KtKZ",
+    "name": "Ivan Blanco's Post - LinkedIn",
+    "snippet": "... Prado explains how combinatorial purged cross-validation tackles the issue of backtest overfitting. We employ purging and embargoing ...",
+    "host_name": "www.linkedin.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fizzbuzzer.com/posts/using-neural-networks-and-ccv-for-smarter-stock-strategies",
+    "name": "Using Neural Networks and Combinatorial Cross-Validation for",
+    "snippet": "I will demonstrate how to construct 5 backtest paths from a single historical path using the combinatorial purged cross-validation (CPCV) framework.",
+    "host_name": "fizzbuzzer.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DZa20pwOqNP",
+    "name": "What is CPCV, and why do quants trust it more than a single backtest",
+    "snippet": "One path, one Sharpe ratio, and leakage can quietly inflate it. CPCV (Combinatorial Purged Cross-Validation) tests every combination of held-out ...",
+    "host_name": "www.instagram.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/725401650/SSRN-id4778909",
+    "name": "Combinatorial Purged Cross-Validation Insights | PDF",
+    "snippet": "The study proposes a novel framework that integrates backtest overfitting assessment with out-of-sample testing methodologies by employing advanced statistical ...",
+    "host_name": "www.scribd.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

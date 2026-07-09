@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2662054_code2424270.pdf?abstractid=2662054&mirid=1",
+    "name": "[PDF] Common Metrics for Performance Evaluation: Overview of Popular",
+    "snippet": "Basis: The Calmar ratio is calculated as the average annual rate of return computed over the last thirty-six months, divided by the maximum drawdown in the same ...\nThe Calmar ratio is a risk-adjusted measure of performance as it measures return per unit of risk, with risk defined as the maximum drawdown. The Calmar ratio ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.bajajfinserv.in/investments/calmar-ratio",
+    "name": "Calmar Ratio - Meaning, Formula and How To Calculate",
+    "snippet": "It's calculated by dividing the investment's annual return (typically over three years) by its maximum drawdown, reflecting performance versus potential losses.\nThe Calmar ratio measures risk-adjusted returns by comparing an investment's average annual return to its maximum drawdown over a period. Read more.",
+    "host_name": "www.bajajfinserv.in",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/mastering-the-calmar-ratio-for-risk-analysis",
+    "name": "Mastering the Calmar Ratio for Risk Analysis | IBKR Quant",
+    "snippet": "At its core, the Calmar Ratio compares the Compound Annual Growth Rate (CAGR) to the Maximum Drawdown (MDD). Unlike other metrics that merely ...",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.investopedia.com/terms/m/mar-ratio.asp",
+    "name": "Understanding the MAR Ratio: Risk-Adjusted Returns Explained",
+    "snippet": "The MAR ratio measures risk-adjusted returns by dividing the compound annual growth rate (CAGR) since inception by its largest drawdown.\nThe MAR ratio gauges risk-adjusted returns by comparing a fund's CAGR to its maximum drawdown, offering insight into long-term performance. However, it may ...",
+    "host_name": "www.investopedia.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/trichyravis_calmar-ratio-in-portfolio-evaluation-activity-7411259538596818944-lEg5",
+    "name": "Calmar Ratio: Downside Risk Metric for Investors - LinkedIn",
+    "snippet": "... Maximum Drawdown (MDD) — the largest peak-to-trough loss during the period. Calmar Ratio = CAGR / |Maximum Drawdown|. In simple terms: how ...",
+    "host_name": "www.linkedin.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portfoliometrics.net/metrics/calmar-ratio",
+    "name": "Calmar Ratio Definition & Formula - PortfolioMetrics",
+    "snippet": "Definition. The Calmar Ratio is a risk-adjusted metric that measures an investment's annualized return (CAGR) relative to its maximum drawdown.",
+    "host_name": "portfoliometrics.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://journalplus.co/metrics/calmar-ratio",
+    "name": "Calmar Ratio - Measure Your Risk-Adjusted Returns - JournalPlus",
+    "snippet": "Rating 4.9 (1,287) Calmar Ratio = CAGR / |Maximum Drawdown|. CAGR is the compound annualized growth rate over the trailing 36-month period. Maximum Drawdown is the largest ...",
+    "host_name": "journalplus.co",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portfoliooptimizationbook.com/book/6.3-performance-measures.html",
+    "name": "6.3 Performance Measures - Portfolio Optimization Book",
+    "snippet": "The Calmar ratio modifies the Sharpe ratio by replacing the variance in the denominator with the maximum drawdown: Calmar ratio=wTμ−rfMax-DD. Calmar ratio = w T ...",
+    "host_name": "portfoliooptimizationbook.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pictureperfectportfolios.com/mar-ratio-explained-tool-for-risk-management-in-investments",
+    "name": "MAR Ratio Explained: Tool for Risk Management in Investments",
+    "snippet": "MAR Ratio = Maximum Drawdown Compound Annual Growth Rate (CAGR) ... It's a risk-adjusted performance metric defined as CAGR ÷ |Maximum Drawdown ...\nThe MAR Ratio compares CAGR against your deepest drawdown. Learn why prioritizing loss containment helps you hold strategies through the ...",
+    "host_name": "pictureperfectportfolios.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantt.co.uk/resources/calmar-ratio-explained",
+    "name": "Calmar Ratio: What It Is & How to Calculate It 2026 - Quantt",
+    "snippet": "The Calmar ratio is a risk-adjusted performance metric that measures an investment's annualised return divided by its maximum drawdown.",
+    "host_name": "www.quantt.co.uk",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

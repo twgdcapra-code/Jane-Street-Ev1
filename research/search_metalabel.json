@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://hudsonthames.org/meta-labeling-a-toy-example",
+    "name": "Meta Labeling (A Toy Example) - Hudson & Thames",
+    "snippet": "This article explores a toy example of Meta Labeling and how it is used to filter out false positives in classification style machine learning projects.",
+    "host_name": "hudsonthames.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/1lnm48w/meta_labeling_for_algorithmic_trading_how_to",
+    "name": "Meta Labeling for Algorithmic Trading: How to Amplify a Real Edge",
+    "snippet": "The meta label is a machine learning model that predicts whether each individual signal should be taken or skipped based on features available at the time. Does the industry use meta labeling mainly? : r/quant - Reddit Creative target variables for supervised ML? : r/algotrading More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ZCFmZFBtqsQ",
+    "name": "Meta-Labeling: Theory and Framework - YouTube",
+    "snippet": "Join our reading group! https://hudsonthames.org/reading-group/ Meta-labeling is a machine learning ... Professor Marcos Lopez de Prado on Machine ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/1014915009/Meta-Labeling-Wikipedia",
+    "name": "Meta Labeling Wikipedia | PDF | Machine Learning - Scribd",
+    "snippet": "Meta-labeling, developed by Marcos López de Prado, is a machine learning technique in quantitative finance that separates trade direction from trade sizing ...",
+    "host_name": "www.scribd.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://lup.lub.lu.se/student-papers/record/9120301/file/9120304.pdf",
+    "name": "[PDF] Evaluating the Effect of Meta-Labeling on Equity Market Neutral Strategy",
+    "snippet": "To construct an EMN strategy framework appropriate for financial data by utilizing some of the ML techniques proposed in (López de Prado, 2018) such as: • ...",
+    "host_name": "lup.lub.lu.se",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5156285.pdf?abstractid=5156285",
+    "name": "[PDF] A Two-Layer Ensemble Architecture for Enhanced Directional Price",
+    "snippet": "Lopez de Prado, Advances in Financial Machine Learning, John Wiley & Sons,. 2018. [9] T. Dietterich, Overfitting and undercomputing in machine learning, ACM ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=WbgglcXfEzA",
+    "name": "Meta-Labeling: Solving for Non Stationarity and Position Sizing",
+    "snippet": "Join our reading group! https://hudsonthames.org/reading-group/ Meta-labeling is a technique first introduced by Dr. Marcos Lopez de Prado, ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantconnect.com/forum/discussion/14706/why-meta-labeling-is-not-a-silver-bullet",
+    "name": "Why Meta-Labeling Is Not a Silver Bullet by Francesco Baldisserri",
+    "snippet": "Meta-Labeling is a general purpose technique that can improve the performance of Machine Learning models.",
+    "host_name": "www.quantconnect.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/mlearning-ai/momentum-trading-use-machine-learning-to-boost-your-day-trading-skill-meta-labeling-509f11d10184",
+    "name": "【Momentum Trading】Use machine learning to boost your day trading skill",
+    "snippet": "Meta-labeling is a machine learning (ML) layer that sits on top of any base primary strategy to help size positions, filter out false-positive signals, and ...",
+    "host_name": "medium.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mlfinpy.readthedocs.io/en/latest/Labelling.html",
+    "name": "Data Labelling - Mlfin.py",
+    "snippet": "Meta Labels are used as the target variable in the second model. Now fit the second model. Fourth the prediction from the secondary model is combined with the ...",
+    "host_name": "mlfinpy.readthedocs.io",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

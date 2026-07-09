@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://quantnet.com/threads/im-a-buy-side-quant-researcher-at-a-top-hedge-fund-jane-street-two-sigma-aqr-etc-ama.61401",
+    "name": "I'm a buy side Quant Researcher at a top hedge fund (Jane Street",
+    "snippet": "I'm a quantitative researcher working in systematic trading. I develop alpha signals to forecast the future prices of various financial instruments.",
+    "host_name": "quantnet.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/1924367/why-do-hedge-funds-and-financial-services-often-use-ocaml",
+    "name": "Why do hedge funds and financial services often use OCaml?",
+    "snippet": "OCaml is fast enough to create a HFT system, which isn't something that can be said for either Python or Ruby. Also, keep in mind Jane Street ( ...\nOCaml has an REPL and clear, succinct syntax, it's not a dynamic language like Python or Ruby. It has static typing and compiles to native code ...",
+    "host_name": "stackoverflow.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.kadoa.com/tech-stack",
+    "name": "Quant Tech Stack: Programming Languages by Hedge Fund & Prop",
+    "snippet": "Heatmap of 3900+ open postings across 42 buy-side quant firms showing which programming languages each hedge fund, prop shop, and market maker actually ...",
+    "host_name": "quant.kadoa.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/technology",
+    "name": "Technology :: Jane Street",
+    "snippet": "Jane Street is a quantitative trading firm and liquidity provider with a unique focus on technology and collaborative problem solving.",
+    "host_name": "www.janestreet.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quora.com/What-is-it-like-to-be-a-quant-at-Two-Sigma",
+    "name": "What is it like to be a quant at Two Sigma? - Quora",
+    "snippet": "They don't use mainstream technologies. For example, at Jane Street they now use OCaml, a functional programming language. I've noticed a few ... How to join a trading firm like Jane Street or Two Sigma as a ... - Quora Which are the most used programming languages in quant hedge ... More results from www.quora.com",
+    "host_name": "www.quora.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DYpCXr2CTYq",
+    "name": "Quantitative Finance is one of the highest-paying career paths in the",
+    "snippet": "First, what is quant finance? It's a use of math, statistics and programming to make trading and investment decisions. Think algorithms and not ...",
+    "host_name": "www.instagram.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantblueprint.com/glossary/top-quant-firms-2026",
+    "name": "Top Quant Firms in 2026",
+    "snippet": "Explore the top quantitative trading firms and hedge funds in 2026 — including Jane Street, Citadel, HRT, and more. Compare cultures, compensation ...",
+    "host_name": "www.quantblueprint.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.datainterview.com/blog/jane-street-quantitative-researcher-interview",
+    "name": "Jane Street Quantitative Researcher Interview Guide",
+    "snippet": "That means researching relative value opportunities, writing production code (Python day-to-day, OCaml in Jane Street's internal systems), and ...",
+    "host_name": "www.datainterview.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/christinaqi_sometimes-ill-meet-a-quant-hedge-fund-that-activity-7282579187893260288-Kjzo",
+    "name": "Sometimes I'll meet a quant hedge fund that I'm 100% certain will fail.",
+    "snippet": "For 17 years, up until 2024, the quant researcher produced some of the most valuable trading signals at $60 billion hedge-fund giant Two Sigma.",
+    "host_name": "www.linkedin.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/programming/comments/1kz1av1/how_were_beating_359m_in_funding_with_two_people",
+    "name": "How we're beating $359M in funding with two people and OCaml",
+    "snippet": "Jane Street's technology stack with OCaml. Jane Street's programming ... Ocaml comes from a publicly funded French CS/Maths research institution. Question about hedge funds and quant stuff : r/cscareerquestions Ocaml and Jane Street : r/quant - Reddit More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

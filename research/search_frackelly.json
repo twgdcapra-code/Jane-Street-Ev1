@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Kelly_criterion",
+    "name": "Kelly criterion - Wikipedia",
+    "snippet": "In probability theory, the Kelly criterion is a formula for risk allocation with the sizing a sequence of bets by maximizing the long-term expected value of ...",
+    "host_name": "en.wikipedia.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.atlaspeakresearch.com/report/07bf72",
+    "name": "The Kelly Criterion in Financial Markets: Optimal Position Sizing",
+    "snippet": "The Kelly Criterion is the most rigorous known framework for converting probabilistic edge into position size when the objective is long-run ...",
+    "host_name": "www.atlaspeakresearch.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.frontiersin.org/journals/applied-mathematics-and-statistics/articles/10.3389/fams.2020.577050/full",
+    "name": "Practical Implementation of the Kelly Criterion: Optimal Growth Rate",
+    "snippet": "We develop a general framework to apply the Kelly criterion to the stock market data, and consequently, to portfolio optimization.",
+    "host_name": "www.frontiersin.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.quantinsti.com/risk-constrained-kelly-criterion",
+    "name": "The Risk-Constrained Kelly Criterion: From the foundations to trading",
+    "snippet": "Learn about the risk-constrained Kelly Criterion to make your trading have less drawdown and better strategy performance!",
+    "host_name": "blog.quantinsti.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=THYLv5_0Vm8",
+    "name": "KELLY CRITERION | Ed Thorp | Optimal Position Sizing For Stock",
+    "snippet": "KELLY CRITERION | Ed Thorp | Optimal Position Sizing For Stock Trading The Kelly Criterion calculation was created by Ed Thorp and made ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@tmapendembe_28659/kelly-criterion-vs-fixed-fractional-which-risk-model-maximizes-long-term-growth-972ecb606e6c",
+    "name": "Kelly Criterion vs Fixed Fractional: Which Risk Model Maximizes",
+    "snippet": "Kelly Criterion and Fixed Fractional risk models represent two of the most debated position sizing ... A comprehensive study by MacLean, Thorp ...",
+    "host_name": "medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.stat.berkeley.edu/~aldous/157/Papers/Good_Bad_Kelly.pdf",
+    "name": "[PDF] Good and bad properties of the Kelly criterion",
+    "snippet": "The main advantage of the Kelly criterion, which maximizes the expected value of the logarithm of wealth period by period, is that it ...",
+    "host_name": "www.stat.berkeley.edu",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://experts.deriv.com/insights/kelly-criterion-position-sizing",
+    "name": "The Kelly Criterion: A retail trader's guide to position sizing",
+    "snippet": "The Kelly Criterion provides a framework for determining position size based on win rate and payoff ratio. Using the full Kelly allocation can be too aggressive ...",
+    "host_name": "experts.deriv.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5284131.pdf?abstractid=5284131&mirid=1",
+    "name": "[PDF] Kelly Betting Under Probabilistic Recovery Constraints",
+    "snippet": "The Kelly criterion gives the bet fraction that maximizes the asymptotic logarithmic growth rate of wealth under repeated stochastic returns. In its classical ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantstart.com/articles/Money-Management-via-the-Kelly-Criterion",
+    "name": "Money Management via the Kelly Criterion - QuantStart",
+    "snippet": "In this article we will be considering a quantitative means of managing account equity in order to maximise long-term account growth and limiting downside risk.",
+    "host_name": "www.quantstart.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.reddit.com/r/quant/comments/1hnxa8a/in_the_firms_you_work_at_what_is_the_overall",
+    "name": "In the firms you work at, what is the overall architecture of your  - Reddit",
+    "snippet": "Vectorized backtesting computes all calculations needed at once for speed. Event-Driven backtesting uses a loop to loop through all the data ... Backtesting: vectorized vs streaming : r/algotrading - Reddit If you built a unified system that handles backtesting and live ... More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/a-practical-breakdown-of-vector-based-vs-event-based-backtesting",
+    "name": "A Practical Breakdown of Vector-Based vs. Event-Based",
+    "snippet": ": Vector- Based Backtesting, which processes data in fixed time-step. Event-based frameworks are more complex and computationally intensive but ...",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://onepagecode.substack.com/p/the-contrasting-worlds-of-vectorized",
+    "name": "The Contrasting Worlds of Vectorized and Event-Based Backtesting",
+    "snippet": "Vectorized backtesting leverages the power of array operations, typically using libraries like NumPy and pandas in Python. This approach excels ...",
+    "host_name": "onepagecode.substack.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://trader-algoritmico.com/blog/vectorbt-event-driven-loops-customizing-execution-logic",
+    "name": "Vectorbt Event-Driven Loops: Customizing Execution Logic",
+    "snippet": "VectorBT is a Python package for quantitative analysis that operates entirely on pandas and NumPy objects, accelerated by Numba down how to ...",
+    "host_name": "trader-algoritmico.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.elitetrader.com/et/threads/pandas-too-slow-for-event-driven-backtesting.364865",
+    "name": "pandas too slow for event driven backtesting - Elite Trader",
+    "snippet": "Hi looking for some suggestions for how to store minute resolution data in memory for a better performance for backtesting.",
+    "host_name": "www.elitetrader.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://timkimutai.medium.com/how-i-built-an-event-driven-backtesting-engine-in-python-25179a80cde0",
+    "name": "How I Built an Event-Driven Backtesting Engine in Python",
+    "snippet": "The following table summarizes the fundamental differences between the vectorized approach we are abandoning and the event-driven architecture ...",
+    "host_name": "timkimutai.medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/polakowo/vectorbt/discussions/209",
+    "name": "use-case question: performance comparison · polakowo vectorbt",
+    "snippet": "vectorbt runs ~1000x faster than backtrader and yields the same results; and this using 3 different approaches, all without parallelization.",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/46791/why-do-we-need-event-driven-backtesters",
+    "name": "Why do we need event-driven backtesters?",
+    "snippet": "The vectorised backtest is a rather crude way to quickly test a strategy. You do it by multiplying the signal vector with the returns vector ...",
+    "host_name": "quant.stackexchange.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantstart.com/articles/Event-Driven-Backtesting-with-Python-Part-I",
+    "name": "Event-Driven Backtesting with Python - Part I - QuantStart",
+    "snippet": "In this series of articles we are going to discuss a more realistic approach to historical strategy simulation by constructing an event-driven backtesting ...",
+    "host_name": "www.quantstart.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.marketcalls.in/system-trading/comparision-of-event-driven-backtesting-vs-vectorized-backtesting.html",
+    "name": "Comparision of Event Driven Backtesting Vs Vectorized Backtesting",
+    "snippet": "The decision between event-driven and vectorized backtesting depends on your strategy's complexity, how detailed a simulation you need, and your trading goals.",
+    "host_name": "www.marketcalls.in",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

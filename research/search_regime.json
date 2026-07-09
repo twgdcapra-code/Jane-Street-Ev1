@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.mdpi.com/1911-8074/13/12/311",
+    "name": "Regime-Switching Factor Investing with Hidden Markov Models - MDPI",
+    "snippet": "This study uses the hidden Markov model (HMM) to identify different market regimes in the US stock market and proposes an investment strategy that switches ...",
+    "host_name": "www.mdpi.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@Splendor001/regime-based-portfolio-allocation-a-hidden-markov-model-approach-to-tactical-asset-rotation-4ff3fdf6f9f8",
+    "name": "Regime-Based Portfolio Allocation: A Hidden Markov Model",
+    "snippet": "An empirical analysis of volatility regime detection and systematic reallocation across equity, treasury, and gold ETFs.",
+    "host_name": "medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/market-regime-detection-using-hidden-markov-models",
+    "name": "Market Regime Detection Using Hidden Markov Models - QuestDB",
+    "snippet": "Hidden Markov Models detect market regimes by modeling hidden states and transitions, identifying volatility and trend phases to inform trading strategies.",
+    "host_name": "questdb.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.27848",
+    "name": "Regime-Based Portfolio Allocation Using Hidden Markov Models",
+    "snippet": "This study develops a regime-aware portfolio allocation framework that integrates Markov switching models with Reinforcement Learning (RL) to ...",
+    "host_name": "arxiv.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mpra.ub.uni-muenchen.de/121552/1/MPRA_paper_121552.pdf",
+    "name": "[PDF] Incorporating Market Regimes into Large-Scale Stock Portfolios",
+    "snippet": "Using a hidden Markov model (HMM) and a regime-weighted least-squares approach, we estimate forward- looking regime-conditional factors. These ...",
+    "host_name": "mpra.ub.uni-muenchen.de",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/figure/Applying-the-Hidden-Markov-Model-to-market-regimes_fig2_347401160",
+    "name": "Applying the Hidden Markov Model to market regimes. - ResearchGate",
+    "snippet": "This study uses the hidden Markov model (HMM) to identify different market regimes in the US stock market and proposes an investment strategy that switches ...",
+    "host_name": "www.researchgate.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/I-am-Uchenna/regime-allocation-strategy",
+    "name": "I-am-Uchenna/regime-allocation-strategy: Systematic multi-asset",
+    "snippet": "A quantitative trading strategy that leverages Hidden Markov Models to identify market volatility regimes and systematically allocate ...",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantstart.com/articles/market-regime-detection-using-hidden-markov-models-in-qstrader",
+    "name": "Market Regime Detection using Hidden Markov Models in QSTrader",
+    "snippet": "In this article the Hidden Markov Model will be utilised within the QSTrader framework as a risk-managing market regime filter.",
+    "host_name": "www.quantstart.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.diva-portal.org/smash/get/diva2:1166419/FULLTEXT01.pdf",
+    "name": "[PDF] A Multi-Factor Stock Market Model with Regime-Switches, Student's",
+    "snippet": "The Regime-Switches are obtained from a Hidden Markov Model with conditional Student's t distributions. For the return process we use factor data as input ...",
+    "host_name": "www.diva-portal.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cube.exchange/what-is/market-regime-detection-with-hidden-markov-models",
+    "name": "What Is Market Regime Detection with Hidden Markov Models?",
+    "snippet": "Market regime detection with Hidden Markov Models is a way to infer the market condition you cannot observe directly from the price and ...",
+    "host_name": "www.cube.exchange",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://portfoliooptimizer.io/blog/the-probabilistic-sharpe-ratio-hypothesis-testing-and-minimum-track-record-length-for-the-difference-of-sharpe-ratios",
+    "name": "The Probabilistic Sharpe Ratio: Hypothesis Testing and Minimum",
+    "snippet": "Similarly, it is possible to generalize the Minimum Track Record Length of Bailey and de Prado to the two-sample statistical test above by ...",
+    "host_name": "portfoliooptimizer.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/308231636_The_Sharpe_ratio_efficient_frontier",
+    "name": "The Sharpe ratio efficient frontier | Request PDF - ResearchGate",
+    "snippet": "The Min-Track-Record-Length algorithm described by Bailey and Lopez de Prado (2012) can help determine the number of observations needed to validate a strategy ...",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.davidhbailey.com/dhbpapers/sharpe-frontier.pdf",
+    "name": "[PDF] THE SHARPE RATIO EFFICIENT FRONTIER - David H Bailey",
+    "snippet": "The Probabilistic Sharpe ratio has taken into account multiple statistical features present in the track record, such as its length, frequency and deviations ...",
+    "host_name": "www.davidhbailey.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5950754.pdf?abstractid=5950754&mirid=1",
+    "name": "[PDF] Sharpe Ratio Inference:",
+    "snippet": "Following Bailey and López de Prado [2012], the minimum track record length (MinTRL) is defined as the minimum sample size T such that we can reject. TRL = 39. ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Deflated_Sharpe_ratio",
+    "name": "Deflated Sharpe ratio - Wikipedia",
+    "snippet": "Mathematical definitions",
+    "host_name": "en.wikipedia.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/945094042/Lopez-de-Prado-Sharpe",
+    "name": "Probabilistic Sharpe Ratio Insights | PDF | Modern Portfolio Theory",
+    "snippet": "THE SHARP RAZOR: Deflating the Sharpe Ratio by asking for a. Minimum Track Record Length. Marcos López de Prado. Hess Energy Trading Company",
+    "host_name": "www.scribd.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/lopezdeprado_if-you-work-in-finance-you-probably-see-activity-7409511253334794240--bzW",
+    "name": "Marcos Lopez de Prado's Post - LinkedIn",
+    "snippet": "We propose a Sharpe-specific framework that reports: - probabilistic Sharpe ratios, - minimum track record length and test power, - posterior ...",
+    "host_name": "www.linkedin.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantconnect.com/research/17112/probabilistic-sharpe-ratio",
+    "name": "Probabilistic Sharpe Ratio - QuantConnect.com",
+    "snippet": "PSR(0.05): 0.765. Zero-Skill Example. Taking an example from the work of Bailey and de Prado (2018), we can see how the PSR varies when ...",
+    "host_name": "www.quantconnect.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantdare.com/probabilistic-sharpe-ratio",
+    "name": "Probabilistic Sharpe Ratio - Quantdare",
+    "snippet": "In this post we are going to analyze the advantages of the Probabilistic Sharpe Ratio exposed by Marcos López de Prado in this paper.",
+    "host_name": "quantdare.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.adialab.ae/research-series/how-to-use-the-sharpe-ratio",
+    "name": "How to Use the Sharpe Ratio - ADIA Lab",
+    "snippet": "ADIA Lab researchers López de Prado, Lipton, and Zoonekynd explain how to correctly use the Sharpe ratio and avoid common statistical ...",
+    "host_name": "www.adialab.ae",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

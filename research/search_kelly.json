@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.quantstart.com/articles/Money-Management-via-the-Kelly-Criterion",
+    "name": "Money Management via the Kelly Criterion - QuantStart",
+    "snippet": "In this article we will be considering a quantitative means of managing account equity in order to maximise long-term account growth and limiting downside risk.",
+    "host_name": "www.quantstart.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantt.co.uk/resources/kelly-criterion-explained",
+    "name": "Kelly Criterion: Optimal Bet Sizing Explained 2026 - Quantt",
+    "snippet": "The Kelly criterion is a formula that tells you the optimal fraction of your capital to bet on a favourable opportunity in order to maximise ...",
+    "host_name": "www.quantt.co.uk",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/389160870_A_Kelly_Quantitative_Trading_Investment_Strategy_Improved_by_Overfitting_Rate",
+    "name": "A Kelly Quantitative Trading Investment Strategy Improved by Overfitting Rate",
+    "snippet": "The original model of the Kelly formula is based on discrete distributions: 1. Consider an investor making multiple independent bets (such as a coin toss ...",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cqf.com/blog/quant-finance-101/what-is-the-kelly-criterion",
+    "name": "What Is the Kelly Criterion? | Smart Investing Formula | CQF",
+    "snippet": "The Kelly criterion is based on the expected value, which is the average return that can be anticipated from each bet or investment.",
+    "host_name": "www.cqf.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@jlevi.nyc/hey-kelly-optimize-my-portfolio-64e835fbced9",
+    "name": "Hey Kelly, Optimize My Portfolio - Medium",
+    "snippet": "Using the asymmetric Kelly formula, f* = (p × b — q × L)/(b × L), we calculate an optimal hedge fraction of approximately 0.57 or 57% of monthly ...",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/11153/capital-allocation-for-portfolio-of-multi-strategy-and-multi-instrument",
+    "name": "Capital Allocation for Portfolio of Multi-Strategy and Multi-Instrument",
+    "snippet": "A way (or theory) to manage a multi-strategy, multi-instruments portfolio that would calculate the optimal weight to allocate capital for each combination of ... How to optimally allocate capital among trading strategies? How to apply Kelly criterion to a portfolio made by a stock plus a option? More results from quant.stackexchange.com",
+    "host_name": "quant.stackexchange.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://astuteinvestorscalculus.com/the-kelly-criterion/?srsltid=AfmBOorP1UEayvoPVNAH7_7EfARKZMkn3HYkOl4-nzfC7ua3PLA3-arP",
+    "name": "Kelly Criterion Position Sizing: Maximize Long-Term Returns While Avoiding Ruin",
+    "snippet": "The Kelly Criterion is a position sizing formula — f* = (bp – q) / b — that calculates the mathematically optimal allocation for each investment ...",
+    "host_name": "astuteinvestorscalculus.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.investopedia.com/terms/k/kellycriterion.asp",
+    "name": "Kelly Criterion Explained: Optimize Betting and Investing Strategies - Investopedia",
+    "snippet": "The Kelly Criterion is a strategic formula designed to maximize wealth by determining the optimal allocation of an investor's capital in each trade. Developed ...",
+    "host_name": "www.investopedia.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://isif.org/files/isif/2024-01/Mutual%20Information.pdf",
+    "name": "[PDF] Mutual Information for Optimal Asset Allocation",
+    "snippet": "Section 5 presents Kelly's approach as a multi-asset dy- namic allocation strategy and compares its performance with a naïve strategy and MV tangency portfolio.",
+    "host_name": "isif.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantconnect.com/research/18312/kelly-criterion-applications-in-trading-systems",
+    "name": "Kelly Criterion Applications in Trading Systems - QuantConnect.com",
+    "snippet": "In this research post, we review the Kelly criterion and apply it to scale trade sizes. This mathematical formula determines the ideal sizes. Missing: multi- | Show results with: multi-",
+    "host_name": "www.quantconnect.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

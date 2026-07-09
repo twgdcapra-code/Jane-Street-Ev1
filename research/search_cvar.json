@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://sites.math.washington.edu/~rtr/papers/rtr179-CVaR1.pdf",
+    "name": "[PDF] Optimization of Conditional Value-at-Risk - UW Math Department",
+    "snippet": "This paper introduces a new approach to optimizing a portfolio so as to reduce the risk of high losses. Value-at-Risk (VaR) has a role in the ...",
+    "host_name": "sites.math.washington.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378426602002716",
+    "name": "Conditional value-at-risk for general loss distributions - ScienceDirect.com",
+    "snippet": "CVaR and its minimization formula were first developed in our paper (Rockafellar and Uryasev, 2000). There, we demonstrated numerical effectiveness through ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www2.mathematik.hu-berlin.de/~romisch/SP01/Uryasev.pdf",
+    "name": "[PDF] Conditional Value-at-Risk (CVaR): Algorithms and Applications",
+    "snippet": "Presentation is based on the following papers: [1] Rockafellar R.T. and S. Uryasev (2001): Conditional Value-at-. Risk for General Loss Distributions. Research ...",
+    "host_name": "www2.mathematik.hu-berlin.de",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emerald.com/books/edited-volume/13570/chapter/84260189/Conditional-Value-at-Risk-Vs-Value-at-Risk-to",
+    "name": "Conditional Value-at-Risk Vs. Value-at-Risk to Multi-Objective",
+    "snippet": "This chapter presents a multi-criteria portfolio model with the expected return as a performance measure and the expected worst-case return as a risk ...",
+    "host_name": "www.emerald.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/200798611_Value-_at-Risk_vs_Conditional_Value-at-Risk_in_Risk_Management_and_Optimization",
+    "name": "(PDF) Value- at-Risk vs Conditional Value-at-Risk in Risk Management",
+    "snippet": "Reasons affecting the choice between VaR and CVaR are based on the differences in mathematical properties, stability of statistical estimation, simplicity of ...",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://uryasev.ams.stonybrook.edu/wp-content/uploads/2011/11/FinNews.pdf",
+    "name": "[PDF] Conditional Value at Risk: Optimization Algorithms and",
+    "snippet": "This article has outlined a new approach for the simultaneous calculation of VaR and optimization of CVaR for a broad class of problems. We have shown that CVaR ...",
+    "host_name": "uryasev.ams.stonybrook.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scispace.com/pdf/portfolio-optimization-with-conditional-value-at-risk-3xygs1o3t8.pdf",
+    "name": "[PDF] Portfolio optimization with conditional value-at-risk objective and constraints",
+    "snippet": "Rockafellar and Uryasev (2000) demonstrated that linear programming techniques can be used for optimization of the Conditional Value-at-Risk (CVaR) risk measure ...",
+    "host_name": "scispace.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.diva-portal.org/smash/get/diva2:479147/FULLTEXT01.pdf",
+    "name": "[PDF] Portfolio Optimization with CVaR - DiVA portal",
+    "snippet": "The Simplex algorithm is used for the optimization, where a linearized version of Conditional Value-at-Risk (CVaR) is used as the risk measure. The optimization ...",
+    "host_name": "www.diva-portal.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.smartquant.com/references/VaR/var34.pdf",
+    "name": "[PDF] PORTFOLIO OPTIMIZATION WITH CONDITIONAL VALUE-AT-RISK",
+    "snippet": "This paper extends this approach to the optimization problems with CVaR constraints. In particular, the approach is used for finance applications such as ...",
+    "host_name": "www.smartquant.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/a/rsk/journ4/2161159.html",
+    "name": "Optimization of conditional value-at-risk - IDEAS/RePEc",
+    "snippet": "It focuses on minimizing conditional value-at-risk (CVaR) rather than minimizing value-at-risk (VaR), but portfolios with low CVaR necessarily have low VaR as ...",
+    "host_name": "ideas.repec.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

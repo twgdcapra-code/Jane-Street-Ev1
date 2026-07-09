@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.researchgate.net/publication/256066609_Re-Examining_the_Profitability_of_Technical_Analysis_with_White's_Reality_Check_and_Hansen's_SPA_Test",
+    "name": "Re-Examining the Profitability of Technical Analysis with White's",
+    "snippet": "In this paper, we re-examine the profitability of technical analysis using White's Reality Check and Hansen's SPA test that correct the data ...",
+    "host_name": "www.researchgate.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=685361",
+    "name": "Re-Examining the Profitability of Technical Analysis with White's",
+    "snippet": "In this paper, we re-examine the profitability of technical analysis using White's Reality Check and Hansen's SPA test that correct the data snooping bias.",
+    "host_name": "papers.ssrn.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=2535&context=gradreports",
+    "name": "[PDF] Testing Investment Strategies for Superior Predictive Ability",
+    "snippet": "White's Reality Check and Hansen's Test for Superior Predictive Ability. Reality Check gives a direct estimate of the data-mining bias.” White's Reality Check ...",
+    "host_name": "digitalcommons.usu.edu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://homepage.ntu.edu.tw/~ckuan/pdf/Step-SPA-20090720.pdf",
+    "name": "[PDF] Testing the Predictive Ability of Technical Analysis Using A New",
+    "snippet": "In this paper we extend the “superior predictive ability”. (SPA) test of Hansen (2005, JBES) to a stepwise SPA test that can identify predictive.",
+    "host_name": "homepage.ntu.edu.tw",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.susanpotter.net/quant/monte-carlo-permutation-tests-strategy-significance",
+    "name": "Monte Carlo Permutation Tests for Strategy Significance - Susan Potter",
+    "snippet": "White's (2000) Reality Check is another approach: instead of testing each strategy individually, you test whether the best strategy in a family ...",
+    "host_name": "www.susanpotter.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stats.stackexchange.com/questions/25989/difference-between-whites-reality-check-and-monte-carlo-permutation",
+    "name": "Difference between White's reality check and Monte Carlo permutation",
+    "snippet": "The two procedures, WRC (which is basically bootstrapping) and MC, both test whether a specific trading rule (TR) performs no better than a specific benchmark. How to Test Significance of Trading Strategy? [closed] - Cross Validated Is \"Permutation Test\" sufficient for a/b testing? - Cross Validated More results from stats.stackexchange.com",
+    "host_name": "stats.stackexchange.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://open.uct.ac.za/bitstreams/316f4af0-50b0-4b0d-81a5-056646e012e7/download",
+    "name": "[PDF] a methodological study - University of Cape Town",
+    "snippet": "This test is known as White's Reality Check (WRC) the step-SPA method is used to represent randomisation approaches based on the approach of White (2000) the ...",
+    "host_name": "open.uct.ac.za",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ssc.wisc.edu/~bhansen/718/White2000.pdf",
+    "name": "[PDF] A REALITY CHECK FOR DATA SNOOPING WHENEVER A ''GOOD",
+    "snippet": "A REALITY CHECK FOR DATA SNOOPING. Data snooping occurs when a given set of data is used more than once for purposes of inference or model selection. a ...",
+    "host_name": "www.ssc.wisc.edu",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://financial-hacker.com/whites-reality-check",
+    "name": "White's Reality Check - The Financial Hacker",
+    "snippet": "White's Reality Check · Develop a strategy. · Produce balance curves of all strategy variants, using detrended trade results and no trade costs.",
+    "host_name": "financial-hacker.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@NFS303/validating-trading-strategies-with-permuted-monte-carlo-a-practical-guide-using-roc-momentum-d083180d4213",
+    "name": "Validating Trading Strategies with Permuted Monte Carlo - Medium",
+    "snippet": "Permuted Monte Carlo, also known as a permutation test or randomization test, is a non-parametric statistical method that tests whether observed ...",
+    "host_name": "medium.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]
