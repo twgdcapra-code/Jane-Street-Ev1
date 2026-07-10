@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/003_efficient_optimization_algorithms.html",
+    "name": "Efficient Optimization Algorithms — Optuna 4.9.0 documentation",
+    "snippet": "Optuna enables efficient hyperparameter optimization by adopting state-of-the-art algorithms for sampling hyperparameters and pruning efficiently unpromising ...",
+    "host_name": "optuna.readthedocs.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://towardsdatascience.com/state-of-the-art-machine-learning-hyperparameter-optimization-with-optuna-a315d8564de1",
+    "name": "State-of-the-Art Machine Learning Hyperparameter Optimization",
+    "snippet": "By default, Optuna implements a Bayesian optimization algorithm (TPE) but it can be easily switched to other existing algorithms in the package.",
+    "host_name": "towardsdatascience.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@mjgmario/hyperparameter-optimization-with-optuna-8fca06ea5491",
+    "name": "Hyperparameter Optimization with Optuna - Medium",
+    "snippet": "Comprehensive guide to Optuna for hyperparameter optimization, covering search spaces, objectives, samplers, pruning, and scalable parallel ...",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S2772375525003685",
+    "name": "Bayesian optimization with Optuna for enhanced soil nutrient",
+    "snippet": "Optuna's tree-structured Parzen estimator (TPE) and pruning algorithms are employed to generate more precise estimates of soil nutrients. The majority of models ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=9CJ6_bunz7I",
+    "name": "The better Hyperparameter Tuning using Bayesian Search & Optuna",
+    "snippet": "In this video, we dive deep into hyperparameter tuning using Bayesian search from scikit-optimize and the Optuna framework for a ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emergentmind.com/topics/optuna-based-hyperparameter-optimization",
+    "name": "Optuna-Based Hyperparameter Optimization - Emergent Mind",
+    "snippet": "Discover how Optuna efficiently automates hyperparameter tuning using define-by-run APIs, Bayesian sampling, and aggressive pruning methods.",
+    "host_name": "www.emergentmind.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://optuna.org",
+    "name": "Optuna - A hyperparameter optimization framework",
+    "snippet": "Optuna is an automatic hyperparameter optimization software framework, particularly designed for machine learning.",
+    "host_name": "optuna.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.gopenai.com/optuna-vs-hyperopt-which-framework-excels-in-hyperparameter-optimization-55f1a693572d",
+    "name": "“Optuna vs HyperOpt: Which Framework Excels in Hyperparameter",
+    "snippet": "Optuna primarily uses Tree-structured Parzen Estimators (TPE), a form of Bayesian optimization, which is more efficient than traditional methods ...",
+    "host_name": "blog.gopenai.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2201.06433",
+    "name": "[PDF] A Comparative study of Hyper-Parameter Optimization Tools - arXiv",
+    "snippet": "In this paper, we compare the hyper-parameter optimiza- tion techniques based on Bayesian optimization (Optuna [3],. HyperOpt [4]) and SMAC [6], ...",
+    "host_name": "arxiv.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hub.optuna.org/tags/tpe",
+    "name": "TPE - OptunaHub",
+    "snippet": "The algorithm is based on the approach described in: Speeding Up Multi-Objective Hyperparameter Optimization by Task Similarity-Based Meta-Learning for the Tree ...",
+    "host_name": "hub.optuna.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

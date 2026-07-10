@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf",
+    "name": "[PDF] THE DEFLATED SHARPE RATIO: CORRECTING FOR SELECTION",
+    "snippet": "We have explained how multiple testing leads to an increased probability of false positives, and hiding negative outcomes of multiple ...",
+    "host_name": "www.davidhbailey.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2460551_code87814.pdf?abstractid=2460551",
+    "name": "[PDF] CORRECTING FOR SELECTION BIAS, BACKTEST OVERFITTING",
+    "snippet": "The Deflated Sharpe Ratio (DSR) corrects for two leading sources of performance inflation: ... Sharpe ratio for the effects of multiple testing,.",
+    "host_name": "papers.ssrn.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pdfs.semanticscholar.org/c215/d0a2064ce1a3565d276475abc84305418f0f.pdf",
+    "name": "[PDF] DEFLATING THE SHARPE RATIO - Semantic Scholar",
+    "snippet": "Sharpe ratio estimates tend to be overly optimistic, and they should be jointly corrected for its two sources of inflation: – Non-Normal returns. – Multiple ...",
+    "host_name": "pdfs.semanticscholar.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/286121118_The_Deflated_Sharpe_Ratio_Correcting_for_Selection_Bias_Backtest_Overfitting_and_Non-Normality",
+    "name": "Correcting for Selection Bias, Backtest Overfitting, and Non-Normality",
+    "snippet": "The deflated Sharpe ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non-normally distributed ...",
+    "host_name": "www.researchgate.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantdare.com/deflated-sharpe-ratio-how-to-avoid-been-fooled-by-randomness",
+    "name": "Deflated Sharpe Ratio (how to avoid been fooled by randomness)",
+    "snippet": "The Deflated Sharpe Ratio can be used to determine the probability that a discovered strategy is a false positive. The key is to record all ...",
+    "host_name": "quantdare.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://books.google.com/books/about/The_Deflated_Sharpe_Ratio.html?id=clP9zgEACAAJ",
+    "name": "The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest",
+    "snippet": "The Deflated Sharpe Ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non-Normally distributed ...",
+    "host_name": "books.google.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Deflated_Sharpe_ratio",
+    "name": "Deflated Sharpe ratio - Wikipedia",
+    "snippet": "The Deflated Sharpe ratio (DSR) is a statistical method used to determine whether the Sharpe ratio of an investment strategy is statistically significant.",
+    "host_name": "en.wikipedia.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.marti.ai/qfin/2018/05/30/deflated-sharpe-ratio.html",
+    "name": "How to detect false strategies? The Deflated Sharpe Ratio",
+    "snippet": "There is only a 90% chance that the advertized strategy has a positive Sharpe ratio. Put another way, there is a 10% chance that the strategy ...",
+    "host_name": "www.marti.ai",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://paperswithbacktest.com/course/deflated-sharpe-ratio",
+    "name": "Deflated Sharpe Ratio Explained (Algo Trading)",
+    "snippet": "Learn how the deflated Sharpe ratio corrects for multiple testing, non-normality, and selection bias when evaluating trading strategies.",
+    "host_name": "paperswithbacktest.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.aqr.com/-/media/AQR/Documents/Journal-Articles/JFDS_Winter2019_A-Data-Science-Solution-to-Multiple-Testing-Crisis---Lopez_de_Prado.pdf?sc_lang=en",
+    "name": "[PDF] A Data Science Solution to the Multiple-Testing Crisis in Financial",
+    "snippet": "“The Deflated Sharpe Ratio: Correcting for. Selection Bias, Backtest Overfitting and Non-Normality.” The Journal of Portfolio Management 40 ...",
+    "host_name": "www.aqr.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.researchgate.net/publication/396395655_Optimizing_trading_strategies_using_genetic_algorithms_A_review_and_implementation",
+    "name": "Optimizing trading strategies using genetic algorithms: A review and",
+    "snippet": "This article explores the application of genetic algorithms (GAs) to optimize trading systems, based on both a literature review and an ...",
+    "host_name": "www.researchgate.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3092090.3092135",
+    "name": "A GGA-based Algorithm for Group Trading Strat - ACM Digital Library",
+    "snippet": "Three parts, grouping, weight and trading strategy parts, are utilized to encode a GTSP into a chromosome. The fitness function which is ...",
+    "host_name": "dl.acm.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bluechipalgos.com/blog/genetic-algorithms-for-optimizing-trading-strategies",
+    "name": "Genetic Algorithms for Optimizing Trading Strategies – Blog",
+    "snippet": "For example, in trading strategies, chromosomes could encode stop-loss levels, moving average periods and other rules. Fitness Function: This ...",
+    "host_name": "bluechipalgos.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/genetic-algorithms-for-trading-in-python",
+    "name": "Genetic Algorithms for Trading in Python | IBKR Quant",
+    "snippet": "Step 1: Define the Trading Strategy · Step 2: Define the Fitness Function · Step 3: Initialize the Population · Step 4: Evaluate the Population",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S0898122113004938",
+    "name": "Adopting genetic algorithms for technical analysis and portfolio",
+    "snippet": "There are three main mechanisms in the Genetic Algorithms (GA). They are chromosome encoding, fitness evaluation and genetic operators. As based on the ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pub.towardsai.net/genetic-algorithm-for-trading-strategy-optimization-in-python-614eb660990d",
+    "name": "Genetic Algorithm for Trading Strategy Optimization in Python",
+    "snippet": "Fitness Function: A function for calculating how successful (fitness score) an individual is. Depending on the underlying problem statement ...",
+    "host_name": "pub.towardsai.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://upcommons.upc.edu/bitstreams/05e3c7c0-ff49-40d7-9bc0-71d52ec1b264/download",
+    "name": "[PDF] Utilizing Artificial Neural Networks and Genetic Algorithms to Build",
+    "snippet": "Therefore, the population is encoded to binary format and is transformed to integer format inside the fitness function. Having defined the structure of the ...",
+    "host_name": "upcommons.upc.edu",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/learnmachinelearning/comments/1cgaj5o/applying_genetic_algorithms_gas_to_trading",
+    "name": "Applying Genetic Algorithms (GAs) to trading strategy optimization",
+    "snippet": "I've been working on a variety of tools that applies genetic optimization to trading strategy optimization. The first tool of which is NextTrade.",
+    "host_name": "www.reddit.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rei.iteso.mx/bitstreams/f69cadcf-53cf-40f2-ad7b-6f51a8c5e1ae/download",
+    "name": "[PDF] Genetic optimization of a trading algorithm based on pattern  - Iteso",
+    "snippet": "Abstract—In the present paper, a trading strategy based on pattern recognition is optimized by means of a genetic algorithm. The genetic algorithm is used ...",
+    "host_name": "rei.iteso.mx",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/ishchat/Genetic-Algorithm-Trading-Strategy-Optimization",
+    "name": "ishchat/Genetic-Algorithm-Trading-Strategy-Optimization - GitHub",
+    "snippet": "We start with random initialization of chromosomes and then iterate through the steps of Genetic Algorithm to achieve fitter chromosomes in terms of Sharpe ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

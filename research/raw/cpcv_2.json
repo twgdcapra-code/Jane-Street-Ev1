@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.quantbeckman.com/p/with-code-combinatorial-purged-cross",
+    "name": "[WITH CODE] Combinatorial Purged Cross Validation for Optimization",
+    "snippet": "CPCV generates a large number of random training and testing paths through the historical data, with each path strictly adhering to the purging ...",
+    "host_name": "www.quantbeckman.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stats.stackexchange.com/questions/443159/what-is-combinatorial-purged-cross-validation-for-time-series-data",
+    "name": "What is Combinatorial Purged Cross-Validation for time series data?",
+    "snippet": "CPCV trains 15 models (one per row) and reuses their predictions to build 5 paths, with no training beyond the folds themselves. So here you get ... Is the test set in Combinatorial Purged Cross-Validation in-sample or out ... Are Purging and Embargo better than TimeSeriesSplit? - Cross Validated More results from stats.stackexchange.com\nSo you can join the test predictions into 5 full paths over all the data. That is φ = (k/N)·C(N,k) = 5 backtest paths. A normal walk-forward ... Are Purging and Embargo better than TimeSeriesSplit? Is the test set in Combinatorial Purged Cross-Validation in-sample or ... More results from stats.stackexchange.com",
+    "host_name": "stats.stackexchange.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pub.towardsai.net/the-combinatorial-purged-cross-validation-method-363eb378a9c5",
+    "name": "The Combinatorial Purged Cross-Validation method - Towards AI",
+    "snippet": "This article discusses a robust backtesting method for time series data named the PurgedKFold cross-validation (CV) method.",
+    "host_name": "pub.towardsai.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=hDQssGntmFA",
+    "name": "Combinatorial Purged Cross-Validation Explained",
+    "snippet": "... Purged Cross-Validation Explained. @quantoisseur8494168 likes7.7K views6 years ago more. Subscribe. Comments. 11. Comment.",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.quantinsti.com/cross-validation-embargo-purging-combinatorial",
+    "name": "Cross Validation in Finance: Purging, Embargoing, Combinatorial",
+    "snippet": "In this blog, we understand the concept of embargoing and purging and its application in cross validation of financial data.\nIn this blog, we understand the concept of embargoing and purging and its application in cross validation of financial data. Embargoing · Purging · Backtesting through Cross...",
+    "host_name": "blog.quantinsti.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1j392dd/d_benefits_of_purged_cv_in_time_series",
+    "name": "[D] Benefits of Purged CV in Time Series? : r/MachineLearning - Reddit",
+    "snippet": "Purging and embargo aim to prevent information leakage between the train- and test-set, and they serve to handle difference effects: Combinatorial Purged CV Question : r/quant What is \"one path\" in Cross Validation(CV)? : r/quant More results from www.reddit.com\nPurging and embargo aim to prevent information leakage between the train- and test-set, and they serve to handle difference effects: * ... What is \"one path\" in Cross Validation(CV)? : r/quant - Reddit Combinatorial Purged CV Question : r/quant - Reddit More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4686376_code4361537.pdf?abstractid=4686376&mirid=1",
+    "name": "[PDF] Backtest Overfitting in the Machine Learning Era",
+    "snippet": "The CPCV backtesting algorithm involves purging and embargoing as introduced before. Each path results from combining forecasts from different groups and split ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DZa20pwOqNP",
+    "name": "What is CPCV, and why do quants trust it more than a single backtest",
+    "snippet": "CPCV (Combinatorial Purged Cross-Validation) tests every combination of held-out groups instead, fifteen train-test splits in the six-group ...",
+    "host_name": "www.instagram.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/725401650/SSRN-id4778909",
+    "name": "Combinatorial Purged Cross-Validation Insights | PDF",
+    "snippet": "Combinatorial Purged Cross-Validation (CPCV): training set is balanced against the number of paths (a) CPCV enhances backtest pathways by introduc- and size ...",
+    "host_name": "www.scribd.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradinginterview.com/courses/machine-learning/lessons/cross-validation-for-financial-data-purging-and-embargoing",
+    "name": "Cross-Validation For Financial Data (Purging And Embargoing)",
+    "snippet": "We work through which observations get dropped around a test fold by hand, count the backtest paths that combinatorial purged cross-validation produces, and ...",
+    "host_name": "www.tradinginterview.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

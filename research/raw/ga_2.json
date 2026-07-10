@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.man.com/ahl",
+    "name": "Man AHL - Man Group",
+    "snippet": "Man AHL is a team of researchers, developers and traders of systematic investment strategies. We apply scientific rigour and robust technology to diverse ...",
+    "host_name": "www.man.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/397503053_A_genetic_algorithm_for_the_optimization_of_multi-threshold_trading_strategies_in_the_directional_changes_paradigm",
+    "name": "(PDF) A genetic algorithm for the optimization of multi-threshold",
+    "snippet": "This paper proposes a novel genetic algorithm to optimize recommendations from multiple trading strategies derived from the Directional ...",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://journals.adbascientific.com/iteb/article/view/126",
+    "name": "Adaptive Multi-Asset Trading Strategy Optimization via Genetic Algorithms",
+    "snippet": "This study presents a comprehensive Genetic Algorithm (GA) framework designed to develop and optimize an adaptive trading strategy for multi- ...",
+    "host_name": "journals.adbascientific.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://thehedgefundjournal.com/man-ahl-marks-30-years",
+    "name": "Man AHL Marks 30 Years - The Hedge Fund Journal",
+    "snippet": "Today, Man AHL uses proprietary algorithms and momentum models to trade around 600 markets in futures, foreign exchange, OTC markets and cash equity markets. In ...",
+    "host_name": "thehedgefundjournal.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://learning-gate.com/index.php/2576-8484/article/download/10407/3383/14790",
+    "name": "[PDF] Optimizing trading strategies using genetic algorithms - Learning Gate",
+    "snippet": "Abstract: This article explores the application of genetic algorithms (GAs) to optimize trading systems, based on both a literature review ...",
+    "host_name": "learning-gate.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scispace.com/pdf/genetic-algorithms-and-investment-strategy-development-1t14397d25.pdf",
+    "name": "[PDF] Genetic Algorithms and Investment Strategy Development - SciSpace",
+    "snippet": "Abstract. The aim of this paper is to investigate the use of genetic algorithms in investment strategy development.",
+    "host_name": "scispace.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2510.07943v1",
+    "name": "Agent-Based Genetic Algorithm for Crypto Trading Strategy Optimization",
+    "snippet": "2.1 Evolutionary Algorithms ... The strategy generates trading signals through the systematic interaction of fast and slow RSI indicators:.",
+    "host_name": "arxiv.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/Evolutionary-algorithm-in-Forex-trade-strategy-Myszkowski-Bicz/52a2e27a59a7c989033dc422f914393eef9e9a01",
+    "name": "[PDF] Evolutionary algorithm in Forex trade strategy generation",
+    "snippet": "An evolutionary algorithm application to generate profitable strategies to trade futures contracts on foreign exchange market (Forex) based on two decision ...",
+    "host_name": "www.semanticscholar.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://sal.aalto.fi/publications/pdf-files/tnym17_public.pdf",
+    "name": "[PDF] A Genetic Algorithm for Generating Optimal Stock Investment Strategies",
+    "snippet": "Incorporating Markov decision pro- cess on genetic algorithms to formulate trading strategies for stock mar- kets. Applied Soft Computing ...",
+    "host_name": "sal.aalto.fi",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.bobm.net.au/papers/drake.pdf",
+    "name": "[PDF] Chapter 2 - GENETIC ALGORITHMS IN ECONOMICS AND FINANCE",
+    "snippet": "Then follows an overview of published appli- cations in finance, with particular focus on the papers of Bauer, Pereira, and Colin in foreign exchange trading.",
+    "host_name": "www.bobm.net.au",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

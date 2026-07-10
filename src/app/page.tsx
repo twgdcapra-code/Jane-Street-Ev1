@@ -55,6 +55,7 @@ import { IndicatorsLab } from "@/components/trading/IndicatorsLab";
 import { ExecutionalCharting } from "@/components/trading/ExecutionalCharting";
 import { PortfolioBacktester } from "@/components/trading/PortfolioBacktester";
 import { MarketReplay } from "@/components/trading/MarketReplay";
+import { StrategyOptimizer } from "@/components/trading/StrategyOptimizer";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -82,7 +83,8 @@ type ModuleId =
   | "indicators"
   | "execchart"
   | "portbt"
-  | "replay";
+  | "replay"
+  | "optimizer";
 
 interface ModuleDef {
   id: ModuleId;
@@ -114,6 +116,7 @@ const MODULES: ModuleDef[] = [
   { id: "execchart", name: "Executional Charting", icon: Activity, description: "Neon prediction overlay, multi-model ensemble, execution plugins" },
   { id: "portbt", name: "Portfolio Backtester", icon: Layers, description: "Multi-strategy backtesting with 6 allocation methods, Monte Carlo" },
   { id: "replay", name: "Market Replay", icon: Activity, description: "Replay historical events (Flash Crash, COVID, FOMC) for training" },
+  { id: "optimizer", name: "Strategy Optimizer", icon: Brain, description: "Genetic algo, walk-forward, CPCV, deflated Sharpe ratio" },
   { id: "research", name: "Research", icon: TrendingUp, description: "Factor analysis and cointegration tools" },
   { id: "system", name: "System Monitor", icon: Activity, description: "Latency, throughput, event log" },
 ];
@@ -333,6 +336,8 @@ function ModuleRenderer({ active, selectedSymbol }: { active: ModuleId; selected
       return <PortfolioBacktester />;
     case "replay":
       return <MarketReplay />;
+    case "optimizer":
+      return <StrategyOptimizer />;
     case "research":
       return <ResearchTerminal />;
     case "system":

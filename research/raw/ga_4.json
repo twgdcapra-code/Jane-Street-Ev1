@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.researchgate.net/publication/286434618_Blending_Roulette_Wheel_Selection_Rank_Selection_in_Genetic_Algorithms",
+    "name": "Blending Roulette Wheel Selection & Rank Selection in Genetic Algorithms",
+    "snippet": "The Roulette Wheel selection [41] method is based on parent individuals randomly chosen with a probability corresponding to its total profit.",
+    "host_name": "www.researchgate.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://thesai.org/Downloads/Volume16No6/Paper_56-Comparative_Analysis_of_Rank_and_Roulette_Wheel_Selection.pdf",
+    "name": "[PDF] Comparative Analysis of Rank and Roulette Wheel Selection",
+    "snippet": "This study explores the optimization of spatial layouts by employing Genetic. Algorithms (GA) due to their robust search capabilities. However, spatial layout ...",
+    "host_name": "thesai.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/topics/computer-science/wheel-selection",
+    "name": "Wheel Selection - an overview | ScienceDirect Topics",
+    "snippet": "The roulette wheel selection method is used for selecting all the individuals for the next generation. It is a popular selection method used in a genetic ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.uobabylon.edu.iq/eprints/paper_5_29376_124.pdf",
+    "name": "[PDF] Genetic Algorithms",
+    "snippet": "Each individual is assigned a slice of the roulette wheel, the size of the slice being proportional to the individual's fitness. The wheel is spun N times, ...",
+    "host_name": "www.uobabylon.edu.iq",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://uomustansiriyah.edu.iq/media/lectures/5/5_2026_03_24!06_17_46_AM.pdf",
+    "name": "[PDF] Genetic Algorithms Examples",
+    "snippet": "using a Genetic Algorithm with tournament selection (tournament size = 2). The initial population is: 101011, 010110, 111001, 001100, 110101, 011010.",
+    "host_name": "uomustansiriyah.edu.iq",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://algorithmafternoon.com/books/genetic_algorithm/chapter04",
+    "name": "Chapter 4 - Selection Strategies - Algorithm Afternoon",
+    "snippet": "These exercises will guide you through implementing two key selection strategies in genetic algorithms - roulette wheel selection and tournament selection.",
+    "host_name": "algorithmafternoon.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@c4lv1nmcg0wan/genetic-algorithms-tournament-selection-b150bc76f0d8",
+    "name": "Genetic Algorithms: Tournament Selection | by Calvin McGowan",
+    "snippet": "There are two main variables that determine how the algorithm works in tournament selection, tournament size, and probability.",
+    "host_name": "medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/23183862/what-is-the-difference-between-roulette-wheel-selection-rank-selection-and-tour",
+    "name": "What is the difference between roulette wheel selection, rank",
+    "snippet": "Rank selection is similar to roulette wheel selection except that selection probability is proportional to relative fitness rather than absolute fitness.",
+    "host_name": "stackoverflow.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=uRF7xSQwNeU",
+    "name": "Selection Operators Roulette Wheel Ranking Tournament  - YouTube",
+    "snippet": "Selection Operators Roulette Wheel Ranking Tournament Selection in Genetic Algorithm by Mahesh Huddar Genetic Algorithm: ...",
+    "host_name": "www.youtube.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.woodruff.dev/day-6-roulette-tournaments-and-elites-exploring-selection-strategies",
+    "name": "Day 6: Roulette, Tournaments, and Elites: Exploring Selection Strategies",
+    "snippet": "Tournament selection picks a random subset of the population and selects the fittest among them. You can configure the tournament size to ...",
+    "host_name": "www.woodruff.dev",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

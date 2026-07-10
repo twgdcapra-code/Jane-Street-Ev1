@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://stats.stackexchange.com/questions/443159/what-is-combinatorial-purged-cross-validation-for-time-series-data",
+    "name": "What is Combinatorial Purged Cross-Validation for time series data?",
+    "snippet": "I'm trying to understand the \"Combinatorial Purged Cross-Validation\" technique for time series data described in Marcos Lopez de Prado's \"Advances in Financial ... Is the test set in Combinatorial Purged Cross-Validation in-sample or out ... Is CPCV similar to bootstrap? - Cross Validated - Stack Exchange More results from stats.stackexchange.com",
+    "host_name": "stats.stackexchange.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4686376_code4361537.pdf?abstractid=4686376&mirid=1",
+    "name": "[PDF] Backtest Overfitting in the Machine Learning Era",
+    "snippet": "Lopez de Prado's Combinatorial Purged Cross-Validation (CPCV) method offers a robust solution for backtesting trading strate- gies.",
+    "host_name": "papers.ssrn.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantbeckman.com/p/with-code-combinatorial-purged-cross",
+    "name": "[WITH CODE] Combinatorial Purged Cross Validation for Optimization",
+    "snippet": "Marcos Lopez de Prado, in his seminal work proposed a solution that addresses the data leakage problem, This involves two key concepts: purging ...",
+    "host_name": "www.quantbeckman.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/725401650/SSRN-id4778909",
+    "name": "Combinatorial Purged Cross-Validation Insights | PDF",
+    "snippet": "This research explores integrating machine learning into financial analytics. It addresses the need for robust model evaluation and out-of-sample testing ...",
+    "host_name": "www.scribd.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.numer.ai/t/fast-combinatorial-cross-validation/3350",
+    "name": "Fast Combinatorial Cross Validation - Data Science - Numerai Forum",
+    "snippet": "Combinatorial purged cross fold validation (CPCV) is a concept proposed by Marcos Lopez de Prado in the “Advances in financial machine learning ...",
+    "host_name": "forum.numer.ai",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ivanblancosanchez_new-research-backtest-overfitting-in-activity-7183469596148998144-KtKZ",
+    "name": "Ivan Blanco's Post - LinkedIn",
+    "snippet": "In this book, Lopez de Prado explains how combinatorial purged cross-validation tackles the issue of backtest overfitting.",
+    "host_name": "www.linkedin.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pub.towardsai.net/the-combinatorial-purged-cross-validation-method-363eb378a9c5",
+    "name": "The Combinatorial Purged Cross-Validation method - Towards AI",
+    "snippet": "This article discusses a robust backtesting method for time series data named the PurgedKFold cross-validation (CV) method.",
+    "host_name": "pub.towardsai.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950705124011110",
+    "name": "Backtest overfitting in the machine learning era: A comparison of out-of",
+    "snippet": "Lopez de Prado's Combinatorial Purged Cross-Validation (CPCV) method offers a robust solution for backtesting trading strategies.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://skfolio.org/generated/skfolio.model_selection.CombinatorialPurgedCV.html",
+    "name": "CombinatorialPurgedCV - skfolio",
+    "snippet": "Combinatorial Purged Cross-Validation. Provides train/test indices to split time ... “Advances in Financial Machine Learning”, Marcos López de Prado (2018).",
+    "host_name": "skfolio.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=hDQssGntmFA",
+    "name": "Combinatorial Purged Cross-Validation Explained",
+    "snippet": "Combinatorial Purged Cross-Validation ... External Data Conference | Ten Financial Applications of Machine Learning | Marcos Lopez de Prado.",
+    "host_name": "www.youtube.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

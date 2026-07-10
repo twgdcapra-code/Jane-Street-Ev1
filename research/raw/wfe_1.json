@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://medium.com/@NFS303/walk-forward-analysis-a-production-ready-comparison-of-three-validation-approaches-69cd25fc9fc7",
+    "name": "Walk-Forward Analysis: A Production-Ready Comparison of",
+    "snippet": "The key metric is Walk-Forward Efficiency (WFE), calculated as: WFE = Out-of-Sample Sharpe Ratio / In-Sample Sharpe Ratio ... Calculate ...",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.prorealcode.com/topic/walk-forward-analysis",
+    "name": "Walk forward analysis? - ProRealTime Forum - ProRealCode",
+    "snippet": "The WFE calculate the ratio of the annual performance of the In Sample ... However an overall Walk Forward Efficiency Ratio is presented ...",
+    "host_name": "www.prorealcode.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/nk5804/walkforward_efficiency_calculation_over_multiple",
+    "name": "Walk-Forward Efficiency calculation over multiple passes : r/algotrading",
+    "snippet": "According to Robert Pardo's book Walk-Forward Efficiency ratio = Out-Of-Sample value / In-Sample value (also, the value should be annualized) ...",
+    "host_name": "www.reddit.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradingview.com/chart/ES1!/2LJFMp8Z-Walk-Forward-Testing-and-Out-of-Sample-Validation",
+    "name": "Walk-Forward Testing and Out-of-Sample Validation",
+    "snippet": "The ratio between them is diagnostic. Walk-forward efficiency (WFE) is defined as (Pardo, 2008):. WFE = (annualized OOS performance) ...",
+    "host_name": "www.tradingview.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://help.tradestation.com/09_01/tswfo/topics/walk-forward_summary_out-of-sample.htm",
+    "name": "Walk-forward Summary (Out-Of-Sample)",
+    "snippet": "As a rule of thumb, a Walk-Forward Efficiency of 50% or more is considered a measure of a successful walk-forward analysis. The distribution of profit, loss and ...",
+    "host_name": "help.tradestation.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/what-walk-forward-optimization-weiheng-huang-4wudc",
+    "name": "What is Walk-Forward Optimization? - LinkedIn",
+    "snippet": "WFO is a clever extension of traditional out-of-sample (OOS) testing, which refers to testing your strategy on data not previously used for development.",
+    "host_name": "www.linkedin.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/1480/what-is-the-ideal-ratio-of-in-sample-length-to-out-of-sample-length",
+    "name": "What is the ideal ratio of in-sample length to out-of-sample length?",
+    "snippet": "I think it depends on many factors: the characteristics of the market, the consistency of the market, the number of parameters, the optimization ...",
+    "host_name": "quant.stackexchange.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5086171.pdf?abstractid=5086171&mirid=1",
+    "name": "[PDF] In-Sample and Out-of-Sample Sharpe Ratios for Linear Predictive Models",
+    "snippet": "Abstract. We study how much the in-sample performance of trading strategies based on linear pre- dictive models is reduced out-of-sample due to overfitting.",
+    "host_name": "papers.ssrn.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

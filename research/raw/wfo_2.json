@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://medium.com/@NFS303/walk-forward-analysis-a-production-ready-comparison-of-three-validation-approaches-69cd25fc9fc7",
+    "name": "Walk-Forward Analysis: A Production-Ready Comparison of",
+    "snippet": "The key metric is Walk-Forward Efficiency (WFE), calculated as: WFE = Out-of-Sample Sharpe Ratio / In-Sample Sharpe Ratio ... overfitting ...\nThe negative test Sharpe and negative WFE provide overwhelming evidence of overfitting. No amount of parameter tuning will fix this — the fundamental approach found patterns that didn’t ...",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fortraders.com/blog/avoid-overfitting-trading-rules",
+    "name": "7 Tips To Avoid Overfitting in Trading Rules - For Traders",
+    "snippet": "A WFE above 70% is a good indicator that your strategy is sound, while anything below 30% suggests overfitting and calls for a rethink. Using ...",
+    "host_name": "www.fortraders.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://surmount.ai/walk-forward-analysis-vs-backtesting-pros-cons-best-practices",
+    "name": "Walk-Forward Analysis vs. Backtesting: Pros, Cons, and Best Practices",
+    "snippet": "Walk-forward efficiency (WFE) provides a quantitative measure of how well a strategy's optimization translates to out-of-sample performance. Calculated as the ...",
+    "host_name": "surmount.ai",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantbeckman.com/p/with-code-walk-forward-cvcl-optimization",
+    "name": "[WITH CODE] Walk-Forward optimization - by Quant Beckman",
+    "snippet": "Rolling windows with embargo. Backtesting helpers. Executing the Walk-Forward process. K-Means clustering to identify parameter regimes.",
+    "host_name": "www.quantbeckman.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://grokipedia.com/page/Walk_forward_optimization",
+    "name": "Walk forward optimization - Grokipedia",
+    "snippet": "This method addresses the limitations of traditional backtesting, which often leads to overfitting by tuning parameters to the entire dataset without accounting ...",
+    "host_name": "grokipedia.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arongroups.co/forex-articles/walk-forward-optimisation-in-trading",
+    "name": "َWhat Is Walk Forward Optimisation in Trading? - Aron Groups",
+    "snippet": "In today's fast-changing markets, walk-forward optimisation (WFO) helps close the gap between “good on paper” backtests and live execution.",
+    "host_name": "arongroups.co",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/53455/backtesting-with-a-walkforward-approach",
+    "name": "Backtesting with a walkforward approach - Quantitative Finance",
+    "snippet": "If you train your algo on several segments then it could lead to either- overfitting or survivorship bias. You want your algorithm to generalise ...",
+    "host_name": "quant.stackexchange.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bluechipalgos.com/blog/walk-forward-analysis-enhancing-your-backtesting-results",
+    "name": "Walk-Forward Analysis: Enhancing Your Backtesting Results – Blog",
+    "snippet": "This simulation computes the Walk Forward Efficiency percentage. It is simply a measurement of distance from the target achievement (strategies ...",
+    "host_name": "bluechipalgos.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2512.12924v1",
+    "name": "A Rigorous Walk-Forward Validation Framework for Market  - arXiv",
+    "snippet": "We develop a rigorous walk-forward validation framework for algorithmic trading designed to mitigate overfitting and lookahead bias. Our ...",
+    "host_name": "arxiv.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mql5.com/en/articles/23250",
+    "name": "Implementing Walk-Forward Efficiency Ratio Scoring in  - MQL5",
+    "snippet": "At the center of this engine is the Walk-Forward Efficiency (WFE) score, which maps the OOS-to-IS Sharpe ratio distribution. The pipeline components include: Data Logging: A companion EA that captures precise per-bar equity changes during backtesting. Ingestion Layer: A dedicated ...",
+    "host_name": "www.mql5.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

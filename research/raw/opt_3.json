@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/003_efficient_optimization_algorithms.html",
+    "name": "Efficient Optimization Algorithms — Optuna 4.9.0 documentation",
+    "snippet": "Tree-structured Parzen Estimator algorithm implemented in TPESampler. CMA-ES based algorithm implemented in CmaEsSampler ... Median pruning algorithm ...",
+    "host_name": "optuna.readthedocs.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/370213408_Tree-structured_Parzen_estimator_Understanding_its_algorithm_components_and_their_roles_for_better_empirical_performance",
+    "name": "Tree-Structured Parzen Estimator: Understanding Its Algorithm",
+    "snippet": "Optuna's treestructured Parzen estimator (TPE) enables adaptive and efficient parameter tuning while maintaining low computational cost [42] . Although the ...",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hub.optuna.org/samplers/ctpe",
+    "name": "c-TPE: Tree-structured Parzen Estimator with Inequality Constraints",
+    "snippet": "This sampler is the official implementation of the c-TPE paper. The interface for the constraint handling is identical to the Optuna API.",
+    "host_name": "hub.optuna.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emergentmind.com/topics/optuna-based-hyperparameter-optimization",
+    "name": "Optuna-Based Hyperparameter Optimization - Emergent Mind",
+    "snippet": "Samplers: The core search algorithm is the Tree-structured Parzen Estimator sampler (TPESampler), which implements SMBO/Bayesian Optimization.",
+    "host_name": "www.emergentmind.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2304.11127v4",
+    "name": "Tree-Structured Parzen Estimator: Understanding Its Algorithm",
+    "snippet": "Tree-structured Parzen estimator (TPE) is a widely used Bayesian optimization method in recent parameter tuning frameworks such as Hyperopt and ...",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hub.optuna.org/optuna_versions/v4.1.0",
+    "name": "V4.1.0 - OptunaHub",
+    "snippet": "This package aims to reproduce the TPE algorithm used in the paper published at IJCAI'23: c-TPE: Tree-structured Parzen Estimator with Inequality Constraints.",
+    "host_name": "hub.optuna.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@mjgmario/hyperparameter-optimization-with-optuna-8fca06ea5491",
+    "name": "Hyperparameter Optimization with Optuna - Medium",
+    "snippet": "Comprehensive guide to Optuna for hyperparameter optimization, covering search spaces, objectives, samplers, pruning, and scalable parallel ...",
+    "host_name": "medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/optuna/optuna/issues/1318",
+    "name": "Optimization starts from scratch after switching sampler from TPE to",
+    "snippet": "In my experience, the CMA-ES algorithm, which is CmaEsSampler in Optuna, is vulnerable to the objective function with large variances. This ...",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hub.optuna.org/tags/tpe",
+    "name": "TPE - OptunaHub",
+    "snippet": "Abstract This package aims to reproduce the TPE algorithm used in the paper: Tree-Structured Parzen Estimator: Understanding Its Algorithm Components and Their ...",
+    "host_name": "hub.optuna.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ijcai.org/proceedings/2023/0486.pdf",
+    "name": "[PDF] c-TPE: Tree-structured Parzen Estimator with Inequality Constraints",
+    "snippet": "In the experiments, we demonstrate that c-TPE exhibits the best average rank performance among existing methods with statistical significance on 81 expensive ...",
+    "host_name": "www.ijcai.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://deap.readthedocs.io/en/master/tutorials/basic/part2.html",
+    "name": "Operators and Algorithms — DEAP 1.4.3 documentation",
+    "snippet": "For example in the lastly presented complete algorithm, the crossover and mutation are regrouped in the varAnd() function, this function requires the toolbox to ...",
+    "host_name": "deap.readthedocs.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aviral-agarwal.medium.com/implementation-of-genetic-algorithm-evolutionary-algorithm-in-python-using-deap-framework-c2d4bd247f70",
+    "name": "Optimization using Genetic Algorithm/Evolutionary  - Aviral Agarwal",
+    "snippet": "Here, we are going to implement a variation of Evolutionary Algorithms called Genetic Algorithm (GA), step by step and with explanation, using the DEAP ...",
+    "host_name": "aviral-agarwal.medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/deap/DEAP",
+    "name": "DEAP/deap: Distributed Evolutionary Algorithms in Python - GitHub",
+    "snippet": "DEAP is a novel evolutionary computation framework for rapid prototyping and testing of ideas. It seeks to make algorithms explicit and data structures ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/2079-9292/14/13/2559",
+    "name": "Investment Portfolios Optimization with Genetic Algorithm - MDPI",
+    "snippet": "The algorithm adheres to the standard evolutionary framework, comprising initialization, evaluation, selection, crossover, and mutation steps.",
+    "host_name": "www.mdpi.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=iFz5Orx-p3g",
+    "name": "Portfolio optimization with genetic algorithms and DEAP - YouTube",
+    "snippet": "Seminario de la Empirical Mode Decomposition. Departamento de Matemáticas, Cinvestav. Eduardo Vázquez Fernández ESIME Culhuacan IPN.",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.jmlr.org/papers/volume13/fortin12a/fortin12a.pdf",
+    "name": "[PDF] DEAP: Evolutionary Algorithms Made Easy",
+    "snippet": "Abstract. DEAP is a novel evolutionary computation framework for rapid prototyping and testing of ideas. Its design departs from most other existing ...",
+    "host_name": "www.jmlr.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/394558035_Hybrid_Genetic_Algorithm_for_Dynamic_Portfolio_Optimization_Problems",
+    "name": "Hybrid Genetic Algorithm for Dynamic Portfolio Optimization Problems",
+    "snippet": "This research aims to develop and evaluate a Hybrid Genetic Algorithm (HGA) that integrates GA with the Hill Climbing local search method, and to compare its ...",
+    "host_name": "www.researchgate.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/20301206/enforce-constraints-in-genetic-algorithm-with-deap",
+    "name": "Enforce constraints in genetic algorithm with DEAP - Stack Overflow",
+    "snippet": "I am trying to use a genetic algorithm with DEAP to solve an optimization problem not all that different from a knapsack problem. A chromosome ...",
+    "host_name": "stackoverflow.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scispace.com/pdf/deap-a-python-framework-for-evolutionary-algorithms-3nerf2t629.pdf",
+    "name": "[PDF] DEAP: a python framework for evolutionary algorithms - SciSpace",
+    "snippet": "DEAP (Distributed Evolutionary Algorithms in Python) is a novel evolutionary computation framework for rapid pro- totyping and testing of ideas.",
+    "host_name": "scispace.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=6h5ImIy3kpA",
+    "name": "A Gentle Introduction to Genetic Algorithms with Python and DEAP",
+    "snippet": "Content summary: Genetic algorithms, inspired by natural selection, are powerful tools used to solve optimization problems in ways that ...",
+    "host_name": "www.youtube.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

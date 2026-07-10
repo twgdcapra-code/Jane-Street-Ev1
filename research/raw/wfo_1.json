@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.buildalpha.com/walk-forward-optimization",
+    "name": "What is Walk Forward Optimization? - Build Alpha",
+    "snippet": "An anchored walk forward optimization will not roll the in-sample period forward but instead anchor to the start date. This means that the training data for ...",
+    "host_name": "www.buildalpha.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Walk_forward_optimization",
+    "name": "Walk forward optimization - Wikipedia",
+    "snippet": "The trading strategy is optimized with in-sample data for a time window in a data series. The remaining data is reserved for out of sample testing. A small ...",
+    "host_name": "en.wikipedia.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://falcoalgo.com/insights/walk-forward-analysis",
+    "name": "Walk-Forward Analysis: The Right Way to Validate a Trading Strategy",
+    "snippet": "Walk-forward analysis produces a distribution of out-of-sample results, not one number. Anchored and rolling variants, efficiency ratio, ...",
+    "host_name": "falcoalgo.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.susanpotter.net/quant/walk-forward-optimization",
+    "name": "Walk-Forward Optimization: Anchored vs. Rolling Windows and",
+    "snippet": "You run walk-forward, see disappointing OOS performance, adjust the strategy, and re-run. The OOS results are no longer truly out-of-sample ...",
+    "host_name": "www.susanpotter.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/6217160.pdf?abstractid=6217160&mirid=1",
+    "name": "[PDF] A novel approach to trading strategy parameter optimization, using",
+    "snippet": "Walk-forward analysis divides time series into sequential in-sample and out-of-sample periods, optimizing parameters in-sample and evaluating out-of-sample.",
+    "host_name": "papers.ssrn.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://clearedge.trading/post/walk-forward-optimization-futures-strategy-validation",
+    "name": "Walk-Forward Testing - ClearEdge Automation",
+    "snippet": "Walk-forward optimization follows a structured cycle of optimize, test, shift, and repeat. The process produces a stitched-together out-of-sample equity curve ...",
+    "host_name": "clearedge.trading",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://algoadvantage.substack.com/p/035-bob-pardo-ii-building-trading",
+    "name": "035 - Bob Pardo II - Building Trading Strategies that Work with Walk",
+    "snippet": "Walk-forward analysis (WFA) is a systematic method to validate trading strategies by iteratively optimizing parameters on in-sample data and ...",
+    "host_name": "algoadvantage.substack.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=YM3c6C-iqDo&vl=en",
+    "name": "060: Strategy Optimization with Robert Pardo [AUDIO ONLY]",
+    "snippet": "Walk-forward optimization for trading strategies - Robert Pardo invented the method and explains exactly why in-sample optimization alone ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.oreilly.com/library/view/the-evaluation-and/9781118045053/pard_9781118045053_oeb_c11_r1.html",
+    "name": "The Evaluation and Optimization of Trading Strategies, 2nd Edition",
+    "snippet": "The Walk-Forward Analysis judges the performance of a trading system exclusively on the basis of postoptimization or out-of-sample trading. The performance of a ...",
+    "host_name": "www.oreilly.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.quantinsti.com/walk-forward-optimization-introduction",
+    "name": "Walk-Forward Optimization (WFO) - QuantInsti Blog",
+    "snippet": "Learn how Walk-Forward Optimization (WFO) works, its limitations, and how to implement it for backtesting trading strategies.",
+    "host_name": "blog.quantinsti.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

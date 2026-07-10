@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.linkedin.com/posts/rmp99_3-backtesting-pitfalls-that-ruin-your-trading-activity-7439369922931134464-7MHV",
+    "name": "3 Backtesting Pitfalls That Ruin Trading Strategies: Look-Ahead",
+    "snippet": "Here's why most traders still blow accounts after a \"successful\" backtest and what I learned the hard way 4 years ago. 1️⃣ You trade the strategy…",
+    "host_name": "www.linkedin.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portfoliooptimizationbook.com/book/8.2-seven-sins.html",
+    "name": "8.2 The Seven Sins of Quantitative Investing - Portfolio Optimization Book",
+    "snippet": "Look-ahead bias is the bias created by using information or data that were unknown or unavailable at the time when the backtesting was conducted. It is a very ...",
+    "host_name": "portfoliooptimizationbook.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mbrenndoerfer.com/writing/backtesting-trading-strategies-simulation-frameworks",
+    "name": "Backtesting & Simulation: Frameworks for Strategy Validation - Interactive",
+    "snippet": "Look-ahead bias occurs when a backtest uses information that would not have been available at the time a trading decision was made. This is the ...",
+    "host_name": "mbrenndoerfer.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hedgefundalpha.com/education/backtesting-mistakes-kill-quant-strategies-guide/?srsltid=AfmBOooPiwdvqpwRF8GO2mTP_t87nrH25oAxGne2shTOE0nqdllCAk2S",
+    "name": "A Practical Guide To The Backtesting Mistakes That Kill Quant Strategies",
+    "snippet": "A guide to backtesting mistakes like look-ahead bias, overfitting, and cost errors that can quietly kill quant strategies.",
+    "host_name": "hedgefundalpha.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://starqube.com/backtesting-investment-strategies",
+    "name": "The critical pitfalls of backtesting trading strategies: a complete guide",
+    "snippet": "Discover the 7 deadly sins of backtesting trading strategies and learn how to avoid overfitting, bias, and costly mistakes in live trading.",
+    "host_name": "starqube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fortraders.com/blog/how-to-avoid-bias-in-backtesting",
+    "name": "How To Avoid Bias in Backtesting | For Traders",
+    "snippet": "Overfitting: Avoid tailoring strategies too closely to historical data. · Survivorship Bias: Include both active and failed assets in datasets.",
+    "host_name": "www.fortraders.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=sjq3toGtr0U",
+    "name": "3 Backtesting Pitfalls That Ruin Your Trading Strategy - YouTube",
+    "snippet": ") Look-Ahead Bias 05:10 - 2.) Data Snooping, Overfitting, P-Hacking 09:28 - 3.) Survivorship Bias 12:45 - Accomplices to the Crime 13:47 ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@dheerajjames/the-past-the-pitfalls-and-the-path-forward-for-backtesting-strategies-9abba4540a04",
+    "name": "The Past, The Pitfalls, and The Path Forward for Backtesting Strategies",
+    "snippet": "The Strategies that are excessively tailored to past historical data “overfitting” often perform poorly in future or live market conditions.",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/quant/comments/1lpnouv/how_to_prevent_look_ahead_bias",
+    "name": "How to prevent look ahead bias? : r/quant - Reddit",
+    "snippet": "There's a number of ways your strategy can perform worse live than in backtesting. The typical traps are slippage and miscalculating trading costs.",
+    "host_name": "www.reddit.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/706732163/3-Big-Mistakes-of-Backtesting-Overfitting-Look-Ahead-Bias-pHacking",
+    "name": "Backtesting Mistakes: Overfitting & Bias | PDF | Statistics - Scribd",
+    "snippet": "The three biggest mistakes in backtesting are overfitting, look-ahead bias, and p-hacking. Overfitting occurs when a strategy is too closely adapted to ...",
+    "host_name": "www.scribd.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

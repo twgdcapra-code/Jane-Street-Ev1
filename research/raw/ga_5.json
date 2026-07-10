@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://deap.readthedocs.io/en/master/tutorials/basic/part2.html",
+    "name": "Operators and Algorithms — DEAP 1.4.3 documentation",
+    "snippet": "The simple evolutionary algorithm takes 5 arguments, a population, a toolbox, a probability of mating each individual at each generation (cxpb), a probability ...",
+    "host_name": "deap.readthedocs.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/deap/DEAP",
+    "name": "DEAP/deap: Distributed Evolutionary Algorithms in Python - GitHub",
+    "snippet": "DEAP is a novel evolutionary computation framework for rapid prototyping and testing of ideas. It seeks to make algorithms explicit and data structures ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://context7.com/deap/deap",
+    "name": "DEAP - Context7",
+    "snippet": "DEAP is a novel evolutionary computation framework for rapid prototyping and testing of ideas, making algorithms explicit and data structures transparent, ...",
+    "host_name": "context7.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/post/How_to_use_GA_based_on_python_deap_package",
+    "name": "How to use GA based on python \"deap\" package? - ResearchGate",
+    "snippet": "Step 1 - Generate the initial population at random. · Step 2 - Select the initial solution with the best fitness values. · Step 3 - Recombine ...",
+    "host_name": "www.researchgate.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.jmlr.org/papers/volume13/fortin12a/fortin12a.pdf",
+    "name": "[PDF] DEAP: Evolutionary Algorithms Made Easy",
+    "snippet": "DEAP's core is composed of two simple structures: a creator and a toolbox. The creator module is a meta-factory that allows the run-time creation of classes ...",
+    "host_name": "www.jmlr.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://deap.readthedocs.io/en/stable/api/algo.html",
+    "name": "Algorithms — DEAP 1.4.1 documentation",
+    "snippet": "The pseudocode goes as follow. for g in range(ngen): population = toolbox.generate() evaluate(population) toolbox.update(population). This function expects ...",
+    "host_name": "deap.readthedocs.io",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://kushalmukherjee.medium.com/a-brief-introduction-to-genetic-algorithm-and-its-use-in-feature-selection-using-deap-81c7e2a3d3b9",
+    "name": "A brief introduction to Genetic Algorithm and its use in feature",
+    "snippet": "In this post we are going to briefly introduce Genetic Algorithm and show its use in case of feature selection for binary classification problem using a python ...",
+    "host_name": "kushalmukherjee.medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/50623755/how-to-define-custom-genetic-algorithm-individuals-that-follow-certain-order-pat",
+    "name": "How to define custom Genetic Algorithm individuals that follow",
+    "snippet": "For example the code below creates individuals with 2 separate attributes. # Structure initializers toolbox.register(\"attr_r\", random.",
+    "host_name": "stackoverflow.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

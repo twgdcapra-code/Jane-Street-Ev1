@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://arxiv.org/html/2512.12924v1",
+    "name": "A Rigorous Walk-Forward Validation Framework for Market  - arXiv",
+    "snippet": "We develop a rigorous walk-forward validation framework for algorithmic trading designed to mitigate overfitting and lookahead bias. Our ... Missing: Jane Street AQR",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantt.co.uk/resources/quant-trading-complete-guide",
+    "name": "Quant Trading: The Complete Guide for 2026 | Quantt",
+    "snippet": "... Jane Street ... Professional firms use out-of-sample testing, walk-forward analysis, and cross-validation to guard against these problems.",
+    "host_name": "www.quantt.co.uk",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://clearedge.trading/post/walk-forward-optimization-futures-strategy-validation",
+    "name": "Walk-Forward Testing - ClearEdge Automation",
+    "snippet": "Walk-forward optimization is a strategy validation method that tests automated trading systems on unseen data by repeatedly re-optimizing parameters on a ... Missing: Jane Street AQR",
+    "host_name": "clearedge.trading",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@jpolec_72972/backtesting-integrating-walk-forward-optimisation-e4a2006ce98a",
+    "name": "Backtesting: Integrating Walk-Forward Optimisation | by Jakub Polec",
+    "snippet": "Walk-forward optimisation is a backtesting method that simulates the trading process more realistically. It prevents look-ahead bias by using ... Missing: Jane Street AQR validation",
+    "host_name": "medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351507",
+    "name": "An Explainable Walk-Forward and Bootstrap Backtesting Framework",
+    "snippet": "This paper presents a comprehensive end-to-end methodology for developing, validating, and comparing a machine-learning-driven trading strategy ... Missing: Jane Street",
+    "host_name": "papers.ssrn.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/amyfare_walk-forward-is-the-gold-standard-for-trading-activity-7448194649950814208-Pad_",
+    "name": "Walk-forward validation for trading strategy and capacity planning",
+    "snippet": "Walk-forward is the gold standard for trading strategy validation -- and it's excellent for validating forecasts in other domains too. Missing: Jane Street AQR",
+    "host_name": "www.linkedin.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.quantinsti.com/walk-forward-optimization-introduction",
+    "name": "Walk-Forward Optimization (WFO) - QuantInsti Blog",
+    "snippet": "Learn how Walk-Forward Optimization (WFO) works, its limitations, and how to implement it for backtesting trading strategies. Missing: Jane Street AQR",
+    "host_name": "blog.quantinsti.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/53455/backtesting-with-a-walkforward-approach",
+    "name": "Backtesting with a walkforward approach - Quantitative Finance",
+    "snippet": "I am setting up a backtesting using a walkforward optimization model to find out if a trading strategy performs well or not and I would like to ... Missing: Jane Street AQR",
+    "host_name": "quant.stackexchange.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.hillsdaleinv.com/uploads/The_Three_Types_of_Backtests.pdf",
+    "name": "[PDF] THE THREE TYPES OF BACKTESTS",
+    "snippet": "The main benefit of the walk-forward method is that the results and performance characteristics are easy to analyse, interpret, and compare ...",
+    "host_name": "www.hillsdaleinv.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantbeckman.com/p/with-code-walk-forward-cvcl-optimization",
+    "name": "[WITH CODE] Walk-Forward optimization - by Quant Beckman",
+    "snippet": "Walk-forward framework. WF is the methodological core of robust strategy validation for time-series data. It is a specific form that respects ... Missing: Jane Street AQR",
+    "host_name": "www.quantbeckman.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

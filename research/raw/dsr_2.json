@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://portfoliooptimizer.io/blog/the-probabilistic-sharpe-ratio-hypothesis-testing-and-minimum-track-record-length-for-the-difference-of-sharpe-ratios",
+    "name": "The Probabilistic Sharpe Ratio: Hypothesis Testing and Minimum",
+    "snippet": "The generalized Probabilistic Sharpe ratio P S R ^ \\widehat{PSR} PSR; The generalized Minimum Track Record Length M i n T R L ^ \\widehat{MinTRL} ...",
+    "host_name": "portfoliooptimizer.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5950754.pdf?abstractid=5950754&mirid=1",
+    "name": "[PDF] Sharpe Ratio Inference:",
+    "snippet": "the minimum track record length (MinTRL) is defined as the minimum sample size T such that we can reject H0 with confidence 1 … be stated as MinTRL = min",
+    "host_name": "papers.ssrn.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.davidhbailey.com/dhbpapers/sharpe-frontier.pdf",
+    "name": "[PDF] THE SHARPE RATIO EFFICIENT FRONTIER - David H Bailey",
+    "snippet": "The Probabilistic Sharpe ratio has taken into account multiple statistical features present in the track record, such as its length, frequency and deviations ...",
+    "host_name": "www.davidhbailey.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://boston.qwafafew.org/wp-content/uploads/sites/4/2017/01/Lopez_de_Prado_Sharpe.pdf",
+    "name": "[PDF] Deflating the Sharpe Ratio by asking for a Minimum Track Record",
+    "snippet": "How can we formulate that “compensation effect” between non-Normality and the track record's length? Page 20. Minimum Track Record Length (MinTRL). 20. • ...",
+    "host_name": "boston.qwafafew.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/308231636_The_Sharpe_ratio_efficient_frontier",
+    "name": "The Sharpe ratio efficient frontier | Request PDF - ResearchGate",
+    "snippet": "We evaluate the probability that an estimated Sharpe ratio exceeds a given threshold in presence of non-Normal returns.",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/941095458/How-to-Use-the-Sharpe-Ratio",
+    "name": "Proper Use of the Sharpe Ratio - Scribd",
+    "snippet": "The Minimum Track Record Length (MinTRL) contributes to achieving meaningful statistical inference for the Sharpe ratio by quantifying the length of the data ...",
+    "host_name": "www.scribd.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantconnect.com/research/17112/probabilistic-sharpe-ratio",
+    "name": "Probabilistic Sharpe Ratio - QuantConnect.com",
+    "snippet": "The PSR is a probability measure associated with the Sharpe ratio calculated from a sample of returns. It informs us of the probability that the estimated ...",
+    "host_name": "www.quantconnect.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/rubenbriones/Probabilistic-Sharpe-Ratio/blob/master/src/sharpe_ratio_stats.py",
+    "name": "Probabilistic-Sharpe-Ratio/src/sharpe_ratio_stats.py at master",
+    "snippet": "This formula generalizes for both normal and non-normal returns. Calculate the MIn Track Record Length (minTRL). This formula generalizes for both normal and  ...",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantdare.com/probabilistic-sharpe-ratio",
+    "name": "Probabilistic Sharpe Ratio - Quantdare",
+    "snippet": "In this post we are going to analyze the advantages of the Probabilistic Sharpe Ratio exposed by Marcos López de Prado in this paper.",
+    "host_name": "quantdare.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=yKPNjru2Ry4",
+    "name": "Probabilistic Sharpe ratio: Probability of skill (Excel) - YouTube",
+    "snippet": "How to test the significance of Sharpe ratio outperformance when returns are not normally distributed? The Probabilistic Sharpe Ratio (PSR) ...",
+    "host_name": "www.youtube.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

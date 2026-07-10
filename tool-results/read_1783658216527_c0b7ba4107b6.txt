@@ -1,0 +1,492 @@
+     1→total 696
+     2→drwxr-xr-x 2 z z 4096 Jul 10 04:36 .
+     3→drwxr-xr-x 4 z z 4096 Jul 10 02:16 ..
+     4→-rw-rw-r-- 1 z z 4594 Jul 10 04:36 aqr_1.json
+     5→-rwxr-xr-x 1 z z 4299 Jul  7 22:44 arima_garch.json
+     6→-rwxr-xr-x 1 z z 4499 Jul  7 22:45 bayesian.json
+     7→-rwxr-xr-x 1 z z 4534 Jul  7 22:45 copula.json
+     8→-rwxr-xr-x 1 z z 4351 Jul  7 22:45 cpcv.json
+     9→-rw-rw-r-- 1 z z 4419 Jul 10 04:34 cpcv_1.json
+    10→-rw-rw-r-- 1 z z 5425 Jul 10 04:34 cpcv_2.json
+    11→-rw-rw-r-- 1 z z 4319 Jul 10 04:35 decay_1.json
+    12→-rw-rw-r-- 1 z z 4492 Jul 10 04:35 decay_2.json
+    13→-rw-rw-r-- 1 z z 4531 Jul 10 04:34 dsr_1.json
+    14→-rw-rw-r-- 1 z z 4293 Jul 10 04:34 dsr_2.json
+    15→-rw-rw-r-- 1 z z 4398 Jul 10 04:34 dsr_3.json
+    16→-rwxr-xr-x 1 z z 4181 Jul  7 22:45 ems_fix.json
+    17→-rwxr-xr-x 1 z z 5230 Jul  7 22:44 features.json
+    18→-rw-rw-r-- 1 z z 4477 Jul 10 04:34 ga_1.json
+    19→-rw-rw-r-- 1 z z 4297 Jul 10 04:34 ga_2.json
+    20→-rw-rw-r-- 1 z z 4296 Jul 10 04:34 ga_3.json
+    21→-rw-rw-r-- 1 z z 4337 Jul 10 04:36 ga_4.json
+    22→-rwxr-xr-x 1 z z 4230 Jul  7 22:45 hawkes.json
+    23→-rwxr-xr-x 1 z z 4648 Jul  7 22:44 hmm.json
+    24→-rw-rw-r-- 1 z z 4399 Jul 10 04:35 impl_1.json
+    25→-rw-rw-r-- 1 z z 4445 Jul 10 04:35 impl_2.json
+    26→-rw-rw-r-- 1 z z 4604 Jul 10 04:35 impl_3.json
+    27→-rwxr-xr-x 1 z z 4333 Jul  7 22:44 kalman.json
+    28→-rw-rw-r-- 1 z z 4584 Jul 10 04:36 ldp_1.json
+    29→-rw-rw-r-- 1 z z 4275 Jul 10 04:36 ldp_2.json
+    30→-rw-rw-r-- 1 z z 4262 Jul 10 04:36 ldp_3.json
+    31→-rwxr-xr-x 1 z z 4316 Jul  7 22:44 lstm_transformer.json
+    32→-rwxr-xr-x 1 z z 4576 Jul  7 22:45 neon_charts.json
+    33→-rw-rw-r-- 1 z z 4146 Jul 10 04:34 opt_1.json
+    34→-rw-rw-r-- 1 z z 4382 Jul 10 04:35 opt_2.json
+    35→-rw-rw-r-- 1 z z 4154 Jul 10 04:36 opt_3.json
+    36→-rw-rw-r-- 1 z z 4167 Jul 10 04:36 pardo_1.json
+    37→-rw-rw-r-- 1 z z 4111 Jul 10 02:06 r10_flash_crash.json
+    38→-rw-rw-r-- 1 z z 4177 Jul 10 02:06 r11_swiss_franc.json
+    39→-rw-rw-r-- 1 z z 4585 Jul 10 02:06 r12_volmageddon.json
+    40→-rw-rw-r-- 1 z z 4604 Jul 10 02:06 r13_ring_buffer_mmap.json
+    41→-rw-rw-r-- 1 z z 4324 Jul 10 02:06 r14_aeron_disruptor.json
+    42→-rw-rw-r-- 1 z z 4496 Jul 10 02:06 r15_mifid2.json
+    43→-rw-rw-r-- 1 z z 4596 Jul 10 02:06 r16_cftc_rule.json
+    44→-rw-rw-r-- 1 z z 4115 Jul 10 02:07 r17_opensource_engines.json
+    45→-rw-rw-r-- 1 z z 4186 Jul 10 02:07 r18_optiver_drw.json
+    46→-rw-rw-r-- 1 z z 4529 Jul 10 02:07 r19_nfp_fomc.json
+    47→-rw-rw-r-- 1 z z 4190 Jul 10 02:06 r1_cme_replay.json
+    48→-rw-rw-r-- 1 z z 4439 Jul 10 02:07 r20_svb_collapse.json
+    49→-rw-rw-r-- 1 z z 4351 Jul 10 02:07 r21_lopez_de_prado.json
+    50→-rw-rw-r-- 1 z z 4396 Jul 10 02:07 r22_covid_crash.json
+    51→-rw-rw-r-- 1 z z 4209 Jul 10 02:07 r23_fix_sbe.json
+    52→-rw-rw-r-- 1 z z 4459 Jul 10 02:07 r24_vpin.json
+    53→-rw-rw-r-- 1 z z 4477 Jul 10 02:07 r25_kdb_tick.json
+    54→-rw-rw-r-- 1 z z 4580 Jul 10 02:07 r26_multi_symbol_sync.json
+    55→-rw-rw-r-- 1 z z 4196 Jul 10 02:07 r27_yuan_devaluation.json
+    56→-rw-rw-r-- 1 z z 4230 Jul 10 02:07 r28_dom_visualization.json
+    57→-rw-rw-r-- 1 z z 4196 Jul 10 02:08 r29_cme_mdp3.json
+    58→-rw-rw-r-- 1 z z 4359 Jul 10 02:06 r2_ninjatrader_sierra.json
+    59→-rw-rw-r-- 1 z z 4472 Jul 10 02:08 r30_data_vendors.json
+    60→-rw-rw-r-- 1 z z 4140 Jul 10 02:08 r31_rama_cont.json
+    61→-rw-rw-r-- 1 z z 4544 Jul 10 02:08 r32_replay_vs_backtest.json
+    62→-rw-rw-r-- 1 z z 4033 Jul 10 02:08 r33_bookmap.json
+    63→-rw-rw-r-- 1 z z 4489 Jul 10 02:08 r34_lob_simulation.json
+    64→-rw-rw-r-- 1 z z 4604 Jul 10 02:08 r35_janestreet_intern.json
+    65→-rw-rw-r-- 1 z z 4374 Jul 10 02:08 r36_tsdb_comparison.json
+    66→-rw-rw-r-- 1 z z 4465 Jul 10 02:08 r37_tt_platform.json
+    67→-rw-rw-r-- 1 z z 5003 Jul 10 02:08 r38_quant_event_driven.json
+    68→-rw-rw-r-- 1 z z 4544 Jul 10 02:08 r39_larry_harris.json
+    69→-rw-rw-r-- 1 z z 4321 Jul 10 02:06 r3_orderbook_itch.json
+    70→-rw-rw-r-- 1 z z 4688 Jul 10 02:08 r40_tradingview_replay.json
+    71→-rw-rw-r-- 1 z z 3884 Jul 10 02:06 r4_janestreet_jump.json
+    72→-rw-rw-r-- 1 z z 4033 Jul 10 02:06 r5_cme_datamine.json
+    73→-rw-rw-r-- 1 z z 4368 Jul 10 02:06 r6_itch_protocol.json
+    74→-rw-rw-r-- 1 z z 3929 Jul 10 02:06 r7_ice_eurex_vendors.json
+    75→-rw-rw-r-- 1 z z 4640 Jul 10 02:06 r8_survivorship.json
+    76→-rw-rw-r-- 1 z z 4496 Jul 10 02:06 r9_event_driven_slippage.json
+    77→-rwxr-xr-x 1 z z 4271 Jul  7 22:44 rl_trading.json
+    78→-rw-rw-r-- 1 z z 4450 Jul 10 04:35 robust_1.json
+    79→-rw-rw-r-- 1 z z 4532 Jul 10 04:35 robust_2.json
+    80→-rwxr-xr-x 1 z z 4247 Jul  7 22:45 sor.json
+    81→-rwxr-xr-x 1 z z 4366 Jul  7 22:45 stochastic.json
+    82→-rwxr-xr-x 1 z z 4274 Jul  7 22:45 tca.json
+    83→-rwxr-xr-x 1 z z 4655 Jul  7 22:45 tpo.json
+    84→-rwxr-xr-x 1 z z 4405 Jul  7 22:44 triple_barrier.json
+    85→-rw-rw-r-- 1 z z 4123 Jul 10 04:36 twosigma_1.json
+    86→-rwxr-xr-x 1 z z 4435 Jul  7 22:44 volume_profile.json
+    87→-rwxr-xr-x 1 z z 4105 Jul  7 22:45 webgl.json
+    88→-rw-rw-r-- 1 z z 4204 Jul 10 04:34 wfo_1.json
+    89→-rw-rw-r-- 1 z z 4551 Jul 10 04:34 wfo_2.json
+    90→-rw-rw-r-- 1 z z 4398 Jul 10 04:34 wfo_3.json
+    91→-rwxr-xr-x 1 z z 4294 Jul  7 22:45 wfo_genetic.json
+    92→---
+    93→=== aqr_1.json ===
+    94→TITLE: Fact, Fiction and Momentum Investing - AQR Capital Management
+    95→URL: https://www.aqr.com/Insights/Research/Journal-Article/Fact-Fiction-and-Momentum-Investing
+    96→SNIP: Momentum is the phenomenon that securities that have performed well relative to peers (winners) on average continue to outperform, ...
+    97→---
+    98→TITLE: Value and Momentum Everywhere: Factors, Monthly
+    99→URL: https://www.aqr.com/Insights/Datasets/Value-and-Momentum-Everywhere-Factors-Monthly
+   100→SNIP: Value and momentum returns correlate more strongly across asset classes than passive exposures to the asset classes, but value and momentum are ...
+   101→---
+   102→TITLE: [PDF] Factor Momentum Everywhere
+   103→URL: https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3329532_code759326.pdf?abstractid=3300728&mirid=1
+   104→SNIP: In this article, the authors document robust momentum behavior in a large collec- tion of 65 widely studied characteristic-based equity factors around the ...
+   105→---
+   106→TITLE: [PDF] Putting an Academic Factor into Practice: The Case of Momentum
+   107→URL: https://spinup-000d1a-wp-offload-media.s3.amazonaws.com/faculty/wp-content/uploads/sites/3/2021/08/Putting-and-Academic-Factor-Into-Practice.pdf
+   108→SNIP: In July 2009, AQR Capital launched a suite of mutual funds designed to capture the well-known momentum factor. Momentum, because of its high turnover, has often ...
+   109→---
+   110→TITLE: [PDF] The Case for Momentum Investing - AQR Capital Management
+   111→URL: https://www.aqr.com/-/media/AQR/Documents/Insights/White-Papers/The-Case-for-Momentum-Investing.pdf
+   112→SNIP: This paper introduces a family of investable momentum indices, and in so doing, opens this powerful strategy to a broad range of investors. ACKNOWLEDGEMENTS: We ...
+   113→---
+   114→TITLE: Factor Momentum Is Real, Researchers Argue | Institutional Investor
+   115→URL: https://www.institutionalinvestor.com/article/2bswk7762zwxielme1t6o/portfolio/factor-momentum-is-real-researchers-argue
+   116→SNIP: It may be possible to predict which factor investing strategies will outperform in the future, recent research from AQR Capital Management
+   117→---
+   118→=== arima_garch.json ===
+   119→TITLE: A hybrid approach to time series forecasting: Integrating ARIMA and
+   120→URL: https://www.sciencedirect.com/science/article/pii/S2590123025017748
+   121→SNIP: This hybrid model enhances forecast accuracy by leveraging ARIMA's ability to capture linear dependencies and short-term fluctuations.
+   122→---
+   123→TITLE: ARIMA Model - Complete Guide to Time Series Forecasting in Python
+   124→URL: https://machinelearningplus.com/time-series/arima-model-time-series-forecasting-python
+   125→SNIP: Using ARIMA model, you can forecast a time series using the series past values. In this post, we build an optimal ARIMA model from scratch and extend it to ...
+   126→---
+   127→TITLE: How to Create an ARIMA Model for Time Series Forecasting in Python
+   128→URL: https://www.machinelearningmastery.com/arima-for-time-series-forecasting-with-python
+   129→SNIP: The ARIMA (AutoRegressive Integrated Moving Average) model stands as a statistical powerhouse for analyzing and forecasting time series data.
+   130→---
+   131→TITLE: Forecasting volatility by using wavelet transform, ARIMA and
+   132→URL: https://link.springer.com/article/10.1007/s40822-023-00243-x
+   133→SNIP: This work explores econometric alternatives for time series forecasting, such as the ARIMA and GARCH models, which have been widely used in the financial ...
+   134→---
+   135→TITLE: How accurate is time series forecasting with ARIMA? - Kaggle
+   136→URL: https://www.kaggle.com/questions-and-answers/438359
+   137→SNIP: ARIMA can be accurate for time series forecasting when data is stationary and you choose the right model parameters. It's a valuable tool but may not work ...
+   138→---
+   139→TITLE: Time Series: ARIMA/GARCH for FX? - Robot Wealth
+   140→URL: https://robotwealth.com/fitting-time-series-models-to-the-forex-market-are-arimagarch-predictions-profitable
+   141→SNIP: Explore ARIMA and GARCH time series analysis to build effective and profitable FX trading strategies using model forecasts and predictions.
+   142→---
+   143→=== bayesian.json ===
+   144→TITLE: Prediction of Stock Prices Using Markov Chain Monte Carlo
+   145→URL: https://scholar.its.ac.id/en/publications/prediction-of-stock-prices-using-markov-chain-monte-carlo
+   146→SNIP: Apply Bayesian inference to create prediction model and Markov Chain Monte Carlo (MCMC) to generate predicted data. ... keywords = "Apache Spark, Bayesian ...
+   147→---
+   148→TITLE: Prediction of Stock Prices Using Markov Chain Monte Carlo
+   149→URL: https://www.researchgate.net/publication/347957337_Prediction_of_Stock_Prices_Using_Markov_Chain_Monte_Carlo
+   150→SNIP: This paper utilises Bayesian approach to extract latent common trends and cycles of non-stationary panel data. I develop a Markov Chain Monte Carlo (MCMC) ...
+   151→---
+   152→TITLE: Stock Market Analysis using MCMC Bayesian Inference - LinkedIn
+   153→URL: https://www.linkedin.com/posts/chaitanyasagar_stock-market-analysis-using-mcmc-bayesian-activity-7096715578811318273-UC8C
+   154→SNIP: Many people want to predict stock market prices. The authors of this paper have proposed a Markov Chain Monte Carlo (MCMC) Bayesian ...
+   155→---
+   156→TITLE: Markov Chain Monte Carlo for Bayesian Inference - QuantStart
+   157→URL: https://www.quantstart.com/articles/Markov-Chain-Monte-Carlo-for-Bayesian-Inference-The-Metropolis-Algorithm
+   158→SNIP: In this article we are going to discuss MCMC as a means of computing the posterior distribution when conjugate priors are not applicable.
+   159→---
+   160→TITLE: Markov Chain Monte Carlo Methods in Bayesian Inference - Nature
+   161→URL: https://www.nature.com/nature-index/topics/l4/markov-chain-monte-carlo-methods-in-bayesian-inference
+   162→SNIP: Bayesian inference relies on the computation of posterior distributions to update beliefs about model parameters in the light of observed data. Markov Chai.
+   163→---
+   164→TITLE: Markov Chain Monte Carlo
+   165→URL: https://www.publichealth.columbia.edu/research/population-health-methods/markov-chain-monte-carlo
+   166→SNIP: Markov Chain Monte Carlo (MCMC) simulations allow for parameter estimation such as means, variances, expected values, and exploration of the posterior ...
+   167→---
+   168→=== copula.json ===
+   169→TITLE: A Methodical Investigation into the Application of Copula Theory in
+   170→URL: https://eaj.ebujournals.lu/index.php/EAJ_II/article/view/86
+   171→SNIP: This method review explores the utilization of copula theory in modeling dependency among financial assets. It examines copula theory ...
+   172→---
+   173→TITLE: Copula Models for Multivariate Financial Data: Correlation and
+   174→URL: https://janelleturing.medium.com/copula-models-for-multivariate-financial-data-correlation-and-dependency-analysis-in-python-134972883a99
+   175→SNIP: Copula models provide a powerful framework for analyzing and quantifying the correlations and dependencies between multiple variables in financial data.
+   176→---
+   177→TITLE: Financial Correlation Modeling and Copula Methods - AnalystPrep
+   178→URL: https://analystprep.com/study-notes/frm/part-2/market-risk-measurement-and-management/financial-correlation-modeling-bottom-up-approaches
+   179→SNIP: Copula functions allow for modeling dependencies between assets by separating marginal distributions from their copula, providing a more ...
+   180→---
+   181→TITLE: A Methodical Investigation into the Application of Copula Theory in
+   182→URL: https://www.researchgate.net/publication/381112444_Unraveling_Financial_Interconnections_A_Methodical_Investigation_into_the_Application_of_Copula_Theory_in_Modeling_Asset_Dependence
+   183→SNIP: This method review explores the utilization of copula theory in modeling dependency among financial assets. It examines copula theory ...
+   184→---
+   185→TITLE: Copula methods: Modelling correlation between risks
+   186→URL: https://risk-engineering.org/copula-multivariate-dependencies
+   187→SNIP: Copula are functions that describe dependencies between variables, and are used in risk models with correlated inputs.
+   188→---
+   189→TITLE: Copulas provide a powerful framework for modeling  - Instagram
+   190→URL: https://www.instagram.com/reel/DYcmzo7piBi
+   191→SNIP: This allows you to capture nonlinear relationships, model tail dependence, better understand how assets behave during market stress, and build ...
+   192→---
+   193→=== cpcv.json ===
+   194→TITLE: [PDF] Backtest Overfitting in the Machine Learning Era
+   195→URL: https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4686376_code4361537.pdf?abstractid=4686376&mirid=1
+   196→SNIP: Combinatorial Purged Cross-Validation (CPCV) is intro- duced by Lopez de Prado [2018] as an innovative approach to address the limitations of single-path ...
+   197→---
+   198→TITLE: [WITH CODE] Combinatorial Purged Cross Validation for Optimization
+   199→URL: https://www.quantbeckman.com/p/with-code-combinatorial-purged-cross
+   200→SNIP: Marcos Lopez de Prado, in his seminal work proposed a solution that addresses the data leakage problem, which is especially pernicious when ...
+   201→---
+   202→TITLE: Combinatorial Purged Cross-Validation Insights | PDF
+   203→URL: https://www.scribd.com/document/725401650/SSRN-id4778909
+   204→SNIP: Further advancing the field, Lopez paucity of research dedicated to critically evaluating the back- de Prado's Combinatorial Purged Cross-Validation (CPCV).
+   205→---
+   206→TITLE: Open-sourced a cheat sheet on Lopez de Prado's backtesting  - Reddit
+   207→URL: https://www.reddit.com/r/quant/comments/1rlobeh/opensourced_a_cheat_sheet_on_lopez_de_prados
+   208→SNIP: Combinatorial Purged Cross-Validation (CPCV) instead of walk-forward. Deflated Sharpe Ratio and Probabilistic Sharpe Ratio for correcting ... Combinatorial Purged CV Question : r/quant What is "one path" in Cross Validation(CV)? : r/quant More results from www.reddit.com
+   209→---
+   210→TITLE: lopez-de-prado · GitHub Topics
+   211→URL: https://github.com/topics/lopez-de-prado
+   212→SNIP: Empirical asset-pricing research framework (Python) with formal overfitting control — Combinatorial Purged CV, Deflated Sharpe Ratio, Probability of ...
+   213→---
+   214→TITLE: Ivan Blanco's Post - LinkedIn
+   215→URL: https://www.linkedin.com/posts/ivanblancosanchez_new-research-backtest-overfitting-in-activity-7183469596148998144-KtKZ
+   216→SNIP: " In this book, Lopez de Prado explains how combinatorial purged cross-validation tackles the issue of backtest overfitting. We employ ...
+   217→---
+   218→=== cpcv_1.json ===
+   219→TITLE: What is Combinatorial Purged Cross-Validation for time series data?
+   220→URL: https://stats.stackexchange.com/questions/443159/what-is-combinatorial-purged-cross-validation-for-time-series-data
+   221→SNIP: I'm trying to understand the "Combinatorial Purged Cross-Validation" technique for time series data described in Marcos Lopez de Prado's "Advances in Financial ... Is the test set in Combinatorial Purged Cross-Validation in-sample or out ... Is CPCV similar to bootstrap? - Cross Validated - Stack Ex
+   222→---
+   223→TITLE: [PDF] Backtest Overfitting in the Machine Learning Era
+   224→URL: https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4686376_code4361537.pdf?abstractid=4686376&mirid=1
+   225→SNIP: Lopez de Prado's Combinatorial Purged Cross-Validation (CPCV) method offers a robust solution for backtesting trading strate- gies.
+   226→---
+   227→TITLE: [WITH CODE] Combinatorial Purged Cross Validation for Optimization
+   228→URL: https://www.quantbeckman.com/p/with-code-combinatorial-purged-cross
+   229→SNIP: Marcos Lopez de Prado, in his seminal work proposed a solution that addresses the data leakage problem, This involves two key concepts: purging ...
+   230→---
+   231→TITLE: Combinatorial Purged Cross-Validation Insights | PDF
+   232→URL: https://www.scribd.com/document/725401650/SSRN-id4778909
+   233→SNIP: This research explores integrating machine learning into financial analytics. It addresses the need for robust model evaluation and out-of-sample testing ...
+   234→---
+   235→TITLE: Fast Combinatorial Cross Validation - Data Science - Numerai Forum
+   236→URL: https://forum.numer.ai/t/fast-combinatorial-cross-validation/3350
+   237→SNIP: Combinatorial purged cross fold validation (CPCV) is a concept proposed by Marcos Lopez de Prado in the “Advances in financial machine learning ...
+   238→---
+   239→TITLE: Ivan Blanco's Post - LinkedIn
+   240→URL: https://www.linkedin.com/posts/ivanblancosanchez_new-research-backtest-overfitting-in-activity-7183469596148998144-KtKZ
+   241→SNIP: In this book, Lopez de Prado explains how combinatorial purged cross-validation tackles the issue of backtest overfitting.
+   242→---
+   243→=== cpcv_2.json ===
+   244→TITLE: [WITH CODE] Combinatorial Purged Cross Validation for Optimization
+   245→URL: https://www.quantbeckman.com/p/with-code-combinatorial-purged-cross
+   246→SNIP: CPCV generates a large number of random training and testing paths through the historical data, with each path strictly adhering to the purging ...
+   247→---
+   248→TITLE: What is Combinatorial Purged Cross-Validation for time series data?
+   249→URL: https://stats.stackexchange.com/questions/443159/what-is-combinatorial-purged-cross-validation-for-time-series-data
+   250→SNIP: CPCV trains 15 models (one per row) and reuses their predictions to build 5 paths, with no training beyond the folds themselves. So here you get ... Is the test set in Combinatorial Purged Cross-Validation in-sample or out ... Are Purging and Embargo better than TimeSeriesSplit? - Cross Validated Mo
+   251→---
+   252→TITLE: The Combinatorial Purged Cross-Validation method - Towards AI
+   253→URL: https://pub.towardsai.net/the-combinatorial-purged-cross-validation-method-363eb378a9c5
+   254→SNIP: This article discusses a robust backtesting method for time series data named the PurgedKFold cross-validation (CV) method.
+   255→---
+   256→TITLE: Combinatorial Purged Cross-Validation Explained
+   257→URL: https://www.youtube.com/watch?v=hDQssGntmFA
+   258→SNIP: ... Purged Cross-Validation Explained. @quantoisseur8494168 likes7.7K views6 years ago more. Subscribe. Comments. 11. Comment.
+   259→---
+   260→TITLE: Cross Validation in Finance: Purging, Embargoing, Combinatorial
+   261→URL: https://blog.quantinsti.com/cross-validation-embargo-purging-combinatorial
+   262→SNIP: In this blog, we understand the concept of embargoing and purging and its application in cross validation of financial data.
+   263→In this blog, we understand the concept of embargoing and purging and its application in cross validation of financial data. Embargoing · Purging · Backtesting through Cross..
+   264→---
+   265→TITLE: [D] Benefits of Purged CV in Time Series? : r/MachineLearning - Reddit
+   266→URL: https://www.reddit.com/r/MachineLearning/comments/1j392dd/d_benefits_of_purged_cv_in_time_series
+   267→SNIP: Purging and embargo aim to prevent information leakage between the train- and test-set, and they serve to handle difference effects: Combinatorial Purged CV Question : r/quant What is "one path" in Cross Validation(CV)? : r/quant More results from www.reddit.com
+   268→Purging and embargo aim to prevent in
+   269→---
+   270→=== decay_1.json ===
+   271→TITLE: How can do you adapt to the challenge of Alpha Decay? : r/quant
+   272→URL: https://www.reddit.com/r/quant/comments/17qmqle/how_can_do_you_adapt_to_the_challenge_of_alpha
+   273→SNIP: There isn't much you can do to mitigate alpha decay except to create alphas that aren't as susceptible to decay. Most of the time, decay arises ... Strategies That Are Resistant To Alpha Decay? : r/quant - Reddit Alpha decay : r/Daytrading - Reddit More results from www.reddit.com
+   274→---
+   275→TITLE: Alpha Decay: what does it look like? And what does it mean for
+   276→URL: https://www.mavensecurities.com/alpha-decay-what-does-it-look-like-and-what-does-it-mean-for-systematic-traders
+   277→SNIP: Alpha decay presents a serious challenge for systematic traders as it leads to poorly-informed trading decisions which can have a substantial financial cost.
+   278→---
+   279→TITLE: Alpha Decay - Quantitative Trading
+   280→URL: https://markrbest.github.io/alpha-decay
+   281→SNIP: Alpha decay charts. This can be used to work out the optimal exit timing for a trade and also a possible exit strategy depending on return skew.
+   282→---
+   283→TITLE: Alpha Decay Trading Strategy Explained - TikTok
+   284→URL: https://www.tiktok.com/@david_k_g/video/7622315017710472469
+   285→SNIP: The core idea revolves around the persistence and degradation of market inefficiencies that strategies aim to capture. By understanding and ...
+   286→---
+   287→TITLE: AI-Driven Alpha Decay: Algorithmic Homogenization, Reflexive
+   288→URL: https://arxiv.org/html/2605.23905v1
+   289→SNIP: We show that AI-driven investment strategies are inherently self-defeating at scale. As AI adoption rises, three mutually reinforcing ...
+   290→---
+   291→TITLE: How to compute the alpha decay of a strategy?
+   292→URL: https://quant.stackexchange.com/questions/2412/how-to-compute-the-alpha-decay-of-a-strategy
+   293→SNIP: Alpha decay is not just a drop in returns or Sharpe; it is usually a loss of effective information flow. In many cases the strategy keeps ...
+   294→---
+   295→=== decay_2.json ===
+   296→TITLE: Optimizing Life-Cycle Strategies for Savings Plans - DWS
+   297→URL: https://www.dws.com/insights/global-research-institute/optimizing-life-cycle-strategies-for-savings-plan
+   298→SNIP: Many practitioners, including asset managers and independent financial advisors (IFAs), also advocate for LC strategies in these solutions.
+   299→---
+   300→TITLE: (PDF) Optimal life-cycle investment strategy arising in target date funds
+   301→URL: https://www.researchgate.net/publication/390805626_Optimal_life-cycle_investment_strategy_arising_in_target_date_funds_a_general_analytical_framework
+   302→SNIP: In this paper, we propose a novel general framework to solve the optimal life-cycle investment strategy in pension funds, e.g., target date ...
+   303→---
+   304→TITLE: Life cycle performance of hedge fund managers - IDEAS/RePEc
+   305→URL: https://ideas.repec.org/a/eee/jimfin/v160y2026ics0261560625001822.html
+   306→SNIP: We document that hedge fund managers exhibit a hump-shaped relationship between their work experience and performance. This observed pattern reflects the ...
+   307→---
+   308→TITLE: [PDF] Life Cycle Performance of Hedge Fund Managers*
+   309→URL: https://www.efmaefm.org/0EFMAMEETINGS/EFMA%20ANNUAL%20MEETINGS/2023-UK/papers/EFMA%202023_stage-4455_question-Full%20Paper_id-366.pdf
+   310→SNIP: The fixed effects (FE) include year, city location, professional background, and investment strategy of the fund manager in the regression.
+   311→---
+   312→TITLE: Corporate Life Cycle Investing - The Hedge Fund Journal
+   313→URL: https://thehedgefundjournal.com/corporate-life-cycle-investing
+   314→SNIP: The event driven hedge fund strategy, also known as 'corporate life cycle investing', involves investing in opportunities created by significant transactional ...
+   315→---
+   316→TITLE: [PDF] Life-Cycle Investment Design - Netspar
+   317→URL: https://www.netspar.nl/assets/uploads/P20200122_NTA_MSc_Temme.pdf
+   318→SNIP: Within this framework, a life-cycle investment strategy is determined that best serves the expected utility maximiz- ing participant. In case ...
+   319→---
+   320→=== dsr_1.json ===
+   321→TITLE: Correcting for Selection Bias, Backtest Overfitting and Non-Normality
+   322→URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2460551
+   323→SNIP: The Deflated Sharpe Ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non-Normally distributed ... Missing: formula | Show results with: formula
+   324→---
+   325→TITLE: [PDF] THE DEFLATED SHARPE RATIO: CORRECTING FOR SELECTION
+   326→URL: https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf
+   327→SNIP: The Probabilistic Sharpe Ratio (PSR), developed in Bailey and López de Prado [2012a], computes the probability that the true SR is above a ...
+   328→---
+   329→TITLE: Deflating the Sharpe Ratio by Marcos Lopez de Prado
+   330→URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2465675
+   331→SNIP: The Deflated Sharpe Ratio (DSR) corrects for two leading sources of performance inflation: * Non-Normally distributed returns. Missing: formula 2460551
+   332→---
+   333→TITLE: [PDF] Deflating the Sharpe Ratio by asking for a Minimum Track Record Length
+   334→URL: http://boston.qwafafew.org/wp-content/uploads/sites/4/2017/01/Lopez_de_Prado_Sharpe.pdf
+   335→SNIP: • Bailey and López de Prado (2012) computed the answer: 𝑀𝑖𝑛𝑇𝑅𝐿 = 1 + 1 ... López de Prado (2012): “The Sharpe Ratio Efficient Frontier”. Journal ... Missing: 2460551 | Show results with: 2460551
+   336→---
+   337→TITLE: The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest
+   338→URL: https://books.google.com/books/about/The_Deflated_Sharpe_Ratio.html?id=clP9zgEACAAJ
+   339→SNIP: Title, The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting and Non-Normality ; Author, David H. Bailey ; Contributor, Marcos Lopez de ... Missing: formula 2460551
+   340→---
+   341→TITLE: Deflated Sharpe ratio - Wikipedia
+   342→URL: https://en.wikipedia.org/wiki/Deflated_Sharpe_ratio
+   343→SNIP: The Deflated Sharpe ratio (DSR) is a statistical method used to determine whether the Sharpe ratio of an investment strategy is statistically significant. Missing: 2460551 | Show results with: 2460551
+   344→---
+   345→=== dsr_2.json ===
+   346→TITLE: The Probabilistic Sharpe Ratio: Hypothesis Testing and Minimum
+   347→URL: https://portfoliooptimizer.io/blog/the-probabilistic-sharpe-ratio-hypothesis-testing-and-minimum-track-record-length-for-the-difference-of-sharpe-ratios
+   348→SNIP: The generalized Probabilistic Sharpe ratio P S R ^ \widehat{PSR} PSR; The generalized Minimum Track Record Length M i n T R L ^ \widehat{MinTRL} ...
+   349→---
+   350→TITLE: [PDF] Sharpe Ratio Inference:
+   351→URL: https://papers.ssrn.com/sol3/Delivery.cfm/5950754.pdf?abstractid=5950754&mirid=1
+   352→SNIP: the minimum track record length (MinTRL) is defined as the minimum sample size T such that we can reject H0 with confidence 1 … be stated as MinTRL = min
+   353→---
+   354→TITLE: [PDF] THE SHARPE RATIO EFFICIENT FRONTIER - David H Bailey
+   355→URL: https://www.davidhbailey.com/dhbpapers/sharpe-frontier.pdf
+   356→SNIP: The Probabilistic Sharpe ratio has taken into account multiple statistical features present in the track record, such as its length, frequency and deviations ...
+   357→---
+   358→TITLE: [PDF] Deflating the Sharpe Ratio by asking for a Minimum Track Record
+   359→URL: http://boston.qwafafew.org/wp-content/uploads/sites/4/2017/01/Lopez_de_Prado_Sharpe.pdf
+   360→SNIP: How can we formulate that “compensation effect” between non-Normality and the track record's length? Page 20. Minimum Track Record Length (MinTRL). 20. • ...
+   361→---
+   362→TITLE: The Sharpe ratio efficient frontier | Request PDF - ResearchGate
+   363→URL: https://www.researchgate.net/publication/308231636_The_Sharpe_ratio_efficient_frontier
+   364→SNIP: We evaluate the probability that an estimated Sharpe ratio exceeds a given threshold in presence of non-Normal returns.
+   365→---
+   366→TITLE: Proper Use of the Sharpe Ratio - Scribd
+   367→URL: https://www.scribd.com/document/941095458/How-to-Use-the-Sharpe-Ratio
+   368→SNIP: The Minimum Track Record Length (MinTRL) contributes to achieving meaningful statistical inference for the Sharpe ratio by quantifying the length of the data ...
+   369→---
+   370→=== dsr_3.json ===
+   371→TITLE: [PDF] THE DEFLATED SHARPE RATIO: CORRECTING FOR SELECTION
+   372→URL: https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf
+   373→SNIP: We have explained how multiple testing leads to an increased probability of false positives, and hiding negative outcomes of multiple ...
+   374→---
+   375→TITLE: [PDF] CORRECTING FOR SELECTION BIAS, BACKTEST OVERFITTING
+   376→URL: https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2460551_code87814.pdf?abstractid=2460551
+   377→SNIP: The Deflated Sharpe Ratio (DSR) corrects for two leading sources of performance inflation: ... Sharpe ratio for the effects of multiple testing,.
+   378→---
+   379→TITLE: [PDF] DEFLATING THE SHARPE RATIO - Semantic Scholar
+   380→URL: https://pdfs.semanticscholar.org/c215/d0a2064ce1a3565d276475abc84305418f0f.pdf
+   381→SNIP: Sharpe ratio estimates tend to be overly optimistic, and they should be jointly corrected for its two sources of inflation: – Non-Normal returns. – Multiple ...
+   382→---
+   383→TITLE: Correcting for Selection Bias, Backtest Overfitting, and Non-Normality
+   384→URL: https://www.researchgate.net/publication/286121118_The_Deflated_Sharpe_Ratio_Correcting_for_Selection_Bias_Backtest_Overfitting_and_Non-Normality
+   385→SNIP: The deflated Sharpe ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non-normally distributed ...
+   386→---
+   387→TITLE: Deflated Sharpe Ratio (how to avoid been fooled by randomness)
+   388→URL: https://quantdare.com/deflated-sharpe-ratio-how-to-avoid-been-fooled-by-randomness
+   389→SNIP: The Deflated Sharpe Ratio can be used to determine the probability that a discovered strategy is a false positive. The key is to record all ...
+   390→---
+   391→TITLE: The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest
+   392→URL: https://books.google.com/books/about/The_Deflated_Sharpe_Ratio.html?id=clP9zgEACAAJ
+   393→SNIP: The Deflated Sharpe Ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non-Normally distributed ...
+   394→---
+   395→=== ems_fix.json ===
+   396→TITLE: What Is FIX Protocol? - TraderEvolution
+   397→URL: https://traderevolution.com/learn/what-is-fix-protocol
+   398→SNIP: LP connectivity: Brokers use FIX to connect to liquidity providers. The order routing engine sends FIX messages to LPs and receives execution reports back.
+   399→---
+   400→TITLE: What is FIX Protocol in Trading Systems | Rishi Jha posted on the topic
+   401→URL: https://www.linkedin.com/posts/rishi-jha-168719172_what-is-fix-protocol-the-messaging-language-activity-7466597858000113664-ti4g
+   402→SNIP: FIX (Financial Information eXchange) is a standardized messaging protocol used in capital markets for: order placement trade execution market ...
+   403→---
+   404→TITLE: FIX Adapter for easy trading by FIXSOL
+   405→URL: https://www.fixsol.com/fix-adapter-for-trading-connectivity
+   406→SNIP: FIXSOL's FIX adapter simplifies complex order flows, enhances liquidity access and supports secure global trading infrastructure. Designed on FIX protocol ...
+   407→---
+   408→TITLE: FIX vs proprietary binary protocols: pros & cons for modern trading
+   409→URL: https://www.onixs.biz/insights/fix-vs-proprietary-binary-protocols-pros-cons-for-modern-trading
+   410→SNIP: FIX reduces protocol fragmentation. Brokers and institutional routing platforms frequently prioritise FIX Connectivity for ecosystem ...
+   411→---
+   412→TITLE: What is FIX Protocol – The Journey to Frictionless Electronic Trading
+   413→URL: https://rapidaddition.com/what-is-fix-protocol
+   414→SNIP: FIX Protocol is used to exchange real-time trading information between brokers, banks, investment managers, hedge funds, exchanges, and other market ...
+   415→---
+   416→TITLE: [PDF] Setting the Scene Electronic Trading and the FIX Protocol
+   417→URL: https://plus-concepts.com/f2f2009/shanghai/PPT/0925%20-%20Grace%20Lin.pdf
+   418→SNIP: Dark Pools and Smart Order Routing. FIX is a standard way of communicating trading information electronically between brokers. For “plain” order routing, FIX ...
+   419→---
+   420→=== features.json ===
+   421→TITLE: [PDF] Investigating Limit Order Book Characteristics for Short Term Price
+   422→URL: https://smallake.kr/wp-content/uploads/2019/10/SSRN-id3305277.pdf
+   423→SNIP: In this paper, we employ a machine learning approach to investigate Limit Order Book features and their potential to predict short term price movements.
+   424→With the proliferation of algorithmic high-frequency trading in financial markets, the Limit Order Book has generated increased research interest.
+   425→---
+   426→TITLE: Quant Trading with Python: A Guide to Limit Order Book Analysis EP
+   427→URL: https://medium.com/@writeronepagecode/quant-trading-with-python-a-guide-to-limit-order-book-analysis-ep-2-365-8db2e017a623
+   428→SNIP: This guide provides a comprehensive walkthrough of a professional-grade quant trading workflow. We begin by implementing a custom order book ...
+   429→---
+   430→TITLE: Feature engineering for mid-price prediction - quickly changing
+   431→URL: https://quant.stackexchange.com/questions/57770/feature-engineering-for-mid-price-prediction-quickly-changing-features
+   432→SNIP: Yes, imbalances and other metrics change quickly; that is why HFTs need to be quick. Your modeling cannot ignore that without suffering. I would ...
+   433→Yes, imbalances and other metrics change quickly; that is why HFTs need to be quick. Your modeling cannot ignore that without suffering. I would ... Li
+   434→---
+   435→TITLE: [PDF] Machine Learning for Market Microstructure and High Frequency
+   436→URL: https://www.cis.upenn.edu/~mkearns/papers/KearnsNevmyvakaHFTRiskBooks.pdf
+   437→SNIP: In this chapter, we overview the uses of machine learning for high frequency trading and market microstructure data and problems.
+   438→---
+   439→TITLE: Order Book Features for Trading Insights | PDF - Scribd
+   440→URL: https://www.scribd.com/document/945310331/Order-Book-Features-Extracted-by-Quantitative-Strategies
+   441→SNIP: These features help algorithms identify supply/demand imbalances and improve trading decisions, with machine learning techniques enhancing predictive accuracy.
+   442→---
+   443→TITLE: Deep Limit Order Book Forecasting A microstructural guide - arXiv
+   444→URL: https://arxiv.org/html/2403.09267v1
+   445→SNIP: We exploit cutting-edge deep learning methodologies to explore the predictability of high-frequency Limit Order Book mid-price changes for a heterogeneous set ...
+   446→---
+   447→=== ga_1.json ===
+   448→TITLE: Optimizing trading strategies using genetic algorithms: A review and
+   449→URL: https://www.researchgate.net/publication/396395655_Optimizing_trading_strategies_using_genetic_algorithms_A_review_and_implementation
+   450→SNIP: This article explores the application of genetic algorithms (GAs) to optimize trading systems, based on both a literature review and an ...
+   451→---
+   452→TITLE: A GGA-based Algorithm for Group Trading Strat - ACM Digital Library
+   453→URL: https://dl.acm.org/doi/pdf/10.1145/3092090.3092135
+   454→SNIP: Three parts, grouping, weight and trading strategy parts, are utilized to encode a GTSP into a chromosome. The fitness function which is ...
+   455→---
+   456→TITLE: Genetic Algorithms for Optimizing Trading Strategies – Blog
+   457→URL: https://bluechipalgos.com/blog/genetic-algorithms-for-optimizing-trading-strategies
+   458→SNIP: For example, in trading strategies, chromosomes could encode stop-loss levels, moving average periods and other rules. Fitness Function: This ...
+   459→---
+   460→TITLE: Genetic Algorithms for Trading in Python | IBKR Quant
+   461→URL: https://www.interactivebrokers.com/campus/ibkr-quant-news/genetic-algorithms-for-trading-in-python
+   462→SNIP: Step 1: Define the Trading Strategy · Step 2: Define the Fitness Function · Step 3: Initialize the Population · Step 4: Evaluate the Population
+   463→---
+   464→TITLE: Adopting genetic algorithms for technical analysis and portfolio
+   465→URL: https://www.sciencedirect.com/science/article/pii/S0898122113004938
+   466→SNIP: There are three main mechanisms in the Genetic Algorithms (GA). They are chromosome encoding, fitness evaluation and genetic operators. As based on the ...
+   467→---
+   468→TITLE: Genetic Algorithm for Trading Strategy Optimization in Python
+   469→URL: https://pub.towardsai.net/genetic-algorithm-for-trading-strategy-optimization-in-python-614eb660990d
+   470→SNIP: Fitness Function: A function for calculating how successful (fitness score) an individual is. Depending on the underlying problem statement ...
+   471→---
+   472→=== ga_2.json ===
+   473→TITLE: Man AHL - Man Group
+   474→URL: https://www.man.com/ahl
+   475→SNIP: Man AHL is a team of researchers, developers and traders of systematic investment strategies. We apply scientific rigour and robust technology to diverse ...
+   476→---
+   477→TITLE: (PDF) A genetic algorithm for the optimization of multi-threshold
+   478→URL: https://www.researchgate.net/publication/397503053_A_genetic_algorithm_for_the_optimization_of_multi-threshold_trading_strategies_in_the_directional_changes_paradigm
+   479→SNIP: This paper proposes a novel genetic algorithm to optimize recommendations from multiple trading strategies derived from the Directional ...
+   480→---
+   481→TITLE: Adaptive Multi-Asset Trading Strategy Optimization via Genetic Algorithms
+   482→URL: https://journals.adbascientific.com/iteb/article/view/126
+   483→SNIP: This study presents a comprehensive Genetic Algorithm (GA) framework designed to develop and optimize an adaptive trading strategy for multi- ...
+   484→---
+   485→TITLE: Man AHL Marks 30 Years - The Hedge Fund Journal
+   486→URL: https://thehedgefundjournal.com/man-ahl-marks-30-years
+   487→SNIP: Today, Man AHL uses proprietary algorithms and momentum models to trade around 600 markets in futures, foreign exchange, OTC markets and cash equity markets. In ...
+   488→---
+   489→TITLE: [PDF] Optimizing trading strategies using genetic algorithms - Learning Gate
+   490→URL: https://learning-gate.com/index.php/2576-8484/article/download/10407/3383/14790
+   491→SNIP: Abstract: This article explores the application of genetic algorithms (GAs) to optimize trading systems, based on both a literature review ...
+   492→---

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0927539810000022",
+    "name": "Testing the predictive ability of technical analysis using a new",
+    "snippet": "White (2000) proposes a large-scale joint testing method for data snooping, also known as Reality Check (RC), which takes into account the dependence of ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/256066609_Re-Examining_the_Profitability_of_Technical_Analysis_with_White's_Reality_Check_and_Hansen's_SPA_Test",
+    "name": "Re-Examining the Profitability of Technical Analysis with White's",
+    "snippet": "As a result, Hansen's \"superior predictive ability\" data-snooping test discards the irrelevant or poor performance models, re-centering the null ...",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=2535&context=gradreports",
+    "name": "[PDF] Testing Investment Strategies for Superior Predictive Ability",
+    "snippet": "Data-snooping is a pervasive problem in both the finance industry and academia. Of classical statistical models used to correct for it, White's Reality Check ...",
+    "host_name": "digitalcommons.usu.edu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID1618184_code1196373.pdf?abstractid=1343896&mirid=1",
+    "name": "[PDF] Data Snooping and Market-Timing Rule Performance",
+    "snippet": "Hansen (2005) proposed the so-called test for superior predictive ability (SPA), which also allows for data-snooping correction and, under certain conditions, ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/a/eee/empfin/v17y2010i3p471-484.html",
+    "name": "Testing the predictive ability of technical analysis using a",
+    "snippet": "In this paper we extend the \"superior predictive ability\" (SPA) test of Hansen (2005, JBES) to a stepwise SPA test that can identify predictive models without ...",
+    "host_name": "ideas.repec.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://homepage.ntu.edu.tw/~ckuan/pdf/Step-SPA-20090720.pdf",
+    "name": "[PDF] Testing the Predictive Ability of Technical Analysis Using A New",
+    "snippet": "White (2000) proposes a large-scale joint testing method for data snooping, also known as Reality. Check (RC), which takes into account the ...",
+    "host_name": "homepage.ntu.edu.tw",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://users.ssc.wisc.edu/~behansen/718/White2000.pdf",
+    "name": "[PDF] A REALITY CHECK FOR DATA SNOOPING WHENEVER A ''GOOD",
+    "snippet": "Data snooping occurs when a given set of data is used more than once for purposes of inference or model selection. When such data reuse occurs, ...",
+    "host_name": "users.ssc.wisc.edu",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/4896389_A_Reality_Check_for_Data_Snooping",
+    "name": "A Reality Check for Data Snooping - ResearchGate",
+    "snippet": "White (2000) develops a reality-check framework for evaluating whether a selected strategy truly outperforms a benchmark after accounting for data snooping.",
+    "host_name": "www.researchgate.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://academic.oup.com/jfec/article-pdf/3/4/606/2692618/nbi026.pdf",
+    "name": "Reexamining the Profitability of Technical Analysis with Data",
+    "snippet": "In this article we reexamine the profitability of technical analysis using White's reality check and Hansen's SPA test that correct the data snooping bias.",
+    "host_name": "academic.oup.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/982964121/A-Test-for-Superior-Predictive-Ability",
+    "name": "New Test for Superior Predictive Ability | PDF | P Value - Scribd",
+    "snippet": "This paper introduces a new test for superior predictive ability (SPA) that improves upon the reality check for data snooping by being more powerful and ...",
+    "host_name": "www.scribd.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

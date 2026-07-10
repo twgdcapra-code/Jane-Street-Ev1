@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.quantresearch.org/Lectures.htm",
+    "name": "Marcos Lopez de Prado",
+    "snippet": "Advances in Financial Machine Learning: Lecture 2/10 ... The rate of failure in quantitative finance is high, and particularly so in financial machine learning.\nBacktesting II. Lopez de Prado, Marcos, 2018, Advances in Financial Machine Learning: Lecture 7/10. Machine Learning Portfolio Construction.",
+    "host_name": "www.quantresearch.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4686376_code4361537.pdf?abstractid=4686376&mirid=1",
+    "name": "[PDF] Backtest Overfitting in the Machine Learning Era",
+    "snippet": "Further advancing the field, Lopez de Prado's Combinatorial Purged Cross-Validation (CPCV) method offers a robust solution for backtesting trading strate- gies.",
+    "host_name": "papers.ssrn.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.garp.org/hubfs/Whitepapers/a1Z1W0000054x6lUAA.pdf",
+    "name": "[PDF] THE 10 REASONS MOST MACHINE LEARNING FUNDS FAIL - GARP",
+    "snippet": "López de Prado (2014): “The deflated Sharpe ratio: Correcting for selection bias, backtest overfitting and non-normality.” Journal of Portfolio ...",
+    "host_name": "www.garp.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://abouttrading.substack.com/p/my-key-takeways-from-maros-lopez",
+    "name": "My Key Takeways From Marcos Lopez De Prado's Advances in",
+    "snippet": "A model that looks amazing in backtests can easily fail in live trading. López de Prado's central message is that most financial ML failures ...",
+    "host_name": "abouttrading.substack.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/318600389_The_probability_of_backtest_overfitting",
+    "name": "The probability of backtest overfitting | Request PDF - ResearchGate",
+    "snippet": "(2017) show that back-test overfitting is pervasive in financial applications, and De Prado (2018) emphasize the importance of robust validation and deployment ...",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.oreilly.com/library/view/advances-in-financial/9781119482086/c11.xhtml",
+    "name": "Chapter 11 The Dangers of Backtesting - Advances in Financial",
+    "snippet": "Most backtests published in journals are flawed, as the result of selection bias on multiple tests (Bailey, Borwein, López de Prado, and Zhu [2014]; Harvey et ...",
+    "host_name": "www.oreilly.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://reasonabledeviations.com/notes/adv_fin_ml",
+    "name": "Advances in Financial Machine Learning - Reasonable Deviations",
+    "snippet": "Advances in Financial Machine Learning – Marcos Lopez de Prado. These notes ... Generating synthetic data strongly reduces the problem of backtest overfitting.\nbacktesting – results shared directly with management to avoid overfitting; deployment – specialists in optimised code and HPC. portfolio oversight. All ...",
+    "host_name": "reasonabledeviations.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/Neyt/How-To-Backtest-Correctly",
+    "name": "GitHub - Neyt/How-To-Backtest-Correctly: Advanced Financial",
+    "snippet": "Stop Losing Money to Overfitted Backtests. The open-source implementation of Marcos Lopez de Prado's Advances in Financial Machine Learning methodologies.",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/q2payx/can_anyone_clarify_some_definitions_of",
+    "name": "Can anyone clarify some definitions of overfitting by Marcos Lopez",
+    "snippet": "Marcos Lopez de Prado has resesrched a lot into overfitting problems with backtesting strategies. And he states basically that the more trials you conduct, the ...",
+    "host_name": "www.reddit.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=QxhxLwNbMMg",
+    "name": "Dangers of Backtest Overfitting - Marcos Lopez de Prado - YouTube",
+    "snippet": "\"Advances in Financial Machine Learning\" Live Interview with Marcos López de Prado ... Machine Learning Funds Fail Marcos Lopez de Prado ...",
+    "host_name": "www.youtube.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

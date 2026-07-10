@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S1687850724003704",
+    "name": "Monitoring partially observed average kiloelectron-volt emissions",
+    "snippet": "We propose a Modified Distance Weighted Exponentially Weighted Moving Average (MDE) control chart for monitoring kiloelectron-volt E(keV) data.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eatonvance.com/content/dam/im/assets/publication/thought-leadership/article/article_whengoodmanagersstumble_en.pdf?1776556800215",
+    "name": "[PDF] When Good Managers Stumble: How to Know When to Let Go (or Not)",
+    "snippet": "At its core, CUSUM is designed to detect alpha decay. Therefore, accurate measurement of alpha is essential for the model's effectiveness. In the original ... Missing: life break",
+    "host_name": "www.eatonvance.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0308822",
+    "name": "Investigating the average kiloelectron-volt emission of partially",
+    "snippet": "We propose a DWM based exponentially weighted moving average-cumulative sum (DWM-EC) control chart for monitoring kiloelectron-volt E(keV) data.",
+    "host_name": "journals.plos.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://es.tradingview.com/scripts/channelbreak",
+    "name": "Channelbreak — Indicadores y estrategias - TradingView",
+    "snippet": "It's exponentially weighted (half-life decay), so recent acceptance matters more, but older acceptance still contributes. If price has been “living” around ...",
+    "host_name": "es.tradingview.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2406.08030v1",
+    "name": "Fault detection in propulsion motors in the presence of concept drift",
+    "snippet": "In this article, we present an approach for detecting overheating in stator windings of marine propulsion motors that is able to successfully ... Missing: chart | Show results with: chart",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://kniyer.substack.com/p/can-a-strategy-evolve-the-math-of",
+    "name": "Can a Strategy Evolve? The Math of Adaptation vs. Overfitting",
+    "snippet": "In Part 1, we discussed how almost all strategies decay — momentum signals with a half-life of 18-24 months, VIX signals with 12-18 months, ...",
+    "host_name": "kniyer.substack.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11537400",
+    "name": "Investigating the average kiloelectron-volt emission of partially",
+    "snippet": "We propose a DWM based exponentially weighted moving average-cumulative sum (DWM-EC) control chart for monitoring kiloelectron-volt E(keV) data.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/385557921_Investigating_the_average_kiloelectron-volt_emission_of_partially_observed_events_in_nuclear_physics_through_distance_weighted_mean_based_censored_control_chart",
+    "name": "Investigating the average kiloelectron-volt emission of partially",
+    "snippet": "We propose a DWM based exponentially weighted moving average-cumulative sum (DWM-EC) control chart for monitoring kiloelectron-volt E(keV) data. The proposed ...",
+    "host_name": "www.researchgate.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

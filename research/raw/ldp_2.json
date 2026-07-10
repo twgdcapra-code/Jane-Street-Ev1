@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.quantbeckman.com/api/v1/file/b9d11388-8c7c-40ca-a072-b8eed41505ae.pdf",
+    "name": "[PDF] THE PROBABILITY OF BACKTEST OVERFITTING - Quant Beckman",
+    "snippet": "We show that CSCV produces reasonable estimates of PBO for several useful examples. Keywords. Backtest, historical simulation, probability of ...",
+    "host_name": "www.quantbeckman.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scispace.com/papers/the-probability-of-backtest-overfitting-4ublh83xkm",
+    "name": "(PDF) The Probability of Backtest Overfitting (2015) | David H. Bailey",
+    "snippet": "TL;DR: It is shown that CSCV produces accurate estimates of the probability that a particular backtest is over-fit, through a numerical method that is called ...",
+    "host_name": "scispace.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://usekeel.io/learn/probability-backtest-overfitting",
+    "name": "Probability of Backtest Overfitting (PBO) - Keel",
+    "snippet": "PBO uses combinatorially-symmetric cross-validation to estimate the probability your best in-sample strategy underperforms out-of-sample.",
+    "host_name": "usekeel.io",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/balaena-quant-insights/the-probability-of-backtest-overfitting-pbo-9ba0ac7fb456",
+    "name": "The Probability of Backtest Overfitting (PBO) | by Liana Ling - Medium",
+    "snippet": "PBO is calculated using the Combinatorially Symmetric Cross-Validation (CSCV) process, as detailed below. 3.2 How to Calculate PBO With CSCV.",
+    "host_name": "medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4686376_code4361537.pdf?abstractid=4686376&mirid=1",
+    "name": "[PDF] Backtest Overfitting in the Machine Learning Era",
+    "snippet": "PBO is gauged through Combinatorially Symmetric Cross-. Validation (CSCV), a technique that rigorously tests strat- egy performance across diverse market ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cran.r-project.org/web/packages/pbo/readme/README.html",
+    "name": "Probability of Backtest Overfitting - README",
+    "snippet": "In particular we use combinatorially symmetric cross validation (CSCV) to implement strategy performance tests evaluated by the Omega ratio. We compute the ...",
+    "host_name": "cran.r-project.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emergentmind.com/topics/cscv-pbo-diagnostic",
+    "name": "CSCV/PBO Diagnostic for Overfitting Risk - Emergent Mind",
+    "snippet": "A high CSCV/PBO score indicates substantial residual overfitting, prompting the adoption of stricter bias controls such as walk-forward ...",
+    "host_name": "www.emergentmind.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://microalphas.com/glossary/probability-of-backtest-overfitting",
+    "name": "Probability of Backtest Overfitting (PBO) — Quant Signal Glossary",
+    "snippet": "The estimated probability that the best in-sample strategy will underperform the median out-of-sample, using combinatorial cross-validation.",
+    "host_name": "microalphas.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/318600389_The_probability_of_backtest_overfitting",
+    "name": "The probability of backtest overfitting | Request PDF - ResearchGate",
+    "snippet": "Under combinatorially symmetric cross-validation (CSCV), they show that this probability-the probability of backtest overfitting, or PBO-approaches 1 as N ...",
+    "host_name": "www.researchgate.net",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.algolift.ai/guide/robustness/probability-of-backtest-overfitting",
+    "name": "Probability of Backtest Overfitting (PBO) | AlgoLift Guide",
+    "snippet": "TL;DR. PBO is the probability that the configuration you picked as best in-sample will underperform the median out-of-sample.",
+    "host_name": "www.algolift.ai",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

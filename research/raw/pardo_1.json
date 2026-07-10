@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Walk_forward_optimization",
+    "name": "Walk forward optimization - Wikipedia",
+    "snippet": "The basics behind the data used · Conclusion",
+    "host_name": "en.wikipedia.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.oreilly.com/library/view/the-evaluation-and/9781118045053/pard_9781118045053_oeb_c11_r1.html",
+    "name": "The Evaluation and Optimization of Trading Strategies, 2nd Edition",
+    "snippet": "The Walk-Forward Analysis judges the performance of a trading system exclusively on the basis of postoptimization or out-of-sample trading. The performance of a ...",
+    "host_name": "www.oreilly.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://algoadvantage.substack.com/p/035-bob-pardo-ii-building-trading",
+    "name": "035 - Bob Pardo II - Building Trading Strategies that Work with Walk",
+    "snippet": "Walk-forward analysis (WFA) is a systematic method to validate trading strategies by iteratively optimizing parameters on in-sample data and ...",
+    "host_name": "algoadvantage.substack.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scispace.com/papers/the-evaluation-and-optimization-of-trading-strategies-1v4948xmy2",
+    "name": "The Evaluation and Optimization of Trading Strategies - SciSpace",
+    "snippet": "The Walk-Forward Analysis. The Purpose of the Walk-Forward Analysis. An Example of a Walk-Forward Analysis. Is the Strategy Robust? What Rate of ...",
+    "host_name": "scispace.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/6217160.pdf?abstractid=6217160&mirid=1",
+    "name": "[PDF] A novel approach to trading strategy parameter optimization, using",
+    "snippet": "Walk-forward analysis divides time series into sequential in-sample and out-of-sample periods, optimizing parameters in-sample and evaluating out-of-sample.",
+    "host_name": "papers.ssrn.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://onlinelibrary.wiley.com/doi/book/10.1002/9781119196969",
+    "name": "The Evaluation and Optimization of Trading Strategies",
+    "snippet": "A newly expanded and updated edition of the trading classic, Design, Testing, and Optimization of Trading Systems.",
+    "host_name": "onlinelibrary.wiley.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/890174578/The-Future-of-Backtesting",
+    "name": "Walk Forward Analysis in Trading Strategies | PDF - Scribd",
+    "snippet": "Walk forward analysis is an advanced technique for testing and optimizing trading strategies, offering a more realistic evaluation compared to traditional ...",
+    "host_name": "www.scribd.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Y6cbSyCtKz0",
+    "name": "Bob Pardo Part II - Building Trading Strategies that Work with Walk",
+    "snippet": "... trading. Adaptive Strategies: Walk forward analysis inherently forces a re-optimization process. This means the model is continually updated ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.academia.edu/126119881/The_Evaluation_and_Optimization_of_Trading_Strategies",
+    "name": "The Evaluation and Optimization of Trading Strategies - Academia.edu",
+    "snippet": "The paper presents a comprehensive analysis and optimization of trading strategies encompassing entry and exit management, risk assessment, and strategy testing",
+    "host_name": "www.academia.edu",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://grokipedia.com/page/Walk_forward_optimization",
+    "name": "Walk forward optimization - Grokipedia",
+    "snippet": "Walk forward optimization enhances the robustness of trading strategies by simulating real-world conditions through iterative testing on unseen out-of-sample ...",
+    "host_name": "grokipedia.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

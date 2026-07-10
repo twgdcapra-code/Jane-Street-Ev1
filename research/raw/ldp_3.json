@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://hudsonthames.org/fractional-differentiation",
+    "name": "Fractional Differentiation - Hudson & Thames",
+    "snippet": "Marcos Lopez de Prado. A fractionally differentiated series is stationary but also has high correlation with the original series. it can be used as a feature ...",
+    "host_name": "hudsonthames.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mlfinpy.readthedocs.io/en/latest/FractionalDifferentiated.html",
+    "name": "Fractionally Differentiated - Mlfin.py",
+    "snippet": "Fractionally differentiated features approach allows differentiating a time series to the point where the series is stationary, but not over differencing",
+    "host_name": "mlfinpy.readthedocs.io",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=acyAhc7B7mI",
+    "name": "Book2-Chapter5-Fractionally Differentiated Features - YouTube",
+    "snippet": "Subscribe and keep informed! Book 2: Marcos Lopez de Prado, (2018), “Advances in Financial Machine Learning”.",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/deep-origami/the-art-of-fractional-differentiation-in-engineering-memory-preserving-stationary-time-series-acdd8a2999fa",
+    "name": "The Art of Fractional Differentiation in engineering “Memory",
+    "snippet": "Professor Lopez de Prado proposes us to discover “the Golden Mean” he proposed us the method called “fractional differentiation”. by Marcos  ...",
+    "host_name": "medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/354130032_Fractional_differentiation_and_its_use_in_machine_learning",
+    "name": "(PDF) Fractional differentiation and its use in machine learning",
+    "snippet": "This article covers the implementation of fractional (non-integer order) differentiation. This concept has been proposed by Lopez de Prado [5] ...",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://reasonabledeviations.com/notes/adv_fin_ml",
+    "name": "Advances in Financial Machine Learning - Reasonable Deviations",
+    "snippet": "Fractionally differentiated features. It often makes sense to start with a cumulative sum, to enforce memory, before achieving stationarity via fractional ...",
+    "host_name": "reasonabledeviations.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/69040/do-we-need-to-fractionally-differentiated-all-features-in-ml-prediction-for-fina",
+    "name": "Do we need to fractionally differentiated all features in ML prediction",
+    "snippet": "I am reading Prof. Marcos Lopez de Prado's book Advances in Financial Machine Learning, and have a question on feature engineering.",
+    "host_name": "quant.stackexchange.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://risklab.ai/research/financial-data-science/fractional_differentiation",
+    "name": "Fractional Differentiation - RiskLab AI",
+    "snippet": "FFD provides a \"third way\" to get stationary, memory-filled data for ML models. This technique allows us to make a time series stationary while ...",
+    "host_name": "risklab.ai",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/p/war/wpaper/2020-32.html",
+    "name": "Fractional differentiation and its use in machine learning",
+    "snippet": "This article covers the implementation of fractional (non-integer order) differentiation on four datasets based on stock prices of main international stock ...",
+    "host_name": "ideas.repec.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://microalphas.com/fractional-differentiation",
+    "name": "Fractional Differentiation: Making Financial Series Stationary",
+    "snippet": "Fractional differentiation is a feature-transformation technique that makes a financial time series stationary while preserving as much of its ...",
+    "host_name": "microalphas.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

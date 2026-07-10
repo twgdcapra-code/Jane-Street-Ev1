@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://sesen.ai/blog/hyperparameter-optimization-grid-random-bayesian",
+    "name": "Hyperparameter Optimization: Grid vs Random vs Bayesian - Sesen AI",
+    "snippet": "Random Search for Hyper-Parameter Optimization (JMLR) demonstrated that random search is more efficient than grid search for most practical ...",
+    "host_name": "sesen.ai",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf",
+    "name": "[PDF] Random Search for Hyper-Parameter Optimization",
+    "snippet": "Grid search and manual search are the most widely used strategies for hyper-parameter optimiza- tion. This paper shows empirically and theoretically that ...",
+    "host_name": "jmlr.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@pacosun/the-tuners-toolbox-grid-search-random-search-and-bayesian-optimization-unpacked-648abd7a8ff6",
+    "name": "Grid Search, Random Search, and Bayesian Optimization Unpacked",
+    "snippet": "Grid search is the most straightforward (and most exhaustive) method for hyperparameter tuning. It tries every possible combination of parameter ...",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dergipark.org.tr/en/download/article-file/4349308",
+    "name": "[PDF] Comprehensive Analysis of Grid and Randomized Search on Dataset",
+    "snippet": "Abstract: This paper presents a comprehensive comparison of grid search and randomized search, the two main hyperparameter search.",
+    "host_name": "dergipark.org.tr",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://towardsdatascience.com/grid-search-vs-random-search-vs-bayesian-optimization-2e68f57c3c46",
+    "name": "Grid Search VS Random Search VS Bayesian Optimization",
+    "snippet": "Here, we delve into 3 popular approaches for hyperparameter tuning and determine which one is superior.",
+    "host_name": "towardsdatascience.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/willjobs/hyperparameter-search",
+    "name": "willjobs/hyperparameter-search: Comparison of Bayesian  - GitHub",
+    "snippet": "Comparison of Bayesian hyperparameter optimization with grid search and random search, on neural networks, decision trees, random forests, and KNN. Resources.",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/262395872_Random_Search_for_Hyper-Parameter_Optimization",
+    "name": "Random Search for Hyper-Parameter Optimization | Request PDF",
+    "snippet": "This paper shows empirically and theoretically that randomly chosen trials are more efficient for hyper-parameter optimization than trials on a grid.",
+    "host_name": "www.researchgate.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stats.stackexchange.com/questions/302891/hyper-parameters-tuning-random-search-vs-bayesian-optimization",
+    "name": "Hyper parameters tuning: Random search vs Bayesian optimization",
+    "snippet": "We know that random search works better than grid search, but a more recent approach is Bayesian optimization (using gaussian processes). Practical hyperparameter optimization: Random vs. grid search Benefits of random search over other optimization methods in Neural ... More results from stats.stackexchange.com",
+    "host_name": "stats.stackexchange.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=xRhPwQdNMss",
+    "name": "GridSearch, Bayesian, & Random Search (Beginner Friendly!)",
+    "snippet": "In this video, we will cover key hyperparameters optimization strategies such as: Grid search, Bayesian, and Random Search.",
+    "host_name": "www.youtube.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://keylabs.ai/blog/hyperparameter-tuning-grid-search-random-search-and-bayesian-optimization",
+    "name": "Bayesian vs Grid vs Random Search | Keykabs - Keylabs",
+    "snippet": "Bayesian optimization finds optimal hyperparameters in just 67 iterations, outperforming grid and random search methods.",
+    "host_name": "keylabs.ai",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

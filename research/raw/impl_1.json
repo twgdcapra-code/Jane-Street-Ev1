@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://arxiv.org/pdf/2201.06433",
+    "name": "[PDF] A Comparative study of Hyper-Parameter Optimization Tools",
+    "snippet": "In this paper, we compare the performance of four python libraries, namely Optuna, Hyper-opt, Optunity. , and sequential model-based algorithm ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://azrilhafizi.medium.com/4-hyperparameters-optimization-frameworks-for-machine-learning-c2fd53a5c648",
+    "name": "4 Hyperparameters Optimization Frameworks for Machine Learning",
+    "snippet": "This blog post will explore some of the most popular hyperparameter optimization frameworks available, including Scikit-learn, Optuna, Hyperopt, ...",
+    "host_name": "azrilhafizi.medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/371139474_Comparative_Performance_Evaluation_of_State-of-the-Art_Hyperparameter_Optimization_Frameworks",
+    "name": "(PDF) Comparative Performance Evaluation of State-of-the-Art",
+    "snippet": "In this paper, we use state-of-the-art HPO frameworks, namely BO, Optuna, HyperOpt, and Keras Tuner, for optimizing the ML and deep learning models for the ...",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.kaggle.com/code/sivasaiyadav8143/10-hyperparameter-optimization-frameworks",
+    "name": "10 Hyperparameter optimization frameworks - Kaggle",
+    "snippet": "Optuna is an automatic hyperparameter optimization software framework, particularly designed for machine learning. ... Scikit-Optimize, or skopt, is a simple and ...",
+    "host_name": "www.kaggle.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://optuna.org",
+    "name": "Optuna - A hyperparameter optimization framework",
+    "snippet": "Optuna is an automatic hyperparameter optimization software framework, particularly designed for machine learning.",
+    "host_name": "optuna.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/A-Comparative-study-of-Hyper-Parameter-Optimization-Shekhar-Bansode/0ee04a36508592b3937f70c97872c187f57c904d",
+    "name": "A Comparative study of Hyper-Parameter Optimization Tools",
+    "snippet": "This paper compares the performance of four python libraries, namely Optuna, Hyper-opt, Optunity, and sequential model-based algorithm configuration (SMAC) ...",
+    "host_name": "www.semanticscholar.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/PeeteKeesel/bayes-opt-battle",
+    "name": "PeeteKeesel/bayes-opt-battle: :bar_chart: Comparison of Bayesian",
+    "snippet": "Ever wondered which bayesian optimization framework to use for your project? We try to help you with that :) This repository provides a general comparison of ...",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.gopenai.com/optuna-vs-hyperopt-which-framework-excels-in-hyperparameter-optimization-55f1a693572d",
+    "name": "“Optuna vs HyperOpt: Which Framework Excels in  - GoPenAI",
+    "snippet": "Optuna Vs Hyperport · Optuna is often considered faster and more efficient due to its optimization algorithms and pruning strategies. · HyperOpt ...",
+    "host_name": "blog.gopenai.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://optuna.readthedocs.io",
+    "name": "Optuna: A hyperparameter optimization framework — Optuna",
+    "snippet": "Optuna is an automatic hyperparameter optimization software framework, particularly designed for machine learning. It features an imperative, define-by-run ...",
+    "host_name": "optuna.readthedocs.io",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dacon.io/en/competitions/official/235869/codeshare/4430",
+    "name": "(private 2위) 앙상블 모델, scikit-optimize를 통한 최적화 - 데이콘",
+    "snippet": "scikit-learn의 모델들을 앙상블한 모델을 최종 예측에 사용했고, scikit-optimize를 통해 최적화하였습니다. bayesian optimization을 지원하는 파이썬 패키지들로 ...",
+    "host_name": "dacon.io",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

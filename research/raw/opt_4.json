@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://optuna.readthedocs.io/en/stable/reference/generated/optuna.trial.Trial.html",
+    "name": "optuna.trial.Trial — Optuna 4.9.0 documentation - Read the Docs",
+    "snippet": "A trial is a process of evaluating an objective function. This object is passed to an objective function and provides interfaces to get parameter suggestion.",
+    "host_name": "optuna.readthedocs.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@mjgmario/hyperparameter-optimization-with-optuna-8fca06ea5491",
+    "name": "Hyperparameter Optimization with Optuna - Medium",
+    "snippet": "Comprehensive guide to Optuna for hyperparameter optimization, covering search spaces, objectives, samplers, pruning, and scalable parallel",
+    "host_name": "medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.marktechpost.com/2025/11/17/a-coding-guide-to-implement-advanced-hyperparameter-optimization-with-optuna-using-pruning-multi-objective-search-early-stopping-and-deep-visual-analysis",
+    "name": "A Coding Guide to Implement Advanced Hyperparameter",
+    "snippet": "Implement Advanced Hyperparameter Optimization with Optuna using Pruning Multi-Objective Search, Early Stopping, and Deep Visual Analysis.",
+    "host_name": "www.marktechpost.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hub.optuna.org/pruners",
+    "name": "Pruners - OptunaHub",
+    "snippet": "suggest_float(f\"x_{step}\", -5, 5) s += x**2 trial.report(s, step) if trial.should_prune(): raise optuna.TrialPruned() return s pruner = MedianPruner() study = ...",
+    "host_name": "hub.optuna.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bo-10000.tistory.com/202",
+    "name": "[Optuna] 딥러닝 하이퍼파라미터 최적화하기 - IBOK",
+    "snippet": "다음은 다양한 search space를 정의하는 방법의 예시이다. import optuna def objective(trial): # Categorical parameter optimizer = trial.",
+    "host_name": "bo-10000.tistory.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://optuna.org",
+    "name": "Optuna - A hyperparameter optimization framework",
+    "snippet": "Optuna is an automatic hyperparameter optimization software framework, particularly designed for machine learning.",
+    "host_name": "optuna.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://python.plainenglish.io/all-in-one-optuna-guide-smarter-hyperparameter-optimisation-for-your-ml-models-419f4f20e72a",
+    "name": "Mastering Optuna Guide: Smarter Hyperparameter Optimisation for",
+    "snippet": "In this article, I'll walk you through Optuna, one of the most flexible and efficient hyperparameter optimization frameworks available for both TensorFlow and ...",
+    "host_name": "python.plainenglish.io",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/optuna/optuna-examples",
+    "name": "Optuna Examples - GitHub",
+    "snippet": "Objective function with additional arguments, which is useful when you would like to pass arguments besides trial to your objective function.",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

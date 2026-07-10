@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.buildalpha.com/robustness-testing-guide",
+    "name": "Robustness Testing for Algo Trading Strategies | Complete Guide",
+    "snippet": "Learn 15+ robustness tests Monte Carlo, noise testing, walk-forward analysis to validate algorithmic trading strategies before risking real capital.",
+    "host_name": "www.buildalpha.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradequantixnewsletter.com/p/robustness-testing-methods-a-complete",
+    "name": "Robustness Testing Methods: A Complete Guide for Systematic",
+    "snippet": "Parameter sensitivity, Monte Carlo, multi-universe: here is how to use each test, what the results mean, and when your system actually passes.",
+    "host_name": "www.tradequantixnewsletter.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://strategyquant.com/blog/new-robustness-tests-on-the-strategyquant-codebase-5-monte-carlo-methods-to-bulletproof-your-trading-strategies",
+    "name": "New Robustness Tests on the StrategyQuant Codebase: 5 Monte",
+    "snippet": "These five StrategyQuant tests address the most critical real-world trading challenges: regime dependency, parameter sensitivity, execution quality, and funding ...",
+    "host_name": "strategyquant.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mql5.com/en/forum/466402",
+    "name": "Testing a trading system for robustness on MT5 - MQL5",
+    "snippet": "Based on what I know, the methods available to test a system's robustness (and identify overfitting) in MT5 include:",
+    "host_name": "www.mql5.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/1dzvnrj/why_use_monte_carlo_permuted_data_if_it_destroys",
+    "name": "Why use Monte Carlo permuted data if it destroys patterns? - Reddit",
+    "snippet": "Monte Carlo permuted data is used for robustness testing, It is a great tool for looking at the sensitivity of your strategy and helping ... What is the Monte Carlo method used for in backtesting? : r/algotrading Monte Carlo Permutation Testing for Stocks (regular trading hours) - Reddit More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.backtestbase.com/education/monte-carlo-stress-testing",
+    "name": "Monte Carlo Simulation Stress Test for Trading Strategies - BacktestBase",
+    "snippet": "Free Monte Carlo stress test for trading strategy backtests. Run 1000+ simulations to reveal true drawdown risk. 30-point robustness score.",
+    "host_name": "www.backtestbase.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.susanpotter.net/quant/monte-carlo-permutation-tests-strategy-significance",
+    "name": "Monte Carlo Permutation Tests for Strategy Significance - Susan Potter",
+    "snippet": "A practical heuristic: start with blocks of 20 to 60 trading days and check sensitivity. If your p-value swings wildly as you change block ...",
+    "host_name": "www.susanpotter.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://www.adaptrade.com/Newsletter/NL-StressTesting.htm",
+    "name": "Stress Testing for Trading Strategy Robustness - Adaptrade Software",
+    "snippet": "Testing a trading strategy for robustness is often referred to as sensitivity analysis, or more colloquially as stress testing.",
+    "host_name": "www.adaptrade.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@NFS303/validating-trading-strategies-with-permuted-monte-carlo-a-practical-guide-using-roc-momentum-d083180d4213",
+    "name": "Validating Trading Strategies with Permuted Monte Carlo - Medium",
+    "snippet": "Permuted Monte Carlo tests whether trading signals have genuine predictive power by comparing results to thousands of randomly shuffled versions ...",
+    "host_name": "medium.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantpedia.com/introduction-and-examples-of-monte-carlo-strategy-simulation",
+    "name": "Introduction and Examples of Monte Carlo Strategy Simulation",
+    "snippet": "Monte Carlo simulations are used to predict the probability of different outcomes when it would be difficult to use other approaches such as optimization.",
+    "host_name": "quantpedia.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]
