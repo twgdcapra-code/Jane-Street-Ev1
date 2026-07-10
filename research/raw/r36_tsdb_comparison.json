@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.timestored.com/data",
+    "name": "Time Series Data and Tick Databases - TimeStored.com",
+    "snippet": "Below we provide a number of tutorials covering storage and analysis of time series data, with a particular emphasis on tick/market data.",
+    "host_name": "www.timestored.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/compare/questdb-vs-kdb",
+    "name": "QuestDB vs kdb+",
+    "snippet": "QuestDB vs kdb+ for capital markets. Compare architecture, programming models, and operational characteristics for time-series analytics workloads. Missing: DolphinDB tick",
+    "host_name": "questdb.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://kx.com/blog/benchmarking-kdb-x-vs-questdb-clickhouse-timescaledb-and-influxdb-with-tsbs",
+    "name": "Benchmarking KDB-X vs QuestDB, ClickHouse, TimescaleDB and  - KX",
+    "snippet": "QuestDB excelled in double-groupby-* and lastpoint queries. Considering all queries, it is 4.2 times slower on average compared to KDB-X. Missing: DolphinDB | Show results with: DolphinDB",
+    "host_name": "kx.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tigerdata.com/learn/the-best-time-series-databases-compared",
+    "name": "The Best Time-Series Databases Compared (2026) - Tiger Data",
+    "snippet": "A comparison of the leading time-series database products. Plus, a discussion of key criteria and features to consider when choosing a time-series database. Missing: DolphinDB | Show results with: DolphinDB",
+    "host_name": "www.tigerdata.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/blog/clickhouse-vs-questdb-comparison",
+    "name": "Benchmark and comparison: QuestDB vs. ClickHouse",
+    "snippet": "Benchmarks and an overview of ClickHouse versus QuestDB to compare features, functionality, performance, and ease of use. Missing: DolphinDB | Show results with: DolphinDB",
+    "host_name": "questdb.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@smakhnist/picking-the-fastest-database-to-store-time-series-data-411ca3651277",
+    "name": "Picking the Fastest Database to Store Time-Series Data - Medium",
+    "snippet": "For years, KDB+ was the de facto answer for high-end tick analytics. The landscape is shifting: QuestDB has now demonstrated it can beat KDB+ on ... Missing: DolphinDB | Show results with: DolphinDB",
+    "host_name": "medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ar5iv.labs.arxiv.org/html/2301.12561",
+    "name": "Benchmarking Specialized Databases for High-frequency Data - ar5iv",
+    "snippet": "This paper presents a benchmarking suite designed for the evaluation and comparison of time series databases for high-frequency data, with a focus on financial ... Missing: DolphinDB QuestDB",
+    "host_name": "ar5iv.labs.arxiv.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://db-engines.com/en/ranking/time+series+dbms",
+    "name": "DB-Engines Ranking of Time Series DBMS",
+    "snippet": "The DB-Engines Ranking ranks database management systems according to their popularity. The ranking is updated monthly.",
+    "host_name": "db-engines.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/mh0w59/which_timeseries_database_is_the_best_kdbq_vs",
+    "name": "Which Timeseries Database is the best? Kdb+/q vs InfluxDb vs others",
+    "snippet": "This paper compared Kdb+ to InfluxDb which itself is faster than all other Timeseries DB and Kdb+ is from 10x to 300x faster than InfluxDb. Missing: DolphinDB benchmark",
+    "host_name": "www.reddit.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/blog/comparing-influxdb-timescaledb-questdb-time-series-databases",
+    "name": "Comparing InfluxDB, TimescaleDB, and QuestDB Time-Series Databases",
+    "snippet": "When running similar comparisons with TimescaleDB, QuestDB was 6-13x faster for ingestion and 16-20x faster on complex queries. This makes ... Missing: DolphinDB | Show results with: DolphinDB",
+    "host_name": "questdb.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

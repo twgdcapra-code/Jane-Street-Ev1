@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://mbrenndoerfer.com/writing/backtesting-trading-strategies-simulation-frameworks",
+    "name": "Backtesting & Simulation: Frameworks for Strategy Validation - Interactive",
+    "snippet": "Survivorship bias occurs when your backtest only includes assets that survived to the present day, excluding those that were delisted, went ...",
+    "host_name": "mbrenndoerfer.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/jpxy7w/survivorship_bias_in_equity_strategy_backtesting",
+    "name": "Survivorship bias in equity strategy backtesting : r/algotrading - Reddit",
+    "snippet": "Survivorship bias means that your current set of instruments does not include the previous members of that set which have been removed from it. Creating a Survivorship Bias-Free S&P 500 Dataset with Python Data vendors that are TRULY survivorship-bias free More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://concretumgroup.com/how-to-construct-a-survivorship-bias-free-database-in-norgate-using-python",
+    "name": "How to Construct a Survivorship bias-free Database in Norgate",
+    "snippet": "Analyzing historical stock market data is essential for backtesting trading strategies, identifying tradable edges, and conducting in-depth financial research.",
+    "host_name": "concretumgroup.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fortraders.com/blog/how-to-avoid-bias-in-backtesting",
+    "name": "How To Avoid Bias in Backtesting | For Traders",
+    "snippet": "Survivorship bias occurs when backtests only include assets that are still active, ignoring those that failed. This creates an overly optimistic ... Missing: stocks | Show results with: stocks",
+    "host_name": "www.fortraders.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.luxalgo.com/blog/survivorship-bias-in-backtesting-explained",
+    "name": "Survivorship Bias in Backtesting Explained - LuxAlgo",
+    "snippet": "Survivorship bias in backtesting can distort trading strategies by ignoring failed or delisted assets, leading to inflated returns and ... Effects on Backtest Results · Identifying Survivorship Bias",
+    "host_name": "www.luxalgo.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5719682",
+    "name": "A Backtesting Study Against the S&P 500 with Survivorship Bias by",
+    "snippet": "This study backtested the performance of randomly constructed equal-weighted portfolios against a market benchmark-S&P 500 ETF (SPY). Missing: free futures",
+    "host_name": "papers.ssrn.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bookmap.com/blog/survivorship-bias-in-market-data-what-traders-need-to-know",
+    "name": "Survivorship Bias in Market Data: What Traders Need to Know",
+    "snippet": "Survivorship bias is a common issue in market data analysis. It occurs when you focus only on surviving entities, ignoring those that failed. Missing: free | Show results with: free",
+    "host_name": "bookmap.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantifiedstrategies.com/survivorship-bias-backtesting",
+    "name": "Survivorship Bias In Trading (How To Avoid It) – Backtesting, Trading And",
+    "snippet": "Traders can reduce survivorship bias by using point-in-time datasets that include delisted stocks, such as databases from Norgate Data.",
+    "host_name": "www.quantifiedstrategies.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/impact-survivorship-bias-backtesting-results-analytical-platform-uwwoe",
+    "name": "The Impact of Survivorship Bias on Backtesting Results - LinkedIn",
+    "snippet": "In finance, survivorship bias occurs when we test an investment strategy using only companies that still exist today, while ignoring those that ... Missing: free | Show results with: free",
+    "host_name": "www.linkedin.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://norgatedata.com",
+    "name": "Norgate Data - Overview",
+    "snippet": "Norgate Data provides historical daily data and \"end-of-day\" updates for financial market data. We specialize in survivorship bias-free data for US, Australian and Canadian stock markets.",
+    "host_name": "norgatedata.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

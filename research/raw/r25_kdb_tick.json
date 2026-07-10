@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.margo.com/en/blog-en/kdb-tick-architecture-building-a-real-time-market-data-system-using-java-and-q-part-1-2",
+    "name": "Kdb+ Tick Architecture: Real-Time Market Data with Java & Q - MARGO",
+    "snippet": "kdb+ is a column-oriented, in-memory database built for extreme performance on time-series data. It ships with q, a concise vector-processing ...",
+    "host_name": "www.margo.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://code.kx.com/q/architecture",
+    "name": "Architecture | Documentation for q and kdb+",
+    "snippet": "Architecture of kdb+ systems¶. A kdb+ tick based architecture can be used to capture, process and analyse vast amounts of real-time and historical data.",
+    "host_name": "code.kx.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.timestored.com/data/store-market-tick-data",
+    "name": "Storing Market Data Efficiently - TimeStored.com",
+    "snippet": "Below is a comprehensive listing of tick data storage options. The assumption is that the market data is level 2 tick data and/or very large in size.",
+    "host_name": "www.timestored.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.everpuredata.com/content/dam/pdf/en/reference-architectures/ra-scalable-time-series-analytics-kx-systems-kdb.pdf",
+    "name": "[PDF] Scalable Time Series Analytics with Kx Systems kdb+ on Pure Storage FlashBlade - Everpure",
+    "snippet": "Columnar storage: Unlike traditional row-based databases, kdb+ uses a columnar storage format. This means that data is stored column-by-column rather than ...",
+    "host_name": "www.everpuredata.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/quant/comments/1jgxz1j/efficient_structures_for_storing_tick_data",
+    "name": "Efficient structures for storing tick data : r/quant - Reddit",
+    "snippet": "kdb+ is the market leader. Side remark, 1GB/hour doesn't sound right. What file format would that be? How many ticks and how much info per tick.",
+    "host_name": "www.reddit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dataintellect.com/blog/an-introduction-to-questdb",
+    "name": "An Introduction to QuestDB - Data Intellect",
+    "snippet": "An introduction to QuestDB for time-series data and analytics use cases in capital markets technology and systems.",
+    "host_name": "dataintellect.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://infohub.delltechnologies.com/en-sg/l/algorithmic-trading-scaling-concurrency-and-performance-with-dell-powerscale/kdb-tick-architecture",
+    "name": "kdb+ tick architecture | Algorithmic Trading—Scaling Concurrency and Performance with Dell PowerScale",
+    "snippet": "kdb+ is a high-performance, high-volume time series database designed to handle tremendous volumes of data. Kdb+ tick is an architecture that allows the ...",
+    "host_name": "infohub.delltechnologies.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.12561",
+    "name": "[PDF] benchmarking specialized databases for high-frequency data - arXiv",
+    "snippet": "kdb+ uses a columnar layout to store data on disk, as well as a lightweight query engine written in a special language q. The kdb+ /tick ...",
+    "host_name": "arxiv.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.defconq.tech/docs/tutorials/tick2",
+    "name": "KDB Tick Explained: A Walkthrough [PART 2] - DefconQ",
+    "snippet": "It begins by verifying whether the first column of the incoming data is of type time. ... The architecture of this KDB/Q Tick system mandates the Real-time ...\nIn my previous tutorial I walked you through all the helper functions you can find in the u.q file of a plain vanilla Tickerplant.",
+    "host_name": "www.defconq.tech",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.habla.dev/blog/2024/07/02/PostPairsTrading.html",
+    "name": "Pairs Trading in KDB+ using Tick Architecture in 25 lines - Habla Computing's Blog",
+    "snippet": "We will use the Tick Architecture, the typical setup found in kdb+ systems, to introduce, contextualize and guide each step. As we acknowledge ...",
+    "host_name": "www.habla.dev",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

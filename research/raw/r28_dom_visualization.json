@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://bookmap.com/blog/depth-of-market-dom-from-basics-to-evolution",
+    "name": "Depth of Market (DOM): From Basics to Evolution - Bookmap",
+    "snippet": "The Evolution of DOM · Why Traders Rely on DOM",
+    "host_name": "bookmap.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/market-depth-heatmap",
+    "name": "Market Depth Heatmap - QuestDB",
+    "snippet": "A market depth heatmap is a visual representation of order book liquidity that uses color gradients to display the concentration of buy and sell orders.",
+    "host_name": "questdb.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@bookmap/heatmap-in-trading-how-to-learn-what-market-depth-is-hiding-7095cf191d03",
+    "name": "Heatmap in Trading: How to Learn What Market Depth is Hiding?",
+    "snippet": "Heatmap visualizes the evolution of market depth data and is the heart of Bookmap which literally stands for Order Book and Heat Map.",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://atas.net/blog/best-heatmap-trading-software-2026",
+    "name": "The Best Heat Maps in 2026: ATAS vs. Bookmap, Quantower, and",
+    "snippet": "Looking for a heat map for Order Flow? An honest comparison of ATAS, Bookmap, Quantower, and others. Compare GPU rendering speed, ...",
+    "host_name": "atas.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.wilmott.com/order-book-visualization",
+    "name": "Order Book Visualization - Wilmott",
+    "snippet": "The heat map records and visualises every change in the order book by displaying it on a scale of gray shades. The brighter shades mark price ...",
+    "host_name": "www.wilmott.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://es.tradingview.com/scripts/heatmap",
+    "name": "Heatmap — Indicadores y estrategias - TradingView",
+    "snippet": "The heatmap is designed for macro analysis and educational research. It does not predict price direction by itself and should not be used as a standalone ...",
+    "host_name": "es.tradingview.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mattioli1885journals.com/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=%2Findex%2Ephp%2Findex%2Flogin%2FsignOut%3Fsource%3D%2Etrdex%2Esite/new/&io0=50712311",
+    "name": "Must Have Bookmap Try 2026 Tools for Fast Traders {cI6FG5l}",
+    "snippet": "Bookmap is a market‑depth visualization platform that displays liquidity as a heatmap together with executed trades and the time & sales tape.",
+    "host_name": "mattioli1885journals.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.highcharts.com/blog/tutorials/depth-chart-a-visual-guide-to-market-liquidity-and-order-flow",
+    "name": "Depth chart: A visual guide to market liquidity and order flow",
+    "snippet": "A market depth chart, also known as an order book visualization, displays the cumulative volume of buy orders (bids) and sell orders (asks) at various price ...",
+    "host_name": "www.highcharts.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/figure/Heat-map-of-order-book-depth-during-the-price-shift-of-ABC_fig4_302483257",
+    "name": "Heat map of order book depth during the price shift of ABC",
+    "snippet": "The visualization method can include multiple variables and markets simultaneously and is not necessarily time dependent. Stakeholders can use it to visualize ...",
+    "host_name": "www.researchgate.net",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.databento.com/how-to-build-an-order-book-dom-visualization-using-databento-react-and-rust-9eac46d36cf6",
+    "name": "How to build an order book (DoM) visualization using Databento",
+    "snippet": "What is a depth of market (DoM) price ladder? The DoM price ladder is a common way to visualize a limit order book in market-by-price (L2) form.",
+    "host_name": "medium.databento.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

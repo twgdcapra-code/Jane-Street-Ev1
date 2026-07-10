@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/insights/fix-simple-binary-encoding-sbe-adoption-understanding-its-origins-and-evolution",
+    "name": "FIX Simple Binary Encoding (SBE) Adoption: Understanding Its Origins",
+    "snippet": "Simple Binary Encoding (SBE) is the latest standard for those Exchanges striving to deliver market data with the lowest latencies, whilst ...",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://databento.com/microstructure/sbe",
+    "name": "What is Simple Binary Encoding (SBE)? - Databento",
+    "snippet": "Simple Binary Encoding (SBE) is a protocol for encoding and decoding binary messages that is optimized for high-performance, low-latency financial applications.",
+    "host_name": "databento.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixtrading.org/packages/sbe-factsheet",
+    "name": "SBE factsheet - FIX Trading Community",
+    "snippet": "SBE factsheet. High level overview of FIX's Simple Binary Encoding low-latency encoding standard. SBE factsheet. Version; Size 567.12 KB; Last ...",
+    "host_name": "fixtrading.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-RC3/doc/01Introduction.md",
+    "name": "fix-simple-binary-encoding/v1-0-RC3  - GitHub",
+    "snippet": "FIX Simple Binary Encoding (SBE) targets high performance trading systems. It is optimized for low latency of encoding and decoding while keeping bandwidth ...",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/trading_solutions/market-data-solutions/sbe",
+    "name": "B2BITS SBE Market Data & Order Entry Solutions",
+    "snippet": "Simple Binary Encoding (SBE) is a FIX Trading Community standard designed for fast, compact, low-latency binary encoding of market data and trading messages.",
+    "host_name": "www.b2bits.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/9550/hft-enhancements-for-fix-simple-binary-encoding-vs-proprietary-protocols-perfo",
+    "name": "HFT enhancements for FIX (Simple Binary Encoding) vs proprietary",
+    "snippet": "For that they have come up with FAST which compresses FIX by a great amount but it is mainly used by the exchanges for market data, not order ...",
+    "host_name": "quant.stackexchange.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=gxZt0Z8opNY",
+    "name": "Forex Latency Arbitrage software - Simple Binary Encoding | PART 8",
+    "snippet": "Share your videos with friends, family, and the world.",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixtrading.org/simple-binary-encoding-high-performance-market-data-interfaces-automated-trader-article",
+    "name": "Simple Binary Encoding for high performance market data interfaces",
+    "snippet": "The FIX Trading Community realised that its message encoding was no longer fit-for-purpose for high-performance trading.",
+    "host_name": "fixtrading.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mechanical-sympathy.blogspot.com/2014/05/simple-binary-encoding.html",
+    "name": "Simple Binary Encoding - Mechanical Sympathy",
+    "snippet": "SBE is a codec aimed at addressing the efficiency issues in low-latency trading, with a specific focus on market data. The CME, working within ...",
+    "host_name": "mechanical-sympathy.blogspot.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/457418645/MDP+3.0+-+Simple+Binary+Encoding",
+    "name": "Simple Binary Encoding - CME Group Client Systems Wiki - Confluence",
+    "snippet": "This topic describes implementation of SBE in receiving and processing CME Group FIX encoded electronic market data.",
+    "host_name": "cmegroupclientsite.atlassian.net",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

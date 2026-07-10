@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8993454",
+    "name": "COVID-19 pandemic's impact on intraday volatility spillover between",
+    "snippet": "This study examines the volatility spillovers between the US stock market (S&P500 index) and both oil and gold before and during the global health crisis (GHC).",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/2020_stock_market_crash",
+    "name": "2020 stock market crash - Wikipedia",
+    "snippet": "The CBOE Volatility Index closed at 82.69 on 16 March, the highest ever closing for the index (though there were higher intraday peaks in 2008).",
+    "host_name": "en.wikipedia.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/342811176_COVID-19_and_the_march_2020_stock_market_crash_Evidence_from_SP1500",
+    "name": "(PDF) COVID-19 and the march 2020 stock market crash. Evidence from",
+    "snippet": "Our empirical results suggest an increase in volatility over time with mostly negative returns and higher volatility in the last trading session of the day. Our ...",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S2405844023022910",
+    "name": "Stock market responses to COVID-19: The behaviors of mean reversion",
+    "snippet": "By March 18, stock markets have dropped more than 30% from their peak ([13]). By using daily data up to 27 March 2020 for 12 countries [14], find that the ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/2504-3110/7/1/91",
+    "name": "The Dynamic Effects of COVID-19 and the March 2020 Crash on  - MDPI",
+    "snippet": "Triggered by COVID-19, one of the most dramatic crashes in the stock market in history occurred in March 2020. The sharp reductions in ...",
+    "host_name": "www.mdpi.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/a/eee/finlet/v38y2021ics1544612320306668.html",
+    "name": "COVID-19 and the march 2020 stock market crash. Evidence from",
+    "snippet": "This paper investigates the US stock market performance during the crash of March 2020 triggered by COVID-19. Missing: S&P 500 futures intraday",
+    "host_name": "ideas.repec.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sifma.org/research/insights/the-2020-market-madness",
+    "name": "The 2020 Market Madness - SIFMA",
+    "snippet": "The emergence of the global pandemic COVID-19 in the first quarter of 2020 caused severe economic and capital markets shocks. Missing: crash | Show results with: crash",
+    "host_name": "www.sifma.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7343658",
+    "name": "COVID-19 and the march 2020 stock market crash. Evidence from  - PMC",
+    "snippet": "In this paper we investigate the effect of COVID-19 on the stock market behavior during the crash of March 2020 using the universe of S&P1500 firms. Clearly, ... Missing: intraday | Show results with: intraday",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.stlouisfed.org/on-the-economy/2021/march/covid19-impacted-stock-performance-industry",
+    "name": "How COVID-19 Has Impacted Stock Performance by Industry",
+    "snippet": "The COVID-19 pandemic led to a sharp decline in financial markets in March 2020. After peaking on Feb. 19, 2020, the S&P 500 dropped to 66% ...",
+    "host_name": "www.stlouisfed.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.statista.com/chart/20939/year-to-date-performance-of-major-us-stock-market-indices/?srsltid=AfmBOoqzeUoQetHQHOi2rY2H1K3KZsKKAqQEvU3q-UF00YEbKC7xwuqp",
+    "name": "Stocks Emerge From Covid Crash With Historic 12-Month Run - Statista",
+    "snippet": "All three major US stock market indices bottomed out on March 23, 2020. Since then, the Dow Jones, S&P 500 and Nasdaq have soared 76, 76 and 95 percent, ...",
+    "host_name": "www.statista.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

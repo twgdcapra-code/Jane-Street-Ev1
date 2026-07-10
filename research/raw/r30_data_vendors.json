@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://alphanume.com/blog/databento-alternatives-market-data-apis-for-quant-researchers",
+    "name": "Databento Alternatives: Market Data APIs for Quant Researchers",
+    "snippet": "Comparison Table ; Polygon.io (Massive). Developer-friendly price data. Tick to daily (SIP) ; algoseek. Research-grade intraday data. Tick-level, ...",
+    "host_name": "alphanume.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://databento.com/tick-data",
+    "name": "Real-Time & Historical Tick Data with Nanosecond Precision - Databento",
+    "snippet": "Databento provides cloud-based solutions for intraday and real-time tick data. Simple, fast access in Python, C++, and Rust.",
+    "host_name": "databento.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://waylandz.com/quant-book-en/Data-Provider-Comparison",
+    "name": "Barchart, QuoteMedia, Massive (formerly Polygon.io), EODHD, Wind",
+    "snippet": "Data Provider Comparison Report: Barchart, QuoteMedia, Massive (formerly ... Databento is a next-generation market data provider founded in 2021 ...",
+    "host_name": "waylandz.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantpedia.com/best-historical-market-data-providers",
+    "name": "Best Historical Market Data Providers - QuantPedia",
+    "snippet": "AlgoSeek is an excellent choice if you are looking for top-notch, error-free, institutional-quality intraday data and you are willing to pay for it. Theta Data ...",
+    "host_name": "quantpedia.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://algoseek.com",
+    "name": "Algoseek: Ultra-Low-Latency Financial Data for Quant Trading",
+    "snippet": "Ultra-low-latency, institutional market data from algoseek covering US equities, options, and futures for quantitative and algorithmic trading.",
+    "host_name": "algoseek.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/quant/comments/18q22n7/whats_the_highest_resolution_of_stock_data_you",
+    "name": "What's the highest resolution of stock data you can get as an amateur",
+    "snippet": "Databento is by far the most comprehensive and clean you can get imo, although there is a caveat that a lot of the high-resolution data only goes back to ... What is your data provider? : r/algotrading - Reddit Data vendor recommendation for US equities : r/algotrading - Reddit More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quora.com/What-are-some-sources-of-free-stock-market-data-that-are-comparable-in-quality-to-Bloomberg-terminals-tick-by-tick-data",
+    "name": "What are some sources of free stock market data that are comparable in",
+    "snippet": "Examples of these include Algoseek, Tickdata, and Polygon.io. If you are dead set on using completely free solutions, then Yahoo Finance is your best bet. What are some good sources of real time and historical tick level stock ... What is a good API for historical stock data, including the P/E ratio ... - Quora More results from www.quora.com",
+    "host_name": "www.quora.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/data-science/how-to-retrieve-historical-tick-data-from-polygon-71512f224b67",
+    "name": "Polygon.io Review — Retrieving Historical Tick Data - Medium",
+    "snippet": "This article covers the retrieval of historical data via their REST API. I will also briefly cover the size of the data involved.",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.wealthhubtrading.com/historical-data-vendor-list",
+    "name": "Historical Data Vendor List - Wealth Hub",
+    "snippet": "Explore a curated directory of historical-data vendors offering extensive market coverage—from tick-level quotes to end-of-day pricing, fundamentals, ...",
+    "host_name": "www.wealthhubtrading.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://massive.com/stocks",
+    "name": "Stock Market API - Massive",
+    "snippet": "Every trade and quote from the US stock markets for the last 20 years. Stream data in realtime or use our intuitive stock APIs.",
+    "host_name": "massive.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

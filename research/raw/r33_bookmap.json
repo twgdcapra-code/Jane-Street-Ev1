@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://bookmap.com/features",
+    "name": "Bookmap Features : Heatmap Indicator & Liquidity Heatmap",
+    "snippet": "Explore Bookmap's features offering real-time liquidity heatmaps, volume analysis, and detailed order book insights to support informed trading decisions ...",
+    "host_name": "bookmap.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bookmap.com/blog/heatmap-in-trading-the-complete-guide-to-market-depth-visualization",
+    "name": "Heatmap Trading | Liquidity Heatmap | Stock Market Heatmap Trading",
+    "snippet": "Interpreting Color Intensity · Best Market Heatmap...",
+    "host_name": "bookmap.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=1CoaMRk3_ws",
+    "name": "Bookmap Tutorial: The Best Trading Tool - YouTube",
+    "snippet": "Bookmap is a good tool to read this orderflow and visually see the level 2 (orderbook) and time and sales (aggressive orders) a little ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://atas.net/blog/best-heatmap-trading-software-2026",
+    "name": "The Best Heat Maps in 2026: ATAS vs. Bookmap, Quantower, and",
+    "snippet": "Looking for a heat map for Order Flow? An honest comparison of ATAS, Bookmap, Quantower, and others. Compare GPU rendering speed, ...",
+    "host_name": "atas.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bookmap.com/en/learning-center/getting-started/liquidity-heatmap/heatmap-overview?srsltid=AfmBOop1-HWUyEXT-1m-BngeWBI-7CX-_ljHHvZqBM7Pno8XVOqlWG7-",
+    "name": "Bookmap Heatmap Overview: How to Read It",
+    "snippet": "The heatmap visualizes resting orders across the order book. This video helps you spot key liquidity zones, walls, and fakeouts that influence price ...",
+    "host_name": "bookmap.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://lpfutures.com/bookmap-futures-trading-platform",
+    "name": "Bookmap Futures Trading Platform - Lincoln Park Financial",
+    "snippet": "Bookmap provides a visual representation of market liquidity and order flow using an order book heatmap and proprietary indicators. Traders can identify areas ...",
+    "host_name": "lpfutures.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradingview.com/script/nxeb4gft-Bookmap-Liquidity-Heatmap",
+    "name": "Bookmap Liquidity Heatmap — Indicator by drop_trades - TradingView",
+    "snippet": "Overview The Bookmap Liquidity Heatmap indicator is an advanced market structure and liquidity visualization tool.",
+    "host_name": "www.tradingview.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.luxalgo.com/blog/bookmap-market-mapping-insights",
+    "name": "Bookmap: Market Mapping Insights - LuxAlgo",
+    "snippet": "Bookmap is a trading platform that turns complex market data into clear visuals, helping traders understand liquidity and order flow in real time.",
+    "host_name": "www.luxalgo.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cannontrading.com/tools/support-resistance-levels/tag/bookmap-heatmap-support-levels",
+    "name": "Tag: Bookmap heatmap support levels - Cannon Trading",
+    "snippet": "Bookmap is a trailblazing futures trading platform that allows market participants to visualize full-depth order book activity in real time.",
+    "host_name": "www.cannontrading.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/Azhagesan-dev/OrderFlowMap",
+    "name": "Azhagesan-dev/OrderFlowMap: Bookmap-style order flow  - GitHub",
+    "snippet": "OrderFlowMap is a zero-dependency, single-file order flow visualization tool inspired by Bookmap. It renders a real-time heatmap of the order book depth ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

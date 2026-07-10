@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifir/article-25-obligation-maintain-records",
+    "name": "Article 25 Obligation to maintain records - ESMA - European Union",
+    "snippet": "The operator of a trading venue shall keep at the disposal of the competent authority, for at least five years, the relevant data relating to all orders in ...",
+    "host_name": "www.esma.europa.eu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.archondatastore.com/blog/mifid-ii-compliance",
+    "name": "MiFID II: A Guide to Storing and Preserving Financial Records",
+    "snippet": "MiFID II generally requires records to be retained for a minimum of five years, with many jurisdictions extending this to seven years or more.",
+    "host_name": "www.archondatastore.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.steel-eye.com/news/gdpr-vs-mifid-ii-record-keeping-vs-personal-data-protection",
+    "name": "GDPR vs MiFID II (Record-Keeping vs. Personal Data Protection)",
+    "snippet": "For example, MiFID II says firms must keep voice recordings and emails for at least five years, whereas GDPR's ethos would suggest deleting ...",
+    "host_name": "www.steel-eye.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://reg-x.co.uk/blogs/mifid-ii-rts-24-annex-iv-order-execution-record-keeping",
+    "name": "MiFID II RTS 24 & Annex IV Order Record-Keeping Explained - Reg-X",
+    "snippet": "Section 1 establishes the information trading venues must maintain for every reportable order. Although the precise data fields are defined ...",
+    "host_name": "reg-x.co.uk",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.womblebonddickinson.com/uk/insights/articles-and-briefings/mifid-2-keeping-it-record",
+    "name": "MiFID 2: Keeping it on record | Womble Bond Dickinson",
+    "snippet": "The new SYSC rules in principle require records to be kept for five years, although in some cases FCA has reserved the right to require them to ...",
+    "host_name": "www.womblebonddickinson.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://data.bloomberglp.com/professional/sites/10/imported/vault/sites/4/2015/09/Fact-Sheet-MiFID-II-and-MAR.pdf",
+    "name": "[PDF] MAR & MIFID II - Bloomberg Professional Services",
+    "snippet": "Among these changes, broader requirements for record-keeping, event reconstruction, and market abuse detection and prevention mandate the retention of records.",
+    "host_name": "data.bloomberglp.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://www.mfaalts.org/wp-content/uploads/2017/09/ESMA-QA-on-MiFID-II-and-MiFIR-Market-Structures-Topics.pdf",
+    "name": "[PDF] Questions and Answers - Managed Funds Association",
+    "snippet": "Under Article 13(1) of RTS 6, investment firms engaged in algorithmic trading are obliged to have in place monitoring systems capable of generating operable ...",
+    "host_name": "www.mfaalts.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.asctechnologies.com/blog/post/mifid-ii-what-financial-service-providers-need-to-know-about-call-recording-under-the-eu-directive",
+    "name": "MiFID II Directive: Recording Obligations and Retention Periods for",
+    "snippet": "All recordings must be stored for at least five years. At the request of supervisory authorities, such as BaFin, this obligation may be extended ...",
+    "host_name": "www.asctechnologies.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.skillcast.com/blog/mifid-data-retention-compliance",
+    "name": "How to Ensure MiFID Data Retention Compliance - Skillcast",
+    "snippet": "Records must be kept for a minimum of 5 years (up to 7 years on request by a national competent authority) or the lifetime of the relationship.",
+    "host_name": "www.skillcast.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://luxse.com/regulation/MiFIDII-MiFIR",
+    "name": "Get information on MiFID II & MiFIR Technical Standards | LuxSE",
+    "snippet": "Trading venues are required to collect, store and, where relevant, report order-related information for the purpose of order record keeping requirements under ...",
+    "host_name": "luxse.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

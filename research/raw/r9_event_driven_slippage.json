@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/a-practical-breakdown-of-vector-based-vs-event-based-backtesting",
+    "name": "A Practical Breakdown of Vector-Based vs. Event-Based",
+    "snippet": "Event-based frameworks are more complex and computationally intensive but provide higher fidelity by modeling realistic order types, slippage, ...",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://nautilustrader.io/docs/latest/concepts/backtesting",
+    "name": "Backtesting - NautilusTrader",
+    "snippet": "The order book itself handles slippage naturally based on available liquidity at each price level. ... The historical order book is immutable during backtesting.",
+    "host_name": "nautilustrader.io",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/881304872/Vector-vs-Event-Based-Backtesting",
+    "name": "Vector vs. Event-Based Backtesting | PDF | Day Trading - Scribd",
+    "snippet": "The document compares Vector-Based and Event-Based Backtesting methodologies for evaluating trading strategies using historical data.",
+    "host_name": "www.scribd.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://waylandz.com/quant-book-en/Lesson-19-Execution-System",
+    "name": "Lesson 19: Execution System - From Signal to Real Fill - Wayland Zhang",
+    "snippet": "Slippage is the deviation between theoretical execution price and actual execution price. It's the main hidden cost in quantitative trading, primarily from:.",
+    "host_name": "waylandz.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/ml4t/backtest",
+    "name": "ml4t/backtest - GitHub",
+    "snippet": "ml4t-backtest provides: Event-driven architecture with point-in-time correctness (no look-ahead bias); Exit-first order processing matching real broker behavior ...",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/70006/backtesting-using-microstructure-orderbook-data",
+    "name": "Backtesting using microstructure (orderbook) data",
+    "snippet": "I would like to use tick data (especially order book data; but also trade) to backtest my strategies, can anyone offer a recommendation? How to simulate slippage - Quantitative Finance Stack Exchange Modeling Slippage without Order Book data More results from quant.stackexchange.com",
+    "host_name": "quant.stackexchange.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.pyquantnews.com/free-python-resources/event-driven-backtesting-for-trading-strategies",
+    "name": "Event-Driven Backtesting for Trading Strategies - PyQuant News",
+    "snippet": "Evaluate trading strategies using event-driven backtesting that simulates realistic market fill conditions.",
+    "host_name": "www.pyquantnews.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://steven-varga.ca/site/orderbook",
+    "name": "Sigma — High-Performance Order Book & Market Simulator",
+    "snippet": "Strategy Backtesting — Replay historical tick streams into a full book. Market Microstructure Research — Study slippage, queue priority, and latency arbitrage.",
+    "host_name": "steven-varga.ca",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/1ifdw3l/backtesting_market_data_and_event_driven",
+    "name": "Backtesting Market Data and Event Driven backtesting : r/algotrading",
+    "snippet": "Event-driven just means it loops through and acts event at a time like paper trading instead of using vectorized method calls. Slippage issues because of market orders : r/algotrading - Reddit What is the correct pseudo-code order for event-based backtesting? - Reddit More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.exegy.com/avoiding-slippage-equities-trading-with-backtesting",
+    "name": "Using Backtesting to Avoid Slippage in Equities Trading - Exegy",
+    "snippet": "Slippage is a familiar concept to high frequency traders. Backtesting using historical data can help avoid it, boosting confidence in strategies.",
+    "host_name": "www.exegy.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

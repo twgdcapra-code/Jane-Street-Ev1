@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/457418645/MDP+3.0+-+Simple+Binary+Encoding",
+    "name": "Simple Binary Encoding (SBE) - Spaces - Confluence",
+    "snippet": "MDP 3.0 uses compact Simple Binary Encoding (SBE) optimized for low latency of encoding and decoding while keeping bandwidth utilization ...",
+    "host_name": "cmegroupclientsite.atlassian.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/cme-sbe-streamlined-market-data-handler.html",
+    "name": "CME SBE Streamlined Market Data Handler SDK - OnixS",
+    "snippet": "CME Group provides the Streamlined Simple Binary Encoding (SBE) market data feed with product specific message attributes for: SBE - Streamlined Market Data ...",
+    "host_name": "www.onixs.biz",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://databento.com/microstructure/sbe",
+    "name": "What is Simple Binary Encoding (SBE)? - Databento",
+    "snippet": "Simple Binary Encoding (SBE) is a protocol for encoding and decoding binary messages that is optimized for high-performance, low-latency financial applications.",
+    "host_name": "databento.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/market-data/distributor/market-data-platform.html",
+    "name": "Data Directly from the Market Data Platform - CME Group",
+    "snippet": "Market Data platforms supports three market data formats: ITC 2.1 for top-of-book trading floor data, MDP 3.0 (FIX Binary) - Simple Binary Encoding format.",
+    "host_name": "www.cmegroup.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixtrading.org/simple-binary-encoding-high-performance-market-data-interfaces-automated-trader-article",
+    "name": "Simple Binary Encoding for high performance market data interfaces",
+    "snippet": "It came up with the Simple Binary Encoding (SBE) ... We look at how the market data interfaces at the CME Group were implemented with SBE.",
+    "host_name": "fixtrading.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/trading_solutions/market-data-solutions/sbe",
+    "name": "B2BITS SBE Market Data & Order Entry Solutions",
+    "snippet": "Simple Binary Encoding (SBE) is a FIX Trading Community standard designed for fast, compact, low-latency binary encoding of market data and trading messages.",
+    "host_name": "www.b2bits.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cmegroupclientsite.atlassian.net/wiki/display/EPICSANDBOX/CME+MDP+3.0+Market+Data",
+    "name": "CME MDP 3.0 Market - CME Group Client Systems Wiki - Confluence",
+    "snippet": "CME MDP EBS Ultra 20 Millisecond Conflated TCP. Description. Simple Binary Encoding (SBE). Protocol for decoding and encoding messages in binary format.",
+    "host_name": "cmegroupclientsite.atlassian.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://epam.github.io/java-cme-mdp3-handler",
+    "name": "Synopsis | java-cme-mdp3-handler - Open Source",
+    "snippet": "The new Simple Binary Encoding (SBE) format which replaced the FAST encoding allows more efficient and faster message decoding on the client side thanks to the ...",
+    "host_name": "epam.github.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://groups.google.com/g/quickfast_users/c/Yf97QazykSo",
+    "name": "CME MDP3 (Simple Binary Encoding) - Google Groups",
+    "snippet": "The CME is in the process of releasing a new market data format called MDP3, which uses Simple Binary Encoding. Here are some relevant links: http://www.",
+    "host_name": "groups.google.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/aeron-io/simple-binary-encoding",
+    "name": "Simple Binary Encoding (SBE) - GitHub",
+    "snippet": "SBE is an OSI layer 6 presentation for encoding and decoding binary application messages for low-latency financial applications.",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.quantresearch.org/VPIN.pdf",
+    "name": "[PDF] VPIN 1 The Volume Synchronized Probability of INformed Trading",
+    "snippet": "The Volume Synchronized Probability of. INformed Trading, commonly known as. VPIN, is a mathematical model used in financial markets for multiple purposes.",
+    "host_name": "www.quantresearch.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://visualhft.com/blog/volume-synchronized-probability-of-informed-trading-vpin",
+    "name": "Volume-Synchronized Probability of Informed Trading (VPIN) - VisualHFT",
+    "snippet": "This article explores the Volume-Synchronized Probability of Informed Trading (VPIN), a metric enhancing market analysis by measuring trade ...",
+    "host_name": "visualhft.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/a/now/jnlcfr/104.00000046.html",
+    "name": "An Improved Version of the Volume-Synchronized Probability of",
+    "snippet": "This study provides a theoretical basis for the transformation of the probability of informed trading model to the volume-synchronized probability of ...",
+    "host_name": "ideas.repec.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.bayes.citystgeorges.ac.uk/__data/assets/pdf_file/0008/128069/Paiardini.pdf",
+    "name": "[PDF] Probability of Informed Trading and Volatility for an ETF",
+    "snippet": "We use the new procedure developed by Easley et al. (2010b) to estimate the Probability of. Informed Trading based on volume imbalance, i.e. the Volume- ...",
+    "host_name": "www.bayes.citystgeorges.ac.uk",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/319498670_An_Improved_Version_of_the_Volume-Synchronized_Probability_of_Informed_Trading",
+    "name": "An Improved Version of the Volume-Synchronized Probability of",
+    "snippet": "We show mathematically that Easley et al.'s VPIN metric becomes unstable for small volume buckets and for infrequent informed trades. In contrast, we use a ...",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://acfr.aut.ac.nz/__data/assets/pdf_file/0005/29930/Adrian-Lei-CBBCVPIN_v4AUT.pdf",
+    "name": "[PDF] Exchange Traded Barrier Options and Volume-Synchronized Probability of",
+    "snippet": "Based on volume imbalance and trading intensity, Easley et al (2012) produce VPIN method to overcome the drawbacks met in high frequency market applying PIN.",
+    "host_name": "acfr.aut.ac.nz",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/docs/cookbook/sql/finance/vpin",
+    "name": "VPIN (Volume-synchronized Probability of Informed Trading)",
+    "snippet": "VPIN measures the probability that informed traders are active in the market by looking at order flow imbalance across fixed-volume buckets.",
+    "host_name": "questdb.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.stern.nyu.edu/sites/default/files/assets/documents/con_035928.pdf",
+    "name": "[PDF] 1 Flow Toxicity and Liquidity in a High Frequency World David Easley",
+    "snippet": "February, 2012 ... This paper presents a new procedure to estimate the Volume-Synchronized Probability of. Informed Trading, or the VPIN flow toxicity metric.",
+    "host_name": "www.stern.nyu.edu",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://observatorio-cientifico.ua.es/documentos/5f050123299952466643af86",
+    "name": "From PIN to VPIN: An introduction to order flow toxicity | Documentos",
+    "snippet": "As an update of the well-known PIN measure, () have developed a new measure of order flow toxicity called Volume-Synchronized Probability of Informed Trading or ...",
+    "host_name": "observatorio-cientifico.ua.es",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2791243_code1503704.pdf?abstractid=2791243",
+    "name": "[PDF] BV-VPIN: Measuring the impact of order flow toxicity and liquidity on",
+    "snippet": "Easley et al. (2012) develop the Volume-Synchronized Probability of Informed Trading (VPIN) model as a measure of order flow toxicity and Easley et al.",
+    "host_name": "papers.ssrn.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

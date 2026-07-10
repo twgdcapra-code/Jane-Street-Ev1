@@ -1,0 +1,402 @@
+   550→    https://www.amazon.in/Trading-Exchanges-Microstructure-Practitioners-Association/dp/0195144708
+   551→    In stock Rating 4.5 (86) This book is about trading, the people who trade securities and contracts, the marketplaces where they trade, and the rules that govern it.
+   552→[2] [PDF] TRADING AND EXCHANGES: Market Microstructure for Practitioners
+   553→    https://www.acsu.buffalo.edu/~keechung/MGF743/Readings/Trading-Exchanges-Market-Microstructure-Practitioners%20Draft%20Copy.pdf
+   554→    This book considers how trading markets are organized, and how their rules affect traders. Page 13. Professor Larry Harris. Trading and ...
+   555→[3] Trading and Exchanges: Market Microstructure for Practitioners
+   556→    https://books.google.com/books/about/Trading_and_Exchanges.html?id=OB6rEzmG_WsC&source=kp_cover
+   557→    Amazon.in 4.2/5 · Goodreads 5/5 · eBay This book is about trading, the people who trade securities and contracts, the marketplaces where they trade, and the rules that govern it. ... Google Books Originally published : 30 September 2002 Author : Larry Harris
+   558→[4] [PDF] Trading and Exchanges - Repository URINDO
+   559→    https://repository.urindo.ac.id/files/original/addac3602fc00a1966d264917fdb167a6886ae4d.pdf
+   560→    Most principles of market microstructure somehow involve properties of zero-sum games. ... I particularly appreciate the support given to me by Alex Baskin, Jack ...
+   561→[5] Trading and Exchanges: Market Microstructure for Practitioners
+   562→    https://www.goodreads.com/en/book/show/1290158.Trading_and_Exchanges
+   563→    This book is about trading, the people who trade securities and contracts, the marketplaces where they trade, and the rules that govern it.
+   564→[6] Market Microstructure for Practitioners by Larry Harris - YouTube
+   565→    https://www.youtube.com/watch?v=FTeMtc1GTTg
+   566→    Trading and Exchanges: Market Microstructure for Practitioners by Larry Harris (2002) Dive into the harsh reality of active trading!
+   567→[7] Trading & Exchanges by Harris still relevant? : r/FinancialCareers - Reddit
+   568→    https://www.reddit.com/r/FinancialCareers/comments/c1draw/trading_exchanges_by_harris_still_relevant
+   569→    Trading & Exchanges by Larry Harris seems to be well respected and recommended, but it was published in 2002. It is still relevant today, ...
+   570→[8] Trading and Exchanges - Larry Harris - Oxford University Press
+   571→    https://global.oup.com/academic/product/trading-and-exchanges-9780195144703
+   572→    This book is about trading, the people who trade securities and contracts, the marketplaces where they trade, and the rules that govern it.
+   573→
+   574→===== r6_itch_protocol.json =====
+   575→[1] [PDF] Nasdaq TotalView-ITCH 5.0
+   576→    https://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NQTVITCHSpecification.pdf
+   577→    As an added feature, the TotalView-•-ITCH message formats will support Nasdaq market participant attribution. TotalView-•-ITCH carries order level data for NYSE ...
+   578→[2] Nasdaq TotalView-ITCH - Financial, Economic and Alternative Data
+   579→    https://data.nasdaq.com/databases/NTV
+   580→    Order level data with attribution: For the Nasdaq execution system, Nasdaq will provide its full order depth using the standard ITCH format. Nasdaq ...
+   581→[3] [PDF] ITCH Protocol Specification | Borsa İstanbul
+   582→    https://www.borsaistanbul.com/files/bistech-itch-protocol-specification.pdf
+   583→    Order book Directory messages provide basic security data such as the ISIN code and. Financial Product. • Tick Size Table Entry messages to ...
+   584→[4] What is the ITCH protocol? | Databento Microstructure Guide
+   585→    https://databento.com/microstructure/itch
+   586→    A binary protocol developed by Nasdaq for the dissemination of market data, which usually includes every order at all price levels.
+   587→[5] How Exchanges Broadcast Market Data - The ITCH Protocol
+   588→    https://www.linkedin.com/pulse/how-exchanges-broadcast-market-data-itch-protocol-shyam-achuthan-tr51c
+   589→    ITCH is an application-level binary protocol developed by Nasdaq for the dissemination of market data, and it has become the de facto standard ...
+   590→[6] [PDF] Genium INET® - ITCH Protocol Specification - Nasdaq
+   591→    https://www.nasdaq.com/docs/ITCH%20Reference%20Data.pdf
+   592→    • Order level data (MBO) with attribution. The system will provide its full order depth using the standard ITCH format. ITCH uses a series of ...
+   593→[7] Understanding the ITCH Protocol: Origins and Usage - OnixS
+   594→    https://www.onixs.biz/insights/itch-protocol-usage
+   595→    The ITCH Protocol is used across both Nasdaq owned liquidity pools/exchanges, and other non-Nasdaq venues using the Nasdaq OMX Genium INET and Nasdaq Financial ...
+   596→[8] Working with Order Book Data: NASDAQ ITCH - GitHub
+   597→    https://github.com/stefan-jansen/machine-learning-for-trading/blob/main/02_market_and_fundamental_data/01_NASDAQ_TotalView-ITCH_Order_Book/01_parse_it
+   598→    The ITCH v5.0 specification declares over 20 message types related to system events, stock characteristics, the placement and modification of limit orders, and ...
+   599→
+   600→===== r3_orderbook_itch.json =====
+   601→[1] Market Data Replay System - QuestDB
+   602→    https://questdb.com/glossary/market-data-replay-system
+   603→    A market data replay system ingests historical tick data, quotes, and order book updates, then emits them in original or modified time, recreating the behavior ...
+   604→[2] What is Historical Data Replay? | Cube Exchange
+   605→    https://www.cube.exchange/what-is/historical-data-replay
+   606→    Nasdaq TotalView-ITCH carries order-level data with attribution across a broad set of listed securities and supports detailed reconstruction of ...
+   607→[3] Working with Market Data: NASDAQ_TotalView-ITCH Order
+   608→    https://stefan-jansen.github.io/machine-learning-for-trading/02_market_and_fundamental_data/01_NASDAQ_TotalView-ITCH_Order_Book
+   609→    The Nasdaq offers a TotalView ITCH direct data-feed protocol that allows subscribers to track individual orders for equity instruments from placement to ...
+   610→[4] Working with Order Book Data: NASDAQ ITCH - GitHub
+   611→    https://github.com/stefan-jansen/machine-learning-for-trading/blob/main/02_market_and_fundamental_data/01_NASDAQ_TotalView-ITCH_Order_Book/01_parse_it
+   612→    The order book reveals the market depth throughout the day by listing the number of shares being bid or offered at each price point. It may also identify the ...
+   613→[5] What is the ITCH protocol? | Databento Microstructure Guide
+   614→    https://databento.com/microstructure/itch
+   615→    ITCH is usually recognized for its ability to provide a full order book view, also called market by order. This means that it generally includes every buy and ...
+   616→[6] Nasdaq TotalView-ITCH - Financial, Economic and Alternative Data
+   617→    https://data.nasdaq.com/databases/NTV
+   618→    The standard Nasdaq data feed for serious traders, Nasdaq TotalView displays the full order book depth for Nasdaq market participants.
+   619→[7] [PDF] Nasdaq TotalView-ITCH 5.0
+   620→    https://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NQTVITCHSpecification.pdf
+   621→    Nasdaq TotalView ITCHis a direct data feed product offered by The Nasdaq Stock Market, LLC. This specification covers both the software and hardware (FPGA) ...
+   622→[8] [PDF] Limit order flow, market impact and optimal order sizes - EconStor
+   623→    https://www.econstor.eu/bitstream/10419/56739/1/667304487.pdf
+   624→    In this paper, we provide new empirical evidence on order submission activity and price impacts of limit orders at NASDAQ. Employing NASDAQ TotalView-ITCH.
+   625→
+   626→===== r21_lopez_de_prado.json =====
+   627→[1] Marcos Lopez de Prado
+   628→    https://www.quantresearch.org/Lectures.htm
+   629→    In this study we argue that the back-testing methodology at the core of their strategy selection process may have played a role. Most firms and portfolio ...
+   630→[2] Advances in Financial Machine Learning: Lopez de Prado, Marcos
+   631→    https://www.amazon.com/Advances-Financial-Machine-Learning-Marcos/dp/1119482089
+   632→    A practical guide to leveraging machine learning for superior investment strategies, covering data structuring, research, supercomputing, and backtesting to ...
+   633→[3] Marcos López de Prado: Advances in financial machine learning - ProQuest
+   634→    https://search.proquest.com/openview/9e6a94d180279324f3d323b41b4d356d/1?pq-origsite=gscholar&cbl=816365
+   635→    ... pitfalls. In Advances in Financial Machine Learning, Marcos López de Prado seeks to provide scientific ML techniques for the investment management ...
+   636→[4] My Key Takeways From Marcos Lopez De Prado's Advances in Financial
+   637→    https://abouttrading.substack.com/p/my-key-takeways-from-maros-lopez
+   638→    A model that looks amazing in backtests can easily fail in live trading. López de Prado's central message is that most financial ML failures ...
+   639→[5] "Advances in Financial Machine Learning" Live Interview  - YouTube
+   640→    https://www.youtube.com/watch?v=FJYgrkVbpEE
+   641→    Join us for an insightful session featuring Dr. Marcos López de Prado, a renowned hedge fund manager, entrepreneur, and professor, ...
+   642→[6] Advances in Financial Machine Learning - Reasonable Deviations
+   643→    https://reasonabledeviations.com/notes/adv_fin_ml
+   644→    Walk forward testing is most common. Though it is hard to implement, it is easily interpretable. · CV backtesting is not historically ... Financial Data Structures · The dangers of backtesting
+   645→[7] [PDF] THE 10 REASONS MOST MACHINE LEARNING FUNDS FAIL - GARP
+   646→    https://www.garp.org/hubfs/Whitepapers/a1Z1W0000054x6lUAA.pdf
+   647→    One of the most pervasive mistakes in financial research is to take some data, run it through an. ML algorithm, backtest the predictions, and ...
+   648→[8] Can anyone recommend "Advances in Financial Machine Learning" by
+   649→    https://www.reddit.com/r/algotrading/comments/8ps1vp/can_anyone_recommend_advances_in_financial
+   650→    Instead you'll learn a lot about backtesting and over fitting , data structuring and labeling, and other more general problems and how they ...
+   651→
+   652→===== r34_lob_simulation.json =====
+   653→[1] [PDF] Hawkes Process-Driven Models for Limit Order Book Dynamics
+   654→    https://www.maths.ox.ac.uk/system/files/attachments/Hawkes%20Process-Driven%20Models%20for%20Limit%20Order%20Book%20Dynamics_0.pdf
+   655→    In this dissertation, we investigate the use of Hawkes processes to model limit order book dynamics. We give empirical evidence for the applicability of ... Missing: fill | Show results with: fill
+   656→[2] Event-Based Limit Order Book Simulation under a Neural Hawkes
+   657→    https://arxiv.org/html/2502.17417v1
+   658→    In this paper, we propose an event-driven Limit Order Book (LOB) model that captures twelve of the most observed LOB events in exchange-based ...
+   659→[3] Limit Order Book Dynamics with Hawkes Processes: Mathematical
+   660→    https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5903882
+   661→    We study limit order book (LOB) dynamics using linear and multivariate Hawkes processes. Hawkes models capture empirically observed clustering ... Missing: fill probability
+   662→[4] Dynamic Modeling of Limit Order Book and Market Maker Strategy  - MDPI
+   663→    https://www.mdpi.com/2227-7390/13/5/778
+   664→    By constructing a state transition probability matrix, Markov queuing theory can effectively simulate the state changes of the limit order book. This paper ...
+   665→[5] [PDF] Numerical Simulation of Limit Order Books
+   666→    https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/20A4253965B809CE494660AF5E595E91/9781316683040c9_p113-142_CBO.pdf/numerica
+   667→    9.3 Simulation of a Limit Order Book Modelled by Hawkes Processes. The basic order book simulator is now enhanced with arrival times of limit and market.
+   668→[6] Hawkes Process Fill Modeling | Claude Code Skill - MCP Market
+   669→    https://mcpmarket.com/tools/skills/hawkes-process-fill-modeling
+   670→    It is designed for quantitative traders and market makers who need to accurately predict fill probabilities, optimize queue positions, and dynamically adjust ...
+   671→[7] [PDF] Limit order book modelling with state-dependent Hawkes processes
+   672→    http://wp.lancs.ac.uk/finec2018/files/2018/09/FINEC-2018-047-Mikko-Pakkanen.pdf
+   673→    Hawkes-process models of the order flow allow to capture self- and cross-excitation effects between market events. Missing: position fill
+   674→[8] [PDF] State-dependent Hawkes processes and their application to limit order
+   675→    https://pure.au.dk/ws/portalfiles/portal/353346350/State-dependent_Hawkes_processes_and_their_application_to_limit_order_book_modelling.pdf
+   676→    We apply state-dependent Hawkes processes to high-frequency limit order book data, allowing us to build a novel model that captures the feedback ...
+   677→
+   678→===== r4_janestreet_jump.json =====
+   679→[1] Our Trading Internship - Jane Street
+   680→    https://www.janestreet.com/join-jane-street/internships/trading
+   681→    Jane Street's trading internship is designed to cultivate advanced decision-making and problem-solving skills as applied to modern financial markets.
+   682→[2] Jump Trading Careers Guide - Quantt
+   683→    https://www.quantt.co.uk/resources/jump-trading-guide
+   684→    Jump's trader interviews may include a mock trading game where you quote prices, manage risk, and respond to changing market conditions.
+   685→[3] Jump Trading
+   686→    https://www.jumptrading.com
+   687→    At Jump, traders, builders, and researchers solve the hardest market problems, improving models, tools, and systems that power global trading.
+   688→[4] Day Trading Simulator - Learn How to Trade Without the Risk | TradingSim
+   689→    https://www.tradingsim.com
+   690→    A session-based replay simulator that keeps everything synchronized across symbols, charts, and tools for a seamless trading experience.
+   691→[5] Best Stock Market Simulators for Aspiring Traders - FX Replay
+   692→    https://fxreplay.com/learn/best-stock-market-simulators-for-aspiring-traders
+   693→    Explore beginner-friendly stock market simulators and learn how FX Replay helps traders practice realistically, build skill faster, and prepare ...
+   694→[6] Jane Street Market Prediction | Kaggle
+   695→    https://www.kaggle.com/competitions/jane-street-market-prediction
+   696→    Each row in the test set represents a trading opportunity for which you will be predicting an action value, 1 to make the trade and 0 to pass on it. Each trade ...
+   697→[7] The BEST Stock Market Simulators (Step-by-Step Guide) - YouTube
+   698→    https://www.youtube.com/watch?v=5aWoZdbXJrA
+   699→    ... trading-class/ Want to Learn More ❓❓ Get info on My Strategy and Courses here: https://www.warriortrading.com/trading-courses/ Before we ...
+   700→[8] Master Trading Strategies with Market Replay Simulator - TraderSync
+   701→    https://tradersync.com/market-replay-simulator
+   702→    Whether you're trading US equities, options, CME futures, forex, or crypto, our simulator lets you test and refine your strategies with over 30,000 assets.
+   703→
+   704→===== r14_aeron_disruptor.json =====
+   705→[1] LMAX Disruptor: High performance alternative to bounded queues
+   706→    https://lmax-exchange.github.io/disruptor/disruptor.html
+   707→    A RingBuffer exists at the core of the Disruptor pattern providing storage for data exchange without contention. The concurrency concerns are separated out ... Missing: Aeron | Show results with: Aeron
+   708→[2] Using LMAX Disruptor to build a high-performance in-memory event
+   709→    https://dev.to/axelncho/using-lmax-disruptor-to-build-a-high-performance-in-memory-event-broker-in-java-6i
+   710→    The ring buffer. Disruptor is basically a very good application of the circular buffer, a fundamental data structure where a fixed-size array ... Missing: Aeron | Show results with: Aeron
+   711→[3] The Coalescing Ring Buffer | LMAX Technology Blog
+   712→    https://technology.lmax.com/posts/the-coalescing-ring-buffer
+   713→    The Coalescing Ring Buffer borrows the following design principles from the Disruptor: using arrays as data structures because of their ... Missing: Aeron | Show results with: Aeron
+   714→[4] LMAX Disruptor - Nam Vu - Medium
+   715→    https://batnamv.medium.com/lmax-disruptor-4621a8bb2b99
+   716→    Từ phiên bản 3.0 trở đi thì đây chính là cốt lõi (core) của Disruptor, nó được thiết kế để quản lý việc gửi và nhận dữ liệu đến Ring-Buffer giữa ... Missing: Aeron | Show results with: Aeron
+   717→[5] LMAX Disruptor Projects - AI Tinkerers - Atlanta
+   718→    https://atlanta.aitinkerers.org/technologies/lmax-disruptor
+   719→    LMAX Disruptor. A high-performance inter-thread messaging library designed for ultra-low latency financial trading via a lock-free ring buffer. Missing: Aeron data
+   720→[6] The LMAX Architecture - Martin Fowler
+   721→    https://martinfowler.com/articles/lmax.html
+   722→    Figure 4: The LMAX architecture with the disruptors expanded. The disruptor is a general purpose component that can be used outside ... Missing: Aeron | Show results with: Aeron
+   723→[7] lmax-disruptor · GitHub Topics
+   724→    https://github.com/topics/lmax-disruptor
+   725→    Fast and easy to use SPSC Circular Ringbuffer using core principles presented by the developers of the LMAX Disruptor. java performance queue atomic message- ...
+   726→[8] LMAX Disruptor - GitHub Pages
+   727→    https://lmax-exchange.github.io/disruptor
+   728→    The Disruptor is a general-purpose mechanism for solving a difficult problem in concurrent programming. It works in a different way to more conventional ... Missing: Aeron | Show results with: Aeron
+   729→
+   730→===== r36_tsdb_comparison.json =====
+   731→[1] Time Series Data and Tick Databases - TimeStored.com
+   732→    https://www.timestored.com/data
+   733→    Below we provide a number of tutorials covering storage and analysis of time series data, with a particular emphasis on tick/market data.
+   734→[2] QuestDB vs kdb+
+   735→    https://questdb.com/compare/questdb-vs-kdb
+   736→    QuestDB vs kdb+ for capital markets. Compare architecture, programming models, and operational characteristics for time-series analytics workloads. Missing: DolphinDB tick
+   737→[3] Benchmarking KDB-X vs QuestDB, ClickHouse, TimescaleDB and  - KX
+   738→    https://kx.com/blog/benchmarking-kdb-x-vs-questdb-clickhouse-timescaledb-and-influxdb-with-tsbs
+   739→    QuestDB excelled in double-groupby-* and lastpoint queries. Considering all queries, it is 4.2 times slower on average compared to KDB-X. Missing: DolphinDB | Show results with: DolphinDB
+   740→[4] The Best Time-Series Databases Compared (2026) - Tiger Data
+   741→    https://www.tigerdata.com/learn/the-best-time-series-databases-compared
+   742→    A comparison of the leading time-series database products. Plus, a discussion of key criteria and features to consider when choosing a time-series database. Missing: DolphinDB | Show results with: DolphinDB
+   743→[5] Benchmark and comparison: QuestDB vs. ClickHouse
+   744→    https://questdb.com/blog/clickhouse-vs-questdb-comparison
+   745→    Benchmarks and an overview of ClickHouse versus QuestDB to compare features, functionality, performance, and ease of use. Missing: DolphinDB | Show results with: DolphinDB
+   746→[6] Picking the Fastest Database to Store Time-Series Data - Medium
+   747→    https://medium.com/@smakhnist/picking-the-fastest-database-to-store-time-series-data-411ca3651277
+   748→    For years, KDB+ was the de facto answer for high-end tick analytics. The landscape is shifting: QuestDB has now demonstrated it can beat KDB+ on ... Missing: DolphinDB | Show results with: DolphinDB
+   749→[7] Benchmarking Specialized Databases for High-frequency Data - ar5iv
+   750→    https://ar5iv.labs.arxiv.org/html/2301.12561
+   751→    This paper presents a benchmarking suite designed for the evaluation and comparison of time series databases for high-frequency data, with a focus on financial ... Missing: DolphinDB QuestDB
+   752→[8] DB-Engines Ranking of Time Series DBMS
+   753→    https://db-engines.com/en/ranking/time+series+dbms
+   754→    The DB-Engines Ranking ranks database management systems according to their popularity. The ranking is updated monthly.
+   755→
+   756→===== r13_ring_buffer_mmap.json =====
+   757→[1] HaveFunTrading/bcast: Low latency, single producer & many consumer
+   758→    https://github.com/HaveFunTrading/bcast
+   759→    Low latency, single producer & many consumer (SPMC) ring buffer that works with shared memory. bcast natively supports variable message sizes ( &[u8] ) and ... Missing: market C++
+   760→[2] How To Build An Ultra-Low Latency Lock-Free Ring Buffer In C++
+   761→    https://levelup.gitconnected.com/how-hfts-move-data-in-nanoseconds-bfac9a1e3031
+   762→    Build a lock-free SPSC ring buffer in modern C++ and learn how HFT systems eliminate locks, false sharing, memory fences, and cross-core ... Missing: mapped file replay
+   763→[3] Building a High-Performance Lock-Free Ring Buffer in C++ for
+   764→    https://dev.to/lakshya_bankey_27825e4908/building-a-high-performance-lock-free-ring-buffer-in-c-for-ultra-low-latency-messaging-19h6
+   765→    Achieved over 111 million operations per second with sub-10 nanosecond average latency, and a 94% reduction in tail latency through focused ... Missing: mapped file data replay
+   766→[4] Design and Implementation of a Low-Latency High-Frequency
+   767→    https://medium.com/@gwrx2005/design-and-implementation-of-a-low-latency-high-frequency-trading-system-for-cryptocurrency-markets-a1034fe33d97
+   768→    Our system follows a producer-consumer pipeline centered on the Disruptor ring buffer. The typical flow of data is: 1. Ingestion: Market data is ...
+   769→[5] Chronicle Queue for High-Performance Systems
+   770→    https://chronicle.software/products/chronicle-queue
+   771→    Chronicle Queue Enterprise achieves ultra-low latency by combining an append-only design with memory-mapped files for fast, scalable, and thread-safe data ...
+   772→[6] I Built a Nanosecond Market Data Handler in C++ | Xevrion
+   773→    https://xevrion.dev/blogs/photon-blog
+   774→    So I built PHOTON. A nanosecond market data feed handler in C++ that ingests real NASDAQ ITCH 5.0 binary protocol over UDP, parses it with zero ...
+   775→[7] Optimizing a Lock-Free Ring Buffer : r/cpp - Reddit
+   776→    https://www.reddit.com/r/cpp/comments/1s2cue8/optimizing_a_lockfree_ring_buffer
+   777→    Interesting article, but recently in my codebase I implemented a SPSC ring buffer using mirrored memory mapping (basically, creating a memory- ... Low latency : r/java - Reddit linear_ringbuffer - A C++ ringbuffer that always looks like a flat array More results from www.reddit.com Missing: market r
+   778→[8] [RFC] TorchRL Replay buffers: Pre-allocated and memory-mapped
+   779→    https://discuss.pytorch.org/t/rfc-torchrl-replay-buffers-pre-allocated-and-memory-mapped-experience-replay/155335
+   780→    We introduce a new memory-mapped storage for Replay Buffers that allows to store a large amount of data across workers and nodes, with low-latency indexing and ... Missing: ring market
+   781→
+   782→===== r27_yuan_devaluation.json =====
+   783→[1] [PDF] Market Sentiment Deteriorates Following China's Currency
+   784→    https://www.financialresearch.gov/financial-markets-monitor/files/OFR-FMM-2015-08-24-Market-Sentiment-Deteriorates.pdf
+   785→    2015 is now about 50 percent. China devalued its currency and continued policies to stem equity market declines. the central 6.30 6.40 6.50.  ...
+   786→[2] [PDF] China | RMB depreciation: this time is different - BBVA Research
+   787→    https://www.bbvaresearch.com/wp-content/uploads/2019/08/China-Economic-Watch_RMB-exchange-rate-Aug-2019.pdf
+   788→    In the offshore market, the CNH exchange rate ... The onshore exchange rate depreciated from 6.20 in August 2015 to 6.95 early 2017.
+   789→[3] Chinese Yuan - Quote - Chart - Historical Data - News
+   790→    https://tradingeconomics.com/china/currency
+   791→    Over the past month, the Chinese Yuan has weakened 0.22%, but it's up by 5.32% over the last 12 months.
+   792→[4] Effects of China's Currency Devaluation on Global Markets
+   793→    https://www.investopedia.com/trading/chinese-devaluation-yuan
+   794→    On Aug. 11, 2015, the People's Bank of China (PBOC) surprised markets with three consecutive devaluations of the Chinese yuan knocking over 3% off its value.
+   795→[5] Tumbled Stock Market, RMB Devaluation and Financial Reform in
+   796→    https://journals.openedition.org/chinaperspectives/6870
+   797→    The surprise move by the PBOC triggered a devaluation of the RMB by 1.9% in one day, the biggest single-day decrease in the yuan's history.17
+   798→[6] [PDF] Implications of Chinese Yuan on China's competitiveness
+   799→    https://mpra.ub.uni-muenchen.de/70144/1/MPRA_paper_70144.pdf
+   800→    The Yuan dropped to a four-year low after 11th August 2015 devaluation, before PBoC devalued RMB in August 2015. period, RMB has appreciated ...
+   801→[7] China stuns markets with sudden currency devaluation - Euromoney
+   802→    https://www.euromoney.com/article/27bjsstsqxhkmh0wsdk8i/foreign-exchange/china-stuns-markets-with-sudden-currency-devaluation
+   803→    On Tuesday, the People's Bank of China (PBoC) raised the USD-CNY fixing to 6.2298 from 6.1162, the highest dollar fix in two years. CNY-CNH ...
+   804→[8] [PDF] The Devaluation of the Chinese Yuan – From a Purchasing Power
+   805→    https://www.iima.or.jp/en/docs/column/2015/0824_e.pdf
+   806→    On August 11th the People's Bank of China (“PBOC”) devaluated the median rate of the U.S.. Dollar / Chinese Yuan rate by 1.9% and on the ...
+   807→
+   808→===== r7_ice_eurex_vendors.json =====
+   809→[1] Tick Data: Historical Forex, Options, Stock &amp; Futures Data
+   810→    https://www.tickdata.com
+   811→    Tick Data's core product is clean, research-ready, global historical intraday data. Our offering includes institutional-grade quote and trade history.
+   812→[2] ICE Proprietary Data
+   813→    https://www.ice.com/fixed-income-data-services/data-and-analytics/proprietary-data
+   814→    Our View Only service is a subscription to the web based ICE Trading Platform providing real-time access to trading activity across our Futures Markets.
+   815→[3] Data - Eurex
+   816→    https://www.eurex.com/ex-en/data
+   817→    Data. Dive into the world of Eurex data and analytics. MD + S. Real-time data | Historical data | Analytics | Reference data | Marketplace. Deutsche Börse ...
+   818→[4] Tick History - Data Analytics - LSEG
+   819→    https://www.lseg.com/en/data-analytics/market-data/data-feeds/tick-history
+   820→    Tick History is a web-based interface that gives access to historical tick-level data across global asset classes, covering OTC and exchange-traded ...
+   821→[5] Real-Time & Historical Tick Data with Nanosecond Precision
+   822→    https://databento.com/tick-data
+   823→    Databento provides cloud-based solutions for intraday and real-time tick data. Simple, fast access in Python, C++, and Rust.
+   824→[6] ICE Data Services and OneMarketData to Offer Real-time Streaming
+   825→    https://ir.theice.com/press/news-details/2018/ICE-Data-Services-and-OneMarketData-to-Offer-Real-time-Streaming-Tick-Data-and-Analytics/default.aspx
+   826→    ICE Data Services will offer an on-demand tick data and analytics service, utilizing OneMarketData's OneTick platform.
+   827→[7] Tick Data (Examples) - QuestDB
+   828→    https://questdb.com/glossary/tick-data
+   829→    Tick Data is the most granular form of market data available. It captures every price change, every trade, and every bid and ask update.
+   830→[8] Market Data - Xetra - Deutsche Börse AG
+   831→    https://www.cashmarket.deutsche-boerse.com/cash-en/Data-Tech/statistics/market-data
+   832→    Deutsche Börse Data Shop offers you a wide range of historical market data. In addition, the highly granular data of the Eurex and Deutsche Börse trading ...
+   833→
+   834→===== r26_multi_symbol_sync.json =====
+   835→[1] Market Replay Systems - QuestDB
+   836→    https://questdb.com/glossary/market-replay-systems
+   837→    Market replay systems must maintain precise timestamp synchronization across multiple data sources to accurately reconstruct market conditions. Data ...
+   838→[2] Best Practices for Market Data Replay | by DolphinDB - Medium
+   839→    https://medium.com/@DolphinDB_Inc/best-practices-for-market-data-replay-e69fea702736
+   840→    Multi-source synchronization: Enables orderly replay of multiple data sources concurrently. Advanced ordering options: Provides time-based ...
+   841→[3] The Importance of Time and Synchronization in Financial
+   842→    https://safran-navigation-timing.com/the-importance-of-time-and-synchronization-in-financial-trading-systems
+   843→    Accurate timekeeping and synchronization are vital for maintaining the correct sequence of market events, such as order submissions, cancellations, and trade ...
+   844→[4] An Advanced Approach of Local Counter Synchronization to  - SCIRP
+   845→    https://www.scirp.org/journal/paperinformation?paperid=68657
+   846→    Timestamp is an identifier of every transaction and used to permit ordering. Timestamp has two essential attributes: uniqueness and monotonicity. Monotonicity ...
+   847→[5] Multiversion Timestamp Ordering Protocol | PDF - Scribd
+   848→    https://www.scribd.com/doc/83894445/Multi-Version-Timestamp-Ordering-Protocol
+   849→    Rating 4.5 (15) The multiversion timestamp ordering protocol maintains multiple versions of each data item. Each version contains the data, a write timestamp (W-TS), and a ...
+   850→[6] [PDF] Lecture Notes - 18 Timestamp Ordering Concurrency Control
+   851→    https://15445.courses.cs.cmu.edu/spring2025/notes/18-timestampordering.pdf
+   852→    Different schemes assign timestamps at different times during the transaction. Some advanced schemes even assign multiple timestamps per transaction. If TS(Ti) ...
+   853→[7] 19 - Timestamp Ordering Concurrency Control (CMU Intro to  - YouTube
+   854→    https://www.youtube.com/watch?v=risHwKeWbBM
+   855→    #19 - Timestamp Ordering Concurrency Control (CMU Intro to Database Systems). 2.6K views · 7 months ago. CARNEGIE MELLON UNIVERSITY ...more ...
+   856→[8] Replay-Based Synchronization of Timestamps in Event Traces of
+   857→    https://www.researchgate.net/publication/4376982_Replay-Based_Synchronization_of_Timestamps_in_Event_Traces_of_Massively_Parallel_Applications
+   858→    In addition to correctly synchronizing clocks in order to accurately compute the clock oset during post-processing, some tools also rely on logical clocks ...
+   859→
+   860→===== r28_dom_visualization.json =====
+   861→[1] Depth of Market (DOM): From Basics to Evolution - Bookmap
+   862→    https://bookmap.com/blog/depth-of-market-dom-from-basics-to-evolution
+   863→    The Evolution of DOM · Why Traders Rely on DOM
+   864→[2] Market Depth Heatmap - QuestDB
+   865→    https://questdb.com/glossary/market-depth-heatmap
+   866→    A market depth heatmap is a visual representation of order book liquidity that uses color gradients to display the concentration of buy and sell orders.
+   867→[3] Heatmap in Trading: How to Learn What Market Depth is Hiding?
+   868→    https://medium.com/@bookmap/heatmap-in-trading-how-to-learn-what-market-depth-is-hiding-7095cf191d03
+   869→    Heatmap visualizes the evolution of market depth data and is the heart of Bookmap which literally stands for Order Book and Heat Map.
+   870→[4] The Best Heat Maps in 2026: ATAS vs. Bookmap, Quantower, and
+   871→    https://atas.net/blog/best-heatmap-trading-software-2026
+   872→    Looking for a heat map for Order Flow? An honest comparison of ATAS, Bookmap, Quantower, and others. Compare GPU rendering speed, ...
+   873→[5] Order Book Visualization - Wilmott
+   874→    https://www.wilmott.com/order-book-visualization
+   875→    The heat map records and visualises every change in the order book by displaying it on a scale of gray shades. The brighter shades mark price ...
+   876→[6] Heatmap — Indicadores y estrategias - TradingView
+   877→    https://es.tradingview.com/scripts/heatmap
+   878→    The heatmap is designed for macro analysis and educational research. It does not predict price direction by itself and should not be used as a standalone ...
+   879→[7] Must Have Bookmap Try 2026 Tools for Fast Traders {cI6FG5l}
+   880→    https://mattioli1885journals.com/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=%2Findex%2Ephp%2Findex%2Flogin%2FsignOut%3Fsource%3D%2Etrdex%
+   881→    Bookmap is a market‑depth visualization platform that displays liquidity as a heatmap together with executed trades and the time & sales tape.
+   882→[8] Depth chart: A visual guide to market liquidity and order flow
+   883→    https://www.highcharts.com/blog/tutorials/depth-chart-a-visual-guide-to-market-liquidity-and-order-flow
+   884→    A market depth chart, also known as an order book visualization, displays the cumulative volume of buy orders (bids) and sell orders (asks) at various price ...
+   885→
+   886→===== r2_ninjatrader_sierra.json =====
+   887→[1] Market Replay (Playback Connection) - NinjaTrader Desktop
+   888→    https://support.ninjatrader.com/eu/s/article/How-Do-I-Connect-to-NinjaTrader-Desktop-s-Playback-Feature?
+   889→    After selecting Playback, the Historical Data window will appear. The Loaded section displays any Market Replay and Historical Data already available on your ...
+   890→[2] Replaying Charts - Sierra Chart
+   891→    https://www.sierrachart.com/index.php?page=doc/ReplayChart.html
+   892→    Multiple charts can be replayed at the same time. To access the Chart replay feature, select Chart >> Replay Chart >> Replay Chart on the menu ...
+   893→[3] Looking for /ES tick data to use with Ninjatrader Market Replay for chart
+   894→    https://www.reddit.com/r/FuturesTrading/comments/12qrnav/looking_for_es_tick_data_to_use_with_ninjatrader
+   895→    The PlayBack feature in Ninjatrader gives you a warning that "historical" is less accurate than "Market Replay" because there is no Level II ... Market replay! : r/FuturesTrading - Reddit NinjaTrader Market Replay so choppy - Any alternative? : r/FuturesTrading More results from www.reddit.com
+   896→[4] NinjaTrader 8 - Market Replay data
+   897→    https://ninjatrader.com/support/helpguides/nt8/set_up12.htm
+   898→    1.Open the Historical Data window. · 2.Select the instrument and date of ...
+   899→[5] Problems with replay mode on all my charts - Support Board - Sierra Chart
+   900→    https://www.sierrachart.com/SupportBoard.php?ThreadID=96044
+   901→    You cannot replay Historical Daily charts. Those are not capable of being replayed. You will never use a Historical Daily or higher timeframe ...
+   902→[6] NinjaTrader 8 Tutorial : How To Use Market Playback (Update 2025)
+   903→    https://www.youtube.com/watch?v=29ci7eq7dm0
+   904→    In this NinjaTrader tutorial series, I will share with you how to use market playback and how to download playback data in three separate ...
+   905→[7] Market replay data versus historical data - NinjaTrader Community Forum
+   906→    https://discourse.ninjatrader.com/t/market-replay-data-versus-historical-data/5472
+   907→    The content within the historical data files, contains just Level 1 data only. Historical data is typically used as a cache to fill your charts ...
+   908→[8] PortaraNinja: Historical Intraday And Tick Data for NinjaTrader
+   909→    https://portaraninja.com
+   910→    Watch the video below on how to transform your 'historical data' into 'market replay' data within NinjaTrader and then use that 'market replay' data in Playback ...
+   911→
+   912→===== r35_janestreet_intern.json =====
+   913→[1] Interviewing - Jane Street
+   914→    https://www.janestreet.com/join-jane-street/interviewing
+   915→    We focus on collaborative problem solving during the interview and we consider applicants for every open role, not just the one you apply for.
+   916→[2] What should I expect in a Jane Street Quantitative Trader internship
+   917→    https://www.quora.com/What-should-I-expect-in-a-Jane-Street-Quantitative-Trader-internship-interview
+   918→    The on-site consists of 4 interviews: 2 quant, 1 programming, and 1 behavioral. They typically don't do more than 2 rounds What is it like to be an intern at Jane Street Capital? - Quora What makes the interview process at top trading firms like Jane Street ... More results from www.quora.com
+   919→[3] Landed myself an interview at Jane Street for quant trading internship
+   920→    https://www.reddit.com/r/FinancialCareers/comments/mchj2u/landed_myself_an_interview_at_jane_street_for
+   921→    It will be very heavy on mental math and logic puzzles. You will also be given poker chips and ask to bet on your answers. They test for overconfidence a lot, ... What to expect on jane street interviews : r/quantfinance - Reddit Made Jane Street Trading Internship: AMA : r/quant - Reddit More resul
+   922→[4] A Jane Street Trading Mock Interview with Graham and Andrea - YouTube
+   923→    https://www.youtube.com/watch?v=NT_I1MjckaU
+   924→    Interviews can be stressful, especially if you don't know what to expect. To help you feel informed and comfortable, we've developed a ...
+   925→[5] Jane Street Interview Guide - Tradermath
+   926→    https://www.tradermath.org/knowledge-base/jane-street-interview-guide
+   927→    The interview process begins with two to three phone interviews, focusing on foundational skills through conversational questions. No prior finance knowledge ...
+   928→[6] Jane Street Trading INtern Interview Experience & Questions | Glassdoor
+   929→    https://www.glassdoor.com/Interview/Jane-Street-Trading-INtern-Interview-Questions-EI_IE255549.0,11_KO12,26.htm
+   930→    Rating 5.0 (1) Candidates frequently report a structured and multi-stage interview process that includes initial screenings, technical rounds focused on math, probability, ...
+   931→[7] Jane Street Capital Interview Questions (2026) - 350 Entries
+   932→    https://www.wallstreetoasis.com/company/jane-street-capital/interview
+   933→    First interview was testing simple math brainteasers. The second round was a live coding test in Python with follow-ups. It took around 1 month from passed ...
+   934→[8] How to Land a Quant Trading Internship at Jane Street
+   935→    https://www.quantblueprint.com/blog/how-i-landed-a-quant-trading-internship-at-jane-street
+   936→    I had a total of 4 rounds (3 phone interviews, and 1 on-site interview). All of my interviews focused on probability, betting, expected value, ...
+   937→
+   938→===== r17_opensource_engines.json =====
+   939→[1] Python Paper Trading Frameworks Compared (2026) - GitHub Gist
+   940→    https://gist.github.com/rmbell09-lang/01281551ac4672bd5d1a42bb58575144
+   941→    A practical comparison of open-source Python tools for paper trading, backtesting, and algo strategy development. TL;DR. Tool, Setup Time, Paper Trading ...
+   942→[2] ml4t/backtest - GitHub
+   943→    https://github.com/ml4t/backtest
+   944→    Event-driven backtesting engine for quantitative trading strategies with realistic execution modeling. Part of the ML4T Library Ecosystem. This library is one ...
+   945→[3] quantopian/zipline: Zipline, a Pythonic Algorithmic Trading Library - GitHub
+   946→    https://github.com/quantopian/zipline
+   947→    Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting. Zipline is currently used in production as the backtesting and ...
+   948→[4] The Quantopian Backtesting Engine Still Used Today - YouTube
+   949→    https://www.youtube.com/watch?v=tbax2VcQUj4
+
+[showing lines 550-949 of 1067; use offset=950 with limit to continue reading]

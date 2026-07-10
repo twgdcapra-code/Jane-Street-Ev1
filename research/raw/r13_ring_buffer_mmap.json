@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/HaveFunTrading/bcast",
+    "name": "HaveFunTrading/bcast: Low latency, single producer & many consumer",
+    "snippet": "Low latency, single producer & many consumer (SPMC) ring buffer that works with shared memory. bcast natively supports variable message sizes ( &[u8] ) and ... Missing: market C++",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://levelup.gitconnected.com/how-hfts-move-data-in-nanoseconds-bfac9a1e3031",
+    "name": "How To Build An Ultra-Low Latency Lock-Free Ring Buffer In C++",
+    "snippet": "Build a lock-free SPSC ring buffer in modern C++ and learn how HFT systems eliminate locks, false sharing, memory fences, and cross-core ... Missing: mapped file replay",
+    "host_name": "levelup.gitconnected.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/lakshya_bankey_27825e4908/building-a-high-performance-lock-free-ring-buffer-in-c-for-ultra-low-latency-messaging-19h6",
+    "name": "Building a High-Performance Lock-Free Ring Buffer in C++ for",
+    "snippet": "Achieved over 111 million operations per second with sub-10 nanosecond average latency, and a 94% reduction in tail latency through focused ... Missing: mapped file data replay",
+    "host_name": "dev.to",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@gwrx2005/design-and-implementation-of-a-low-latency-high-frequency-trading-system-for-cryptocurrency-markets-a1034fe33d97",
+    "name": "Design and Implementation of a Low-Latency High-Frequency",
+    "snippet": "Our system follows a producer-consumer pipeline centered on the Disruptor ring buffer. The typical flow of data is: 1. Ingestion: Market data is ...",
+    "host_name": "medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://chronicle.software/products/chronicle-queue",
+    "name": "Chronicle Queue for High-Performance Systems",
+    "snippet": "Chronicle Queue Enterprise achieves ultra-low latency by combining an append-only design with memory-mapped files for fast, scalable, and thread-safe data ...",
+    "host_name": "chronicle.software",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://xevrion.dev/blogs/photon-blog",
+    "name": "I Built a Nanosecond Market Data Handler in C++ | Xevrion",
+    "snippet": "So I built PHOTON. A nanosecond market data feed handler in C++ that ingests real NASDAQ ITCH 5.0 binary protocol over UDP, parses it with zero ...",
+    "host_name": "xevrion.dev",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/cpp/comments/1s2cue8/optimizing_a_lockfree_ring_buffer",
+    "name": "Optimizing a Lock-Free Ring Buffer : r/cpp - Reddit",
+    "snippet": "Interesting article, but recently in my codebase I implemented a SPSC ring buffer using mirrored memory mapping (basically, creating a memory- ... Low latency : r/java - Reddit linear_ringbuffer - A C++ ringbuffer that always looks like a flat array More results from www.reddit.com Missing: market replay",
+    "host_name": "www.reddit.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://discuss.pytorch.org/t/rfc-torchrl-replay-buffers-pre-allocated-and-memory-mapped-experience-replay/155335",
+    "name": "[RFC] TorchRL Replay buffers: Pre-allocated and memory-mapped",
+    "snippet": "We introduce a new memory-mapped storage for Replay Buffers that allows to store a large amount of data across workers and nodes, with low-latency indexing and ... Missing: ring market",
+    "host_name": "discuss.pytorch.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fgiesen.wordpress.com/2012/07/21/the-magic-ring-buffer",
+    "name": "The Magic Ring Buffer | The ryg blog",
+    "snippet": "The underlying concept is quite simple: “unwrap” the ring by placing multiple identical copies of it right next to each other in memory. Missing: market replay latency",
+    "host_name": "fgiesen.wordpress.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.bitdrift.io/post/bitdrift-ring-buffer",
+    "name": "The bitdrift ring buffer: time travel, science fiction no more - Blog",
+    "snippet": "The first stage of the ring buffer is held entirely in volatile RAM and is multiple producer / single consumer (MPSC). RAM is used for speed. We ... Missing: market latency",
+    "host_name": "blog.bitdrift.io",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

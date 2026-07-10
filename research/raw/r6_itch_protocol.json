@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NQTVITCHSpecification.pdf",
+    "name": "[PDF] Nasdaq TotalView-ITCH 5.0",
+    "snippet": "As an added feature, the TotalView-•-ITCH message formats will support Nasdaq market participant attribution. TotalView-•-ITCH carries order level data for NYSE ...",
+    "host_name": "www.nasdaqtrader.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://data.nasdaq.com/databases/NTV",
+    "name": "Nasdaq TotalView-ITCH - Financial, Economic and Alternative Data",
+    "snippet": "Order level data with attribution: For the Nasdaq execution system, Nasdaq will provide its full order depth using the standard ITCH format. Nasdaq ...",
+    "host_name": "data.nasdaq.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.borsaistanbul.com/files/bistech-itch-protocol-specification.pdf",
+    "name": "[PDF] ITCH Protocol Specification | Borsa İstanbul",
+    "snippet": "Order book Directory messages provide basic security data such as the ISIN code and. Financial Product. • Tick Size Table Entry messages to ...",
+    "host_name": "www.borsaistanbul.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://databento.com/microstructure/itch",
+    "name": "What is the ITCH protocol? | Databento Microstructure Guide",
+    "snippet": "A binary protocol developed by Nasdaq for the dissemination of market data, which usually includes every order at all price levels.",
+    "host_name": "databento.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/how-exchanges-broadcast-market-data-itch-protocol-shyam-achuthan-tr51c",
+    "name": "How Exchanges Broadcast Market Data - The ITCH Protocol",
+    "snippet": "ITCH is an application-level binary protocol developed by Nasdaq for the dissemination of market data, and it has become the de facto standard ...",
+    "host_name": "www.linkedin.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nasdaq.com/docs/ITCH%20Reference%20Data.pdf",
+    "name": "[PDF] Genium INET® - ITCH Protocol Specification - Nasdaq",
+    "snippet": "• Order level data (MBO) with attribution. The system will provide its full order depth using the standard ITCH format. ITCH uses a series of ...",
+    "host_name": "www.nasdaq.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/insights/itch-protocol-usage",
+    "name": "Understanding the ITCH Protocol: Origins and Usage - OnixS",
+    "snippet": "The ITCH Protocol is used across both Nasdaq owned liquidity pools/exchanges, and other non-Nasdaq venues using the Nasdaq OMX Genium INET and Nasdaq Financial ...",
+    "host_name": "www.onixs.biz",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/stefan-jansen/machine-learning-for-trading/blob/main/02_market_and_fundamental_data/01_NASDAQ_TotalView-ITCH_Order_Book/01_parse_itch_order_flow_messages.ipynb",
+    "name": "Working with Order Book Data: NASDAQ ITCH - GitHub",
+    "snippet": "The ITCH v5.0 specification declares over 20 message types related to system events, stock characteristics, the placement and modification of limit orders, and ...",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/PSXTV-ITCH-V3_2.pdf",
+    "name": "[PDF] NASDAQ OMX PSX TotalView-ITCH 3.2",
+    "snippet": "o Order level data: The PSX TotalView-ITCH data feed provides its full order depth using the standard ITCH format. ITCH uses a series of order messages to ...",
+    "host_name": "www.nasdaqtrader.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://assets.ctfassets.net/mx0rke14e5yt/5613yQVBAKqyxH6HQVvWdg/0fd40e3aa0ef19c0783e694c61cc21e5/itto_spec40_-_TCP_Updated.pdf",
+    "name": "[PDF] Nasdaq ITCH to Trade Options",
+    "snippet": "Order and Quote level data: For NASDAQ Option System, NASDAQ will provide its full order and quote depth using the standard ITTO format. ITTO uses a series of ...",
+    "host_name": "assets.ctfassets.net",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://questdb.com/glossary/market-data-replay-system",
+    "name": "Market Data Replay System - QuestDB",
+    "snippet": "A market data replay system is trading infrastructure that plays back recorded exchange feeds as if they were live. It preserves tick-by-tick sequencing, ...",
+    "host_name": "questdb.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/cme-mdp-premium-market-data-handler.html",
+    "name": "CME MDP Premium Market Data Handler SDK (C++, Java, .NET",
+    "snippet": "Supports historical tick data Feed Engine implementations supporting replay mode for full precision order book reconstruction for back-testing, strategy ...",
+    "host_name": "www.onixs.biz",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@DolphinDB_Inc/best-practices-for-market-data-replay-e69fea702736",
+    "name": "Best Practices for Market Data Replay | by DolphinDB - Medium",
+    "snippet": "This tutorial introduces the practical implementation of the DolphinDB's replay feature. Based on the DolphinDB's streaming replay, distributed database ...",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/457089321",
+    "name": "CME Settlements and Valuations",
+    "snippet": "Client systems can recover specific messages that were missed using the sequence number and the TCP historical replay component. The TCP historical replay ...",
+    "host_name": "cmegroupclientsite.atlassian.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.dolphindb.com/en/Tutorials/market_data_replay.html",
+    "name": "Market Data Replay",
+    "snippet": "Tick data replay is critical for high-frequency trading strategy development. This tutorial introduces data replay in DolphinDB and gives detailed examples.",
+    "host_name": "docs.dolphindb.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tradersync.com/market-replay-simulator/futures",
+    "name": "Futures Market Replay Simulator with AI-Powered Feedback",
+    "snippet": "Practice futures trading in our replay simulator, and our AI will auto-log your trades and analyze them to find and sharpen your edge.",
+    "host_name": "tradersync.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dxfeed.com/data-services/market-replay",
+    "name": "Tick-Level Historical Data Market Replay Service Provided by dxFeed",
+    "snippet": "Historical market data storage and replay solution provides tick-level data for historical insight and trading strategies back-testing.",
+    "host_name": "dxfeed.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://es.tradingview.com/news/financemagnates:1a81d4ac7094b:0-trading-technologies-adds-market-replay-to-trade-surveillance-platform-for-brokers-and-exchanges",
+    "name": "Trading Technologies Adds Market Replay to Trade Surveillance",
+    "snippet": "It offers tick-by-tick and frame-by-frame playback of the order book, enabling investigators to examine market activity during surveillance ...",
+    "host_name": "es.tradingview.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://a-teaminsight.com/briefs/trading-technologies-upgrades-tt-trade-surveillance-platform-with-market-replay-tool",
+    "name": "Trading Technologies Upgrades TT Trade Surveillance Platform",
+    "snippet": "The Market Replay module functions as a forensic auditing tool, providing a tick-by-tick visual playback of the order book over a 90-day ...",
+    "host_name": "a-teaminsight.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onetick.com/cloud-services/market-replay",
+    "name": "Market Replay | OneTick Cloud",
+    "snippet": "Market Replay displays the BBO and associated trades across a specified time window, with related message history and order book state at a given message.",
+    "host_name": "www.onetick.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,400 @@
+
+========== r10_flash_crash.json ==========
+[1] [PDF] Findings Regarding the Market Events of May 6, 2010 - SEC.gov
+    URL: https://www.sec.gov/files/marketevents-report.pdf
+    This report builds upon the initial analyses of May 6 performed by the staffs of the. Commissions and released in the May 18, 2010, ...
+[2] [PDF] The Flash Crash: The Impact of High Frequency Trading on an
+    URL: https://www.cftc.gov/sites/default/files/idc/groups/public/@economicanalysis/documents/file/oce_flashcrash0314.pdf
+    ABSTRACT. This study offers an empirical analysis of the events of May 6, 2010, that became known as the Flash Crash.
+[3] [DOC] What Happened May 6, 2010? Anatomy of the Flash Crash
+    URL: https://www.sfu.ca/~poitras/ch_11_flash_$.docx
+    The analysis includes: reports by the exchanges, e.g., the CME and the NYSE; the regulators, e.g., reports by the SEC, the Government Accountability Office, the ...
+[4] Herding and flash events: Evidence from the 2010 Flash Crash
+    URL: https://www.sciencedirect.com/science/article/abs/pii/S1544612318307475
+    We present evidence of herd formation over the duration and aftermath of the Flash Crash on May 6, 2010, while no evidence of herding is observed preceding the ...
+[5] 2010 flash crash - Wikipedia
+    URL: https://en.wikipedia.org/wiki/2010_flash_crash
+    The SEC and CFTC joint 2010 report itself says that "May 6 started as an unusually turbulent day for the markets" and that by the early afternoon "broadly ...
+[6] The 10th Anniversary of the Flash Crash - SIFMA
+    URL: https://www.sifma.org/research/insights/10th-flash-crash-anniversary
+    May 6, 2010: Markets opened down on concerns of a potential default on Greek sovereign debt. Many stocks and futures contracts prices opened ...
+[7] 2010 Flash Crash - Encyclopedia.pub
+    URL: https://encyclopedia.pub/entry/37336
+    The SEC and CFTC joint 2010 report itself says that "May 6 started as an unusually turbulent day for the markets" and that by the early ...
+[8] Liquidity Withdrawal and the 'Flash Crash' on May 6, 2010
+    URL: https://ink.library.smu.edu.sg/sis_research/1318
+    This paper describes an attempt to reconstruct the critical elements of the market events of May 6, 2010 based on the five hypotheses posed initially by the ...
+
+========== r11_swiss_franc.json ==========
+[1] 5-years anniversary of the notorious EUR/CHF-USD/CHF crash
+    URL: https://fbs.eu/en/analytics/news/5-years-anniversary-of-the-notorious-eur-chf-usd-chf-crash-7595
+    On January 15, 2015, the Swiss National Bank announced the end of the EUR/CHF peg. The corresponding area of the chart shows a plunge to the ...
+[2] Flash Crash 2015! - Kaggle
+    URL: https://www.kaggle.com/code/shaunoilund/flash-crash-2015
+    At 04:30, January 15, 2015, to the surprise of many people, the SNB decided to pull the peg fixing the CHF to the EUR and the EURCHF exchange ...
+[3] Exchange rates and prices: evidence from the 2015 Swiss franc
+    URL: https://www.bis.org/publ/work751.htm
+    We find that border prices invoiced in Swiss francs fell on average by 5% in response to the roughly 15% appreciation of the Swiss franc against the euro by ...
+[4] Swiss franc soars as Switzerland abandons euro cap - BBC News
+    URL: https://www.bbc.com/news/business-30829917
+    The Swiss franc soared as much as 30% in chaotic trade after the central bank abandoned the cap on the currency's value against the euro.
+[5] Ten years after the Swiss franc shock: Lessons on prices  - CEPR
+    URL: https://cepr.org/voxeu/columns/ten-years-after-swiss-franc-shock-lessons-prices-expenditure-switching-and-inequality
+    On 15 January 2015, the Swiss National Bank (SNB) unexpectedly abandoned its minimum exchange rate policy of 1.20 CHF per euro. Initially ...
+[6] fenefx | January 15, 2015 Swiss Franc Shock On this day  - Instagram
+    URL: https://www.instagram.com/reel/DUQsIbsDR77
+    January 15, 2015 Swiss Franc Shock On this day, the Swiss National Bank (SNB) unexpectedly removed the price floor of. EUR/CHF = 1.20
+[7] EURCHF exchange rate from January 2011 to December 2015
+    URL: https://www.researchgate.net/figure/EURCHF-exchange-rate-from-January-2011-to-December-2015_fig1_317134973
+    On January 15, 2015, the Swiss National Bank terminated its minimum exchange rate policy of one euro against 1.2 Swiss francs. This policy shift resulted in ...
+[8] The discontinuation of the EUR/CHF minimum exchange rate in
+    URL: https://ideas.repec.org/p/bis/biswps/652.html
+    We find that the credibility of the Swiss franc floor somewhat decreased as the spot exchange rate approached the lower bound of 1.20 CHF per euro. We also ...
+
+========== r12_volmageddon.json ==========
+[1] Volmageddon and the Failure of Short Volatility Products (Summary)
+    URL: https://rpc.cfainstitute.org/research/financial-analysts-journal/2021/volmageddon-failure-short-volatility-products
+    A sudden rise in market volatility on 5 February 2018 led to a one-day loss of more than 90% in the value of short volatility exchange-traded ...
+[2] Volmageddon Unveiled: How Massive Options Trades May Have
+    URL: https://optionmetrics.com/blog/volmageddon-unveiled-how-massive-options-trades-may-have-enabled-historic-vix-spike
+    After an extended period of historically low market volatility, on February 5, 2018, the VIX surged over 100%, from 18 at the open to over 37 by market close.
+[3] [PDF] Volmageddon and the Failure of Short Volatility Products - TSpace
+    URL: https://utoronto.scholaris.ca/bitstreams/98fc477b-df23-4394-915b-d48dcd4642ef/download
+    Indeed, by January 2018, the two largest inverse volatility ETPs were the ProShares Short VIX Short-Term Futures ETF. (SVXY) and the VelocityShares Daily ...
+[4] The Day The Vix Doubled: Tales of 'Volmageddon' - Bloomberg.com
+    URL: https://www.bloomberg.com/news/articles/2019-02-06/the-day-the-vix-doubled-tales-of-volmageddon
+    The Volatility Index's sudden spike brought an end to one of the calmest chapters in U.S. equities – a years-long stretch in which equity ...
+[5] Volmageddon and the Failure of Short Volatility Products
+    URL: https://www.researchgate.net/publication/351737481_Volmageddon_and_the_Failure_of_Short_Volatility_Products
+    The sudden drawdown for all strategies in 2018 is caused by the volatility spike on 5th February when the VIX more than doubled (also known as 'volmageddon ...
+[6] Volmageddon - MarketsWiki, A Commonwealth of Market Knowledge
+    URL: https://marketswiki.com/wiki/Volmageddon
+    On February 5, 2018 the Cboe Volatility Index (VIX) increased from an opening value of 18.44 to 37.32 at close, after about a year of low ...
+[7] The equity market turbulence of 5 February - the role of exchange
+    URL: https://www.bis.org/publ/qtrpdf/r_qt1803t.htm
+    On Monday 5 February, the S&P 500 index fell 4% while the VIX - a measure of volatility implied by equity option prices - jumped 20 points.
+[8] [PDF] amf - heightened volatility in early february 2018: the impact of vix
+    URL: https://www.amf-france.org/sites/institutionnel/files/contenu_simple/lettre_ou_cahier/risques_tendances/Heightened%20volatility%20in%20early%20Februar
+    On Monday February 5, the S&P fell 4.2% while the VIX rose by 20 points, meaning the magnitude of the rise exceeded what one could have expected ...
+
+========== r13_ring_buffer_mmap.json ==========
+[1] HaveFunTrading/bcast: Low latency, single producer & many consumer
+    URL: https://github.com/HaveFunTrading/bcast
+    Low latency, single producer & many consumer (SPMC) ring buffer that works with shared memory. bcast natively supports variable message sizes ( &[u8] ) and ... Missing: market C++
+[2] How To Build An Ultra-Low Latency Lock-Free Ring Buffer In C++
+    URL: https://levelup.gitconnected.com/how-hfts-move-data-in-nanoseconds-bfac9a1e3031
+    Build a lock-free SPSC ring buffer in modern C++ and learn how HFT systems eliminate locks, false sharing, memory fences, and cross-core ... Missing: mapped file replay
+[3] Building a High-Performance Lock-Free Ring Buffer in C++ for
+    URL: https://dev.to/lakshya_bankey_27825e4908/building-a-high-performance-lock-free-ring-buffer-in-c-for-ultra-low-latency-messaging-19h6
+    Achieved over 111 million operations per second with sub-10 nanosecond average latency, and a 94% reduction in tail latency through focused ... Missing: mapped file data replay
+[4] Design and Implementation of a Low-Latency High-Frequency
+    URL: https://medium.com/@gwrx2005/design-and-implementation-of-a-low-latency-high-frequency-trading-system-for-cryptocurrency-markets-a1034fe33d97
+    Our system follows a producer-consumer pipeline centered on the Disruptor ring buffer. The typical flow of data is: 1. Ingestion: Market data is ...
+[5] Chronicle Queue for High-Performance Systems
+    URL: https://chronicle.software/products/chronicle-queue
+    Chronicle Queue Enterprise achieves ultra-low latency by combining an append-only design with memory-mapped files for fast, scalable, and thread-safe data ...
+[6] I Built a Nanosecond Market Data Handler in C++ | Xevrion
+    URL: https://xevrion.dev/blogs/photon-blog
+    So I built PHOTON. A nanosecond market data feed handler in C++ that ingests real NASDAQ ITCH 5.0 binary protocol over UDP, parses it with zero ...
+[7] Optimizing a Lock-Free Ring Buffer : r/cpp - Reddit
+    URL: https://www.reddit.com/r/cpp/comments/1s2cue8/optimizing_a_lockfree_ring_buffer
+    Interesting article, but recently in my codebase I implemented a SPSC ring buffer using mirrored memory mapping (basically, creating a memory- ... Low latency : r/java - Reddit linear_ringbuffer - A C++ ringbuffer that always looks like a flat array More results from www.reddit.com Missing: market replay
+[8] [RFC] TorchRL Replay buffers: Pre-allocated and memory-mapped
+    URL: https://discuss.pytorch.org/t/rfc-torchrl-replay-buffers-pre-allocated-and-memory-mapped-experience-replay/155335
+    We introduce a new memory-mapped storage for Replay Buffers that allows to store a large amount of data across workers and nodes, with low-latency indexing and ... Missing: ring market
+
+========== r14_aeron_disruptor.json ==========
+[1] LMAX Disruptor: High performance alternative to bounded queues
+    URL: https://lmax-exchange.github.io/disruptor/disruptor.html
+    A RingBuffer exists at the core of the Disruptor pattern providing storage for data exchange without contention. The concurrency concerns are separated out ... Missing: Aeron | Show results with: Aeron
+[2] Using LMAX Disruptor to build a high-performance in-memory event
+    URL: https://dev.to/axelncho/using-lmax-disruptor-to-build-a-high-performance-in-memory-event-broker-in-java-6i
+    The ring buffer. Disruptor is basically a very good application of the circular buffer, a fundamental data structure where a fixed-size array ... Missing: Aeron | Show results with: Aeron
+[3] The Coalescing Ring Buffer | LMAX Technology Blog
+    URL: https://technology.lmax.com/posts/the-coalescing-ring-buffer
+    The Coalescing Ring Buffer borrows the following design principles from the Disruptor: using arrays as data structures because of their ... Missing: Aeron | Show results with: Aeron
+[4] LMAX Disruptor - Nam Vu - Medium
+    URL: https://batnamv.medium.com/lmax-disruptor-4621a8bb2b99
+    Từ phiên bản 3.0 trở đi thì đây chính là cốt lõi (core) của Disruptor, nó được thiết kế để quản lý việc gửi và nhận dữ liệu đến Ring-Buffer giữa ... Missing: Aeron | Show results with: Aeron
+[5] LMAX Disruptor Projects - AI Tinkerers - Atlanta
+    URL: https://atlanta.aitinkerers.org/technologies/lmax-disruptor
+    LMAX Disruptor. A high-performance inter-thread messaging library designed for ultra-low latency financial trading via a lock-free ring buffer. Missing: Aeron data
+[6] The LMAX Architecture - Martin Fowler
+    URL: https://martinfowler.com/articles/lmax.html
+    Figure 4: The LMAX architecture with the disruptors expanded. The disruptor is a general purpose component that can be used outside ... Missing: Aeron | Show results with: Aeron
+[7] lmax-disruptor · GitHub Topics
+    URL: https://github.com/topics/lmax-disruptor
+    Fast and easy to use SPSC Circular Ringbuffer using core principles presented by the developers of the LMAX Disruptor. java performance queue atomic message- ...
+[8] LMAX Disruptor - GitHub Pages
+    URL: https://lmax-exchange.github.io/disruptor
+    The Disruptor is a general-purpose mechanism for solving a difficult problem in concurrent programming. It works in a different way to more conventional ... Missing: Aeron | Show results with: Aeron
+
+========== r15_mifid2.json ==========
+[1] Article 25 Obligation to maintain records - ESMA - European Union
+    URL: https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifir/article-25-obligation-maintain-records
+    The operator of a trading venue shall keep at the disposal of the competent authority, for at least five years, the relevant data relating to all orders in ...
+[2] MiFID II: A Guide to Storing and Preserving Financial Records
+    URL: https://www.archondatastore.com/blog/mifid-ii-compliance
+    MiFID II generally requires records to be retained for a minimum of five years, with many jurisdictions extending this to seven years or more.
+[3] GDPR vs MiFID II (Record-Keeping vs. Personal Data Protection)
+    URL: https://www.steel-eye.com/news/gdpr-vs-mifid-ii-record-keeping-vs-personal-data-protection
+    For example, MiFID II says firms must keep voice recordings and emails for at least five years, whereas GDPR's ethos would suggest deleting ...
+[4] MiFID II RTS 24 & Annex IV Order Record-Keeping Explained - Reg-X
+    URL: https://reg-x.co.uk/blogs/mifid-ii-rts-24-annex-iv-order-execution-record-keeping
+    Section 1 establishes the information trading venues must maintain for every reportable order. Although the precise data fields are defined ...
+[5] MiFID 2: Keeping it on record | Womble Bond Dickinson
+    URL: https://www.womblebonddickinson.com/uk/insights/articles-and-briefings/mifid-2-keeping-it-record
+    The new SYSC rules in principle require records to be kept for five years, although in some cases FCA has reserved the right to require them to ...
+[6] [PDF] MAR & MIFID II - Bloomberg Professional Services
+    URL: https://data.bloomberglp.com/professional/sites/10/imported/vault/sites/4/2015/09/Fact-Sheet-MiFID-II-and-MAR.pdf
+    Among these changes, broader requirements for record-keeping, event reconstruction, and market abuse detection and prevention mandate the retention of records.
+[7] [PDF] Questions and Answers - Managed Funds Association
+    URL: http://www.mfaalts.org/wp-content/uploads/2017/09/ESMA-QA-on-MiFID-II-and-MiFIR-Market-Structures-Topics.pdf
+    Under Article 13(1) of RTS 6, investment firms engaged in algorithmic trading are obliged to have in place monitoring systems capable of generating operable ...
+[8] MiFID II Directive: Recording Obligations and Retention Periods for
+    URL: https://www.asctechnologies.com/blog/post/mifid-ii-what-financial-service-providers-need-to-know-about-call-recording-under-the-eu-directive
+    All recordings must be stored for at least five years. At the request of supervisory authorities, such as BaFin, this obligation may be extended ...
+
+========== r16_cftc_rule.json ==========
+[1] 17 CFR Part 1 - Commodity Futures Trading Commission
+    URL: https://www.cftc.gov/sites/default/files/opa/press98/opa4180-98-attach.htm
+    The Commission's Regulation 1.35(a-1) recordkeeping requirements, in effect since March 24, 1972, specify that customer orders must be recorded promptly and ...
+[2] [PDF] FIA Audit Trail Recommendations
+    URL: https://www.cftc.gov/media/3511/TAC022620_FIAAuditTrail/download
+    A [DCM] must capture and retain all audit trail data necessary to detect, investigate, and prevent customer and market abuses. Such data must be.
+[3] [PDF] Fact Sheet - Commodity Futures Trading Commission
+    URL: https://www.cftc.gov/sites/default/files/idc/groups/public/@newsroom/documents/file/1.35_factsheet121815.pdf
+    Commission Regulation 1.35(a) is a recordkeeping rule that applies to futures commission merchants, retail foreign exchange dealers, introducing ...
+[4] CFTC Issues Oral Recordkeeping No-Action Relief to Asset Managers
+    URL: https://www.wilmerhale.com/en/insights/client-alerts/cftc-issues-oral-recordkeeping-no-action-relief-to-asset-managers
+    CFTC Regulation 1.35—and in particular the oral recordkeeping requirements—has remained a significant concern for asset managers that are ...
+[5] CFTC Further Extends Relief from Regulation 1.35(a) Oral
+    URL: https://uk.practicallaw.thomsonreuters.com/1-593-9945?transitionType=Default&contextData=(sc.Default)
+    Amended Regulation 1.35(a) requires DCM and SEF "members" to keep "full, complete, and systematic records, which include all pertinent data and memoranda, of ...
+[6] 17 CFR 1.35 -- Records of commodity interest and related cash or
+    URL: https://www.ecfr.gov/current/title-17/chapter-I/part-1/subject-group-ECFR26e2c365a191fa7/section-1.35
+    Keep full, complete, and systematic records (including all pertinent data and memoranda) of all transactions relating to its business of dealing in commodity ...
+[7] 17 CFR Part 1 - Commodity Futures Trading Commission
+    URL: https://www.cftc.gov/sites/default/files/opa/press98/oparule_1.htm
+    For example, it mandates that records required to be kept by the Act or Commission regulations ("required records") be maintained for a period of five years and ...
+[8] CFTC Amends Recordkeeping Requirements under Regulation
+    URL: https://content.next.westlaw.com/practical-law/document/I1709891aa8e711e598dc8b09b4f043e0/CFTC-Amends-Recordkeeping-Requirements-under-Regulation-1-35
+    CFTC Regulation 1.35(a) requires that the following parties keep "full, complete, and systematic records, which include all pertinent data and memoranda, ...
+
+========== r17_opensource_engines.json ==========
+[1] Python Paper Trading Frameworks Compared (2026) - GitHub Gist
+    URL: https://gist.github.com/rmbell09-lang/01281551ac4672bd5d1a42bb58575144
+    A practical comparison of open-source Python tools for paper trading, backtesting, and algo strategy development. TL;DR. Tool, Setup Time, Paper Trading ...
+[2] ml4t/backtest - GitHub
+    URL: https://github.com/ml4t/backtest
+    Event-driven backtesting engine for quantitative trading strategies with realistic execution modeling. Part of the ML4T Library Ecosystem. This library is one ...
+[3] quantopian/zipline: Zipline, a Pythonic Algorithmic Trading Library - GitHub
+    URL: https://github.com/quantopian/zipline
+    Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting. Zipline is currently used in production as the backtesting and ...
+[4] The Quantopian Backtesting Engine Still Used Today - YouTube
+    URL: https://www.youtube.com/watch?v=tbax2VcQUj4
+    Zipline is the open-source algorithmic trading library originally developed by Quantopian and remains one of the most widely referenced ...
+[5] Backtrader: Welcome
+    URL: https://www.backtrader.com
+    A feature-rich Python framework for backtesting and trading. backtrader allows you to focus on writing reusable trading strategies, indicators and analyzers.
+[6] ZipLime - Reinventing the Classic Backtesting Experience of Zipline
+    URL: https://github.com/Limex-com/ziplime
+    The first open-source backtester with native AI support. Write trading strategies in plain English. Backtest them in seconds. Built on the legacy of Zipline.
+[7] Python Quant Frameworks: Backtrader vs Zipline vs Sentinel (2026)
+    URL: https://sentinel.redclawey.com/blog/article-10-en
+    Zipline is an open-source quantitative framework developed by Quantopian, once the core engine of the world's largest quant community platform.
+[8] Implementation Risk in Portfolio Backtesting: A Previously  - arXiv
+    URL: https://arxiv.org/html/2603.20319v1
+    Each strategy is executed through a reference implementation and four independent open-source backtesting engines on 30 non-overlapping, stratified asset ...
+
+========== r18_optiver_drw.json ==========
+[1] Optiver training: turning world class thinkers into world class trading
+    URL: https://www.optiver.com/join-us/stories/optiver-training-turning-world-class-thinkers-into-world-class-trading-professionals
+    Our eight-week tech onboarding program is designed for graduates transitioning from academia to a career in trading technology. Your journey ...
+[2] [PDF] Inside Citadel Securities' six-week-long training for newbie
+    URL: https://www.citadelsecurities.com/wp-content/uploads/sites/2/2023/11/111813-9final.pdf
+    For traders, the day generally begins around 8:30 a.m. and ends around 6:00 p.m. Nearly each day includes a combi- nation of academic coursework ...
+[3] List Of Proprietary Trading Firms
+    URL: https://www.tradinginterview.com/list-of-proprietary-trading-firms
+    Explore our detailed guide to the top proprietary trading firms globally. Discover key players in major trading hubs and find the perfect fit for your ...
+[4] Global Optiver Academy – Tech Onboarding Program - YouTube
+    URL: https://www.youtube.com/watch?v=4dJnYzU6Wnc
+    Our comprehensive tech onboarding program is designed for graduates transitioning from academia to a career in trading technology.
+[5] What started as a training tool has evolved into a platform used across
+    URL: https://www.instagram.com/p/DaiVwy-ieds
+    Our latest blog goes behind the scenes of DRW's trading games, exploring how the application evolved from a learning tool into a scalable ...
+[6] Citadel Securities trader joins Optiver - The TRADE
+    URL: https://www.thetradenews.com/citadel-securities-trader-joins-optiver
+    Lawrence Tanzman has joined Optiver as a quantitative trader after a 14-year stint at Citadel Securities.
+[7] Your first day in prop trading (explained by a quant developer)
+    URL: https://www.youtube.com/watch?v=j9v0kA-arjY
+    In this video I go over what you can expect on your first day in a quantitative trading or proprietary trading firm. www.codingjesus.com ...
+[8] Swiset: Trading Technology for Brokers, Prop Firms & IBs
+    URL: https://swiset.com
+    Swiset empowers Brokers, Prop Firms, and IBs/Communities with seamless technology, trader engagement, automation, risk analytics, and global scalability. Book a ...
+
+========== r19_nfp_fomc.json ==========
+[1] #NFP day is here, and it's already a busy one! #Ceasefire hopes are
+    URL: https://www.facebook.com/FirstPrudentialMarkets/posts/nfp-day-is-here-and-its-already-a-busy-oneceasefire-hopes-are-fading-seouls-kosp/128882169333551
+    The latest Non-Farm Payrolls (NFP) report shows that 143K jobs were added, missing the 170K forecast. This weaker-than-expected jobs data ...
+[2] Why NFP is a key trigger for the market? - VT Markets
+    URL: https://www.vtmarkets.com/en-mena/learn/why-nfp-is-a-key-trigger-for-the-market
+    The NFP indicator evaluates the monthly change in employment not related to farms, government, and nonprofit organisations. It monitors average ...
+[3] How to Trade the Nonfarm Payroll Report - Moomoo
+    URL: https://www.moomoo.com/us/learn/detail-trade-non-farm-payroll-117408-240819320
+    A NFP trading strategy typically revolves around the market reaction to the NFP report. This provides data on the number of jobs added or lost in the US ...
+[4] What is Nonfarm payroll? Understand its meaning and importance
+    URL: https://www.stonex.com/en/business/financial-glossary/nonfarm-payrolls
+    An NFP report shows weaker growth or missing expectations, and forecasts strongly indicate that the labor force is struggling. Therefore, the USD may fall, ...
+[5] All eyes on the U.S. Non-Farm Payrolls report. Tomorrow at 8:30 PM
+    URL: https://www.facebook.com/dooprimeofficial/posts/all-eyes-on-the-us-non-farm-payrolls-report-tomorrow-at-830-pm-gmt8-the-nfp-rele/122236067882124087
+    The unemployment rate is expected to dip to 4.2%, with a 0.3% increase in average hourly earnings. A weaker-than-expected NFP could lead to ...
+[6] Understanding the US Non-Farm Payroll Data - Moomoo
+    URL: https://www.moomoo.com/au/learn/detail-understanding-the-us-non-farm-payroll-data-106152-230570163
+    The US Non-Farm Payroll (NFP) data is a key economic indicator that might move financial markets. The term "non-farm" refers to all US workers except those ...
+[7] June Non-Farm Payrolls Preview: Did White House Economic
+    URL: https://www.tradingkey.com/analysis/economic/indicators/262000240-june-nfp-preview-white-house-economic-advisors-spoil-deal-us-stocks-dollar-gold-reac
+    Market forecasts suggest a transition to moderate growth, with consensus centering on approximately 100,000 new jobs and a 4.3% unemployment ...
+[8] NFP Trading: How Nonfarm Payroll Impacts Markets Moves
+    URL: https://www.fpmarkets.com/en-zw/education/platform-guides/nfp-trading-how-nonfarm-payroll-impacts-markets-moves
+    The NFP report is one of the most market-moving data released each month ... Traders will also likely incorporate positioning data and technical analysis ...
+
+========== r1_cme_replay.json ==========
+[1] Market Data Replay System - QuestDB
+    URL: https://questdb.com/glossary/market-data-replay-system
+    A market data replay system is trading infrastructure that plays back recorded exchange feeds as if they were live. It preserves tick-by-tick sequencing, ...
+[2] CME MDP Premium Market Data Handler SDK (C++, Java, .NET
+    URL: https://www.onixs.biz/cme-mdp-premium-market-data-handler.html
+    Supports historical tick data Feed Engine implementations supporting replay mode for full precision order book reconstruction for back-testing, strategy ...
+[3] Best Practices for Market Data Replay | by DolphinDB - Medium
+    URL: https://medium.com/@DolphinDB_Inc/best-practices-for-market-data-replay-e69fea702736
+    This tutorial introduces the practical implementation of the DolphinDB's replay feature. Based on the DolphinDB's streaming replay, distributed database ...
+[4] CME Settlements and Valuations
+    URL: https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/457089321
+    Client systems can recover specific messages that were missed using the sequence number and the TCP historical replay component. The TCP historical replay ...
+[5] Market Data Replay
+    URL: https://docs.dolphindb.com/en/Tutorials/market_data_replay.html
+    Tick data replay is critical for high-frequency trading strategy development. This tutorial introduces data replay in DolphinDB and gives detailed examples.
+[6] Futures Market Replay Simulator with AI-Powered Feedback
+    URL: https://tradersync.com/market-replay-simulator/futures
+    Practice futures trading in our replay simulator, and our AI will auto-log your trades and analyze them to find and sharpen your edge.
+[7] Tick-Level Historical Data Market Replay Service Provided by dxFeed
+    URL: https://dxfeed.com/data-services/market-replay
+    Historical market data storage and replay solution provides tick-level data for historical insight and trading strategies back-testing.
+[8] Trading Technologies Adds Market Replay to Trade Surveillance
+    URL: https://es.tradingview.com/news/financemagnates:1a81d4ac7094b:0-trading-technologies-adds-market-replay-to-trade-surveillance-platform-for-brokers-and
+    It offers tick-by-tick and frame-by-frame playback of the order book, enabling investigators to examine market activity during surveillance ...
+
+========== r20_svb_collapse.json ==========
+[1] KOREA CAPITAL MARKET INSTITUTE
+    URL: https://www.kcmi.re.kr/en/publications/pub_detail_view?syear=2023&zcd=002001017&zno=1715&cno=6094
+    A total of $42 billion was withdrawn from deposits on the same day alone. SVB's stock lost 66% of its value on March 10, thereby calling a halt ...
+[2] Impact of the collapse of silicon valley bank on the banking sector
+    URL: https://www.sciencedirect.com/science/article/abs/pii/S1544612324002174
+    Specifically, we analyse one minute of data from 3 March to 17 March 2023, which included 11 trading days. Two banks, SVB and SBNY, failed during this period.
+[3] Collapse of Silicon Valley Bank - Wikipedia
+    URL: https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank
+    On March 10, 2023, Silicon Valley Bank (SVB) failed after a bank run, marking the third-largest bank failure in United States history.
+[4] Collapse of Silicon Valley Bank | History | Research Starters - EBSCO
+    URL: https://www.ebsco.com/research-starters/history/collapse-silicon-valley-bank
+    The March 2023 failure of Silicon Valley Bank (SVB) was the second largest such failure in US history, behind Washington Mutual's in 2008. In two days, SVB went ...
+[5] [PDF] Material Loss Review of Silicon Valley Bank - Office of Inspector General
+    URL: https://oig.federalreserve.gov/reports/board-material-loss-review-silicon-valley-bank-sep2023.pdf
+    In a March 26, 2023, press release, the FDIC estimated that the loss to the. DIF resulting from SVB's failure would be approximately $20 billion ...
+[6] What Happened to Silicon Valley Bank? - Investopedia
+    URL: https://www.investopedia.com/what-happened-to-silicon-valley-bank-7368676
+    March 8, 2023: SVBFG announced a $1.8 billion loss on its bond holdings and informed investors that it projected lower-than-expected earnings ... Why Did Silicon Valley Bank... · Timeline of the Collapse
+[7] The Failure of Silicon Valley Bank: A Test of Market Efficiency
+    URL: https://articlegateway.com/index.php/JABE/article/view/7224
+    This research uses the standard event study methodology in the finance literature to investigate SVB's collapse and its impact on the stock prices of 30 banks.
+[8] Bond liquidity during the Silicon Valley Bank crisis: What the data tells us
+    URL: https://www.spglobal.com/market-intelligence/en/news-insights/research/bond-liquidity-during-the-silicon-valley-bank-crisis-what-the-data-tells-us
+    On March 10, 2023, Silicon Valley Bank (SVB) became the largest bank by assets to fail since the financial crisis of 2008.
+
+========== r21_lopez_de_prado.json ==========
+[1] Marcos Lopez de Prado
+    URL: https://www.quantresearch.org/Lectures.htm
+    In this study we argue that the back-testing methodology at the core of their strategy selection process may have played a role. Most firms and portfolio ...
+[2] Advances in Financial Machine Learning: Lopez de Prado, Marcos
+    URL: https://www.amazon.com/Advances-Financial-Machine-Learning-Marcos/dp/1119482089
+    A practical guide to leveraging machine learning for superior investment strategies, covering data structuring, research, supercomputing, and backtesting to ...
+[3] Marcos López de Prado: Advances in financial machine learning - ProQuest
+    URL: https://search.proquest.com/openview/9e6a94d180279324f3d323b41b4d356d/1?pq-origsite=gscholar&cbl=816365
+    ... pitfalls. In Advances in Financial Machine Learning, Marcos López de Prado seeks to provide scientific ML techniques for the investment management ...
+[4] My Key Takeways From Marcos Lopez De Prado's Advances in Financial
+    URL: https://abouttrading.substack.com/p/my-key-takeways-from-maros-lopez
+    A model that looks amazing in backtests can easily fail in live trading. López de Prado's central message is that most financial ML failures ...
+[5] "Advances in Financial Machine Learning" Live Interview  - YouTube
+    URL: https://www.youtube.com/watch?v=FJYgrkVbpEE
+    Join us for an insightful session featuring Dr. Marcos López de Prado, a renowned hedge fund manager, entrepreneur, and professor, ...
+[6] Advances in Financial Machine Learning - Reasonable Deviations
+    URL: https://reasonabledeviations.com/notes/adv_fin_ml
+    Walk forward testing is most common. Though it is hard to implement, it is easily interpretable. · CV backtesting is not historically ... Financial Data Structures · The dangers of backtesting
+[7] [PDF] THE 10 REASONS MOST MACHINE LEARNING FUNDS FAIL - GARP
+    URL: https://www.garp.org/hubfs/Whitepapers/a1Z1W0000054x6lUAA.pdf
+    One of the most pervasive mistakes in financial research is to take some data, run it through an. ML algorithm, backtest the predictions, and ...
+[8] Can anyone recommend "Advances in Financial Machine Learning" by
+    URL: https://www.reddit.com/r/algotrading/comments/8ps1vp/can_anyone_recommend_advances_in_financial
+    Instead you'll learn a lot about backtesting and over fitting , data structuring and labeling, and other more general problems and how they ...
+
+========== r22_covid_crash.json ==========
+[1] COVID-19 pandemic's impact on intraday volatility spillover between
+    URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC8993454
+    This study examines the volatility spillovers between the US stock market (S&P500 index) and both oil and gold before and during the global health crisis (GHC).
+[2] 2020 stock market crash - Wikipedia
+    URL: https://en.wikipedia.org/wiki/2020_stock_market_crash
+    The CBOE Volatility Index closed at 82.69 on 16 March, the highest ever closing for the index (though there were higher intraday peaks in 2008).
+[3] (PDF) COVID-19 and the march 2020 stock market crash. Evidence from
+    URL: https://www.researchgate.net/publication/342811176_COVID-19_and_the_march_2020_stock_market_crash_Evidence_from_SP1500
+    Our empirical results suggest an increase in volatility over time with mostly negative returns and higher volatility in the last trading session of the day. Our ...
+[4] Stock market responses to COVID-19: The behaviors of mean reversion
+    URL: https://www.sciencedirect.com/science/article/pii/S2405844023022910
+    By March 18, stock markets have dropped more than 30% from their peak ([13]). By using daily data up to 27 March 2020 for 12 countries [14], find that the ...
+[5] The Dynamic Effects of COVID-19 and the March 2020 Crash on  - MDPI
+    URL: https://www.mdpi.com/2504-3110/7/1/91
+    Triggered by COVID-19, one of the most dramatic crashes in the stock market in history occurred in March 2020. The sharp reductions in ...
+[6] COVID-19 and the march 2020 stock market crash. Evidence from
+    URL: https://ideas.repec.org/a/eee/finlet/v38y2021ics1544612320306668.html
+    This paper investigates the US stock market performance during the crash of March 2020 triggered by COVID-19. Missing: S&P 500 futures intraday
+[7] The 2020 Market Madness - SIFMA
+    URL: https://www.sifma.org/research/insights/the-2020-market-madness
+    The emergence of the global pandemic COVID-19 in the first quarter of 2020 caused severe economic and capital markets shocks. Missing: crash | Show results with: crash
+[8] COVID-19 and the march 2020 stock market crash. Evidence from  - PMC
+    URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7343658
+    In this paper we investigate the effect of COVID-19 on the stock market behavior during the crash of March 2020 using the universe of S&P1500 firms. Clearly, ... Missing: intraday | Show results with: intraday
+
+========== r23_fix_sbe.json ==========
+[1] FIX Simple Binary Encoding (SBE) Adoption: Understanding Its Origins
+    URL: https://www.onixs.biz/insights/fix-simple-binary-encoding-sbe-adoption-understanding-its-origins-and-evolution
+    Simple Binary Encoding (SBE) is the latest standard for those Exchanges striving to deliver market data with the lowest latencies, whilst ...
+[2] What is Simple Binary Encoding (SBE)? - Databento
+    URL: https://databento.com/microstructure/sbe
+    Simple Binary Encoding (SBE) is a protocol for encoding and decoding binary messages that is optimized for high-performance, low-latency financial applications.
+[3] SBE factsheet - FIX Trading Community
+    URL: https://fixtrading.org/packages/sbe-factsheet
+    SBE factsheet. High level overview of FIX's Simple Binary Encoding low-latency encoding standard. SBE factsheet. Version; Size 567.12 KB; Last ...
+[4] fix-simple-binary-encoding/v1-0-RC3  - GitHub
+    URL: https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-RC3/doc/01Introduction.md
+    FIX Simple Binary Encoding (SBE) targets high performance trading systems. It is optimized for low latency of encoding and decoding while keeping bandwidth ...
+[5] B2BITS SBE Market Data & Order Entry Solutions
+    URL: https://www.b2bits.com/trading_solutions/market-data-solutions/sbe
+    Simple Binary Encoding (SBE) is a FIX Trading Community standard designed for fast, compact, low-latency binary encoding of market data and trading messages.
+[6] HFT enhancements for FIX (Simple Binary Encoding) vs proprietary
+    URL: https://quant.stackexchange.com/questions/9550/hft-enhancements-for-fix-simple-binary-encoding-vs-proprietary-protocols-perfo
+    For that they have come up with FAST which compresses FIX by a great amount but it is mainly used by the exchanges for market data, not order ...
+[7] Forex Latency Arbitrage software - Simple Binary Encoding | PART 8
+    URL: https://www.youtube.com/watch?v=gxZt0Z8opNY
+    Share your videos with friends, family, and the world.
+[8] Simple Binary Encoding for high performance market data interfaces
+    URL: https://fixtrading.org/simple-binary-encoding-high-performance-market-data-interfaces-automated-trader-article
+    The FIX Trading Community realised that its message encoding was no longer fit-for-purpose for high-performance trading.
+
+========== r24_vpin.json ==========
+[1] [PDF] VPIN 1 The Volume Synchronized Probability of INformed Trading
+    URL: https://www.quantresearch.org/VPIN.pdf
+    The Volume Synchronized Probability of. INformed Trading, commonly known as. VPIN, is a mathematical model used in financial markets for multiple purposes.
+[2] Volume-Synchronized Probability of Informed Trading (VPIN) - VisualHFT
+    URL: https://visualhft.com/blog/volume-synchronized-probability-of-informed-trading-vpin
+    This article explores the Volume-Synchronized Probability of Informed Trading (VPIN), a metric enhancing market analysis by measuring trade ...
+[3] An Improved Version of the Volume-Synchronized Probability of
+    URL: https://ideas.repec.org/a/now/jnlcfr/104.00000046.html

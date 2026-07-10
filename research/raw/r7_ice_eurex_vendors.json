@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.tickdata.com",
+    "name": "Tick Data: Historical Forex, Options, Stock &amp; Futures Data",
+    "snippet": "Tick Data's core product is clean, research-ready, global historical intraday data. Our offering includes institutional-grade quote and trade history.",
+    "host_name": "www.tickdata.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ice.com/fixed-income-data-services/data-and-analytics/proprietary-data",
+    "name": "ICE Proprietary Data",
+    "snippet": "Our View Only service is a subscription to the web based ICE Trading Platform providing real-time access to trading activity across our Futures Markets.",
+    "host_name": "www.ice.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurex.com/ex-en/data",
+    "name": "Data - Eurex",
+    "snippet": "Data. Dive into the world of Eurex data and analytics. MD + S. Real-time data | Historical data | Analytics | Reference data | Marketplace. Deutsche Börse ...",
+    "host_name": "www.eurex.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.lseg.com/en/data-analytics/market-data/data-feeds/tick-history",
+    "name": "Tick History - Data Analytics - LSEG",
+    "snippet": "Tick History is a web-based interface that gives access to historical tick-level data across global asset classes, covering OTC and exchange-traded ...",
+    "host_name": "www.lseg.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://databento.com/tick-data",
+    "name": "Real-Time & Historical Tick Data with Nanosecond Precision",
+    "snippet": "Databento provides cloud-based solutions for intraday and real-time tick data. Simple, fast access in Python, C++, and Rust.",
+    "host_name": "databento.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ir.theice.com/press/news-details/2018/ICE-Data-Services-and-OneMarketData-to-Offer-Real-time-Streaming-Tick-Data-and-Analytics/default.aspx",
+    "name": "ICE Data Services and OneMarketData to Offer Real-time Streaming",
+    "snippet": "ICE Data Services will offer an on-demand tick data and analytics service, utilizing OneMarketData's OneTick platform.",
+    "host_name": "ir.theice.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/tick-data",
+    "name": "Tick Data (Examples) - QuestDB",
+    "snippet": "Tick Data is the most granular form of market data available. It captures every price change, every trade, and every bid and ask update.",
+    "host_name": "questdb.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cashmarket.deutsche-boerse.com/cash-en/Data-Tech/statistics/market-data",
+    "name": "Market Data - Xetra - Deutsche Börse AG",
+    "snippet": "Deutsche Börse Data Shop offers you a wide range of historical market data. In addition, the highly granular data of the Eurex and Deutsche Börse trading ...",
+    "host_name": "www.cashmarket.deutsche-boerse.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.risk.net/awards/7954579/market-data-vendor-of-the-year-ice-data-services",
+    "name": "Market data vendor of the year: ICE Data Services - Risk.net",
+    "snippet": "... historical tick data from the ICE Consolidated Feed with history going back more than 10 years. It covers more than 25 million instruments ...",
+    "host_name": "www.risk.net",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tickdatamarket.com",
+    "name": "Tickdatamarket",
+    "snippet": "Tickdatamarkets collects every tick for all asset class types including equities, futures, interest rates, FX and cash indices, as well as full order book data.",
+    "host_name": "www.tickdatamarket.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

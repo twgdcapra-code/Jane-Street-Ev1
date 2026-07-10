@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://tradersync.com/demystifying-backtesting-vs-market-replay-powerful-tools-for-trader-development",
+    "name": "Demystifying Backtesting vs. Market Replay - TraderSync",
+    "snippet": "Backtesting cannot account for unforeseen market events. Market Replay requires manual effort and is time-consuming compared to backtesting. It ...",
+    "host_name": "tradersync.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://chartmini.com/blog/market-replay-vs-backtesting-vs-paper-trading",
+    "name": "Market Replay vs Backtesting vs Paper Trading: Which Should You",
+    "snippet": "Backtesting validates a strategy's statistical edge by running rules automatically over historical data. Market replay feeds historical data ... Missing: advantages | Show results with: advantages",
+    "host_name": "chartmini.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradesviz.com/blog/all-simulators-guide",
+    "name": "Simulation, Replay & Backtesting in TradesViz: A complete A-Z guide to",
+    "snippet": "The word backtest has a long history whereas simulation and replay are relatively new. Missing: event | Show results with: event",
+    "host_name": "www.tradesviz.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://futures.aeromir.com/post/111/ninjatrader-backtesting-explained-which-method-should-you-trust",
+    "name": "NinjaTrader Backtesting: Strategy Analyzer vs. Market Replay | Aeromir",
+    "snippet": "It sounds reasonable on the surface. Market Replay uses real tick data. Strategy Analyzer simulates fills. One feels more \"real\" than the other.",
+    "host_name": "futures.aeromir.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.jpmorgan.com/content/dam/jpm/cib/complex/content/technology/ai-research-publications/pdf-12.pdf",
+    "name": "[PDF] How to Evaluate Trading Strategies: Single Agent Market Replay or",
+    "snippet": "Backtesting a trading strategy allows for evaluating the per- formance of a strategy in a simulated environment using historical data.",
+    "host_name": "www.jpmorgan.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.ninjatrader.com/forum/ninjatrader-7/platform-technical-support/1042960-differance-between-market-replay-and-backtesting",
+    "name": "Differance between market replay and backtesting. - NinjaTrader Forum",
+    "snippet": "Market Replay will mimic realtime data when backtesting uses traditional historical data. Backtests will also be forced to use CalcuilateOnBarClose = true.",
+    "host_name": "forum.ninjatrader.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fxreplay.com/learn/trading-simulator-for-futures-what-to-know",
+    "name": "Trading Simulator for Futures: What to Know - FX Replay",
+    "snippet": "Backtesting vs. Replay: Different Questions, Different Tools. These two are often treated as the same thing. They're not, and the distinction ...",
+    "host_name": "fxreplay.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/1ifdw3l/backtesting_market_data_and_event_driven",
+    "name": "Backtesting Market Data and Event Driven backtesting : r/algotrading",
+    "snippet": "Event-driven just means it loops through and acts event at a time like paper trading instead of using vectorized method calls. Missing: replay advantages",
+    "host_name": "www.reddit.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://chartmini.com/blog/what-is-market-replay-backtesting",
+    "name": "What Is Market Replay? Chart Replay vs Backtesting vs Paper Trading",
+    "snippet": "Market replay is a discretionary practice method in which you step through historical bars and make decisions as if they were appearing live. Missing: advantages | Show results with: advantages",
+    "host_name": "chartmini.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/michael-fernandes-7a3b6227a_backtest-vs-reality-activity-7408478160607932416-BMgK",
+    "name": "Event-Driven Backtesting for Real Results | Michael Fernandes posted",
+    "snippet": "They work in completely different mathematical and system domains. Backtesting is deterministic. You're evaluating on static historical data.",
+    "host_name": "www.linkedin.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

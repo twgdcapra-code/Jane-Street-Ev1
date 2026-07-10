@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.cmegroup.com/datamine.html",
+    "name": "DataMine - CME Group",
+    "snippet": "Market by Order.",
+    "host_name": "www.cmegroup.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/content/dam/cmegroup/education/files/cme-datamine-overview.pdf",
+    "name": "[PDF] Data Services CME DataMine",
+    "snippet": "CME DataMine is a self-service cloud solution allowing you to quickly and more efficiently access CME Group data in an integrated, streamlined process with ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/189548823/g",
+    "name": "Cme Datamine Product Guide: When Precision Matters | PDF - Scribd",
+    "snippet": "CME DataMine offers comprehensive CME, CBOT, NYMEX and COMEX historic market data raw and straight from the source. This product guide explains each data type ...",
+    "host_name": "www.scribd.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/CMEGroup/datamine_python",
+    "name": "Package for interacting with CME Datamine historical Market Data",
+    "snippet": "This python package will support your rapid analysis by supplying a basic framework for direct iteration with CME Datamine cloud system.",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/457093009/Historical+Margin+Data",
+    "name": "Dates Available - CME Group Client Systems Wiki - Confluence",
+    "snippet": "This page describes Historical Margin data available from CME DataMine. Historical margin data includes historical outright margin data by futures product and ...",
+    "host_name": "cmegroupclientsite.atlassian.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.lseg.com/en/data-analytics/financial-data/pricing-and-market-data/futures-data/cme-group-data",
+    "name": "CME Group - Data Analytics - LSEG",
+    "snippet": "We provide a consolidated set of current and historical C&E (commodities and energy) data, as well as forecasts, providing a deep insight both the physical and ...",
+    "host_name": "www.lseg.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/market-data/real-time-and-historical-data.html",
+    "name": "Real-Time & Historical Data - CME Group",
+    "snippet": "To get real-time access to product data, fill out the form and a CME Group data expert will reach out to get started. If you're looking for historical data, ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantvps.com/blog/cme-historical-data-complete-guide?srsltid=AfmBOop5aQ6kFICUeiEBvPQbecpSu_fAC-oN7Fq1ix_Fphq5VuxjMJ5p",
+    "name": "CME Historical Data: Complete Guide to Futures Prices & API Access",
+    "snippet": "Explore comprehensive CME historical data for futures trading, covering access methods, API integration, and strategy development insights.",
+    "host_name": "www.quantvps.com",
+    "rank": 7,
+    "date": "Jul 4, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://databento.com/futures",
+    "name": "Futures Market Data - Live and historical futures data API - Databento",
+    "snippet": "Official licensed distributor of futures data from CME, ICE, CBOT, NYMEX, COMEX, and more. Trades, quotes, full order book, and market depth.",
+    "host_name": "databento.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dxfeed.com/market-data/futures/cme",
+    "name": "Chicago Mercantile Exchange (CME) - Market Data - dxFeed",
+    "snippet": "Real-time, delayed and historical complete tick-level market data feed for US futures and options from Chicago Mercantile Exchange (CME).",
+    "host_name": "dxfeed.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

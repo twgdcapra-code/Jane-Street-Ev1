@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.columbia.edu/~ww2040/orderbook.pdf",
+    "name": "[PDF] A stochastic model for order book dynamics - Columbia University",
+    "snippet": "We propose a stochastic model for the continuous-time dynamics of a limit order book. The model strikes a balance between two desirable features: it ...",
+    "host_name": "www.columbia.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2402.17359v1",
+    "name": "Limit Order Book Simulations: A Review - arXiv",
+    "snippet": "Rama Cont and Adrien Larrard “Price Dynamics in a Markovian Limit Order Market” In SIAM Journal on Financial Mathematics 4.1 Society for ...",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1273160",
+    "name": "A Stochastic Model for Order Book Dynamics",
+    "snippet": "We propose a stochastic model for the continuous-time dynamics of a limit order book. The model strikes a balance between three desirable features.",
+    "host_name": "papers.ssrn.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/cfm-imperial-institute-of-quantitative-finance/events/imperial-eth-2016/Rama-Cont-1.pdf",
+    "name": "[PDF] High Frequency Dynamics of Limit Order Markets - Stochastic",
+    "snippet": "Markovian limit order market, SIAM Journal on Financial. Mathematics, Vol 4, 1–25. Rama Cont and ...",
+    "host_name": "www.imperial.ac.uk",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hal.science/hal-03968767v1/file/LOB_paper_for_arxiv.pdf",
+    "name": "[PDF] A mathematical framework for modelling order book dynamics - HAL",
+    "snippet": "The empirical study of limit order book dynamics has revealed various empirical regularities [2, 3] across a range of different time scales ...",
+    "host_name": "hal.science",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=XoBjQqMmKoM",
+    "name": "Stochastic Market Microstructure Models of Limit Order Books",
+    "snippet": "Authors: Costis Maglaras, Columbia University; Rama Cont, University of Oxford Many financial markets are operated as electronic limit order ...",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/p/hal/wpaper/hal-02090449.html",
+    "name": "A Stochastic Pde Model For Limit Order Book Dynamics - IDEAS/RePEc",
+    "snippet": "We propose an analytically tractable class of models for the dynamics of a limit order book, described as the solution of a stochastic partial differential ...",
+    "host_name": "ideas.repec.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S1544612324011863",
+    "name": "Limit Order Book dynamics and order size modelling using Compound",
+    "snippet": "We propose a novel methodology of using Compound Hawkes Process for the LOB where each event has an order size sampled from a calibrated distribution.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pubsonline.informs.org/doi/10.1287/opre.1090.0780",
+    "name": "A Stochastic Model for Order Book Dynamics | Operations Research",
+    "snippet": "We propose a continuous-time stochastic model for the dynamics of a limit order book. The model strikes a balance between three desirable features.",
+    "host_name": "pubsonline.informs.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/659232199/Rama-Cont-2",
+    "name": "Price Dynamics in Limit Order Markets | PDF - Scribd",
+    "snippet": "The document discusses price dynamics in limit order markets. It describes limit order books, where limit orders queue until executed against market orders.",
+    "host_name": "www.scribd.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

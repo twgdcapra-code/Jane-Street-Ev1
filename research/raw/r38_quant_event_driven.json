@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.marketcalls.in/system-trading/comparision-of-event-driven-backtesting-vs-vectorized-backtesting.html",
+    "name": "Comparision of Event Driven Backtesting Vs Vectorized Backtesting",
+    "snippet": "Vectorized backtesting focuses on speed and efficiency. It applies trading logic to arrays of historical data all at once. This method is fast, ...\nWelcome to the crucial topic of backtesting methodologies for system traders: event-driven vs. vectorized backtesting. If you’re starting to learn about system trading, understanding these two approaches is essential.",
+    "host_name": "www.marketcalls.in",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantrocket.com/blog/backtest-speed-comparison",
+    "name": "Why Backtests Run Fast or Slow: A Comparison of Zipline",
+    "snippet": "Event-driven backtesters run in a loop, feeding market data to your algorithm one bar at a time. Vectorized backtesters feed the entire data ...",
+    "host_name": "www.quantrocket.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/a-practical-breakdown-of-vector-based-vs-event-based-backtesting",
+    "name": "A Practical Breakdown of Vector-Based vs. Event-Based Backtesting",
+    "snippet": "Vector-Based Backtesting: Processes entire price series at set time intervals (daily or minute bars), computing indicators, signals, and ...",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://waylandz.com/quant-book-en/Quant-Framework-Comparison",
+    "name": "Backtrader, VectorBT, Zipline, FinRL | AI Quantitative Trading",
+    "snippet": "Compare top quantitative trading frameworks—Backtrader, VectorBT, Zipline, QuantLib, FinRL, QuantConnect, Freqtrade—pros, cons, and use cases for ...\nCompare top quantitative trading frameworks—Backtrader, VectorBT, Zipline, QuantLib, FinRL, QuantConnect, Freqtrade—pros, cons, and use cases for backtesting, research, and live trading.",
+    "host_name": "waylandz.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://python.financial",
+    "name": "The Python Backtesting Landscape (2026): Choosing the Right",
+    "snippet": "Bottom line: The open-source VectorBT is a strong research-first backtesting engine for fast exploration and vectorized experimentation. For ...",
+    "host_name": "python.financial",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/1grnixv/make_my_own_backtesting_software_vs_using_public",
+    "name": "Make my own backtesting software vs Using public  - Reddit",
+    "snippet": "Vector BT is vector calc based. It's honestly a bit over engineered for the average use case. It's also not a great mental model, event ... Backtesting Market Data and Event Driven backtesting : r/algotrading Vectorized vs Event driven Backtesting : r/algotrading - Reddit More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/46791/why-do-we-need-event-driven-backtesters",
+    "name": "Why do we need event-driven backtesters?",
+    "snippet": "The event-driven backtester is a more well thought out simulation. By making use of an event driven backtester we can stop look ahead bias to a large extent.",
+    "host_name": "quant.stackexchange.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/polakowo/vectorbt/discussions/185",
+    "name": "vbt accuracy versus event driven libs like Zipline? #185 - GitHub",
+    "snippet": "vectorbt has some room to grow to compete with other backtesters in terms of functionality, but it clearly outperforms them in terms of speed, extensibility, ...",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://trader-algoritmico.com/blog/vectorbt-vs-zipline-vectorization-speed-for-crypto-backtests",
+    "name": "Vectorbt vs Zipline: Vectorization Speed for Crypto Backtests",
+    "snippet": "If you are focused on rapid research and parameter sweeps, VectorBT is the better choice. If you need to model complex execution mechanics or ...",
+    "host_name": "trader-algoritmico.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@trading.dude/battle-tested-backtesters-comparing-vectorbt-zipline-and-backtrader-for-financial-strategy-dee33d33a9e0",
+    "name": "Battle-Tested Backtesters: Comparing VectorBT, Zipline, and",
+    "snippet": "In the Python ecosystem, three libraries dominate the backtesting landscape: VectorBT, Zipline, and Backtrader. Each comes with a distinct design philosophy, set of capabilities, and...",
+    "host_name": "medium.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://questdb.com/glossary/market-replay-systems",
+    "name": "Market Replay Systems - QuestDB",
+    "snippet": "Market replay systems must maintain precise timestamp synchronization across multiple data sources to accurately reconstruct market conditions. Data ...",
+    "host_name": "questdb.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@DolphinDB_Inc/best-practices-for-market-data-replay-e69fea702736",
+    "name": "Best Practices for Market Data Replay | by DolphinDB - Medium",
+    "snippet": "Multi-source synchronization: Enables orderly replay of multiple data sources concurrently. Advanced ordering options: Provides time-based ...",
+    "host_name": "medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://safran-navigation-timing.com/the-importance-of-time-and-synchronization-in-financial-trading-systems",
+    "name": "The Importance of Time and Synchronization in Financial",
+    "snippet": "Accurate timekeeping and synchronization are vital for maintaining the correct sequence of market events, such as order submissions, cancellations, and trade ...",
+    "host_name": "safran-navigation-timing.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scirp.org/journal/paperinformation?paperid=68657",
+    "name": "An Advanced Approach of Local Counter Synchronization to  - SCIRP",
+    "snippet": "Timestamp is an identifier of every transaction and used to permit ordering. Timestamp has two essential attributes: uniqueness and monotonicity. Monotonicity ...",
+    "host_name": "www.scirp.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/doc/83894445/Multi-Version-Timestamp-Ordering-Protocol",
+    "name": "Multiversion Timestamp Ordering Protocol | PDF - Scribd",
+    "snippet": "Rating 4.5 (15) The multiversion timestamp ordering protocol maintains multiple versions of each data item. Each version contains the data, a write timestamp (W-TS), and a ...",
+    "host_name": "www.scribd.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://15445.courses.cs.cmu.edu/spring2025/notes/18-timestampordering.pdf",
+    "name": "[PDF] Lecture Notes - 18 Timestamp Ordering Concurrency Control",
+    "snippet": "Different schemes assign timestamps at different times during the transaction. Some advanced schemes even assign multiple timestamps per transaction. If TS(Ti) ...",
+    "host_name": "15445.courses.cs.cmu.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=risHwKeWbBM",
+    "name": "19 - Timestamp Ordering Concurrency Control (CMU Intro to  - YouTube",
+    "snippet": "#19 - Timestamp Ordering Concurrency Control (CMU Intro to Database Systems). 2.6K views · 7 months ago. CARNEGIE MELLON UNIVERSITY ...more ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/4376982_Replay-Based_Synchronization_of_Timestamps_in_Event_Traces_of_Massively_Parallel_Applications",
+    "name": "Replay-Based Synchronization of Timestamps in Event Traces of",
+    "snippet": "In addition to correctly synchronizing clocks in order to accurately compute the clock oset during post-processing, some tools also rely on logical clocks ...",
+    "host_name": "www.researchgate.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scispace.com/pdf/global-timestamp-serialization-in-multi-level-multi-version-5eiwuobpay.pdf",
+    "name": "[PDF] Global Timestamp Serialization in Multi-Level Multi-Version DBMS",
+    "snippet": "The multi-level multi-version timestamp ordering mechanisms satisfy these requirements but may cause transactions read old version data, and the scheduler ...",
+    "host_name": "scispace.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.parallel.informatik.tu-darmstadt.de/zotero-lists/attachments/2008-Replay-based_synchronization_of_timestamps_in_event_traces_of_massively_parallel_applications-X725RRXK.pdf",
+    "name": "[PDF] Replay-Based Synchronization of Timestamps in Event Traces of",
+    "snippet": "Event traces are helpful in understanding the perfor- mance behavior of message-passing applications since they allow in-depth analyses of communication and ...",
+    "host_name": "www.parallel.informatik.tu-darmstadt.de",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

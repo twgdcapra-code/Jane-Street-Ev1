@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://lmax-exchange.github.io/disruptor/disruptor.html",
+    "name": "LMAX Disruptor: High performance alternative to bounded queues",
+    "snippet": "A RingBuffer exists at the core of the Disruptor pattern providing storage for data exchange without contention. The concurrency concerns are separated out ... Missing: Aeron | Show results with: Aeron",
+    "host_name": "lmax-exchange.github.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/axelncho/using-lmax-disruptor-to-build-a-high-performance-in-memory-event-broker-in-java-6i",
+    "name": "Using LMAX Disruptor to build a high-performance in-memory event",
+    "snippet": "The ring buffer. Disruptor is basically a very good application of the circular buffer, a fundamental data structure where a fixed-size array ... Missing: Aeron | Show results with: Aeron",
+    "host_name": "dev.to",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://technology.lmax.com/posts/the-coalescing-ring-buffer",
+    "name": "The Coalescing Ring Buffer | LMAX Technology Blog",
+    "snippet": "The Coalescing Ring Buffer borrows the following design principles from the Disruptor: using arrays as data structures because of their ... Missing: Aeron | Show results with: Aeron",
+    "host_name": "technology.lmax.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://batnamv.medium.com/lmax-disruptor-4621a8bb2b99",
+    "name": "LMAX Disruptor - Nam Vu - Medium",
+    "snippet": "Từ phiên bản 3.0 trở đi thì đây chính là cốt lõi (core) của Disruptor, nó được thiết kế để quản lý việc gửi và nhận dữ liệu đến Ring-Buffer giữa ... Missing: Aeron | Show results with: Aeron",
+    "host_name": "batnamv.medium.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://atlanta.aitinkerers.org/technologies/lmax-disruptor",
+    "name": "LMAX Disruptor Projects - AI Tinkerers - Atlanta",
+    "snippet": "LMAX Disruptor. A high-performance inter-thread messaging library designed for ultra-low latency financial trading via a lock-free ring buffer. Missing: Aeron data",
+    "host_name": "atlanta.aitinkerers.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://martinfowler.com/articles/lmax.html",
+    "name": "The LMAX Architecture - Martin Fowler",
+    "snippet": "Figure 4: The LMAX architecture with the disruptors expanded. The disruptor is a general purpose component that can be used outside ... Missing: Aeron | Show results with: Aeron",
+    "host_name": "martinfowler.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/topics/lmax-disruptor",
+    "name": "lmax-disruptor · GitHub Topics",
+    "snippet": "Fast and easy to use SPSC Circular Ringbuffer using core principles presented by the developers of the LMAX Disruptor. java performance queue atomic message- ...",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://lmax-exchange.github.io/disruptor",
+    "name": "LMAX Disruptor - GitHub Pages",
+    "snippet": "The Disruptor is a general-purpose mechanism for solving a difficult problem in concurrent programming. It works in a different way to more conventional ... Missing: Aeron | Show results with: Aeron",
+    "host_name": "lmax-exchange.github.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Qho1QNbXBso",
+    "name": "LMAX Disruptor and the Concepts of Mechanical Sympathy - YouTube",
+    "snippet": "LMAX, a retail trading firm in the UK, has open sourced a concurrency pattern called the Disruptor, which enables the creation of graphs of ...",
+    "host_name": "www.youtube.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://groups.google.com/g/mechanical-sympathy/c/o304_ZMf6bg",
+    "name": "LMAX Disruptor vs Agrona RingBuffer (one consumer and one",
+    "snippet": "Hi there,. Having some trouble to find any latency comparison between LMAX Disruptor and Agrona RingBuffer. Which one is better, or ... Missing: lock- free market data",
+    "host_name": "groups.google.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

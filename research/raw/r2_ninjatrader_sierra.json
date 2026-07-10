@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://support.ninjatrader.com/eu/s/article/How-Do-I-Connect-to-NinjaTrader-Desktop-s-Playback-Feature?",
+    "name": "Market Replay (Playback Connection) - NinjaTrader Desktop",
+    "snippet": "After selecting Playback, the Historical Data window will appear. The Loaded section displays any Market Replay and Historical Data already available on your ...",
+    "host_name": "support.ninjatrader.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sierrachart.com/index.php?page=doc/ReplayChart.html",
+    "name": "Replaying Charts - Sierra Chart",
+    "snippet": "Multiple charts can be replayed at the same time. To access the Chart replay feature, select Chart >> Replay Chart >> Replay Chart on the menu ...",
+    "host_name": "www.sierrachart.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/FuturesTrading/comments/12qrnav/looking_for_es_tick_data_to_use_with_ninjatrader",
+    "name": "Looking for /ES tick data to use with Ninjatrader Market Replay for chart",
+    "snippet": "The PlayBack feature in Ninjatrader gives you a warning that \"historical\" is less accurate than \"Market Replay\" because there is no Level II ... Market replay! : r/FuturesTrading - Reddit NinjaTrader Market Replay so choppy - Any alternative? : r/FuturesTrading More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ninjatrader.com/support/helpguides/nt8/set_up12.htm",
+    "name": "NinjaTrader 8 - Market Replay data",
+    "snippet": "1.Open the Historical Data window. · 2.Select the instrument and date of ...",
+    "host_name": "ninjatrader.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sierrachart.com/SupportBoard.php?ThreadID=96044",
+    "name": "Problems with replay mode on all my charts - Support Board - Sierra Chart",
+    "snippet": "You cannot replay Historical Daily charts. Those are not capable of being replayed. You will never use a Historical Daily or higher timeframe ...",
+    "host_name": "www.sierrachart.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=29ci7eq7dm0",
+    "name": "NinjaTrader 8 Tutorial : How To Use Market Playback (Update 2025)",
+    "snippet": "In this NinjaTrader tutorial series, I will share with you how to use market playback and how to download playback data in three separate ...",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://discourse.ninjatrader.com/t/market-replay-data-versus-historical-data/5472",
+    "name": "Market replay data versus historical data - NinjaTrader Community Forum",
+    "snippet": "The content within the historical data files, contains just Level 1 data only. Historical data is typically used as a cache to fill your charts ...",
+    "host_name": "discourse.ninjatrader.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portaraninja.com",
+    "name": "PortaraNinja: Historical Intraday And Tick Data for NinjaTrader",
+    "snippet": "Watch the video below on how to transform your 'historical data' into 'market replay' data within NinjaTrader and then use that 'market replay' data in Playback ...",
+    "host_name": "portaraninja.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sierrachart.com/SupportBoard.php?ThreadID=96775",
+    "name": "Depth market data for backtesting - Support Board - Sierra Chart",
+    "snippet": "Replaying Charts: Replaying of Market Depth Data But we only have historical Market Depth data for 6 months. So if you did not record the data ...",
+    "host_name": "www.sierrachart.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ninjatrader.com/futures/blogs/market-replay-practice-practice-practice-with-playback-connection",
+    "name": "Market Replay: Practice, Practice, Practice with Playback Connection",
+    "snippet": "With live on-demand data included for free with NinjaTrader, the Playback Connection empowers you to record, download and replay market data at your ...",
+    "host_name": "ninjatrader.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

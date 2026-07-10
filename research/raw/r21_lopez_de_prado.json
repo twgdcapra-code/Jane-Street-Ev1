@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.quantresearch.org/Lectures.htm",
+    "name": "Marcos Lopez de Prado",
+    "snippet": "In this study we argue that the back-testing methodology at the core of their strategy selection process may have played a role. Most firms and portfolio ...",
+    "host_name": "www.quantresearch.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.amazon.com/Advances-Financial-Machine-Learning-Marcos/dp/1119482089",
+    "name": "Advances in Financial Machine Learning: Lopez de Prado, Marcos",
+    "snippet": "A practical guide to leveraging machine learning for superior investment strategies, covering data structuring, research, supercomputing, and backtesting to ...",
+    "host_name": "www.amazon.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://search.proquest.com/openview/9e6a94d180279324f3d323b41b4d356d/1?pq-origsite=gscholar&cbl=816365",
+    "name": "Marcos López de Prado: Advances in financial machine learning - ProQuest",
+    "snippet": "... pitfalls. In Advances in Financial Machine Learning, Marcos López de Prado seeks to provide scientific ML techniques for the investment management ...",
+    "host_name": "search.proquest.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://abouttrading.substack.com/p/my-key-takeways-from-maros-lopez",
+    "name": "My Key Takeways From Marcos Lopez De Prado's Advances in Financial",
+    "snippet": "A model that looks amazing in backtests can easily fail in live trading. López de Prado's central message is that most financial ML failures ...",
+    "host_name": "abouttrading.substack.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=FJYgrkVbpEE",
+    "name": "\"Advances in Financial Machine Learning\" Live Interview  - YouTube",
+    "snippet": "Join us for an insightful session featuring Dr. Marcos López de Prado, a renowned hedge fund manager, entrepreneur, and professor, ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://reasonabledeviations.com/notes/adv_fin_ml",
+    "name": "Advances in Financial Machine Learning - Reasonable Deviations",
+    "snippet": "Walk forward testing is most common. Though it is hard to implement, it is easily interpretable. · CV backtesting is not historically ... Financial Data Structures · The dangers of backtesting",
+    "host_name": "reasonabledeviations.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.garp.org/hubfs/Whitepapers/a1Z1W0000054x6lUAA.pdf",
+    "name": "[PDF] THE 10 REASONS MOST MACHINE LEARNING FUNDS FAIL - GARP",
+    "snippet": "One of the most pervasive mistakes in financial research is to take some data, run it through an. ML algorithm, backtest the predictions, and ...",
+    "host_name": "www.garp.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/8ps1vp/can_anyone_recommend_advances_in_financial",
+    "name": "Can anyone recommend \"Advances in Financial Machine Learning\" by",
+    "snippet": "Instead you'll learn a lot about backtesting and over fitting , data structuring and labeling, and other more general problems and how they ...",
+    "host_name": "www.reddit.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3637114_code434076.pdf?abstractid=3447398&mirid=1",
+    "name": "[PDF] Advances in Financial Machine Learning Lecture 10/10",
+    "snippet": "The rate of failure is particularly high in machine learning (ML) funds. • In my experience, the reasons boil down to 7 common errors: 1. The Sisyphus paradigm.",
+    "host_name": "papers.ssrn.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.oreilly.com/library/view/advances-in-financial/9781119482086/c11.xhtml",
+    "name": "Chapter 11 The Dangers of Backtesting - Advances in Financial",
+    "snippet": "Most backtests published in journals are flawed, as the result of selection bias on multiple tests (Bailey, Borwein, López de Prado, and Zhu [2014]; Harvey et ...",
+    "host_name": "www.oreilly.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

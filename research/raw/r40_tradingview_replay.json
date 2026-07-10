@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.tradingview.com/support/solutions/43000712747-bar-replay-how-and-why-to-test-a-strategy-in-the-past",
+    "name": "Bar Replay: how and why to test a strategy in the past - TradingView",
+    "snippet": "Using Bar Replay · Historical depth",
+    "host_name": "www.tradingview.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://th.tradingview.com/scripts/replay",
+    "name": "Replay — อินดิเคเตอร์และกลยุทธ์ - TradingView",
+    "snippet": "onWhen using bar replay mode on TradingView, you have to scroll your way back through clearly visible price history, which always leaves you with unwanted ...",
+    "host_name": "th.tradingview.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradingview.com/support/solutions/43000474024-how-do-i-turn-bar-replay-on",
+    "name": "How do I turn Bar Replay on? - TradingView",
+    "snippet": "Click the Bar Replay button on the top panel of the chart to open the replay panel. The replay buttons are intuitive, as in any media player.",
+    "host_name": "www.tradingview.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradezella.com/blog/tradingview-bar-replay-vs-tradezella-backtesting",
+    "name": "Best TradingView Bar Replay Alternative (2026) - TradeZella",
+    "snippet": "TradeZella is a more powerful bar replay than TradingView: real order execution, auto-journaling, analytics, and live broker sync.",
+    "host_name": "www.tradezella.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=DFu9yRCChKM",
+    "name": "TradingView Replay Trading & Backtesting Tutorial (2026) - YouTube",
+    "snippet": "You'll need to have Trading view premium to get a more accurate backtest, because the regular subscription only does 1 minute intervals, ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradingview.com/chart/BTCUSD/DWUmstMH-TradingView-Masterclass-The-power-of-Bar-Replay",
+    "name": "TradingView Masterclass: The power of Bar Replay",
+    "snippet": "Bar Replay is one of TradingView's standout features, allowing traders to select any point in history on their chart and watch the market's movements replay ...",
+    "host_name": "www.tradingview.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tradersync.com/tradingview-bar-replay-alternative",
+    "name": "TradingView Bar Replay Alternative: Replay The Entire Market",
+    "snippet": "TraderSync lets you replay the entire market, tick-by-tick, with Level II, tape, stats, and full session feedback—built for serious training.",
+    "host_name": "tradersync.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/TradingView/comments/1s69ygt/for_anyone_whos_used_tradingview_replay_whats",
+    "name": "For anyone who's used TradingView replay, what's something about",
+    "snippet": "You can't go back bars without using the select bar feature. Replay is available in Bar Replay... This asset runs 24/5 showing over 316k bars of ...",
+    "host_name": "www.reddit.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://th.tradingview.com/support/solutions/43000712747",
+    "name": "โหมดแสดงแท่งเทียนแบบเล่นซ้ำ: ใช้งานอย่างไรและทำไมจึงถูกใช้ทดสอบ",
+    "snippet": "โหมดแสดงแท่งเทียนแบบเล่นซ้ำคือฟีเจอร์อันทรงพลังของ TradingView ที่ช่วยให้คุณจำลองสภาวะตลาดในอดีตเพื่อทดสอบกลยุทธ์และพัฒนาทักษะ คุณสามารถเลือกจุดเริ่มต้นใดก็ได้จากข้อมูลในอดีตที่มีอยู่ (ตั้งแต่ข้อมูลราย ...",
+    "host_name": "th.tradingview.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=_Lgh-5kD7tw",
+    "name": "Bar Replay Trading for Pros: Tutorial - YouTube",
+    "snippet": "... tradingview.com/u/scheplick & https://twitter.com/scheplick Bar Replay is a crucial feature that enables traders to review historical market ...",
+    "host_name": "www.youtube.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

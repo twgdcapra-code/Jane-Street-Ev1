@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.janestreet.com/join-jane-street/internships/trading",
+    "name": "Our Trading Internship - Jane Street",
+    "snippet": "Jane Street's trading internship is designed to cultivate advanced decision-making and problem-solving skills as applied to modern financial markets.",
+    "host_name": "www.janestreet.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantt.co.uk/resources/jump-trading-guide",
+    "name": "Jump Trading Careers Guide - Quantt",
+    "snippet": "Jump's trader interviews may include a mock trading game where you quote prices, manage risk, and respond to changing market conditions.",
+    "host_name": "www.quantt.co.uk",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.jumptrading.com",
+    "name": "Jump Trading",
+    "snippet": "At Jump, traders, builders, and researchers solve the hardest market problems, improving models, tools, and systems that power global trading.",
+    "host_name": "www.jumptrading.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradingsim.com",
+    "name": "Day Trading Simulator - Learn How to Trade Without the Risk | TradingSim",
+    "snippet": "A session-based replay simulator that keeps everything synchronized across symbols, charts, and tools for a seamless trading experience.",
+    "host_name": "www.tradingsim.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fxreplay.com/learn/best-stock-market-simulators-for-aspiring-traders",
+    "name": "Best Stock Market Simulators for Aspiring Traders - FX Replay",
+    "snippet": "Explore beginner-friendly stock market simulators and learn how FX Replay helps traders practice realistically, build skill faster, and prepare ...",
+    "host_name": "fxreplay.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/jane-street-market-prediction",
+    "name": "Jane Street Market Prediction | Kaggle",
+    "snippet": "Each row in the test set represents a trading opportunity for which you will be predicting an action value, 1 to make the trade and 0 to pass on it. Each trade ...",
+    "host_name": "www.kaggle.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=5aWoZdbXJrA",
+    "name": "The BEST Stock Market Simulators (Step-by-Step Guide) - YouTube",
+    "snippet": "... trading-class/ Want to Learn More ❓❓ Get info on My Strategy and Courses here: https://www.warriortrading.com/trading-courses/ Before we ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tradersync.com/market-replay-simulator",
+    "name": "Master Trading Strategies with Market Replay Simulator - TraderSync",
+    "snippet": "Whether you're trading US equities, options, CME futures, forex, or crypto, our simulator lets you test and refine your strategies with over 30,000 assets.",
+    "host_name": "tradersync.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/what-we-do/overview",
+    "name": "Trading. Research. Tech. - Jane Street",
+    "snippet": "We are a global liquidity provider and trading firm that uses sophisticated quantitative analysis and a deep understanding of market mechanics.",
+    "host_name": "www.janestreet.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantreplay.com",
+    "name": "Open Source Multi-Asset Market Simulator: Test Trading Strategies",
+    "snippet": "QuantReplay recreates a full-market environment using a synthetic matching engine that mirrors real-world order flow, venue logic, and multi-asset behavior.",
+    "host_name": "quantreplay.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

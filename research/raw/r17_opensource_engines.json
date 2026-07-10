@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://gist.github.com/rmbell09-lang/01281551ac4672bd5d1a42bb58575144",
+    "name": "Python Paper Trading Frameworks Compared (2026) - GitHub Gist",
+    "snippet": "A practical comparison of open-source Python tools for paper trading, backtesting, and algo strategy development. TL;DR. Tool, Setup Time, Paper Trading ...",
+    "host_name": "gist.github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/ml4t/backtest",
+    "name": "ml4t/backtest - GitHub",
+    "snippet": "Event-driven backtesting engine for quantitative trading strategies with realistic execution modeling. Part of the ML4T Library Ecosystem. This library is one ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/quantopian/zipline",
+    "name": "quantopian/zipline: Zipline, a Pythonic Algorithmic Trading Library - GitHub",
+    "snippet": "Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting. Zipline is currently used in production as the backtesting and ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=tbax2VcQUj4",
+    "name": "The Quantopian Backtesting Engine Still Used Today - YouTube",
+    "snippet": "Zipline is the open-source algorithmic trading library originally developed by Quantopian and remains one of the most widely referenced ...",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.backtrader.com",
+    "name": "Backtrader: Welcome",
+    "snippet": "A feature-rich Python framework for backtesting and trading. backtrader allows you to focus on writing reusable trading strategies, indicators and analyzers.",
+    "host_name": "www.backtrader.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/Limex-com/ziplime",
+    "name": "ZipLime - Reinventing the Classic Backtesting Experience of Zipline",
+    "snippet": "The first open-source backtester with native AI support. Write trading strategies in plain English. Backtest them in seconds. Built on the legacy of Zipline.",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://sentinel.redclawey.com/blog/article-10-en",
+    "name": "Python Quant Frameworks: Backtrader vs Zipline vs Sentinel (2026)",
+    "snippet": "Zipline is an open-source quantitative framework developed by Quantopian, once the core engine of the world's largest quant community platform.",
+    "host_name": "sentinel.redclawey.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2603.20319v1",
+    "name": "Implementation Risk in Portfolio Backtesting: A Previously  - arXiv",
+    "snippet": "Each strategy is executed through a reference implementation and four independent open-source backtesting engines on 30 non-overlapping, stratified asset ...",
+    "host_name": "arxiv.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forextester.com/blog/backtrader-alternatives/?srsltid=AfmBOorus6vMm1y5G6R8gwldVpJgh379k9vV69E7XufsJlWF0N9ggbFs",
+    "name": "Backtrader Alternatives for Strategies Backtesting - Forex Tester Online",
+    "snippet": "Zipline is another Python-based backtesting framework that's often compared to Backtrader. It was originally developed by Quantopian and is ...",
+    "host_name": "forextester.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@samuel.tinnerholm/from-backtest-to-live-going-live-with-zipline-reloaded-in-2025-step-by-step-guide-40e55ca264f1",
+    "name": "From Backtest to Live: Going Live with Zipline‑Reloaded in 2025 (Step-by",
+    "snippet": "An open-source Python framework that lets you deploy Zipline strategies to live brokers like Alpaca or Interactive Brokers with a single command.",
+    "host_name": "medium.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.maths.ox.ac.uk/system/files/attachments/Hawkes%20Process-Driven%20Models%20for%20Limit%20Order%20Book%20Dynamics_0.pdf",
+    "name": "[PDF] Hawkes Process-Driven Models for Limit Order Book Dynamics",
+    "snippet": "In this dissertation, we investigate the use of Hawkes processes to model limit order book dynamics. We give empirical evidence for the applicability of ... Missing: fill | Show results with: fill",
+    "host_name": "www.maths.ox.ac.uk",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2502.17417v1",
+    "name": "Event-Based Limit Order Book Simulation under a Neural Hawkes",
+    "snippet": "In this paper, we propose an event-driven Limit Order Book (LOB) model that captures twelve of the most observed LOB events in exchange-based ...",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5903882",
+    "name": "Limit Order Book Dynamics with Hawkes Processes: Mathematical",
+    "snippet": "We study limit order book (LOB) dynamics using linear and multivariate Hawkes processes. Hawkes models capture empirically observed clustering ... Missing: fill probability",
+    "host_name": "papers.ssrn.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/2227-7390/13/5/778",
+    "name": "Dynamic Modeling of Limit Order Book and Market Maker Strategy  - MDPI",
+    "snippet": "By constructing a state transition probability matrix, Markov queuing theory can effectively simulate the state changes of the limit order book. This paper ...",
+    "host_name": "www.mdpi.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/20A4253965B809CE494660AF5E595E91/9781316683040c9_p113-142_CBO.pdf/numerical-simulation-of-limit-order-books.pdf",
+    "name": "[PDF] Numerical Simulation of Limit Order Books",
+    "snippet": "9.3 Simulation of a Limit Order Book Modelled by Hawkes Processes. The basic order book simulator is now enhanced with arrival times of limit and market.",
+    "host_name": "resolve.cambridge.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mcpmarket.com/tools/skills/hawkes-process-fill-modeling",
+    "name": "Hawkes Process Fill Modeling | Claude Code Skill - MCP Market",
+    "snippet": "It is designed for quantitative traders and market makers who need to accurately predict fill probabilities, optimize queue positions, and dynamically adjust ...",
+    "host_name": "mcpmarket.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://wp.lancs.ac.uk/finec2018/files/2018/09/FINEC-2018-047-Mikko-Pakkanen.pdf",
+    "name": "[PDF] Limit order book modelling with state-dependent Hawkes processes",
+    "snippet": "Hawkes-process models of the order flow allow to capture self- and cross-excitation effects between market events. Missing: position fill",
+    "host_name": "wp.lancs.ac.uk",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pure.au.dk/ws/portalfiles/portal/353346350/State-dependent_Hawkes_processes_and_their_application_to_limit_order_book_modelling.pdf",
+    "name": "[PDF] State-dependent Hawkes processes and their application to limit order",
+    "snippet": "We apply state-dependent Hawkes processes to high-frequency limit order book data, allowing us to build a novel model that captures the feedback ...",
+    "host_name": "pure.au.dk",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://epubs.siam.org/doi/10.1137/22M1470815",
+    "name": "Order Book Queue Hawkes Markovian Modeling - SIAM Publications Library",
+    "snippet": "This article presents a Hawkes process model with Markovian baseline intensities for high-frequency order book data modeling.",
+    "host_name": "epubs.siam.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://research-information.bris.ac.uk/files/332120717/kdd2022.aam.pdf",
+    "name": "[PDF] State Dependent Parallel Neural Hawkes Process for Limit Order",
+    "snippet": "The majority of trading in financial markets is executed through a limit order book (LOB). The LOB is an event-based continuously- updating ...",
+    "host_name": "research-information.bris.ac.uk",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]
