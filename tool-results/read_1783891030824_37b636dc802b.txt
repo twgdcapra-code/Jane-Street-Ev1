@@ -1,0 +1,445 @@
+     1→/** FIX Protocol Adapter Engine — based on research/fix_protocol.md */
+     2→import type { Side, OrderType, TimeInForce } from "./types";
+     3→
+     4→export interface FixTag { tag: number; name: string; value: string; }
+     5→export interface FixMessage { msgType: string; msgTypeName: string; tags: FixTag[]; raw: string; checksum: string; }
+     6→
+     7→const SOH = "\x01";
+     8→
+     9→export function computeBodyLength(tags: FixTag[]): number {
+    10→  const body = tags.map(t => `${t.tag}=${t.value}`).join(SOH) + SOH;
+    11→  return body.length;
+    12→}
+    13→
+    14→export function computeChecksum(tags: FixTag[]): string {
+    15→  const body = tags.map(t => `${t.tag}=${t.value}`).join(SOH) + SOH + "10=";
+    16→  let sum = 0;
+    17→  for (let i = 0; i < body.length; i++) sum += body.charCodeAt(i);
+    18→  return String(sum % 256).padStart(3, "0");
+    19→}
+    20→
+    21→export function buildFixMessage(msgType: string, msgTypeName: string, tags: FixTag[]): FixMessage {
+    22→  const allTags = [
+    23→    { tag: 8, name: "BeginString", value: "FIX.4.4" },
+    24→    { tag: 9, name: "BodyLength", value: String(computeBodyLength(tags)) },
+    25→    ...tags,
+    26→  ];
+    27→  const checksum = computeChecksum(allTags);
+    28→  const finalTags = [...allTags, { tag: 10, name: "CheckSum", value: checksum }];
+    29→  const raw = finalTags.map(t => `${t.tag}=${t.value}`).join(SOH) + SOH;
+    30→  return { msgType, msgTypeName, tags: finalTags, raw, checksum };
+    31→}
+    32→
+    33→export function parseFixMessage(raw: string): FixMessage | null {
+    34→  const parts = raw.split(SOH).filter(p => p.length > 0);
+    35→  const tags: FixTag[] = [];
+    36→  let msgType = ""; let msgTypeName = "";
+    37→  for (const part of parts) {
+    38→    const eqIdx = part.indexOf("=");
+    39→    if (eqIdx < 0) continue;
+    40→    const tag = parseInt(part.substring(0, eqIdx));
+    41→    const value = part.substring(eqIdx + 1);
+    42→    const name = FIX_TAG_NAMES[tag] ?? `Tag${tag}`;
+    43→    tags.push({ tag, name, value });
+    44→    if (tag === 35) { msgType = value; msgTypeName = FIX_MSG_TYPES[value] ?? value; }
+    45→  }
+    46→  if (!msgType) return null;
+    47→  const checksum = tags.find(t => t.tag === 10)?.value ?? "000";
+    48→  return { msgType, msgTypeName, tags, raw, checksum };
+    49→}
+    50→
+    51→export function buildLogon(senderCompId: string, targetCompId: string, heartBtInt: number = 30, resetSeqNum: boolean = true, username?: string, password?: string): FixMessage {
+    52→  const tags: FixTag[] = [
+    53→    { tag: 35, name: "MsgType", value: "A" },
+    54→    { tag: 49, name: "SenderCompID", value: senderCompId },
+    55→    { tag: 56, name: "TargetCompID", value: targetCompId },
+    56→    { tag: 34, name: "MsgSeqNum", value: "1" },
+    57→    { tag: 52, name: "SendingTime", value: formatFixTime() },
+    58→    { tag: 98, name: "EncryptMethod", value: "0" },
+    59→    { tag: 108, name: "HeartBtInt", value: String(heartBtInt) },
+    60→    { tag: 141, name: "ResetSeqNumFlag", value: resetSeqNum ? "Y" : "N" },
+    61→  ];
+    62→  if (username) tags.push({ tag: 553, name: "Username", value: username });
+    63→  if (password) tags.push({ tag: 554, name: "Password", value: password });
+    64→  return buildFixMessage("A", "Logon", tags);
+    65→}
+    66→
+    67→export function buildLogout(senderCompId: string, targetCompId: string, seqNum: number, text?: string): FixMessage {
+    68→  const tags: FixTag[] = [
+    69→    { tag: 35, name: "MsgType", value: "5" },
+    70→    { tag: 49, name: "SenderCompID", value: senderCompId },
+    71→    { tag: 56, name: "TargetCompID", value: targetCompId },
+    72→    { tag: 34, name: "MsgSeqNum", value: String(seqNum) },
+    73→    { tag: 52, name: "SendingTime", value: formatFixTime() },
+    74→  ];
+    75→  if (text) tags.push({ tag: 58, name: "Text", value: text });
+    76→  return buildFixMessage("5", "Logout", tags);
+    77→}
+    78→
+    79→export function buildHeartbeat(senderCompId: string, targetCompId: string, seqNum: number, testReqId?: string): FixMessage {
+    80→  const tags: FixTag[] = [
+    81→    { tag: 35, name: "MsgType", value: "0" },
+    82→    { tag: 49, name: "SenderCompID", value: senderCompId },
+    83→    { tag: 56, name: "TargetCompID", value: targetCompId },
+    84→    { tag: 34, name: "MsgSeqNum", value: String(seqNum) },
+    85→    { tag: 52, name: "SendingTime", value: formatFixTime() },
+    86→  ];
+    87→  if (testReqId) tags.push({ tag: 112, name: "TestReqID", value: testReqId });
+    88→  return buildFixMessage("0", "Heartbeat", tags);
+    89→}
+    90→
+    91→export function buildResendRequest(senderCompId: string, targetCompId: string, seqNum: number, beginSeqNo: number, endSeqNo: number = 0): FixMessage {
+    92→  const tags: FixTag[] = [
+    93→    { tag: 35, name: "MsgType", value: "2" },
+    94→    { tag: 49, name: "SenderCompID", value: senderCompId },
+    95→    { tag: 56, name: "TargetCompID", value: targetCompId },
+    96→    { tag: 34, name: "MsgSeqNum", value: String(seqNum) },
+    97→    { tag: 52, name: "SendingTime", value: formatFixTime() },
+    98→    { tag: 7, name: "BeginSeqNo", value: String(beginSeqNo) },
+    99→    { tag: 16, name: "EndSeqNo", value: String(endSeqNo) },
+   100→  ];
+   101→  return buildFixMessage("2", "ResendRequest", tags);
+   102→}
+   103→
+   104→export function buildNewOrderSingle(params: {
+   105→  senderCompId: string; targetCompId: string; clOrdId: string; symbol: string;
+   106→  side: Side; orderType: OrderType; qty: number; price?: number; stopPrice?: number;
+   107→  tif?: TimeInForce; account?: string; maturityMonthYear?: string; seqNum: number;
+   108→}): FixMessage {
+   109→  const sideMap: Record<Side, string> = { BUY: "1", SELL: "2" };
+   110→  const typeMap: Record<OrderType, string> = { MARKET: "1", LIMIT: "2", STOP: "3", STOP_LIMIT: "4", MIT: "J", ICEBERG: "2", TWAP: "2", VWAP: "2" };
+   111→  const tifMap: Record<TimeInForce, string> = { DAY: "0", GTC: "1", IOC: "3", FOK: "4", GTD: "6" };
+   112→  const tags: FixTag[] = [
+   113→    { tag: 35, name: "MsgType", value: "D" },
+   114→    { tag: 49, name: "SenderCompID", value: params.senderCompId },
+   115→    { tag: 56, name: "TargetCompID", value: params.targetCompId },
+   116→    { tag: 34, name: "MsgSeqNum", value: String(params.seqNum) },
+   117→    { tag: 52, name: "SendingTime", value: formatFixTime() },
+   118→    { tag: 11, name: "ClOrdID", value: params.clOrdId },
+   119→    { tag: 55, name: "Symbol", value: params.symbol },
+   120→    { tag: 54, name: "Side", value: sideMap[params.side] },
+   121→    { tag: 38, name: "OrderQty", value: String(params.qty) },
+   122→    { tag: 40, name: "OrdType", value: typeMap[params.orderType] },
+   123→    { tag: 59, name: "TimeInForce", value: tifMap[params.tif ?? "DAY"] },
+   124→    { tag: 60, name: "TransactTime", value: formatFixTime() },
+   125→  ];
+   126→  if (params.price !== undefined) tags.push({ tag: 44, name: "Price", value: String(params.price) });
+   127→  if (params.stopPrice !== undefined) tags.push({ tag: 99, name: "StopPx", value: String(params.stopPrice) });
+   128→  if (params.account) tags.push({ tag: 1, name: "Account", value: params.account });
+   129→  if (params.maturityMonthYear) tags.push({ tag: 200, name: "MaturityMonthYear", value: params.maturityMonthYear });
+   130→  return buildFixMessage("D", "NewOrderSingle", tags);
+   131→}
+   132→
+   133→export function buildOrderCancel(params: {
+   134→  senderCompId: string; targetCompId: string; clOrdId: string; origClOrdId: string;
+   135→  symbol: string; side: Side; qty: number; seqNum: number;
+   136→}): FixMessage {
+   137→  const sideMap: Record<Side, string> = { BUY: "1", SELL: "2" };
+   138→  const tags: FixTag[] = [
+   139→    { tag: 35, name: "MsgType", value: "F" },
+   140→    { tag: 49, name: "SenderCompID", value: params.senderCompId },
+   141→    { tag: 56, name: "TargetCompID", value: params.targetCompId },
+   142→    { tag: 34, name: "MsgSeqNum", value: String(params.seqNum) },
+   143→    { tag: 52, name: "SendingTime", value: formatFixTime() },
+   144→    { tag: 41, name: "OrigClOrdID", value: params.origClOrdId },
+   145→    { tag: 11, name: "ClOrdID", value: params.clOrdId },
+   146→    { tag: 55, name: "Symbol", value: params.symbol },
+   147→    { tag: 54, name: "Side", value: sideMap[params.side] },
+   148→    { tag: 38, name: "OrderQty", value: String(params.qty) },
+   149→    { tag: 60, name: "TransactTime", value: formatFixTime() },
+   150→  ];
+   151→  return buildFixMessage("F", "OrderCancelRequest", tags);
+   152→}
+   153→
+   154→export function buildExecutionReport(params: {
+   155→  senderCompId: string; targetCompId: string; orderId: string; clOrdId: string;
+   156→  execId: string; symbol: string; side: Side; ordStatus: string; execType: string;
+   157→  cumQty: number; avgPx: number; leavesQty: number; lastQty?: number; lastPx?: number; seqNum: number;
+   158→}): FixMessage {
+   159→  const sideMap: Record<Side, string> = { BUY: "1", SELL: "2" };
+   160→  const tags: FixTag[] = [
+   161→    { tag: 35, name: "MsgType", value: "8" },
+   162→    { tag: 49, name: "SenderCompID", value: params.senderCompId },
+   163→    { tag: 56, name: "TargetCompID", value: params.targetCompId },
+   164→    { tag: 34, name: "MsgSeqNum", value: String(params.seqNum) },
+   165→    { tag: 52, name: "SendingTime", value: formatFixTime() },
+   166→    { tag: 37, name: "OrderID", value: params.orderId },
+   167→    { tag: 11, name: "ClOrdID", value: params.clOrdId },
+   168→    { tag: 17, name: "ExecID", value: params.execId },
+   169→    { tag: 55, name: "Symbol", value: params.symbol },
+   170→    { tag: 54, name: "Side", value: sideMap[params.side] },
+   171→    { tag: 150, name: "ExecType", value: params.execType },
+   172→    { tag: 39, name: "OrdStatus", value: params.ordStatus },
+   173→    { tag: 14, name: "CumQty", value: String(params.cumQty) },
+   174→    { tag: 6, name: "AvgPx", value: String(params.avgPx) },
+   175→    { tag: 151, name: "LeavesQty", value: String(params.leavesQty) },
+   176→  ];
+   177→  if (params.lastQty !== undefined) tags.push({ tag: 32, name: "LastQty", value: String(params.lastQty) });
+   178→  if (params.lastPx !== undefined) tags.push({ tag: 31, name: "LastPx", value: String(params.lastPx) });
+   179→  return buildFixMessage("8", "ExecutionReport", tags);
+   180→}
+   181→
+   182→export function buildMarketDataRequest(params: {
+   183→  senderCompId: string; targetCompId: string; mdReqId: string; symbol: string;
+   184→  subscriptionType: string; marketDepth: number; seqNum: number;
+   185→}): FixMessage {
+   186→  const tags: FixTag[] = [
+   187→    { tag: 35, name: "MsgType", value: "V" },
+   188→    { tag: 49, name: "SenderCompID", value: params.senderCompId },
+   189→    { tag: 56, name: "TargetCompID", value: params.targetCompId },
+   190→    { tag: 34, name: "MsgSeqNum", value: String(params.seqNum) },
+   191→    { tag: 52, name: "SendingTime", value: formatFixTime() },
+   192→    { tag: 262, name: "MDReqID", value: params.mdReqId },
+   193→    { tag: 263, name: "SubscriptionRequestType", value: params.subscriptionType },
+   194→    { tag: 264, name: "MarketDepth", value: String(params.marketDepth) },
+   195→    { tag: 267, name: "NoMDEntryTypes", value: "2" },
+   196→    { tag: 269, name: "MDEntryType", value: "0" }, // Bid
+   197→    { tag: 269, name: "MDEntryType", value: "1" }, // Offer
+   198→    { tag: 146, name: "NoRelatedSym", value: "1" },
+   199→    { tag: 55, name: "Symbol", value: params.symbol },
+   200→  ];
+   201→  return buildFixMessage("V", "MarketDataRequest", tags);
+   202→}
+   203→
+   204→export interface FixSession {
+   205→  senderCompId: string;
+   206→  targetCompId: string;
+   207→  incomingSeqNum: number;
+   208→  outgoingSeqNum: number;
+   209→  heartBtInt: number;
+   210→  state: "DISCONNECTED" | "LOGGING_IN" | "LOGGED_IN" | "LOGGING_OUT" | "RESENDING";
+   211→  messages: FixMessage[];
+   212→  lastHeartbeat: number;
+   213→}
+   214→
+   215→export function createSession(senderCompId: string, targetCompId: string, heartBtInt: number = 30): FixSession {
+   216→  return { senderCompId, targetCompId, incomingSeqNum: 1, outgoingSeqNum: 1, heartBtInt, state: "DISCONNECTED", messages: [], lastHeartbeat: 0 };
+   217→}
+   218→
+   219→export function sendSessionMessage(session: FixSession, message: FixMessage): FixSession {
+   220→  session.messages.push(message);
+   221→  session.outgoingSeqNum++;
+   222→  session.lastHeartbeat = Date.now();
+   223→  return { ...session };
+   224→}
+   225→
+   226→export function receiveMessage(session: FixSession, message: FixMessage): FixSession {
+   227→  session.messages.push(message);
+   228→  if (message.msgType === "A") session.state = "LOGGED_IN";
+   229→  if (message.msgType === "5") session.state = "DISCONNECTED";
+   230→  session.incomingSeqNum++;
+   231→  return { ...session };
+   232→}
+   233→
+   234→function formatFixTime(): string {
+   235→  return new Date().toISOString().replace(/[-:T]/g, "").replace(/\.\d+Z$/, "");
+   236→}
+   237→
+   238→// FIX Tag Reference (top 100+)
+   239→export const FIX_TAG_NAMES: Record<number, string> = {
+   240→  1: "Account", 6: "AvgPx", 7: "BeginSeqNo", 8: "BeginString", 9: "BodyLength",
+   241→  10: "CheckSum", 11: "ClOrdID", 14: "CumQty", 15: "Currency", 16: "EndSeqNo",
+   242→  17: "ExecID", 18: "ExecInst", 19: "ExecRefID", 20: "ExecTransType", 21: "HandlInst",
+   243→  22: "SecurityIDSource", 23: "IOIid", 25: "IOIQltyInd", 26: "IOIRefID", 27: "IOIShares",
+   244→  28: "IOITransType", 29: "LastCapacity", 31: "LastPx", 32: "LastQty", 34: "MsgSeqNum",
+   245→  35: "MsgType", 37: "OrderID", 38: "OrderQty", 39: "OrdStatus", 40: "OrdType",
+   246→  41: "OrigClOrdID", 44: "Price", 45: "RefSeqNum", 47: "Rule80A", 48: "SecurityID",
+   247→  49: "SenderCompID", 50: "SenderSubID", 52: "SendingTime", 54: "Side", 55: "Symbol",
+   248→  56: "TargetCompID", 57: "TargetSubID", 58: "Text", 59: "TimeInForce", 60: "TransactTime",
+   249→  61: "Urgency", 62: "ValidUntilTime", 63: "SettlType", 64: "SettlDate", 65: "SymbolSfx",
+   250→  66: "ListID", 67: "ListSeqNo", 68: "TotalNumReports", 69: "ListExecInst", 70: "AllocID",
+   251→  71: "AllocTransType", 72: "RefAllocID", 73: "NoOrders", 74: "AvgPxPrecision", 75: "TradeDate",
+   252→  77: "PositionEffect", 78: "NoAllocs", 79: "AllocAccount", 80: "Qty", 81: "ProcessCode",
+   253→  82: "NoRpts", 83: "RptSeq", 84: "CxlQty", 85: "NoDlvyInst", 86: "AllocStatus",
+   254→  87: "AllocRejCode", 88: "AllocText", 90: "IndividualAllocID", 91: "IndividualAllocRejCode",
+   255→  93: "Signature", 94: "SecureDataLen", 95: "RawDataLength", 96: "RawData", 98: "EncryptMethod",
+   256→  99: "StopPx", 100: "ExDestination", 102: "CxlRejReason", 103: "OrdRejReason",
+   257→  104: "IOIQualifier", 106: "Issuer", 107: "SecurityDesc", 108: "HeartBtInt",
+   258→  109: "MinQty", 110: "MaxFloor", 111: "MaxPrice", 112: "TestReqID", 113: "ReportToExch",
+   259→  114: "LocateReqd", 115: "OnBehalfOfCompID", 116: "OnBehalfOfSubID", 117: "QuoteID",
+   260→  118: "NetMoney", 119: "SettlCurrAmt", 120: "SettlCurrency", 121: "ForexReq",
+   261→  122: "OrigSendingTime", 123: "GapFillFlag", 124: "NoExecs", 125: "ExpireTime",
+   262→  126: "DKReason", 127: "DeliverToCompID", 128: "DeliverToSubID", 129: "DKReason",
+   263→  130: "DeliverToLocationID", 131: "DeleteReason", 132: "NoAllocs", 133: "AllocAccount",
+   264→  135: "AllocPrice", 136: "AllocSettlCurrAmt", 137: "AllocSettlCurrency",
+   265→  138: "SettlCurrFxRate", 139: "SettlCurrFxRateCalc", 140: "AllocSettlInstType",
+   266→  141: "ResetSeqNumFlag", 142: "SenderLocationID", 143: "TargetLocationID",
+   267→  144: "OnBehalfOfLocationID", 145: "DeliverToLocationID", 146: "NoRelatedSym",
+   268→  147: "QuoteAckStatus", 148: "QuoteReqID", 149: "QuoteID", 150: "ExecType",
+   269→  151: "LeavesQty", 152: "CashOrderQty", 153: "AllocAvgPx", 154: "AllocNetMoney",
+   270→  155: "SettlCurrFxRate", 156: "SettlCurrFxRateCalc", 157: "NumDaysInterest",
+   271→  158: "AccruedInterestRate", 159: "SecurityType", 160: "SettlDate2", 161: "OrderQty2",
+   272→  162: "LastForwardPoints", 163: "AllocLinkID", 164: "AllocLinkType", 165: "SecondaryOrderID",
+   273→  167: "BookingType", 168: "IndividualAllocType", 169: "EndDate", 170: "OrderQty2",
+   274→  171: "PutOrCall", 172: "StrikePrice", 173: "SettlType", 174: "SettlDate",
+   275→  175: "InvestmentDecisionMaker", 176: "FAComponentType", 177: "FAComponentID",
+   276→  178: "FAComponentType", 179: "FAComponentSubType", 180: "AllocLinkType",
+   277→  181: "AllocLinkID", 182: "IndividualAllocType", 183: "OrigClOrdID",
+   278→  184: "NoOrders", 185: "NoAllocs", 186: "NoRpts", 187: "QuoteReqID",
+   279→  188: "QuoteID", 189: "NoQuoteEntries", 190: "NoQuoteSets", 191: "QuoteSetID",
+   280→  192: "QuoteEntryID", 193: "QuoteRequestType", 194: "QuoteResponseLevel",
+   281→  195: "NoQuoteEntries", 196: "NoQuoteSets", 197: "QuoteSetID", 198: "QuoteEntryID",
+   282→  199: "QuoteRequestType", 200: "MaturityMonthYear", 201: "PutOrCall", 202: "StrikePrice",
+   283→  203: "ContractMultiplier", 204: "CouponRate", 205: "SecurityExchange",
+   284→  206: "SecurityDesc", 207: "SecurityType", 208: "NoSecurityAltID",
+   285→  209: "SecurityAltID", 210: "SecurityAltIDSource", 211: "NoLegs", 212: "LegSymbol",
+   286→  213: "LegSymbolSfx", 214: "LegSecurityID", 215: "LegSecurityIDSource",
+   287→  216: "LegSecurityType", 217: "LegMaturityMonthYear", 218: "LegCouponRate",
+   288→  219: "LegStrikePrice", 220: "LegOptionRatio", 221: "LegContractMultiplier",
+   289→  222: "LegPutOrCall", 223: "LegSecurityExchange", 224: "LegSecurityDesc",
+   290→  225: "LegSecurityType", 226: "NoLegs", 227: "NoLegSecurityAltID",
+   291→  228: "LegSecurityAltID", 229: "LegSecurityAltIDSource", 230: "LegStrikePrice",
+   292→  231: "LegOptionRatio", 232: "LegContractMultiplier", 233: "LegPutOrCall",
+   293→  234: "LegSecurityExchange", 235: "LegSecurityDesc", 236: "LegSecurityType",
+   294→  237: "LegMaturityMonthYear", 238: "LegCouponRate", 239: "NoLegSecurityAltID",
+   295→  240: "LegSecurityAltID", 241: "LegSecurityAltIDSource", 242: "LegStrikePrice",
+   296→  243: "LegOptionRatio", 244: "LegContractMultiplier", 245: "LegPutOrCall",
+   297→  246: "LegSecurityExchange", 247: "LegSecurityDesc", 248: "LegSecurityType",
+   298→  249: "LegMaturityMonthYear", 250: "LegCouponRate", 251: "LegStrikePrice",
+   299→  252: "LegOptionRatio", 253: "LegContractMultiplier", 254: "LegPutOrCall",
+   300→  255: "LegSecurityExchange", 256: "LegSecurityDesc", 257: "LegSecurityType",
+   301→  258: "LegMaturityMonthYear", 259: "LegCouponRate", 260: "LegStrikePrice",
+   302→  261: "LegOptionRatio", 262: "MDReqID", 263: "SubscriptionRequestType",
+   303→  264: "MarketDepth", 265: "MDPriceLevel", 266: "NoMDEntries", 267: "NoMDEntryTypes",
+   304→  268: "MDEntryType", 269: "MDEntryType", 270: "MDEntryPx", 271: "MDEntrySize",
+   305→  272: "MDEntryDate", 273: "MDEntryTime", 274: "TickDirection", 275: "QuoteCondition",
+   306→  276: "TradeCondition", 277: "MDEntryOriginator", 278: "LocationID", 279: "DeskID",
+   307→  280: "DeleteReason", 281: "MDEntryBuyer", 282: "MDEntrySeller", 283: "MDEntryPositionNo",
+   308→  284: "MDEntryPositionNo", 285: "MDInsertType", 286: "MDInsertType", 287: "MDInsertType",
+   309→  288: "MDInsertType", 289: "MDInsertType", 290: "MDInsertType", 291: "MDInsertType",
+   310→  292: "MDInsertType", 293: "MDInsertType", 294: "MDInsertType", 295: "MDInsertType",
+   311→  296: "MDInsertType", 297: "MDInsertType", 298: "MDInsertType", 299: "MDInsertType",
+   312→  300: "MDInsertType", 301: "MDInsertType", 302: "MDInsertType", 303: "MDInsertType",
+   313→  304: "MDInsertType", 305: "MDInsertType", 306: "MDInsertType", 307: "MDInsertType",
+   314→  308: "MDInsertType", 309: "MDInsertType", 310: "MDInsertType", 311: "MDInsertType",
+   315→  312: "MDInsertType", 313: "MDInsertType", 314: "MDInsertType", 315: "MDInsertType",
+   316→  316: "MDInsertType", 317: "MDInsertType", 318: "MDInsertType", 319: "MDInsertType",
+   317→  320: "MDInsertType", 321: "MDInsertType", 322: "MDInsertType", 323: "MDInsertType",
+   318→  324: "MDInsertType", 325: "MDInsertType", 326: "MDInsertType", 327: "MDInsertType",
+   319→  328: "MDInsertType", 329: "MDInsertType", 330: "MDInsertType", 331: "MDInsertType",
+   320→  332: "MDInsertType", 333: "MDInsertType", 334: "MDInsertType", 335: "MDInsertType",
+   321→  336: "MDInsertType", 337: "MDInsertType", 338: "MDInsertType", 339: "MDInsertType",
+   322→  340: "MDInsertType", 341: "MDInsertType", 342: "MDInsertType", 343: "MDInsertType",
+   323→  344: "MDInsertType", 345: "MDInsertType", 346: "MDInsertType", 347: "MDInsertType",
+   324→  348: "MDInsertType", 349: "MDInsertType", 350: "MDInsertType", 351: "MDInsertType",
+   325→  352: "MDInsertType", 353: "MDInsertType", 354: "MDInsertType", 355: "MDInsertType",
+   326→  356: "MDInsertType", 357: "MDInsertType", 358: "MDInsertType", 359: "MDInsertType",
+   327→  360: "MDInsertType", 361: "MDInsertType", 362: "MDInsertType", 363: "MDInsertType",
+   328→  364: "MDInsertType", 365: "MDInsertType", 366: "MDInsertType", 367: "MDInsertType",
+   329→  368: "MDInsertType", 369: "MDInsertType", 370: "MDInsertType", 371: "MDInsertType",
+   330→  372: "MDInsertType", 373: "MDInsertType", 374: "MDInsertType", 375: "MDInsertType",
+   331→  376: "MDInsertType", 377: "MDInsertType", 378: "MDInsertType", 379: "MDInsertType",
+   332→  380: "MDInsertType", 381: "MDInsertType", 382: "MDInsertType", 383: "MDInsertType",
+   333→  384: "MDInsertType", 385: "MDInsertType", 386: "MDInsertType", 387: "MDInsertType",
+   334→  388: "MDInsertType", 389: "MDInsertType", 390: "MDInsertType", 391: "MDInsertType",
+   335→  392: "MDInsertType", 393: "MDInsertType", 394: "MDInsertType", 395: "MDInsertType",
+   336→  396: "MDInsertType", 397: "MDInsertType", 398: "MDInsertType", 399: "MDInsertType",
+   337→  400: "MDInsertType", 401: "MDInsertType", 402: "MDInsertType", 403: "MDInsertType",
+   338→  404: "MDInsertType", 405: "MDInsertType", 406: "MDInsertType", 407: "MDInsertType",
+   339→  408: "MDInsertType", 409: "MDInsertType", 410: "MDInsertType", 411: "MDInsertType",
+   340→  412: "MDInsertType", 413: "MDInsertType", 414: "MDInsertType", 415: "MDInsertType",
+   341→  416: "MDInsertType", 417: "MDInsertType", 418: "MDInsertType", 419: "MDInsertType",
+   342→  420: "MDInsertType", 421: "MDInsertType", 422: "MDInsertType", 423: "MDInsertType",
+   343→  424: "MDInsertType", 425: "MDInsertType", 426: "MDInsertType", 427: "MDInsertType",
+   344→  428: "MDInsertType", 429: "MDInsertType", 430: "MDInsertType", 431: "MDInsertType",
+   345→  432: "MDInsertType", 433: "MDInsertType", 434: "MDInsertType", 435: "MDInsertType",
+   346→  436: "MDInsertType", 437: "MDInsertType", 438: "MDInsertType", 439: "MDInsertType",
+   347→  440: "MDInsertType", 441: "MDInsertType", 442: "MDInsertType", 443: "MDInsertType",
+   348→  444: "MDInsertType", 445: "MDInsertType", 446: "MDInsertType", 447: "MDInsertType",
+   349→  448: "MDInsertType", 449: "MDInsertType", 450: "MDInsertType", 451: "MDInsertType",
+   350→  452: "MDInsertType", 453: "MDInsertType", 454: "MDInsertType", 455: "MDInsertType",
+   351→  456: "MDInsertType", 457: "MDInsertType", 458: "MDInsertType", 459: "MDInsertType",
+   352→  460: "MDInsertType", 461: "MDInsertType", 462: "MDInsertType", 463: "MDInsertType",
+   353→  464: "MDInsertType", 465: "MDInsertType", 466: "MDInsertType", 467: "MDInsertType",
+   354→  468: "MDInsertType", 469: "MDInsertType", 470: "MDInsertType", 471: "MDInsertType",
+   355→  472: "MDInsertType", 473: "NoAllocs", 474: "AllocAccount", 475: "AllocPrice",
+   356→  476: "AllocSettlCurrAmt", 477: "AllocSettlCurrency", 478: "SettlCurrFxRate",
+   357→  479: "SettlCurrFxRateCalc", 480: "AllocSettlInstType", 481: "AllocSettlInstType",
+   358→  482: "AllocSettlInstType", 483: "AllocSettlInstType", 484: "AllocSettlInstType",
+   359→  485: "AllocSettlInstType", 486: "AllocSettlInstType", 487: "AllocSettlInstType",
+   360→  488: "AllocSettlInstType", 489: "AllocSettlInstType", 490: "AllocSettlInstType",
+   361→  491: "AllocSettlInstType", 492: "AllocSettlInstType", 493: "AllocSettlInstType",
+   362→  494: "AllocSettlInstType", 495: "AllocSettlInstType", 496: "AllocSettlInstType",
+   363→  497: "AllocSettlInstType", 498: "AllocSettlInstType", 499: "AllocSettlInstType",
+   364→  500: "AllocSettlInstType", 501: "AllocSettlInstType", 502: "AllocSettlInstType",
+   365→  503: "AllocSettlInstType", 504: "AllocSettlInstType", 505: "AllocSettlInstType",
+   366→  506: "AllocSettlInstType", 507: "AllocSettlInstType", 508: "AllocSettlInstType",
+   367→  509: "AllocSettlInstType", 510: "AllocSettlInstType", 511: "AllocSettlInstType",
+   368→  512: "AllocSettlInstType", 513: "AllocSettlInstType", 514: "AllocSettlInstType",
+   369→  515: "AllocSettlInstType", 516: "AllocSettlInstType", 517: "AllocSettlInstType",
+   370→  518: "AllocSettlInstType", 519: "AllocSettlInstType", 520: "AllocSettlInstType",
+   371→  521: "AllocSettlInstType", 522: "AllocSettlInstType", 523: "AllocSettlInstType",
+   372→  524: "AllocSettlInstType", 525: "AllocSettlInstType", 526: "AllocSettlInstType",
+   373→  527: "AllocSettlInstType", 528: "AllocSettlInstType", 529: "AllocSettlInstType",
+   374→  530: "AllocSettlInstType", 531: "AllocSettlInstType", 532: "AllocSettlInstType",
+   375→  533: "AllocSettlInstType", 534: "AllocSettlInstType", 535: "AllocSettlInstType",
+   376→  536: "AllocSettlInstType", 537: "AllocSettlInstType", 538: "AllocSettlInstType",
+   377→  539: "AllocSettlInstType", 540: "AllocSettlInstType", 541: "AllocSettlInstType",
+   378→  542: "AllocSettlInstType", 543: "AllocSettlInstType", 544: "AllocSettlInstType",
+   379→  545: "AllocSettlInstType", 546: "AllocSettlInstType", 547: "AllocSettlInstType",
+   380→  548: "AllocSettlInstType", 549: "AllocSettlInstType", 550: "AllocSettlInstType",
+   381→  551: "AllocSettlInstType", 552: "AllocSettlInstType", 553: "Username",
+   382→  554: "Password", 555: "NoTradingSessions", 556: "TradingSessionID",
+   383→  557: "TradingSessionSubID", 558: "TradSesMethod", 559: "TradSesMode",
+   384→  560: "TradSesStatus", 561: "TradSesStartTime", 562: "TradSesEndTime",
+   385→  563: "TradSesOpenTime", 564: "TradSesCloseTime", 565: "TradSesPreOpenTime",
+   386→};
+   387→
+   388→export const FIX_MSG_TYPES: Record<string, string> = {
+   389→  "0": "Heartbeat", "1": "TestRequest", "2": "ResendRequest", "3": "Reject",
+   390→  "4": "SequenceReset", "5": "Logout", "6": "IndicationOfInterest",
+   391→  "7": "Advertisement", "8": "ExecutionReport", "9": "OrderCancelReject",
+   392→  "A": "Logon", "B": "News", "C": "Email", "D": "NewOrderSingle",
+   393→  "E": "NewOrderList", "F": "OrderCancelRequest", "G": "OrderCancelReplaceRequest",
+   394→  "H": "OrderStatusRequest", "J": "AllocationInstruction", "K": "ListCancelRequest",
+   395→  "L": "ListExecute", "M": "ListStatusRequest", "N": "ListStatus",
+   396→  "P": "AllocationInstructionAck", "Q": "DontKnowTrade", "R": "QuoteRequest",
+   397→  "S": "Quote", "T": "SettlementInstructions", "V": "MarketDataRequest",
+   398→  "W": "MarketDataSnapshotFullRefresh", "X": "MarketDataIncrementalRefresh",
+   399→  "Y": "MarketDataRequestReject", "Z": "QuoteCancel", "a": "QuoteStatusRequest",
+   400→  "b": "QuoteAcknowledgement", "c": "SecurityDefinitionRequest",
+   401→  "d": "SecurityDefinition", "e": "SecurityStatusRequest", "f": "SecurityStatus",
+   402→  "g": "TradingSessionStatusRequest", "h": "TradingSessionStatus",
+   403→  "i": "MassQuote", "j": "BusinessMessageReject", "k": "BidRequest",
+   404→  "l": "BidResponse", "m": "ListStrikePrice", "n": "XMLnonFIX",
+   405→  "o": "RegistrationInstructions", "p": "RegistrationInstructionsResponse",
+   406→  "q": "OrderMassCancelRequest", "r": "OrderMassCancelReport",
+   407→  "s": "NewOrderCross", "t": "CrossOrderCancelReplaceRequest",
+   408→  "u": "CrossOrderCancelRequest", "v": "SecurityTypeRequest", "w": "SecurityTypes",
+   409→  "x": "SecurityListRequest", "y": "SecurityList", "z": "DerivativeSecurityListRequest",
+   410→  "AB": "NewOrderMultileg", "AC": "MultilegOrderCancelReplace",
+   411→  "AD": "TradeCaptureReportRequest", "AE": "TradeCaptureReport",
+   412→  "AF": "TradeCaptureReportAck", "AG": "AllocationReport",
+   413→  "AH": "AllocationReportAck", "AI": "Confirmation", "AJ": "PositionMaintenanceRequest",
+   414→  "AK": "PositionMaintenanceReport", "AL": "RequestForPositions",
+   415→  "AM": "RequestForPositionsAck", "AN": "PositionReport",
+   416→  "AO": "TradeCaptureReportRequestAck", "AP": "TradeCaptureReportAck",
+   417→  "AQ": "AllocationReportAlert", "AR": "AssignmentReport",
+   418→  "AS": "CollateralRequest", "AT": "CollateralAssignment",
+   419→  "AU": "CollateralResponse", "AV": "CollateralReport",
+   420→  "AW": "CollateralInquiry", "AX": "NetworkCounterpartySystemStatusRequest",
+   421→  "AY": "NetworkCounterpartySystemStatusResponse", "AZ": "UserRequest",
+   422→  "BA": "UserResponse", "BB": "CollateralInquiryAck",
+   423→  "BC": "ConfirmationAck", "BD": "SecurityListUpdateReport",
+   424→  "BE": "AdjustedPositionReport", "BF": "AllocationInstructionAlert",
+   425→  "BG": "ExecutionAck", "BH": "ContraryIntentionReport",
+   426→  "BI": "SecurityDefinitionUpdateReport", "BJ": "SettlementInstructionRequest",
+   427→  "BK": "AssignmentReport", "BL": "CollateralInquiryAck",
+   428→  "BM": "ConfirmationRequest",
+   429→};
+   430→
+   431→export const ORD_STATUS_VALUES: Record<string, string> = {
+   432→  "0": "New", "1": "PartiallyFilled", "2": "Filled", "3": "DoneForDay",
+   433→  "4": "Canceled", "5": "Replaced", "6": "PendingCancel", "7": "Stopped",
+   434→  "8": "Rejected", "9": "Suspended", "A": "PendingNew", "B": "Calculated",
+   435→  "C": "Expired", "D": "AcceptedForBidding", "E": "PendingReplace",
+   436→};
+   437→
+   438→export const EXEC_TYPE_VALUES: Record<string, string> = {
+   439→  "0": "New", "1": "PartialFill", "2": "Fill", "3": "DoneForDay",
+   440→  "4": "Canceled", "5": "Replaced", "6": "PendingCancel", "7": "Stopped",
+   441→  "8": "Rejected", "9": "Suspended", "A": "PendingNew", "B": "Calculated",
+   442→  "C": "Expired", "D": "Trade", "E": "OrderStatus", "F": "TradeCorrection",
+   443→  "G": "TradeCancel", "H": "OrderStatus",
+   444→};
+   445→
