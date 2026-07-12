@@ -1,0 +1,1005 @@
+     1→/**
+     2→ * Central Trading Store (Zustand)
+     3→ *
+     4→ * Holds the canonical state of the trading system:
+     5→ *  - Account & cash
+     6→ *  - Orders (working, filled, cancelled)
+     7→ *  - Fills (audit ledger)
+     8→ *  - Positions (real-time P&L)
+     9→ *  - Active strategies
+    10→ *  - Alerts
+    11→ *  - System metrics (latency, throughput)
+    12→ *
+    13→ * Subscribes to MarketEngine and:
+    14→ *  - Updates quotes
+    15→ *  - Marks working orders against current quotes (limit fills, stop triggers)
+    16→ *  - Recomputes positions & account
+    17→ *
+    18→ * This single store mirrors TwigCapra's "no silos" risk discipline — every
+    19→ * module reads from the same state, so risk always sees the live book.
+    20→ */
+    21→"use client";
+    22→
+    23→import { create } from "zustand";
+    24→import type {
+    25→  Account,
+    26→  Alert,
+    27→  Candle,
+    28→  Fill,
+    29→  Order,
+    30→  OrderStatus,
+    31→  Position,
+    32→  Quote,
+    33→  Strategy,
+    34→  StrategyParams,
+    35→  SystemMetric,
+    36→  LogEntry,
+    37→} from "./types";
+    38→import { getContract } from "./contracts";
+    39→import { getEngine } from "./market-engine";
+    40→import { computeAccount, computePosition } from "./analytics";
+    41→import { STRATEGIES } from "./strategies";
+    42→import {
+    43→  type AlgoState,
+    44→  type AlgoType,
+    45→  type AlgoParams,
+    46→  createAlgo,
+    47→  stepAlgo,
+    48→  recordAlgoFill,
+    49→  cancelAlgo as cancelAlgoEngine,
+    50→  pauseAlgo as pauseAlgoEngine,
+    51→  resumeAlgo as resumeAlgoEngine,
+    52→} from "./execution-algos";
+    53→import {
+    54→  type PriceAlert,
+    55→  type Watchlist,
+    56→  type AlertCondition,
+    57→  createPriceAlert,
+    58→  evaluateAlert,
+    59→  DEFAULT_WATCHLISTS,
+    60→} from "./alerts";
+    61→import { type SignalRule, type SignalLogEntry } from "./indicators-intelligence";
+    62→import { type IndicatorPreset, DEFAULT_PRESETS } from "./indicator-registry";
+    63→
+    64→// ActiveIndicator type (defined in IndicatorsLab but needed here for persistence)
+    65→interface ActiveIndicator {
+    66→  uid: string;
+    67→  indicatorId: string;
+    68→  params: Record<string, number>;
+    69→  enabled: boolean;
+    70→  color: string;
+    71→}
+    72→
+    73→const INITIAL_CASH = 1_000_000;
+    74→const COMMISSION_PER_CONTRACT = 2.25;
+    75→
+    76→interface TradingState {
+    77→  // Market data
+    78→  quotes: Record<string, Quote>;
+    79→  selectedSymbol: string;
+    80→  // Account
+    81→  cashBalance: number;
+    82→  // Orders & fills
+    83→  orders: Order[];
+    84→  fills: Fill[];
+    85→  // Positions
+    86→  positions: Record<string, Position>;
+    87→  // Strategies
+    88→  strategies: Strategy[];
+    89→  // Execution algorithms
+    90→  algos: AlgoState[];
+    91→  // Price alerts & watchlists
+    92→  priceAlerts: PriceAlert[];
+    93→  watchlists: Watchlist[];
+    94→  // Indicators Lab state (persisted across navigation)
+    95→  indicatorSignalRules: SignalRule[];
+    96→  indicatorSignalLog: SignalLogEntry[];
+    97→  indicatorPresets: IndicatorPreset[];
+    98→  indicatorActiveIndicators: ActiveIndicator[];
+    99→  indicatorTradeNotes: Record<string, string>;
+   100→  // Alerts & logs
+   101→  alerts: Alert[];
+   102→  logs: LogEntry[];
+   103→  // System metrics
+   104→  metrics: SystemMetric[];
+   105→  // Engine state
+   106→  connected: boolean;
+   107→  lastTickAt: number;
+   108→  tickCount: number;
+   109→  // Actions
+   110→  selectSymbol: (s: string) => void;
+   111→  placeOrder: (
+   112→    o: Omit<Order, "id" | "clientId" | "status" | "filledQty" | "avgFillPrice" | "createdAt" | "updatedAt">,
+   113→  ) => string;
+   114→  cancelOrder: (id: string) => void;
+   115→  modifyOrder: (id: string, updates: Partial<Order>) => void;
+   116→  flattenAll: () => void;
+   117→  flattenSymbol: (symbol: string) => void;
+   118→  addAlert: (a: Omit<Alert, "id" | "timestamp" | "acknowledged">) => void;
+   119→  ackAlert: (id: string) => void;
+   120→  clearAlerts: () => void;
+   121→  addStrategy: (s: Omit<Strategy, "id" | "createdAt" | "pnl" | "trades" | "sharpe" | "maxDrawdown" | "currentSignal" | "positionQty" | "avgEntryPrice" | "realizedPnL" | "unrealizedPnL" | "pnlHistory" | "peakPnL" | "lastSignalAt" | "lastSignalPrice">) => void;
+   122→  updateStrategy: (id: string, updates: Partial<Strategy>) => void;
+   123→  removeStrategy: (id: string) => void;
+   124→  toggleStrategy: (id: string) => void;
+   125→  // Algo actions
+   126→  startAlgo: (type: AlgoType, params: AlgoParams) => string;
+   127→  cancelAlgo: (id: string) => void;
+   128→  pauseAlgo: (id: string) => void;
+   129→  resumeAlgo: (id: string) => void;
+   130→  // Price alert actions
+   131→  addPriceAlert: (symbol: string, condition: AlertCondition, threshold: number, name: string) => void;
+   132→  removePriceAlert: (id: string) => void;
+   133→  togglePriceAlert: (id: string) => void;
+   134→  resetPriceAlert: (id: string) => void;
+   135→  // Watchlist actions
+   136→  addWatchlist: (name: string) => void;
+   137→  removeWatchlist: (id: string) => void;
+   138→  addWatchlistEntry: (watchlistId: string, symbol: string, note?: string) => void;
+   139→  removeWatchlistEntry: (watchlistId: string, symbol: string) => void;
+   140→  // Indicators Lab actions (persisted)
+   141→  setIndicatorSignalRules: (rules: SignalRule[]) => void;
+   142→  setIndicatorSignalLog: (log: SignalLogEntry[]) => void;
+   143→  setIndicatorPresets: (presets: IndicatorPreset[]) => void;
+   144→  setIndicatorActiveIndicators: (indicators: ActiveIndicator[]) => void;
+   145→  setIndicatorTradeNote: (fillId: string, note: string) => void;
+   146→  log: (level: LogEntry["level"], module: string, message: string, metadata?: Record<string, unknown>) => void;
+   147→  onQuote: (q: Quote) => void;
+   148→  init: () => void;
+   149→}
+   150→
+   151→let orderCounter = 0;
+   152→let fillCounter = 0;
+   153→let alertCounter = 0;
+   154→let logCounter = 0;
+   155→let strategyCounter = 0;
+   156→
+   157→function nextId(prefix: string): string {
+   158→  return `${prefix}-${Date.now().toString(36)}-${(orderCounter++).toString(36)}`;
+   159→}
+   160→
+   161→export const useTradingStore = create<TradingState>((set, get) => ({
+   162→  quotes: {},
+   163→  selectedSymbol: "ES",
+   164→  cashBalance: INITIAL_CASH,
+   165→  orders: [],
+   166→  fills: [],
+   167→  positions: {},
+   168→  strategies: [
+   169→    {
+   170→      id: "strat-1",
+   171→      name: "ES Mean Reversion",
+   172→      type: "MEAN_REVERSION",
+   173→      description: "Z-score based mean reversion on E-mini S&P",
+   174→      symbols: ["ES"],
+   175→      params: { lookback: 30, entryZ: 2, exitZ: 0, stopZ: 4 } as StrategyParams,
+   176→      enabled: false,
+   177→      pnl: 0,
+   178→      trades: 0,
+   179→      sharpe: 0,
+   180→      maxDrawdown: 0,
+   181→      createdAt: Date.now(),
+   182→      currentSignal: 0,
+   183→      positionQty: 0,
+   184→      avgEntryPrice: 0,
+   185→      realizedPnL: 0,
+   186→      unrealizedPnL: 0,
+   187→      pnlHistory: [],
+   188→      peakPnL: 0,
+   189→    },
+   190→    {
+   191→      id: "strat-2",
+   192→      name: "NQ Momentum",
+   193→      type: "MOMENTUM",
+   194→      description: "EMA cross momentum on E-mini Nasdaq",
+   195→      symbols: ["NQ"],
+   196→      params: { fast: 9, slow: 21, rsiPeriod: 14, rsiUpper: 70, rsiLower: 30 } as StrategyParams,
+   197→      enabled: false,
+   198→      pnl: 0,
+   199→      trades: 0,
+   200→      sharpe: 0,
+   201→      maxDrawdown: 0,
+   202→      createdAt: Date.now(),
+   203→      currentSignal: 0,
+   204→      positionQty: 0,
+   205→      avgEntryPrice: 0,
+   206→      realizedPnL: 0,
+   207→      unrealizedPnL: 0,
+   208→      pnlHistory: [],
+   209→      peakPnL: 0,
+   210→    },
+   211→  ],
+   212→  alerts: [],
+   213→  logs: [],
+   214→  algos: [],
+   215→  priceAlerts: [],
+   216→  watchlists: DEFAULT_WATCHLISTS,
+   217→  indicatorSignalRules: [],
+   218→  indicatorSignalLog: [],
+   219→  indicatorPresets: DEFAULT_PRESETS,
+   220→  indicatorActiveIndicators: [],
+   221→  indicatorTradeNotes: {},
+   222→  metrics: [
+   223→    { name: "Tick-to-Trade Latency", value: 0.42, unit: "μs", status: "healthy", target: 5 },
+   224→    { name: "Order Ack Latency", value: 1.8, unit: "ms", status: "healthy", target: 10 },
+   225→    { name: "Market Data Throughput", value: 0, unit: "msg/s", status: "healthy", target: 10000 },
+   226→    { name: "Active Strategies", value: 0, unit: "", status: "healthy" },
+   227→    { name: "Open Orders", value: 0, unit: "", status: "healthy" },
+   228→    { name: "Memory Usage", value: 312, unit: "MB", status: "healthy", target: 1024 },
+   229→    { name: "Order Match Rate", value: 100, unit: "%", status: "healthy", target: 99.9 },
+   230→    { name: "Risk Engine Cycle", value: 0.3, unit: "ms", status: "healthy", target: 5 },
+   231→  ],
+   232→  connected: false,
+   233→  lastTickAt: 0,
+   234→  tickCount: 0,
+   235→
+   236→  selectSymbol: (s) => set({ selectedSymbol: s }),
+   237→
+   238→  init: () => {
+   239→    const engine = getEngine();
+   240→    engine.start();
+   241→    // Subscribe to quotes
+   242→    engine.onQuote((q) => get().onQuote(q));
+   243→    // Seed initial quotes
+   244→    const initial = engine.getAllQuotes();
+   245→    const quotes: Record<string, Quote> = {};
+   246→    initial.forEach((q) => (quotes[q.symbol] = q));
+   247→    set({ quotes, connected: true, lastTickAt: Date.now() });
+   248→    get().log("INFO", "System", "Trading engine initialised", { contracts: initial.length });
+   249→    get().log("INFO", "MarketData", "Subscribed to live feed", { symbols: initial.length });
+   250→    // Seed some sample orders and positions to make the demo feel alive
+   251→    seedDemoData(set, get);
+   252→  },
+   253→
+   254→  onQuote: (q) => {
+   255→    const state = get();
+   256→    const newQuotes = { ...state.quotes, [q.symbol]: q };
+   257→    set({
+   258→      quotes: newQuotes,
+   259→      lastTickAt: Date.now(),
+   260→      tickCount: state.tickCount + 1,
+   261→    });
+   262→    // Mark working orders
+   263→    const storeInternal = useTradingStore as unknown as TradingState & {
+   264→      markOrders: (q: Quote) => void;
+   265→      executeOrder: (id: string, quote?: Quote) => void;
+   266→      updatePositions: (q: Quote) => void;
+   267→      applyFill: (order: Order, fillQty: number, fillPrice: number) => void;
+   268→      stepAlgos: (q: Quote) => void;
+   269→      evaluateAlerts: (q: Quote) => void;
+   270→      stepStrategies: (q: Quote) => void;
+   271→    };
+   272→    storeInternal.markOrders(q);
+   273→    storeInternal.updatePositions(q);
+   274→    // Step active algos
+   275→    storeInternal.stepAlgos(q);
+   276→    // Evaluate price alerts
+   277→    storeInternal.evaluateAlerts(q);
+   278→    // Execute enabled strategies
+   279→    storeInternal.stepStrategies(q);
+   280→  },
+   281→
+   282→  placeOrder: (o) => {
+   283→    const id = nextId("ord");
+   284→    const now = Date.now();
+   285→    const order: Order = {
+   286→      ...o,
+   287→      id,
+   288→      clientId: `cli-${orderCounter}`,
+   289→      status: "WORKING",
+   290→      filledQty: 0,
+   291→      avgFillPrice: 0,
+   292→      createdAt: now,
+   293→      updatedAt: now,
+   294→    };
+   295→    // Validate
+   296→    const contract = getContract(o.symbol);
+   297→    if (!contract) {
+   298→      get().addAlert({ type: "ORDER", severity: "ERROR", message: `Unknown symbol: ${o.symbol}` });
+   299→      return id;
+   300→    }
+   301→    // Margin check
+   302→    const account = computeAccount(
+   303→      Object.values(get().positions),
+   304→      get().cashBalance,
+   305→      Object.fromEntries(Object.entries(get().quotes).map(([k, v]) => [k, v.last])),
+   306→    );
+   307→    const requiredMargin = Math.abs(o.qty) * contract.marginInitial;
+   308→    if (requiredMargin > account.availableMargin && o.type === "MARKET") {
+   309→      // Block market orders beyond margin; allow limit (will be checked on fill)
+   310→      set({
+   311→        orders: [{ ...order, status: "REJECTED", rejectReason: "Insufficient margin" }, ...get().orders],
+   312→      });
+   313→      get().addAlert({
+   314→        type: "ORDER",
+   315→        severity: "ERROR",
+   316→        message: `Order rejected: insufficient margin (need $${requiredMargin.toLocaleString()}, have $${account.availableMargin.toLocaleString()})`,
+   317→        symbol: o.symbol,
+   318→      });
+   319→      return id;
+   320→    }
+   321→    set({ orders: [order, ...get().orders] });
+   322→    get().log("INFO", "OMS", `Order placed: ${o.side} ${o.qty} ${o.symbol} @ ${o.type}`, { orderId: id });
+   323→    // Attempt immediate fill for market orders
+   324→    if (o.type === "MARKET") {
+   325→      const storeInternal = useTradingStore as unknown as TradingState & {
+   326→        executeOrder: (id: string, quote?: Quote) => void;
+   327→      };
+   328→      storeInternal.executeOrder(id, get().quotes[o.symbol]);
+   329→    }
+   330→    return id;
+   331→  },
+   332→
+   333→  cancelOrder: (id) => {
+   334→    const order = get().orders.find((o) => o.id === id);
+   335→    if (!order || order.status !== "WORKING") return;
+   336→    set({
+   337→      orders: get().orders.map((o) =>
+   338→        o.id === id ? { ...o, status: "CANCELLED" as OrderStatus, updatedAt: Date.now() } : o,
+   339→      ),
+   340→    });
+   341→    get().log("INFO", "OMS", `Order cancelled: ${id}`, { symbol: order.symbol });
+   342→  },
+   343→
+   344→  modifyOrder: (id, updates) => {
+   345→    set({
+   346→      orders: get().orders.map((o) => (o.id === id ? { ...o, ...updates, updatedAt: Date.now() } : o)),
+   347→    });
+   348→    get().log("INFO", "OMS", `Order modified: ${id}`, updates);
+   349→  },
+   350→
+   351→  flattenAll: () => {
+   352→    const positions = Object.values(get().positions).filter((p) => p.netQty !== 0);
+   353→    for (const p of positions) {
+   354→      get().flattenSymbol(p.symbol);
+   355→    }
+   356→    get().log("WARN", "Risk", "FLATTEN ALL triggered", { positions: positions.length });
+   357→    get().addAlert({
+   358→      type: "RISK",
+   359→      severity: "WARN",
+   360→      message: `Flatten-all executed: closed ${positions.length} positions`,
+   361→    });
+   362→  },
+   363→
+   364→  flattenSymbol: (symbol) => {
+   365→    const pos = get().positions[symbol];
+   366→    if (!pos || pos.netQty === 0) return;
+   367→    const quote = get().quotes[symbol];
+   368→    if (!quote) return;
+   369→    const side = pos.netQty > 0 ? "SELL" : "BUY";
+   370→    const qty = Math.abs(pos.netQty);
+   371→    get().placeOrder({
+   372→      symbol,
+   373→      side,
+   374→      type: "MARKET",
+   375→      tif: "IOC",
+   376→      qty,
+   377→      tag: "FLATTEN",
+   378→    });
+   379→  },
+   380→
+   381→  addAlert: (a) => {
+   382→    const alert: Alert = {
+   383→      ...a,
+   384→      id: `alert-${alertCounter++}`,
+   385→      timestamp: Date.now(),
+   386→      acknowledged: false,
+   387→    };
+   388→    set({ alerts: [alert, ...get().alerts].slice(0, 100) });
+   389→  },
+   390→
+   391→  ackAlert: (id) =>
+   392→    set({ alerts: get().alerts.map((a) => (a.id === id ? { ...a, acknowledged: true } : a)) }),
+   393→
+   394→  clearAlerts: () => set({ alerts: [] }),
+   395→
+   396→  addStrategy: (s) => {
+   397→    const strategy: Strategy = {
+   398→      ...s,
+   399→      id: `strat-${strategyCounter++}`,
+   400→      createdAt: Date.now(),
+   401→      pnl: 0,
+   402→      trades: 0,
+   403→      sharpe: 0,
+   404→      maxDrawdown: 0,
+   405→      currentSignal: 0,
+   406→      positionQty: 0,
+   407→      avgEntryPrice: 0,
+   408→      realizedPnL: 0,
+   409→      unrealizedPnL: 0,
+   410→      pnlHistory: [],
+   411→      peakPnL: 0,
+   412→    };
+   413→    set({ strategies: [...get().strategies, strategy] });
+   414→    get().log("INFO", "Strategy", `Strategy created: ${s.name}`, { type: s.type });
+   415→  },
+   416→
+   417→  updateStrategy: (id, updates) =>
+   418→    set({ strategies: get().strategies.map((s) => (s.id === id ? { ...s, ...updates } : s)) }),
+   419→
+   420→  removeStrategy: (id) => set({ strategies: get().strategies.filter((s) => s.id !== id) }),
+   421→
+   422→  toggleStrategy: (id) => {
+   423→    const s = get().strategies.find((x) => x.id === id);
+   424→    if (!s) return;
+   425→    set({
+   426→      strategies: get().strategies.map((x) => (x.id === id ? { ...x, enabled: !x.enabled } : x)),
+   427→    });
+   428→    get().log("INFO", "Strategy", `Strategy ${s.enabled ? "disabled" : "enabled"}: ${s.name}`);
+   429→    if (!s.enabled) {
+   430→      get().addAlert({
+   431→        type: "STRATEGY",
+   432→        severity: "INFO",
+   433→        message: `Strategy "${s.name}" activated`,
+   434→      });
+   435→    }
+   436→  },
+   437→
+   438→  startAlgo: (type, params) => {
+   439→    const algo = createAlgo(type, params);
+   440→    set({ algos: [algo, ...get().algos] });
+   441→    get().log("INFO", "AlgoEngine", `Algo ${type} started: ${params.side} ${params.totalQty} ${params.symbol}`, { algoId: algo.id });
+   442→    get().addAlert({
+   443→      type: "ORDER",
+   444→      severity: "INFO",
+   445→      message: `Algo ${type} started: ${params.side} ${params.totalQty} ${params.symbol}`,
+   446→    });
+   447→    return algo.id;
+   448→  },
+   449→
+   450→  cancelAlgo: (id) => {
+   451→    const algo = get().algos.find((a) => a.id === id);
+   452→    if (!algo) return;
+   453→    cancelAlgoEngine(algo);
+   454→    set({ algos: get().algos.map((a) => (a.id === id ? { ...a, ...algo } : a)) });
+   455→    get().log("WARN", "AlgoEngine", `Algo ${id} cancelled`, { filled: algo.filledQty, total: algo.params.totalQty });
+   456→  },
+   457→
+   458→  pauseAlgo: (id) => {
+   459→    const algo = get().algos.find((a) => a.id === id);
+   460→    if (!algo) return;
+   461→    pauseAlgoEngine(algo);
+   462→    set({ algos: get().algos.map((a) => (a.id === id ? { ...a, ...algo } : a)) });
+   463→    get().log("INFO", "AlgoEngine", `Algo ${id} paused`);
+   464→  },
+   465→
+   466→  resumeAlgo: (id) => {
+   467→    const algo = get().algos.find((a) => a.id === id);
+   468→    if (!algo) return;
+   469→    resumeAlgoEngine(algo);
+   470→    set({ algos: get().algos.map((a) => (a.id === id ? { ...a, ...algo } : a)) });
+   471→    get().log("INFO", "AlgoEngine", `Algo ${id} resumed`);
+   472→  },
+   473→
+   474→  addPriceAlert: (symbol, condition, threshold, name) => {
+   475→    const quote = get().quotes[symbol];
+   476→    const alert = createPriceAlert(symbol, condition, threshold, name, quote?.last);
+   477→    set({ priceAlerts: [alert, ...get().priceAlerts] });
+   478→    get().log("INFO", "Alerts", `Price alert created: ${name} (${condition} ${threshold})`, { symbol });
+   479→  },
+   480→
+   481→  removePriceAlert: (id) => set({ priceAlerts: get().priceAlerts.filter((a) => a.id !== id) }),
+   482→
+   483→  togglePriceAlert: (id) =>
+   484→    set({ priceAlerts: get().priceAlerts.map((a) => (a.id === id ? { ...a, enabled: !a.enabled } : a)) }),
+   485→
+   486→  resetPriceAlert: (id) =>
+   487→    set({
+   488→      priceAlerts: get().priceAlerts.map((a) =>
+   489→        a.id === id ? { ...a, triggered: false, triggeredAt: undefined, triggeredValue: undefined } : a,
+   490→      ),
+   491→    }),
+   492→
+   493→  addWatchlist: (name) => {
+   494→    const wl: Watchlist = {
+   495→      id: `wl-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`,
+   496→      name,
+   497→      entries: [],
+   498→      createdAt: Date.now(),
+   499→    };
+   500→    set({ watchlists: [...get().watchlists, wl] });
+   501→    get().log("INFO", "Watchlist", `Watchlist created: ${name}`);
+   502→  },
+   503→
+   504→  removeWatchlist: (id) => set({ watchlists: get().watchlists.filter((w) => w.id !== id) }),
+   505→
+   506→  addWatchlistEntry: (watchlistId, symbol, note) =>
+   507→    set({
+   508→      watchlists: get().watchlists.map((w) =>
+   509→        w.id === watchlistId && !w.entries.some((e) => e.symbol === symbol)
+   510→          ? { ...w, entries: [...w.entries, { symbol, note, addedAt: Date.now() }] }
+   511→          : w,
+   512→      ),
+   513→    }),
+   514→
+   515→  removeWatchlistEntry: (watchlistId, symbol) =>
+   516→    set({
+   517→      watchlists: get().watchlists.map((w) =>
+   518→        w.id === watchlistId ? { ...w, entries: w.entries.filter((e) => e.symbol !== symbol) } : w,
+   519→      ),
+   520→    }),
+   521→
+   522→  // Indicators Lab persisted actions
+   523→  setIndicatorSignalRules: (rules) => set({ indicatorSignalRules: rules }),
+   524→  setIndicatorSignalLog: (log) => set({ indicatorSignalLog: log }),
+   525→  setIndicatorPresets: (presets) => set({ indicatorPresets: presets }),
+   526→  setIndicatorActiveIndicators: (indicators) => set({ indicatorActiveIndicators: indicators }),
+   527→  setIndicatorTradeNote: (fillId, note) =>
+   528→    set({ indicatorTradeNotes: { ...get().indicatorTradeNotes, [fillId]: note } }),
+   529→
+   530→  log: (level, module, message, metadata) => {
+   531→    const entry: LogEntry = {
+   532→      id: `log-${logCounter++}`,
+   533→      timestamp: Date.now(),
+   534→      level,
+   535→      module,
+   536→      message,
+   537→      metadata,
+   538→    };
+   539→    set({ logs: [entry, ...get().logs].slice(0, 500) });
+   540→  },
+   541→}));
+   542→
+   543→// ---- Internal methods attached to the store via the prototype pattern ----
+   544→// We monkey-patch the store with the order-matching logic that needs access
+   545→// to current state.
+   546→
+   547→function seedDemoData(set: (partial: Partial<TradingState>) => void, get: () => TradingState) {
+   548→  // Seed a small starter position in ES and a working limit order in NQ
+   549→  const state = get();
+   550→  const esQuote = state.quotes["ES"];
+   551→  const nqQuote = state.quotes["NQ"];
+   552→  const mnqQuote = state.quotes["MNQ"];
+   553→  if (esQuote) {
+   554→    const pos = computePosition("ES", 2, esQuote.last - 5, 0, esQuote.last);
+   555→    set({ positions: { ...get().positions, ES: pos } });
+   556→    get().log("INFO", "Position", "Seeded position: LONG 2 ES", { avgPrice: pos.avgPrice });
+   557→  }
+   558→  if (mnqQuote) {
+   559→    // Seed a Micro NQ long position to demonstrate micro contract support
+   560→    const pos = computePosition("MNQ", 10, mnqQuote.last - 2, 0, mnqQuote.last);
+   561→    set({ positions: { ...get().positions, MNQ: pos } });
+   562→    get().log("INFO", "Position", "Seeded position: LONG 10 MNQ (Micro NQ)", { avgPrice: pos.avgPrice });
+   563→  }
+   564→  if (nqQuote) {
+   565→    const order: Order = {
+   566→      id: nextId("ord"),
+   567→      clientId: `cli-${orderCounter++}`,
+   568→      symbol: "NQ",
+   569→      side: "BUY",
+   570→      type: "LIMIT",
+   571→      tif: "GTC",
+   572→      qty: 1,
+   573→      price: nqQuote.bid - 5,
+   574→      filledQty: 0,
+   575→      avgFillPrice: 0,
+   576→      status: "WORKING",
+   577→      createdAt: Date.now(),
+   578→      updatedAt: Date.now(),
+   579→      tag: "seed",
+   580→    };
+   581→    set({ orders: [order, ...get().orders] });
+   582→  }
+   583→  get().addAlert({
+   584→    type: "SYSTEM",
+   585→    severity: "INFO",
+   586→    message: "Demo session started with $1,000,000 buying power",
+   587→  });
+   588→}
+   589→
+   590→// ---- Order matching logic (mutates store via get/set) ----
+   591→const store = useTradingStore as unknown as TradingState & {
+   592→  markOrders: (q: Quote) => void;
+   593→  executeOrder: (id: string, quote?: Quote) => void;
+   594→  updatePositions: (q: Quote) => void;
+   595→  applyFill: (order: Order, fillQty: number, fillPrice: number) => void;
+   596→  stepAlgos: (q: Quote) => void;
+   597→  evaluateAlerts: (q: Quote) => void;
+   598→  stepStrategies: (q: Quote) => void;
+   599→};
+   600→
+   601→store.markOrders = (q: Quote) => {
+   602→  const state = useTradingStore.getState();
+   603→  const working = state.orders.filter((o) => o.status === "WORKING" && o.symbol === q.symbol);
+   604→  for (const o of working) {
+   605→    let shouldFill = false;
+   606→    let fillPrice = 0;
+   607→    if (o.type === "LIMIT") {
+   608→      if (o.side === "BUY" && q.ask <= (o.price ?? Infinity)) {
+   609→        shouldFill = true;
+   610→        fillPrice = o.price ?? q.ask;
+   611→      } else if (o.side === "SELL" && q.bid >= (o.price ?? 0)) {
+   612→        shouldFill = true;
+   613→        fillPrice = o.price ?? q.bid;
+   614→      }
+   615→    } else if (o.type === "STOP") {
+   616→      if (o.side === "BUY" && q.last >= (o.stopPrice ?? Infinity)) {
+   617→        shouldFill = true;
+   618→        fillPrice = q.ask;
+   619→      } else if (o.side === "SELL" && q.last <= (o.stopPrice ?? 0)) {
+   620→        shouldFill = true;
+   621→        fillPrice = q.bid;
+   622→      }
+   623→    } else if (o.type === "STOP_LIMIT") {
+   624→      if (o.side === "BUY" && q.last >= (o.stopPrice ?? Infinity)) {
+   625→        // Convert to limit at o.price
+   626→        o.type = "LIMIT" as const;
+   627→        useTradingStore.setState({
+   628→          orders: useTradingStore.getState().orders.map((x) => (x.id === o.id ? { ...x, type: "LIMIT" } : x)),
+   629→        });
+   630→      } else if (o.side === "SELL" && q.last <= (o.stopPrice ?? 0)) {
+   631→        o.type = "LIMIT" as const;
+   632→        useTradingStore.setState({
+   633→          orders: useTradingStore.getState().orders.map((x) => (x.id === o.id ? { ...x, type: "LIMIT" } : x)),
+   634→        });
+   635→      }
+   636→    } else if (o.type === "MIT") {
+   637→      if (o.side === "BUY" && q.last <= (o.price ?? Infinity)) {
+   638→        shouldFill = true;
+   639→        fillPrice = q.ask;
+   640→      } else if (o.side === "SELL" && q.last >= (o.price ?? 0)) {
+   641→        shouldFill = true;
+   642→        fillPrice = q.bid;
+   643→      }
+   644→    }
+   645→    if (shouldFill) {
+   646→      store.executeOrder(o.id, q);
+   647→    }
+   648→  }
+   649→};
+   650→
+   651→store.executeOrder = (id: string, quote?: Quote) => {
+   652→  const state = useTradingStore.getState();
+   653→  const order = state.orders.find((o) => o.id === id);
+   654→  if (!order || order.status !== "WORKING") return;
+   655→  const q = quote ?? state.quotes[order.symbol];
+   656→  if (!q) return;
+   657→  let fillPrice = order.type === "LIMIT" ? order.price ?? q.last : q.last;
+   658→  if (order.type === "MARKET") {
+   659→    fillPrice = order.side === "BUY" ? q.ask : q.bid;
+   660→  } else if (order.type === "STOP") {
+   661→    fillPrice = order.side === "BUY" ? q.ask : q.bid;
+   662→  } else if (order.type === "MIT") {
+   663→    fillPrice = order.side === "BUY" ? q.ask : q.bid;
+   664→  }
+   665→  store.applyFill(order, order.qty - order.filledQty, fillPrice);
+   666→};
+   667→
+   668→store.applyFill = (order: Order, fillQty: number, fillPrice: number) => {
+   669→  const state = useTradingStore.getState();
+   670→  const contract = getContract(order.symbol);
+   671→  const commission = fillQty * COMMISSION_PER_CONTRACT;
+   672→  const fill: Fill = {
+   673→    id: `fill-${fillCounter++}`,
+   674→    orderId: order.id,
+   675→    symbol: order.symbol,
+   676→    side: order.side,
+   677→    qty: fillQty,
+   678→    price: fillPrice,
+   679→    timestamp: Date.now(),
+   680→    commission,
+   681→    fees: fillQty * 0.05,
+   682→    strategy: order.strategy,
+   683→  };
+   684→  // Update order
+   685→  const updatedOrders = state.orders.map((o) => {
+   686→    if (o.id !== order.id) return o;
+   687→    const newFilled = o.filledQty + fillQty;
+   688→    const newAvg =
+   689→      o.avgFillPrice === 0
+   690→        ? fillPrice
+   691→        : (o.avgFillPrice * o.filledQty + fillPrice * fillQty) / newFilled;
+   692→    return {
+   693→      ...o,
+   694→      filledQty: newFilled,
+   695→      avgFillPrice: newAvg,
+   696→      status:
+   697→        newFilled >= o.qty
+   698→          ? ("FILLED" as OrderStatus)
+   699→          : ("PARTIALLY_FILLED" as OrderStatus),
+   700→      updatedAt: Date.now(),
+   701→    };
+   702→  });
+   703→  // Update position
+   704→  const oldPos = state.positions[order.symbol] ?? computePosition(order.symbol, 0, 0, 0, fillPrice);
+   705→  const signedQty = order.side === "BUY" ? fillQty : -fillQty;
+   706→  const newNetQty = oldPos.netQty + signedQty;
+   707→  let newAvgPrice = oldPos.avgPrice;
+   708→  let newRealized = oldPos.realizedPnL - commission;
+   709→  // If reducing position, realise P&L on the closed portion
+   710→  if (Math.sign(signedQty) !== Math.sign(oldPos.netQty) && oldPos.netQty !== 0) {
+   711→    const closedQty = Math.min(Math.abs(signedQty), Math.abs(oldPos.netQty));
+   712→    const pnlPerUnit = (fillPrice - oldPos.avgPrice) * (oldPos.netQty > 0 ? 1 : -1);
+   713→    newRealized += closedQty * pnlPerUnit * contract.pointValue;
+   714→  }
+   715→  // Compute new avg price (only when adding to position in same direction)
+   716→  if (Math.sign(signedQty) === Math.sign(oldPos.netQty) || oldPos.netQty === 0) {
+   717→    const totalCost =
+   718→      Math.abs(oldPos.netQty) * oldPos.avgPrice + Math.abs(signedQty) * fillPrice;
+   719→    const totalQty = Math.abs(oldPos.netQty) + Math.abs(signedQty);
+   720→    newAvgPrice = totalQty > 0 ? totalCost / totalQty : 0;
+   721→  } else if (Math.abs(newNetQty) === 0) {
+   722→    newAvgPrice = 0;
+   723→  }
+   724→  const newPos = computePosition(order.symbol, newNetQty, newAvgPrice, newRealized, fillPrice);
+   725→  const cashImpact = (newRealized - oldPos.realizedPnL); // realized includes commission deduction
+   726→  const finalCash = state.cashBalance + cashImpact;
+   727→  // Record fill
+   728→  useTradingStore.setState({
+   729→    orders: updatedOrders,
+   730→    fills: [fill, ...state.fills].slice(0, 200),
+   731→    positions: { ...state.positions, [order.symbol]: newPos },
+   732→    cashBalance: finalCash,
+   733→  });
+   734→  useTradingStore.getState().log("INFO", "Execution", `Fill: ${fill.side} ${fill.qty} ${fill.symbol} @ ${fillPrice.toFixed(4)}`, {
+   735→    orderId: order.id,
+   736→  });
+   737→  if (order.tag === "FLATTEN") {
+   738→    useTradingStore.getState().addAlert({
+   739→      type: "ORDER",
+   740→      severity: "INFO",
+   741→      message: `Flatten ${order.symbol}: ${fill.side} ${fill.qty} @ ${fillPrice.toFixed(2)}`,
+   742→      symbol: order.symbol,
+   743→    });
+   744→  }
+   745→};
+   746→
+   747→store.updatePositions = (q: Quote) => {
+   748→  const state = useTradingStore.getState();
+   749→  const old = state.positions[q.symbol];
+   750→  if (!old || old.netQty === 0) {
+   751→    // Still update lastPrice for display even with zero position
+   752→    if (old) {
+   753→      useTradingStore.setState({
+   754→        positions: { ...state.positions, [q.symbol]: { ...old, lastPrice: q.last } },
+   755→      });
+   756→    }
+   757→    return;
+   758→  }
+   759→  const newPos = computePosition(q.symbol, old.netQty, old.avgPrice, old.realizedPnL, q.last);
+   760→  useTradingStore.setState({
+   761→    positions: { ...state.positions, [q.symbol]: newPos },
+   762→  });
+   763→};
+   764→
+   765→// Step all running algos on each tick — generates child orders as needed
+   766→store.stepAlgos = (q: Quote) => {
+   767→  const state = useTradingStore.getState();
+   768→  const activeAlgos = state.algos.filter(
+   769→    (a) => (a.status === "RUNNING" || a.status === "QUEUED") && a.params.symbol === q.symbol,
+   770→  );
+   771→  if (activeAlgos.length === 0) return;
+   772→  const storeInternal = useTradingStore as unknown as TradingState & {
+   773→    applyFill: (order: Order, fillQty: number, fillPrice: number) => void;
+   774→  };
+   775→  for (const algo of activeAlgos) {
+   776→    // Make a working copy
+   777→    const working: AlgoState = { ...algo, log: [...algo.log], schedule: algo.schedule ? [...algo.schedule] : undefined };
+   778→    const childOrders = stepAlgo(working, q);
+   779→    // Place each child order (immediate fill simulation)
+   780→    for (const child of childOrders) {
+   781→      const fillPrice = child.orderType === "MARKET"
+   782→        ? (working.params.side === "BUY" ? q.ask : q.bid)
+   783→        : (child.price ?? q.last);
+   784→      // Directly apply the fill to algo and to the position
+   785→      recordAlgoFill(working, child.qty, fillPrice);
+   786→      // Apply as a synthetic fill via the OMS so positions update
+   787→      const fakeOrder: Order = {
+   788→        id: `algo-${algo.id}-slice-${working.childOrdersPlaced}`,
+   789→        clientId: `algo-${algo.id}`,
+   790→        symbol: working.params.symbol,
+   791→        side: working.params.side,
+   792→        type: child.orderType,
+   793→        tif: "DAY",
+   794→        qty: child.qty,
+   795→        filledQty: 0,
+   796→        avgFillPrice: 0,
+   797→        price: child.price,
+   798→        status: "WORKING",
+   799→        createdAt: Date.now(),
+   800→        updatedAt: Date.now(),
+   801→        tag: `algo:${algo.type}`,
+   802→        strategy: algo.id,
+   803→      };
+   804→      storeInternal.applyFill(fakeOrder, child.qty, fillPrice);
+   805→    }
+   806→    // Persist algo state
+   807→    useTradingStore.setState({
+   808→      algos: useTradingStore.getState().algos.map((a) => (a.id === algo.id ? { ...working } : a)),
+   809→    });
+   810→  }
+   811→};
+   812→
+   813→// Evaluate all enabled, non-triggered price alerts against current quote + candle history
+   814→store.evaluateAlerts = (q: Quote) => {
+   815→  const state = useTradingStore.getState();
+   816→  const alertsForSymbol = state.priceAlerts.filter(
+   817→    (a) => a.symbol === q.symbol && a.enabled && !a.triggered,
+   818→  );
+   819→  if (alertsForSymbol.length === 0) return;
+   820→  const candles = getEngine().getCandles(q.symbol, 100);
+   821→  let changed = false;
+   822→  for (const alert of alertsForSymbol) {
+   823→    // Make a working copy
+   824→    const working: PriceAlert = { ...alert };
+   825→    const fired = evaluateAlert(working, q, candles);
+   826→    if (fired) {
+   827→      changed = true;
+   828→      // Notify via app alert system
+   829→      useTradingStore.getState().addAlert({
+   830→        type: "PRICE",
+   831→        severity: "WARN",
+   832→        message: `Alert triggered: ${alert.name} — ${alert.condition.replace(/_/g, " ")} ${alert.threshold} (${q.symbol} @ ${q.last.toFixed(4)})`,
+   833→        symbol: q.symbol,
+   834→      });
+   835→      useTradingStore.getState().log("WARN", "Alerts", `Price alert fired: ${alert.name}`, {
+   836→        symbol: q.symbol,
+   837→        condition: alert.condition,
+   838→        threshold: alert.threshold,
+   839→        triggeredValue: working.triggeredValue,
+   840→      });
+   841→      // Persist the triggered state
+   842→      useTradingStore.setState({
+   843→        priceAlerts: useTradingStore.getState().priceAlerts.map((a) =>
+   844→          a.id === alert.id ? { ...working } : a,
+   845→        ),
+   846→      });
+   847→    }
+   848→  }
+   849→};
+   850→
+   851→// ============================================================
+   852→// STRATEGY EXECUTION ENGINE
+   853→// Runs on every tick. For each enabled strategy:
+   854→//   1. Get candles for strategy's symbol
+   855→//   2. Call strategy.generate() to get current signal (-1, 0, +1)
+   856→//   3. If signal changed, place orders to adjust position
+   857→//   4. Track P&L, update strategy stats (Sharpe, MDD)
+   858→// Throttled to ~once per 3 seconds per strategy to avoid overtrading.
+   859→// ============================================================
+   860→store.stepStrategies = (q: Quote) => {
+   861→  const state = useTradingStore.getState();
+   862→  const enabledStrategies = state.strategies.filter((s) => s.enabled);
+   863→  if (enabledStrategies.length === 0) return;
+   864→  const now = Date.now();
+   865→  let changed = false;
+   866→  const updatedStrategies = state.strategies.map((s) => {
+   867→    if (!s.enabled) return s;
+   868→    // Throttle: only evaluate each strategy every 3 seconds
+   869→    if (s.lastSignalAt && now - s.lastSignalAt < 3000) {
+   870→      // Still update unrealized P&L
+   871→      if (s.positionQty !== 0 && s.lastSignalPrice) {
+   872→        const currentPrice = q.symbol === s.symbols[0] ? q.last : (state.quotes[s.symbols[0]]?.last ?? s.lastSignalPrice);
+   873→        const unreal = s.positionQty * (currentPrice - s.avgEntryPrice) * getContract(s.symbols[0]).pointValue;
+   874→        return { ...s, unrealizedPnL: unreal, pnl: s.realizedPnL + unreal };
+   875→      }
+   876→      return s;
+   877→    }
+   878→    const symbol = s.symbols[0];
+   879→    if (!symbol) return s;
+   880→    const quote = state.quotes[symbol];
+   881→    if (!quote) return s;
+   882→    // Get candles
+   883→    const candles = getEngine().getCandles(symbol, 200);
+   884→    if (candles.length < 30) return s;
+   885→    // Get pair candles for PAIRS strategy
+   886→    let pairCandles: Candle[] | undefined;
+   887→    if (s.type === "PAIRS" && s.symbols.length > 1) {
+   888→      pairCandles = getEngine().getCandles(s.symbols[1], 200);
+   889→    }
+   890→    // Find the strategy definition
+   891→    const def = STRATEGIES.find((d) => d.type === s.type);
+   892→    if (!def) return s;
+   893→    // Generate signals
+   894→    let signals: { signal: number; reason: string }[];
+   895→    try {
+   896→      signals = def.generate(candles, s.params, pairCandles);
+   897→    } catch (e) {
+   898→      return s;
+   899→    }
+   900→    if (signals.length === 0) return s;
+   901→    const currentSignal = signals[signals.length - 1].signal;
+   902→    const currentPrice = quote.last;
+   903→    const contract = getContract(symbol);
+   904→    const qtyPerTrade = 1; // 1 contract per signal change
+   905→    let newStrategy = { ...s };
+   906→    // Check if signal changed
+   907→    if (currentSignal !== s.currentSignal) {
+   908→      // Close existing position if any
+   909→      if (s.positionQty !== 0) {
+   910→        const closeSide = s.positionQty > 0 ? "SELL" : "BUY";
+   911→        const closeQty = Math.abs(s.positionQty);
+   912→        const fillPrice = closeSide === "BUY" ? quote.ask : quote.bid;
+   913→        // Realize P&L
+   914→        const pnlPerUnit = (fillPrice - s.avgEntryPrice) * (s.positionQty > 0 ? 1 : -1);
+   915→        const realized = closeQty * pnlPerUnit * contract.pointValue - closeQty * COMMISSION_PER_CONTRACT;
+   916→        newStrategy.realizedPnL += realized;
+   917→        newStrategy.positionQty = 0;
+   918→        newStrategy.avgEntryPrice = 0;
+   919→        newStrategy.trades += 1;
+   920→        // Place the order
+   921→        useTradingStore.getState().placeOrder({
+   922→          symbol,
+   923→          side: closeSide,
+   924→          type: "MARKET",
+   925→          tif: "DAY",
+   926→          qty: closeQty,
+   927→          tag: `strat:${s.name}:close`,
+   928→          strategy: s.id,
+   929→        });
+   930→        useTradingStore.getState().log("INFO", "Strategy", `[${s.name}] Close ${closeQty} ${symbol} @ ${fillPrice.toFixed(2)} realized=${realized.toFixed(2)}`, { strategyId: s.id });
+   931→      }
+   932→      // Open new position if signal is non-zero
+   933→      if (currentSignal !== 0) {
+   934→        const openSide = currentSignal > 0 ? "BUY" : "SELL";
+   935→        const fillPrice = openSide === "BUY" ? quote.ask : quote.bid;
+   936→        newStrategy.positionQty = currentSignal > 0 ? qtyPerTrade : -qtyPerTrade;
+   937→        newStrategy.avgEntryPrice = fillPrice;
+   938→        useTradingStore.getState().placeOrder({
+   939→          symbol,
+   940→          side: openSide,
+   941→          type: "MARKET",
+   942→          tif: "DAY",
+   943→          qty: qtyPerTrade,
+   944→          tag: `strat:${s.name}:open`,
+   945→          strategy: s.id,
+   946→        });
+   947→        useTradingStore.getState().log("INFO", "Strategy", `[${s.name}] Open ${openSide} ${qtyPerTrade} ${symbol} @ ${fillPrice.toFixed(2)} signal=${currentSignal}`, { strategyId: s.id });
+   948→        useTradingStore.getState().addAlert({
+   949→          type: "STRATEGY",
+   950→          severity: "INFO",
+   951→          message: `[${s.name}] ${openSide} ${qtyPerTrade} ${symbol} @ ${fillPrice.toFixed(2)} — ${signals[signals.length - 1].reason}`,
+   952→          symbol,
+   953→        });
+   954→      }
+   955→      newStrategy.currentSignal = currentSignal;
+   956→      newStrategy.lastSignalAt = now;
+   957→      newStrategy.lastSignalPrice = currentPrice;
+   958→      changed = true;
+   959→    }
+   960→    // Update unrealized P&L
+   961→    if (newStrategy.positionQty !== 0) {
+   962→      const unreal = newStrategy.positionQty * (currentPrice - newStrategy.avgEntryPrice) * contract.pointValue;
+   963→      newStrategy.unrealizedPnL = unreal;
+   964→      newStrategy.pnl = newStrategy.realizedPnL + unreal;
+   965→    } else {
+   966→      newStrategy.unrealizedPnL = 0;
+   967→      newStrategy.pnl = newStrategy.realizedPnL;
+   968→    }
+   969→    // Track P&L history for Sharpe/MDD
+   970→    newStrategy.pnlHistory = [...s.pnlHistory, { time: now, pnl: newStrategy.pnl }].slice(-200);
+   971→    newStrategy.peakPnL = Math.max(s.peakPnL, newStrategy.pnl);
+   972→    // Compute Sharpe (annualized) from recent P&L history
+   973→    if (newStrategy.pnlHistory.length > 10) {
+   974→      const returns: number[] = [];
+   975→      for (let i = 1; i < newStrategy.pnlHistory.length; i++) {
+   976→        const prev = newStrategy.pnlHistory[i - 1].pnl;
+   977→        const curr = newStrategy.pnlHistory[i].pnl;
+   978→        if (prev !== 0) returns.push((curr - prev) / Math.abs(prev));
+   979→      }
+   980→      if (returns.length > 5) {
+   981→        const mean = returns.reduce((a, b) => a + b, 0) / returns.length;
+   982→        const variance = returns.reduce((a, b) => a + (b - mean) ** 2, 0) / (returns.length - 1);
+   983→        const sd = Math.sqrt(variance);
+   984→        newStrategy.sharpe = sd > 0 ? (mean / sd) * Math.sqrt(252) : 0;
+   985→      }
+   986→    }
+   987→    // Compute max drawdown
+   988→    let peak = -Infinity;
+   989→    let maxDD = 0;
+   990→    for (const ph of newStrategy.pnlHistory) {
+   991→      peak = Math.max(peak, ph.pnl);
+   992→      const dd = ph.pnl - peak;
+   993→      if (dd < maxDD) maxDD = dd;
+   994→    }
+   995→    newStrategy.maxDrawdown = maxDD;
+   996→    return newStrategy;
+   997→  });
+   998→  if (changed) {
+   999→    useTradingStore.setState({ strategies: updatedStrategies });
+  1000→  } else {
+  1001→    // Still update unrealized P&L even if no signal change
+  1002→    useTradingStore.setState({ strategies: updatedStrategies });
+  1003→  }
+  1004→};
+  1005→

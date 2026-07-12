@@ -68,3 +68,217 @@ export function computeDayOfWeekStats(symbol: string) {
   const names = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
   return byDay.map((r, day) => r.length === 0 ? null : ({ day, dayName: names[day], avgReturn: r.reduce((s,v) => s+v, 0)/r.length, positiveRate: r.filter(x => x > 0).length / r.length, sampleCount: r.length })).filter(Boolean);
 }
+
+// ============================================================
+// Seasonal Window Backtester
+//
+// Runs each entry in SEASONAL_WINDOWS across ALL 14 contracts (treating
+// the window's primary symbol as a template — every contract gets tested
+// against the same calendar window to find which contracts the seasonal
+// actually works on).
+//
+// For each (window, symbol) pair:
+//   1. Walk the historical daily candles (250 bars = ~1 year).
+//   2. On the window's start date each year, enter LONG (or SHORT).
+//   3. On the window's end date, exit.
+//   4. Record the trade's P&L (with contract multiplier + commission).
+//   5. Compute hit rate, avg return, t-stat, Sharpe, total P&L.
+//
+// Returns one row per (window, symbol) plus an aggregate per window.
+// ============================================================
+
+export interface SeasonalWindowTrade {
+  year: number;
+  entryDate: number;
+  exitDate: number;
+  entryPrice: number;
+  exitPrice: number;
+  contractsHeld: number;
+  pctReturn: number;
+  dollarPnL: number;
+  winner: boolean;
+}
+
+export interface SeasonalWindowBacktestResult {
+  window: SeasonalWindow;
+  symbol: string;
+  trades: SeasonalWindowTrade[];
+  tradeCount: number;
+  hitRate: number;       // fraction of winners
+  avgReturn: number;     // average pct return per trade
+  totalReturn: number;   // sum of pct returns
+  totalDollarPnL: number;
+  stdDev: number;
+  tStat: number;
+  sharpe: number;
+  bestTrade: number;     // best pct return
+  worstTrade: number;    // worst pct return
+  avgHoldDays: number;
+  isSignificant: boolean;
+}
+
+export interface SeasonalWindowAggregate {
+  window: SeasonalWindow;
+  symbolResults: SeasonalWindowBacktestResult[];
+  aggregateTradeCount: number;
+  aggregateHitRate: number;
+  aggregateAvgReturn: number;
+  aggregateTotalPnL: number;
+  bestSymbol: string | null;
+  bestSymbolHitRate: number;
+  bestSymbolReturn: number;
+  worstSymbol: string | null;
+  worstSymbolReturn: number;
+  significantCount: number;
+  totalSymbols: number;
+}
+
+const COMMISSION_PER_TRADE = 2.25;
+const CONTRACTS_PER_TRADE = 1;
+
+function inWindow(date: Date, startMonth: number, startDay: number, endMonth: number, endDay: number): boolean {
+  if (startMonth < 0 || endMonth < 0) return false;
+  const m = date.getMonth();
+  const d = date.getDate();
+  if (startMonth <= endMonth) {
+    // Same-year window e.g. Apr 1 → Oct 31
+    if (m < startMonth || m > endMonth) return false;
+    if (m === startMonth && d < startDay) return false;
+    if (m === endMonth && d > endDay) return false;
+    return true;
+  } else {
+    // Cross-year window e.g. Nov 25 → Jan 5
+    if (m > endMonth && m < startMonth) return false;
+    if (m === endMonth && d > endDay && m < startMonth) return false;
+    if (m === startMonth && d < startDay && m > endMonth) return false;
+    return true;
+  }
+}
+
+function backtestWindowForSymbol(window: SeasonalWindow, symbol: string): SeasonalWindowBacktestResult | null {
+  const engine = getEngine();
+  const candles = engine.getCandles(symbol, 500);
+  if (candles.length < 60) return null;
+  const contract = getContract(symbol);
+  const trades: SeasonalWindowTrade[] = [];
+  let inPosition = false;
+  let entryPrice = 0;
+  let entryDate = 0;
+  let entryYear = -1;
+
+  for (let i = 0; i < candles.length; i++) {
+    const c = candles[i];
+    const dt = new Date(c.time);
+    const inside = inWindow(dt, window.startMonth, window.startDay, window.endMonth, window.endDay);
+    if (!inPosition && inside && dt.getFullYear() !== entryYear) {
+      // Enter
+      inPosition = true;
+      entryPrice = c.close;
+      entryDate = c.time;
+      entryYear = dt.getFullYear();
+    } else if (inPosition && !inside) {
+      // Exit
+      const pctReturn = ((c.close - entryPrice) / entryPrice) * 100 * (window.direction === "LONG" ? 1 : -1);
+      const dollarPnL = (c.close - entryPrice) * contract.contractSize * CONTRACTS_PER_TRADE * (window.direction === "LONG" ? 1 : -1) - COMMISSION_PER_TRADE;
+      const holdDays = Math.max(1, Math.round((c.time - entryDate) / 86400000));
+      trades.push({
+        year: entryYear,
+        entryDate,
+        exitDate: c.time,
+        entryPrice,
+        exitPrice: c.close,
+        contractsHeld: CONTRACTS_PER_TRADE,
+        pctReturn,
+        dollarPnL,
+        winner: pctReturn > 0,
+      });
+      inPosition = false;
+    }
+  }
+  // Close any open position at the last candle
+  if (inPosition && trades.length === 0) {
+    const last = candles[candles.length - 1];
+    const pctReturn = ((last.close - entryPrice) / entryPrice) * 100 * (window.direction === "LONG" ? 1 : -1);
+    const dollarPnL = (last.close - entryPrice) * contract.contractSize * CONTRACTS_PER_TRADE * (window.direction === "LONG" ? 1 : -1) - COMMISSION_PER_TRADE;
+    trades.push({
+      year: entryYear,
+      entryDate,
+      exitDate: last.time,
+      entryPrice,
+      exitPrice: last.close,
+      contractsHeld: CONTRACTS_PER_TRADE,
+      pctReturn,
+      dollarPnL,
+      winner: pctReturn > 0,
+    });
+  }
+  if (trades.length === 0) {
+    return {
+      window, symbol, trades: [], tradeCount: 0,
+      hitRate: 0, avgReturn: 0, totalReturn: 0, totalDollarPnL: 0,
+      stdDev: 0, tStat: 0, sharpe: 0,
+      bestTrade: 0, worstTrade: 0, avgHoldDays: 0,
+      isSignificant: false,
+    };
+  }
+  const returns = trades.map(t => t.pctReturn);
+  const hitRate = trades.filter(t => t.winner).length / trades.length;
+  const avgReturn = returns.reduce((s,v) => s+v, 0) / returns.length;
+  const totalReturn = returns.reduce((s,v) => s+v, 0);
+  const totalDollarPnL = trades.reduce((s,t) => s+t.dollarPnL, 0);
+  const variance = returns.length > 1 ? returns.reduce((s,v) => s+(v-avgReturn)**2, 0) / (returns.length-1) : 0;
+  const stdDev = Math.sqrt(variance);
+  const tStat = stdDev > 0 && returns.length > 1 ? avgReturn / (stdDev / Math.sqrt(returns.length)) : 0;
+  const sharpe = stdDev > 0 ? avgReturn / stdDev : 0;
+  const bestTrade = Math.max(...returns);
+  const worstTrade = Math.min(...returns);
+  const avgHoldDays = trades.reduce((s,t) => s + Math.max(1, Math.round((t.exitDate - t.entryDate) / 86400000)), 0) / trades.length;
+  return {
+    window, symbol, trades, tradeCount: trades.length,
+    hitRate, avgReturn, totalReturn, totalDollarPnL,
+    stdDev, tStat, sharpe,
+    bestTrade, worstTrade, avgHoldDays,
+    isSignificant: Math.abs(tStat) > 2,
+  };
+}
+
+/**
+ * Backtest all 7 SEASONAL_WINDOWS across all 14 contracts.
+ * Returns one aggregate per window.
+ */
+export function backtestAllSeasonalWindows(): SeasonalWindowAggregate[] {
+  const aggregates: SeasonalWindowAggregate[] = [];
+  for (const window of SEASONAL_WINDOWS) {
+    const symbolResults: SeasonalWindowBacktestResult[] = [];
+    for (const contract of CONTRACTS) {
+      const r = backtestWindowForSymbol(window, contract.symbol);
+      if (r) symbolResults.push(r);
+    }
+    if (symbolResults.length === 0) continue;
+    const allTrades = symbolResults.flatMap(r => r.trades);
+    const aggregateTradeCount = allTrades.length;
+    const aggregateHitRate = aggregateTradeCount > 0 ? allTrades.filter(t => t.winner).length / aggregateTradeCount : 0;
+    const aggregateAvgReturn = aggregateTradeCount > 0 ? allTrades.reduce((s,t) => s+t.pctReturn, 0) / aggregateTradeCount : 0;
+    const aggregateTotalPnL = symbolResults.reduce((s,r) => s+r.totalDollarPnL, 0);
+    // Best symbol by Sharpe (or hit rate if no Sharpe)
+    const sorted = [...symbolResults].filter(r => r.tradeCount > 0).sort((a,b) => b.sharpe - a.sharpe || b.hitRate - a.hitRate);
+    const best = sorted[0] ?? null;
+    const worst = sorted[sorted.length - 1] ?? null;
+    aggregates.push({
+      window,
+      symbolResults,
+      aggregateTradeCount,
+      aggregateHitRate,
+      aggregateAvgReturn,
+      aggregateTotalPnL,
+      bestSymbol: best?.symbol ?? null,
+      bestSymbolHitRate: best?.hitRate ?? 0,
+      bestSymbolReturn: best?.avgReturn ?? 0,
+      worstSymbol: worst?.symbol ?? null,
+      worstSymbolReturn: worst?.avgReturn ?? 0,
+      significantCount: symbolResults.filter(r => r.isSignificant).length,
+      totalSymbols: symbolResults.length,
+    });
+  }
+  return aggregates;
+}

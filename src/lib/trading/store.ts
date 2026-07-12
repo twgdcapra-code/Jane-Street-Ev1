@@ -60,6 +60,7 @@ import {
 } from "./alerts";
 import { type SignalRule, type SignalLogEntry } from "./indicators-intelligence";
 import { type IndicatorPreset, DEFAULT_PRESETS } from "./indicator-registry";
+import { detectCorrelationBreakdowns, DEFAULT_PAIRS } from "./correlation-arb";
 
 // ActiveIndicator type (defined in IndicatorsLab but needed here for persistence)
 interface ActiveIndicator {
@@ -268,6 +269,7 @@ export const useTradingStore = create<TradingState>((set, get) => ({
       stepAlgos: (q: Quote) => void;
       evaluateAlerts: (q: Quote) => void;
       stepStrategies: (q: Quote) => void;
+      stepCorrelationAlerts: (q: Quote) => void;
     };
     storeInternal.markOrders(q);
     storeInternal.updatePositions(q);
@@ -277,6 +279,8 @@ export const useTradingStore = create<TradingState>((set, get) => ({
     storeInternal.evaluateAlerts(q);
     // Execute enabled strategies
     storeInternal.stepStrategies(q);
+    // Detect correlation breakdowns → push to alerts store (throttled)
+    storeInternal.stepCorrelationAlerts(q);
   },
 
   placeOrder: (o) => {
@@ -596,6 +600,7 @@ const store = useTradingStore as unknown as TradingState & {
   stepAlgos: (q: Quote) => void;
   evaluateAlerts: (q: Quote) => void;
   stepStrategies: (q: Quote) => void;
+  stepCorrelationAlerts: (q: Quote) => void;
 };
 
 store.markOrders = (q: Quote) => {
@@ -1000,5 +1005,57 @@ store.stepStrategies = (q: Quote) => {
   } else {
     // Still update unrealized P&L even if no signal change
     useTradingStore.setState({ strategies: updatedStrategies });
+  }
+};
+
+// ============================================================
+// CORRELATION BREAKDOWN ALERTS
+//
+// Runs on every tick but throttled to ~once per 30 seconds (cheaply:
+// we cache the last run timestamp + the set of pairs we've already
+// alerted on, so each unique breakdown only fires ONE alert).
+//
+// Detects EXTREME correlation breakdowns across the same 12 default
+// pairs used by the Correlation Arbitrage module, and pushes them
+// into the alerts store so they appear in the bell icon dropdown.
+// ============================================================
+const CORR_ALERT_THROTTLE_MS = 30_000; // re-scan at most every 30s
+const CORR_ALERT_REARM_MS = 5 * 60_000; // re-arm a pair's alert after 5 min
+let lastCorrScanAt = 0;
+const alertedPairs = new Map<string, number>(); // pairKey → last alert timestamp
+
+store.stepCorrelationAlerts = (q: Quote) => {
+  const now = Date.now();
+  if (now - lastCorrScanAt < CORR_ALERT_THROTTLE_MS) return;
+  lastCorrScanAt = now;
+  try {
+    const breakdowns = detectCorrelationBreakdowns(DEFAULT_PAIRS, 50, 200);
+    // Filter to EXTREME severity only — those are the ones worth interrupting the user for
+    const extreme = breakdowns.filter((b) => b.severity === "EXTREME");
+    for (const b of extreme) {
+      const key = `${b.symbolA}/${b.symbolB}:${b.signal}`;
+      const lastAlert = alertedPairs.get(key);
+      if (lastAlert && now - lastAlert < CORR_ALERT_REARM_MS) continue; // already alerted recently
+      alertedPairs.set(key, now);
+      const direction = b.signal === "BREAKDOWN" ? "broke down" : b.signal === "STRENGTHENING" ? "spiked" : "shifted";
+      const msg = `Correlation ${direction}: ${b.pair} ${b.currentCorr.toFixed(2)} vs ${b.historicalMean.toFixed(2)} (z=${b.zScore.toFixed(1)})`;
+      useTradingStore.getState().addAlert({
+        type: "RISK",
+        severity: "CRITICAL",
+        message: msg,
+        symbol: b.symbolA,
+      });
+      useTradingStore.getState().log("WARN", "CorrelationMonitor", msg, {
+        pair: b.pair, current: b.currentCorr, mean: b.historicalMean, z: b.zScore,
+      });
+    }
+    // Garbage-collect old entries from alertedPairs so the map doesn't grow forever
+    if (alertedPairs.size > 100) {
+      for (const [k, t] of alertedPairs.entries()) {
+        if (now - t > CORR_ALERT_REARM_MS * 2) alertedPairs.delete(k);
+      }
+    }
+  } catch {
+    // Engine not yet initialised (e.g. during SSR) — silently skip; will run on next tick.
   }
 };

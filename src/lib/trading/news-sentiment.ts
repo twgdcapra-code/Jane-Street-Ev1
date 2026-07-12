@@ -12,6 +12,8 @@ export interface NewsArticle {
   relevanceScore: number; expectedDirection: "BULLISH" | "BEARISH" | "NEUTRAL";
   expectedMoveBps: number; entities: { text: string; type: string }[];
   processed: boolean; priceBeforeNews?: number; priceAfterNews?: number; actualMoveBps?: number;
+  /** Source URL (for live RSS feed articles — clickable link). */
+  url?: string;
 }
 
 const POSITIVE_WORDS = ["beat","beats","surpass","exceed","strong","robust","growth","surge","rally","gain","positive","optimistic","bullish","upgrade","boost","profit","record","improve","outperform","buy","accumulate","overweight","expansion","opportunity","confident","momentum","recovery","rebound","favorable","encouraging","breakthrough","innovation","success"];
