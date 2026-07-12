@@ -15,6 +15,7 @@ import {
   LayoutDashboard,
   LineChart,
   type LucideIcon,
+  Newspaper,
   Radar,
   RefreshCw,
   Calculator,
@@ -57,6 +58,9 @@ import { ExecutionalCharting } from "@/components/trading/ExecutionalCharting";
 import { PortfolioBacktester } from "@/components/trading/PortfolioBacktester";
 import { MarketReplay } from "@/components/trading/MarketReplay";
 import { StrategyOptimizer } from "@/components/trading/StrategyOptimizer";
+import { NewsSentiment } from "@/components/trading/NewsSentiment";
+import { SeasonalityAnalyzer } from "@/components/trading/SeasonalityAnalyzer";
+import { CorrelationArbitrage } from "@/components/trading/CorrelationArbitrage";
 import { FixProtocolAdapter } from "@/components/trading/FixProtocolAdapter";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -87,6 +91,9 @@ type ModuleId =
   | "portbt"
   | "replay"
   | "optimizer"
+  | "news"
+  | "seasonality"
+  | "corrarb"
   | "fixadapter";
 
 interface ModuleDef {
@@ -120,6 +127,9 @@ const MODULES: ModuleDef[] = [
   { id: "portbt", name: "Portfolio Backtester", icon: Layers, description: "Multi-strategy backtesting with 6 allocation methods, Monte Carlo" },
   { id: "replay", name: "Market Replay", icon: Activity, description: "Replay historical events (Flash Crash, COVID, FOMC) for training" },
   { id: "optimizer", name: "Strategy Optimizer", icon: Brain, description: "Genetic algo, walk-forward, CPCV, deflated Sharpe ratio" },
+  { id: "news", name: "News & Sentiment", icon: Newspaper, description: "Real-time news feed with NLP sentiment scoring and divergence detection" },
+  { id: "seasonality", name: "Seasonality Analyzer", icon: Calendar, description: "Monthly patterns, day-of-week, seasonal windows, calendar events" },
+  { id: "corrarb", name: "Correlation Arbitrage", icon: Radar, description: "Live correlation matrix, breakdown alerts, lead-lag, risk regime" },
   { id: "fixadapter", name: "FIX Protocol Adapter", icon: Terminal, description: "FIX 4.4 session manager, message builder, tag reference, wire format" },
   { id: "research", name: "Research", icon: TrendingUp, description: "Factor analysis and cointegration tools" },
   { id: "system", name: "System Monitor", icon: Activity, description: "Latency, throughput, event log" },
@@ -342,6 +352,12 @@ function ModuleRenderer({ active, selectedSymbol }: { active: ModuleId; selected
       return <MarketReplay />;
     case "optimizer":
       return <StrategyOptimizer />;
+    case "news":
+      return <NewsSentiment />;
+    case "seasonality":
+      return <SeasonalityAnalyzer />;
+    case "corrarb":
+      return <CorrelationArbitrage />;
     case "fixadapter":
       return <FixProtocolAdapter />;
     case "research":
