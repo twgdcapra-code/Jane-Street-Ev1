@@ -21,6 +21,7 @@ import {
   ShieldAlert,
   Sigma,
   Star,
+  Terminal,
   Terminal as TerminalIcon,
   TrendingUp,
   Waves,
@@ -56,6 +57,7 @@ import { ExecutionalCharting } from "@/components/trading/ExecutionalCharting";
 import { PortfolioBacktester } from "@/components/trading/PortfolioBacktester";
 import { MarketReplay } from "@/components/trading/MarketReplay";
 import { StrategyOptimizer } from "@/components/trading/StrategyOptimizer";
+import { FixProtocolAdapter } from "@/components/trading/FixProtocolAdapter";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -84,7 +86,8 @@ type ModuleId =
   | "execchart"
   | "portbt"
   | "replay"
-  | "optimizer";
+  | "optimizer"
+  | "fixadapter";
 
 interface ModuleDef {
   id: ModuleId;
@@ -117,6 +120,7 @@ const MODULES: ModuleDef[] = [
   { id: "portbt", name: "Portfolio Backtester", icon: Layers, description: "Multi-strategy backtesting with 6 allocation methods, Monte Carlo" },
   { id: "replay", name: "Market Replay", icon: Activity, description: "Replay historical events (Flash Crash, COVID, FOMC) for training" },
   { id: "optimizer", name: "Strategy Optimizer", icon: Brain, description: "Genetic algo, walk-forward, CPCV, deflated Sharpe ratio" },
+  { id: "fixadapter", name: "FIX Protocol Adapter", icon: Terminal, description: "FIX 4.4 session manager, message builder, tag reference, wire format" },
   { id: "research", name: "Research", icon: TrendingUp, description: "Factor analysis and cointegration tools" },
   { id: "system", name: "System Monitor", icon: Activity, description: "Latency, throughput, event log" },
 ];
@@ -338,6 +342,8 @@ function ModuleRenderer({ active, selectedSymbol }: { active: ModuleId; selected
       return <MarketReplay />;
     case "optimizer":
       return <StrategyOptimizer />;
+    case "fixadapter":
+      return <FixProtocolAdapter />;
     case "research":
       return <ResearchTerminal />;
     case "system":

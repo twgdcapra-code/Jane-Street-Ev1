@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.2/msgtype_8_8.html",
+    "name": "Execution Report <8> message – FIX 4.2 – FIX Dictionary - OnixS",
+    "snippet": "The Execution Report <8> message is used to: confirm the receipt of an order, confirm changes to an existing order (ie accept cancel and replace requests), ...",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic41/message_Execution_Report_8.html",
+    "name": "Execution Report (MsgType = 8) - FIX 4.1 Dictionary - B2BITS",
+    "snippet": "The Execution Report (8) message is used to: confirm the receipt of an order confirm changes to an existing order (i.e. accept cancel and replace requests)",
+    "host_name": "www.b2bits.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fixsim.com/fix-execution-report",
+    "name": "FIX Execution Report (35=8) - Fields, States and Examples - FIXSIM",
+    "snippet": "On an order acknowledgement, ExecType=0 (New) and OrdStatus=0 (New). Both say the same thing. On a partial fill, ExecType=F (Trade) and OrdStatus=1 ( ...",
+    "host_name": "www.fixsim.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.gemini.com/trading/fix/order-entry/examples/execution-reports",
+    "name": "Execution Reports - Gemini Crypto Exchange",
+    "snippet": "ExecType: NEW (0) indicates that this execution report is for a new order. LeavesQty: 1 represents the quantity left open for execution. In a ...",
+    "host_name": "developer.gemini.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.fixtrading.org/t/exectype-for-execution-report-of-orderstatusrequest-for-rejected-orders/4581",
+    "name": "ExecType for Execution Report of OrderStatusRequest for rejected",
+    "snippet": "ExecTransType and ExecID serve to clarify reponses to OrderStatusRequest in FIX 4.2; they should have values of 3 “Status” and 0 respectively.",
+    "host_name": "forum.fixtrading.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://qst.global/api_docs/qst_fix_order_routing_api/execution_report.html",
+    "name": "Execution Report (35=8) — QST FIX Order Entry API Revision 05/25/21",
+    "snippet": "Identifies the current status of an order. Valid values: 0: New. 1: Partially filled. 2: Filled. 4: Canceled.",
+    "host_name": "qst.global",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b3.com.br/data/files/1F/86/AC/12/06F58710240ED387AC094EA8/Trader%20FIX.SUITE%20Dictionary%20v2.1.pdf",
+    "name": "[PDF] Fix Trader: Message Specs - B3",
+    "snippet": "OrdStatus (39) in ExecutionReport(35=8) Describes the action that triggered this specific Execution Report - see the OrdStatus (39) tag for the ...",
+    "host_name": "www.b3.com.br",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.taifex.com.tw/file/taifex/eng/eng11/TechDocs/5/Taifex_TCPIP_FIX_v3.0.13.pdf",
+    "name": "[PDF] TAIWAN FUTURES EXCHANGE TCP/IP FIX Messaging Specification",
+    "snippet": "ExecType(150) represents the purpose of Execution Report. OrdStatus(39) is used to convey the current state of the order.",
+    "host_name": "www.taifex.com.tw",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.finra.org/sites/default/files/ADF_FIX-Specs_OrderResponseRptg_Version1.6.pdf",
+    "name": "[PDF] ADF FIX Specifications for Order Response Reporting - FINRA",
+    "snippet": "F = Reject of an Order Response Delete. 22302 OrderResponseRejCode. F. Reject code. See section 6.3 for the complete list of applicable reject ...",
+    "host_name": "www.finra.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.solid-fx.com/inc/files/Solid%20FX%20-%20FIX%20specification.pdf",
+    "name": "[PDF] Solid FX FIX Specification",
+    "snippet": "“99” – Other. 60. TransactTime. 8. Only when OrdStatus is \"1\" or \"2\". 150. ExecType. 8. Order. “0” – New. “4” – Canceled. “5” – Replace. “6 ...",
+    "host_name": "www.solid-fx.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

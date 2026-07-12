@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.4/msgtype_9_9.html",
+    "name": "Order Cancel Reject <9> message – FIX 4.4 – FIX Dictionary - OnixS",
+    "snippet": "The Order Cancel Reject <9> message is issued by the broker upon receipt of a cancel request or cancel/replace request message which cannot be honored.",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic40/message_Order_Cancel_Reject_9.html",
+    "name": "Order Cancel Reject (MsgType = 9) - FIX 4.0 Dictionary - B2BITS",
+    "snippet": "The Order Cancel Reject (9) message is issued by the broker upon receipt of a Cancel Request (F) or Order Cancel/Replace Request (G) message which cannot be ...",
+    "host_name": "www.b2bits.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://library.tradingtechnologies.com/tt-fix/drop-copy-in/Msg_DontKnowTrade_Q.html",
+    "name": "Don't Know Trade (Q) Message - TT Help Library",
+    "snippet": "Purpose. Used to provide details of an execution reject. Note: This message will only be supported in a future release of the TT Inbound Drop Copy service.",
+    "host_name": "library.tradingtechnologies.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fiximate.fixtrading.org/en/FIX.Latest/msg10.html",
+    "name": "OrderCancelReject - FIXimate",
+    "snippet": "<OrdCxlRej>. The order cancel reject message is issued by the broker upon receipt of a cancel request or cancel/replace request message which cannot be honored.",
+    "host_name": "fiximate.fixtrading.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://qst.global/api_docs/qst_fix_order_routing_api/order_cancel_reject.html",
+    "name": "Order Cancel Reject (35=9) - Quick Suite Trading",
+    "snippet": "QST FIX uses this value to identify the exchange that offers the security. Possible values include: CME. ICE. Condition: Required when Tag 100 (ExtDestination) ...",
+    "host_name": "qst.global",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Trading/Securities/Overview/Trading-Mechanism/Self-Match-Prevention/Interface-Specifications-HKEX-OCGC-FIX-Trading-Protocol-(version-3,-d-,2)-(Clean).pdf",
+    "name": "[PDF] Interface Specifications HKEX Orion Central Gateway - Securities Market",
+    "snippet": "following possible states are returned in the Order Cancel Reject (35=9) message: ▫ 0 = New. ▫ 1 = Partially Filled. ▫ 2 = Filled. ▫ 4 ...",
+    "host_name": "www.hkex.com.hk",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.2/msgtype_q_81.html",
+    "name": "Don't Know Trade <Q> message – FIX 4.2 – FIX Dictionary - OnixS",
+    "snippet": "The Don't Know Trade <Q> (DK) message notifies a trading partner that an electronically received execution has been rejected.",
+    "host_name": "www.onixs.biz",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b3.com.br/data/files/1F/86/AC/12/06F58710240ED387AC094EA8/Trader%20FIX.SUITE%20Dictionary%20v2.1.pdf",
+    "name": "[PDF] Fix Trader: Message Specs - B3",
+    "snippet": "[Standard Message Trailer]. 3.6. Logout (35=5). Tag. Tag name. Req'd. Data Type. Comment. [Standard Message Header]. 58. Text. N. String (250).",
+    "host_name": "www.b3.com.br",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.solid-fx.com/inc/files/Solid%20FX%20-%20FIX%20specification.pdf",
+    "name": "[PDF] Solid FX FIX Specification",
+    "snippet": "58. Text. N. Logout message. Standard trailer. Y. Business Message Reject. Tag ... [tag 35, MsgType = 9]. 41. OrigClOrdID. Y. ClOrdID of the ...",
+    "host_name": "www.solid-fx.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tradelogiq.com/wp-content/uploads/2024/07/Tradelogiq-FIX-Interface-Specifications-v1.0.5.4.pdf",
+    "name": "[PDF] FIX Interface Specifications - TRADELOGIQ MARKETS INC.",
+    "snippet": "If a required tag is missing, the value is invalid or not supported, or the replace failed, an Order Cancel Reject message will be sent referencing ClOrdID.",
+    "host_name": "tradelogiq.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

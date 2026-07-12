@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/insights/onixs-c-fix-engine-vs-quickfix-c-performance-comparison",
+    "name": "OnixS C++ FIX Engine vs QuickFIX C++ performance comparison",
+    "snippet": "OnixS C++ FIX Engine vs QuickFix C++ performance comparison, based on standard OnixS reference implementation benchmark source code samples.",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/557/how-fast-is-quickfix",
+    "name": "How fast is QuickFix ? - Quantitative Finance Stack Exchange",
+    "snippet": "If you need speed (i.e. low-latency) you can't use QuickFIX. CoralFIX for example is 20x faster than QuickFIX/C++ or QuickFIX/J and produces ... What would be considered a good/competitive throughput for a ... FIX engines comparison - Quantitative Finance Stack Exchange More results from quant.stackexchange.com",
+    "host_name": "quant.stackexchange.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/8778642/quickfix-vs-fix-antenna",
+    "name": "quickfix vs fix antenna - Stack Overflow",
+    "snippet": "You can review detailed performance benchmarks (including FIX Antenna VS QuickFIX) here: https://b2bits.atlassian.net/wiki/spaces/B2BITS ... QuickfixJ Performance Benchmark - java Use own TCP layer implementation with QuickFIX/J More results from stackoverflow.com",
+    "host_name": "stackoverflow.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/danpritchard_onixs-c-fix-engine-vs-quickfix-c-performance-activity-7038968294325846016-RUfS",
+    "name": "OnixS C++ FIX Engine vs QuickFIX C++ performance comparison | Dan",
+    "snippet": "We are often asked for performance comparison between The OnixS C++ FIX Engine libraries and QuickFIX so we finally created a rigid ...",
+    "host_name": "www.linkedin.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Fl8elVqbIYY",
+    "name": "FIX Engine Comparison for Trading Systems | FixProtocolGuy - YouTube",
+    "snippet": "Core differences between QuickFIX and QuickFIX/J · Language and platform support (C++, Java, . · Performance considerations for low-latency ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://chronicle.software/tech-hub/use-cases/scaling-beyond-open-source-migrating-from-quickfix-j-to-chronicle-fix",
+    "name": "Migrating from QuickFIX/J to Chronicle FIX",
+    "snippet": "The Benchmark: Chronicle FIX vs. QuickFIX/J The performance difference is particularly stark at higher percentiles, where market volatility ...",
+    "host_name": "chronicle.software",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixisoft.com/benchmarks",
+    "name": "Benchmarks - IdeaFIX by Fixisoft",
+    "snippet": "The SDK contains a benchmark folder with 2 scripts one for QuickFIX/J and one for IdeaFIX. With them, users can reproduce performance numbers on their ...",
+    "host_name": "fixisoft.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://help.onixs.biz/kb/onixs-net-fix-engine-vs-quickfixn-performance-comparison",
+    "name": "OnixS .NET 6.0 FIX Engine vs QuickFIXn performance comparison",
+    "snippet": "Benchmark performance comparison of OnixS .NET 6.0 FIX Engine vs QuickFIXn based on standard OnixS reference implementation benchmark source code samples.",
+    "host_name": "help.onixs.biz",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@apusingh1967/fix-with-quickfixj-d814e02641d6",
+    "name": "FIX with QuickFIXJ - by Apurva Singh - Medium",
+    "snippet": "This article will strictly limit to practical coding aspects of how to use open source QuickFIXJ, like creating project, gradle settings, coding ...",
+    "host_name": "medium.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/performance_lab/fix_antenna_java/comparison-with-open-source-quickfixj",
+    "name": "Performance Lab | FIX Antenna Java 2.11.25 vs QuickFIX/j comparison",
+    "snippet": "The send and receive latency results for FIX Antenna Java 2.11.25 in comparison with QuickFIX/j 1.5.3 are represented in the table below. This benchmark ...",
+    "host_name": "www.b2bits.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.fixsim.com",
+    "name": "Streamline Your FIX Protocol Testing with FIXSIM | FIXSIM",
+    "snippet": "FIXSIM is a web-based FIX simulator for testing FIX protocol integrations. It supports manual workflows (blotters/message views) and automated testing (rules + ...",
+    "host_name": "www.fixsim.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/11435174/how-to-test-my-fix-client-is-there-a-fake-fix-exchange-out-there-that-i-can-use",
+    "name": "How to test my FIX client? Is there a fake FIX exchange out there that",
+    "snippet": "CoralFIX comes with a ready-to-use server implementation that you can fire and start accepting connections from your FIX clients. Open Source FIX Client Simulator - c++ - Stack Overflow Xcode building for iOS Simulator, but linking in an object file built for ... More results from stackoverflow.com",
+    "host_name": "stackoverflow.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://solutionshub.epam.com/solution/fix-client-simulator",
+    "name": "FIX Client Simulator | EPAM SolutionsHub",
+    "snippet": "Free FCS allows the simulation of multiple FIX-protocol-defined buy-side and sell-side oriented workflows, helping clients to test and validate their trading ...",
+    "host_name": "solutionshub.epam.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/trading_solutions/fix-tools/fix-client-simulator",
+    "name": "FIX Client Simulator - B2BITS",
+    "snippet": "A desktop application that runs on Windows, Linux, and macOS, simulating buy-side and sell-side workflows as defined by the FIX protocol.",
+    "host_name": "www.b2bits.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ZUWf9ANrQhU",
+    "name": "Intro to EPAM's FIX Protocol Products - YouTube",
+    "snippet": "Intro to EPAM's FIX Protocol Products: FIX Integrated Control Center, FIX Client Simulator, & FIXEye. @EPAMSystemsGlobal27 likes2.2K views4 ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.esprow.com/products/fix-testing/fix-exchange-simulator.php",
+    "name": "FIX Exchange Simulator | FIX Protocol Client and Message Simulation",
+    "snippet": "Put a FIX-based mini exchange on your PC. Connect your counterparties to a FIX-based exchange running on your PC for interactive ad-hoc FIX testing.",
+    "host_name": "www.esprow.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://b2bits.atlassian.net/wiki/spaces/B2BITS/pages/6070206/FIX+Client+Simulator+User+Guide",
+    "name": "FIX Client Simulator User Guide - Spaces",
+    "snippet": "It allows to simulate multiple FIX protocol-defined buy-side- and sell-side-oriented workflows and create repeatable test scenarios for FIX sessions. FCS ...",
+    "host_name": "b2bits.atlassian.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/kennt/fixtest",
+    "name": "GitHub - kennt/fixtest: FIX protocol testing tool",
+    "snippet": "This tool provides a way of creating test cases that can act as FIX clients or as FIX servers. But this is not a simulator.",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Mhz8tc7OPW0",
+    "name": "FIX Protocol Testing Tools Deep Dive — Simulators, Analysers",
+    "snippet": "... FIX simulator for both initiator & acceptor roles -- https://www.fixsim.com/ * The capabilities of B2BITS / EPAM FIX Tools & Client Simulator ...",
+    "host_name": "www.youtube.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://apps.microsoft.com/detail/9n89wccdvk66?hl=en-US&gl=US",
+    "name": "FIX Client Simulator - Download and install on Windows",
+    "snippet": "A rich desktop UI application. It allows to simulate multiple FIX-protocol-defined buy-side- and sell-side-oriented workflows.",
+    "host_name": "apps.microsoft.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

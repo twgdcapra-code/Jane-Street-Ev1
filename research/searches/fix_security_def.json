@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.2/msgtype_d_100.html",
+    "name": "Security Definition <d> message – FIX 4.2 – FIX Dictionary - OnixS",
+    "snippet": "The Security Definition <d> message is used for the following: Accept the security defined in a Security Definition Request <c> message.",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://library.tradingtechnologies.com/tt-fix/market-data/Msg_SecurityDefinition_d.html",
+    "name": "Security Definition (d) Message - TT Help Library",
+    "snippet": "The tag indicates the beginning of a new message. Security Definition Request D: Order Single UTCTIMESTAMP … for this Security Definition (d) message. Tag 55 ( ...",
+    "host_name": "library.tradingtechnologies.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic42/tag_207_SecurityExchange.html",
+    "name": "SecurityExchange (Tag = 207) - FIX 4.2 Dictionary - B2BITS",
+    "snippet": "SecurityExchange (Tag = 207) - must accommodate up to fifteen significant digits. ) New Order - Single (D) Security Definition (d) Security Status",
+    "host_name": "www.b2bits.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.2/msgtype_c_99.html",
+    "name": "Security Definition Request <c> message – FIX 4.2 – FIX Dictionary",
+    "snippet": "The Security Definition Request <c> message is used for the following: Request a specific Security to be traded with the second party.",
+    "host_name": "www.onixs.biz",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fiximate.fixtrading.org/legacy/en/FIX.5.0SP2/body_5155100.html",
+    "name": "Message SecurityDefinition - FIXimate",
+    "snippet": "The Security Definition message is used for the following: 1. Accept the security defined in a Security Definition message. 207 SecurityExchange @Exch Can be ...",
+    "host_name": "fiximate.fixtrading.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://library.tradingtechnologies.com/tt-fix/tt-fix-order-routing/supported-application-messages/security-definition-request-c-message",
+    "name": "Security Definition Request (c) Message - TT Help Library",
+    "snippet": "The tag indicates the beginning of a new message. appear in the FIX 55 Symbol STRING. Security Definition (d) messages. Required when Tag 207 (SecurityExchange ...",
+    "host_name": "library.tradingtechnologies.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/clearing/files/SecurityDefinitionFIXMLStrategies.pdf",
+    "name": "[PDF] Security Definition Message – Strategies - CME Group",
+    "snippet": "Security Definition Message – Strategies 8 Tag FIX. Add valid values for tag 207-Exch and tag 616-Exch.",
+    "host_name": "www.cmegroup.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic44/tag_455_SecurityAltID_.html",
+    "name": "SecurityAltID (Tag = 455) - FIX 4.4 Dictionary - B2BITS",
+    "snippet": "SecurityAltID (Tag = 455, Type: String). Alternate Security identifier value for this security of SecurityAltIDSource (456) type (e.g. CUSIP, SEDOL, ISIN, ...",
+    "host_name": "www.b2bits.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.finra.org/sites/default/files/2021-08/ADF_FIX_Specification_Quoting_v1.2.pdf",
+    "name": "[PDF] FIX Specifications for Quoting to the Alternative Display Facility (ADF)",
+    "snippet": "55 Symbol. F Ticker symbol. Max size: 14 characters. 65 SymbolSfx. Symbol suffix. Additional information about the security. (e.g., preferred, warrants, etc ...",
+    "host_name": "www.finra.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aqx-web-prod-s3-public-read.s3.eu-west-2.amazonaws.com/Production_Aquis_FIX_4_2_Technical_Specification_v5_0_c954732185.pdf",
+    "name": "[PDF] FIX 4.2 Protocol Technical Specification - AWS",
+    "snippet": "... Symbol (55) field to identify the security that they wish to trade on the platform. This symbology scheme has been adopted by a number of European venues ...",
+    "host_name": "aqx-web-prod-s3-public-read.s3.eu-west-2.amazonaws.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

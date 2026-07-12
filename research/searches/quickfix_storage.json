@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://stackoverflow.com/questions/75087331/how-to-avoid-storefactory-for-fix-messages-using-quickfix",
+    "name": "How to avoid storeFactory for FIX messages using QuickFix",
+    "snippet": "All the QuickFIX ports have a MemoryStoreFactory, which is an entirely-in-memory store. Just use that. QuickFIX C++ - No response for MarketDataRequest from the server QuickFIX Python Session File Corruption Issue - Stack Overflow More results from stackoverflow.com",
+    "host_name": "stackoverflow.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quickfixj.org/docs/overview",
+    "name": "QuickFIX/J Overview",
+    "snippet": "QuickFIX/J is a full-featured messaging engine for the FIX protocol, implemented entirely in Java. It is an open-source project based on the popular C++ ...",
+    "host_name": "quickfixj.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/quickfix/quickfix/blob/master/NEWS",
+    "name": "quickfix/NEWS at master · quickfix/quickfix - GitHub",
+    "snippet": "In Java, renamed Session class to SessionSettings to match the C++ API Fixed bug where session times would not ever reset when the start time is greater ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quickfixengine.org/c/documentation/getting-started/configuration.html",
+    "name": "QF/C++ Docs: Getting Started>Configuration - QuickFIX Engine",
+    "snippet": "The SessionSettings class has the ability to pull settings out of any C++ stream such as a file stream. You can also pass it a filename. If you decide to write ...",
+    "host_name": "quickfixengine.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://javadoc.io/doc/org.quickfixj/quickfixj-core/1.6.2/quickfix/package-summary.html",
+    "name": "quickfix (QuickFIX/J Core engine 1.6.2 API) - javadoc.io",
+    "snippet": "Utilities for logging session-related events. MemoryStore. In-memory message store implementation. MemoryStoreFactory. Creates a message store that stores all ...",
+    "host_name": "javadoc.io",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ref.onixs.biz/cpp-fix-engine-guide/group__using-quickfix-dictionaries.html",
+    "name": "OnixS C++ FIX Engine: Using QuickFIX Data Dictionary",
+    "snippet": "FIX Engine supports dictionaries in the QuickFIX xml format, so you can use it as it is. However, there are some details.",
+    "host_name": "ref.onixs.biz",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://sourceforge.net/p/quickfix/mailman/message/21430640",
+    "name": "Re: [Quickfix-developers] C++ Quickfix Memory keeps growing",
+    "snippet": "I would make a change to populate the map from the header file only during the resend request. The binary format for header could speed up the resend ...",
+    "host_name": "sourceforge.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://camel.apache.org/components/4.18.x/quickfix-component.html",
+    "name": "QuickFix - Apache Camel",
+    "snippet": "The QuickFIX/J message store implementation can be specified by including the following settings in the default section of the configuration file. The ...",
+    "host_name": "camel.apache.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/557/how-fast-is-quickfix",
+    "name": "How fast is QuickFix ? - Quantitative Finance Stack Exchange",
+    "snippet": "Generally speaking, QuickFIX is not the fastest option, but the key point is that it might not have to be.",
+    "host_name": "quant.stackexchange.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pkg.go.dev/github.com/quickfixgo/quickfix/config",
+    "name": "config package - github.com/quickfixgo/quickfix/config - Go Packages",
+    "snippet": "Package config declares settings for configuring QuickFIX/Go. A quickfix acceptor or initiator can maintain multiple FIX sessions.",
+    "host_name": "pkg.go.dev",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

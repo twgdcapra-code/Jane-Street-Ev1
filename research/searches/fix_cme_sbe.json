@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/714113056/iLink+Simple+Binary+Encoding",
+    "name": "Simple Binary Encoding - CME Group Client Systems Wiki - Confluence",
+    "snippet": "iLink uses Simple Binary Encoding (SBE) optimized for low latency of encoding and decoding while keeping bandwidth utilization reasonably small. All FIX ... Missing: restore | Show results with: restore",
+    "host_name": "cmegroupclientsite.atlassian.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ref.onixs.biz/java-cme-ilink3-handler-guide/onixs-cme-ilink3-handler/index.html",
+    "name": "Programming Guide – CME iLink3 Handler",
+    "snippet": "The details about SBE can be found at the iLink 3 - Simple Binary Encoding page. ... restoring the iLink 3 session state after a handler restart.",
+    "host_name": "ref.onixs.biz",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/trading_solutions/direct_exchange_access/cme_group_direct_access",
+    "name": "CME Group Direct Access - B2BITS",
+    "snippet": "Supports all requirements of the CME iLink Order Entry interface including the following ones: Low-latency Simple Binary Encoding (SBE); FIX Performance ...",
+    "host_name": "www.b2bits.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/insights/fix-simple-binary-encoding-sbe-adoption-understanding-its-origins-and-evolution",
+    "name": "FIX Simple Binary Encoding (SBE) Adoption: Understanding Its Origins",
+    "snippet": "This is why the CME has adopted SBE encoding for the new CME iLink 3 Binary Order Entry for CME Globex. This has been a significant change ...",
+    "host_name": "www.onixs.biz",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/globex/files/ilink-3-cgw-session-guidelines.pdf",
+    "name": "[PDF] CME Globex - iLink 3 for CGW Session Guidelines",
+    "snippet": "Simple Binary Encoding (SBE); delivers faster encoding/decoding. ... FIX Performance (FIXP) protocol; very simple, lightweight, point-to-point ... Missing: restore | Show results with: restore",
+    "host_name": "www.cmegroup.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/sambacha/CME-iLink3",
+    "name": "sambacha/CME-iLink3 - GitHub",
+    "snippet": "iLink 3 introduces a new order entry protocol on CME Globex that provides the following: Simple Binary Encoding (SBE) - optimized for low latency of ... Missing: restore | Show results with: restore",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/714539039/iLink+Functional+Specification",
+    "name": "iLink Binary Order - CME Group Client Systems Wiki - Confluence",
+    "snippet": "The iLink order entry protocol on CME Globex provides: Simple Binary Encoding (SBE) - optimized for low latency of encoding and decoding.",
+    "host_name": "cmegroupclientsite.atlassian.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/26477194/how-to-use-cme-simple-binary-encoding",
+    "name": "How to use CME simple binary encoding - Stack Overflow",
+    "snippet": "I'm looking for an example on how to use the CME Simple Binary Encoding. Is it as simple as generating decoders using the SBETool?",
+    "host_name": "stackoverflow.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/content/dam/cmegroup/notices/electronic-trading/2023/11/ilink-3-cgw-mockscript.pdf",
+    "name": "[PDF] iLink 3 Convenience Gateway Binary Order Entry Mock Trading Session",
+    "snippet": "The objective of the mock trading session is to ensure iLink customers can connect and CME Group products on the iLink 3 Convenience Gateways (CGW), binary ... Missing: restore | Show results with: restore",
+    "host_name": "www.cmegroup.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://databento.com/microstructure/sbe",
+    "name": "What is Simple Binary Encoding (SBE)? - Databento",
+    "snippet": "Simple Binary Encoding (SBE) is a protocol for encoding and decoding binary messages that is optimized for high-performance, low-latency financial applications. Missing: 3 session restore",
+    "host_name": "databento.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

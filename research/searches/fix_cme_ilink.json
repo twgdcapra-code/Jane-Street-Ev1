@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/insights/cme-ilink3-migration",
+    "name": "CME Globex Convenience Gateways (CGW) iLink 2 mandated",
+    "snippet": "This is a significant protocol change: The CME iLink 2 access is based on FIX Engine implementations while the iLink 3 protocol uses FIX Simple ...",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/714113056/iLink+Simple+Binary+Encoding",
+    "name": "iLink Simple Binary Encoding - Spaces - Confluence",
+    "snippet": "iLink uses Simple Binary Encoding (SBE) optimized for low latency of encoding and decoding while keeping bandwidth utilization reasonably small. All FIX ...",
+    "host_name": "cmegroupclientsite.atlassian.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/content/dam/cmegroup/notices/electronic-trading/2023/11/ilink-3-cgw-mockscript.pdf",
+    "name": "[PDF] iLink 3 Convenience Gateway Binary Order Entry Mock Trading",
+    "snippet": "The objective of the mock trading session is to ensure iLink customers can connect and CME Group products on the iLink 3 Convenience Gateways (CGW), binary ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tradingtechnologies.com/support-updates/cme-mandatory-migration-to-ilink-3-0-available-in-production-b3-binary-protocol-and-more-7",
+    "name": "CME: Mandatory Migration to iLink 3.0 – Available in Production - B3",
+    "snippet": "Please note that on the new binary SBE UMDF market data protocol, B3 does not send Settle and SettlePU prices. B3 plans to address this in Q2, ...",
+    "host_name": "tradingtechnologies.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/sambacha/CME-iLink3",
+    "name": "sambacha/CME-iLink3 - GitHub",
+    "snippet": "Simple Binary Encoding (SBE) - optimized for low latency of encoding and decoding; FIX Performance (FIXP) protocol - supports simple session layer management; ...",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/trading_solutions/direct_exchange_access/cme_group_direct_access",
+    "name": "CME Group Direct Access - B2BITS",
+    "snippet": "Supports all requirements of the CME iLink Order Entry interface including the following ones: Low-latency Simple Binary Encoding (SBE); FIX Performance (FIXP) ...",
+    "host_name": "www.b2bits.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/insights/an-update-on-the-cme-ilink2-globex-convenience-gateways-mandated-migration-to-use-ilink3-what-you-need-to-know",
+    "name": "An update on the CME iLink 2 Globex Convenience Gateways",
+    "snippet": "This is a significant protocol change: The CME iLink 2 access is based on FIX Engine implementations while the iLink 3 protocol uses FIX Simple ...",
+    "host_name": "www.onixs.biz",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/714539039/iLink+Functional+Specification",
+    "name": "iLink Binary Order - CME Group Client Systems Wiki - Confluence",
+    "snippet": "The iLink order entry protocol on CME Globex provides: Simple Binary Encoding (SBE) - optimized for low latency of encoding and decoding. FIX Performance ...",
+    "host_name": "cmegroupclientsite.atlassian.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/notices/electronic-trading/2020/04/20200427.html",
+    "name": "20200427 - CME Group",
+    "snippet": "iLink 3 includes: Simple Binary Encoding (SBE);delivers faster encoding/decoding; FIX Performance (FIXP) protocol; very simple, lightweight, ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixtrading.org/simple-binary-encoding-high-performance-market-data-interfaces-automated-trader-article",
+    "name": "Simple Binary Encoding for high performance market data interfaces",
+    "snippet": "The FIX Trading Community realised that its message encoding was no longer fit-for-purpose for high-performance trading.",
+    "host_name": "fixtrading.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

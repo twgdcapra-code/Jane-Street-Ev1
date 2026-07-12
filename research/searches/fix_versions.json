@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/5.0.sp2/app_6_f.html",
+    "name": "Appendix 6-F: Replaced Features and Supported Approach – FIX 5.0 SP2",
+    "snippet": "Removed Deprecated \"On...",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixtrading.org/transition-from-fix-5-0-sp2-to-fix-latest-completed",
+    "name": "Transition from FIX 5.0 SP2 to FIX Latest completed",
+    "snippet": "Apart from having less messages, fields, and values, FIX 4.4 only has very few minor application layer differences compared to FIX Latest, e.g. Currency(15) was ...",
+    "host_name": "fixtrading.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=yW1GNZIF59E",
+    "name": "FIX 4.2 vs 4.4 vs FIXT 1.1 vs 5.0 - YouTube",
+    "snippet": "Share your videos with friends, family, and the world.",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://javarevisited.blogspot.com/2011/01/difference-between-fix-42-vs-fix-44-in.html",
+    "name": "Difference between FIX 4.2 vs FIX 4.4 Protocol? Answer - Javarevisited",
+    "snippet": "In this short discussion I am highlighting some of the difference between FIX 4.2 and FIX 4.4. Two most popular FIX protocol versions you can ...",
+    "host_name": "javarevisited.blogspot.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/13988749/fix-engine-supporting-different-versions",
+    "name": "FIX Engine supporting different versions - Stack Overflow",
+    "snippet": "We have developed a FIX Engine to support 4.2 version.But however we got a new Liquidity Provider who resides on FIX 4.4 version.Any ideas on how to convert ... Updating from FIX 4.4 to FIX 5.0 sp2 - Stack Overflow How do i handle communication between FIX engines of different ... More results from stackoverflow.com",
+    "host_name": "stackoverflow.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@Noetic_Ninja/fix-protocol-a-comprehensive-guide-for-traders-50752b54da27",
+    "name": "FIX Protocol: A Simple Guide for Traders | by Jay G - Medium",
+    "snippet": "FIX 4.2 is often used for equities, FX, and listed derivatives trading, while FIX 4.4 is used for multiple asset classes, including fixed income ...",
+    "host_name": "medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixspec.com/what-is-fix-latest",
+    "name": "Watch: FIX 4.2, FIX 4.4, EP258 – What is FIX Latest? - FixSpec",
+    "snippet": "FIX Latest breaks up the different parts of the FIX protocol into; Encoding, Session, and Application layer. FIX Latest is essentially a big ...",
+    "host_name": "fixspec.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.smallake.kr/wp-content/uploads/2013/06/fix_india_training_session_presentation.pdf",
+    "name": "[PDF] FIX India Training Session",
+    "snippet": "FIX 5.0 SP1 Specification Volume 7: Exchanges and Markets l Message ... FIX 4.2, FIX 4.4 over FIX Session for Order Routing l. FIX 5.0 ...",
+    "host_name": "www.smallake.kr",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://documents.pse.com.ph/wp-content/uploads/sites/15/2021/01/PSE-FIX-Specification-v1.2-14-October-2014.pdf",
+    "name": "[PDF] FIX 5.0 (SP1) Protocol",
+    "snippet": "Table 31 – PSE FIX 4.4 vs X-stream FIX 5.0 Field Differences .......................... 54. Page 6. PSE FIX Specification for X-stream.",
+    "host_name": "documents.pse.com.ph",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rigtorp.se/fix50",
+    "name": "FIX.5.0 reference - Erik Rigtorp",
+    "snippet": "All String fields are case sensitive (i.e. morstatt != Morstatt). FIX.4.2. MultipleCharValue, String, string field containing one or more space ...",
+    "host_name": "rigtorp.se",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,1141 @@
+BS4 available: True
+
+========== page_dev_session.json ==========
+
+Mark Andreev
+Posted on
+Oct 13, 2025
+FIX Protocol System-Level Implementation: Session Management Deep Dive
+#
+software
+The Financial Information eXchange (FIX) protocol serves as the standardized messaging framework for electronic trading across global financial institutions. The session-level protocol remains consistent across implementations, providing the foundation for reliable communication that processes billions of messages daily with sub-millisecond latency requirements.
+This article examines the system-level implementation of FIX protocol, focusing on four fundamental session management messages:
+Logon
+,
+Logout
+,
+Heartbeat
+, and
+Resend Request
+. These components form the infrastructure layer that every FIX implementation must handle correctly, regardless of the business logic built on top.
+Note: Application-level business messages (orders, executions, market data) are excluded to maintain focus on the foundational session layer.
+FIX Message Structure and Encoding
+Tag-Value Format Specifications
+FIX protocol employs tag-value encoding where each field appears as
+tag=value
+pairs separated by the Start of Heading (SOH) character (ASCII 0x01). The SOH delimiter is non-printable, requiring careful handling during debugging and logging.
+Every FIX message adheres to this structure:
+8=FIX.4.4|9=89|35=A|49=SENDER|56=TARGET|34=1|52=20251012-14:30:15|108=30|98=0|141=Y|10=178|
+Note: Pipe characters (
+|
+) represent SOH (0x01) for readability throughout this article.
+(
+View in FixParser
+)
+Message Anatomy and Mandatory Fields
+Three fields maintain strict positional requirements:
+Tag 8 (BeginString)
+: Protocol version identifier, always first field
+Tag 9 (BodyLength)
+: Byte count starting immediately after tag 9's delimiter through the byte preceding the checksum field's tag, excluding BeginString and BodyLength themselves but including all SOH delimiters within that range
+Tag 35 (MsgType)
+: Message type identifier, always third field
+Tag 10 (CheckSum)
+: Three-digit checksum value, always last field
+The BodyLength calculation excludes tags 8, 9, and 10 along with their delimiters, but counts every byte in between, including field delimiters and the values themselves.
+Checksum Algorithm Implementation
+The CheckSum field (tag 10) ensures message integrity through a modulo 256 algorithm. The calculation process:
+Sum all bytes from BeginString (tag 8) through the delimiter preceding the CheckSum field
+Apply modulo 256 to the sum
+Format the result as a zero-padded three-digit string
+For example, if the byte sum equals 274, the calculation yields 274 % 256 = 18, transmitted as "018". This lightweight validation catches transmission errors without cryptographic overhead.
+Message Validation Sequence
+Implementations should validate messages in this specific order to prevent expensive processing of malformed data:
+BeginString format verification
+BodyLength calculation and boundary check
+MsgType field presence and validity
+Required field presence based on message type
+CheckSum calculation and comparison
+Sequence number verification against expected value
+This ordering ensures that structurally invalid messages are rejected before performing computationally intensive validation steps.
+Session vs Connection Lifecycle
+A critical distinction exists between FIX
+sessions
+and
+connections
+. A FIX session represents a logical relationship between two parties that spans multiple sequential (not concurrent) physical connections, maintaining continuous sequence numbering across disconnects and reconnects.
+A single connection consists of:
+TCP establishment
+Logon message exchange
+Business message flow
+Logout and TCP closure
+A session can span an entire trading day with multiple connection attempts, preserving sequence state across each reconnection. The sequence number series begins at 1 and continues monotonically throughout the session's lifetime, potentially across dozens of individual connections.
+Session vs Application Message Layers
+FIX operates at two distinct protocol layers:
+Session Level Messages:
+Manage connection lifecycle and reliability
+Enforce ordered message delivery
+Handle sequence gaps and recovery
+Types: Logon (A), Logout (5), Heartbeat (0), Test Request (1), Resend Request (2), Sequence Reset (4), Reject (3)
+Application Level Messages:
+Transport business-specific trading data
+Examples: New Order Single (D), Execution Report (8), Market Data Request (V)
+Session Management Messages
+Logon Message (MsgType=A)
+The Logon message initiates a FIX session and must be the first message transmitted by the connection initiator. Authentication parameters and session configuration are established during this exchange.
+Required and Optional Fields
+Tag 35
+: MsgType = 'A'
+Tag 98
+: EncryptMethod (0 = none, 1 = PKCS, 2 = DES, 3 = PKCS/DES)
+Tag 108
+: HeartBtInt (heartbeat interval in seconds)
+Tag 141
+: ResetSeqNumFlag (Y/N - controls sequence number initialization)
+Tag 554
+: Password (authentication credential)
+Tag 553
+: Username (authentication credential)
+Note that tag 98 (EncryptMethod) refers to FIX application-layer encryption. Most exchanges require TLS/SSL at the transport layer even when EncryptMethod=0, as transport and FIX-layer encryption operate independently.
+Logon Message Example
+Initiator to Acceptor:
+8=FIX.4.4|9=89|35=A|49=TRADER_SYSTEM|56=EXCHANGE_GATEWAY|34=1|52=20251012-14:30:15.123|98=0|108=30|141=Y|553=trader123|554=secretpass|10=178|
+(
+View in FixParser
+)
+Field Interpretation:
+8=FIX.4.4
+: Protocol version
+9=89
+: Body length in bytes
+35=A
+: Logon message identifier
+49=TRADER_SYSTEM
+: SenderCompID
+56=EXCHANGE_GATEWAY
+: TargetCompID
+34=1
+: Message sequence number
+52=20251012-14:30:15.123
+: UTC timestamp
+98=0
+: No FIX-layer encryption
+108=30
+: 30-second heartbeat interval
+141=Y
+: Reset sequences to 1
+553=trader123
+: Username
+554=secretpass
+: Password
+10=178
+: Checksum
+Acceptor Response (Successful):
+8=FIX.4.4|9=78|35=A|49=EXCHANGE_GATEWAY|56=TRADER_SYSTEM|34=1|52=20251012-14:30:15.456|98=0|108=30|141=Y|10=156|
+(
+View in FixParser
+)
+Acceptor Response (Authentication Failed):
+8=FIX.4.4|9=87|35=5|49=EXCHANGE_GATEWAY|56=TRADER_SYSTEM|34=1|52=20251012-14:30:15.789|58=Authentication failed|10=234|
+(
+View in FixParser
+)
+Authentication Failure Handling
+When authentication fails, the acceptor must send a Logout message rather than simply closing the connection. The Logout should include tag 58 (Text) with the specific failure reason. The acceptor should wait a configurable period (typically 1-2 seconds) before closing the socket to ensure complete transmission of the Logout message.
+Sequence Number Initialization
+The ResetSeqNumFlag (tag 141) determines sequence number behavior. When set to 'Y', both parties reset their outbound and expected inbound sequence numbers to 1. When set to 'N', sequence numbers continue from the previous session's final values, requiring both parties to maintain persistent state across connection failures.
+Logout Message (MsgType=5)
+The Logout message provides gra
+
+========== page_checksum.json ==========
+
+Software development
+Calculating the Checksum of a FIX Message
+October 17, 2015
+Gigi
+2 Comments
+The FIX (Financial Information Exchange) Protocol is an industry standard used by financial institutions to… guess what… exchange financial information.
+A FIX message is simply a sequence of key-value pairs, each followed by a SOH (ASCII value 1) character. Since SOH is a non-printable character, FIX messages are often illustrated using another character, such as a pipe. The following is an example of a FIX message, taken from
+FIX Parser
+:
+8=FIX.4.1|9=61|35=A|34=1|49=EXEC|52=20121105-23:24:06|56=BANZAI|98=0|108=30|10=003|
+As you can see, key-value pairs are delimited by the pipe character (which would be a SOH character in a real FIX message). Note how there is also a pipe character at the very end. Keys are separated from values with an equals sign (=). The keys themselves are numbers; each number represents a particular field in the FIX protocol. For example,
+FIX Field 8
+represents the FIX protocol as well as the beginning of a FIX message. The use of numbers instead of field names makes messages less readable, but keeps them small.
+The last field in a FIX message is the checksum (
+FIX Field 10
+). The algorithm used to calculate the checksum is described
+here
+:
+“The checksum of a FIX message is calculated by summing every byte of the message up to but not including the checksum field itself. This checksum is then transformed into a modulo 256 number for transmission and comparison. The checksum is calculated after all encryption is completed, i.e. the message as transmitted between parties is processed.
+“For transmission, the checksum must be sent as printable characters, so the checksum is transformed into three ASCII digits.
+“For example, if the checksum has been calculated to be 274 then the modulo 256 value is 18 (256 + 18 = 274). This value would be transmitted a |10=018| where “10=”is the tag for the checksum field.”
+In C#, we can implement this as follows.
+First, let’s create our test message. We start with a pipe-delimited representation (just because it’s more readable that way), without the checksum field, and then we swap out the pipes for SOH characters (\u0001). Since
+FIX uses an ASCII representation
+, we can easily get a byte representation of the message:
+1
+2
+3
+4
+string
+message =
+"8=FIX.4.1|9=61|35=A|34=1|49=EXEC|52=20121105-23:24:06|"
++
+"56=BANZAI|98=0|108=30|"
+;
+message = message.Replace(
+'|'
+,
+'\u0001'
+);
+byte
+[] messageBytes = Encoding.ASCII.GetBytes(message);
+The algorithm itself is then easy to implement. We simply iterate over each byte, add its value to a running total, divide it by 256, and take the remainder:
+1
+2
+3
+4
+for
+(
+int
+i = 0; i < message.Length; i++)
+total += messageBytes[i];
+int
+checksum = total % 256;
+There’s nothing more to add – that’s the checksum. If you’re sending a FIX message, you’ll convert the value to a string and pad it with zeroes if necessary to make sure it’s exactly 3 characters:
+1
+string
+checksumStr = checksum.ToString().PadLeft(3,
+'0'
+);
+If you’re parsing a received message, you’ll want to compare the checksum you calculated to the one provided with the message, to make sure the message isn’t corrupt.
+FIX Protocol
+
+========== page_fixsim_exec.json ==========
+
+Sign In
+FIXSIM
+Home
+Pricing
+More Info
+FIX Testing for OMS/EMS
+Compare Tools
+FIX Simulator
+FIX Testing
+FIX Tutorial
+FIX Parser
+Sample FIX Messages
+Demo
+FAQ
+Resources
+About Us
+User Guide
+Contact Us
+Sign In
+FIX Execution Report (35=8)
+The Execution Report is the broker's response to everything. Send a New Order Single and you get one back.
+            Cancel an order and you get one back. Partial fill, full fill, reject -- all Execution Reports.
+            It's the most important message type in FIX and also the one with the most implementation traps.
+ExecType vs OrdStatus
+This is where most implementations go wrong. The two fields are related but different:
+ExecType (tag 150)
+-- what just happened in this report
+OrdStatus (tag 39)
+-- the current state of the order
+On an order acknowledgement, ExecType=0 (New) and OrdStatus=0 (New). Both say the same thing.
+            On a partial fill, ExecType=F (Trade) and OrdStatus=1 (PartiallyFilled). Now they diverge.
+            ExecType tells you a trade happened. OrdStatus tells you the order still has quantity open.
+A common mistake is treating them as the same field or only checking one of them.
+            Brokers can and do send combinations that seem redundant until an edge case hits.
+Scenario
+ExecType (150)
+OrdStatus (39)
+Order acknowledged
+0 = New
+0 = New
+Partial fill
+F = Trade
+1 = PartiallyFilled
+Full fill
+F = Trade
+2 = Filled
+Cancel confirmed
+4 = Canceled
+4 = Canceled
+Replace confirmed
+5 = Replace
+0 = New (resets)
+Order rejected
+8 = Rejected
+8 = Rejected
+Pending cancel
+6 = PendingCancel
+6 = PendingCancel
+Key Fields
+Tag
+Field
+Notes
+11
+ClOrdID
+Your order identifier. Echoed back in every report for that order.
+14
+CumQty
+Total quantity filled so far, cumulative across all fills.
+17
+ExecID
+Unique identifier for this specific report. Increments with every report sent.
+31
+LastPx
+Price of this fill. Only present on trade reports (ExecType=F).
+32
+LastQty
+Quantity of this fill. Only present on trade reports.
+37
+OrderID
+The broker's identifier for the order. Different from your ClOrdID.
+38
+OrderQty
+Original order quantity as submitted.
+39
+OrdStatus
+Current state of the order. See ExecType vs OrdStatus above.
+58
+Text
+Free text reason, usually populated on rejects.
+150
+ExecType
+What happened in this specific report.
+151
+LeavesQty
+Quantity still open. Zero when filled or canceled.
+Example Messages
+Paste any of these into the
+FIX parser
+to see every tag decoded.
+Acknowledgement
+8=FIX.4.4|9=160|35=8|34=2|49=BROKER|52=20240115-14:30:02.000|56=OMS|11=ORD-001|14=0|17=EXEC-001|20=0|37=BRKR-001|38=500|39=0|40=2|44=150.25|54=1|55=AAPL|150=0|151=500|10=088|
+Partial Fill
+8=FIX.4.4|9=180|35=8|34=3|49=BROKER|52=20240115-14:30:05.000|56=OMS|6=150.25|11=ORD-001|14=200|17=EXEC-002|20=0|31=150.25|32=200|37=BRKR-001|38=500|39=1|40=2|44=150.25|54=1|55=AAPL|150=F|151=300|10=112|
+Full Fill
+8=FIX.4.4|9=180|35=8|34=4|49=BROKER|52=20240115-14:30:08.000|56=OMS|6=150.25|11=ORD-001|14=500|17=EXEC-003|20=0|31=150.25|32=300|37=BRKR-001|38=500|39=2|40=2|44=150.25|54=1|55=AAPL|150=F|151=0|10=199|
+Cancel Confirmed
+8=FIX.4.4|9=165|35=8|34=5|49=BROKER|52=20240115-14:31:01.000|56=OMS|11=ORD-002|14=0|17=EXEC-004|20=0|37=BRKR-001|38=500|39=4|40=2|41=ORD-001|44=150.25|54=1|55=AAPL|150=4|151=0|10=077|
+Reject
+8=FIX.4.4|9=170|35=8|34=6|49=BROKER|52=20240115-14:30:03.000|56=OMS|11=ORD-001|14=0|17=EXEC-005|20=0|37=NONE|38=500|39=8|40=2|44=150.25|54=1|55=AAPL|58=Unknown symbol|150=8|151=0|10=143|
+Common Implementation Mistakes
+Only checking OrdStatus
+Some implementations ignore ExecType and only look at OrdStatus to determine what happened.
+            This breaks on pending states and on brokers that send intermediary reports before the final state.
+            Always check both.
+Not handling Pending states
+PendingCancel (39=6) and PendingNew (39=A) are real states that some brokers send.
+            If your system expects a cancel confirmation and gets a PendingCancel first,
+            it needs to wait for the final Canceled report rather than treating the pending as a failure.
+CumQty + LeavesQty math
+CumQty + LeavesQty should always equal OrderQty. If it doesn't, something is wrong.
+            This is a quick sanity check worth adding to your processing logic.
+Assuming ExecID is sequential
+ExecID (tag 17) is unique but not guaranteed to be sequential across sessions or reconnects.
+            Don't use it as a counter. Use it as a unique key for deduplication.
+Test your Execution Report handling
+FIXSIM lets you trigger any ExecType and OrdStatus combination on demand. No credit card required.
+Start Free Trial →
+On this page
+ExecType vs OrdStatus
+Key Fields
+Example Messages
+Common Mistakes
+Test and Simulate FIX Order Flow Before Production
+99.9% Uptime
+Web Based
+Fully Responsive
+Monthly Subscriptions
+Contact Us
+FIXSIM provides tools and educational resources for testing and validating systems using the Financial Information eXchange (FIX) protocol.
+Used by trading firms, broker-dealers, OMS/EMS vendors, exchanges, and fintech teams to validate order routing, execution handling, and automated internal QA regression suites within CI/CD pipelines.
+Copyright 2026 ©
+Gamma Three Trading, LLC
+Terms
+Privacy
+About Us
+Pricing
+Contact Us
+What is a FIX simulator?
+FIX Protocol Glossary
+FIX Simulator Software
+FIX Protocol Testing Tool
+FIX Protocol Tutorial
+FIX Parser Tool
+API Reference
+FIX Message Samples
+FIX Simulation Demo
+FIX Simulation FAQ
+FIX Protocol Resources
+FIX Certification Checklist
+FIX QA Regression Testing
+FIX Testing Without a Counterparty
+Replay FIX Message Sequences
+Replay FIX Messages
+Simulate FIX Counterparty
+FIX Testing for OMS/EMS Vendors
+AI Sitemap
+FIX Execution Report
+Test FIX Protocol with curl
+Home
+Pricing
+More Info
+FIX Testing for OMS/EMS
+Compare Tools
+FIX Simulator
+FIX Testing
+FIX Tutorial
+FIX Parser
+Sample FIX Messages
+Demo
+FAQ
+Resources
+About Us
+User Guide
+Contact Us
+Sign In
+
+========== page_fixsim_cert.json ==========
+
+Sign In
+FIXSIM
+Home
+Pricing
+More Info
+FIX Testing for OMS/EMS
+Compare Tools
+FIX Simulator
+FIX Testing
+FIX Tutorial
+FIX Parser
+Sample FIX Messages
+Demo
+FAQ
+Resources
+About Us
+User Guide
+Contact Us
+Sign In
+FIX Certification Checklist
+FIX certification is the process a broker, exchange, or trading venue uses to verify that your system
+                connects and behaves correctly over FIX before allowing live trading. Most venues run you through a
+                defined set of session and application layer test cases, and they expect you to pass them all in a
+                limited number of sessions.
+Certification slots are scheduled in advance and failures mean rescheduling. The teams that get through
+                fastest are the ones who've already tested the edge cases themselves. That's what this checklist is for.
+FIX certification failures typically trace back to the same issues: session-state edge cases,
+                sequence number recovery, and inconsistent order lifecycle behavior under stress.
+                Work through this list before you book certification time.
+If you want the bigger picture first, follow the
+FIX testing workflow
+and then run this checklist before scheduling certification time.
+Session Layer Checklist
+Logon / Logout:
+correct credentials, encryption flags, ResetSeqNumFlag behavior (if used)
+Heartbeats:
+HeartBtInt honored; TestRequest handling; disconnect behavior
+Sequence numbers:
+gap detection, resend requests, duplicate handling
+Recovery:
+resend flows do not create side effects (e.g., duplicate executions)
+Rejects:
+proper session rejects for malformed messages and invalid tags
+Reset scenarios:
+sequence reset rules match counterparty expectations
+Application Layer Checklist
+New Order Single:
+required tags present; custom tags; symbol/security identifiers
+Exec Reports:
+correct ExecType/OrdStatus transitions; leavesQty/cumQty math
+Cancel / Replace:
+proper OrigClOrdID references; CancelReject handling
+Trade capture / allocations:
+if applicable to your workflow
+Error handling:
+business rejects and order rejects are differentiated correctly
+High-Value Failure Scenarios to Test
+Most certification failures map directly to the root causes described in
+why FIX onboarding projects stall
+.
+Disconnect/reconnect during active order flow
+Resend request mid-stream while new application messages continue
+Out-of-order messages (or delayed acks/executions)
+Partial fills followed by cancel / replace
+Sequence reset or logon reset expectations not matching
+How FIXSIM Helps
+A simulator lets you validate these scenarios deterministically, without waiting on a broker or exchange
+                environment. You can replay message flows, trigger rejects, and test recovery logic repeatedly until the
+                behavior is stable.
+Run These Test Cases in a FIX Simulator
+To run these scenarios in a controlled environment, use a
+FIX protocol simulator
+that can emulate counterparties, replay message flows, and validate session behavior before certification.
+Related guides
+How to test FIX behavior before certification
+Why FIX onboarding projects stall
+Test and Simulate FIX Order Flow Before Production
+99.9% Uptime
+Web Based
+Fully Responsive
+Monthly Subscriptions
+Contact Us
+FIXSIM provides tools and educational resources for testing and validating systems using the Financial Information eXchange (FIX) protocol.
+Used by trading firms, broker-dealers, OMS/EMS vendors, exchanges, and fintech teams to validate order routing, execution handling, and automated internal QA regression suites within CI/CD pipelines.
+Copyright 2026 ©
+Gamma Three Trading, LLC
+Terms
+Privacy
+About Us
+Pricing
+Contact Us
+What is a FIX simulator?
+FIX Protocol Glossary
+FIX Simulator Software
+FIX Protocol Testing Tool
+FIX Protocol Tutorial
+FIX Parser Tool
+API Reference
+FIX Message Samples
+FIX Simulation Demo
+FIX Simulation FAQ
+FIX Protocol Resources
+FIX Certification Checklist
+FIX QA Regression Testing
+FIX Testing Without a Counterparty
+Replay FIX Message Sequences
+Replay FIX Messages
+Simulate FIX Counterparty
+FIX Testing for OMS/EMS Vendors
+AI Sitemap
+FIX Execution Report
+Test FIX Protocol with curl
+Home
+Pricing
+More Info
+FIX Testing for OMS/EMS
+Compare Tools
+FIX Simulator
+FIX Testing
+FIX Tutorial
+FIX Parser
+Sample FIX Messages
+Demo
+FAQ
+Resources
+About Us
+User Guide
+Contact Us
+Sign In
+
+========== page_onechronos.json ==========
+
+FIX Integration
+FIX Primer
+A brief introduction to the FIX protocol
+Stop
+: If you are familiar with the FIX protocol you can most likely skip
+this section. The
+OneChronos FIX Spec
+contains everything that you need to integrate OneChronos. If you are looking for documentation on FIX itself, please
+proceed.
+The FIX protocol is a transport agnostic text based protocol widely used by
+financial institutions to send orders, receive execution reports, and
+disseminate market data. There are many versions of FIX, and individual
+institutions usually customize a specific version of FIX for their use case.
+OneChronos FIX is based on the
+OneChronos FIX Spec
+.
+FIX is a session based, asynchronous, guaranteed message delivery protocol.
+Sessions are bidirectional streams of messages between two parties that may
+arrive out-of-order, but will always be processed by the receiving application
+in-order. A single FIX session can span multiple physical connections; sessions
+are independent of network connects and disconnects. Message sequence numbers
+are used to ensure orderly message processing and recovery of lost messages.
+FIX messages are broadly divided into two types: administrative, which control
+the FIX session itself, and business, which exchange information on the
+application level. The messages themselves are key/value pairs, delimited by
+the
+SOH
+character (
+ASCII #001, hex 0x01
+). Given that
+SOH
+is
+an unprintable character, we’ll use ”|” in its place when displaying messages.
+All FIX messages start with the Standard Message Header and end with the
+Standard Message Trailer. The set of key/value pairs between the header and the
+trailer (referred to as the Body) are message type dependent. The type of the
+message is always given by a tag in the header:
+MsgType (tag #35)
+.
+Message Format
+Every FIX message is a stream of
+<tag>=<value>
+fields with a field
+delimiter (ASCII
+SOH
+) used between fields in the stream. Depending on the
+message type, some fields are required, others are conditionally required, and
+some are optional. All tags must have a value specified. Optional fields without
+values should not be included in the FIX message - the message will be rejected
+as malformed if they are. The general format of a FIX message is the
+standard
+header
+followed by the message body fields and terminated
+with the
+standard trailer
+.
+Except where noted, fields within a message can be defined in any sequence. The
+relative position of a field within a message is inconsequential (although by
+convention they are displayed in ascending tag sorted order).
+With the exception of
+data
+type fields discussed in
+data types
+FIX uses ASCII 128 encoding for all message content (tags, values, and delimiters).
+Field Delimiter
+All fields (including the last field in a message) are terminated by the ASCII
+SOH
+character (
+#001, hex 0x01
+). Given that this is an unprintable
+character, our documentation uses ”|” in place of
+SOH
+, but
+SOH
+should always be used in actual FIX messages.
+Data Types
+The following data type descriptions were taken from the
+Financial Information Exchange Protocol (FIX) Version 4.2 with Errata 20010501
+. Data types are mapped to ASCII strings as follows:
+int
+: Sequence of digits without commas or decimals and optional sign
+character (ASCII characters ”-” and “0” - “9” ). The sign character utilizes
+one byte (i.e. positive int is “99999” while negative int is “-99999”). Note
+that int values may contain leading zeros (e.g. “00023”= “23”). Examples:
+723 in field 21 would be mapped int as |21=723|. -723 in field 12 would be
+mapped int as |12=-723|
+float
+: Sequence of digits with optional decimal point and sign character
+(ASCII characters ”-”, “0” - “9” and ”.”); the absence of the decimal point
+within the string will be interpreted as the float representation of an
+integer value. All float fields must accommodate up to fifteen significant
+digits. The number of decimal places used should be a factor of
+business/market needs and mutual agreement between counterparties. Note that
+float values may contain leading zeros (e.g. “00023.23” = “23.23”) and may
+contain or omit trailing zeros after the decimal point (e.g. “23.0” =
+“23.0000” = “23”).
+qty
+: float field (see definition of “float” above) capable of storing
+either a whole number (no decimal places) of “shares” or a decimal value
+containing decimal places for non-share quantity asset classes.
+price
+: float field (see definition of “float” above) representing a price.
+Note the number of decimal places may vary.
+char
+: Single character value, can include any alphanumeric character or
+punctuation except the delimiter. All char fields are case sensitive (i.e. m ≠
+M).
+boolean
+: a char field (see definition of “char” above) containing one of
+two values:
+‘Y’ = True/Yes
+‘N’ = False/No
+string
+: Alpha-numeric free format strings, can include any character or
+punctuation except the delimiter. All char fields are case sensitive (i.e.
+morstatt ≠̸ Morstatt).
+multi_value_string
+: String field (see definition of “String” above)
+containing one or more space delimited values.
+exchange
+: String field (see definition of “String” above) representing a
+market or exchange.
+utctimestamp
+: Time/date combination represented in UTC (Universal Time
+Coordinated, also known as “GMT”) in either YYYYMMDD-HH:MM:SS (whole seconds)
+or YYYYMMDD-HH:MM:SS.sss (milliseconds) format, colons, dash, and period
+required. Valid values:
+YYYY = 0000-9999, MM = 01-12, DD = 01-31, HH = 00-23, MM = 00-59,
+SS = 00-5960 (60 only if UTC leap second*) (without milliseconds).
+YYYY = 0000-9999, MM = 01-12, DD = 01-31, HH = 00-23, MM = 00-59,
+SS = 00-5960 (60 only if UTC leap second*), sss=000-999
+(indicating milliseconds).
+*
+See the
+International Earth Rotation Service (IERS) guide to leap seconds
+for additional details on leap second handling.
+Checksum Calculation
+FIX uses a weak checksum to protect against obvious forms message corruption.
+The
+CheckSum (tag #10)
+is the last field of any FIX message. It is
+computed via the following procedure:
+Initialize an unsigned 32 bit integer (henceforth referred to as
+checksumTotal) to zero.
+Iterate over every character in the FIX message up to, but not including, the
+checksum field, and add its integer value to checksumTotal.
+Take the value of
+checksumTotal mod 256
+and format it as a zero padded,
+three digit string.
+In pseudocode:
+c
+char
+*
+GenerateCheckSum
+(
+char
+*
+buf
+,
+long
+bufLen
+)
+{
+static
+char
+tmpBuf
+[
+4
+]
+;
+long
+idx
+;
+unsigned
+int
+cks
+;
+for
+(
+idx
+=
+0L
+,
+cks
+=
+0
+;
+idx
+<
+bufLen
+;
+cks
++=
+(
+unsigned
+int
+)
+buf
+[
+idx
+++
+]
+)
+{
+}
+sprintf
+(
+tmpBuf
+,
+"%03d"
+,
+(
+unsigned
+int
+)
+(
+cks
+%
+256
+)
+)
+;
+return
+tmpBuf
+;
+}
+Message Delivery
+FIX guarantees full, ordered, once-and-only-once processing (of application
+messages) between parties regardless of the network transport (e.g. TCP/IP, UDP)
+used. Formally, FIX provides bidirectional at-least-once message delivery
+semantics, and once-and-only-once processing semantics. A system of inbound and
+outbound sequence numbers tra
+
+========== page_ilink3.json ==========
+
+← Back to article listing
+June 13, 2023
+Share this
+In Q1 2024 the CME Group will be launching
+iLink 3 Binary Order Entry Protocol access to the
+Convenience Gateway (CGW) or trading futures and options on futures on the CME Globex platform.
+Access to CME Globex using the FIX based iLink 2 and the SBE based iLink 3 for CGW will run in parallel from February 2024 until the end of Q4, 2024 (dates subject to change of course but this is the current schedule).
+This is a mandated migration meaning that all CME Globex market participants connected via iLink 2 access to the Convenience Gateway (CGW) will need to migrate to iLink 3 during this extended parallel run period.
+This is a significant protocol change: The CME iLink 2 access is based on FIX Engine implementations while the iLink 3 protocol uses FIX Simple Binary Encoding (SBE) and uses the FIX Performance (FIXP) session layer protocol. From a direct market access (DMA) SDK code perspective, it’s a rewrite rather than an update.
+When is it changing? Current high level milestone dates are:
+8th May 2023:  iLink 3 on CGW available in New Release environment for core functionality
+25th September 2023: iLink 3 on CGW available in New Release environment and a new iLink certification suite will be available in AutoCert+ for pre-registered orders. AutoCert+ certification is mandatory for all client systems using CGWs.
+October 23, 2023: Production CME Request Center for self-service iLink 3 session creation
+20th January 2024 - 3rd February 2024: Mock trading sessions
+4th February 2024: Start of production parallel usage period during which CGW access will support both iLink 2 and iLink 3 sessions.
+31st December 2024: End of parallel run period and deadline for migration to iLink 3 on CGW
+The migration project is well documented by the
+CME with associated guidelines and impacts here
+.
+All users of the current CME iLink 2 FIX based API accessing the CME Globex
+Convenience Gateway (CGW)
+sessions will need to migrate to the new CME iLink 3
+Binary Order Entry Protocol SBE based API
+. Firms may achieve this by investing time and money in an internal development project, or use a professional supported CME iLink 3 SDK solution.
+The OnixS directConnect:
+CME iLink 3
+Binary Order Entry Handler SDK implementations provide an out-of-the-box solution.
+OnixS directConnect SDK solutions support a forward migration path for venue changes to the access protocols and APIs. OnixS provides these updates to existing users within the scope of the existing software licensing and support agreements. This means the existing OnixS of the OnixS directConnect: CME iLink 2 FIX Order Entry Handler SDK have access to the OnixS directConnect: CME iLink 3 Binary Order Entry Handler SDK within the terms of the existing license.
+The OnixS directConnect: CME iLink 3 Binary Order Entry Handler SDK implementations include:
+OnixS iLink 3 SDK library including SBE encoder/decoder and FIXP protocol support
+Programming Guide Documentation
+Fast-start trading client reference implementation source code samples
+You can read more about the OnixS directConnect: CME iLink 3 Binary Order Entry Handler
+here
+.
+For OnixS directConnect: CME SDK Release Note updates see
+https://www.onixs.biz/release-notes/tag/cme
+
+========== page_ordtype.json ==========
+
+OnixS
+Products
+Support
+Contact us
+Search
+Menu
+OrdType <40> field – FIX 4.4 – FIX Dictionary
+Messages by MsgType
+|
+Messages by Name
+|
+Fields by Tag
+|
+Fields by Name
+|
+FIX 4.4
+|
+Home
+FIX 4.4 : OrdType <40> field
+Type:
+char
+Used In
+Description
+Order type.
+Valid values:
+1 =
+Market
+2 =
+Limit
+3 =
+Stop
+4 =
+Stop limit
+5 = Market on close
+(No longer used)
+6 =
+With or without
+7 =
+Limit or better
+(Deprecated)
+8 =
+Limit with or without
+9 =
+On basis
+A = On close
+(No longer used)
+B = Limit on close
+(No longer used)
+C = Forex - Market
+(No longer used)
+D =
+Previously quoted
+E =
+Previously indicated
+F = Forex - Limit
+(No longer used)
+G =
+Forex - Swap
+H = Forex - Previously Quoted
+(No longer used)
+I =
+Funari
+(Limit Day Order with unexecuted portion handled as Market On Close. E.g. Japan)
+J =
+Market If Touched (MIT)
+K =
+Market with Leftover as Limit
+(market order then unexecuted quantity becomes limit order at last price)
+L =
+Previous Fund Valuation Point
+(Historic pricing) (for CIV)
+M =
+Next Fund Valuation Point
+(Forward pricing) (for CIV)
+P = Pegged
+*** SOME VALUES ARE NO LONGER USED - See:
+"
+Appendix 6-F: 11.Removed Deprecated "On Close"-related Values for OrdType Field [Deprecated in FIX 4.3, Removed in FIX 4.4]
+" and
+"
+Appendix 6-F: 14.Removed three Deprecated "Forex - "-related Values for OrdType Field [Deprecated and Replaced in FIX 4.3, Removed in FIX 4.4]
+" ***
+Used In
+Execution Report <8>
+New Order Multileg <AB>
+Multileg Order Cancel/Replace <AC>
+Trade Capture Report <AE>
+Quote Request Reject <AG>
+Quote Status Report <AI>
+Quote Response <AJ>
+Mass Quote Acknowledgement <b>
+New Order Single <D>
+New Order List <E>
+Order Cancel/Replace Request <G>
+Mass Quote <i>
+Quote Request <R>
+New Order Cross <s>
+Quote <S>
+Cross Order Cancel/Replace Request <t>
+Follow
+OnixS
+Follow us on Twitter
+Connect with us on LinkedIn
+OnixS
+Follow us on Twitter
+Connect with us on LinkedIn
+Telephone UK
++44 20 7117 0111
+Telephone US
++1 312 999 6040
+Sales Support
+sales@onixs.biz
+Technical Support
+support@onixs.biz
+Support
+Products
+OnixS directConnect
+FIX Engine
+FIX Protocol Tools
+About OnixS
+Insights
+Contact us
+Privacy
+Sitemap
+Copyright © 2026 OnixS. All Rights Reserved.
+We track how people interact with our online web content and resources, and some of that tracking involves storing cookies on your device. By continuing to use our site you accept that you agree to this. For more details see our
+Cookie usage, and Data Privacy and Protection Policies
+.
+Ok
+OnixS
+Menu
+Products
+Products Overview
+directConnect
+directConnect SDKs
+Bloomberg TSOX
+Cboe CFE
+Cboe EU
+CME Globex
+CME BrokerTec
+CME EBS
+Deutsche Börse RRH
+ICE (Intercontinental Exchange)
+LME (London Metals Exchange)
+LSE (London Stock Exchange)
+MTS Markets
+Nasdaq NFI
+Nodal Exchange
+TRADEcho
+TT® 7x FIX
+TT® Platform
+Turquoise
+FIX Engine
+FIX Engine SDKs
+.NET Core/.NET FIX Engine
+.NET Framework / C# FIX Engine
+C++ FIX Engine
+Java FIX Engine
+FIX FAST Decoder and Encoder
+FIX <-> FIXML Converter
+FIX Protocol Reference & Tools
+Reference & Tools Overview
+SBE Decoder and Encoder
+FIX Protocol Overview
+FIXP Overview
+FIX Dictionary
+FIX Analyser
+About OnixS
+Insights
+Contact us
+Support
+Privacy
+Sitemap
+OnixS
+Close Search
+Search the site
+Search
+
+========== page_fix_versions_diff.json ==========
+
+FIX 4.2 vs FIX 4.4
+FIX protocol has evolved over time; it’s now more than a decade it’s started by Fidelity and Solomon Brothers.
+FIX connectivity
+is the most popular connectivity solution that exists for trading whether it's equities, futures, options or fixed income or even foreign exchange (FX). FIX protocol has dominated the market and become a standard solution for any market or broker which is trying to develop connectivity with the market within a short period of time because of the complexity of native exchange API and lack of support FIX protocol comes in handy.
+To develop fix connectivity you need to agree upon which FIX protocol version are you going to follow, since many fix protocol version exists e.g. FIX4.0, FIX4.1, FIX4.2 and FIX4.4 even newer version are available but most firm use FIX 4.2 as there preferred FIX connectivity solution or you can say still most widely used version is FIX 4.2, many firms, clients, hedge funds, pension funds still use it for online trading but even after the launch of more advance version it still remains the popular one. On advanced side FIX 4.4 is getting popular.
+In this short discussion I am highlighting some of the
+difference between FIX 4.2 and FIX 4.4
+. Two most popular FIX protocol versions you can check FIX specification for more detail and some other difference which exits. FIX specification are available on
+http://www.fixprotocol.org
+you can download pdf version of these specification and can look before developing your FIX connectivity.
+There are many differences between these two versions of fix protocol, some of them I am highlighting here.
+1) There was tag called ExecTransType (tag 20) which was there in FIX 4.2 and now merged to ExecType tag 150 into FIX4.4, this tag used to define the nature of execution received from the exchange or broker.
+2) Replaced the use of the QuantityType (tag 465) field with new QtyType (tag 854) which contains a re-organized/consolidated set of values.
+3) Removed various Settlement Instructions-related fields.
+4) Added "Quote Response" to list of messages for which Quote Status Report message is the appropriate response.
+Establishing FIX connectivity is challenging if it involves custom fix tags, these are the tags that are not defined by FIX protocol but used by many firms or between client and broker for carrying some extra information that is agreed upon that.
+FIX protocol allows you to define custom FIX tags for your FIX connectivity until and unless they are not conflicting with any other FIX tags. Generally, firms use tags above 10000 or 5000 to define these custom FIX tags.
+Video Player is loading.
+Play Video
+Play
+Skip Backward
+Mute
+Current Time
+0:00
+/
+Duration
+0:00
+Loaded
+:
+0%
+Stream Type
+LIVE
+Seek to live, currently behind live
+LIVE
+Remaining Time
+-
+0:00
+1x
+Playback Rate
+Chapters
+Chapters
+Descriptions
+descriptions off
+, selected
+Captions
+captions and subtitles off
+, selected
+Audio Track
+Picture-in-Picture
+Fullscreen
+This is a modal window.
+Beginning of dialog window. Escape will cancel and close the window.
+Text
+Color
+White
+Black
+Red
+Green
+Blue
+Yellow
+Magenta
+Cyan
+Opacity
+Opaque
+Semi-Transparent
+Text Background
+Color
+Black
+White
+Red
+Green
+Blue
+Yellow
+Magenta
+Cyan
+Opacity
+Opaque
+Semi-Transparent
+Transparent
+Caption Area Background
+Color
+Black
+White
+Red
+Green
+Blue
+Yellow
+Magenta
+Cyan
+Opacity
+Transparent
+Semi-Transparent
+Opaque
+Font Size
+50%
+75%
+100%
+125%
+150%
+175%
+200%
+300%
+400%
+Text Edge Style
+None
+Raised
+Depressed
+Uniform
+Dropshadow
+Font Family
+Proportional Sans-Serif
+Monospace Sans-Serif
+Proportional Serif
+Monospace Serif
+Casual
+Script
+Small Caps
+Reset
+restore all settings to the default values
+Done
+Close Modal Dialog
+End of dialog window.
+Advertisement
+There are many other changes that are available in the release notes of fix 4.4
+http://www.fixprotocol.org
+, I will add some more as I come to know which is used in day trading more often.
+I have documented my discussion on my
+FIX protocol tutorial
+series, please check for more information on different areas of FIX protocol and FIX connectivity e.g
+FIX Session management
+, FIX application management, or
+FIX Interview questions
+.
+Related post:
+Top 20 FIX Protocol Interview Questions
+FIX Protocol Tutorial for beginners
+FIX Protocol Session or Admin messages tutorial
+Fix Session is not connecting how to diagnose it?
+FIX Protocol Tutorial 2: Basics of FIX Protocol and FIX Engine
+FIX Protocol Tutorial 4: Repeating groups in FIX
+FIX Protocol Tutorial 5: Replaying messages in FIX protocol
+FIX Protocol tutorial 6: Difference between Session Level and Business message Reject
+FIX Protocol Tutorial 7: Difference between FIX 4.2 vs FIX 4.4
+FIX Protocol Tutorial 8: Writing your own FIX Engine
+FIX Protocol Tutorial 9: Common issues on financial information exchange (FIX) Connectivity
+Preparing for Java Developer Interviews?
+Download Free Questions
+We respect your privacy. Unsubscribe at any time.
+Built with Kit

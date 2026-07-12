@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.eurex.com/exchange-en/resources/rules-regulations/Contract-specifications/136774",
+    "name": "03. Contract Specifications - Eurex",
+    "snippet": "Rules and Regulations | Contract Specifications. Commodities: Introduction of Futures and Options on Exchange Traded Commodities (ETCs) issued by ETF Securities.",
+    "host_name": "www.eurex.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurex.com/resource/blob/3880890/608dc294240f23e8148b7acaba3ae321/data/T7_R.12.1_FIX_LF_Manual_Version_2.pdf",
+    "name": "[PDF] T7 Release 12.1 FIX LF Manual - Eurex",
+    "snippet": "The purpose of this document is to provide a way to access the T7 trading system via an interface using the FIX protocol. The interface includes ...",
+    "host_name": "www.eurex.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurex.com/ex-en",
+    "name": "Eurex - The Leading Derivatives Exchange",
+    "snippet": "As the leading derivatives exchange, Eurex offers listed products with deep liquidity, and margin efficiency for institutional investors.",
+    "host_name": "www.eurex.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tradingtechnologies.com/support-updates/ice-api-upgrade-ttfix-crt-update-notice-and-more-4",
+    "name": "ICE: API Upgrade, TTFIX.crt: Update Notice and More",
+    "snippet": "ICE has announced that they will undergo an API upgrade during on 26th August 2023. TT has made two changes for this ICE API upgrade and available in UAT for ...",
+    "host_name": "tradingtechnologies.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ice.com/futures-europe",
+    "name": "ICE Futures Europe",
+    "snippet": "ICE Futures Europe provides trading for London's softs markets, including futures and options contracts on cocoa, Robusta coffee, white sugar, and feed wheat.",
+    "host_name": "www.ice.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurex.com/ex-en/data/free-reference-data-api",
+    "name": "Reference data API - Eurex",
+    "snippet": "The reference data API offers central source for any kind Eurex reference data, machine- and human readable format. No more downloading, polling and parsing ...",
+    "host_name": "www.eurex.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cftc.gov/sites/default/files/filings/orgrules/24/05/rules050324411.pdf",
+    "name": "[PDF] Amendments to Tag 1028 (“Manual Order Indicator”) FAQ and",
+    "snippet": "In February 2021, the Exchange began to support the usage of Tag 1028 for any client submitting orders for IFUS contracts via the ICE FIX OS.",
+    "host_name": "www.cftc.gov",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ice.com/publicdocs/endex/circulars/E23028_attach.pdf",
+    "name": "[PDF] EUA Contract Product Specifications Appendix A.4.1 ICE Endex",
+    "snippet": "Description. The EUA Futures Options Contract is an option on the EUA. Futures Contract as specified in Appendix A.4.3. At expiry, one lot.",
+    "host_name": "www.ice.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurex.com/ex-en/markets/idx/daily-opt",
+    "name": "Trade Daily Expiring Options at Eurex",
+    "snippet": "These daily expiring options are also known as zero day to expiry options (0DTE). Trade with more accuracy and cost efficiency using options that expire daily.",
+    "host_name": "www.eurex.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/5.0.sp2/app_6_c.html",
+    "name": "Appendix 6-C: Exchange Codes — ISO 10383 Market Identifier",
+    "snippet": "As of FIX 4.3, Exchange Codes used in FIX are those defined in ISO 10383 standard: Market Identifier Code (MIC).",
+    "host_name": "www.onixs.biz",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

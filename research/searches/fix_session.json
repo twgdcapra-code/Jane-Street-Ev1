@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.iso.org/obp/ui/en/#!iso:std:81511:en",
+    "name": "Financial information eXchange session layer — Part 2: FIX  - ISO",
+    "snippet": "The SequenceReset(35=4) message is used to gap fill over messages not being resent in response to a resend request or it can be used to reset the sequence ...",
+    "host_name": "www.iso.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://corp-web.b2bits.com/fixanet/doc/html/html/60e5d73c-f584-41d1-b6b5-91c233dbd33f.htm",
+    "name": "FIX Sessions",
+    "snippet": "Resetting the inbound and outbound sequence numbers back to 1, sequence numbers by sending a Logon message with the ResetSeqNumFlag set.",
+    "host_name": "corp-web.b2bits.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/fixt1.1/section_session_protocol.html",
+    "name": "FIXT 1.1: Session Protocol – FIX Dictionary - OnixS",
+    "snippet": "After sending a Logon<A> confirmation back, send a ResendRequest<2> if a message gap was detected in the Logon<A> sequence number. Logout<5>. If a message ...",
+    "host_name": "www.onixs.biz",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/mrkandreev/fix-protocol-system-level-implementation-session-management-deep-dive-kjp",
+    "name": "FIX Protocol System-Level Implementation - DEV Community",
+    "snippet": "Types: Logon (A), Logout (5), Heartbeat (0), Test Request (1), Resend Request (2), Sequence Reset (4), Reject (3). Application Level Messages:.",
+    "host_name": "dev.to",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://b2bits.atlassian.net/wiki/display/B2BITS/Sequence+number+handling",
+    "name": "Sequence number handling",
+    "snippet": "During resend request preparation, a FIX session is blocked and doesn't send any real-time messages, including heartbeats.",
+    "host_name": "b2bits.atlassian.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://javadoc.io/doc/org.quickfixj/quickfixj-core/2.3.0/quickfix/Session.html",
+    "name": "Session (QuickFIX/J Core engine 2.3.0 API) - javadoc.io",
+    "snippet": "Session setting for doing an automatic sequence number reset on logout. Valid values are \"Y\" or \"N\". Default is \"N\". See Also: Constant Field Values ...",
+    "host_name": "javadoc.io",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fixsim.com/fix-glossary",
+    "name": "FIX Protocol Glossary - FIXSIM",
+    "snippet": "Heartbeat A session-level message used to confirm connectivity is still active. Logout A message used to terminate a FIX session. R Resend Request A message ...",
+    "host_name": "www.fixsim.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onechronos.com/documentation/fix/primer",
+    "name": "FIX Primer - OneChronos",
+    "snippet": "FIX sessions start with a Logon message and end with a Logout . A session Initiator can reset sequence numbers while logging in by including the field ...",
+    "host_name": "www.onechronos.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.brokeret.com/fix-api/fix-50/session-management",
+    "name": "Session Management - Introduction - Brokeret Docs",
+    "snippet": "FIX 5.0 uses FIXT 1.1 as its transport/session layer. Session-level messages (Logon, Logout, Heartbeat, TestRequest, ResendRequest, SequenceReset, Reject) use ...",
+    "host_name": "docs.brokeret.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.cdp.coinbase.com/derivatives/fix/session",
+    "name": "Derivatives FIX Session Messages - Coinbase Developer Documentation",
+    "snippet": "Logout (35=5): Initiates or approves session closing. · Resend Request (35=2): Requests ...",
+    "host_name": "docs.cdp.coinbase.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

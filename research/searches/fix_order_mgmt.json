@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.2/msgtype_8_8.html",
+    "name": "Execution Report <8> message – FIX 4.2 – FIX Dictionary - OnixS",
+    "snippet": "The Execution Report <8> message is used to: confirm the receipt of an order, confirm changes to an existing order (ie accept cancel and replace requests), ...",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic41/message_Execution_Report_8.html",
+    "name": "Execution Report (MsgType = 8) - FIX 4.1 Dictionary - B2BITS",
+    "snippet": "The ...",
+    "host_name": "www.b2bits.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.4/msgtype_8_8.html",
+    "name": "Execution Report <8> message – FIX 4.4 – FIX Dictionary - OnixS",
+    "snippet": "The Execution Report <8> message is used to: confirm the receipt of an order; confirm changes to an existing order (i.e. accept cancel and replace requests) ...",
+    "host_name": "www.onixs.biz",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fiximate.fixtrading.org/legacy/en/FIX.5.0SP2/body_5756.html",
+    "name": "Message ExecutionReport - FIXimate",
+    "snippet": "The execution report message is used to: 1. confirm the receipt of an order 2. confirm changes to an existing order (ie accept cancel and replace requests)",
+    "host_name": "fiximate.fixtrading.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fixsim.com/fix-execution-report",
+    "name": "FIX Execution Report (35=8) - Fields, States and Examples - FIXSIM",
+    "snippet": "The Execution Report is the broker's response to everything. Send a New Order Single and you get one back. Cancel an order and you get one back. Partial fill, ...",
+    "host_name": "www.fixsim.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aqx-web-prod-s3-public-read.s3.eu-west-2.amazonaws.com/Production_Aquis_FIX_4_2_Technical_Specification_v4_7_9b60959d2e.pdf",
+    "name": "[PDF] FIX 4.2 Protocol Technical Specification - AWS",
+    "snippet": "Aquis uses the FIX Execution Report message to accept or to reject a New Order Single, and to accept an Order Cancel Request or an Order Cancel/ ...",
+    "host_name": "aqx-web-prod-s3-public-read.s3.eu-west-2.amazonaws.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.solid-fx.com/inc/files/Solid%20FX%20-%20FIX%20specification.pdf",
+    "name": "[PDF] Solid FX FIX Specification",
+    "snippet": "The. PB that will be used can be specified in the NewOrderSingle message by tag ClearingAccount (440). A client decides for each order which ...",
+    "host_name": "www.solid-fx.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.developer.saxo/fix/message-definitions/order-messages",
+    "name": "Order Messages - Saxo Bank Developer Portal",
+    "snippet": "Saxo's FIX API is using the following custom tags. Tag, Field Name, Used in messages. 12108, CancellationIfReduction, New Order Single. 12115 ...",
+    "host_name": "www.developer.saxo",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://gist.github.com/elvinio/513a4e849a4ed0bc655b",
+    "name": "FIX 4.4 tags, description and values - GitHub",
+    "snippet": "<br /><br />|Execution Report, New Order Single, New Order List, Order Cancel Replace Request, Allocation Instruction, New Order Cross, Cross Order Cancel ...",
+    "host_name": "gist.github.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Trading/Securities/Overview/Trading-Mechanism/Self-Match-Prevention/Interface-Specifications-HKEX-OCGC-FIX-Trading-Protocol-(version-3,-d-,2)-(Clean).pdf",
+    "name": "[PDF] Interface Specifications HKEX Orion Central Gateway - Securities Market",
+    "snippet": "This document describes the FIX interface protocol of the HKEX Orion Central Gateway -. Securities Market (“OCG-C”), the market access ...",
+    "host_name": "www.hkex.com.hk",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://stackoverflow.com/questions/63934474/python-connecting-to-multiple-sessions-over-quickfix",
+    "name": "python Connecting To Multiple Sessions over QuickFix",
+    "snippet": "Usually you need a [SESSION] line in front of each session definition. Sample file: quickfixj.org/usermanual/2.1.0/usage/… Christoph John. – ... QuickFIX Python Session File Corruption Issue - Stack Overflow QuickFix and SessionSettings - Stack Overflow More results from stackoverflow.com",
+    "host_name": "stackoverflow.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/Billy10mm/python-quickfix-example",
+    "name": "Example Python Quickfix Code that hopefully someone can use - GitHub",
+    "snippet": "It's a FIX4.2 server that allows you to manually control your responses. I built this to help troubleshoot a specific condition we were seeing in our trading ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quickfixj.org/docs/architecture",
+    "name": "Architecture | QuickFIX/J",
+    "snippet": "The QuickFIX/J engine is designed using a layered architecture that cleanly separates transport mechanisms, session management, state persistence, and ...",
+    "host_name": "quickfixj.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quickfixengine.org/c/documentation/getting-started/configuration.html",
+    "name": "QF/C++ Docs: Getting Started>Configuration",
+    "snippet": "[SESSION] tells QuickFIX that a new Session is being defined. ... Determines if session state should be restored from persistence layer when logging on.",
+    "host_name": "quickfixengine.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://corp-web.b2bits.com/fixapython/sources/fix-session.html",
+    "name": "FIX Session — FIXAntenna Python 2.34.0 documentation",
+    "snippet": "In case of persistent session messages are stored to the file. This guarantees that session can recover its state (sent messages and latest sequence numbers) ...",
+    "host_name": "corp-web.b2bits.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ember.deltixlab.com/docs/api/python/python_fix_sample",
+    "name": "Python Sample for the Ember FIX API",
+    "snippet": "This sample explains how to run a simple Python client that sends trading orders to the Deltix FIX Gateway using the popular QuickFIX/Python library.",
+    "host_name": "ember.deltixlab.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.streamlit.io/develop/api-reference/caching-and-state/st.session_state",
+    "name": "Session State - Streamlit Docs",
+    "snippet": "By default, Streamlit's Session State allows you to persist any Python object for the duration of the session, irrespective of the object's pickle- ...",
+    "host_name": "docs.streamlit.io",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@andresberejnoi/how-to-implement-a-fix-trading-engine-in-python-andres-berejnoi-4971270fa2f6",
+    "name": "How to Implement a FIX Trading Engine in Python — Andres Berejnoi",
+    "snippet": "QuickFIX Base Python Class. To create your own FIX engine, you inherit from the quickfix.Application class. A simple FIX client could look ...",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://javadoc.io/doc/org.quickfixj/quickfixj-core/1.6.4/quickfix/Session.html",
+    "name": "Session (QuickFIX/J Core engine 1.6.4 API) - javadoc.io",
+    "snippet": "The Session is the primary FIX abstraction for message communication. It performs sequencing and error recovery and represents a communication channel to a ...",
+    "host_name": "javadoc.io",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=pAlrGJDvyYg",
+    "name": "6) Installing QuickFIX for Python - YouTube",
+    "snippet": "... Session Layer - connectivity, handshaking, data ... 6) Installing QuickFIX for Python | QuickFIX Application R&D for Algorithmic Trading.",
+    "host_name": "www.youtube.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

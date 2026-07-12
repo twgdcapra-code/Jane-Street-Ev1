@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.4/fields_by_tag.html",
+    "name": "FIX 4.4: Fields by Tag – FIX Dictionary - OnixS",
+    "snippet": "39 · OrdStatus · 40 · OrdType · 41 · OrigClOrdID · 42 · OrigTime.\nFIX 4.4: Fields by Tag – FIX … 38 | 39 | 40 |. OrderID 38 OrderQty 39 OrdStatus 40 OrdType 41. SendingTime 53 Quantity 54 Side 55 Symbol 56 TargetCompID",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic44/tag_40_OrdType.html",
+    "name": "OrdType (Tag = 40) - FIX 4.4 Dictionary - B2BITS",
+    "snippet": "Int field (see definition of \"int\" above) representing a field's tag number when using FIX \"Tag=Value\" syntax. Value must be positive and may not contain ...",
+    "host_name": "www.b2bits.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nyse.com/publicdocs/globalotc/notifications/trader-update/global_otc_ugw_fix_gateway_spec.pdf",
+    "name": "[PDF] Global OTC FIX Specification - NYSE",
+    "snippet": "To place an order in the late auctions, specify OrdType(40)=5 (Market on close) or OrdType(40)=B (Limit on close). Using these tags will ...",
+    "host_name": "www.nyse.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://files.odx.co.jp/assets/55a717e738c8466cb661df5b1f0ce976/13b6c1e0904a40ed9239c333c7ffb18e/ODX_PTS_FIX_Specification(Equities).pdf",
+    "name": "[PDF] FIX Trading Specification for Equities",
+    "snippet": "40. OrdType char. Y. Order type. Values: 2 = Limit. 44. Price. Price. R. Price per share. Required for limit orders, OrdType (40) = 2 (Limit).",
+    "host_name": "files.odx.co.jp",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.4/tagnum_40.html",
+    "name": "OrdType <40> field – FIX 4.4 – FIX Dictionary - OnixS",
+    "snippet": "Order type. Valid values: 1 = Market 2 = Limit 3 = Stop 4 = Stop limit 5 = Market on close (No longer used) 6 = With or without 7 = Limit or better (Deprecated)",
+    "host_name": "www.onixs.biz",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fiximate.fixtrading.org/en/FIX.Latest/fields_sorted_by_tagnum.html",
+    "name": "Fields sorted by Tag Number - FIXimate",
+    "snippet": "Other values from OrdType (40) may be used if appropriate and bilaterally agreed upon. ... A code list of allowed values will be maintained on the FIX Protocol ...\n38 OrderQty Qty Qty Quantity ordered. This represents the number of shares for equities or par, face or nominal value for FI instruments. See Side (54) field ...",
+    "host_name": "fiximate.fixtrading.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixtelligent.com/blog/a-traders-guide-to-the-fix-protocol",
+    "name": "A Trader's Guide to the FIX Protocol | - FIXtelligent",
+    "snippet": "Following FIX tags are used for managing execution of orders. FIX Tag, Name (FIX Name), Description, Originator. 40, Order Type (OrdType), Buy- ...\nIn trading messages, value of field 38 indicates the units of security being bought or sold. FIX tags are used for managing execution of orders. the order type ...",
+    "host_name": "fixtelligent.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b3.com.br/data/files/1F/86/AC/12/06F58710240ED387AC094EA8/Trader%20FIX.SUITE%20Dictionary%20v2.1.pdf",
+    "name": "[PDF] Fix Trader: Message Specs - B3",
+    "snippet": "54. Side. Y. Char (1). Side of order. Valid values: 1 - Buy. 2 - Sell. 38. OrderQty. Y. Qty (15). Quantity ordered. 40. OrdType. Y. Char (1).",
+    "host_name": "www.b3.com.br",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.morganstanley.com/disclosures/Morgan_Stanley_Conditional_Indications_Specification_FINAL_20190131.pdf",
+    "name": "[PDF] Morgan Stanley Conditional Indication Specification",
+    "snippet": "Morgan Stanley supports Conditional Indications on FIX version 4.2. All FIX tags referenced in this document are expected on a FIX 4.2 session.",
+    "host_name": "www.morganstanley.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cmegroupclientsite.atlassian.net/wiki/display/EPICSANDBOX/Maker+API+Application+Layer+FIX+Message+Definitions",
+    "name": "CME Group Client Systems Wiki - Confluence",
+    "snippet": "This is a FIX 5.0 message, therefore all tags are represented as version 5.0 even if the tag appeared in earlier versions of FIX protocol on other message types ...",
+    "host_name": "cmegroupclientsite.atlassian.net",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

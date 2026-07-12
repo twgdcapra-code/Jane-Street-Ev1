@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://stackoverflow.com/questions/12001337/using-a-workflow-engine-state-machine-engine-or-rolling-my-own",
+    "name": "Using a workflow engine, state machine engine or rolling my own?",
+    "snippet": "The main value of a Workflow engine is that it makes it possible to customize the flows through some workflow definition DSL. Workflow Design Dilemma - State Machine, yes or no - Stack Overflow Business message validation in FIX API - Stack Overflow More results from stackoverflow.com",
+    "host_name": "stackoverflow.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@hannes.lehmann/the-state-machine-epiphany-when-simple-beats-smart-2663c9bfed71",
+    "name": "The State Machine Epiphany: When Simple Beats Smart - Medium",
+    "snippet": "With state machines, changes are immediate and testable. Need to add a new approval step? Add a new state and define its transitions. Need to ...",
+    "host_name": "medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.intelligentgraphicandcode.com/development/workflow-engines",
+    "name": "Workflow Engine Design: State Machines in Code | IGC",
+    "snippet": "How we build workflow automation systems using state machine patterns. Custom workflow engines for approvals, operations, and business process automation.",
+    "host_name": "www.intelligentgraphicandcode.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://workflowengine.io/blog/workflow-engine-vs-state-machine",
+    "name": "Workflow Engine vs. State Machine",
+    "snippet": "The article analyzes the pros and cons of workflow engines and state machines to help you decide which suits your needs better.",
+    "host_name": "workflowengine.io",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://community.temporal.io/t/possible-to-implement-finite-state-machine-using-workflows/2847",
+    "name": "Possible to Implement Finite State Machine using Workflows?",
+    "snippet": "The whole workflow execution state can be thought as a state machine. The workflow object + local variables + thread stack being the state. Implement Finite State Machine Transitioning in the workflow Workflow and state machine concepts mapping. How? More results from community.temporal.io",
+    "host_name": "community.temporal.io",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://patents.google.com/patent/US9940182B1/en",
+    "name": "Business rule engine validation systems and related methods",
+    "snippet": "Implementations may include generating a validation policy for a business rule engine (BRE) included in a computer of an application server system. The method ...",
+    "host_name": "patents.google.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2405.00393v4",
+    "name": "Unleashing the Power of LLM to Infer State Machine from the  - arXiv",
+    "snippet": "To overcome these challenges, we introduce a novel state machine inference approach utilizing Large Language Models (LLMs), named ProtocolGPT.",
+    "host_name": "arxiv.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/AdaptiveConsulting/RfqStateMachine/blob/master/README.md",
+    "name": "README.md - AdaptiveConsulting/RfqStateMachine - GitHub",
+    "snippet": "A state machine is a simple yet powerful way of decomposing some functionality into states and a set of valid transitions between them.",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=35625889",
+    "name": "Developers should be force-fed state machines (2011) - Hacker News",
+    "snippet": "State machines are a good solution when you have a typical transactional business process (order fulfillment, inventory management, etc).",
+    "host_name": "news.ycombinator.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://softwareengineering.stackexchange.com/questions/448580/programming-language-independent-semantic-validation-of-message-protocol",
+    "name": "Programming language independent semantic validation of",
+    "snippet": "I would like to offer all implementors of the protocol a programming language independent artifact that gives them the ability to verify that ...",
+    "host_name": "softwareengineering.stackexchange.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

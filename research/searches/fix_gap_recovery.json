@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.4/msgtype_4_4.html",
+    "name": "Sequence Reset <4> message – FIX 4.4 – FIX Dictionary - OnixS",
+    "snippet": "Reset mode involves specifying an arbitrarily higher new sequence number to be expected by the receiver of the Sequence Reset <4>-Reset mode message.",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic42/message_Sequence_Reset_4.html",
+    "name": "Sequence Reset (MsgType = 4) - FIX 4.2 Dictionary - B2BITS",
+    "snippet": "The \"Sequence Reset-Reset\" mode should ONLY be used to recover from a disaster situation which cannot be otherwise recovered via \"Gap Fill\" mode. The Sequence ...",
+    "host_name": "www.b2bits.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://help.cqg.com/apihelp/Documents/sequenceresetgapfill41.htm",
+    "name": "Sequence Reset (Gap Fill) (4) - CQG IC Help",
+    "snippet": "The Sequence Reset message has two modes: Gap Fill mode and Reset mode. Gap Fill mode. Gap Fill mode is used in response to a Resend Request when one or more ...",
+    "host_name": "help.cqg.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://library.tradingtechnologies.com/tt-fix/tt-fix-general/session-messages/sequence-reset-4-message",
+    "name": "Sequence Reset (4) Message - TT Help Library",
+    "snippet": "If a FIX client or TT FIX needs to skip messages that would be included in a resend request, it sets Tag 123 (GapFillFlag) to Y, and the value of Tag 36 ( ...",
+    "host_name": "library.tradingtechnologies.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://b2bits.atlassian.net/wiki/display/B2BITS/Sequence+number+handling",
+    "name": "Sequence number handling",
+    "snippet": "The FIX Standard recommends using two independent counters for gap detection: one for incoming sequence numbers and a second for outgoing sequence numbers.",
+    "host_name": "b2bits.atlassian.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fix.dev/organizations/fix-standards/specs/1000003/messages/4",
+    "name": "Sequence Reset message | 35=4 | FIX 4.2 - Fixdev",
+    "snippet": "The Sequence Reset message has two modes: Gap Fill mode and Reset mode. Gap Fill mode Gap Fill mode is used in response to a Resend Request ...",
+    "host_name": "fix.dev",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onechronos.com/documentation/fix/primer",
+    "name": "FIX Primer - OneChronos",
+    "snippet": "A counterparty's incoming sequence number (the sender's outgoing sequence number) can be reset during message recovery via the SequenceReset message. There are ...",
+    "host_name": "www.onechronos.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/48181025/fix-sequence-reset-status-access-thereafter",
+    "name": "FIX sequence reset & status access thereafter - Stack Overflow",
+    "snippet": "First off, a buyer shouldn't typically reset any sequence numbers by himself (i.e. manually). Handling of sequence numbers should be handled ...",
+    "host_name": "stackoverflow.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.cdp.coinbase.com/derivatives/fix/session",
+    "name": "Derivatives FIX Session Messages - Coinbase Developer Docs",
+    "snippet": "Fill Gap Mode is used during retransmission of messages missed by a client. Administrative messages and rejected business messages are not to be retransmitted.",
+    "host_name": "docs.cdp.coinbase.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.lme.com/-/media/Files/Trading/New-initiatives/New-trading-platform/Timeline/Drop-Copy-Gateway-FIX-Specification-v1-2.pdf",
+    "name": "[PDF] Drop Copy Gateway FIX Specification - London Metal Exchange",
+    "snippet": "Sequence Reset (35=4) allows the client or the gateway to increase the expected incoming sequence number of the other party, for example to skip ...",
+    "host_name": "www.lme.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

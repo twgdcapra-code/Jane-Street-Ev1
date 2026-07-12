@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://ref.onixs.biz/net-fix-engine-guide/fix-repeating-groups.html",
+    "name": "FIX Repeating Groups : OnixS .NET Framework FIX Engine",
+    "snippet": "Due to the design of the FIX protocol, the FIX repeating group cannot be parsed properly without the additional information that describes its structure.",
+    "host_name": "ref.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/30449300/where-to-get-information-to-correctly-parse-repeating-groups-in-fix",
+    "name": "Where to get information to correctly parse repeating groups in FIX?",
+    "snippet": "I am trying to extend my FIX parser to include repeating groups. I, myself, haven't dealt with repeating groups so I don't know where to get ... FIX repeating groups to reuse same tags - Stack Overflow QuickFIX/J not reading all the repeating groups in FIX message More results from stackoverflow.com",
+    "host_name": "stackoverflow.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@ciarantreacy/kdb-and-fix-messaging-working-with-repeating-groups-4b19fa2015b1",
+    "name": "Kdb+ and FIX messaging: Working with repeating groups - Medium",
+    "snippet": "This article focuses on how more complex FIX messages, namely FIX messages with repeating groups, can be sent and received from kdb+ using the QuickFIX engine.",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quickfixengine.org/n/documentation/repeating-groups.html",
+    "name": "QF/n Docs: Repeating Groups - QuickFIX Engine",
+    "snippet": "QuickFIX/n creates and reads repeating groups in FIX messages. Creating Groups Creating groups is straightforward. Instantiate the specific group class then ...",
+    "host_name": "quickfixengine.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/quickfixgo/quickfix/issues/568",
+    "name": "ParseMessage messes up order of repeating group tags · Issue #568",
+    "snippet": "Steps to reproduce: Create a NOS message with a party ID repeating group. Convert it into bytes by calling msgBytes := nos.ToMessage().",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ref.onixs.biz/fix-repeating-group.html",
+    "name": "FIX Repeating Group - OnixS Documentation Library",
+    "snippet": "The FIX Protocol requires that fields within repeating groups follow the same order as listed in the message definition within the FIX Specification document.",
+    "host_name": "ref.onixs.biz",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://javarevisited.blogspot.com/2011/02/repeating-groups-in-fix-protcol.html",
+    "name": "What is Repeating groups in FIX Protocol? Example - Javarevisited",
+    "snippet": "In FIX protocol when a group of tags appears multiple time in an FIX message, they are called repeating group. These are essential to denote repeating entity ...",
+    "host_name": "javarevisited.blogspot.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quickfix-developers.narkive.com/OJedJctO/problem-in-sending-and-recieving-messages-using-quickfix",
+    "name": "[Quickfix-developers] Problem in Sending and Recieving messages",
+    "snippet": "Repeating Groups (NoRelatedSym > 1), then the acceptor does not receive the messages send by the initiator. All you need to do is modify the XML data ...",
+    "host_name": "quickfix-developers.narkive.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fiximate.fixtrading.org/legacy/en/FIX.4.4/tag146.html",
+    "name": "FIX.4.4 Field #146 - FIXimate",
+    "snippet": "NoRelatedSym, @NoReltdSym, NumInGroup. Specifies the number of repeating symbols specified. Added FIX.4.1. Used in messages: Used in components: [InstrmtGrp] ...",
+    "host_name": "fiximate.fixtrading.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/8952/fix-what-exactly-do-repeating-groups-represent",
+    "name": "FIX- what exactly do repeating groups represent?",
+    "snippet": "Repeating groups are a way for FIX to represent arrays. A \"number of\" field prepends the repeating group to alert the recipient how many elements to expect.",
+    "host_name": "quant.stackexchange.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

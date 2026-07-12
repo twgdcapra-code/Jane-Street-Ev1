@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://fixtrading.org/transition-from-fix-5-0-sp2-to-fix-latest-completed",
+    "name": "Transition from FIX 5.0 SP2 to FIX Latest completed",
+    "snippet": "FIX 5.0 SP1 was enhanced with Extension Packs EP76 – EP97; FIX 5.0 SP2 was enhanced with Extension Packs EP98 – EP259; FIX Latest is being enhanced with ...",
+    "host_name": "fixtrading.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/about/news/new-255-258-extension-packs-for-fix-50-service-pack-2",
+    "name": "New 255-258 Extension Packs for FIX 5.0 Service Pack 2 | B2BITS",
+    "snippet": "New portion of Extension Packs is now available in FIX 5.0 SP2 EP Dictionary. This article reflects market conditions as of 2020. For current ...",
+    "host_name": "www.b2bits.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fix-events.com/about.html",
+    "name": "About FIX - ASIA PACIFIC FIX CONFERENCES",
+    "snippet": "FIX Trading Community is a non-profit, industry-driven standards body pivotal to global trading. It remains independent and neutral, focusing on standardization ...",
+    "host_name": "www.fix-events.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/33567601/FIX-5-0-SP1-VOL-2",
+    "name": "Fix-5.0 SP1 Vol-2 | PDF | Information Technology Management - Scribd",
+    "snippet": "In the diagram below, FIX 4.4 has been extended via Service Pack 0, forming a new application version called FIX 5.0. As new Extension Packs are approved ...",
+    "host_name": "www.scribd.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/5.0.sp2/index.html",
+    "name": "FIX 5.0 SP2 – FIX Dictionary - OnixS",
+    "snippet": "Used to build on and provide some restrictions on what is allowed as valid values in fields that uses a base FIX data type and a pattern data type. The universe ...",
+    "host_name": "www.onixs.biz",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixtrading.org/fix-online-specification-updated-to-fix-latest",
+    "name": "FIX Online Specification updated to FIX Latest - FIX Trading Community",
+    "snippet": "FIX Latest is the first official release of FIX since FIX Version 5.0 Service Pack 2 (FIX 5.0 SP2) was released in 2010. FIX Latest makes ...",
+    "host_name": "fixtrading.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rigtorp.se/fix50sp2",
+    "name": "FIX.5.0SP2 reference - Erik Rigtorp",
+    "snippet": "Specifies the basis or unit used to calculate the total commission based on the rate. Instructions for order handling on exchange trading floor.",
+    "host_name": "rigtorp.se",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/IG-Group/ig-fix-otc-trading-example/blob/master/src/main/resources/quickfixj-client50sp2.cfg",
+    "name": "quickfixj-client50sp2.cfg - GitHub",
+    "snippet": "Example application for IG's FIX OTC Trading API. Contribute to IG-Group/ig-fix-otc-trading-example development by creating an account on GitHub.",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://clientportal.jse.co.za/Content/JSE%20Technology%20Document%20Items/Volume%2002%20-%20Trading%20Gateway%20(FIX%205.0%20SP2)%20v3.03.pdf",
+    "name": "[PDF] Volume 02 - Trading (FIX 5.0 SP2) - JSE Client Portal",
+    "snippet": "Volume 02 – FIX Trading Gateway (FIX 5.0 SP2). Version ... FIX. Version 5.0 (Service Pack 2) of the Financial Information Exchange Protocol.",
+    "host_name": "clientportal.jse.co.za",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/693993662/FIX-5-0-SP2-VOL-1-w-Errata-20110818",
+    "name": "FIX-5.0 SP2 VOL-1 W Errata 20110818 | PDF - Scribd",
+    "snippet": "version called FIX 5.0. As new Extension Packs are approved they will be grouped into Service Pack 1 which is then released to form the next ...",
+    "host_name": "www.scribd.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

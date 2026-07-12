@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://chronicle.software/insights/blogs/building-fast-trading-engines-chronicles-approach-to-low-latency-trading",
+    "name": "Building Fast Trading Engines: Chronicle's Approach to Low",
+    "snippet": "This design enables the queue to handle millions of messages per second while maintaining total ordering of events, critical for trading systems ...",
+    "host_name": "chronicle.software",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@gwrx2005/design-and-implementation-of-a-low-latency-high-frequency-trading-system-for-cryptocurrency-markets-a1034fe33d97",
+    "name": "Design and Implementation of a Low-Latency High-Frequency",
+    "snippet": "We configure the FIX engine to use a high-performance persistence ... Market Data Processing: >100,000 market messages per second per symbol on a ...",
+    "host_name": "medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/performance_lab",
+    "name": "Performance Lab - B2BITS",
+    "snippet": "High performance low latency solutions for FIX conenctivity. ... FIX Antenna throughput is the number of messages transferred from sender to receiver per second.",
+    "host_name": "www.b2bits.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=yBNpSqOOoRk",
+    "name": "Building Low Latency Trading Systems - YouTube",
+    "snippet": "an overview of processes and techniques on how to implement low latency trading systems (5 to 20 microseconds)... Presented at the In-Memory ...",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/1033139697/Converted",
+    "name": "Problem Statement: Nanoexchange Ultra-Low Latency Trading Engine",
+    "snippet": "The document outlines the requirements for developing a NanoExchange Ultra-Low Latency Trading Engine focused on high-frequency trading.",
+    "host_name": "www.scribd.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rapidaddition.com/wp-content/uploads/2017/09/fix-messaging-testing-for-low-latency1.pdf",
+    "name": "[PDF] FIX Messaging Testing for Low Latency - Rapid Addition",
+    "snippet": "The paper describes the test environment, documents a set of benchmark tests performed on both commercial and open source FIX engine offerings,.",
+    "host_name": "rapidaddition.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tuvoc.com/blog/low-latency-trading-systems-guide",
+    "name": "Low Latency Trading Systems in 2026 | The Complete Guide",
+    "snippet": "Explore low latency trading systems in 2026. Learn architecture, technologies, and best practices for high-speed, scalable trading ...",
+    "host_name": "www.tuvoc.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/top-5-challenges-performance-testing-low-latency-ramalinga-moorthy",
+    "name": "Top 5 challenges in Performance Testing of Low Latency Electronic",
+    "snippet": "Performance testing of trading systems is highly important as the system behaviour needs to be validated for stress market conditions, handling high trade ...",
+    "host_name": "www.linkedin.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dataintellect.com/blog/traders-leap-over-where-the-latency-is-lowest-an-introduction-to-low-latency-in-electronic-trading",
+    "name": "Traders leap over where the latency is lowest - an introduction to low",
+    "snippet": "Low latency in electronic trading is about initiating a capital market event or responding to it within a very short timeframe.",
+    "host_name": "dataintellect.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.a10networks.com/blog/speed-is-currency-why-low-latency-drives-financial-success",
+    "name": "Speed is Currency – Why Low Latency Drives Financial Success",
+    "snippet": "Learn how low latency improves trade execution, reduces slippage, and drives financial performance in high-frequency and real-time trading ...",
+    "host_name": "www.a10networks.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

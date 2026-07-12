@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://tradingtechnologies.com/support-updates/b3-template-update-for-binary-and-fix-order-entry-cme-ric-code-changing-for-reduced-tick-spread-contracts-and-more",
+    "name": "B3: Template update for Binary and FIX Order Entry, CME: RIC code",
+    "snippet": "B3 will roll out new EntryPoint FIX and Binary templates for order entry across both Derivatives and Equities gateways between February and ...",
+    "host_name": "tradingtechnologies.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fia.org/sites/default/files/2020-09/FIA_DR_Test_Briefing_2020_0902.pptx",
+    "name": "[PPT] Business Continuity Disaster Recovery Test Briefings - FIA.org",
+    "snippet": "This two-scenario approach highlights the potential scenarios that could impact customer connectivity during a disaster in Chicago. In both scenarios Clearing ...",
+    "host_name": "www.fia.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/tools-information/webhelp/autocert-cme-stp-fix-recovery/Content/Autocert-CME-STP-FIXML-Failover.pdf",
+    "name": "[PDF] AutoCert+ CME STP FIX Recovery User Manual",
+    "snippet": "The AutoCert+ tool is an automated testing tool for validating application functionality. It provides a web interface for using. CME Group ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurex.com/ex-en/find/circulars/circular-4866076",
+    "name": "Eurex Exchange's T7 Disaster Recovery Test on 14 March 2026",
+    "snippet": "On Saturday, 14 March 2026, Eurex Exchange will offer a test scenario according to its T7 disaster recovery concept for the current T7 Release ...",
+    "host_name": "www.eurex.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/tools-information/webhelp/autocert-drop-copy4/Content/AutoCert-Drop-Copy-4.pdf",
+    "name": "[PDF] AutoCert+ Drop Copy 4.0 User Manual - CME Group",
+    "snippet": "Based on your responses, certain tests are required and others are optional. You must complete the pre-certification interview before running the test cases.",
+    "host_name": "www.cmegroup.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurexchange.com/resource/blob/303908/d89f7833311adf03dadc103cc7833cb0/data/Eurex-FIX-Gateway-FIX-4.2-Manual.pdf",
+    "name": "[PDF] Eurex Exchange's T7",
+    "snippet": "... FIX session is required. Back-office FIX sessions can be ordered in the Eurex Member Section. 1The client order id entered by the order ...",
+    "host_name": "www.eurexchange.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/598638597",
+    "name": "Availability and Testing - CME Group Client Systems Wiki - Confluence",
+    "snippet": "Certification is required for access to each market and comprised of four test suites to validate client system behavior and ensure messaging and processing ...",
+    "host_name": "cmegroupclientsite.atlassian.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fixsim.com/fix-certification-checklist",
+    "name": "FIX certification checklist - FIXSIM",
+    "snippet": "FIX certification explained - what it is, what brokers and venues test for, and a practical checklist to work through before you book certification time.",
+    "host_name": "www.fixsim.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ecb.europa.eu/paym/groups/pdf/fxcg/2024/20240319/Item_3_Presentation_by_CME_and_Eurex_and_Deutsche_Bank.pdf",
+    "name": "[PDF] CME FX: Presentation for the ECB Foreign Exchange Contact Group",
+    "snippet": "In the Netherlands, CME, CBOT, NYMEX and COMEX are dispensed from the requirement to obtain exchange recognition. ... Eurex FX Volumes by trade ...",
+    "host_name": "www.ecb.europa.eu",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

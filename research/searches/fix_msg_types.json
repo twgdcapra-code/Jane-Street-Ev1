@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.4/tagnum_35.html",
+    "name": "MsgType <35> field – FIX 4.4 – FIX Dictionary - OnixS",
+    "snippet": "FIX 4.4 : MsgType <35> field ; Used In ; 0 = Heartbeat <0> ; 1 = Test Request <1> ; 2 = Resend Request <2> ; 3 = Reject <3>.",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic44/fields_by_tag_.html",
+    "name": "Fields By Tag - FIX 4.4 Dictionary - B2BITS",
+    "snippet": "Free format text message containing list handling and execution instructions. ... The MsgType (35) of the FIX message being referenced. (373) ...",
+    "host_name": "www.b2bits.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.4/msgs_by_msg_type.html",
+    "name": "FIX 4.4: Messages by MsgType – FIX Dictionary - OnixS",
+    "snippet": "Logon ; AA · Derivative Security List ; AB · New Order Multileg ; AC · Multileg Order Cancel/Replace.",
+    "host_name": "www.onixs.biz",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fiximate.fixtrading.org/legacy/en/FIX.5.0SP2/messages_sorted_by_type.html",
+    "name": "FIX.5.0SP2 Message Summary sorted by Type - FIXimate",
+    "snippet": "A successful request will result in a response from the counterparty of a Trading Session List (MsgType=BJ) message that contains a list of zero or more trading ...",
+    "host_name": "fiximate.fixtrading.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rigtorp.se/fix44",
+    "name": "FIX.4.4 reference - Erik Rigtorp",
+    "snippet": "Note: A \"U\" as the first character in the MsgType field (i.e. U, U2, etc) indicates that the message format is privately defined between the ...",
+    "host_name": "rigtorp.se",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b3.com.br/data/files/1F/86/AC/12/06F58710240ED387AC094EA8/Trader%20FIX.SUITE%20Dictionary%20v2.1.pdf",
+    "name": "[PDF] Fix Trader: Message Specs - B3",
+    "snippet": "372. RefMsgType. N. String (2). The MsgType of the FIX message being referenced. 373. SessionRejectReason. N. Int (6). Code to identify reason ...",
+    "host_name": "www.b3.com.br",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://library.tradingtechnologies.com/tt-fix/general/Structure_Header.html",
+    "name": "Message Structure – Message Header - TT Help Library",
+    "snippet": "Every message sent to and received from TT FIX must start with message sender and receiver information, message type, and message size.",
+    "host_name": "library.tradingtechnologies.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fixsim.com/sample-fix-messages",
+    "name": "FIX Message Samples",
+    "snippet": "Explore sample FIX protocol messages with decoded field-by-field breakdowns. See real FIX 4.2 and 4.4 messages including New Order Single, Execution Report, ...",
+    "host_name": "www.fixsim.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic44/application_messages_by_msgtype_.html",
+    "name": "Application Messages By MsgType - FIX 4.4 Dictionary - B2BITS",
+    "snippet": "The List Status Request (M) message type is used by institutions to instruct the broker to generate status messages for a list. (N) List Status. The List Status ...",
+    "host_name": "www.b2bits.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.oracle.com/cd/E13185_01/fmd/docs10gr3/pdf/FIX.pdf",
+    "name": "[PDF] FIX Adapter User's Guide - Oracle Help Center",
+    "snippet": "Select the required message format in the 'FIX Formats' list. The standard details about the selected message format (format name, message type, description) ...",
+    "host_name": "docs.oracle.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

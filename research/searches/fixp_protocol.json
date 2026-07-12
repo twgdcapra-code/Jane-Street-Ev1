@@ -1,0 +1,92 @@
+[
+  {
+    "url": "http://fixprotocol.io/fixp-specification",
+    "name": "A FIX standard for high performance message exchange - fixprotocol.io",
+    "snippet": "FIXP is transport independent; it works on TCP streams as well as datagram oriented transports. Unlike the traditional FIX session layer protocol, FIXP does not ... Missing: 5.0 | Show results with: 5.0",
+    "host_name": "fixprotocol.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://documents.pse.com.ph/wp-content/uploads/sites/15/2021/01/PSE-FIX-Specification-v1.2-14-October-2014.pdf",
+    "name": "[PDF] FIX 5.0 (SP1) Protocol",
+    "snippet": "This document provides the Financial Information Exchange (FIX) specification for the. X-stream INET trading platform provided by OMX ... Missing: FIXP | Show results with: FIXP",
+    "host_name": "documents.pse.com.ph",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixtrading.org/standards/fixp",
+    "name": "FIX Performance Session Layer (FIXP) - FIX Trading Community",
+    "snippet": "FIX Performance Session Layer (FIXP) is a “lightweight point-to-point protocol” introduced to provide an open industry standard for high performance computing ... Missing: 5.0 | Show results with: 5.0",
+    "host_name": "fixtrading.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/5.0/index.html",
+    "name": "FIX 5.0 – FIX Dictionary - OnixS",
+    "snippet": "Date represented in UTC (Universal Time Coordinated, also known as “GMT”) in YYYYMMDD format. This special-purpose field is paired with UTCTimeOnly to form a ... Missing: session transport",
+    "host_name": "www.onixs.biz",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/FIXTradingCommunity/fixp-specification",
+    "name": "FIXP - FIX performance session layer specification - GitHub",
+    "snippet": "This project contains specifications and resources for FIX Performance session layer (FIXP). Protocol stack FIXP is part of a family of protocols.",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/33567601/FIX-5-0-SP1-VOL-2",
+    "name": "Fix-5.0 SP1 Vol-2 | PDF | Information Technology Management - Scribd",
+    "snippet": "The FIX Session Protocol Version 1.1 specification can be found at [Link] ). This is the traditional FIX Session Protocol with additions to support TI. FIX ... Missing: FIXP | Show results with: FIXP",
+    "host_name": "www.scribd.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fixsim.com/fix-protocol-tutorial",
+    "name": "FIX Protocol Overview and Tutorial - FIXSIM",
+    "snippet": "Starting with FIX 5.0, the protocol formally separated the transport layer from the application layer, allowing FIX messages to run over alternative transports ... Missing: FIXP | Show results with: FIXP",
+    "host_name": "www.fixsim.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixtrading.org/standards/technical-standards",
+    "name": "Technical Standards – FIX Trading Community",
+    "snippet": "The FIX Protocol enables reliable, bidirectional communication between two parties through a session consisting of ordered messages with continuous sequence ...",
+    "host_name": "fixtrading.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-protocol.html",
+    "name": "FIX Protocol | Financial Information Exchange protocol (FIX) - OnixS",
+    "snippet": "The FIX Transport Session Protocol (FIXT) is the application version independent session layer that is used in conjunction with FIX 5.0SP2 and later versions of ...",
+    "host_name": "www.onixs.biz",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://neerajkaushik1980.wordpress.com/2012/08/27/implementation-of-fix-messages-for-fix-5-0-sp2-and-fixt1-1-specification",
+    "name": "Implementation of FIX messages for Fix 5.0 sp2 and FIXT1.1 specification",
+    "snippet": "This post will demonstrate how to connect with FIX5.0 server and FIXT1.1 specification and uses of QuickFix/n (native .net FIX engine). Missing: FIXP | Show results with: FIXP",
+    "host_name": "neerajkaushik1980.wordpress.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

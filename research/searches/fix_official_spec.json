@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/fixtradingcommunity",
+    "name": "FIX Trading Community - GitHub",
+    "snippet": "The nonprofit standards organization for the electronic trading industry - FIX Trading Community.",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixtrading.org/fix-repository",
+    "name": "FIX Repository - FIX Trading Community",
+    "snippet": "The FIX Repository represents the raw data behind the FIX® specification in a machine-readable format. Files include an XML data dictionary with complete ...",
+    "host_name": "fixtrading.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/backstreetbrogrammer/55_FIX_Protocol_Study_Guide",
+    "name": "FIX Protocol Study Guide - GitHub",
+    "snippet": "The most popular FIX versions 4.2 and 4.4 use this monolithic technical specification until FIX 5.0 , which separates the FIX session layer from the FIX ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/Prateekbala/Fix-Protocol-Tranding-Engine",
+    "name": "Prateekbala/Fix-Protocol-Tranding  - GitHub",
+    "snippet": "This trading gateway implements the FIX 4.4 protocol specification and provides a comprehensive solution for electronic trading.",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.4/index.html",
+    "name": "FIX 4.4 – FIX Dictionary - OnixS",
+    "snippet": "This is the \"normal\" date field used by the FIX protocol. Valid values: YYYY = 0000-9999, MM = 01-12, DD = 01-31. =>, MonthYear.",
+    "host_name": "www.onixs.biz",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/joelibaceta/fix-protocol",
+    "name": "joelibaceta/fix-protocol: FIX message classes, parsing and generation",
+    "snippet": "This FIX protocol wrapper enables one to easily parse and create messages complying with the FIX 4.4 specification. It includes definitions for admin ...",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic44/fields_by_tag_.html",
+    "name": "Fields By Tag - FIX 4.4 Dictionary - B2BITS",
+    "snippet": "Unique identifier for Order as assigned by sell-side (broker, exchange, ECN). Uniqueness must be guaranteed within a single trading day. Firms which accept ...",
+    "host_name": "www.b2bits.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/58788558/how-to-identify-an-average-pricing-allocationinstruction-in-fix-4-4",
+    "name": "How to identify an average pricing AllocationInstruction in FIX 4.4?",
+    "snippet": "Post trade allocations can be computed via one of two methods: Using Average Price: Each AllocAccount has a single AllocAvgPx (e.g. US and ...",
+    "host_name": "stackoverflow.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixtrading.org/packages/fix-4-4-specification-release-notes",
+    "name": "FIX 4.4 – Specification Release Notes - FIX Trading Community",
+    "snippet": "FIX 4.4 - Specification Release Notes. Version; Size 591.46 KB; Last Updated July 24, 2017. Download.",
+    "host_name": "fixtrading.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/topics/fixprotocol",
+    "name": "fixprotocol · GitHub Topics",
+    "snippet": "A trading simulator between a Broker and a Stock Exchange using the Financial Information eXchange (FIX) Protocol.",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

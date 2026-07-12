@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://gigi.nullneuron.net/gigilabs/calculating-the-checksum-of-a-fix-message",
+    "name": "Calculating the Checksum of a FIX Message - Gigi Labs",
+    "snippet": "The checksum of a FIX message is calculated by summing every byte of the message up to but not including the checksum field itself.",
+    "host_name": "gigi.nullneuron.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic44/tag_10_CheckSum.html",
+    "name": "CheckSum (Tag = 10) - FIX 4.4 Dictionary - B2BITS",
+    "snippet": "Note that the value specified for this field should be followed by the delimiter (SOH) character as all fields are terminated with an \"SOH\". FRAMES | NO ...\nExamples: 723 in field 21 would be mapped int as |21=723|, -723 in field 12 would be mapped int as |12=-723|. =>, Length. Int field (see definition of \"int\" ...",
+    "host_name": "www.b2bits.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/32708068/how-to-calculate-checksum-in-fix-manually",
+    "name": "How to calculate CheckSum in FIX manually? - Stack Overflow",
+    "snippet": "To calculate the checksum, 1/ each byte in the message up to the checksum field is summed 2/ take the modulo 256 of that sum 3/ print that number as a number ... fix protocol - What are \"bodyLength\" and \"checkSum\" in QuickFix? How to calculate the CheckSum of a FIX message in python More results from stackoverflow.com",
+    "host_name": "stackoverflow.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/mrkandreev/fix-protocol-system-level-implementation-session-management-deep-dive-kjp",
+    "name": "FIX Protocol System-Level Implementation - DEV Community",
+    "snippet": "The BodyLength calculation excludes tags 8, 9, and 10 along with their delimiters, but counts every byte in between, including field delimiters ...",
+    "host_name": "dev.to",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.oracle.com/cd/E13185_01/fmd/docs35/pdf/FIX.pdf",
+    "name": "[PDF] FIX Adapter User's Guide - Oracle Help Center",
+    "snippet": "Messages are delimited by the “SOH” character following the Checksum field. All messages begin with the. “8=FIX.x.y<SOH>” string and terminate with “10=nnn<SOH> ...",
+    "host_name": "docs.oracle.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/connamara/quickfixn/issues/216",
+    "name": "Encoding mismatch causes faulty length and checksum #216 - GitHub",
+    "snippet": "Hi all, When sending FIX messages using the QuickFixN library to a broker we have seen that sometimes an error gets thrown indicating that ...",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mqseries.net/phpBB/viewtopic.php?t=58237&sid=0470e51402d8feeaee60ac8551b53437",
+    "name": "FIX Checksum and message bodylength (FIX tags 9 and 10) calc",
+    "snippet": "Hi, How do we calculate Checksum and message bodylength (FIX tags 9 and 10) in mssage broker. Since this is a generic issue, ...",
+    "host_name": "mqseries.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ref.onixs.biz/fix-message.html",
+    "name": "FIX Message - OnixS Documentation Library",
+    "snippet": "The checksum of a FIX message is calculated by summing up every byte of the message but not including the checksum field itself. This checksum is then ...",
+    "host_name": "ref.onixs.biz",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://datatracker.ietf.org/doc/html/rfc1071",
+    "name": "RFC 1071 - Computing the Internet checksum - IETF Datatracker",
+    "snippet": "This memo discusses methods for efficiently computing the Internet checksum that is used by the standard Internet protocols IP, UDP, and TCP.",
+    "host_name": "datatracker.ietf.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.2/app_b.html",
+    "name": "Appendix B: CheckSum Calculation – FIX 4.2 – FIX Dictionary - OnixS",
+    "snippet": "CheckSum Calculation. The checksum of a FIX message is calculated by summing every byte of the message up to but not including the checksum field itself.",
+    "host_name": "www.onixs.biz",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

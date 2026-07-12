@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.2/fields_by_tag.html",
+    "name": "FIX 4.2: Fields by Tag – FIX Dictionary - OnixS",
+    "snippet": "OrigClOrdID ; 42 · OrigTime ; 43 · PossDupFlag ; 44 · Price.",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic44/fields_by_tag_.html",
+    "name": "Fields By Tag - FIX 4.4 Dictionary - B2BITS",
+    "snippet": "Unique identifier for list as assigned by institution, used to associate multiple individual orders. Uniqueness must be guaranteed within a single trading day.",
+    "host_name": "www.b2bits.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fixtrading.org/packages/user-defined-fields-excel",
+    "name": "User Defined Fields – Excel - FIX Trading Community",
+    "snippet": "At this time the available tag numbers in the user defined range of 5000 to 9999 have all been allocated. In December 2009 the Global Technical Committee ...",
+    "host_name": "fixtrading.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.inforeachinc.com/fix-dictionary",
+    "name": "FIX Dictionary - InfoReach",
+    "snippet": "Browse FIX Protocol Dictionary for a quick lookup of fields, tags, values, and message types used in FIX messages.",
+    "host_name": "www.inforeachinc.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic44/index.html",
+    "name": "Data Types - FIX 4.4 Dictionary",
+    "snippet": "Int field (see definition of \"int\" above) representing a field's tag number when using FIX \"Tag=Value\" syntax. ... This is the \"normal\" date field used by the FIX ...",
+    "host_name": "www.b2bits.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/tagnum_1.html",
+    "name": "Account <1> field – FIX 4.0 – FIX Dictionary - OnixS",
+    "snippet": "Order Cancel/Replace Request <G> · Order - List <E>.",
+    "host_name": "www.onixs.biz",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/64735429/not-able-to-find-the-group-while-parsing-fix-message-using-quikfix",
+    "name": "Not able to find the Group while parsing FIX message using QuikFix",
+    "snippet": "What's the tag after 320? Is it 9064 or only 64? If the first, is it defined in your data dictionary? Maybe it is unknown and that breaks the ...",
+    "host_name": "stackoverflow.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://fiximate.fixtrading.org/en/FIX.Latest/fields_sorted_by_tagnum.html",
+    "name": "Fields sorted by Tag Number - FIXimate",
+    "snippet": "A code list of allowed values will be maintained on the FIX Protocol website. Values 4000 and above are reserved for bilaterally agreed upon user defined ...",
+    "host_name": "fiximate.fixtrading.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/insights/usage-fix-protocol-msgtype-u-examples",
+    "name": "Usage of FIX Protocol user defined message MsgType U  - OnixS",
+    "snippet": "The FIX Tag MsgType <35> field defines the message type. The message type is always the third field in the FIX message and is unencrypted.",
+    "host_name": "www.onixs.biz",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fixdoctor.tech/fix-tags-glossary",
+    "name": "FIX Tag Glossary – Definitions for All Common FIX Fields",
+    "snippet": "Comprehensive FIX tag glossary with definitions for ClOrdID, OrdType, Side, OrderQty, Symbol, ExecType, and 20+ common FIX protocol fields.",
+    "host_name": "www.fixdoctor.tech",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

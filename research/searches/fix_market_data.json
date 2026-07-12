@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/4.4/msgtype_x_88.html",
+    "name": "FIX 4.4 : Market Data - Incremental Refresh <X> message - OnixS",
+    "snippet": "The Market Data message for incremental updates may contain any combination of new, changed, or deleted Market Data Entries, for any combination of instruments.",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://qst.global/api_docs/qst_fix_market_data_api/market_data/market_data_request.html",
+    "name": "Market Data Request(V) Message - Quick Suite Trading",
+    "snippet": "The Market Data Request (V) message is used by a FIX client to request market data information from QST FIX server API server.",
+    "host_name": "qst.global",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic50/message_Market_Data_Incremental_Refresh_X.html",
+    "name": "Market Data - Incremental Refresh (MsgType = X) - FIX 5.0 Dictionary",
+    "snippet": "The Market Data message for incremental updates may contain any combination of new, changed, or deleted Market Data Entries, for any combination of instruments,",
+    "host_name": "www.b2bits.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://help.cqg.com/apihelp/Documents/marketdatasnapshotfullrefreshw.htm",
+    "name": "Market Data Snapshot/Full Refresh (W) - CQG IC Help",
+    "snippet": "A Market Data Snapshot message may contain an index value, opening, closing, settlement, high, low price for one instrument, as well as the traded volume and ...",
+    "host_name": "help.cqg.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.deribit.com/fix-api/production/market-data-request",
+    "name": "Deribit FIX Market Data Request - Subscribe to Order Book Data",
+    "snippet": "This will result a Market Data - Snapshot ( W ) with the whole order book, followed by incremental updates (X messages) through the whole order book depth.",
+    "host_name": "docs.deribit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://library.tradingtechnologies.com/tt-fix/gateway/Msg_MarketDataRequest_V.html",
+    "name": "Market Data Request (V) | TT FIX Help and Tutorials",
+    "snippet": "The Market Data Request (V) message is used by the TT FIX Price Gateway to request market data information from a third-party FIX acceptor.",
+    "host_name": "library.tradingtechnologies.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.revolut.com/docs/guides/exchange-fix-api/market-data-fix-api/supported-fix-messages/fix-application-level-messages/message-w-full-refresh",
+    "name": "W (Market Data - Snapshot/Full refresh) | Revolut Docs",
+    "snippet": "The FIX message W (Market Data - Snapshot/Full Refresh) provides a complete snapshot of the order book for currency pairs according to the subscription type.",
+    "host_name": "developer.revolut.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://smallake.kr/wp-content/uploads/2021/08/Hotspot-BookFeed_Spec.pdf",
+    "name": "[PDF] Market Data Snapshot Incremental Refresh",
+    "snippet": "The first message is always a market data incremental snapshot, which contains the list of tradable currency pairs with an associated price precision.",
+    "host_name": "smallake.kr",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.zerohash.com/reference/market-data-incremental-refresh-35x",
+    "name": "Market Data Incremental Refresh (35=X) - zerohash",
+    "snippet": "This message provides incremental updates for quote changes in a single security. In the FIX (Financial Information eXchange) protocol, the Market Data ...",
+    "host_name": "docs.zerohash.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/5.0.sp1/msgtype_w_87.html",
+    "name": "MarketDataSnapshotFullRefresh <W> message – FIX 5.0 SP1 - OnixS",
+    "snippet": "The Market Data Snapshot / Full Refresh message can be used to disseminate periodic full snapshots of the data (e.g. order book data). Recipients that join late ...",
+    "host_name": "www.onixs.biz",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

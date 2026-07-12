@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.onixs.biz/fix-dictionary/fixt1.1/section_session_protocol.html",
+    "name": "FIXT 1.1: Session Protocol – FIX Dictionary - OnixS",
+    "snippet": "issue a SeqReset-GapFill<4> with PossDupFlag(43) set to “Y” message to replace the retransmission of administrative and application messages; issue a SeqReset- ...",
+    "host_name": "www.onixs.biz",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.iso.org/obp/ui/en/#!iso:std:81511:en",
+    "name": "Financial information eXchange session layer — Part 2: FIX  - ISO",
+    "snippet": "The responding peer shall send a SequenceReset(35=4) message with GapFillFlag(123) set to “Y” (Gap Fill) for each session layer or application layer message not ...",
+    "host_name": "www.iso.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b2bits.com/fixopaedia/fixdic42/session_messages_by_msgtype_.html",
+    "name": "Session Messages By MsgType - FIX 4.2 Dictionary - B2BITS",
+    "snippet": "The Sequence Reset - Gap Fill (4) is used to mark the place of that message. During normal resend processing, a number of administrative messages are not resent ...",
+    "host_name": "www.b2bits.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://b2bits.atlassian.net/wiki/display/B2BITS/Sequence+number+handling",
+    "name": "Sequence number handling",
+    "snippet": "The FIX Standard recommends using two independent counters for gap detection: one for incoming sequence numbers and a second for outgoing sequence numbers.",
+    "host_name": "b2bits.atlassian.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/mrkandreev/fix-protocol-system-level-implementation-session-management-deep-dive-kjp",
+    "name": "FIX Protocol System-Level Implementation - DEV Community",
+    "snippet": "This article examines the system-level implementation of FIX protocol, focusing on four fundamental session management messages: Logon, Logout, ...",
+    "host_name": "dev.to",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://help.cqg.com/apihelp/Documents/sequenceresetgapfill41.htm",
+    "name": "Sequence Reset (Gap Fill) (4) - CQG IC Help",
+    "snippet": "The Sequence Reset message has two modes: Gap Fill mode and Reset mode. Gap Fill mode. Gap Fill mode is used in response to a Resend Request when one or more ...",
+    "host_name": "help.cqg.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.cdp.coinbase.com/derivatives/fix/session",
+    "name": "Derivatives FIX Session Messages - Coinbase Developer Documentation",
+    "snippet": "Fill Gap Mode is used during retransmission of messages missed by a client. Administrative messages and rejected business messages are not to be retransmitted.",
+    "host_name": "docs.cdp.coinbase.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://library.tradingtechnologies.com/tt-fix/tt-fix-general/session-messages/sequence-reset-4-message",
+    "name": "Sequence Reset (4) Message - TT Help Library",
+    "snippet": "Purpose. Used to reset the message sequence number or gap fill. Message Direction. From TT FIX to FIX client and from FIX client to TT FIX. Tag Directory.",
+    "host_name": "library.tradingtechnologies.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.onechronos.com/documentation/fix/primer",
+    "name": "FIX Primer - OneChronos",
+    "snippet": "SeqReset-GapFill messages must conform to the standard sequencing rules (i.e. their sequence numbers should match the counterpary's expected inbound sequence ...",
+    "host_name": "www.onechronos.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@farjad.ajfa.khan0/the-backbone-of-the-electronic-financial-system-fix-bd79d5280aa7",
+    "name": "The backbone of the Electronic Financial System — FIX - Medium",
+    "snippet": "Sequence Reset (35=4) — Used to skip (gap-fill) or reset sequence numbers. Logout (35=5) — Gracefully ends the FIX session (sent by either side) ...",
+    "host_name": "medium.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]
