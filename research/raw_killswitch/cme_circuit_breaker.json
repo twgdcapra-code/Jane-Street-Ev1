@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.cmegroup.com/trading/equity-index/sp-500-price-limits-faq.html",
+    "name": "S&P 500 Price Limits: Frequently Asked Questions",
+    "snippet": "A 7% decline (Level 1 circuit breaker) in the S&P 500 Index before 2:25 p.m. CT will trigger a NYSE Rule 7.12 trading halt for both the cash ...\nA 7% decline (Level 1 circuit breaker) in the S&P 500 Index before 2:25 p.m. CT will trigger a NYSE Rule 7.12 trading halt for both the cash ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/trading/equity-index/us-based-equity-index-futures-price-limits-faq.html",
+    "name": "US-Based Equity Index Futures Price Limits",
+    "snippet": "A 20% decline (Level 3 circuit breaker) in the S&P 500 Index will terminate trading for the remainder of the trading day in both the cash ...\nFrom 8:30 am to 2:25 pm CT, there are successive price limits corresponding to 7%, 13%, and 20% declines below the previous trading day's reference price.",
+    "host_name": "www.cmegroup.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.federalregister.gov/documents/2021/07/22/2021-15548/self-regulatory-organizations-new-york-stock-exchange-llc-notice-of-filing-of-proposed-rule-change",
+    "name": "Self-Regulatory Organizations; New York Stock Exchange",
+    "snippet": "The triggers are set at three circuit breaker thresholds: 7% (Level 1), 13% (Level 2), and 20% (Level 3). S&P 500 futures contract. Mercantile ...",
+    "host_name": "www.federalregister.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/markets/equities/sp/e-mini-sandp500.html",
+    "name": "E-mini S&P 500 Futures Overview",
+    "snippet": "ES futures offer significantly more daily liquidity, at 8x the value of all S&P 500 ETFs combined, including SPY, IVV and VOO.",
+    "host_name": "www.cmegroup.com",
+    "rank": 3,
+    "date": "Jul 10, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2020-03-08/rout-in-u-s-stock-futures-would-trigger-trading-curbs-at-5",
+    "name": "US Stocks Circuit Breaker 2020: S&P Plunges 7% Triggers",
+    "snippet": "NYSE rules pause trading at 7% drop in S&P 500 cash market Markets will close if plunge gets to 20% during the day",
+    "host_name": "www.bloomberg.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nyse.com/publicdocs/nyse/markets/nyse/Report_of_the_Market-Wide_Circuit_Breaker_Working_Group.pdf",
+    "name": "Report of the Market-Wide Circuit Breaker (“MWCB”)",
+    "snippet": "CME consider moving the limit-down trigger for the E-mini S&P 500 futures contract to a 7% decline, as an initial step.\nCurrently, the triggers are set at three circuit breaker thresholds: 7% (Level 1), 13% (Level 2), and 20 futures trading in relevant futures, ...",
+    "host_name": "www.nyse.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cftc.gov/media/9581/gmac_FIA110623/download",
+    "name": "Best Practices for Exchange Volatility Control Mechanisms",
+    "snippet": "If the 7% or 13% breakers are triggered, the markets are paused for 15 minutes; if the 20% breaker is triggered, the markets are closed for the trading day.",
+    "host_name": "www.cftc.gov",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.stocktitan.net/articles/market-wide-circuit-breakers-levels-history",
+    "name": "Market Circuit Breakers: 7%, 13%, 20% Trading Halt Rules",
+    "snippet": "Market-wide circuit breakers are automatic mechanisms that halt all stock trading when the S&P 500 drops 7%, 13%, or 20% in a single day.",
+    "host_name": "www.stocktitan.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/trading/price-limits.html",
+    "name": "Price Limits: Ags, Energy, Metals, Equity Index",
+    "snippet": "7%, 13%, and 20% price limits are applied to the futures fixing price and ... From 2:25 p.m. to 3:00 p.m. CT, only the 20% price limit will be applied to the ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/education/articles-and-reports/understanding-price-limits-and-circuit-breakers",
+    "name": "Understanding Price Limits and Circuit Breakers - CME Group",
+    "snippet": "The 7% and 13% circuit breakers are each followed by 10-minute trading halts; if the 20% level is reached, the market closes for the trading ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

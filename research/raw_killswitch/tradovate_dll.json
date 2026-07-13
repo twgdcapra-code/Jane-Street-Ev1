@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://support.tradovate.com/s/article/Risk-Settings-Tradovate",
+    "name": "Risk Settings - Tradovate",
+    "snippet": "The Daily Loss Limit and Weekly Loss Limit are liquidation triggers, not guaranteed loss caps. When either limit is reached, a market order is ...\nRisk Settings can be used to set up daily and weekly profit targets, loss limits, and other personalized trading restrictions for your Tradovate accounts.",
+    "host_name": "support.tradovate.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://support.tradovate.com/s/article/Liquidation-Only-Status-Risk-Tradovate",
+    "name": "Liquidation-Only Status Due to Risk Settings - Tradovate",
+    "snippet": "If your Tradovate account is in Liquidate-Only status due to your Risk Settings being reached, it means that you will not be able to enter into new positions.",
+    "host_name": "support.tradovate.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DVKPUV8jQ_b",
+    "name": "Put these settings on the backend of ALL of your accounts! You're welcome - Instagram",
+    "snippet": "If I didn't do this one thing when the broker outage just happened, I would have lost all of my funded accounts. If you're using Tradovate, ...",
+    "host_name": "www.instagram.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradovate.com/liquidation-policy",
+    "name": "Liquidation Policy - Futures Trading Platform - Tradovate",
+    "snippet": "The firm may liquidate the account with or without notification depending upon market conditions based upon the sole discretion of the firm.",
+    "host_name": "www.tradovate.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.ninjatrader.com/forum/ninjatrader-8/platform-technical-support-aa/1238947-question-about-the-daily-loss-limit-in-account-risk-settings",
+    "name": "Question about the Daily Loss Limit in Account Risk Settings - NinjaTrader Support Forum",
+    "snippet": "You would not be able to place trades for the remainder of the day's trading session unless you increase or disable this Daily Loss Limit value.",
+    "host_name": "forum.ninjatrader.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://trade-reign.com/tradovate-daily-loss-limit",
+    "name": "Tradovate Daily Loss Limit: How It Works and How TradeReign Helps",
+    "snippet": "Tradovate says that when an enabled daily loss limit is reached, the account can be automatically liquidated and locked on a not-held basis.\nA Tradovate daily loss limit is a risk setting that helps define when trading should stop for the session. TradeReign adds an independent discipline layer for ...",
+    "host_name": "trade-reign.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.pickmytrade.trade/docs/tradovate-risk-settings",
+    "name": "Tradovate Risk Settings – How to Set Daily & Weekly Limits - PickMyTrade",
+    "snippet": "A trader sets a Daily Loss Limit of $2,000. A trader sets a Daily Loss Limit of $2,500. If their losses reach $2,500, their account is locked. ...\n1. Daily Loss Limit # · Definition: The maximum allowable loss for a trading day. · Calculation: Based on Net P/L, including commissions and fees.",
+    "host_name": "docs.pickmytrade.trade",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradovate.com/fcm-disclosures",
+    "name": "The risk of loss in trading commodity futures contracts can be substantial. You should  - Tradovate",
+    "snippet": "If you do not provide the required funds within the time required by your broker, your position may be liquidated at a loss, and you will be liable for any ...",
+    "host_name": "www.tradovate.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=CcwT7TbSFyo",
+    "name": "How To Select Your Own Risk Settings On Tradovate - YouTube",
+    "snippet": "BROKERS WE USE Tradovate - 14-Day FREE Trial ... Futures and Options trading has large potential rewards, but also large potential risk.",
+    "host_name": "www.youtube.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradovate.com/daily-loss-limit",
+    "name": "Daily Loss Limit - Futures Trading Platform - Tradovate",
+    "snippet": "If the limit is set and enabled, the account will be automatically liquidated and locked on a “not held” basis when the loss limit is reached.",
+    "host_name": "www.tradovate.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://alphaarchitect.com/portfolio-strategies-for-volatility-investing",
+    "name": "Portfolio Strategies for Volatility Investing - - Alpha Architect",
+    "snippet": "“Conditioning an allocation to volatility on the VIX premium enables investors to benefit from a long VIX futures position during heightened ...",
+    "host_name": "alphaarchitect.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2508.16598v1",
+    "name": "Kelly, VIX, and Hybrid Approaches in Put-Writing on Index Options - arXiv",
+    "snippet": "The study offers new insights into volatility harvesting, introducing a dynamic sizing framework that adapts to shifting market regimes. It also contributes ...",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=eZhO9DrMF-k",
+    "name": "VIX Regime Behavior: What Data Shows - YouTube",
+    "snippet": "... VIX.” Using 21 years of VIX data, the team looks at low, moderate, and high volatility regimes, how often VIX moves up or down in each, and ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://volatilitybox.com/research/volatility-regimes-explained",
+    "name": "Volatility Regimes Explained: How to Identify and Trade Each Phase",
+    "snippet": "The market cycles through four volatility regimes — Low (VIX < 15), Normal (VIX 15-20), Elevated (VIX 20-30), and Crisis (VIX > 30) — each ...",
+    "host_name": "volatilitybox.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://investwithcarl.com/learning-center/investment-basics/regime-adaptive-tactical-volatility-hedging-optimizing-vix-vxx-and-tail-risk-strategies",
+    "name": "Macro Hedging with VIX & Tail Risk: Strategies for Uncertainty",
+    "snippet": "This research investigates the tactical use of volatility instruments like VIX and VXX, alongside synthetic tail-risk strategies, to protect ...",
+    "host_name": "investwithcarl.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.msci.com/research-and-insights/blog-post/the-risk-of-risk-limits",
+    "name": "The Risk of Risk Limits | MSCI",
+    "snippet": "This hypothetical portfolio follows a strategy whereby we de-risk as soon as the portfolio's volatility estimate exceeds 20%. We partly sell the ...",
+    "host_name": "www.msci.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://www.accessecon.com/Pubs/EB/2025/Volume45/EB-25-V45-I4-P167.pdf",
+    "name": "[PDF] Volume 45, Issue 4 - AccessEcon.com",
+    "snippet": "VIX-managed portfolios improve downside protection. the VIX may misrepresent tail risk during extreme events. extremely high VIX levels may ...",
+    "host_name": "www.accessecon.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@alexzap922/vix-volatility-spikes-and-regime-breaks-top-15-anomaly-detection-algorithms-for-quant-trading-45a7284a93f8",
+    "name": "VIX Volatility: Anomaly Detection for Quant Trading - Medium",
+    "snippet": "This study builds a hybrid framework to detect volatility regimes and anomalies in the VIX using statistical, machine learning, and state-space ...",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.bis.org/publ/qtrpdf/r_qt2403x.htm?ref=investo.global",
+    "name": "What could explain the recent drop in VIX?",
+    "snippet": "We then propose an alternative explanation: option dealers effectively dampen volatility when they hedge structured products, which have become ...",
+    "host_name": "www.bis.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.spglobal.com/spdji/en/education-a-practitioners-guide-to-reading-vix.pdf",
+    "name": "[PDF] A Practitioner's Guide to Reading VIX - S&P Global",
+    "snippet": "This document serves as an introduction to, and summary of, “Reading. VIX: Does VIX Predict Future Volatility?” bypassing some of the academic rigor of the ...",
+    "host_name": "www.spglobal.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

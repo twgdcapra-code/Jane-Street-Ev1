@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.cmegroup.com/trading-hours.html",
+    "name": "CME Group Holiday and Trading Hours",
+    "snippet": "Globex Trading Hours and Holiday Schedules. Please note that with the 2026 calendar year the CME Group will be providing downloadable holiday calendars ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/education/articles-and-reports/understanding-price-limits-and-circuit-breakers",
+    "name": "Understanding Price Limits and Circuit Breakers - CME Group",
+    "snippet": "The 7% and 13% circuit breakers are each followed by 10-minute trading halts; if the 20% level is reached, the market closes for the trading ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reuters.com/business/cme-trading-halted-due-cooling-issue-data-centers-2025-11-28",
+    "name": "Global futures reopen after exchange operator CME suffers multi-hour",
+    "snippet": "The disruption stopped trading in major currency pairs on CME's EBS platform, as well as benchmark futures for West Texas Intermediate crude , ...",
+    "host_name": "www.reuters.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.federalregister.gov/documents/2021/07/22/2021-15548/self-regulatory-organizations-new-york-stock-exchange-llc-notice-of-filing-of-proposed-rule-change",
+    "name": "Self-Regulatory Organizations; New York Stock Exchange LLC",
+    "snippet": "Effective 12:56:17 ET Cboe Equities exchanges have halted trading due to a Level 1 Market Wide Circuit Breaker breach. During the entirety of ...",
+    "host_name": "www.federalregister.gov",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.facebook.com/aljazeera/posts/global-futures-reopen-after-exchange-operator-cme-hit-by-hours-long-outage/1300381972136154",
+    "name": "Global futures reopen after exchange operator CME hit by - Facebook",
+    "snippet": "During the night, CME Globex futures hit their 5% limit down circuit breaker level. That's the second time this week. Trading is allowed above ...",
+    "host_name": "www.facebook.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cnbc.com/2025/11/28/cme-halts-fx-commodities-futures-trading-after-data-center-issue.html",
+    "name": "CME halts FX, commodities, futures trading after data center issue - CNBC",
+    "snippet": "A technical problem obstructed futures trading at the Chicago Mercantile Exchange in the early hours of Friday morning.",
+    "host_name": "www.cnbc.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cftc.gov/media/9581/gmac_FIA110623/download",
+    "name": "[PDF] Best Practices for Exchange Volatility Control Mechanisms - CFTC",
+    "snippet": "During daytime trading hours, CME Group U.S. equity futures circuit breakers are coordinated with cash equity market circuit breakers at 7%, 13%, and 20%.",
+    "host_name": "www.cftc.gov",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2025-11-28/cme-group-commodity-futures-trading-halted-traders-say",
+    "name": "CME Futures Outage Disrupts Trading Across Global Markets - Bloomberg",
+    "snippet": "Trading of futures and options on the CME has been halted due to a data center glitch. a data-center fault, causing hours of disruption to ...",
+    "host_name": "www.bloomberg.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nyse.com/publicdocs/nyse/NYSE_MWCB_FAQ.pdf",
+    "name": "[PDF] Market-Wide Circuit Breakers FAQ | NYSE",
+    "snippet": "The NYSE equities and options exchanges have procedures for coordinated cross-market trading halts if a severe market price decline reaches levels that may ...",
+    "host_name": "www.nyse.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cboe.com/notices/content/?id=51516",
+    "name": "Member Testing Obligations – 2024 Market-Wide Circuit Breaker Testing",
+    "snippet": "Send orders following a Level 1 or Level 2 MWCB halt in a manner consistent with usual trading behavior. The required level of activity will be at least two (2) ...",
+    "host_name": "www.cboe.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

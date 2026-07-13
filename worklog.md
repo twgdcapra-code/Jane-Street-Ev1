@@ -344,3 +344,58 @@ Stage Summary:
 - Implements full Perold (1988) Implementation Shortfall framework with 5-component slippage decomposition
 - MiFID II RTS 28 / SEC 605/606 compliance checks integrated
 - Square-root market impact model (κ=0.142, Almgren-Chriss / Bouchaud)
+
+---
+Task ID: 8 (Module 13: Kill Switch / Auto-Derisk)
+Agent: Main agent
+Task: Build Module 13 — Real-Time Kill Switch / Auto-Derisk (automated flatten on daily loss limit, VaR breach, circuit breaker logic) — using verified-build workflow
+
+Work Log:
+- Research subagent produced /home/z/my-project/research/kill_switch.md (7,120 words, 25 web searches) covering: CME 7%/13%/20% MWCB + SPI rules, daily loss limits (per-trader/per-strategy/three-strikes), VaR-based derisk (parametric/historical/Monte Carlo), stress-test-driven derisk (2008/2020/2022 scenarios), margin-call 60-second rule, drawdown-based derisk (Calmar/high-water-mark), VIX/vol-of-vol regime triggers, position-level rules, time-based rules (FOMC/weekend/economic-release), implementation patterns (two-stage kill, two-person re-arm, SEC 17a-4 / MiFID II RTS 6 audit trails), Jane Street/Citadel/Jump FPGA practices
+- Created /src/lib/trading/kill-switch.ts (537 lines):
+  - 16 trigger types: LOSS_LIMIT, DRAWDOWN, VAR_BREACH, STRESS_TEST, MARGIN_UTIL, CONCENTRATION, POSITION_LOSS, VOLATILITY_REGIME, CIRCUIT_BREAKER, LATENCY_ANOMALY, MIDQUOTE_GAP, THREE_STRIKES, CALMAR_PROTECTION, BETA_EXPOSURE, TIME_RULE, ENGINE_ANOMALY
+  - 3-level graduated response: SOFT (80% of hard) → WARN, HARD (100%) → FLATTEN_POSITION, KILL (120%) → FLATTEN_ALL + latch
+  - KillSwitchConfig with 15 numeric thresholds + per-rule enable flags, persisted to localStorage under "twg-killswitch-config-v1"
+  - DEFAULT_CONFIG: dailyLoss=$50k, maxDD=10%, VaR=3%, stress=5%, margin=90%, concentration=25%, positionLoss=$15k, volMult=2x, circuitBreaker=5%/5min, latency=5s, midquoteGap=1%, threeStrikes=3, calmar=0.5, beta=2x, cooldown=300s
+  - evaluateKillSwitch(ctx, config, prevState) → EvaluationResult with rules, highestLevel, killSwitchShouldFire, blockNewOrders, positionsToFlatten, auditEntries
+  - Per-rule threshold helpers: hardThreshold() / softThreshold() / killThreshold()
+  - KillSwitchState tracks: armed flag, trigger timestamp/reason, canRearmAt (cooldown), blockNewOrders, auditLog (500 entries), sessionStartEquity, peakEquity, recentFills, recentQuotes (for midquote gap)
+  - Audit entry shape: id, timestamp, triggerType, level, action, ruleName, message, currentValue, threshold, symbol
+- Created /src/components/trading/KillSwitchPanel.tsx (696 lines) with 3 views + re-arm modal:
+  1. Live Monitor: header status banner (ALL CLEAR / SOFT WARNING / HARD LIMIT / KILL SWITCH TRIGGERED), 5 summary cards (OK/Soft/Hard/Kill counts + ARMED/LATCHED status), grid of 16 RuleCards with progress bar showing current value vs soft/hard/kill thresholds + level badge
+  2. Configure Rules: 15 numeric threshold inputs (Daily Loss, Max DD, VaR, Stress, Margin, Concentration, Position Loss, Vol Regime, Circuit Breaker, Latency, Midquote Gap, Three-Strikes, Calmar, Beta, Cooldown) + per-rule enable checkboxes + Reset to Defaults
+  3. Audit Log: filterable table (All/Soft/Hard/Kill) with Time/Rule/Level/Action/Value/Threshold/Message columns, 500-entry cap
+  - Re-arm Modal: shows cooldown countdown, lists re-arm effects (reset session equity, clear blocks), disabled until cooldown expires
+  - Manual Kill button for user-initiated flatten
+  - Auto-act toggle: when on, triggers automatically flatten positions / latch kill switch; when off, monitor-only
+  - Throttled to 2-second evaluation cycle, per-rule+level 10-second cooldown to avoid alert spam
+  - All triggers push to store alerts (CRITICAL for KILL, ERROR for HARD, WARN for SOFT) so they appear in the bell icon
+- Wired into sidebar as module #31 "Kill Switch / Auto-Derisk" with ShieldAlert icon
+
+Verification:
+- npx tsc --noEmit -p tsconfig.json: 0 errors in src/
+- bun run lint: 0 errors, 0 warnings
+- Dev server: HTTP 200 on /
+- agent-browser tests:
+  - Kill Switch module appears as module #31 in sidebar
+  - On load with seeded demo positions, kill switch triggered correctly because Stress Test Loss (27.79% vs 5% hard) and Position Concentration (58.12% vs 25% hard) both exceeded KILL thresholds — exactly the safety behaviour we want
+  - Status banner shows "KILL SWITCH TRIGGERED · Reason: Stress Test Loss · Triggered: 13:17:49"
+  - Re-arm button appears, modal opens with "Cooldown active · Wait 258s before re-arming" and disabled "Re-arm Now" button
+  - Live Monitor view: all 16 RuleCards render with progress bars, threshold zones (blue/amber/rose), current value, level badges
+  - Configure Rules view: all 15 threshold inputs render + per-rule enable checkboxes + Reset to Defaults button
+  - Audit Log view: 2 entries recorded with Time/Rule/Level/Action/Value/Threshold/Message columns
+  - Bell icon shows 6 unacknowledged alerts — clicking opens drawer showing 2 CRITICAL kill switch alerts:
+    "[Kill Switch] Position Concentration KILL: value 58.12 % vs hard 25.00 / kill 30.00"
+    "[Kill Switch] Stress Test Loss KILL: value 27.79 % vs hard 5.00 / kill 6.00"
+- Screenshots: killswitch_monitor.png, killswitch_rules.png, killswitch_audit.png saved to /home/z/my-project/download/
+
+Stage Summary:
+- Module 13 (Kill Switch / Auto-Derisk) delivered end-to-end
+- 31 sidebar modules total (was 30)
+- New files: kill-switch.ts (537 lines), KillSwitchPanel.tsx (696 lines)
+- Modified: page.tsx (+3 lines: import, ModuleId, MODULES, switch case)
+- 0 TypeScript errors, 0 lint errors, 0 console errors
+- Research report saved to /home/z/my-project/research/kill_switch.md (7,120 words)
+- Implements full Perold/SEC/MiFID II risk framework: 16 triggers, 3-level graduated response, latched kill switch with 5-min cooldown, audit trail
+- Auto-acts on triggers: pushes alerts to bell icon, flattens positions on HARD, flattens all + latches on KILL
+- Config persisted to localStorage so user customisations survive page reloads

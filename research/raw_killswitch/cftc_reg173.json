@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.law.cornell.edu/cfr/text/17/1.73",
+    "name": "17 CFR § 1.73 - Clearing futures commission merchant risk",
+    "snippet": "Establish risk -based limits in the proprietary account and in each customer account based on position size, order size, margin requirements, or similar factors ...\n(C) The futures commission merchants that clear the allocated trades on behalf of customers shall establish and maintain systems of risk management controls ...",
+    "host_name": "www.law.cornell.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.federalregister.gov/documents/2011/08/01/2011-19362/clearing-member-risk-management",
+    "name": "Clearing Member Risk Management",
+    "snippet": "Aug 1, 2011 — Proposed 1.73 and 23.609 would require each futures commission merchant, enforce procedures to establish risk -based limits ,\nThese proposed rules address risk management for cleared trades by futures commission merchants, swap dealers, and major swap participants that are clearing ...",
+    "host_name": "www.federalregister.gov",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/tools-information/lookups/advisories/clearing/files/Chadv12-275.pdf",
+    "name": "CFTC Regulation 1.73 – Clearing Member Risk Management",
+    "snippet": "Jul 2, 2012 — CME Clearing provides tools to assist with clearing members' compliance with the risk -based limit requirements mandated by CFTC Regulation 1.73 . Read more 2 pages\nCME Clearing provides tools to assist with clearing members' compliance with the risk-based limit requirements mandated by CFTC Regulation 1.73.",
+    "host_name": "www.cmegroup.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sidley.com/en/insights/newsupdates/2025/02/us-commodity-futures-trading-commission-finalizes-margin-adequacy-and-separate-account",
+    "name": "U.S. Commodity Futures Trading Commission Finalizes",
+    "snippet": "Feb 13, 2025 — The Final Rule takes effect on March 24, 2025, and for FCMs that elect separate account treatment, compliance will be required on July 21, 2025. Read more",
+    "host_name": "www.sidley.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cftc.gov/csl/20-17/download",
+    "name": "CFTC Letter No. 20-17 Advisories May 13, 2020",
+    "snippet": "May 13, 2020 — Regulation 1.73 further requires each Clearing FCM to screen orders for compliance with the risk -based limits , and monitor for the 16 17 CFR 1. ...\nregulation 1.73 requires each Clearing FCM to evaluate its ability to meet initial and variation margin obligations in cash at least once per ...",
+    "host_name": "www.cftc.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cftc.gov/PressRoom/Events/ssLINK/tac103012_rule173",
+    "name": "Rule 1.73 - The Challenges of Risk Managing Give-Ups",
+    "snippet": "Oct 30, 2012 — The aim of this presentation is to attempt to demonstrate the challenges around implementing the rules for give-ups and bunched orders. Read more",
+    "host_name": "www.cftc.gov",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fia.org/sites/default/files/2019-05/CFTC-Rule-173-Give-Up-FAQs.pdf",
+    "name": "CFTC Rule 1.73 Pertaining to Give-Ups FAQs",
+    "snippet": "Rule 1.73 applies to registered FCMs . Rule 1.73 applies to FCMs that are clearing members of DCOs. Is it mandatory to attach Risk Limit schedules? A: Yes. ...\nRule 1.73 applies to registered FCMs that are clearing products for which a clearinghouse is registered with the CFTC as a DCO.",
+    "host_name": "www.fia.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ecfr.gov/current/title-17/chapter-I",
+    "name": "17 CFR Chapter I -- Commodity Futures Trading Commission",
+    "snippet": "Financial reports of futures commission. Risk Management Program for futures commission merchants. § 1.73 Clearing futures commission merchant risk management . ...",
+    "host_name": "www.ecfr.gov",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.theocc.com/getContentAsset/d91fcd3f-987c-43c5-b230-19c6bc719d66/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/cftc-self-certification_30.pdf",
+    "name": "DCO Rules UNITED STATES COMMODITY FUTURES",
+    "snippet": "Sep 5, 2025 — After MRDM verifies that unrealized losses on a Clearing Member's account are greater than 50% of the account's total risk charges, a ... Read more",
+    "host_name": "www.theocc.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nfa.futures.org/members/fcm/regulatory-obligations/fcm-filing-requirements.html",
+    "name": "Filing Requirements - National Futures Association (NFA)",
+    "snippet": "CFTC Regulation 1.11 requires each FCM that holds customer funds to establish, maintain and enforce a system of risk management policies and procedures",
+    "host_name": "www.nfa.futures.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

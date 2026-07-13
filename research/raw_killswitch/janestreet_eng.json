@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.instagram.com/reel/DY7gFe2Bkm6/?hl=en",
+    "name": "Jane Street is one of the most advanced trading firms  - Instagram",
+    "snippet": "Ron Minsky, Jane Street's head of technology, explains here that some of their trading systems can react in under 100 nanoseconds. That is so ...",
+    "host_name": "www.instagram.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/quant/comments/1t2kjjc/jane_street_hft",
+    "name": "Jane Street — HFT? : r/quant - Reddit",
+    "snippet": "FPGA engineering opportunities at Jane Street. Resources for learning quantitative finance. Common pitfalls in risk management practices. Why does Jane street use purely Ocaml : r/ExperiencedDevs - Reddit 3rd Year CS Undergrad – How do I break into HFT (Jane Street, HRT ... More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com",
+    "name": "Jane Street Blog",
+    "snippet": "FPGA — A Jane Street Challenge Update: We got over 200 submissions to this challenge, spanning a wide variety of HDL languages and hardware platforms!",
+    "host_name": "blog.janestreet.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/thomas-costello-a51a537b_how-does-jane-street-do-it-in-my-podcast-activity-7459921606916808704-PMPo",
+    "name": "Jane Street's High Frequency Trading Strategy Revealed - LinkedIn",
+    "snippet": "A generation of retail investors learned that the system they were participating in had a kill switch — and the people holding it weren't on ...",
+    "host_name": "www.linkedin.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DY-UeHojJUN",
+    "name": "In a Recent Interview, Jane Street's Head of Technology Explained the",
+    "snippet": "Can you afford to be running big models in the middle of making trading decisions? There isn't one time horizon, there are many time horizons.",
+    "host_name": "www.instagram.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=32314623",
+    "name": "Understanding Jane Street | Hacker News",
+    "snippet": "This article is way above average for online posts about proprietary/algorithmic/quantitative/low-latency trading (very leaky Venn diagram there).",
+    "host_name": "news.ycombinator.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/tech-talks/safe-at-any-speed",
+    "name": "Safe at Any Speed: Building a Performant, Safe, Maintainable",
+    "snippet": "Jane Street is a quantitative trading firm and liquidity provider with a unique focus on technology and collaborative problem solving.",
+    "host_name": "www.janestreet.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=zR9PpXWsKFQ",
+    "name": "Production Engineering When Trading Billions of Dollars a Day - YouTube",
+    "snippet": "... Engineering at Jane Street 37:22 Sample Incident 49:26 Summary of Production Engineering at Jane Street 51:17 Q+A.",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.marketcalls.in/fintech/stop-calling-jane-street-a-hedge-fund-its-an-ai-lab-that-happens-to-print-money-from-markets.html",
+    "name": "Stop Calling Jane Street a “Hedge Fund.” It's an AI Lab That Happens",
+    "snippet": "This post breaks down how Jane Street is actually built underneath the trading desk, drawing from a recent walkthrough with Ron Minsky (co-head ...",
+    "host_name": "www.marketcalls.in",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://signalsandthreads.com/finding-signal-in-the-noise",
+    "name": "Finding Signal in the Noise: Machine Learning and the Markets",
+    "snippet": "Listen in on Jane Street's Ron Minsky as he has conversations with engineers working on everything from clock synchronization to reliable ...",
+    "host_name": "signalsandthreads.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

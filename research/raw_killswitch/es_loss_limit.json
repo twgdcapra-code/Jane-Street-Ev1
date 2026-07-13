@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.cmegroup.com/education/courses/trade-and-risk-management/the-2-percent-rule",
+    "name": "The 2% Rule",
+    "snippet": "For example, if you are trading a $50,000 account, and you choose a risk management stop loss of 2%, you could risk up to $1,000 on any given trade. Maximum ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/education/courses/things-to-know-before-trading-cme-futures/position-and-risk-management",
+    "name": "Position and Risk Management",
+    "snippet": "The exchange limits risk by ensuring that the clearing firms post sufficient margin with the exchange to cover the potential losses for each open position. The ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.thefuturesdesk.com",
+    "name": "The Futures Desk - Join Our Proprietary Trading Team",
+    "snippet": "Commodity trading involves substantial risk of loss. All investments involve risk, and not all risks are suitable for every investor. clients may lose more ...",
+    "host_name": "www.thefuturesdesk.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://intercom.help/funded-futures-family/en/articles/10469332-funded-futures-family-2-cme-limit-rule",
+    "name": "Funded Futures Family 2% CME Limit Rule",
+    "snippet": "Protect your trades by avoiding activity within 2% of CME price limits; monitor % Net Change and calculate stop levels to stay secure.",
+    "host_name": "intercom.help",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantvps.com/blog/what-is-the-my-funded-futures-daily-loss-limit?srsltid=AfmBOooQKAuMt1gY_w9ZQ1EpXDTnSUmJnU7B9_UIAFoWNGH5GB_rVRCX",
+    "name": "What Is the My Funded Futures Daily Loss Limit?",
+    "snippet": "a Starter account with $50,000 has a daily loss limit of $1,200, A good starting point is to cap your risk per trade at 10–15% of your DLL. 're ...",
+    "host_name": "www.quantvps.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.topstep.com/blog/the-value-of-setting-a-daily-loss-limit",
+    "name": "How daily loss limits build discipline for funded traders",
+    "snippet": "Protect your trading capital with a daily loss limit. Learn why it's a smart risk management tool for consistent and disciplined futures ...",
+    "host_name": "www.topstep.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://help.myfundedfutures.com/en/articles/9698984-2-price-limit-rule",
+    "name": "2% Price Limit Rule",
+    "snippet": "We enforce strict guidelines to prevent trading when a product is within 2% of a CME price limit. This policy ensures our traders are not exposed to extreme ...",
+    "host_name": "help.myfundedfutures.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ElyY2ypqWeU&vl=en-US",
+    "name": "How to Set Daily Loss Limits That Actually Work (Most",
+    "snippet": "Most traders set daily loss limits the wrong way—usually. In this video, I break down how to build a daily loss limit\nMost traders set daily loss limits the wrong way—usually too tight, too loose, or based on emotions instead of actual data.",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "Dec 15, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.traderspost.io/article/the-futures-desk-review",
+    "name": "Complete The Futures Desk Prop Firm Guide",
+    "snippet": "Trading Rules · Drawdown type: EOD trailing or Static (trader's choice) · Daily loss limit: 40% of max drawdown — soft limit that pauses trading ...",
+    "host_name": "blog.traderspost.io",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/trading/price-limits.html",
+    "name": "Price Limits: Ags, Energy, Metals, Equity Index - CME Group",
+    "snippet": "Access daily price limits for CME Group Agricultural, Energy, Equity Index, Interest Rates, and Metals products to find maximum price ranges.",
+    "host_name": "www.cmegroup.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

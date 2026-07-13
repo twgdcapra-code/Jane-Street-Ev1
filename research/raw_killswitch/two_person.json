@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.iatp.org/kill-switches-and-price-limits-safety-valves",
+    "name": "Kill switches and price limits: Safety valves of legalized excessive",
+    "snippet": "One way to reduce the need for kill switches and the unwanted publicity they bring about excessive speculation is for exchanges to increase ...\nkill switches — computer programs that temporarily stop or reduce trading when free market theory breaks down — can help to stabilize market ...",
+    "host_name": "www.iatp.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/tools-information/webhelp/globex-credit-controls/Content/KS_Detail.html",
+    "name": "Enforcing Kill Switch - CME Group",
+    "snippet": "Multiple EF risk administrators can be permissioned for the same Execution Firm, in which case a kill applied by one administrator can be removed by another.",
+    "host_name": "www.cmegroup.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cftc.gov/LawRegulation/FederalRegister/finalrules/2013-22185.html",
+    "name": "2013-22185 - CFTC",
+    "snippet": "kill switches assumes that certain benefits accrue to their use across exchanges, trading and clearing firms, and DCOs.",
+    "host_name": "www.cftc.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradersmagazine.com/news/brokers-wary-about-kill-switch-design",
+    "name": "Brokers Wary About \"Kill Switch\" Design - Traders Magazine",
+    "snippet": "The approach means that any attempt to cut a broker off could involve multiple warnings first—telephonic, electronic or both.",
+    "host_name": "www.tradersmagazine.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nyse.com/publicdocs/nyse/NYSE_Pillar_Risk_Controls.pdf",
+    "name": "[PDF] NYSE Pillar Risk Controls",
+    "snippet": "Risk Users are firms entitled to view, configure, and/or take action (kill switch, reinstate) on risk controls and Risk Entities.",
+    "host_name": "www.nyse.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.theregreview.org/2012/10/17/17-ellias-sec-kill-switch",
+    "name": "Discussion of Securities Market “Kill Switch” Dominates SEC Roundtable",
+    "snippet": "The kill switch concept would allow exchanges to set limits on the number of trades an individual firm can make in a given period of time. If a ...",
+    "host_name": "www.theregreview.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openalgo.in/quant/kill-switches-risk-controls",
+    "name": "Kill Switches, Risk Controls and Algo Surveillance - OpenAlgo",
+    "snippet": "A kill switch that automatically re-arms is worse than none, because it lulls you into trusting it. Make the trip one-way: latch it, log who and what tripped ...",
+    "host_name": "openalgo.in",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=COVf7M9S6OU",
+    "name": "Getting Ready for the “European Kill Switch” | LFTC - YouTube",
+    "snippet": "... member FINRA & SIPC. Investing involves risk. Not investment advice ... change at any time. Investing involves the risk of loss. This ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/Superstonk/comments/v0lreu/kill_switch_glitches_could_this_be_why_we_see",
+    "name": "Kill Switch Glitches - Could this be why we see trades canceled and",
+    "snippet": "TL;DR The kill switch is a tool that prevents a broker from placing orders that would push them over their risk threshold. If the broker exceeds ...",
+    "host_name": "www.reddit.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nasdaqtrader.com/content/EquityKillSwitch.pdf",
+    "name": "[PDF] Equity Kill Switch | Nasdaq Trader",
+    "snippet": "The Nasdaq Kill Switch is a tool offered by Nasdaq that enables a participant to establish levels of Risk Exposure, to receive notifications as the value of ...",
+    "host_name": "www.nasdaqtrader.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

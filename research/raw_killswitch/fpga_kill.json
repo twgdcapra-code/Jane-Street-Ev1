@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/77y2rq/does_submicrosecond_fpga_trading_make_a",
+    "name": "Does sub-microsecond FPGA trading make a difference",
+    "snippet": "CPU traders are a few microseconds slower, the FPGA trader with 0.5 microsecond latency will only be first slightly more often.",
+    "host_name": "www.reddit.com",
+    "rank": 0,
+    "date": "Jul 15, 2018",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dasanik2001_janestreet-fpga-highfrequencytrading-activity-7473392363835506688-8Fs1",
+    "name": "Jane Street's FPGA Advantage in High-Frequency Trading",
+    "snippet": "In high-frequency trading, profits can disappear in microseconds. Why FPGAs? • Process market data directly in hardware • Eliminate operating ...",
+    "host_name": "www.linkedin.com",
+    "rank": 1,
+    "date": "Jun 22, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://x.com/GoshawkTrades/status/2057539231392944530",
+    "name": "that's just one end of the spectrum. Jane Street runs an",
+    "snippet": "Jane Street runs an ensemble of systems operating at every timescale simultaneously. some decisions happen in nanoseconds. some in microseconds ...",
+    "host_name": "x.com",
+    "rank": 2,
+    "date": "Jun 13, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.dgway.com/market/segmenu/finance",
+    "name": "Finance & Trading – “Sub-Microsecond FPGA Solutions for",
+    "snippet": "Achieve Deterministic Latency in High-Frequency Trading. When microseconds define profit or loss, FPGA technology offers the fastest path to execution.",
+    "host_name": "www.dgway.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/Dag4vWcMkzW",
+    "name": "Field Programmable Gate Arrays (FPGAs) are specialized",
+    "snippet": "Firms such as Jane Street, Citadel Securities, Jump Trading, Optiver, and IMC Trading invest heavily in FPGA technology because even extremely ...",
+    "host_name": "www.instagram.com",
+    "rank": 4,
+    "date": "Jul 8, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/shorts/883hbT01tdk",
+    "name": "Making Trades in Microseconds and Nanoseconds",
+    "snippet": "@janestreet. Subscribe. Jane Street on GPUs, Trading, and Hiring: A Conversation with Dwarkesh. Making Trades in Microseconds and Nanoseconds.",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "Jun 13, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DYpPYa1SgQd/?hl=en",
+    "name": "Ron Minsky, Jane Street's head of technology, explained",
+    "snippet": "Ron Minsky, Jane Street's head of technology, explained that some of their trading systems can react in under 100 nanoseconds, FPGA trading ...",
+    "host_name": "www.instagram.com",
+    "rank": 6,
+    "date": "Jun 13, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@shailamie/fpga-acceleration-in-hft-architecture-and-implementation-68adab59f7af",
+    "name": "FPGA Acceleration in HFT: Architecture and Implementation",
+    "snippet": "FPGA-accelerated systems operate in hundreds of nanoseconds. Sub-microsecond trading attracts regulatory scrutiny.",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=sJLvz_WzrEA",
+    "name": "From Software to FPGA: ITCH/OUCH Trading with AAT IP",
+    "snippet": "... FPGA, showing how trading teams can achieve deterministic, sub-microsecond latency while developing strategies in a software-friendly workflow.",
+    "host_name": "www.youtube.com",
+    "rank": 8,
+    "date": "Feb 13, 2026",
+    "favicon": ""
+  }
+]

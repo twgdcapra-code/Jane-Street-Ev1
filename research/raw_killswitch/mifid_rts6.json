@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.fia.org/sites/default/files/2019-05/FIA-Europe-MiFID-II-Minimum-Standard-Recs-for-ETD-eTrading-Algo-Conformance-Statement-on-Materiality-Included-0.pdf",
+    "name": "[PDF] MiFID II Minimum Standard Recommendations for ETD eTrading",
+    "snippet": "Formalised Conformance Testing of the Kill Switch feature is recommended. • Detail on whether the Kill Switch does anything more than cancel open orders should ...",
+    "host_name": "www.fia.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.esma.europa.eu/sites/default/files/library/esma70-156-4572_mifid_ii_final_report_on_algorithmic_trading.pdf",
+    "name": "[PDF] MiFID II Review Report | ESMA - European Union",
+    "snippet": "Stress testing concerns testing that the investment firm must carry on its algorithm against which, for the purposes of MiFID II, the trading ...",
+    "host_name": "www.esma.europa.eu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.kroll.com/en/publications/financial-compliance-regulation/algorithmic-trading-under-mifid-ii",
+    "name": "Algorithmic Trading Under MiFID II - Kroll",
+    "snippet": "Importantly, kill-switch functionality is a requirement, which would allow a senior manager within a firm to withdraw all unexecuted orders ...",
+    "host_name": "www.kroll.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.hoganlovells.com/~/media/hogan-lovells/pdf/mifid/new_mifid_update_31_dec_2016/5466119v1mifid-ii-algorithmic-trading-29122016lwdlib01.pdf",
+    "name": "[PDF] MiFID II - Hogan Lovells",
+    "snippet": "Organisational requirements for firms engaged in algorithmic trading are also contained in RTS 6:13. • There are general requirements on.",
+    "host_name": "www.hoganlovells.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/investment-firms/mifid-firms/regulatory-requirements-and-guidance/thematic-assessment-of-algorithmic-trading-firms-compliance.pdf",
+    "name": "[PDF] Thematic Review of Algorithmic Trading - Central Bank of Ireland",
+    "snippet": "RTS 6 provides a framework to mitigate these, and other risks, through the requirement to maintain effective systems, procedures, arrangements ...",
+    "host_name": "www.centralbank.ie",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://eprints.soton.ac.uk/477468/1/PDF_Proof.pdf",
+    "name": "[PDF] Journal of Financial Regulation and Compliance - ePrints Soton",
+    "snippet": "MiFID II introduced EU-wide organisational requirements for firms engaged in algorithmic trading. RTS 6 sets out detailed requirements for the development and ...",
+    "host_name": "eprints.soton.ac.uk",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eventus.com/cat-article/enforcement-action-from-esma-on-rts-6",
+    "name": "Practical Steps to Address: MiFID II RTS 6 | Eventus",
+    "snippet": "Kill switch functionality is also required. compliance actively participates in developing and deploying of algorithmic trading software",
+    "host_name": "www.eventus.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fca.org.uk/publication/multi-firm-reviews/algorithmic-trading-compliance-wholesale-markets.pdf",
+    "name": "[PDF] Algorithmic Trading Compliance in Wholesale Markets | FCA",
+    "snippet": "MiFID II sets certain requirements for firms to develop and test algorithms in Article 5 of RTS 6 of MIFID II to ensure they: • do not behave ...",
+    "host_name": "www.fca.org.uk",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emissions-euets.com/internal-electricity-market-glossary/1133-algorithmic-trading",
+    "name": "Algorithmic trading - Emissions-EUETS.com",
+    "snippet": "The MiFID II requirements for pre trade risk controls are set out in detail within Article 15 of RTS 6, which requires algo firms to maintain: - ...",
+    "host_name": "www.emissions-euets.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tradingtechnologies.com/compliance/mifid-ii-compliance",
+    "name": "MiFID II Compliance | Trading Technologies",
+    "snippet": "Firms must ...",
+    "host_name": "tradingtechnologies.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.ice.com/publicdocs/futures_us/Futures_US_IPL_Levels.pdf",
+    "name": "[PDF] INTERVAL PRICE LIMIT FUNCTIONALITY",
+    "snippet": "IPL functionality acts as a temporary circuit breaker feature on the electronic platform, to diminish the likelihood and extent of short-term price spikes",
+    "host_name": "www.ice.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/trading/price-limits.html",
+    "name": "Price Limits: Ags, Energy, Metals, Equity Index - CME Group",
+    "snippet": "7%, 13%, and 20% price limits are applied to the futures fixing price and are effective from 8:30 a.m. CT – 2:25 p.m. CT. Mondays through Fridays.\nFutures $55.00 $110.00 … 7%, 13%, and 20% price limits are applied to the futures fixing price and are effective from 8:30 a.m. CT – 2:25 p.m. CT. Mondays ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.optiver.com/insights/explainers/an-illustrated-guide-to-price-controls-on-us-exchanges",
+    "name": "An illustrated guide to price controls on US exchanges - Optiver",
+    "snippet": "Dynamic Circuit Breakers. These controls suspend trading whenever prices breach an upper or lower bound (e.g., +/- 5%) that is set relative to a rolling ...\nDynamic Circuit Breakers. These controls suspend trading whenever prices breach an upper or lower. A dynamic circuit breaker in the futures market triggers a ...",
+    "host_name": "www.optiver.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.dechert.com/knowledge/onpoint/2020/3/refresher-on-u-s--market-wide-circuit-breakers.html",
+    "name": "Refresher on U.S. Market-Wide Circuit Breakers",
+    "snippet": "The Intercontinental Exchange (ICE) uses interval price limits that are periodically reset. If a bid or offer crosses the interval price limit ...\nThe Intercontinental Exchange (ICE) uses interval price limits that are periodically reset. If a bid or offer crosses the interval price limit, ...",
+    "host_name": "www.dechert.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cftc.gov/media/9581/gmac_FIA110623/download",
+    "name": "[PDF] Best Practices for Exchange Volatility Control Mechanisms - CFTC",
+    "snippet": "ICE Futures U.S. currently has Daily Price Limits (DPLs) on three futures contracts, Cotton No. 2®, FCOJ-A and Canola futures. The DPL represents the maximum ...",
+    "host_name": "www.cftc.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ice.com/futures-us",
+    "name": "ICE Futures U.S. | Futures Exchange for Softs, Power, FX & Equity Index",
+    "snippet": "IPLs act as a circuit breaker that slows the rate at which the price of a contract can move in a particular direction.",
+    "host_name": "www.ice.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.thetradenews.com/ice-adds-interval-price-limit-circuit-breaker",
+    "name": "ICE adds interval price limit circuit breaker - The Trade news",
+    "snippet": "The new features comes with three customisable parameters, such as limiting the price movement of contracts over a period of time, limiting the ...",
+    "host_name": "www.thetradenews.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.publicnow.com/viewDoc.aspx?filename=37248%5CEXT%5CC5BEB85531C38AE395DCB7D555FC49DC23744933_13364BE6F292369E8C75AFB917D227E226FD2101.PDF",
+    "name": "[PDF] FCOJ Futures Daily Price Limit Expands To 30 Cents Per Pound",
+    "snippet": "Futures Daily Price Limit Expands To 30 Cents Per Pound ・ s contract delivery months subject to a limit will expand to 30 cents per pound ...",
+    "host_name": "docs.publicnow.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fia.org/sites/default/files/2025-01/Exchange%20Risk%20Controls%20%E2%80%93%20Overview%20of%20CME%20and%20ICE%20risk%20controls.pdf",
+    "name": "[PDF] Exchange Risk Controls – Overview of CME and ICE risk controls - FIA.org",
+    "snippet": "Daily Price Limits. Market Wide Circuit Breakers. Dynamic Circuit ... Hierarchical tiers that apply a limit to the previous session's settlement ...",
+    "host_name": "www.fia.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.jpx.co.jp/english/derivatives/rules/price-limit-cb",
+    "name": "Price Limits/ Circuit Breaker Rule | Derivatives | Japan Exchange Group",
+    "snippet": "For Interest Rate Futures, only price limits in one direction, up or down, will be expanded. The expansion shall be conducted only twice.",
+    "host_name": "www.jpx.co.jp",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

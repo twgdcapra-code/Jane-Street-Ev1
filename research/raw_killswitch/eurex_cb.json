@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.eurex.com/ex-en/support/emergencies-and-safeguards/volatility-interruption-functionality",
+    "name": "Volatility Interruption Functionality",
+    "snippet": "With T7 Release 12.1, an additional trigger mechanism for Volatility Interruptions was introduced, which is based on static price ranges around additional ...\nEurex EnLight is an on-exchange, off-book selective Request-for-Quote (RFQ) functionality, where circuit breakers are implemented in the form of price collars.",
+    "host_name": "www.eurex.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurex.com/ex-en/find/circulars/circular-3989342",
+    "name": "Eurex T7 Functionality activations: Volatility Interruption",
+    "snippet": "The new static Volatility Interruption will, apart from preventing sharp price movements within short time, also prevent large price movements ...\nThe new static Volatility Interruption will be activated for all Futures products excluding products with different trading-clearing notation, ...",
+    "host_name": "www.eurex.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurex.com/ex-en/support/technology/t7",
+    "name": "T7 System",
+    "snippet": "T7 is a powerful state-of-the-art trading platform. Cutting-edge technology delivers ultra-low latency, robustness and safe handling of very high throughput.",
+    "host_name": "www.eurex.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cashmarket.deutsche-boerse.com/resource/blob/4591804/a3209e00271dc60f84539e042cddcda5/data/T7_Release_14.0_-_Functional_Reference_Version_3.pdf",
+    "name": "T7 Release 14.0 - Xetra",
+    "snippet": "volatility interruption in the futures product sets the corresponding related options product into stressed market conditions. This trigger ...",
+    "host_name": "www.cashmarket.deutsche-boerse.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.deutsche-boerse.com/dbg-en/media/news-stories/explainers/spotlight/Protection-in-Extreme-Situations-150532",
+    "name": "Protection in Extreme Situations",
+    "snippet": "The volatility interruption is one of the most important protective mechanisms in Xetra®. Eurex Clearing reduce risk in securities trading.",
+    "host_name": "www.deutsche-boerse.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurex.com/ex-en/trade/eurex-t7-entry-services/block-trades",
+    "name": "Block Trades",
+    "snippet": "The Eurex Block Trade Service supports the off-book trading of standard Eurex products. Buyers and sellers can execute order information into the Eurex® system ...",
+    "host_name": "www.eurex.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurex.com/ex-en/rules-regs/eurex-rules-regulations",
+    "name": "Eurex Rules & Regulations",
+    "snippet": "Volatility Interruption Functionality. These rules regulate the organization of the futures and options exchange approved under German law",
+    "host_name": "www.eurex.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurexchange.com/resource/blob/297838/54cd4e591b23d7e3d60ef8e707c21a56/data/eurex_eti_manual_V31.pdf",
+    "name": "Eurex Exchange's T7 Enhanced Trading Interface",
+    "snippet": "Note: T7 will not evaluate the consistency between TradingCapacity (1815) and Account (1) for an order. If the Clearing Account is missing … provides improved ...",
+    "host_name": "www.eurexchange.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cashmarket.deutsche-boerse.com/cash-en/trading/Xetra/protective-mechanisms",
+    "name": "Protective Mechanisms - Xetra - Deutsche Börse AG",
+    "snippet": "The volatility interruption shall strengthen the price continuity of determined prices. ... The parameters are published at the instrument level in the T7 ...\nA volatility interruption can occur in auctions and continuous trading. The volatility interruption shall strengthen the price continuity of determined prices. ...",
+    "host_name": "www.cashmarket.deutsche-boerse.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.eurex.com/resource/blob/336458/826b6a9061e8d87e3d22c24244faffbe/data/tc_history_18112002_en.pdf.pdf",
+    "name": "[PDF] Trading Conditions - Eurex",
+    "snippet": "Volatility Interruption. If the last effected price of a futures contract is outside one of the price ranges with respect to specific.",
+    "host_name": "www.eurex.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.youtube.com/watch?v=ThIYsyKXHds",
+    "name": "Basics of Value-at-Risk (VaR): Parametric, Historical, and Monte Carlo",
+    "snippet": "Today we are revisiting the application of basic value-at-risk (VaR) market risk measurements, including parametric normal (VCV), historical ...\nToday we are revisiting the application of basic value-at-risk (VaR) market risk measurements, including parametric normal (VCV), historical ...",
+    "host_name": "www.youtube.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/387742821_Comparative_Analysis_Value_at_Risk_VaR_with_Parametric_Method_Monte_Carlo_Simulation_and_Historical_Simulation_of_Mining_Companies_in_Indonesia",
+    "name": "Value at Risk (VaR) with Parametric Method, Monte Carlo",
+    "snippet": "This paper describes the use of the Monte Carlo method in the management of Value at Risk (VaR) of an investment portfolio.\nThis study aims to conduct a comparative analysis between three Value at Risk (VaR) calculation methods, namely the Parametric. This study uses ...",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mathworks.com/help/risk/estimate-var-using-parametric-methods.html",
+    "name": "Estimate VaR for Equity Portfolio Using Parametric Methods",
+    "snippet": "This example shows how to estimate the value-at-risk (VaR) for a portfolio of equity positions using two parametric methods, normal VaR and exponentially ...\nThis example shows how to estimate the value-at-risk (VaR) for a portfolio of equity positions using two parametric methods, normal VaR and exponentially ...",
+    "host_name": "www.mathworks.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://analystprep.com/study-notes/cfa-level-2/compare-the-parametric-variance-covariance-historical-simulation-and-monte-carlo-simulation-methods-for-estimating-var",
+    "name": "Methods for Estimating VaR | CFA Level II - AnalystPrep",
+    "snippet": "Compare parametric variance–covariance, historical simulation, and Monte Carlo methods for estimating VaR and their key assumptions.",
+    "host_name": "analystprep.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dataninjago.com/2025/01/17/coding-towards-cfa-35-the-monte-carlo-method-of-var-estimation",
+    "name": "The Monte Carlo Method of VaR Estimation",
+    "snippet": "Unlike the parametric or historical methods, the Monte Carlo method does not rely on strict assumptions about the distribution of returns or ...\nIt uses random simulations to model potential future scenarios and estimate the risk of losses in a portfolio based on the distribution of simulated portfolio ...",
+    "host_name": "dataninjago.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378475412001218",
+    "name": "A detailed comparison of value at risk estimates - ScienceDirect",
+    "snippet": "This work investigates the performance of different models of value at risk. We include several methods (parametric, historical simulation, Monte Carlo, and ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@rudakov.it/portfolio-var-optimisation-using-monte-carlo-simulation-and-genetic-algorithm-15e659ce6a40",
+    "name": "Portfolio VaR Optimisation using Monte Carlo Simulations  - Medium",
+    "snippet": "This article dives into a smart combo method for improving portfolio VaR by using Monte Carlo Simulation which creates thousands of possible ...",
+    "host_name": "medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/18/what-is-the-difference-between-the-methods-for-calculating-var",
+    "name": "What is the difference between the methods for calculating VaR?",
+    "snippet": "Monte Carlo simulation is computationally a lot more expensive than Historical Simulation or V-CV and requires that a large number of asset ...\nMonte Carlo simulation is computationally a lot more expensive than Historical Simulation or V-CV and requires that a large number of asset ...",
+    "host_name": "quant.stackexchange.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=1605&context=ypfs-documents",
+    "name": "[PDF] Value at Risk: Parametric Method, Monte Carlo Simulation",
+    "snippet": "The Parametric Model estimates VaR directly from the Standard Deviation of portfolio returns. It assumes that risk factor returns are normal ...\nThe Parametric Model estimates VaR directly from the Standard Deviation of portfolio returns. It assumes that risk factor returns are normal ...",
+    "host_name": "elischolar.library.yale.edu",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.uowoajournals.org/aabfj/article/1322/galley/1292/download",
+    "name": "[PDF] A Teaching Study using Parametric Computation and Monte Carlo",
+    "snippet": "There are several studies which compare the relative merits of historical, parametric and. Monte Carlo VaR approaches, for example Lechner & Ovaert (2010), ...",
+    "host_name": "www.uowoajournals.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

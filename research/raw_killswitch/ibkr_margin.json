@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.interactivebrokers.com/campus/glossary-terms/margin-call",
+    "name": "Margin Call - IBKR Campus",
+    "snippet": "Interactive Brokers does not make margin calls. Instead, real-time liquidations occur when an account has a margin deficiency.",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/interactivebrokers/comments/17bzq8o/how_quick_are_ibkr_to_liquidate_postmargin_call",
+    "name": "How quick are IBKR to liquidate post-margin call.",
+    "snippet": "As above.\n\nDoes anyone know if interactive brokers outlines their process for what happens - mainly timeline - after a margin call.\n\nAll I've seen is that ...",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "Jul 13, 2024",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quora.com/Does-Interactive-Brokers-use-any-particular-priority-order-for-liquidating-securities-in-your-account-to-meet-margin-requirements",
+    "name": "Does Interactive Brokers use any particular priority order",
+    "snippet": "Interactive Brokers generally does not issue margin calls and will liquidate positions in your account without prior notice to meet margin requirements.",
+    "host_name": "www.quora.com",
+    "rank": 2,
+    "date": "Jul 16, 2015",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/glossary-terms/liquidate-last",
+    "name": "Liquidate Last | IBKR Glossary | IBKR Campus",
+    "snippet": "If set to “Yes” this position will be put at the end of the queue to liquidate last in the case of margin requirements.",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.co.uk/en/general/education/pdfnotes/WN-UnderstandingIBMargin.php/1000",
+    "name": "Understanding IB Margin Webinar Notes",
+    "snippet": "IB will automatically liquidate positions in an account when the account equity falls below the minimum maintenance margin requirement.",
+    "host_name": "www.interactivebrokers.co.uk",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/glossary-terms/margin-warning",
+    "name": "Margin Warning | IBKR Glossary | IBKR Campus",
+    "snippet": "Real-time liquidations occur when your account has a margin deficiency. Generally, accounts will not have time to deposit funds to meet a margin deficiency.",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.elitetrader.com/et/threads/suffering-from-margin-call-constantly.373237",
+    "name": "suffering from margin call constantly",
+    "snippet": "In the recent a few months, I suffered from margin call almost every trading day. Although from my point of view my portfolio is hedged well ...",
+    "host_name": "www.elitetrader.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/glossary-terms/reg-t-margin",
+    "name": "Reg T Margin | IBKR Glossary",
+    "snippet": "Monitoring Interactive Brokers does not make margin calls. Instead, real-time liquidations occur when an account has a margin deficiency.",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=qT7VVOB906I",
+    "name": "Basics of Margin in Interactive Brokers",
+    "snippet": "Do you use Interactive Brokers or just want to understand the different types of margins? Tune in as Robert Falco of Real Life Trading goes ...",
+    "host_name": "www.youtube.com",
+    "rank": 8,
+    "date": "Jul 14, 2021",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/trading-lessons/monitoring-margin-in-tws",
+    "name": "Monitoring Margin in TWS | Trading Lesson",
+    "snippet": "This lesson is designed to help the investor understand the various places where margin is displayed before placing a single trade.",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

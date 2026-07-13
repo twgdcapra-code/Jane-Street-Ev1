@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://corpgov.law.harvard.edu/2014/03/20/risk-choice-under-high-water-marks",
+    "name": "Risk Choice under High-Water Marks",
+    "snippet": "The solution shows that the optimal risk choice is a function of the ratio of the fund's assets under management to its high-water mark.",
+    "host_name": "corpgov.law.harvard.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantt.co.uk/resources/calmar-ratio-explained",
+    "name": "Calmar Ratio: What It Is & How to Calculate It 2026",
+    "snippet": "The Calmar ratio is a risk-adjusted performance metric that measures an investment's annualised return divided by its maximum drawdown.",
+    "host_name": "www.quantt.co.uk",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.investopedia.com/terms/h/highwatermark.asp",
+    "name": "High-Water Mark: What It Means in Finance, With Examples",
+    "snippet": "An investment's high-water mark is the highest value a fund or portfolio reaches, used to determine when fund managers are paid performance fees.",
+    "host_name": "www.investopedia.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10066003",
+    "name": "Robust risk choice under high-water mark contract - PMC",
+    "snippet": "by C Mu · 2023 · Cited by 9 — A fund manager compensated by a high-water mark (hereafter, HWM) contract can freely trade a riskless asset and a risky asset, but has ambiguous beliefs about ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/trichyravis_calmar-ratio-in-portfolio-evaluation-activity-7411259538596818944-lEg5",
+    "name": "Calmar Ratio: Downside Risk Metric for Investors",
+    "snippet": "It measures the relationship between a fund's Compound Annual Growth Rate (CAGR) and its Maximum Drawdown (MDD) — the largest peak-to-trough ...\nIt measures the relationship between a fund's Compound Annual Growth Rate (CAGR) and its Maximum Drawdown (MDD) — the largest peak-to-trough ...",
+    "host_name": "www.linkedin.com",
+    "rank": 4,
+    "date": "Jan 14, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://archive.nyu.edu/bitstream/2451/31320/2/Risk_Choice_HWM.pdf",
+    "name": "Risk Choice Under High-Water Marks",
+    "snippet": "by I Drechsler · 2011 · Cited by 76 — I provide a closed-form solution to the optimal dynamic risk choice of a fund man- ager who is compensated under a high-water mark contract.",
+    "host_name": "archive.nyu.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://corporatefinanceinstitute.com/resources/career-map/sell-side/capital-markets/calmar-ratio",
+    "name": "Calmar Ratio - Overview, How To Calculate, Importance",
+    "snippet": "The Calmar ratio is a formula that measures the performance of an investment fund – such as a hedge fund – compared to its risk.\nA high ratio implies that it has higher returns on a risk-adjusted basis over the specified timeframe, usually set at 36 months. A high ratio ... Missing: protection | Show results with: protection",
+    "host_name": "corporatefinanceinstitute.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/education/files/simulation-based-framework-for-hedge-fund-evaluations.pdf",
+    "name": "A simulation-based methodology for evaluating hedge fund",
+    "snippet": "Calmar ratio is defined as the ratio of annualized excess return to the maximum drawdown. Calmar ratios in at least 89% of the scenarios among the worst ...\nCalmar ratio is defined as the ratio of annualized excess return to the maximum drawdown. 6 Though in this paper marginal portfolio contribution is measured ...\nCalmar ratio is defined as the ratio of annualized excess return to the maximum drawdown. 6 Though in this paper marginal portfolio contribution is measured ... Missing: protection policy",
+    "host_name": "www.cmegroup.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.aima.org/asset/584E197A-3BE1-4294-929E8F2DCD1C4350",
+    "name": "In Concert",
+    "snippet": "A high water mark can be applied to the calculation of the fund's performance fees, so that the fee is only paid on net new increases in the fund's asset value.",
+    "host_name": "www.aima.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/mastering-the-calmar-ratio-for-risk-analysis",
+    "name": "Mastering the Calmar Ratio for Risk Analysis | IBKR Quant",
+    "snippet": "Holistic Risk Assessment: Unlike standalone return metrics, the Calmar Ratio integrates drawdown, providing a comprehensive view of performance ...\nA higher Calmar Ratio indicates a better risk-adjusted return. Ongoing Monitoring: Regularly update the Calmar Ratio with current data to ...",
+    "host_name": "www.interactivebrokers.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

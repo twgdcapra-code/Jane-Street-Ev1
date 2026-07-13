@@ -63,6 +63,7 @@ import { SeasonalityAnalyzer } from "@/components/trading/SeasonalityAnalyzer";
 import { CorrelationArbitrage } from "@/components/trading/CorrelationArbitrage";
 import { FixProtocolAdapter } from "@/components/trading/FixProtocolAdapter";
 import { TcaDashboard } from "@/components/trading/TcaDashboard";
+import { KillSwitchPanel } from "@/components/trading/KillSwitchPanel";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -96,7 +97,8 @@ type ModuleId =
   | "seasonality"
   | "corrarb"
   | "fixadapter"
-  | "tca";
+  | "tca"
+  | "killswitch";
 
 interface ModuleDef {
   id: ModuleId;
@@ -134,6 +136,7 @@ const MODULES: ModuleDef[] = [
   { id: "corrarb", name: "Correlation Arbitrage", icon: Radar, description: "Live correlation matrix, breakdown alerts, lead-lag, risk regime" },
   { id: "fixadapter", name: "FIX Protocol Adapter", icon: Terminal, description: "FIX 4.4 session manager, message builder, tag reference, wire format" },
   { id: "tca", name: "TCA Dashboard", icon: Gauge, description: "Post-trade TCA: VWAP/arrival/IS benchmarks, slippage decomposition, MiFID II compliance" },
+  { id: "killswitch", name: "Kill Switch / Auto-Derisk", icon: ShieldAlert, description: "Real-time risk triggers: daily loss, VaR, drawdown, margin, circuit breakers, 16-rule latched kill" },
   { id: "research", name: "Research", icon: TrendingUp, description: "Factor analysis and cointegration tools" },
   { id: "system", name: "System Monitor", icon: Activity, description: "Latency, throughput, event log" },
 ];
@@ -365,6 +368,8 @@ function ModuleRenderer({ active, selectedSymbol }: { active: ModuleId; selected
       return <FixProtocolAdapter />;
     case "tca":
       return <TcaDashboard />;
+    case "killswitch":
+      return <KillSwitchPanel />;
     case "research":
       return <ResearchTerminal />;
     case "system":

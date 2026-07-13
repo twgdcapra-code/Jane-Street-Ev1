@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-17-algorithmic-trading",
+    "name": "Article 17 Algorithmic trading",
+    "snippet": "An investment firm that engages in algorithmic trading shall have in place effective systems and risk controls suitable to the business it operates.\nAn investment firm that provides direct electronic access to a trading venue shall notify the competent authorities of its home Member State and of the trading ...",
+    "host_name": "www.esma.europa.eu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.gfma.org/wp-content/uploads/2021/03/esma_algo_afme_responseform.pdf",
+    "name": "[PDF] Reply form for the Consultation Paper on the Algorithim Trading",
+    "snippet": "Article 17 of MiFID II Directive (EU 2014/65) are incompatible with the characteristics of other trading areas,\nArticle 17 of MiFID II Directive (EU 2014/65) are incompatible with the characteristics of other trading areas, of the trading venue.",
+    "host_name": "www.gfma.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tandfonline.com/doi/full/10.1080/17521440.2016.1200333",
+    "name": "MiFID II: regulating high frequency trading, other forms of algorithmic",
+    "snippet": "This article analyses and discusses the new MiFID II rules on high frequency trading (HFT), other forms of algorithmic trading (AT) and direct electronic ...",
+    "host_name": "www.tandfonline.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://www.mfaalts.org/wp-content/uploads/2017/09/ESMA-QA-on-MiFID-II-and-MiFIR-Market-Structures-Topics.pdf",
+    "name": "[PDF] Questions and Answers - Managed Funds Association",
+    "snippet": "Article 17 of MiFID II covers the trading activity that takes place on a trading venue. Therefore, OTC trading activity, such as the generation of quotes sent\nArticle 17 of MiFID II covers the trading activity that takes place on a trading venue. Therefore, OTC trading activity, such as the generation of quotes sent ...",
+    "host_name": "www.mfaalts.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fia.org/sites/default/files/2019-05/ESMA-MiFID2-CP-FIA-ASSOCIATIONS-ANNEX-1.pdf",
+    "name": "[PDF] esma_mifid2_cp_fia associations_annex 1: complete proposed",
+    "snippet": "The monitoring systems shall also provide alerts in relation to algorithms and DEA orders triggering circuit breakers implemented by the trading venue. Article ...",
+    "host_name": "www.fia.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emissions-euets.com/internal-electricity-market-glossary/1133-algorithmic-trading",
+    "name": "Algorithmic trading - Emissions-EUETS.com",
+    "snippet": "Algorithmic trading means trading in financial instruments where a computer algorithm automatically determines individual parameters of orders.",
+    "host_name": "www.emissions-euets.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.regulationtomorrow.com/2021/10/esma-publishes-mifid-ii-mifir-review-report-on-algo-trading-recommends-authorisation-of-third-country-hft-firms",
+    "name": "ESMA publishes MiFID II/MiFIR review report on algo trading",
+    "snippet": "ESMA considers that more transparency from trading venues with respect to their circuit breaker mechanisms would be beneficial for the markets",
+    "host_name": "www.regulationtomorrow.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://deutsche-boerse.com/resource/blob/274342/72022cf01c5820ff504011ea324696c4/lse-mifid-presentation-bramhoff-en-data.pdf",
+    "name": "[PDF] MiFID II - Requirements for testing and business clocks",
+    "snippet": "17 (1) MiFID II. MiFID II Systems resilience, circuit breakers and electronic trading: to avoid disorderly trading conditions",
+    "host_name": "deutsche-boerse.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nbim.no/contentassets/4e8243424e9e4d4091a05d70fc46aa8e/consultation-on-algorithmic-trading.pdf",
+    "name": "[PDF] Re: Consultation on the MiFID II/MiFIR review report on Algorithmic",
+    "snippet": "We find that market developments such as the use of trading venues operating under transparency waivers and the increased use of periodic batch ...",
+    "host_name": "www.nbim.no",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cssf.lu/en/operation-of-trading-venue",
+    "name": "Operation of a trading venue - CSSF",
+    "snippet": "Below you find explanations on some specific MiFID requirements for trading venues that have required the introduction of specific forms.",
+    "host_name": "www.cssf.lu",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

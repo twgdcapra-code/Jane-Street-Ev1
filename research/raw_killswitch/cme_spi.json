@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.cmegroup.com/trading/price-limits.html",
+    "name": "Price Limits: Ags, Energy, Metals, Equity Index - CME Group",
+    "snippet": "Markets may temporarily halt until price limits can be expanded, remain in a limit condition or stop trading for the day, based on regulatory rules.",
+    "host_name": "www.cmegroup.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/trading/equity-index/us-based-equity-index-futures-price-limits-faq.html",
+    "name": "US-Based Equity Index Futures Price Limits: Frequently Asked Questions",
+    "snippet": "If a limit condition exists at the end of the two-minute monitoring period, a two-minute trading halt occurs for the primary futures contract ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ampfutures.com/news/cme-price-limit-guide-trading-halted-levels-mar-2020",
+    "name": "CME Price Limit Guide - Trading Halted Levels - June 2021",
+    "snippet": "trading halt 10 minutes after the halt is instituted. 5:00 p.m.",
+    "host_name": "www.ampfutures.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/education/articles-and-reports/understanding-price-limits-and-circuit-breakers",
+    "name": "Understanding Price Limits and Circuit Breakers - CME Group",
+    "snippet": "The 7% and 13% circuit breakers are each followed by 10-minute trading halts; if the 20% level is reached, the market closes for the trading ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.optiver.com/insights/explainers/an-illustrated-guide-to-price-controls-on-us-exchanges",
+    "name": "An illustrated guide to price controls on US exchanges - Optiver",
+    "snippet": "These controls suspend trading whenever prices breach an upper or lower bound (e.g., +/- 5%) that is set relative to a rolling lookback window, for instance ...",
+    "host_name": "www.optiver.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cftc.gov/media/9581/gmac_FIA110623/download",
+    "name": "[PDF] Best Practices for Exchange Volatility Control Mechanisms - CFTC",
+    "snippet": "During overnight hours, if the market moves beyond 3.5%, up or down, within an hour, trading is paused for two minutes. Dynamic circuit breakers are discussed ...",
+    "host_name": "www.cftc.gov",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/trading/equity-index/sp-500-price-limits-faq.html",
+    "name": "S&P 500 Price Limits: Frequently Asked Questions - CME Group",
+    "snippet": "Trading will resume 10 minutes after the trading halt commenced, with price limits expanded to Level 2 (13%). The primary futures contract ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cmegroupclientsite.atlassian.net/wiki/display/EPICSANDBOX/E-Mini+Standard+and+Poors+500+Futures",
+    "name": "CME E-Mini S&P 500, Micro E-mini S&P 500 Futures Daily Settlement",
+    "snippet": "Daily settlement of the E-Mini S&P 500 (ES) and Micro E-mini S&P 500 (MES) futures are derived according to the procedure below.",
+    "host_name": "cmegroupclientsite.atlassian.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/markets/equities/sp/e-mini-sandp500.html",
+    "name": "E-mini S&P 500 Futures Overview - CME Group",
+    "snippet": "ES futures offer significantly more daily liquidity, at 8x the value of all S&P 500 ETFs combined, including SPY, IVV and VOO.",
+    "host_name": "www.cmegroup.com",
+    "rank": 8,
+    "date": "Jul 10, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.itg-futures.com/images/2018/PDF/sandp-500-futures-options.pdf",
+    "name": "[PDF] S&P 500 Futures and Options on Futures - CME Group",
+    "snippet": "Trading Hours. GLBX: Monday - Friday 5:00 p.m. previous day -. 4:00 p.m.; trading halt from 3:15 p.m. - 3:30 p.m.. OO: Monday - Friday 8:30 a.m. - 3:15 p.m..",
+    "host_name": "www.itg-futures.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]
