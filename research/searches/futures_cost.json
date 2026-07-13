@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.cmegroup.com/education/courses/understanding-stir-futures/understanding-the-importance-of-basis-point-value",
+    "name": "Understanding the importance of Basis Point Value",
+    "snippet": "The basis point value in SOFR futures is defined as $25. Therefore, a 5 basis point move equates to $125.00. 5 basis points x $25.00/ basis point = $125.00.",
+    "host_name": "www.cmegroup.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.financialresearch.gov/briefs/files/OFRBr_2020_01_Basis-Trades.pdf",
+    "name": "Basis Trades and Treasury Market Illiquidity",
+    "snippet": "Cited by 27 — The Treasury futures basis trade seeks to exploit the price difference between cash Treasury securities and Treasury futures . 18 pages",
+    "host_name": "www.financialresearch.gov",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.stonex.com/en-us/business/financial-glossary/basis-points",
+    "name": "Basis points and their significance in financial markets",
+    "snippet": "In finance, basis points ( BPS ) are a unit of measure that communicate small changes in percentages. One basis point equals 1/100 of 1% or 0.01%.",
+    "host_name": "www.stonex.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.apolloacademy.com/what-is-the-basis-trade",
+    "name": "What Is the Basis Trade?",
+    "snippet": "Apr 8, 2025 — The basis is the difference in price between a Treasury security and a Treasury futures contract with similar characteristics.",
+    "host_name": "www.apolloacademy.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://sgt.markets/understanding-basis-points-in-trading",
+    "name": "Understanding Basis Points in Trading",
+    "snippet": "Basis points can also be used to describe changes in stock ...",
+    "host_name": "sgt.markets",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://kvasudevan.com/papers/hmv_bbb.pdf",
+    "name": "Liquidity Demand and Deviations from the Law of One Price",
+    "snippet": "Cited by 42 — Deviations from the law of one price between futures and spot prices – the futures -cash basis – capture information about liquidity demand for equity market ... 66 pages",
+    "host_name": "kvasudevan.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nber.org/system/files/working_papers/w26773/revisions/w26773.rev0.pdf",
+    "name": "Leverage Demand and Deviations from the Law of One Price",
+    "snippet": "Deviations from the law of one price between futures and spot prices, known as bases, reflect the difference between interest rates implied in futures ... 85 pages",
+    "host_name": "www.nber.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.investopedia.com/terms/b/basispoint.asp",
+    "name": "Basis Point: Meaning, Value, and Uses",
+    "snippet": "Basis points are typically expressed with the abbreviations \"bp,\" \" bps ,\" or \"bips.\" A basis point ( BPS ) is a way to show changes in interest rates or yields.",
+    "host_name": "www.investopedia.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.econstor.eu/bitstream/10419/168351/1/896844366.pdf",
+    "name": "Illiquidity transmission from spot to futures markets",
+    "snippet": "2017 · Cited by 4 — Our liquidity measure for day t thus captures the average illiquidity costs , measured in basis points ( bps ), that would be incurred by a round-trip trade of a ... 67 pages",
+    "host_name": "www.econstor.eu",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mbrenndoerfer.com/writing/transaction-costs-market-impact-liquidity-modeling",
+    "name": "Transaction Costs & Market Impact: Models & Analysis",
+    "snippet": "Master transaction cost analysis and market impact modeling. Estimate spread, slippage, and liquidity to build realistic backtests and execution strategies.",
+    "host_name": "mbrenndoerfer.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

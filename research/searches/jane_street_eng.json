@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.instagram.com/reel/DY7gFe2Bkm6/?hl=en",
+    "name": "Jane Street is one of the most advanced trading firms  - Instagram",
+    "snippet": "Some of its systems make tiny decisions in nanoseconds. Others study the market over milliseconds, hours, or even a full day. The faster the ...",
+    "host_name": "www.instagram.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com",
+    "name": "Jane Street Blog",
+    "snippet": "At Jane Street, we've been actively making improvements to OCaml for a long time. Over the last few years, we've started to build some fairly... By: Leo ...",
+    "host_name": "blog.janestreet.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=32314623",
+    "name": "Understanding Jane Street | Hacker News",
+    "snippet": "This article is way above average for online posts about proprietary/algorithmic/quantitative/low-latency trading (very leaky Venn diagram there).",
+    "host_name": "news.ycombinator.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=zR9PpXWsKFQ",
+    "name": "Production Engineering When Trading Billions of Dollars a Day - YouTube",
+    "snippet": "What's it like to monitor and operate software that trades billions of dollars a day on stock markets around the world?",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://signalsandthreads.com/finding-signal-in-the-noise",
+    "name": "Finding Signal in the Noise: Machine Learning and the Markets",
+    "snippet": "Listen in on Jane Street's Ron Minsky as he has conversations with engineers working on everything from clock synchronization to reliable ...",
+    "host_name": "signalsandthreads.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/tp23_interesting-peice-on-jane-streets-sneaky-activity-7345912545443987458-hia9",
+    "name": "Interesting peice on “Jane Street's sneaky retention tactic”. - LinkedIn",
+    "snippet": "Jane Street re-wrote it's “core trading system” with an OCaml fork, OxCaml. That means you can test, optimize, and deploy trading algorithms, ...",
+    "host_name": "www.linkedin.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@navnoorbawa/market-making-alpha-how-virtu-won-1-237-days-and-why-jane-street-keeps-ending-up-in-court-6894a05cd980",
+    "name": "Market Making Alpha: How Virtu Won 1,237 Days — and Why Jane Street",
+    "snippet": "The model divides counterparties into two populations: informed traders who know the asset's true value and trade profitably against the market ...",
+    "host_name": "medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://algoalpha.webflow.io/blog/inside-modern-market-makers",
+    "name": "How Market Makers Make Money: Inside Jane Street | Algo Alpha",
+    "snippet": "When the firms that sit at the center of price formation are software-driven risk machines, the market itself has become algorithmic at its foundation.",
+    "host_name": "algoalpha.webflow.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1jpqd1s/why_does_jane_street_use_purely_ocaml",
+    "name": "Why does Jane street use purely Ocaml : r/ExperiencedDevs - Reddit",
+    "snippet": "I just learnt that Jane street uses Ocaml for pretty much everything. I also assume that they have a lot of talented developers and are very smart people.",
+    "host_name": "www.reddit.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/tech-talks/safe-at-any-speed",
+    "name": "Safe at Any Speed: Building a Performant, Safe, Maintainable",
+    "snippet": "In this talk, we're going to explore how to build a highly optimized single-core packet processing system that is capable of processing millions of messages ...",
+    "host_name": "www.janestreet.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

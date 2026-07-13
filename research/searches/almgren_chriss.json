@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.cis.upenn.edu/~mkearns/finread/costestim.pdf",
+    "name": "Direct Estimation of Equity Market Impact",
+    "snippet": "by R Almgren · 2005 · Cited by 733 — We reject the com- mon square-root model for temporary impact as function of trade rate, Almgren and Chriss (2000)",
+    "host_name": "www.cis.upenn.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mfe.baruch.cuny.edu/wp-content/uploads/2012/09/Chicago2016OptimalExecution.pdf",
+    "name": "Three models of market impact",
+    "snippet": "by J Gatheral · Cited by 8 — Recall that in Almgren-Chriss style models, VWAP is optimal if there is no risk penalty. Optimal strategies in the three models are as follows:",
+    "host_name": "mfe.baruch.cuny.edu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.smallake.kr/wp-content/uploads/2016/03/optliq.pdf",
+    "name": "Optimal Execution of Portfolio Transactions∗",
+    "snippet": "by R Almgren · 2000 · Cited by 2437 — We consider the execution of portfolio transactions with the aim of minimizing a combination of volatility risk and transaction costs aris- ing from permanent ...",
+    "host_name": "www.smallake.kr",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2167059_code434076.pdf?abstractid=2038387&mirid=1",
+    "name": "OPTIMAL EXECUTION HORIZON",
+    "snippet": "THE SQUARE ROOT RULE Loeb [1983] was the first to present empirical evidence that market impact is a square root function of the order size.",
+    "host_name": "papers.ssrn.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/optimal-execution-strategies-almgren-chriss-model",
+    "name": "Optimal Execution Strategies - Almgren-Chriss Model",
+    "snippet": "The Almgren-Chriss model schedules large orders by balancing market impact against timing risk, minimizing total execution cost for optimal trade execution.",
+    "host_name": "questdb.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2601.13421v2",
+    "name": "Market Making and Transient Impact in Spot FX",
+    "snippet": "Optimal market making with execution has previously been addressed within Almgren-Chriss market impact model, with instantaneous and permanent ...",
+    "host_name": "arxiv.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cfe.columbia.edu/sites/default/files/content/slides/2024/(Talk%203)%20Fengpei%20Li%20(Morgan%20StanleyDock).pdf",
+    "name": "Do price trajectory data increase the efficiency of market",
+    "snippet": "Main findings. • Standard estimation method on market Impact models could be \"inefficient.\" • For Almgren-Chriss model, there is an \"optimal\" calibration.",
+    "host_name": "cfe.columbia.edu",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dm13450.github.io/2024/06/06/Solving-the-Almgren-Chris-Model.html",
+    "name": "Solving the Almgren Chris Model",
+    "snippet": "The Almgren Chris model from Optimal Execution of Portfolio Transactions is the most well known optimal execution model and provides the foundational math.\nThe Almgren Chris model from Optimal Execution of Portfolio Transactions is the most well known optimal execution model and provides the foundational math about how to think about trading some quantity of an asset.",
+    "host_name": "dm13450.github.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/cfm-imperial-institute-of-quantitative-finance/events/Lillo-Imperial-Lecture3.pdf",
+    "name": "Market impact models and optimal execution algorithms",
+    "snippet": "Optimal execution in the Almgren-Chriss model (with risk). By adding the variance of the cost as a penalizing risk term. Var Z. T. 0. Xt dSX t.\nAlmgren and Chriss assume a market impact which is linear, fixed, and permanent. We have seen in the previous lectures that, due to the correlation of the order flow, market impact is transient, i.e. the past order flow a↵ects future price impacts.",
+    "host_name": "www.imperial.ac.uk",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/understanding-almgren-chriss-model-optimal-portfolio-execution-pal-pmeqc",
+    "name": "Understanding the Almgren-Chriss Model for Optimal",
+    "snippet": "The essence of the Almgren-Chriss model lies in balancing the trade-off between minimizing market impact costs and controlling execution risk.\nDeveloped by Robert Almgren and Neil Chriss in 1999, this model provides a rigorous mathematical approach to executing large trades optimally by balancing the trade-off between market...",
+    "host_name": "www.linkedin.com",
+    "rank": 9,
+    "date": "Jul 13, 2024",
+    "favicon": ""
+  }
+]

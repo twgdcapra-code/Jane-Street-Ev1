@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.talos.com/insights/execution-insights-through-transaction-cost-analysis-tca-benchmarks-and-slippage",
+    "name": "Execution Insights Through Transaction Cost Analysis (TCA): Benchmarks and Slippage",
+    "snippet": "Learn how to measure trade execution performance using TCA benchmarks like arrival price, TWAP and VWAP.",
+    "host_name": "www.talos.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@anboto_labs/slippage-benchmarks-and-beyond-transaction-cost-analysis-tca-in-crypto-trading-2f0b0186980e",
+    "name": "Slippage, Benchmarks and Beyond: Transaction Cost Analysis (TCA) in Crypto Trading | by Anboto Labs | Medium",
+    "snippet": "TWAP slippage, which compares the execution price to a TWAP (Time-Weighted Average Price) benchmark over the order's active period. VWAP ...",
+    "host_name": "medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/know-your-benchmark-joseph-signorelli",
+    "name": "Know Your Benchmark - LinkedIn",
+    "snippet": "TCA metrics can be broadly categorized as price-based or volume-based. Price-based metrics typically represent a measure of slippage from a defined benchmark.",
+    "host_name": "www.linkedin.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/1904.01566",
+    "name": "[PDF] Bayesian Trading Cost Analysis and Ranking of Broker Algorithms - arXiv",
+    "snippet": "The VWAP benchmark is often seen by traders as a fair price over a given time horizon is controlled by the duration of the execution.",
+    "host_name": "arxiv.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://static.autobahn.db.com/microSite/docs/Tca_Extensions.pdf",
+    "name": "[PDF] DB Quant Research – Americas - Deutsche Bank Autobahn",
+    "snippet": "In a standard post-trade TCA we define trading cost as slippage vs a conventional benchmark, such as Arrival Price, VWAP, PWP. We compute ...",
+    "host_name": "static.autobahn.db.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://chain.link/article/twap-and-vwap-pricing-mechanisms",
+    "name": "Understanding TWAP and VWAP Pricing Mechanisms - Chainlink",
+    "snippet": "The formula multiplies the price of each trade by its volume, sums these values over the desired period, and divides the total by the cumulative ...",
+    "host_name": "chain.link",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.plus-concepts.com/f2f2013/seoul/PDF/1540%20-%20Joel%20Kim,%20Dataroad.pdf",
+    "name": "[PDF] Actionable and Comparable Transaction Cost Analysis - Plus Concepts",
+    "snippet": "benchmark price TC% = PExecuted − PBenchmark … ▶ VWAP (Volume Weighted Average Price) interval VWAP ▶ Arrival Price. Realtime-TCA . □ provide market-indicators ...",
+    "host_name": "www.plus-concepts.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.thetradenews.com/thought-leadership/vwap-arrival-a-dynamic-approach-to-reducing-arrival-slippage",
+    "name": "VWAP-Arrival: A dynamic approach to reducing arrival slippage - The Trade news",
+    "snippet": "VWAP-Arrival improved median spread-adjusted arrival slippage by 4.9 bps compared to a market-adjusted benchmark.",
+    "host_name": "www.thetradenews.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://analystprep.com/study-notes/cfa-level-iii/benchmarks-for-trade-execution",
+    "name": "Benchmarks for Trade Execution - CFA, FRM, and Actuarial Exams Study Notes - AnalystPrep",
+    "snippet": "The most common intraday benchmarks used in trading are volume-weighted average price (VWAP) and time-weighted average price (TWAP). Volume ...",
+    "host_name": "analystprep.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.amberdata.io/comparing-global-vwap-and-twap-for-better-trade-execution",
+    "name": "Comparing Global VWAP and TWAP for Better Trade Execution - Amberdata Blog",
+    "snippet": "TWAP is an average price calculated over a set time interval, weighting each time period equally, regardless of volume. Typically, you break the ...",
+    "host_name": "blog.amberdata.io",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

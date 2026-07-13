@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://rpc.cfainstitute.org/blogs/enterprising-investor/2026/new-demands-optimal-execution-machine-learning",
+    "name": "The New Demands of Optimal Execution | EI Blog",
+    "snippet": "First, price impact is concave in trade size. Larger trades do cost more, but not proportionally more. This is the well-known square-root law: ...",
+    "host_name": "rpc.cfainstitute.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2506.11813",
+    "name": "[PDF] Optimal Execution under Liquidity Uncertainty - arXiv",
+    "snippet": "We study an optimal execution strategy for purchasing a large block of shares over a fixed time horizon. The execution problem is subject to a general price ...",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.applied-financial-mathematics.de/sites/default/files/Portfolio_liquidation_under_transient_price_impact___Applied_Mathematical_Finance.pdf",
+    "name": "[PDF] Optimal Trade Execution Strategy and Implementation with",
+    "snippet": "In this paper, we present an explicit solution for a continuous optimal trade execution problem, considering deterministic instantaneous, ...",
+    "host_name": "www.applied-financial-mathematics.de",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/a/hin/jnddns/4721596.html",
+    "name": "Optimal Trade Execution under Jump Diffusion Process",
+    "snippet": "our paper proposes a Jump Diffusion model for optimal execution problem. The jumps in our model are described by the compound Poisson process where random jump ...",
+    "host_name": "ideas.repec.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1654151",
+    "name": "Optimal Trade Execution under Geometric Brownian Motion in the",
+    "snippet": "With an alternative choice of risk criterion, we solve the HJB equation explicitly to ﬁnd a closed-form solution for the optimal trade execution",
+    "host_name": "papers.ssrn.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cs224r.stanford.edu/spring_2025/projects/pdfs/CS224r_final_paper%20(4).pdf",
+    "name": "[PDF] Extended Abstract - CS 224R Deep Reinforcement Learning",
+    "snippet": "The optimal trade execution problem. We model price movements as a random walk (diffusion) with drift 0 for simplicity, capturing the volatile nature of ...",
+    "host_name": "cs224r.stanford.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ijcai.org/proceedings/2020/0627.pdf",
+    "name": "[PDF] An End-to-End Optimal Trade Execution Framework based on",
+    "snippet": "In this article, we propose an end-to-end adaptive framework for optimal trade execution based on Proximal Policy Optimization (PPO).",
+    "host_name": "www.ijcai.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/377662310_Optimal_trade_execution_in_cryptocurrency_markets",
+    "name": "Optimal trade execution in cryptocurrency markets - ResearchGate",
+    "snippet": "We formulate an optimal execution strategy that minimizes the trading fees charged by the exchange. We further provide a proof for the existence ...",
+    "host_name": "www.researchgate.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scispace.com/pdf/optimal-trade-execution-under-jump-diffusion-process-a-mean-1gplp1wkef.pdf",
+    "name": "[PDF] Optimal Trade Execution under Jump Diffusion Process - SciSpace",
+    "snippet": "In their trading model, a closed-form solution to the optimal execution problem is given in continuous time, and the price impact is divided into temporary ...",
+    "host_name": "scispace.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.kissellresearch.com/general-9-1",
+    "name": "Pre-Trade - Kissell Research Group",
+    "snippet": "The model assists funds in determining the most appropriate best execution strategy given the specific investment objectives of the manager. The pre-trade model ...",
+    "host_name": "www.kissellresearch.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -289,3 +289,58 @@ Stage Summary:
 - Modified: news-sentiment.ts (+1 line url field), seasonality.ts (+215 lines backtest engine), store.ts (+50 lines correlation alerts + import), NewsSentiment.tsx (272 lines, full rewrite), FixProtocolAdapter.tsx (494 lines, full rewrite), SeasonalityAnalyzer.tsx (+200 lines backtest view)
 - All tsc + lint clean
 - 29 sidebar modules remain unchanged — these were enhancements to existing modules 4, 5, 7 + bell icon
+
+---
+Task ID: 7 (Module 12: TCA Dashboard)
+Agent: Main agent
+Task: Build Module 12 — TCA Dashboard (Post-trade analysis: VWAP, arrival price, implementation shortfall, slippage decomposition) — using verified-build workflow
+
+Work Log:
+- Research subagent produced /home/z/my-project/research/tca.md (6,515 words, 18 web searches) covering: Perold 1988 IS framework, slippage decomposition (spread + market impact (square-root model κ=0.142) + timing + opportunity + commission), benchmark choice (arrival / midpoint / VWAP / prev close), MiFID II RTS 28 / SEC 605/606 compliance, Jane Street / Citadel / Jump closed-loop internal TCA practices, Almgren-Chriss / Kissell-Morton impact models
+- Extended types.ts: added arrivalPrice/arrivalBid/arrivalAsk/arrivalMid/arrivalVwap to Order interface; added arrivalPrice/arrivalMid/arrivalVwap/orderType/tag to Fill interface
+- Updated store.ts placeOrder(): captures arrival benchmark snapshot (last/bid/ask/mid/vwap) from quote at order-decision time, stores on Order
+- Updated store.ts applyFill(): copies arrival data + orderType + tag from Order onto each Fill (denormalised for convenient per-fill TCA without join)
+- Created /src/lib/trading/tca.ts (464 lines):
+  - FillTCA: per-fill analysis (slippage vs ARRIVAL/MIDPOINT/VWAP/PREV_CLOSE benchmarks, spread/impact/timing/opportunity/commission decomposition, effective spread, size bucket)
+  - OrderTCA: per-order aggregate (qty-weighted slippage, fill rate, participation rate, execution duration, opportunity cost from unfilled portion)
+  - SymbolTCA: per-symbol aggregate (notional-weighted averages, buy/sell split, worst/best fill tracking)
+  - SessionTCA: full session aggregate (size buckets TINY/SMALL/MEDIUM/LARGE/BLOCK, slippage histogram 9 buckets, bySymbol, byOrderType, byStrategy, cumulative cost time series)
+  - ComplianceStat + computeComplianceStats(): 6 MiFID II / SEC best-execution checks (avg slippage, spread ratio, impact ratio, fill rate, commission bps, buy/sell asymmetry) with PASS/REVIEW/FAIL thresholds
+  - Square-root market impact: impact_bps = κ × σ × √(Q/ADV) × 10000 with κ=0.142 calibrated for liquid index futures
+  - Size bucket classification by notional: TINY <$25k, SMALL <$100k, MEDIUM <$500k, LARGE <$2M, BLOCK ≥$2M
+- Created /src/components/trading/TcaDashboard.tsx (608 lines) with 6 views:
+  1. Overview: 6 stat cards (Fills/Notional/Slippage/Impact/Cost/Commission), slippage histogram, cumulative cost chart, slippage by size bucket, slippage buy vs sell, by-order-type table, by-strategy table
+  2. Per-Fill: 16-column table (Time/Symbol/Side/Qty/FillPx/Arrival/Slip/Spread/Impact/Timing/Comm/Total/Cost$/Bucket/Type), sortable, filterable by symbol, benchmark switcher
+  3. Per-Order: 19-column table (OrderID/Symbol/Side/OrdQty/Filled/FillRate/AvgPx/Arrival/SlipArr/SlipVWAP/Spread/Impact/Timing/OppCost/Comm/Total$/PartRate/Duration/Bucket)
+  4. Per-Symbol: 16-column table (Symbol/Name/Fills/Qty/Notional/SlipArr/SlipVWAP/Spread/Impact/Timing/Comm/TotalCost/BuySlip/SellSlip/WorstFill/BestFill)
+  5. Decomposition: horizontal bar chart of 5 cost components + breakdown table with % of total + Perold IS identity row
+  6. Compliance: MiFID II / SEC 605/606 status header (PASS/REVIEW/FAIL counts), 6-row compliance metrics table, session cost summary card
+- Wired into sidebar as module #30 "TCA Dashboard" with Gauge icon
+- All additive except: types.ts (+12 lines Order/Fill extensions), store.ts (+14 lines arrival capture + applyFill denormalisation), page.tsx (+3 lines import + ModuleId + MODULES + switch case)
+
+Verification:
+- npx tsc --noEmit -p tsconfig.json: 0 errors in src/
+- bun run lint: 0 errors, 0 warnings
+- Dev server: HTTP 200 on /
+- agent-browser tests:
+  - TCA Dashboard appears as module #30 in sidebar
+  - Empty state renders when no fills
+  - After placing market order via Dashboard, fills appear in TCA
+  - Overview view: 6 stat cards + slippage histogram + cumulative cost chart + size bucket chart + buy/sell chart + by-type + by-strategy tables all render
+  - Per-Fill view: 16-column table renders with real fill data, sortable, filterable
+  - Per-Order view: 19-column table renders with participation rate + execution duration
+  - Per-Symbol view: 16-column table with buy/sell slippage split + worst/best fill tracking
+  - Decomposition view: horizontal bar chart + breakdown table with Perold identity row
+  - Compliance view: "6 passed · 0 need review · 0 failed" — all MiFID II checks pass with green badges
+- Screenshots: tca_overview.png, tca_per_symbol.png, tca_decomposition.png, tca_compliance.png saved to /home/z/my-project/download/
+
+Stage Summary:
+- Module 12 (TCA Dashboard) delivered end-to-end
+- 30 sidebar modules total (was 29)
+- New files: tca.ts (464 lines), TcaDashboard.tsx (608 lines)
+- Modified: types.ts (+12 lines), store.ts (+14 lines), page.tsx (+3 lines)
+- 0 TypeScript errors, 0 lint errors, 0 console errors
+- Research report saved to /home/z/my-project/research/tca.md (6,515 words)
+- Implements full Perold (1988) Implementation Shortfall framework with 5-component slippage decomposition
+- MiFID II RTS 28 / SEC 605/606 compliance checks integrated
+- Square-root market impact model (κ=0.142, Almgren-Chriss / Bouchaud)

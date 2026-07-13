@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.quantitativebrokers.com/applications",
+    "name": "QB Algo Suite | Trading Applications | Order Entry Screens",
+    "snippet": "This service is coupled with QB's proprietary TCA platform, allowing for thorough performance reviews of all orders executed in the Simulator.",
+    "host_name": "www.quantitativebrokers.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantitativebrokers.com/cash-treasuries",
+    "name": "Best Execution | U.S Cash Treasuries - Quantitative Brokers",
+    "snippet": "The QB Algo Suite provides a range of sophisticated and constantly optimized strategies to better forecast and navigates short and long-term price movements.",
+    "host_name": "www.quantitativebrokers.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://thehedgefundjournal.com/quantitative-brokers-10-years-of-optimizing-execution",
+    "name": "Quantitative Brokers - The Hedge Fund Journal",
+    "snippet": "Our smart order router is a real innovation for Cash Treasuries, addressing the toxicity of venues in the space and linking into our algorithmic mindset.",
+    "host_name": "thehedgefundjournal.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantitativebrokers.com",
+    "name": "Quantitative Brokers: Advanced Trading Solutions",
+    "snippet": "Quantitative Brokers (QB) is an independent provider of execution algorithms serving the Futures, US Cash Treasury, and Options markets with strategies",
+    "host_name": "www.quantitativebrokers.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://finadium.com/quantitative-brokers-launches-smart-order-routing-tool-for-us-treasuries",
+    "name": "Quantitative Brokers launches smart order routing tool for US treasuries",
+    "snippet": "The tool is a liquidity allocator that dynamically shifts “child orders” across venues, intra-trade as it sees the potential for price ...",
+    "host_name": "finadium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/quantitative-brokers_options-unlocking-liquidity-in-thin-markets-activity-7331335596491112450-cb6m",
+    "name": "How QB's Striker algorithm handles volatility in options markets - LinkedIn",
+    "snippet": "QB's Striker algorithm is built to seize that opportunity in options on futures markets. Designed specifically for navigating volatile options ...",
+    "host_name": "www.linkedin.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantitativebrokers.com/listed-options",
+    "name": "Best Execution | Options on Futures | Listed Options - Quantitative Brokers",
+    "snippet": "Quantitative Brokers' offers provide an exclusive algorithm for options trading - empowering traders to analyze, customize and execute in bespoke markets.",
+    "host_name": "www.quantitativebrokers.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/company/quantitative-brokers",
+    "name": "Quantitative Brokers | LinkedIn",
+    "snippet": "Quantitative Brokers' goal is to be the world's market leading provider of Quantitative Research driven Execution Algorithms for Listed and OTC financial ...",
+    "host_name": "www.linkedin.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.prnewswire.com/news-releases/quantitative-brokers-launches-prism-the-next-gen-smart-order-routing-tool-for-us-treasuries-301534045.html",
+    "name": "QUANTITATIVE BROKERS LAUNCHES PRISM, THE NEXT",
+    "snippet": "Prism, already fully integrated with QB's entire algorithmic suite, is the first smart order router of its kind and purpose-built to achieve the ...",
+    "host_name": "www.prnewswire.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantitativebrokers.com/blog/spinning-the-wheel",
+    "name": "QB Blog | Spinning The Wheel | Intelligent Execution | Algo Trading",
+    "snippet": "It provides an automated approach to allocating trades across various brokers and algorithms within their EMS.",
+    "host_name": "www.quantitativebrokers.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

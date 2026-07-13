@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://arxiv.org/html/2502.13722v2",
+    "name": "Deep Learning for VWAP Execution in Crypto Markets - arXiv",
+    "snippet": "In this study, I propose a deep learning framework that directly optimizes the VWAP execution objective by bypassing the intermediate step of volume curve ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://univ-paris-dauphine.hal.science/hal-05434735v1/file/ssrn-5150912.pdf",
+    "name": "[PDF] Deep Learning for VWAP Execution in Crypto Markets - HAL Dauphine",
+    "snippet": "In this study, I propose a deep learning framework that directly optimizes the VWAP execution objective by bypassing the intermediate step of ...",
+    "host_name": "univ-paris-dauphine.hal.science",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.globaltrading.net/better-than-average",
+    "name": "Better Than Average - Global Trading",
+    "snippet": "VWAP execution can essentially be reduced to a problem of choosing an optimal trading curve and minimising volume slippage.",
+    "host_name": "www.globaltrading.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=evc7EhBWbh0",
+    "name": "The Anchored VWAP Edge Most Traders Never Discover (Trading",
+    "snippet": "... learning curve. That's why I'm passionate about sharing the foundational tools that have worked for me throughout my entire career. Tools ...",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "Jul 10, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5150912",
+    "name": "Deep Learning for VWAP Execution in Crypto Markets",
+    "snippet": "In this study, I propose a deep learning framework that directly optimizes the VWAP execution objective by bypassing the intermediate step of volume curve ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cube.exchange/what-is/vwap-order",
+    "name": "What is a VWAP Order? | Cube Exchange",
+    "snippet": "A VWAP order spreads trading according to expected volume. If market volume is uneven through the day, TWAP ignores that and VWAP uses it.",
+    "host_name": "www.cube.exchange",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.investopedia.com/terms/v/vwap.asp",
+    "name": "Volume-Weighted Average Price (VWAP): Definition and Calculation",
+    "snippet": "Attempting to create an average VWAP over many days could distort it and result in an incorrect indicator. WAP could mean a missed opportunity if prices are ...",
+    "host_name": "www.investopedia.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tradingsim.com/blog/vwap-indicator-guide",
+    "name": "VWAP Indicator Guide: Fair Value Trading 2026 - TradingSim",
+    "snippet": "If they buy too fast, they spike the price (slippage). To avoid this, they must trade slowly, spreading orders out to match the \"VWAP Curve\"",
+    "host_name": "www.tradingsim.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://concretumgroup.com/volume-weighted-average-price-vwap-the-holy-grail-for-day-trading-systems",
+    "name": "Volume Weighted Average Price (VWAP) The Holy Grail for Day",
+    "snippet": "This research paper examines how the Volume Weighted Average Price (VWAP) indicator can be used to detect market imbalances and support systematic day trading ...",
+    "host_name": "concretumgroup.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/figure/Examples-of-trading-curves-for-a-VWAP-strategy-linear-permanent-market-impact-and_fig1_237145755",
+    "name": "Examples of trading curves for a VWAP strategy (linear permanent",
+    "snippet": "In this paper I propose a novel approach to Volume Weighted Average Price (VWAP) execution that addresses two key practical challenges: the need for asset- ...",
+    "host_name": "www.researchgate.net",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

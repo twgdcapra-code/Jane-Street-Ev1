@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.cmegroup.com/articles/2026/what-is-the-true-cost-of-trading-in-fx-markets.html",
+    "name": "What is the True Cost of Trading in FX Markets?",
+    "snippet": "Our analysis shows that FX futures can be materially cheaper than CFDs, offering an average all-in transaction cost saving of 22% for a five-day ...",
+    "host_name": "www.cmegroup.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.talos.com/insights/execution-insights-through-transaction-cost-analysis-tca-benchmarks-and-slippage",
+    "name": "Execution Insights Through Transaction Cost Analysis (TCA)",
+    "snippet": "Learn how to measure trade execution performance using TCA benchmarks like arrival price, TWAP and VWAP.\nTo effectively navigate these complexities, a robust Transaction Cost Analysis (TCA) framework grounded in precise, quantitative benchmarks is critical. However, the value derived from your TCA hinges significantly on selecting the most suitable benchmark for measuring execution performance.",
+    "host_name": "www.talos.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/6835fc20d50d0fc4fcbe62f8/6835fc20d50d0fc4fcbe647d_CME_MarketTech_Forum_Advanced_Transaction_Cost_Analytics%20(1).pdf",
+    "name": "Advanced Transaction Cost Analytics (TCA) with AI-enhanced",
+    "snippet": "CME Group is shortly launching a new analytics service via Google GCP starting with a comprehensive suite of client TCA covering all US Treasury trades, ...\nCME Group is shortly launching a new analytics service via Google GCP starting with a comprehensive suite of client TCA covering all US Treasury trades, Brokertec CLOB and across our major UST futures markets, followed soon by FX Futures, Equity, Major commodity markets and EBS cash FX.",
+    "host_name": "cdn.prod.website-files.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/education/files/TCA-4.pdf",
+    "name": "Transaction Cost Analysis for Futures",
+    "snippet": "Transaction Cost Analysis, commonly known as TCA, is spreading from equities across all asset classes. The idea of being able to quantify execution",
+    "host_name": "www.cmegroup.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.siia.net/wp-content/uploads/2023/10/FISD_CME_Final_pdf_12Oct2023.pdf",
+    "name": "CME Group AI in Action: US Treasury TCA Analytics",
+    "snippet": "TCA stands for Transaction Cost Analysis, which is a method used to measure and evaluate costs associated with executing financial transactions\nBuild a set of foundation models for peer group benchmarking and slippage rate reduction, providing explainable results and helping customers capture unrealized value.",
+    "host_name": "www.siia.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantitativebrokers.com/blog/best-execution-unit-of-measurement",
+    "name": "Best Execution: Unit of Measurement | Algorithmic Trading",
+    "snippet": "Transaction Cost Analysis (TCA) is primarily based in ticks (minimum price increments) slippage in ticks gives a normalized measure to better ...",
+    "host_name": "www.quantitativebrokers.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=4oyrCp1t6KI",
+    "name": "Analyze and Optimize Trading Performance with TT® TCA",
+    "snippet": "TT delivers comprehensive transaction cost analysis … help you improve execution quality, futures, options and FX.",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "Jun 29, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.northerntrust.com/united-states/insights-research/2026/asset-servicing/its/transaction-cost-analysis",
+    "name": "Transaction Cost Analysis",
+    "snippet": "Transaction Cost Analysis (TCA) helps sharpen execution strategies through data driven insights. TCA empowers investment managers to measure trade performance, ...",
+    "host_name": "www.northerntrust.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.acaglobal.com/technology/surveillance-monitoring/transaction-cost-analysis-solution",
+    "name": "Transaction Cost Analysis Solution",
+    "snippet": "Foreign exchange transaction cost analysis (FX TCA) measures the quality and cost of FX trade execution across currency pairs and liquidity providers. Because ...",
+    "host_name": "www.acaglobal.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/content/dam/cmegroup/education/files/TCA-4.pdf",
+    "name": "Transaction Cost Analysis for Futures - CME Group",
+    "snippet": "Transaction Cost Analysis, commonly known as TCA, is spreading from equities across all asset classes. The idea of being able to quantify execution and measure how it performed against the market is not new, but the tools to provide such quantification are now becoming common in all asset classes.",
+    "host_name": "www.cmegroup.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

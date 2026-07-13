@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://ba-odegaard.no/teach/notes/liquidity_estimators/spread/spread_lectures.pdf",
+    "name": "[PDF] Trading costs - Spread measures - Bernt Arne Ødegaard",
+    "snippet": "The realized spread is esimated by comparing • The executed price • The market price “after a while” Realized Spread = dt(pt − mt) − (mt+∆ − mt) we have ...",
+    "host_name": "ba-odegaard.no",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://frds.io/measures/spread_and_price_impact",
+    "name": "Spread and Price Impact - frds",
+    "snippet": "The realized spread measures the profit or loss. R-spread (log) = 2 × | ln ⁡ P i t − ln ⁡ m i t + τ",
+    "host_name": "frds.io",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@simomenaldo/market-liquidity-c66bd2c8ca5a",
+    "name": "Market Liquidity - Medium",
+    "snippet": "The formula for the effective spread is: Where: Pt is the price of the trade at time t. Mt is the midpoint of the bid-ask spread at time t, ...",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/CFA/comments/nmgtoj/effective_spread_formula",
+    "name": "Effective spread formula : r/CFA - Reddit",
+    "snippet": "It is trade size * (trade price - (bid+ask)/2). It is really simply the price you paid minus the mid quote and then times the quantity you bought. Effective Spread Intuition for Effective Spread being multiplied by 2? More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quora.com/What-is-the-difference-between-effective-spread-and-realized-spread-when-measuring-transactions-cost",
+    "name": "What is the difference between effective spread and realized",
+    "snippet": "The effective spread offers an estimate of the cost of trading. The benchmark it takes is the mid-quote price i.e. (Bid price + Ask price)/2.",
+    "host_name": "www.quora.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sec.gov/pdf/ordpayc.pdf",
+    "name": "[PDF] Trade Weighted Exchange Average Quoted Spread - SEC.gov",
+    "snippet": "Realized spreads are calculated as twice the difference between the trade price and mid-point of the consolidated BBO spread five minutes after ...",
+    "host_name": "www.sec.gov",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/77094/estimate-of-realized-spread",
+    "name": "Estimate of realized spread - Quantitative Finance Stack Exchange",
+    "snippet": "The typical formula to calculate the realized spread is: Realized Spread Transaction Price − Midpoint of Bid-Ask Spread at Time Realized Spread ...",
+    "host_name": "quant.stackexchange.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://analystprep.com/study-notes/cfa-level-2/calculate-and-interpret-effective-spreads-and-vwap-transaction-cost-estimates",
+    "name": "Effective Spreads & VWAP | CFA Level II Notes - AnalystPrep",
+    "snippet": "Effective spread transaction cost estimate = Trade size × ( Trade price − ( Bid + ) for buy orders and sell orders, respectively.",
+    "host_name": "analystprep.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://berkeley-defi.github.io/assets/material/Bid-Ask-Spreads-Measuring-Trade-Execution-Costs-in-Financial-Markets-2010.pdf",
+    "name": "[PDF] Bid-Ask Spreads: Measuring Trade Execution Costs in Financial Markets",
+    "snippet": "Specifically, the effective spread compares the traded price to the quote midpoint (as a proxy for Vit) at order arrival, while the realized spread is based on ...",
+    "host_name": "berkeley-defi.github.io",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fe.training/free-resources/portfolio-management/transaction-costs",
+    "name": "Transaction Costs - In-Depth Guide with Excel Template - Financial Edge",
+    "snippet": "Effective Spread, (Execution Price-Mid Price) / Mid Price × 2 × 10,000, Represents the deviation of the execution price from the prevailing ...",
+    "host_name": "www.fe.training",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

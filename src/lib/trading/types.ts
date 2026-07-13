@@ -111,6 +111,12 @@ export interface Order {
   strategy?: string;
   tag?: string;
   rejectReason?: string;
+  /** TCA: market state at decision time (captured on order creation). */
+  arrivalPrice?: number;
+  arrivalBid?: number;
+  arrivalAsk?: number;
+  arrivalMid?: number;
+  arrivalVwap?: number;
 }
 
 export interface Fill {
@@ -124,6 +130,14 @@ export interface Fill {
   commission: number;
   fees: number;
   strategy?: string;
+  /** TCA: snapshot of market at order-decision time (denormalised for convenience). */
+  arrivalPrice?: number;
+  arrivalMid?: number;
+  arrivalVwap?: number;
+  /** Order type that produced this fill (for per-type TCA grouping). */
+  orderType?: string;
+  /** Tag copied from order at fill time (e.g. "FLATTEN", "STRATEGY"). */
+  tag?: string;
 }
 
 export interface Position {

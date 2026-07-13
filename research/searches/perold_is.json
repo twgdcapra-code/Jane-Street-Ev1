@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://ryanoconnellfinance.com/implementation-shortfall",
+    "name": "Implementation Shortfall: Perold Framework and Transaction Cost Analysis",
+    "snippet": "Perold's framework decomposes implementation shortfall into four distinct cost components. Each captures a different source of friction between ...\nImplementation shortfall measures the total cost gap between a paper portfolio and the actual portfolio after execution. Learn the 4-component IS decomposition, VWAP vs arrival price benchmarks, and how algorithm choice affects execution quality.",
+    "host_name": "ryanoconnellfinance.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantitativebrokers.com/blog/a-brief-history-of-implementation-shortfall",
+    "name": "A Brief History Of Implementation Shortfall | Execution Algorithm - Quantitative Brokers",
+    "snippet": "Perold's paper discusses the differences between paper trading where the execution price is assumed to equate the current market level, and the ...",
+    "host_name": "www.quantitativebrokers.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/implementation-shortfall-analysis",
+    "name": "Implementation Shortfall Analysis (Examples) - QuestDB",
+    "snippet": "Implementation shortfall represents the total cost of executing an investment decision, including both visible costs (commissions, fees) and invisible costs ( ...",
+    "host_name": "questdb.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://grokipedia.com/page/implementation_shortfall",
+    "name": "Implementation shortfall - Grokipedia",
+    "snippet": "Perold defined implementation shortfall as the difference in returns between a hypothetical \"paper\" portfolio—assuming instantaneous, costless trades at ...",
+    "host_name": "grokipedia.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cis.upenn.edu/~mkearns/finread/impshort.pdf",
+    "name": "[PDF] Implementation Shortfall --- One Objective, Many Algorithms",
+    "snippet": "Perold (1988)1 defines implementation shortfall as the difference in return between a theoretical portfolio and the implemented portfolio. prices (decision ...\nAs discussed, implementation shortfall algorithms are mainly concerned with balancing market impact and opportunity cost. This section will examine the factors that influence market impact and opportunity cost.",
+    "host_name": "www.cis.upenn.edu",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mypure.auk.edu.kw/en/publications/implementation-shortfall-in-transaction-cost-analysis-a-further-e",
+    "name": "Implementation Shortfall in Transaction Cost Analysis: A Further Extension",
+    "snippet": "Transaction cost, defined as implementation shortfall that is originally proposed by Perold (1988), is an important element in portfolio performance measurement ...",
+    "host_name": "mypure.auk.edu.kw",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/braverock/blotter/blob/master/R/impShortfall.R",
+    "name": "blotter/R/impShortfall.R at master · braverock/blotter - GitHub",
+    "snippet": "Implementation Shortfall is a measure that represents the total cost of executing #' the investment idea.",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/274913076/The-Use-and-Abuse-of-Implementation-Shortfall-Markit",
+    "name": "The Use and Abuse of Implementation Shortfall - Markit | PDF | Market Liquidity - Scribd",
+    "snippet": "This paper examines the evolution of how the implementation shortfall benchmark has been used in transaction cost analysis (TCA). It is our contention that ...",
+    "host_name": "www.scribd.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://albertjmenkveld.com/text/chapter_ELOv5.pdf",
+    "name": "[PDF] Implementation Shortfall with Transitory Price Effects - Albert J. Menkveld",
+    "snippet": "In this chapter, we introduce a methodology for decomposing the price process of a financial instrument into its permanent and transitory ...",
+    "host_name": "albertjmenkveld.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=2083",
+    "name": "The Implementation Shortfall: Paper vs. Reality",
+    "snippet": "Perold, André. \"The Implementation Shortfall: Paper vs. Reality.\" Journal of Portfolio Management 14, no. 3 (spring 1988): 4–9. Copyright © President & Fellows of Harvard College.",
+    "host_name": "www.hbs.edu",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

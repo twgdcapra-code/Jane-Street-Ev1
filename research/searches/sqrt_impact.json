@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://medium.com/@simomenaldo/price-impact-estimation-7c477592ea39",
+    "name": "Price Impact Estimation - Medium",
+    "snippet": "... market impact costs against timing risk (volatility). It models permanent and temporary impact as linear functions of the trading rate.",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mfe.baruch.cuny.edu/wp-content/uploads/2012/09/Chicago2016OptimalExecution.pdf",
+    "name": "[PDF] Three models of market impact - Baruch MFE Program",
+    "snippet": "Square-root law Models … significantly lower expected cost than VWAP in the propagator model. been many empirical studies of the impact profile, the evolution ...",
+    "host_name": "mfe.baruch.cuny.edu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/market-impact-models",
+    "name": "Market Impact Models | QuestDB",
+    "snippet": "Temporary impact represents short-term price movements that occur during order execution but typically reverse shortly afterward.",
+    "host_name": "questdb.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/7049/typical-coefficients-uses-in-square-root-model-for-market-impact",
+    "name": "Typical coefficients uses in square-root model for market impact",
+    "snippet": "The square-root model is widely used to model equity market impact. It assumes that volatility, traded volume, total volume, and a spread cost are the drivers ... Market impact, why square root? - Quantitative Finance Stack Exchange Is there a standard model for market impact? More results from quant.stackexchange.com",
+    "host_name": "quant.stackexchange.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bouchaud.substack.com/p/the-square-root-law-of-market-impact",
+    "name": "The Square-Root Law of Market Impact",
+    "snippet": "The square-root law for price impact is arguably one of the most fascinating robust empirical regularities discovered in the last 30 years.",
+    "host_name": "bouchaud.substack.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2506.07711v6",
+    "name": "The Subtle Interplay between Square-root Impact, Order  - arXiv",
+    "snippet": "We now discuss the problem of whether the volatility of price changes can be explained chiefly in terms of the impact of intertwined metaorders ...",
+    "host_name": "arxiv.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://weareadaptive.com/trading-resources/blog/market-impact-of-orders-and-models-that-predict-it",
+    "name": "Market impact of orders, and models that predict it | WeAreAdaptive",
+    "snippet": "The square root power-law model of market impact has been successfully fitted to market impact independently of the traded asset (equities, FX, ...",
+    "host_name": "weareadaptive.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cube.exchange/what-is/market-impact-models",
+    "name": "What Are Market Impact Models? | Cube Exchange",
+    "snippet": "Market impact models are frameworks for estimating how a trade moves market prices and therefore how expensive execution will be.",
+    "host_name": "www.cube.exchange",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emergentmind.com/topics/square-root-law-of-market-impact",
+    "name": "Square-Root Law of Market Impact - Emergent Mind",
+    "snippet": "Square-root law is a scaling relation showing that the average price impact of a metaorder scales with the square root of its volume, ...",
+    "host_name": "www.emergentmind.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3927960_code16198.pdf?abstractid=3874261&mirid=1",
+    "name": "[PDF] Quantifying long-term market impact*",
+    "snippet": "Impact costs occur when large buy or sell orders move market prices. The measurement of these costs is crucial for the evaluation of potential trading ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

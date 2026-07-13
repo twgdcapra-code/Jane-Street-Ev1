@@ -286,6 +286,13 @@ export const useTradingStore = create<TradingState>((set, get) => ({
   placeOrder: (o) => {
     const id = nextId("ord");
     const now = Date.now();
+    // Capture TCA arrival benchmark from the current quote at decision time.
+    const arrivalQuote = get().quotes[o.symbol];
+    const arrivalPrice = arrivalQuote?.last ?? 0;
+    const arrivalBid = arrivalQuote?.bid ?? arrivalPrice;
+    const arrivalAsk = arrivalQuote?.ask ?? arrivalPrice;
+    const arrivalMid = (arrivalBid + arrivalAsk) / 2;
+    const arrivalVwap = arrivalQuote?.vwap ?? arrivalPrice;
     const order: Order = {
       ...o,
       id,
@@ -295,6 +302,11 @@ export const useTradingStore = create<TradingState>((set, get) => ({
       avgFillPrice: 0,
       createdAt: now,
       updatedAt: now,
+      arrivalPrice,
+      arrivalBid,
+      arrivalAsk,
+      arrivalMid,
+      arrivalVwap,
     };
     // Validate
     const contract = getContract(o.symbol);
@@ -685,6 +697,11 @@ store.applyFill = (order: Order, fillQty: number, fillPrice: number) => {
     commission,
     fees: fillQty * 0.05,
     strategy: order.strategy,
+    arrivalPrice: order.arrivalPrice,
+    arrivalMid: order.arrivalMid,
+    arrivalVwap: order.arrivalVwap,
+    orderType: order.type,
+    tag: order.tag,
   };
   // Update order
   const updatedOrders = state.orders.map((o) => {

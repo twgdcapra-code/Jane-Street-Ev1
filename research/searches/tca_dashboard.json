@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.talos.com/insights/execution-insights-through-transaction-cost-analysis-tca-benchmarks-and-slippage",
+    "name": "Execution Insights Through Transaction Cost Analysis (TCA)",
+    "snippet": "The Talos Analytics dashboard decomposes slippage and other relevant metrics such as volumes and participation rates distribution by strategy.",
+    "host_name": "www.talos.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bookmap.com/blog/heatmap-in-trading-the-complete-guide-to-market-depth-visualization",
+    "name": "Heatmap Trading | Liquidity Heatmap | Stock Market Heatmap Trading",
+    "snippet": "Rating 4.9 (650) Learn about heatmap in trading the complete guide to market depth visualization; what it means, how it works, and key insights traders should know.",
+    "host_name": "bookmap.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tsimagine.com/data/fixed-income-transaction-cost-liquidity-analytics",
+    "name": "Fixed Income TCA & Liquidity Analytics - Data - TS Imagine",
+    "snippet": "Optimize fixed income liquidity with TS Imagine's TCA platform — self-service analytics in-trade and post-trade via Snowflake. Faster insights, lower costs.",
+    "host_name": "tsimagine.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantitativebrokers.com/transaction-cost-analytics",
+    "name": "Transaction Cost Analytics | TCA - Quantitative Brokers",
+    "snippet": "With our award-winning TCA solution, you can quickly and easily visualize your trades and review data to get the full picture of your implicit costs (slippage),",
+    "host_name": "www.quantitativebrokers.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tabbforum.com/opinions/beyond-tca-how-traders-are-using-analytics-to-change-behavior-not-just-report-results",
+    "name": "Beyond TCA: How Traders Are Using Analytics to Change Behavior, Not",
+    "snippet": "While most buy-side firms utilize Transaction Cost Analysis (TCA), few successfully use it to drive day-to-day behavioral changes.",
+    "host_name": "tabbforum.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=_BwS-3pTMlA",
+    "name": "Using the Market Heat Map on thinkorswim® desktop - YouTube",
+    "snippet": "thinkorswim® is an industry-leading trading platform offering powerful trading tools, real-time data, and powerful analytics.",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://toslc.thinkorswim.com/center/howToTos/thinkManual/MarketWatch/Visualize",
+    "name": "Visualize - thinkorswim Learning Center",
+    "snippet": "The Visualize tab provides you with visual analytics of market activity for the selected watchlist. between the Heat Map and Index Watch modes. s public, ...",
+    "host_name": "toslc.thinkorswim.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.thetradenews.com/unlocking-tca",
+    "name": "Unlocking TCA - The TRADE",
+    "snippet": "It's no secret that trade or transaction cost analysis (TCA) has become one of the most important components of the buy-side trading desk.",
+    "host_name": "www.thetradenews.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.servicenow.com/docs/r/now-intelligence/dv-example-heatmap.html",
+    "name": "Heatmap visualization example - ServiceNow",
+    "snippet": "The heatmap data visualization shows the relationship between two table fields or indicator breakdowns as a spectrum of shading between two colors.",
+    "host_name": "www.servicenow.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.schwab.com/learn/story/using-market-heat-map-on-thinkorswim-desktop",
+    "name": "Using the Market Heat Map on thinkorswim® Desktop",
+    "snippet": "In this tutorial, we'll demonstrate how the Heat Map and Index Watch features on thinkorswim® can help you to visualize the markets and spot potential trading ...",
+    "host_name": "www.schwab.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]
