@@ -26,6 +26,7 @@ import {
   vwap,
 } from "./indicators";
 import { ADVANCED_STRATEGIES } from "./strategies-advanced";
+import { ELITE_STRATEGIES } from "./strategies-elite";
 
 export type Signal = {
   time: number;
@@ -472,6 +473,8 @@ export const STRATEGIES: StrategyDef[] = [
   Volatility,
   // Advanced strategies from research (see research/advanced_strategies.md)
   ...ADVANCED_STRATEGIES,
+  // Elite strategies from research (see research/elite_strategies.md)
+  ...ELITE_STRATEGIES,
 ];
 
 export const STRATEGY_MAP: Record<string, StrategyDef> = STRATEGIES.reduce(

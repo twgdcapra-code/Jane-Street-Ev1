@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://pyquantlab.medium.com/bollinger-band-squeeze-breakout-trading-strategy-with-trailing-stops-7aedc2f10958",
+    "name": "Bollinger Band Squeeze Breakout Trading Strategy with Trailing Stops",
+    "snippet": "This article describes a trading strategy implemented in Backtrader that capitalizes on periods of low volatility followed by price breakouts.",
+    "host_name": "pyquantlab.medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.pyquantlab.com/article.php?file=Bollinger-Keltner%20Squeeze%20Breakout%20Trading%20Strategy%20with%20ATR%20Trailing%20Stops.html",
+    "name": "Bollinger-Keltner Squeeze Breakout Trading Strategy with ATR Trailing",
+    "snippet": "This article describes a professional trading strategy implemented in Backtrader that identifies low-volatility “squeeze” periods using Bollinger Bands and ...",
+    "host_name": "www.pyquantlab.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/bollinger-band-squeeze",
+    "name": "Bollinger Band Squeeze - ChartSchool - StockCharts.com",
+    "snippet": "The Bollinger Band Squeeze is a trading strategy designed to find consolidations with decreasing volatility. In its purest form, this strategy ...",
+    "host_name": "chartschool.stockcharts.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.gtcfx.com/blogs/bollinger-bands-strategy",
+    "name": "What is Bollinger Bands Strategy & How to Use it | GTCFX",
+    "snippet": "Squeeze Breakout: Trade explosive moves after periods of low volatility; Bollinger Bounce: Buy oversold at lower band, sell overbought at upper band ...",
+    "host_name": "www.gtcfx.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.luxalgo.com/blog/bollinger-bands-strategy-squeeze-then-surge",
+    "name": "Bollinger Bands Strategy: Squeeze then Surge - LuxAlgo",
+    "snippet": "The Bollinger Bands Squeeze–Surge strategy helps traders spot low-volatility phases. Use ATR-based stop-loss levels, setting them at 1.5 × to 3 ...",
+    "host_name": "www.luxalgo.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ar.tradingview.com/scripts/bollingerbandstrategy",
+    "name": "Bollingerbandstrategy — المؤشرات والاستراتيجيات — TradingView",
+    "snippet": "The Adaptive Squeeze Breakout combines two concepts into a single volatility-timing tool: adaptive Bollinger Bands that adjust to the current volatility regime,",
+    "host_name": "ar.tradingview.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=G6MVccESQqM",
+    "name": "Bollinger Band Squeeze Breakout Strategy! [Backtested] - YouTube",
+    "snippet": "Ready to automate your trading?* Master StrategyQuant and build your own portfolio of automated trading systems!",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.investopedia.com/terms/b/bollingerbands.asp",
+    "name": "Understanding Bollinger Bands: A Key Technical Analysis Tool for Investors",
+    "snippet": "Narrow bands indicate less volatility, which means a significant price move could be imminent. This is known as a \"squeeze.\" When the bands widen after a ...",
+    "host_name": "www.investopedia.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

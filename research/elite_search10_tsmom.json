@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S0304405X11002613",
+    "name": "Time series momentum - ScienceDirect.com",
+    "snippet": "We document significant “time series momentum” in equity index, currency, commodity, and bond futures for each of the 58 liquid instruments we consider.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://w4.stern.nyu.edu/facdir/lpederse/papers/TimeSeriesMomentum.pdf",
+    "name": "[PDF] Time series momentum - NYU Stern",
+    "snippet": "We document significant ''time series momentum'' in equity index, currency, commod- ity, and bond futures for each of the 58 liquid instruments ...\nA reports results from regressions of the 12-month time series momentum strategies by asset class (TSMOM) on 12-month cross-sectional momentum ...",
+    "host_name": "w4.stern.nyu.edu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantpedia.com/strategies/time-series-momentum-effect",
+    "name": "Time Series Momentum Effect - Quantpedia",
+    "snippet": "We document significant \"time series momentum\" in equity index, currency, commodity, and bond futures for each of the 58 liquid instruments we consider.\nMoskowitz, Ooi, and Pedersen (2012) show that time series momentum delivers a large and significant alpha for a diversified portfolio of various international ...",
+    "host_name": "quantpedia.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/378312225/Moskowitz-Time-Series-Momentum-Paper",
+    "name": "Time Series Momentum Across Asset Classes | PDF - Scribd",
+    "snippet": "The Sharpe ratio measures risk-adjusted returns, and the document shows that each futures contract exhibits positive predictability from past returns, with ...\nThis document summarizes a journal article that examines the phenomenon of \"time series momentum\" across various asset classes.",
+    "host_name": "www.scribd.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/figure/Sharpe-ratio-of-12-month-time-series-momentum-by-instrument-Reported-are-the-annualized_fig6_239806792",
+    "name": "Sharpe ratio of 12-month time series momentum by instrument. Reported",
+    "snippet": "Moskowitz, Ooi, and Pedersen (2012) extended this to time-series momentum across 58 liquid instruments in equity indices, currencies, commodities, and bonds,",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://elmwealth.com/wp-content/uploads/2017/06/timeseriesmomentum.pdf",
+    "name": "[PDF] Time Series Momentum - Elm Wealth",
+    "snippet": "We document significant \"time series momentum\" in equity index, currency, commodity, and bond futures for each of the 58 liquid instruments we consider.",
+    "host_name": "elmwealth.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://antonio-velazquez-bustamante.medium.com/time-series-momentum-a-persistent-anomaly-across-global-asset-classes-22d7426bd129",
+    "name": "Time Series Momentum: A Persistent Anomaly Across Global Asset Classes",
+    "snippet": "A diversified TSMOM portfolio achieves an annualized Sharpe ratio above 1.0, about 2.5× the equity market portfolio. Profits are robust across ...\nA landmark paper by Tobias Moskowitz, Yao Hua Ooi, and Lasse Heje Pedersen (2012) time series momentum. momentum (TSMOM) looks only at an asset ... What Is Time Series Momentum? · Time Series vs. Cross...",
+    "host_name": "antonio-velazquez-bustamante.medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5933974.pdf?abstractid=5933974&mirid=1",
+    "name": "[PDF] Nonlinear Time Series Momentum",
+    "snippet": "Moskowitz et al. (2012) explore time series momentum, where past. 12-month returns of various asset classes – equities, commodities, currencies, ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

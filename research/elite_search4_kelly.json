@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.princeton.edu/~wbialek/rome/refs/kelly_56.pdf",
+    "name": "[PDF] A New Interpretation of Information Rate",
+    "snippet": "A New Interpretation of. Kelly, jr. (Manuscript received March 21, 1956) 1956 system in which errors are being made at a non-negligible rate, ., where optimum ...\nA New Interpretation of Information Rate reproduced. Kelly, jr. (Manuscript received March 21, 1956) which errors are being made at a non-negligible rate, ...",
+    "host_name": "www.princeton.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kelly_criterion",
+    "name": "Kelly criterion - Wikipedia",
+    "snippet": "Kelly criterion (or Kelly strategy or Kelly bet) is a formula for risk allocation with the sizing a sequence of bets by maximizing the long-term expected value ...\nIn finance, the Kelly criterion is a formula for risk allocation with the sizing a sequence of bets by maximizing the long-term expected value of the ...",
+    "host_name": "en.wikipedia.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://bjlkeng.io/posts/optimal-betting-and-the-kelly-criterion",
+    "name": "Optimal Betting Strategies and The Kelly Criterion - Bounded Rationality",
+    "snippet": "The optimal betting strategy, more commonly known as the Kelly Criterion, was developed in the 50s by J. L. Kelly , a scientist working at Bell ...",
+    "host_name": "bjlkeng.io",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://knowen-production.s3.amazonaws.com/uploads/attachment/file/548/www.edwardothorp.com_sitebuildercontent_sitebuilderfiles_KellyCriterion2007.pdf",
+    "name": "[PDF] THE KELLY CRITERION IN BLACKJACK SPORTS BETTING",
+    "snippet": "We will present some useful formulas and methods to answer various natural questions about it that arise in blackjack and other gambling games.\nAn asymptotically optimal strategy was first proposed by Kelly (1956). ... A new interpretation of information rate. Bell System Technical ...",
+    "host_name": "knowen-production.s3.amazonaws.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tesi.luiss.it/33470/1/239171_GIANI_BERNARDO.pdf",
+    "name": "[PDF] Optimal Betting with the Kelly Criterion: Applications to Sports Betting and",
+    "snippet": "July 1956, 'A new interpretation of information rate' Thorp, Optimal gambling systems for favorable games, Review of the International Statis- tical Institute ...\nKelly JR., A new interpretation of information rate, 25–34, 2011 (original version in 1956). Thorp, Kelly capital growth investment criterion,",
+    "host_name": "tesi.luiss.it",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/Optimal-Gambling-Systems-for-Favorable-Games-Breiman/83aff2f65e86a55ce6f1bf457a8b74274e6ec8c7",
+    "name": "Optimal Gambling Systems for Favorable Games - Semantic Scholar",
+    "snippet": "A simulation study of the Kelly betting criterion. A new interpretation of information rate. The maximum exponential rate of growth of the gambler's capital",
+    "host_name": "www.semanticscholar.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://finance.martinsewell.com/money-management/RotandoThorp1992.pdf",
+    "name": "[PDF] The Kelly Criterion and the Stock Market - Louis M. Rotando - Finance",
+    "snippet": "The purpose of this expository note is to describe the Kelly criterion, a theory of optimal resource apportionment during favorable gambling ...\nE. O. Thorp, Optimal gambling systems for favorable games. Review of the International Statistical. Institute, Vol. 37:3, 1969.",
+    "host_name": "finance.martinsewell.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/227587348_Kelly_criterion_revisited_Optimal_bets",
+    "name": "(PDF) Kelly criterion revisited: Optimal bets - ResearchGate",
+    "snippet": "Kelly criterion, that maximizes the expectation value of the logarithm of wealth for bookmaker bets, gives an advantage over different class of strategies.",
+    "host_name": "www.researchgate.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

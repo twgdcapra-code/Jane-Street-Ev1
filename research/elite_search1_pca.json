@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1153505",
+    "name": "Statistical Arbitrage in the U.S. Equities Market",
+    "snippet": "by M Avellaneda · 2008 · Cited by 616 — We study model-driven statistical arbitrage strategies in US equities. Trading signals are generated in two ways: using Principal Component Analysis and using ...\nWe study model-driven statistical arbitrage strategies in US equities. Trading signals are generated in two ways: using Principal Component Analysis and using ...\nWe study model-driven statistical arbitrage strategies in U.S. equities. Trading signals are generated in two ways: using Principal Component Analysis and using sector ETFs.",
+    "host_name": "papers.ssrn.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://traders.berkeley.edu/papers/Statistical%20arbitrage%20in%20the%20US%20equities%20market.pdf",
+    "name": "Statistical arbitrage in the US equities market",
+    "snippet": "Marco Avellaneda & Jeong-Hyun Lee (Received 1 July 2008; in final form 17 June 2009) We study model-driven statistical arbitrage in US equities ...\nWe study model-driven statistical arbitrage in US equities. Trading signals are generated in two ways: using Principal Component Analysis ...",
+    "host_name": "traders.berkeley.edu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://econpapers.repec.org/RePEc:taf:quantf:v:10:y:2010:i:7:p:761-782",
+    "name": "Statistical arbitrage in the US equities market",
+    "snippet": "by M Avellaneda · 2010 · Cited by 616 — By Marco Avellaneda and Jeong-Hyun Lee; Abstract: We study model-driven statistical arbitrage in US equities. Trading signals are generated ...\nWe study model-driven statistical arbitrage in US equities. Trading signals are generated in two ways: using Principal Component Analysis (PCA) or regressing ...",
+    "host_name": "econpapers.repec.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@degensugarboo/statistical-arbitrage-in-the-defi-index-2616b77039af",
+    "name": "Statistical Arbitrage in the DEFI Index | by Siddharth Kumar",
+    "snippet": "Today I'm gonna implement the strategy described in the paper 'Statistical Arbitrage in the U.S. Equities Market' (Avellaneda and Lee, 2008). ...",
+    "host_name": "medium.com",
+    "rank": 3,
+    "date": "Jul 15, 2023",
+    "favicon": ""
+  },
+  {
+    "url": "https://scholar.google.com/citations?user=zzVC47IAAAAJ&hl=en",
+    "name": "Marco Avellaneda",
+    "snippet": "Statistical arbitrage in the US equities market. M Avellaneda, JH Lee. Quantitative Finance 10 (7), 761-782, 2010. 613, 2010 ; Magnetoelectric effect in ...",
+    "host_name": "scholar.google.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/227623962_Statistical_Arbitrage_in_the_US_Equities_Market",
+    "name": "Statistical Arbitrage in the U.S. Equities Market | Request PDF",
+    "snippet": "We study model-driven statistical arbitrage in US equities. Trading signals are generated in two ways: using Principal Component Analysis ...\nWe study model-driven statistical arbitrage in US equities. Trading signals are generated in two ways: using Principal Component Analysis ...\nWe construct, back-test and compare market-neutral PCA- and ETF-based strategies applied to the broad universe of US equities.",
+    "host_name": "www.researchgate.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://epublications.marquette.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1419&context=theses_open",
+    "name": "Factor Based Statistical Arbitrage in the U.S. Equity Market",
+    "snippet": "Avellaneda and Lee (2010) explains that PCA factors that explain 55% of variance were used in their statistical arbitrage model because it performed better ...",
+    "host_name": "epublications.marquette.edu",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/14697680903124632",
+    "name": "Statistical arbitrage in the US equities market",
+    "snippet": "by M Avellaneda · 2010 · Cited by 616 — Statistical arbitrage in the US equities market Marco Avellaneda. Received 01 Jul 2008, Accepted. We study model-driven statistical arbitrage in US equities.\nWe study model-driven statistical arbitrage in US equities. Trading signals are generated in two ways: using Principal Component Analysis (PCA)",
+    "host_name": "www.tandfonline.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

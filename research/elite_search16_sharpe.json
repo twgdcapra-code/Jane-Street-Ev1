@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://economics.yale.edu/sites/default/files/2024-05/Zhu_Pairs_Trading.pdf",
+    "name": "[PDF] Examining Pairs Trading Profitability - Yale Department of Economics",
+    "snippet": "This paper establishes three important results regarding the performance of pairs trading, a popular statistical arbitrage strategy that ...",
+    "host_name": "economics.yale.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/312702610_High_Frequency_and_Dynamic_Pairs_Trading_Based_on_Statistical_Arbitrage_Using_a_Two-Stage_Correlation_and_Cointegration_Approach",
+    "name": "(PDF) High Frequency and Dynamic Pairs Trading Based on Statistical",
+    "snippet": "The proposed trading strategy achieved a monthly 2.67 Sharpe ratio and an annual 9.25 Sharpe ratio. Furthermore, the proposed pairs trading ...",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ccsenet.org/journal/index.php/ijef/article/view/33007",
+    "name": "High Frequency and Dynamic Pairs Trading Based on Statistical",
+    "snippet": "The proposed trading strategy achieved a monthly 2.67 Sharpe ratio and an annual 9.25 Sharpe ratio. Furthermore, the proposed pairs trading system performed ...",
+    "host_name": "www.ccsenet.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantpedia.com/strategies/pairs-trading-with-stocks",
+    "name": "Pairs Trading with Stocks - Quantpedia",
+    "snippet": "Empirical analysis shows that the proposed strategy exhibit excess returns of 16.38% per year, Sharpe Ratio of 1.34 and low correlation with the market.",
+    "host_name": "quantpedia.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4601806_code3863246.pdf?abstractid=4601806&mirid=1",
+    "name": "[PDF] Pairs Trading Strategy Design and Backtest (TS)",
+    "snippet": "the best results for the Sharpe ratio are obtained for WTI and natural gas, with Sharpe ratios in excess of 2 for most combinations.",
+    "host_name": "papers.ssrn.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://preserve.lehigh.edu/lehigh-scholarship/graduate-publications-theses-dissertations/theses-dissertations/optimizing-pairs",
+    "name": "Optimizing a Pairs Trading Strategy with Reinforcement Learning",
+    "snippet": "In this study, I develop a implementation of a pairs trading algorithm for stocks within the S&P 500 index, and then, I investigate every aspect of the trading ...",
+    "host_name": "preserve.lehigh.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

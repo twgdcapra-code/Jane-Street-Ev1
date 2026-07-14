@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.jstor.org/stable/1913236",
+    "name": "Co-Integration and Error Correction: Representation, Estimation  - jstor",
+    "snippet": "The paper presents a representation theorem based on Granger (1983), which connects the moving average, autoregressive, and error correction representations ...\nThe relationship between co-integration and error correction models, first suggested in Granger (1981), is here extended and used to develop estimation procedures, tests, and empirical examples.",
+    "host_name": "www.jstor.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://users.ssc.wisc.edu/~behansen/718/EngleGranger1987.pdf",
+    "name": "[PDF] CO-INTEGRATION AND ERROR CORRECTION",
+    "snippet": "Testing for co-integration combines the problems of unit root tests and tests with parameters unidentified under the null. Seven statistics are formulated and ...\nThe paper presents a representation theorem based on Granger (1983), which connects the moving average, autoregressive, and error correction representations for ...",
+    "host_name": "users.ssc.wisc.edu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/a/ecm/emetrp/v55y1987i2p251-76.html",
+    "name": "Co-integration and Error Correction: Representation, Estimation, and",
+    "snippet": "Tests for cointegration are suggested and examined by Monte Carlo simulation. A series of examples are presented. Copyright 1987 by The Econometric Society.",
+    "host_name": "ideas.repec.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scirp.org/reference/referencespapers?referenceid=1743628",
+    "name": "Engle, R. and Granger, C. (1987) Cointegration and Error Correction",
+    "snippet": "In this study we investigate whether stock prices and economic activity in India are co-integrated by using monthly data from 1960 to 2013.",
+    "host_name": "www.scirp.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.econometrics-with-r.org/16.3-cointegration.html",
+    "name": "16.3 Cointegration | Introduction to Econometrics with R",
+    "snippet": "Engle, Robert, and Clive Granger. 1987. “Co-integration and Error Correction: Representation, Estimation and Testing.” Econometrica 55 (2): 251–76. Note: ur ...",
+    "host_name": "www.econometrics-with-r.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://finance.martinsewell.com/cointegration",
+    "name": "Cointegration - Finance",
+    "snippet": "Cointegration (Engle and Granger, 1987) is an econometric technique for testing the relationship between non-stationary time series variables.",
+    "host_name": "finance.martinsewell.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/0304407687900856",
+    "name": "Forecasting and testing in co-integrated systems - ScienceDirect",
+    "snippet": "To test whether a system exhibits co-integration, the procedures introduced in Engle and Granger (1987) are extended to allow different sample sizes and numbers ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=4DBXBLIOHGE",
+    "name": "Cointegration - Engle and Granger method in EViews - YouTube",
+    "snippet": "... cointegrated, and in the second video we will estimate the error correction ... Engle and Granger (1987): Co-Integration and Error Correction ...\nEngle and Granger (1987): Co-Integration and Error Correction ... Link below: Stock (1987): Asymptotic Properties of Least Squares ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

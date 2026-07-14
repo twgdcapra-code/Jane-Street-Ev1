@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://hudsonthames.org/caveats-in-calibrating-the-ou-process",
+    "name": "Caveats in Calibrating the OU Process - Hudson & Thames",
+    "snippet": "a lot of analyses are based on the half-life of mean reversion, which for an OU process is just H = \\frac{ln(2)}{\\theta}.",
+    "host_name": "hudsonthames.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cube.exchange/what-is/ornstein-uhlenbeck-process",
+    "name": "What Is the Ornstein-Uhlenbeck Process? Mean Reversion in",
+    "snippet": "The half-life is the time it takes for the expected deviation from the mean to shrink by half. Since deviations decay like e^(-κΔ) , the half- ...",
+    "host_name": "www.cube.exchange",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/70338/why-do-i-need-fancy-methods-to-calculate-half-life-of-mean-reversion",
+    "name": "Why do I need fancy methods to calculate half-life of mean reversion?",
+    "snippet": "Ornstein – Uhlenbeck Process. The AR(1) is the best way to see it. It should also be easy to compute the formula for half-life pairs trading - How can I estimate the Ornstein-Uhlenbeck paramters of ... Interpretation and intuition behind half-life of a mean reverting process More results from quant.stackexchange.com",
+    "host_name": "quant.stackexchange.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/nburgessx_quant-finance-pairs-activity-7197697451879735296-NiKg",
+    "name": "#quant #finance #pairs #trading #statistical #arbitrage  - LinkedIn",
+    "snippet": "Half-life = -ln(2) / β where β is the adjustment coefficient obtained from the Johansen test, representing the speed of mean reversion.",
+    "host_name": "www.linkedin.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2412.12458v1",
+    "name": "An Application of the Ornstein-Uhlenbeck Process  - arXiv",
+    "snippet": "In this paper, we conduct preliminary analysis on a pairs trading strategy using the Ornstein-Uhlenbeck process to model stock price differences.",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hudson-and-thames-arbitragelab.readthedocs-hosted.com/en/latest/optimal_mean_reversion/ou_model.html",
+    "name": "Trading Under the Ornstein-Uhlenbeck Model",
+    "snippet": "This module gives you the ability to calculate optimal values of entering and liquidating the position for your portfolio. The whole process takes only 2 steps.",
+    "host_name": "hudson-and-thames-arbitragelab.readthedocs-hosted.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

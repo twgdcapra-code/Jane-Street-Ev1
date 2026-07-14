@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://ideas.repec.org/a/oup/jfinec/v12y2014i1p47-88..html",
+    "name": "The Price Impact of Order Book Events - IDEAS/RePEc",
+    "snippet": "We show that, over short time intervals, price changes are mainly driven by the order flow imbalance (OFI), defined as the imbalance between supply and demand ...\nRama Cont & Arseniy Kukanov & Sasha Stoikov, 2014. \"The Price Impact of Order Book Events,\" Journal of Financial Econometrics, Oxford University Press, vol.",
+    "host_name": "ideas.repec.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/1011.6402",
+    "name": "[1011.6402] The Price Impact of Order Book Events - arXiv",
+    "snippet": "Our study reveals a linear relation between order flow imbalance and price changes, with a slope inversely proportional to the market depth.",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1712822",
+    "name": "The Price Impact of Order Book Events",
+    "snippet": "Our study reveals a linear relation between order flow imbalance and price changes, with a slope inversely proportional to the market depth.\nWe study the price impact of order book events - limit orders, market orders and cancelations - using the NYSE TAQ data for 50 U.S. stocks.",
+    "host_name": "papers.ssrn.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.smallake.kr/wp-content/uploads/2016/05/Kukanov.pdf",
+    "name": "[PDF] Price impact of order book events",
+    "snippet": "The price impact coefficient show that it is possible to interpolate market dynamics between consecutive price moves with OFI, which tracks build-ups and ...\nRama CONT†, Arseniy KUKANOV†, Sasha STOIKOV‡ Price impact of order book events have showed that limit orders and cancelations, not just trades, have a tangible ...\nThe price impact coefficient results show that it is possible to interpolate market dynamics between consecutive price moves with OFI, which tracks build-ups ...",
+    "host_name": "www.smallake.kr",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emergentmind.com/topics/order-flow-imbalance-ofi-7dff1686-44cf-4cf4-a602-b24df2b7c56e",
+    "name": "Order-Flow Imbalance (OFI) - Emergent Mind",
+    "snippet": "Order-Flow Imbalance (OFI) is a quantitative metric designed to capture the net pressure between buy and sell interest in electronic limit order ...\nClassical OFI as introduced by Cont, Kukanov, and Stoikov is a cumulative sum of signed queue size changes at the best bid and ask prices over ...",
+    "host_name": "www.emergentmind.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://www.sashastoikov.com/finance/2015/3/12/the-price-impact-of-order-book-events",
+    "name": "The Price Impact of Order Book Events - Sasha Stoikov",
+    "snippet": "Our study reveals a linear relation between order flow imbalance and price changes, with a slope inversely proportional to the market depth.",
+    "host_name": "www.sashastoikov.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://academic.oup.com/jfec/article-abstract/12/1/47/816163",
+    "name": "Price Impact of Order Book Events | Journal of Financial Econometrics",
+    "snippet": "We show that, over short time intervals, price changes are mainly driven by the order flow imbalance (OFI), defined as the imbalance between supply and demand ...\nStoikov, The Price Impact of Order Book. We study the price impact of order book events—limit orders, market orders, and cancellations—using the NYSE Trades ...",
+    "host_name": "academic.oup.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.zgglkx.com/EN/10.16381/j.cnki.issn1003-207x.2022.2771",
+    "name": "Multi-Level Order Flow Imbalance and Price Impact - 中国管理科学",
+    "snippet": "Cont R， Kukanov A， Stoikov S. The price impact of order book events［J］. Journal of financial econometrics， 2014， 12（1）： 47-88. 17, Xu Ke， Gould M D ...",
+    "host_name": "www.zgglkx.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]
