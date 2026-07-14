@@ -71,6 +71,7 @@ import { ComplianceAuditLog } from "@/components/trading/ComplianceAuditLog";
 import { CrossAssetHeatmap } from "@/components/trading/CrossAssetHeatmap";
 import { StrategyAttribution } from "@/components/trading/StrategyAttribution";
 import { MonteCarloStressor } from "@/components/trading/MonteCarloStressor";
+import { RegimeAllocator } from "@/components/trading/RegimeAllocator";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -109,7 +110,8 @@ type ModuleId =
   | "audit"
   | "heatmap"
   | "attribution"
-  | "montecarlo";
+  | "montecarlo"
+  | "regime";
 
 interface ModuleDef {
   id: ModuleId;
@@ -152,6 +154,7 @@ const MODULES: ModuleDef[] = [
   { id: "heatmap", name: "Cross-Asset Heatmap", icon: BarChart3, description: "Performance matrix: 23 contracts × 6 timeframes (1D/1W/1M/3M/YTD/1Y), colour-coded" },
   { id: "attribution", name: "Strategy Attribution", icon: PieChart, description: "Brinson-Fachler P&L decomposition: allocation vs selection vs interaction effects" },
   { id: "montecarlo", name: "Monte Carlo Stressor", icon: Zap, description: "10,000 simulated paths, 5th percentile outcomes, stress scenarios, deflated Sharpe" },
+  { id: "regime", name: "Regime Allocator", icon: Brain, description: "HMM regime detection (bull/bear/neutral/high-vol) → auto-allocate capital to best strategies per regime" },
   { id: "research", name: "Research", icon: TrendingUp, description: "Factor analysis and cointegration tools" },
   { id: "system", name: "System Monitor", icon: Activity, description: "Latency, throughput, event log" },
 ];
@@ -393,6 +396,8 @@ function ModuleRenderer({ active, selectedSymbol }: { active: ModuleId; selected
       return <StrategyAttribution />;
     case "montecarlo":
       return <MonteCarloStressor />;
+    case "regime":
+      return <RegimeAllocator />;
     case "research":
       return <ResearchTerminal />;
     case "system":
