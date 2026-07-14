@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.pm-research.com/content/iijpormgmt/40/5/94",
+    "name": "Correcting for Selection Bias, Backtest Overfitting, and Non-Normality",
+    "snippet": "The deflated Sharpe ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non-normally distributed ...",
+    "host_name": "www.pm-research.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2460551",
+    "name": "Correcting for Selection Bias, Backtest Overfitting and Non-Normality",
+    "snippet": "The Deflated Sharpe Ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non-Normally distributed ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf",
+    "name": "[PDF] THE DEFLATED SHARPE RATIO: CORRECTING FOR SELECTION",
+    "snippet": "In presence of memory effects, those extreme patters must be undone, which means that backtest overfitting will lead to loss maximization. See ...",
+    "host_name": "www.davidhbailey.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Deflated_Sharpe_ratio",
+    "name": "Deflated Sharpe ratio - Wikipedia",
+    "snippet": "It corrects for selection bias, backtest overfitting, sample length, and non-normality in return distributions, providing a more reliable test of financial ...",
+    "host_name": "en.wikipedia.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://sdm.lbl.gov/oapapers/ssrn-id2507040-bailey.pdf",
+    "name": "[PDF] Statistical Overfitting and Backtest Performance - SDM",
+    "snippet": "Bailey, D., M. Lopez de Prado (2014): “The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting and Non-Normality”, Journal of Portfolio ...",
+    "host_name": "sdm.lbl.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/The-Deflated-Sharpe-Ratio%3A-Correcting-for-Selection-Bailey-Prado/950f37470615dc6ae6e1f45f735408af11c48251",
+    "name": "Correcting for Selection Bias, Backtest Overfitting, and Non-Normality",
+    "snippet": "The Deflated Sharpe Ratio (DSR) corrects for two leading sources of performance inflation: Selection bias under multiple testing and non-Normally ...",
+    "host_name": "www.semanticscholar.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/318600389_The_probability_of_backtest_overfitting",
+    "name": "The probability of backtest overfitting | Request PDF - ResearchGate",
+    "snippet": "Bailey and López de Prado introduce the deflated Sharpe ratio to correct performance measures for selection bias, non-normality, and backtest overfitting,",
+    "host_name": "www.researchgate.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantresearch.org/Publications.htm",
+    "name": "publications - Marcos M. Lopez de Prado",
+    "snippet": "The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting and Non-Normality Journal of Portfolio Management, 2014 (40th Anniversary ...",
+    "host_name": "www.quantresearch.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

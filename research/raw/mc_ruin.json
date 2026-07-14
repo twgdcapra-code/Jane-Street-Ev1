@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.tradealgo.com/trading-guides/tools/monte-carlo-simulation",
+    "name": "Monte Carlo Simulation | TradeAlgo",
+    "snippet": "Each reordering produces a different equity curve with its own return, maximum drawdown, and Sharpe ratio. The distribution of these 10,000 ...",
+    "host_name": "www.tradealgo.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://outcastbeta.com/drawdown-risk-portfolio-volatility-normalized-by-sharpe-ratio",
+    "name": "Drawdown risk = portfolio volatility normalized by Sharpe ratio",
+    "snippet": "Even if you can tolerate up to 75% drawdown, your probability of ruin is still 25%. You can imagine the amount of uncle points met at full Kelly ...",
+    "host_name": "outcastbeta.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cfm.com/wp-content/uploads/2022/12/288-2017-The-statistics-of-random-walks-how-long-can-you-go-and-when-should-you-panic.pdf",
+    "name": "[PDF] THE STATISTICS OF RANDOM WALKS - Capital Fund Management",
+    "snippet": "The bottom chart shows the cumulative probability density function of these worst drawdowns for three values of Sharpe ratio – 0.5, 1 and continues",
+    "host_name": "www.cfm.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/1dox2d/trade_sizing_max_drawdown_and_using_monte_carlo",
+    "name": "Trade Sizing, Max DrawDown, and using Monte Carlo Simulations",
+    "snippet": "Risk varies based on balance tiering. Sharpe ratio for the static trades past 10 months came out to 3.69 measured on a daily return basis. ... About the \"2% risk per trade\" rule of thumb : r/quant - Reddit Understanding risk in sharpe ratio vs profit. : r/algotrading - Reddit More results from www.reddit.com\nRisk varies based on balance tiering. Sharpe ratio for the static trades past 10 months came out to 3.69 measured on a daily return basis. I ran a Monte Carlo simulation on 10,000 Prop Firm accounts ... - Reddit About the \"2% risk per trade\" rule of thumb : r/quant - Reddit More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantstart.com/articles/Sharpe-Ratio-for-Algorithmic-Trading-Performance-Measurement",
+    "name": "Sharpe Ratio for Algorithmic Trading Performance Measurement",
+    "snippet": "The ratio compares the mean average of the excess returns of the asset or strategy with the standard deviation of those returns.",
+    "host_name": "www.quantstart.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://lobehub.com/es/skills/brainbytes-dev-everything-claude-trading-monte-carlo-simulation",
+    "name": "Monte Carlo Simulation for Strategy  · LobeHub",
+    "snippet": "Monte Carlo generates MANY plausible paths, revealing the distribution of outcomes. Key Insight: A strategy with a 1.5 Sharpe ratio and 15% max drawdown in ...",
+    "host_name": "lobehub.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/joes.12520",
+    "name": "A review on drawdown risk measures and their implications for risk",
+    "snippet": "“risk of ruin” the Sharpe ratio are used to evaluate performance. Sharpe ratio differences alone. a frequently used technique to come up with ...",
+    "host_name": "onlinelibrary.wiley.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=jGhk-uSrtII",
+    "name": "How To: Monte Carlo Simulation - YouTube",
+    "snippet": "... risk of ruin, drawdown distributions, and prop firm account modeling. --- ... The Sharpe Ratio Explained (by a quant trader). Wall Street ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

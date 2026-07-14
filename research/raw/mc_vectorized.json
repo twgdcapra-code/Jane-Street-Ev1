@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://tech-insider.org/numpy-tutorial-python-array-computing-2026",
+    "name": "NumPy Tutorial: 13 Steps to Master Python Arrays [2026] - Tech Insider",
+    "snippet": "This entire simulation runs in under 100 milliseconds for 10,000 paths across 252 trading days.",
+    "host_name": "tech-insider.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/69747403/use-numpy-vectorize-or-map-to-speed-up-a-loop-python-numpy-3d-matrix-get-rid",
+    "name": "Use numpy vectorize or map to speed up a loop - Stack Overflow",
+    "snippet": "If you have an Nvidia GPU, another solution is to use CUDA to execute the function on the GPU. This should be much faster. Note that Numba have ... Using GPU Speeding up monte carlo simulation in python Vector Multiplication using GPU on python More results from stackoverflow.com",
+    "host_name": "stackoverflow.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/nburgessx_chase-the-devil-activity-7333101159823429634-jgjY",
+    "name": "Monte-Carlo Parallelization: to vectorize or not? | Nicholas Burgess",
+    "snippet": "Vectorization can massively speed things up in Python, but it's a trade-off-faster execution vs. higher memory usage. In large-scale simulations ...",
+    "host_name": "www.linkedin.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.neura.market/directories/chatgpt/blog/unlocking-powerful-monte-carlo-simulations-in-excel-using-python-a-game-changer-guide",
+    "name": "Unlocking Powerful Monte Carlo Simulations in Excel Using Python",
+    "snippet": "Dive deep into matrix-matrix multiplication, from fundamental row-column rules to efficient algorithms like Strassen's, with Python examples and real-world ...",
+    "host_name": "www.neura.market",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://chasethedevil.github.io/post/monte-carlo-vectorization-or-not",
+    "name": "Monte-Carlo Parallelization: to vectorize or not? - Chase the Devil",
+    "snippet": "It is possible to further optimize memory by not keeping each full path in memory, but just the current path values, along with a list of vector ...",
+    "host_name": "chasethedevil.github.io",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=SeBRHg9ZrSs",
+    "name": "Matrix Multiplication and (Pseudo) Inverse With NumPy - YouTube",
+    "snippet": "In this video, we discuss linear algebra routines and matrix multiplications for 2D NumPy arrays, essential for understanding a wide range ...",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/2079-3197/12/3/61",
+    "name": "Exploring Numba and CuPy for GPU-Accelerated Monte Carlo",
+    "snippet": "This paper examines the performance of two popular GPU programming platforms, Numba and CuPy, for Monte Carlo radiation transport calculations.",
+    "host_name": "www.mdpi.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1dt3rqc/beating_numpys_matrix_multiplication_in_150_lines",
+    "name": "Beating NumPy's matrix multiplication in 150 lines of C code - Reddit",
+    "snippet": "This blog post is the result of my attempt to implement high-performance matrix multiplication on CPU while keeping the code simple, portable and scalable.",
+    "host_name": "www.reddit.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

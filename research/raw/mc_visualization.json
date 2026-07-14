@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://arongroups.co/forex-articles/monte-carlo-simulation-in-python-for-trading",
+    "name": "Monte Carlo Simulation in Python: Stress-Test Your",
+    "snippet": "Feb 10, 2026 — Monte Carlo Simulation in Python is a practical way to turn trading uncertainty into numbers you can plan around. Read more\nA sample of equity curve paths. Percentile bands (P10, P50, P90) to show plausible outcome ranges. This reduces the risk of hiding uncertainty ...",
+    "host_name": "arongroups.co",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://alvarezquanttrading.com/blog/equity-curve-monte-carlo-analysis",
+    "name": "Equity Curve Monte Carlo Analysis",
+    "snippet": "Jan 24, 2018 — Here are the charts for this strategy . For CAR at the 5% level you have 10.9%. The 50% percentile value of 17.5% The median MDD is 16%. Here is ...",
+    "host_name": "alvarezquanttrading.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://es.tradingview.com/scripts/montecarlo",
+    "name": "MONTECARLO — Indicadores y estrategias",
+    "snippet": "Monte Carlo simulations are widely used on quant trading desks around the world to model uncertainty, test strategy robustness, and estimate the probability",
+    "host_name": "es.tradingview.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://adventuresofgreg.com/blog/2026/01/18/monte-carlo-simulations-equity-curve-analysis",
+    "name": "Monte Carlo Simulations for Equity Curve Analysis",
+    "snippet": "Jan 18, 2026 — Use the tool to monitor live performance by plotting the 5th and 95th percentile equity bands. If your actual results fall outside these bands, ... Read more",
+    "host_name": "adventuresofgreg.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://galorath.com/risk/monte-carlo-simulation",
+    "name": "Monte Carlo Simulation & Analysis: Methods and Risk",
+    "snippet": "Fan charts , often used in schedule risk views, display a band of potential outcomes over time. They visualize how uncertainty grows, or narrows, throughout the ...\nVisual tools like S-curves, fan charts, and confidence bands make it easier to communicate statistical findings, justify reserves, and secure cross-functional ...",
+    "host_name": "galorath.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.wallible.com/en/blog/monte-carlo-simulation-portfolio-guide",
+    "name": "Monte Carlo Simulation for your portfolio: a practical guide",
+    "snippet": "Mar 15, 2026 — The following chart shows the 1,000 simulated paths overlaid. The colored bands represent key percentiles . Fan chart Monte Carlo : 1,000 ... Read more\nThe following chart shows the 1,000 simulated paths overlaid. The colored bands represent key percentiles. Fan chart Monte Carlo: 1,000 ...",
+    "host_name": "www.wallible.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

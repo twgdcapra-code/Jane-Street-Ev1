@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S2468227623000157",
+    "name": "Simulating stock prices using geometric Brownian motion model",
+    "snippet": "This study proposes a modified Geometric Brownian motion (GBM), to simulate stock price paths under normal and convoluted distributional assumptions.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.investopedia.com/articles/07/montecarlo.asp",
+    "name": "Monte Carlo Simulation With Geometric Brownian Motion",
+    "snippet": "GBM assumes stock prices follow a random walk with a constant drift and random shocks that mimic market volatility. MCS reveals that while stock price returns ...",
+    "host_name": "www.investopedia.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mathworks.com/help/finance/gbm.html",
+    "name": "Geometric Brownian motion (GBM) model - MATLAB - MathWorks",
+    "snippet": "Creation · Properties · Examples",
+    "host_name": "www.mathworks.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Geometric_Brownian_motion",
+    "name": "Geometric Brownian motion - Wikipedia",
+    "snippet": "In real life, stock prices often show ...",
+    "host_name": "en.wikipedia.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ww2.amstat.org/meetings/proceedings/2016/data/assets/pdf/389551.pdf",
+    "name": "[PDF] Estimation of Geometric Brownian Motion Model with a t-Distribution",
+    "snippet": "Geometric Brownian motion (GBM) model basically suggests that the distribution of asset returns is normal or lognormal. involves randomness, volatility and ...",
+    "host_name": "ww2.amstat.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantstart.com/articles/geometric-brownian-motion-simulation-with-python",
+    "name": "Geometric Brownian Motion Simulation with Python - QuantStart",
+    "snippet": "The statistical parameters include the 'drift' and 'volatility' of the GBM solution, which can be modified to generate stocks that trend upwards more or less",
+    "host_name": "www.quantstart.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/Rohitku123/-Monte-Carlo-Simulation-of-Stock-Prices-using-Geometric-Brownian-Motion-GBM-",
+    "name": "Rohitku123/-Monte-Carlo-Simulation  - GitHub",
+    "snippet": "This project implements a Monte Carlo simulation to model stock price evolution using Geometric Brownian Motion (GBM). The simulation generates thousands of ...",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.simtrade.fr/blog_simtrade/modeling-asset-prices-financial-markets-arithmetic-geometric-brownian-motions",
+    "name": "Modeling Asset Prices in Financial Markets: Arithmetic and Geometric",
+    "snippet": "In this example, the model assumes an annual drift (μ) of 8%, representing the expected growth rate, and an annual volatility (σ) of 15%, ...",
+    "host_name": "www.simtrade.fr",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

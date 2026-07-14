@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://medium.com/@simonleung5jobs/risk-management-in-financial-portfolio-710e270bf0e1",
+    "name": "Risk Management in Financial Portfolio | by Simon Leung - Medium",
+    "snippet": "When calculating Value at Risk (VaR) and Conditional Value at Risk (CVaR), log returns are generally preferred over simple returns. Here's why:.",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mathworks.com/discovery/conditional-value-at-risk.html",
+    "name": "Conditional Value at Risk (CVaR) – MATLAB and Simulink - MathWorks",
+    "snippet": "Conditional value-at-risk (CVaR) is the extended risk measure of value-at-risk that quantifies the average loss over a specified time period of unlikely ...\nCVaR is replacing VaR for calculating market risk capital in the Fundamental Review of the Trading Book (FRTB) by Basel Committee on Banking Supervision (BCBS).",
+    "host_name": "www.mathworks.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=MrVJSizFJhs",
+    "name": "Expected Shortfall & Conditional Value at Risk (CVaR) Explained - YouTube",
+    "snippet": "Unlock the secrets of financial risk management with Ryan O'Connell, CFA, FRM, as he dives deep into Expected Shortfall, Conditional Value ...",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ejurnal.ung.ac.id/index.php/jjom/article/view/30952",
+    "name": "Conditional Value at Risk Portfolio With Monte Carlo Control Variates | Maga - eJurnal UNG",
+    "snippet": "This research measures the application of CVaR to a portfolio of banking sector stocks in Indonesia using the Monte Carlo Control Variates (MCCV) technique.",
+    "host_name": "ejurnal.ung.ac.id",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.informs-sim.org/wsc11papers/009.pdf",
+    "name": "[PDF] MONTE CARLO ESTIMATION OF VALUE-AT-RISK, CONDITIONAL VALUE-AT-RISK AND THEIR SENSITIVITIES",
+    "snippet": "This tutorial discusses Monte Carlo methods for estimating value- at-risk, conditional value-at-risk and their sensitivities.",
+    "host_name": "www.informs-sim.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.fe.training/free-resources/portfolio-management/conditional-value-at-risk",
+    "name": "Conditional Value at Risk Explained - Free Excel Template - Financial Edge",
+    "snippet": "Conditional Value at Risk (CVaR) is a spectral risk measure that aims to capture the tail risk of a portfolio's return distribution.",
+    "host_name": "www.fe.training",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mssanz.org.au/MODSIM07/papers/29_s1/ThoughtsOnVar_s1_Allen_.pdf",
+    "name": "[PDF] Thoughts on VaR and CVaR - MSSANZ",
+    "snippet": "Conditional Value at. Risk (CVaR) measures extreme risk. It calculates the risk beyond VaR. Relative industry risk measurement is also very important to Banks ...",
+    "host_name": "www.mssanz.org.au",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://link.springer.com/rwe/10.1007/978-1-4419-1153-7_1232",
+    "name": "Conditional Value-at-Risk (CVaR) | Springer Nature Link",
+    "snippet": "'Conditional Value-at-Risk (CVaR)' published in 'Encyclopedia of Operations Research and Management Science'",
+    "host_name": "link.springer.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.ssc.wisc.edu/~bhansen/718/Politis%20Romano.pdf",
+    "name": "[PDF] Politis and Romano: The Stationary Bootstrap",
+    "snippet": "This article introduces a resampling procedure called the stationary bootstrap as a means of calculating standard errors of estimators and constructing ...",
+    "host_name": "www.ssc.wisc.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mathworks.com/matlabcentral/fileexchange/101929-stationary-bootstrap?s_tid=prof_contriblnk",
+    "name": "Stationary Bootstrap - File Exchange - MATLAB Central - MathWorks",
+    "snippet": "Stationary bootstrap algorithm for resampling weakly-dependent stationary data. Based on the 1994 paper by Politis & Romano. a sampling block.",
+    "host_name": "www.mathworks.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/open-source-modelling/stationary_bootstrap_python",
+    "name": "A block resampling method used for weakly-dependent stationary time",
+    "snippet": "A block resampling method used for weakly-dependent stationary time-series data. Methodology proposed in the 1994 paper by Politis & Romano. Problem.",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/82817794/1994-the-Stationary-Bootstrap-Politis-and-Romano",
+    "name": "Stationary Bootstrap Method Overview | PDF | Resampling (Statistics)",
+    "snippet": "In what way can the stationary bootstrap be seen as a weighted average over moving blocks bootstrap estimates, according to the analyses of Politis and Romano?",
+    "host_name": "www.scribd.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scirp.org/reference/referencespapers?referenceid=2225321",
+    "name": "Politis, D. and Romano, J.P. (1992) A Circular Block Resampling",
+    "snippet": "We derive the asymptotic properties of the blocking bootstrap estimators for the expected shortfall of a stationary process under strong mixing conditions.",
+    "host_name": "www.scirp.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blogs.sas.com/content/iml/2021/01/20/stationary-bootstrap-sas.html",
+    "name": "The stationary block bootstrap in SAS - The DO Loop",
+    "snippet": "This article is the third of a series. It shows how to perform a stationary block bootstrap by randomly sampling blocks of residuals.",
+    "host_name": "blogs.sas.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://math.ucsd.edu/~politis/impactBOOT.pdf",
+    "name": "[PDF] The impact of bootstrap methods on time series analysis",
+    "snippet": "Examples of some early work on block resampling for stationary time series include the blocks-of-blocks bootstrap of Politis and Romano (1992a)",
+    "host_name": "math.ucsd.edu",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.susanpotter.net/quant/bootstrap-methods-strategy-robustness",
+    "name": "Bootstrap Methods for Strategy Robustness: Resampling When",
+    "snippet": "Dimitris Politis and Joseph Romano (1992) introduced the circular block bootstrap. The idea is to wrap the series so that the last observation ...",
+    "host_name": "www.susanpotter.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

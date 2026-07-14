@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://www.simtool.com/article/implementing-the-heston-stochastic-volatility-model-for-equity-derivatives-pricing",
+    "name": "Heston Stochastic Volatility Model: Pricing, Calibration",
+    "snippet": "This article covers the Heston model's mathematical structure, calibration to market implied volatility surfaces, semi-analytical pricing via the characteristic function, and Monte Carlo simulation with full-truncation discretization — with practical Python implementations throughout.",
+    "host_name": "www.simtool.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/louisdelacour21/Heston-Model-Calibration-and-Simulation/tree/main",
+    "name": "louisdelacour21/Heston-Model-Calibration-and-Simulation - GitHub",
+    "snippet": "Heston Model Calibration: Automatic calibration to market implied volatility surfaces Monte Carlo Simulation: Efficient path generation with the Heston stochastic volatility process Flexible Product Structures: Support for various autocallable note types Advanced Features: Memory effect, protection barriers, conditional coupons, custom payoff ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@uddin.maher/option-pricing-with-the-heston-model-part-2-parameter-estimation-monte-carlo-simulations-2a7be6e00cf2",
+    "name": "Option Pricing with the Heston Model — Part 2: Parameter",
+    "snippet": "🤖 The full implementation of the Heston Model, model calibration via parameter estimation, Monte Carlo simulations and other option pricing methods can be found on Github here.",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/318151322_Calibration_and_simulation_of_Heston_model",
+    "name": "(PDF) Calibration and simulation of Heston model - ResearchGate",
+    "snippet": "Abstract and Figures We calibrate Heston stochastic volatility model to real market data using several optimization techniques.",
+    "host_name": "www.researchgate.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://research.cbs.dk/en/studentProjects/calibration-and-simulation-of-the-heston-model",
+    "name": "Calibration and Simulation of the Heston Model",
+    "snippet": "In this thesis, we present a comprehensive guide on how to implement and calibrate the Heston model using real market data, and on how to price American options using Monte Carlo simulations. We address the challenges that will arise in the implementation of the pricing formula and explore the prevalent solutions found in the existing literature.",
+    "host_name": "research.cbs.dk",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/1502.02963",
+    "name": "An Analysis of the Heston Stochastic Volatility Model:",
+    "snippet": "Abstract This paper analyses the implementation and calibration of the Heston Stochastic Volatility Model. We first explain how characteristic functions can be used to estimate option prices. Then we consider the implementation of the Heston model, showing that relatively simple solutions can lead to fast and accurate vanilla option prices. We also perform several calibration tests, using both ...",
+    "host_name": "arxiv.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ressources-actuarielles.net/EXT/ISFA/1226.nsf/0/1826b88b152e65a7c12574b000347c74/$FILE/LeifAndersenHeston.pdf",
+    "name": "Efﬁcient Simulation of the Heston Stochastic Volatility Mod",
+    "snippet": "Abstract Stochastic volatility models are increasingly important in practical derivatives pricing applications, yet relatively little work has been undertaken in the development of practical Monte Carlo simulation methods for this class of models. This paper considers several new algorithms for time-discretization and Monte Carlo simulation of Heston-type stochastic volatility models. The ...",
+    "host_name": "www.ressources-actuarielles.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  }
+]

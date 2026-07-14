@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf",
+    "name": "THE PROBABILITY OF BACKTEST OVERFITTING",
+    "snippet": "2015 · Cited by 312 — We define the probability of backtested overfitting (PBO) as the probability that an optimal strategy IS underperforms the mean OOS . To ... 34 pages\nWe define the probability of backtested overfitting (PBO) as the probability that an optimal strategy IS underperforms the mean OOS.",
+    "host_name": "www.davidhbailey.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2326253",
+    "name": "The Probability of Backtest Overfitting",
+    "snippet": "2015 · Cited by 312 — We show that CSCV produces accurate estimates of the probability that a particular backtest is over-fit.\nWe propose a framework that estimates the probability of backtest over-fitting (PBO) we call combinatorially symmetric cross-validation (CSCV).",
+    "host_name": "papers.ssrn.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scispace.com/papers/the-probability-of-backtest-overfitting-4ublh83xkm",
+    "name": "(PDF) The Probability of Backtest Overfitting (2015)",
+    "snippet": "CSCV produces accurate estimates of the probability that a particular backtest is over-fit , through a numerical method that is called combinatorially symmetric ...\nCSCV produces accurate estimates of the probability that a particular backtest is over-fit, through a numerical method that is called combinatorially symmetric ...",
+    "host_name": "scispace.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/a/rsk/journ0/2471206.html",
+    "name": "The probability of backtest overfitting",
+    "snippet": "Cited by 308 — We propose a general framework to assess the probability of backtest overfitting ;( PBO ). ;implementations combinatorially symmetric cross - validation ( CSCV ). We ...\nWe propose a general framework to assess the probability of backtest overfitting;(PBO). ;implementations combinatorially symmetric cross-validation (CSCV). We ...",
+    "host_name": "ideas.repec.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/balaena-quant-insights/the-probability-of-backtest-overfitting-pbo-9ba0ac7fb456",
+    "name": "The Probability of Backtest Overfitting (PBO) | by Liana Ling",
+    "snippet": "PBO is calculated using the Combinatorially Symmetric Cross - Validation ( CSCV ) process, as detailed below. 3.2 How to Calculate PBO With CSCV .\nPBO is calculated using the Combinatorially Symmetric Cross-Validation (CSCV) process, as detailed below. 3.2 How to Calculate PBO With CSCV. Overfitting as Probability · Probability of Backtest... · A Word of Caution",
+    "host_name": "medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://risklab.ai/research/backtesting/backtesting",
+    "name": "The Dangers of Backtesting",
+    "snippet": "The Probability of Backtest Overfitting (PBO) measures the likelihood that the \"best\" strategy was a statistical fluke . The Combinatorially Symmetric Cross- ...",
+    "host_name": "risklab.ai",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scholarworks.wmich.edu/math_pubs/42",
+    "name": "The Probability of Backtest Overfitting - ScholarWorks at WMU",
+    "snippet": "2017 · Cited by 312 — We propose a general framework to assess the probability of backtest overfitting ( PBO ). implementations combinatorially symmetric cross - validation ( CSCV ). We ...\nWe propose a general framework to assess the probability of backtest overfitting (PBO). We illustrate this framework with specific generic, model-free and ...",
+    "host_name": "scholarworks.wmich.edu",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mintbyte.com/methodology/pbo-backtest-overfitting",
+    "name": "PBO — Probability of Backtest Overfitting · Methodology",
+    "snippet": "The estimator uses a Combinatorially-Symmetric Cross-Validation (CSCV ) procedure: ·Split the return series into N equal blocks (typically 8 or 16). ·For every ...",
+    "host_name": "mintbyte.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://past.date-conference.com/proceedings-archive/2013/PDFFILES/03.5_4.PDF",
+    "name": "[PDF] A Multi-Level Monte Carlo FPGA Accelerator for Option Pricing in the",
+    "snippet": "We show that a multi-level Monte Carlo architecture for asset path simulations in the Heston model only consumes 3.58 W on a Xilinx Virtex-. 6 FPGA. Our design ...\nThe data path of the Monte Carlo path simulation acceler- ator is able to run up to 120 MHz (timing constraint set to 120 MHz).",
+    "host_name": "past.date-conference.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mohak-pachisia-0a56a71b6_the-options-strategy-that-sparked-a-hedge-activity-7319963103285112832-uIG4",
+    "name": "How Jane Street won a hedge fund war with a powerful options",
+    "snippet": "The options strategy that sparked a Hedge Fund war in 2024: Jane Street vs Millennium. Let's dive into what made this strategy so powerful.",
+    "host_name": "www.linkedin.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com",
+    "name": "Jane Street: Home",
+    "snippet": "Jane Street is a quantitative trading firm and liquidity provider with a unique focus on technology and collaborative problem solving.",
+    "host_name": "www.janestreet.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.23785",
+    "name": "FPGA Acceleration of Matrix-Element Calculations for Monte Carlo",
+    "snippet": "We present an FPGA-based study of matrix-element acceleration for Monte Carlo event generation, using MadGraph5_aMC@NLO as a benchmark framework ...",
+    "host_name": "arxiv.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.xilinx.com/publications/events/developer-forum/2018-frankfurt/f1-acceleration-for-montecarlo-financial-algorithms-on-fpga.pdf",
+    "name": "[PDF] F1 Acceleration for Montecarlo: financial algorithms on FPGA",
+    "snippet": "Financial problems and mathematical models. Monte Carlo Method Stochastic process. Large amount of paths (N) in total to achieve convergent ...\nSolution ˃ Monte Carlo Method Stochastic process. Large amount of paths (N) in total to achieve convergent result. Model Option F1 FPGA",
+    "host_name": "www.xilinx.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.janestreet.com/advent-of-fpga-challenge-2025",
+    "name": "Advent of FPGA — A Jane Street Challenge",
+    "snippet": "Update: We got over 200 submissions to this challenge, spanning a wide variety of HDL languages and hardware platforms!",
+    "host_name": "blog.janestreet.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.marketcalls.in/fintech/stop-calling-jane-street-a-hedge-fund-its-an-ai-lab-that-happens-to-print-money-from-markets.html",
+    "name": "Stop Calling Jane Street a “Hedge Fund.” It's an AI Lab  - Marketcalls",
+    "snippet": "Jane Street operates across multiple time horizons simultaneously, from sub-100 nanosecond FPGA decisions wired into exchange fiber to multi- ...",
+    "host_name": "www.marketcalls.in",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://circuitquant.com",
+    "name": "CircuitQuant – FPGA-Accelerated Quant Infrastructure",
+    "snippet": "CircuitQuant delivers ultra-low-latency FPGA-accelerated quant trading infrastructure for hedge funds, prop firms, and financial institutions.",
+    "host_name": "circuitquant.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]
