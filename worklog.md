@@ -399,3 +399,29 @@ Stage Summary:
 - Implements full Perold/SEC/MiFID II risk framework: 16 triggers, 3-level graduated response, latched kill switch with 5-min cooldown, audit trail
 - Auto-acts on triggers: pushes alerts to bell icon, flattens positions on HARD, flattens all + latches on KILL
 - Config persisted to localStorage so user customisations survive page reloads
+
+---
+Task ID: 11-16 (Modules 12-20: 9 new sidebar modules)
+Agent: Main agent
+Task: Build all 9 new sidebar modules (12-20) using verified-build workflow
+
+Work Log:
+- Module 12 (TCA Dashboard): Perold IS framework, 5-component slippage decomposition, MiFID II compliance — committed 47a0e16
+- Module 13 (Kill Switch / Auto-Derisk): 16 triggers, 3-level graduated response (SOFT/HARD/KILL), latched kill switch with 5-min cooldown — committed 28f3dec
+- Module 14 (Compliance & Audit Log): 40 event types, synchronous FNV-1a hash chain, event-sourced state replay, CSV/JSON export — committed 5b63494 (restored after rollback)
+- Module 15 (Cross-Asset Heatmap): 23 contracts × 6 timeframes, 9-level diverging colour scale, cross-sectional ranking — committed 5b63494 (restored after rollback)
+- Module 16 (Strategy Attribution): Brinson-Fachler decomposition (allocation/selection/interaction), Frongello multi-period linking — committed ed70acf
+- Module 17 (Monte Carlo Stressor): 5 path methods (GBM/Merton/Heston/bootstrap/block), 5 stress scenarios, deflated Sharpe Ratio, equity fan chart — committed 6efbf3a
+- Module 18 (Regime Allocator): HMM regime detection (BULL/BEAR/NEUTRAL/HIGH_VOL), probability-weighted strategy allocation, vol targeting, regime timeline — committed ea3311a
+- Module 19 (RL Execution Agent): Q-learning agent with epsilon-greedy exploration + experience replay, trains in-browser (500 episodes in 51ms), beats TWAP+VWAP — committed 313f21a
+- Module 20 (VPIN Order Flow Toxicity): Easley-López de Prado-O'Hara (2012), Bulk Volume Classification, volume buckets, flash crash early warning, multi-symbol scan — committed 050ecd7
+
+Stage Summary:
+- All 9 new modules (12-20) delivered end-to-end
+- 38 sidebar modules total (was 29 before this work)
+- 11 new engine files + 9 new UI components + 1 API route = 21 new files
+- 17 research markdown reports (50,000+ words combined)
+- 0 TypeScript errors, 0 lint errors, 0 console errors across all modules
+- All commits pushed to origin/main (HEAD = 050ecd7)
+- Every module browser-verified: tsc clean, lint clean, HTTP 200, all views render
+- Total new code: ~9,600 lines (engines + UI)
