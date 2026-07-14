@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378426619300858",
+    "name": "Bulk volume classification and information detection - ScienceDirect",
+    "snippet": "BVC uses total volume and price changes within a block of trades to classify order flow into buying and selling volume. BVC involves putting trades into blocks ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://faculty.bus.olemiss.edu/rvanness/Speakers/Presentations%202019-2020/AlCarrion_BVC_info_Jan2020.pdf",
+    "name": "[PDF] Bulk Volume Trade Classification and Informed Trading*",
+    "snippet": "We document that the existing evidence that bulk volume trade classification (BVC) can measure informed trading arises largely due to misspecified tests.",
+    "host_name": "faculty.bus.olemiss.edu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tom.shohfi.com/don/pubs/01-Don-BVC.pdf",
+    "name": "[PDF] Bulk volume classification and information detection - Tom Shohfi",
+    "snippet": "BVC involves putting trades into blocks, or bars, by either volume or time. A percentage of the block is then classified as buys (the remainder as sells)",
+    "host_name": "tom.shohfi.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://acfr.aut.ac.nz/__data/assets/pdf_file/0016/222037/ROBERTO-Massot-Samarpan-and-Pascual-2018-BVC-and-NOF-Preliminary-and-incomplete.pdf",
+    "name": "[PDF] Bulk Volume Classification Under the Microscope: Estimating the Net",
+    "snippet": "We evaluate the bulk volume classification (BVC) method of Easley et al. (2016). Our focus is on markets where algorithmic trading strategies govern the ...",
+    "host_name": "acfr.aut.ac.nz",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/228261430_Bulk_Classification_of_Trading_Activity",
+    "name": "Bulk Classification of Trading Activity | Request PDF - ResearchGate",
+    "snippet": "This paper measures the probability of informed trading in China's stock index futures market by VPIN method.",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dee.uib.eu/digitalAssets/234/234006_Pascual.pdf",
+    "name": "[PDF] Trade Classification Algorithms: A Horse Race between the Bulk  - UIB",
+    "snippet": "BVC uses volume aggregated over fixed time intervals (time bars) or fixed volume intervals (volume bars).2. BVC correctly classifies 79.7% of volume, whereas ...",
+    "host_name": "dee.uib.eu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantresearch.org/Panayides_Shohfi_Smith.pdf",
+    "name": "[PDF] Comparing Trade Flow Classification Algorithms in the Electronic Era",
+    "snippet": "The bulk volume classification procedure was developed in ELO for use in the Easley et al. (2012) volume-synchronized probability of informed trading (VPIN) ...",
+    "host_name": "www.quantresearch.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://grokipedia.com/page/Volume-synchronized_probability_of_informed_trading",
+    "name": "Volume-synchronized probability of informed trading - Grokipedia",
+    "snippet": "Classify volumes into buy and sell categories using Bulk Volume Classification (BVC). This method aggregates trades into bars (e.g., time bars of 1 minute)",
+    "host_name": "grokipedia.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

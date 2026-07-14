@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.youtube.com/watch?v=XKaBN-sgIA0",
+    "name": "Computational Finance: Lecture 4/14 (Implied Volatility) - YouTube",
+    "snippet": "... Volatility 28:38 Newton-Raphson Method and Implementation in Python 58:17 Time-Dependent Volatility Parameter, σ(t) 01:10:11 Implied Volatility ...",
+    "host_name": "www.youtube.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portfoliooptimizer.io/blog/range-based-volatility-estimators-overview-and-examples-of-usage",
+    "name": "Range-Based Volatility Estimators: Overview and Examples of Usage",
+    "snippet": "A volatility estimator fully or partially relying on the highest prices H t ,t= 1..T and on the lowest prices L t ,t= 1..T is called a range-based volatility ...",
+    "host_name": "portfoliooptimizer.io",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/43284304/how-to-compute-volatility-standard-deviation-in-rolling-window-in-pandas",
+    "name": "How to compute volatility (standard deviation) in rolling window in Pandas",
+    "snippet": "I have a time series \"Ser\" and I want to compute volatilities (standard deviations) with a rolling window.",
+    "host_name": "stackoverflow.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=zapp8smQKhg",
+    "name": "Lecture 19: Volatility Modeling - YouTube",
+    "snippet": "... estimation techniques including exponential moving averages and advanced estimators like the Garman-Klass and Yang-Zhang models. It also ...",
+    "host_name": "www.youtube.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://visualhft.com/blog/volume-synchronized-probability-of-informed-trading-vpin",
+    "name": "Volume-Synchronized Probability of Informed Trading (VPIN) - VisualHFT",
+    "snippet": "VPIN can serve as an effective tool for monitoring market volatility, particularly in markets known for their rapid fluctuations.",
+    "host_name": "visualhft.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5078198.pdf?abstractid=5078198",
+    "name": "[PDF] HyperIV: Real-time Implied Volatility Smoothing",
+    "snippet": "We propose HyperIV, a novel approach for real-time implied volatility smoothing that eliminates the need for traditional calibration procedures.",
+    "host_name": "papers.ssrn.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

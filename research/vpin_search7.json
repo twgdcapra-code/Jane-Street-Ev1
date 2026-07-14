@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://support.numxl.com/hc/en-us/articles/115000142626-Understanding-Exponential-Weighted-Volatility-EWMA",
+    "name": "Understanding Exponential Weighted Volatility (EWMA) - Help center",
+    "snippet": "The main objective of EWMA is to estimate the next-day (or period) volatility of a time series and closely track the volatility as it changes.",
+    "host_name": "support.numxl.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2404.08136v1",
+    "name": "Exponentially Weighted Moving Models - arXiv",
+    "snippet": "An exponentially weighted moving model (EWMM) for a vector time series fits a new data model each time period, based on an exponentially fading loss function ...",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=dlajqZn7bjM",
+    "name": "Exponentially Weighted Moving Average (EWMA) Explained",
+    "snippet": "The Exponentially Weighted Moving Average is a way of smoothing data so that recent values matter more than older ones.",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Exponential_smoothing",
+    "name": "Exponential smoothing - Wikipedia",
+    "snippet": "Exponential smoothing or exponential moving average (EMA) is a technique for smoothing time series data using the exponential window function.",
+    "host_name": "en.wikipedia.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/AskStatistics/comments/6trrsj/exponential_weighted_moving_average",
+    "name": "Exponential weighted moving average : r/AskStatistics - Reddit",
+    "snippet": "There are three types of EWMA methods that I'm familiar with: single EWMA, double EWMA, and triple EWMA. and gamma (seasonality).",
+    "host_name": "www.reddit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.6sigma.us/six-sigma-in-focus/exponentially-weighted-moving-average-ewma-chart",
+    "name": "EWMA Chart (Exponentially Weighted Moving Average Chart). Everything",
+    "snippet": "EWMA chart assigns more weight to ongoing information focuses over more established centers, aiding in observing little stepwise deviations.",
+    "host_name": "www.6sigma.us",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/2076-3417/10/20/7351",
+    "name": "Comparative Study on Exponentially Weighted Moving Average  - MDPI",
+    "snippet": "This study compared the properties of several exponentially weighted moving average methods as base models for the self-starting forecasting process.",
+    "host_name": "www.mdpi.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@tobias-chc/exponentially-weighted-average-5eed00181a09",
+    "name": "Exponentially Weighted Average - Medium",
+    "snippet": "The Exponentially Weighted Moving Average (EWMA) is commonly used as a smoothing technique in time series.",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://medium.com/@simomenaldo/understanding-order-flow-toxicity-58fa317b3d01",
+    "name": "Understanding Order Flow Toxicity | by Simone Menaldo - Medium",
+    "snippet": "If the estimated adverse selection component increases, the market maker will widen the spread to compensate for the increased risk. In a ...",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/322137590_Learning_about_adverse_selection_in_markets",
+    "name": "(PDF) Learning about adverse selection in markets - ResearchGate",
+    "snippet": "This upward revision in the perceived adverse selection risk can cause market makers to set wider bid-ask spreads and lead to sharp price adjustments",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.stern.nyu.edu/sites/default/files/assets/documents/con_035928.pdf",
+    "name": "[PDF] 1 Flow Toxicity and Liquidity in a High Frequency World David Easley",
+    "snippet": "Order flow is toxic when it adversely selects market makers, who may be unaware they are providing liquidity at a loss. We present a new procedure to estimate ...",
+    "host_name": "www.stern.nyu.edu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/69887/adverse-selection-and-market-makers",
+    "name": "Adverse selection and market makers - Quantitative Finance Stack",
+    "snippet": "The theoretical models say the greater the probability of adverse selection, the greater should be the bid-ask spread the market maker uses.",
+    "host_name": "quant.stackexchange.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/6301779.pdf?abstractid=6301779&mirid=1",
+    "name": "[PDF] Detecting Liquidity Stress Before Crises:",
+    "snippet": "The practical importance of this framework is that spreads begin to widen before prices move significantly, because the market maker's adverse ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=4h4Txm__WdY",
+    "name": "Quantifying Adverse Selection Costs in Automated Market Makers",
+    "snippet": "Speaker: Tim Roughgarden, Columbia University Tuesday, September 23rd, 2025 http://www.fields.utoronto.ca/activities/25-26/markbraverman.",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blogs.cfainstitute.org/marketintegrity/2014/12/18/hft-price-improvement-adverse-selection-an-expensive-way-to-get-tighter-spreads",
+    "name": "HFT, Price Improvement, Adverse Selection: An Expensive Way to Get",
+    "snippet": "The debate on high-frequency trading (HFT) continues to rage, it is important to note that it is not only the “Flash Boys” that may threaten market integrity.",
+    "host_name": "blogs.cfainstitute.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantresearch.org/VPIN.pdf",
+    "name": "[PDF] VPIN 1 The Volume Synchronized Probability of INformed Trading",
+    "snippet": "VPIN metric is conceived for the HFT environment, our results suggest that certain VPIN specifications provide proxies for adverse selection risk",
+    "host_name": "www.quantresearch.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://medium.com/@kryptonlabs/vpin-the-coolest-market-metric-youve-never-heard-of-e7b3d6cbacf1",
+    "name": "VPIN: The Coolest Market Metric You've Never Heard Of - Medium",
+    "snippet": "When market makers withdraw liquidity, either by widening bid-ask spreads or pulling their liquidity entirely, overall liquidity falls.",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/1912.10343",
+    "name": "[PDF] arXiv:1912.10343v1 [q-fin.TR] 21 Dec 2019",
+    "snippet": "VPIN would prejudge market liquidity, these returns come from losses from market makers and liquidity traders. solve the liquidity demand of ...",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantresearch.org/From%20PIN%20to%20VPIN.pdf",
+    "name": "[PDF] From PIN to VPIN - QuantResearch.org",
+    "snippet": "VPIN measures order flow toxicity and toxicity is a wider concept focusing on the likelihood of HF liquidity providers being adversely selected.",
+    "host_name": "www.quantresearch.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scispace.com/pdf/volume-synchronized-probability-of-informed-trading-vpin-3afk7rj2zq.pdf",
+    "name": "[PDF] Volume-Synchronized Probability of Informed Trading (VPIN), Market",
+    "snippet": "The withdrawal of market makers causes VPIN to shoot up further, showing an even higher level of information toxicity, which will drive more liquidity providers",
+    "host_name": "scispace.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://randlow.github.io/2018_JR_BV_VPIN_rev.pdf",
+    "name": "[PDF] BV–VPIN: Measuring the impact of order flow toxicity and liquidity on",
+    "snippet": "The VPIN is a metric of the probability that the liquidity provision process might fail and result in adverse price movements.",
+    "host_name": "randlow.github.io",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://electronictradinghub.com/vpin-and-real-time-order-toxicity-what-your-execution-stack-cannot-see-before-the-fill",
+    "name": "VPIN and Real-Time Order Toxicity: What Your Execution Stack Cannot",
+    "snippet": "The operational threshold we use in our monitoring — sustained VPIN above 0.7 for 8 or more consecutive volume bars — is a practitioner-derived ...",
+    "host_name": "electronictradinghub.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

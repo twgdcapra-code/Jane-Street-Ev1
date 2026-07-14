@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1989555",
+    "name": "Discerning Information from Trade Data",
+    "snippet": "We examine the accuracy of three methods for classifying trade data: bulk volume classification (BVC), Tick Rule and Aggregated Tick Rule.",
+    "host_name": "papers.ssrn.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/a/eee/jfinec/v120y2016i2p269-285.html",
+    "name": "Discerning information from trade data - IDEAS/RePEc",
+    "snippet": "Easley, David de Prado, We examine the accuracy of three methods for classifying trade data: bulk volume classification (BVC), tick rule and aggregated tick ...",
+    "host_name": "ideas.repec.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.academia.edu/124868509/Discerning_information_from_trade_data",
+    "name": "(PDF) Discerning information from trade data - Academia.edu",
+    "snippet": "BVC would appear to be a useful tool for discerning trading intentions from market data. David Easley , Marcos Lopez de Prado. Discerning Information from ...",
+    "host_name": "www.academia.edu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.stern.nyu.edu/sites/default/files/assets/documents/con_035928.pdf",
+    "name": "[PDF] 1 Flow Toxicity and Liquidity in a High Frequency World David Easley",
+    "snippet": "López de Prado, VPIN captures the level of toxicity affecting liquidity provision, which in turn affects future short-run volatility when this toxicity becomes ...",
+    "host_name": "www.stern.nyu.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tom.shohfi.com/don/pubs/01-Don-BVC.pdf",
+    "name": "[PDF] Bulk volume classification and information detection - Tom Shohfi",
+    "snippet": "Easley, D. , López de Prado, M.M. , O'Hara, M. , 2016. Discerning information from trade data. J. Financial Econ. 120 (2), 269–285 . Ellis, K. , Michaely, R ...",
+    "host_name": "tom.shohfi.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://acfr.aut.ac.nz/__data/assets/pdf_file/0016/222037/ROBERTO-Massot-Samarpan-and-Pascual-2018-BVC-and-NOF-Preliminary-and-incomplete.pdf",
+    "name": "[PDF] Bulk Volume Classification Under the Microscope: Estimating the Net",
+    "snippet": "We evaluate the bulk volume classification (BVC) method of Easley et al. (2016). Our focus is on markets where algorithmic trading strategies govern the order ...",
+    "host_name": "acfr.aut.ac.nz",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

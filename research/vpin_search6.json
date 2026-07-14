@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3993561",
+    "name": "Cross-Impact of Order Flow Imbalance in Equity Markets",
+    "snippet": "We investigate the impact of order flow imbalance (OFI) on price movements in equity markets in a multi-asset setting.",
+    "host_name": "papers.ssrn.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/order-flow-imbalance-models",
+    "name": "Order Flow Imbalance Models - QuestDB",
+    "snippet": "Order Flow Imbalance (OFI) models are mathematical frameworks that quantify the imbalance between buying and selling pressure in financial markets.",
+    "host_name": "questdb.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2505.17388v1",
+    "name": "Stochastic Price Dynamics in Response to Order Flow Imbalance",
+    "snippet": "This study specifically investigates order flow imbalance and trade flow imbalance within market microstructure, Cont et al. [1] introduced a ...",
+    "host_name": "arxiv.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emergentmind.com/topics/order-flow-imbalance-ofi-7dff1686-44cf-4cf4-a602-b24df2b7c56e",
+    "name": "Order-Flow Imbalance (OFI) - Emergent Mind",
+    "snippet": "Order-Flow Imbalance (OFI) is a metric that aggregates order book queue changes to capture net buy and sell pressure in electronic limit order ...",
+    "host_name": "www.emergentmind.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/order-flow-imbalance-kshitij-anand-hoz2c",
+    "name": "Order Flow Imbalance - LinkedIn",
+    "snippet": "Order Flow Imbalance (OFI):- a measure derived from the limit order book that captures the net pressure of buy and sell orders. OFI is strongly ...",
+    "host_name": "www.linkedin.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@simomenaldo/understanding-order-flow-toxicity-58fa317b3d01",
+    "name": "Understanding Order Flow Toxicity | by Simone Menaldo - Medium",
+    "snippet": "Order Flow Imbalance (OFI) is a foundational concept that measures the net pressure of buying versus selling activity in the market. It is a ...",
+    "host_name": "medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/357365614_Cross-Impact_of_Order_Flow_Imbalance_in_Equity_Markets",
+    "name": "(PDF) Cross-Impact of Order Flow Imbalance in Equity Markets",
+    "snippet": "Order Flow Imbalance (OFI) is the net order flow resulting from the imbalance between the supply and demand sides. Rama Cont Rama Cont Mihai",
+    "host_name": "www.researchgate.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=aE32_dIwIg0&vl=en",
+    "name": "Rama Cont | Price dynamics in limit order markets - YouTube",
+    "snippet": "Title: Price dynamics in limit order markets: a multi-scale stochastic model and its hydrodynamic limit Speaker: Rama Cont (Imperial College ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

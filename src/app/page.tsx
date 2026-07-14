@@ -73,6 +73,7 @@ import { StrategyAttribution } from "@/components/trading/StrategyAttribution";
 import { MonteCarloStressor } from "@/components/trading/MonteCarloStressor";
 import { RegimeAllocator } from "@/components/trading/RegimeAllocator";
 import { RlExecutionAgent } from "@/components/trading/RlExecutionAgent";
+import { VpinOrderFlow } from "@/components/trading/VpinOrderFlow";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -113,7 +114,8 @@ type ModuleId =
   | "attribution"
   | "montecarlo"
   | "regime"
-  | "rlagent";
+  | "rlagent"
+  | "vpin";
 
 interface ModuleDef {
   id: ModuleId;
@@ -158,6 +160,7 @@ const MODULES: ModuleDef[] = [
   { id: "montecarlo", name: "Monte Carlo Stressor", icon: Zap, description: "10,000 simulated paths, 5th percentile outcomes, stress scenarios, deflated Sharpe" },
   { id: "regime", name: "Regime Allocator", icon: Brain, description: "HMM regime detection (bull/bear/neutral/high-vol) → auto-allocate capital to best strategies per regime" },
   { id: "rlagent", name: "RL Execution Agent", icon: Zap, description: "DQN/Q-learning agent learns optimal execution slicing — trains in-browser, beats TWAP/VWAP" },
+  { id: "vpin", name: "VPIN Order Flow Toxicity", icon: Waves, description: "Volume-synchronized probability of informed trading — detects toxic flow before flash crashes" },
   { id: "research", name: "Research", icon: TrendingUp, description: "Factor analysis and cointegration tools" },
   { id: "system", name: "System Monitor", icon: Activity, description: "Latency, throughput, event log" },
 ];
@@ -403,6 +406,8 @@ function ModuleRenderer({ active, selectedSymbol }: { active: ModuleId; selected
       return <RegimeAllocator />;
     case "rlagent":
       return <RlExecutionAgent />;
+    case "vpin":
+      return <VpinOrderFlow />;
     case "research":
       return <ResearchTerminal />;
     case "system":

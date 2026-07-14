@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.quantresearch.org/VPIN.pdf",
+    "name": "[PDF] VPIN 1 The Volume Synchronized Probability of INformed Trading",
+    "snippet": "The Volume Synchronized Probability of. INformed Trading, commonly known as. VPIN, is a mathematical model used in financial markets for multiple purposes.",
+    "host_name": "www.quantresearch.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1695596",
+    "name": "Flow Toxicity and Liquidity in a High Frequency World",
+    "snippet": "We present a new procedure to estimate flow toxicity based on volume imbalance and trade intensity (the VPIN toxicity metric). and López de ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.stern.nyu.edu/sites/default/files/assets/documents/con_035928.pdf",
+    "name": "[PDF] 1 Flow Toxicity and Liquidity in a High Frequency World David Easley",
+    "snippet": "This paper presents a new procedure to estimate the Volume-Synchronized Probability of Informed Trading, or the VPIN flow toxicity metric.",
+    "host_name": "www.stern.nyu.edu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1386418113000189",
+    "name": "VPIN and the flash crash - ScienceDirect.com",
+    "snippet": "The Volume-Synchronized Probability of Informed trading (VPIN) metric is introduced by Easley, López de Prado, and O'Hara (2011a) as a real-time indicator ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://visualhft.com/blog/volume-synchronized-probability-of-informed-trading-vpin",
+    "name": "Volume-Synchronized Probability of Informed Trading (VPIN) - VisualHFT",
+    "snippet": "Developed by David Easley, Marcos López de Prado, VPIN measures the imbalance of buy and sell volumes, serving as a key barometer for informed ...",
+    "host_name": "visualhft.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cfr.ivo-welch.info/published/papers/easley2017improved.pdf",
+    "name": "[PDF] An Improved Version of the Volume-Synchronized Probability of",
+    "snippet": "ABSTRACT. Ke and Lin provide a valuable alternative approach to estimating the Volume-Synchronized Probability of Informed Trading (VPIN) measure.",
+    "host_name": "cfr.ivo-welch.info",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://search.r-project.org/CRAN/refmans/PINstimation/html/vpin.html",
+    "name": "Estimation of Volume-Synchronized PIN model - R",
+    "snippet": "Estimates the Volume-Synchronized Probability of Informed Trading as developed in Easley et al. (2011) and Easley et al. (2012). De Prado MM, OHara M (2012). ...",
+    "host_name": "search.r-project.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@simomenaldo/understanding-order-flow-toxicity-58fa317b3d01",
+    "name": "Understanding Order Flow Toxicity | by Simone Menaldo - Medium",
+    "snippet": "The Volume-Synchronized Probability of Informed Trading (VPIN) metric, developed by Easley, López de Prado, and O'Hara (2012), is a real-time ...",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

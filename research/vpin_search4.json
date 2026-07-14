@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.quantresearch.org/VPIN.pdf",
+    "name": "[PDF] VPIN 1 The Volume Synchronized Probability of INformed Trading",
+    "snippet": "This procedure adopts a volume clock which synchronizes the data sampling with the market activity, as captured by regular volume buckets.",
+    "host_name": "www.quantresearch.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://visualhft.com/blog/volume-synchronized-probability-of-informed-trading-vpin",
+    "name": "Volume-Synchronized Probability of Informed Trading (VPIN) - VisualHFT",
+    "snippet": "This article explores the Volume-Synchronized Probability of Informed Trading (VPIN), a metric enhancing market analysis by measuring trade ...",
+    "host_name": "visualhft.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/docs/cookbook/sql/finance/vpin",
+    "name": "VPIN (Volume-synchronized Probability of Informed Trading)",
+    "snippet": "VPIN measures the probability that informed traders are active in the market by looking at order flow imbalance across fixed-volume buckets.",
+    "host_name": "questdb.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.stern.nyu.edu/sites/default/files/assets/documents/con_035928.pdf",
+    "name": "[PDF] 1 Flow Toxicity and Liquidity in a High Frequency World David Easley",
+    "snippet": "We argue that in the high frequency world, trade-time, as captured by volume, is a more relevant metric than clock-time.",
+    "host_name": "www.stern.nyu.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scirp.org/journal/paperinformation?paperid=95972",
+    "name": "A New Way to Compute the Probability of Informed Trading",
+    "snippet": "Volume-Synchronized Probability of Informed Trading (VPIN) is a tool designed to predict extreme events like flash crashes in high-frequency trading.",
+    "host_name": "www.scirp.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.bayes.citystgeorges.ac.uk/__data/assets/pdf_file/0008/128069/Paiardini.pdf",
+    "name": "[PDF] Probability of Informed Trading and Volatility for an ETF",
+    "snippet": "Volume- Synchronized Probability of Informed Trading (VPIN). introduce the concept of time instead of clock time, sampling by volume instead of time allows us ...",
+    "host_name": "www.bayes.citystgeorges.ac.uk",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/319498670_An_Improved_Version_of_the_Volume-Synchronized_Probability_of_Informed_Trading",
+    "name": "An Improved Version of the Volume-Synchronized Probability of",
+    "snippet": "the volume time measure helps improve the predictability of VPIN for the flow toxicity. PIN was built on a time-clock theoretical framework, and the VPIN with ...",
+    "host_name": "www.researchgate.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@simomenaldo/understanding-order-flow-toxicity-58fa317b3d01",
+    "name": "Understanding Order Flow Toxicity | by Simone Menaldo - Medium",
+    "snippet": "VPIN is computed over volume-synchronized time bars, making it sensitive to the intra-day dynamics of order flow. The core idea is to classify ...",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]
