@@ -61,6 +61,10 @@ import {
 import { type SignalRule, type SignalLogEntry } from "./indicators-intelligence";
 import { type IndicatorPreset, DEFAULT_PRESETS } from "./indicator-registry";
 import { detectCorrelationBreakdowns, DEFAULT_PAIRS } from "./correlation-arb";
+import {
+  logOrderReceived, logOrderFilled, logOrderCancelled, logOrderRejected,
+  logPositionChange, logSystemEvent,
+} from "./audit-log";
 
 // ActiveIndicator type (defined in IndicatorsLab but needed here for persistence)
 interface ActiveIndicator {
@@ -248,6 +252,7 @@ export const useTradingStore = create<TradingState>((set, get) => ({
     set({ quotes, connected: true, lastTickAt: Date.now() });
     get().log("INFO", "System", "Trading engine initialised", { contracts: initial.length });
     get().log("INFO", "MarketData", "Subscribed to live feed", { symbols: initial.length });
+    logSystemEvent("SYSTEM_STARTUP", "Trading engine initialised", { contracts: initial.length });
     // Seed some sample orders and positions to make the demo feel alive
     seedDemoData(set, get);
   },
@@ -336,6 +341,7 @@ export const useTradingStore = create<TradingState>((set, get) => ({
     }
     set({ orders: [order, ...get().orders] });
     get().log("INFO", "OMS", `Order placed: ${o.side} ${o.qty} ${o.symbol} @ ${o.type}`, { orderId: id });
+    logOrderReceived(order, "user");
     // Attempt immediate fill for market orders
     if (o.type === "MARKET") {
       const storeInternal = useTradingStore as unknown as TradingState & {
@@ -355,6 +361,7 @@ export const useTradingStore = create<TradingState>((set, get) => ({
       ),
     });
     get().log("INFO", "OMS", `Order cancelled: ${id}`, { symbol: order.symbol });
+    logOrderCancelled(order, "User cancelled", "user");
   },
 
   modifyOrder: (id, updates) => {
@@ -756,6 +763,10 @@ store.applyFill = (order: Order, fillQty: number, fillPrice: number) => {
   useTradingStore.getState().log("INFO", "Execution", `Fill: ${fill.side} ${fill.qty} ${fill.symbol} @ ${fillPrice.toFixed(4)}`, {
     orderId: order.id,
   });
+  // Audit log: ORDER_FILLED + FILL_EXECUTED + POSITION_CHANGE
+  const updatedOrder = updatedOrders.find((o) => o.id === order.id);
+  if (updatedOrder) logOrderFilled(updatedOrder, fill);
+  logPositionChange(order.symbol, oldPos.netQty, newNetQty, newAvgPrice, newRealized - oldPos.realizedPnL, order.strategy);
   if (order.tag === "FLATTEN") {
     useTradingStore.getState().addAlert({
       type: "ORDER",

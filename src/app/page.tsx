@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import {
   Activity,
   AlertTriangle,
+  BarChart3,
   Bell,
   BookOpen,
   Brain,
@@ -20,6 +21,7 @@ import {
   RefreshCw,
   Calculator,
   ShieldAlert,
+  ShieldCheck,
   Sigma,
   Star,
   Terminal,
@@ -64,6 +66,8 @@ import { CorrelationArbitrage } from "@/components/trading/CorrelationArbitrage"
 import { FixProtocolAdapter } from "@/components/trading/FixProtocolAdapter";
 import { TcaDashboard } from "@/components/trading/TcaDashboard";
 import { KillSwitchPanel } from "@/components/trading/KillSwitchPanel";
+import { ComplianceAuditLog } from "@/components/trading/ComplianceAuditLog";
+import { CrossAssetHeatmap } from "@/components/trading/CrossAssetHeatmap";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -98,7 +102,9 @@ type ModuleId =
   | "corrarb"
   | "fixadapter"
   | "tca"
-  | "killswitch";
+  | "killswitch"
+  | "audit"
+  | "heatmap";
 
 interface ModuleDef {
   id: ModuleId;
@@ -137,6 +143,8 @@ const MODULES: ModuleDef[] = [
   { id: "fixadapter", name: "FIX Protocol Adapter", icon: Terminal, description: "FIX 4.4 session manager, message builder, tag reference, wire format" },
   { id: "tca", name: "TCA Dashboard", icon: Gauge, description: "Post-trade TCA: VWAP/arrival/IS benchmarks, slippage decomposition, MiFID II compliance" },
   { id: "killswitch", name: "Kill Switch / Auto-Derisk", icon: ShieldAlert, description: "Real-time risk triggers: daily loss, VaR, drawdown, margin, circuit breakers, 16-rule latched kill" },
+  { id: "audit", name: "Compliance & Audit Log", icon: ShieldCheck, description: "MiFID II / CFTC / SEC append-only hash-chained event log, state replay, export" },
+  { id: "heatmap", name: "Cross-Asset Heatmap", icon: BarChart3, description: "Performance matrix: 23 contracts × 6 timeframes (1D/1W/1M/3M/YTD/1Y), colour-coded" },
   { id: "research", name: "Research", icon: TrendingUp, description: "Factor analysis and cointegration tools" },
   { id: "system", name: "System Monitor", icon: Activity, description: "Latency, throughput, event log" },
 ];
@@ -370,6 +378,10 @@ function ModuleRenderer({ active, selectedSymbol }: { active: ModuleId; selected
       return <TcaDashboard />;
     case "killswitch":
       return <KillSwitchPanel />;
+    case "audit":
+      return <ComplianceAuditLog />;
+    case "heatmap":
+      return <CrossAssetHeatmap />;
     case "research":
       return <ResearchTerminal />;
     case "system":
