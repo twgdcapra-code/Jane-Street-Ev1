@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/html/2512.12924v1",
+    "name": "A Rigorous Walk-Forward Validation Framework for Market  - arXiv",
+    "snippet": "We develop a rigorous walk-forward validation framework for algorithmic trading designed to mitigate overfitting and lookahead bias.",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.quantinsti.com/walk-forward-optimization-introduction",
+    "name": "Walk-Forward Optimization (WFO) - QuantInsti Blog",
+    "snippet": "Walk-forward optimisation reduces overfitting by testing each segment of data in a forward-looking manner, preventing the false confidence that can come from a ...",
+    "host_name": "blog.quantinsti.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/funny-ai-quant/ai-algorithmic-trading-walk-forward-analysis-a-comprehensive-guide-to-advanced-backtesting-f3f8b790554a",
+    "name": "[AI & Algorithmic Trading] Walk-Forward Analysis - Medium",
+    "snippet": "Walk-Forward Analysis is a method of backtesting that aims to bridge the gap between historical performance and future expectations. Overview · How Walk-Forward Analysis...",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950705124011110",
+    "name": "Backtest overfitting in the machine learning era: A comparison of out-of",
+    "snippet": "Our study evaluates various cross-validation techniques in mitigating backtest overfitting within a synthetic controlled environment and real-world data.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://alphascientist.com/walk_forward_model_building.html",
+    "name": "Stock Prediction with ML: Walk-forward Modeling",
+    "snippet": "This post is going to delve into the mechanics of walk-forward modeling which is, in my view, the most robust way to train and apply machine learning models.",
+    "host_name": "alphascientist.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/time-series-analysis-walk-forward-validation-rafi-ahmed-4v91c",
+    "name": "Time Series Analysis: Walk-Forward Validation - LinkedIn",
+    "snippet": "The key advantage of walk-forward validation is that it simulates a real-world scenario where a model is updated as new data becomes available.",
+    "host_name": "www.linkedin.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Walk_forward_optimization",
+    "name": "Walk forward optimization - Wikipedia",
+    "snippet": "Walk forward optimization is a method used in finance to determine the optimal parameters for a trading strategy and to determine the robustness of the ...",
+    "host_name": "en.wikipedia.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/Daytrading/comments/1idz4je/trading_with_walkforward_optimization_and_machine",
+    "name": "Trading with Walk-Forward Optimization and Machine Learning",
+    "snippet": "Walk-Forward Optimization (WFO) (1) continually recalibrate your models, (2) mitigate overfitting, and (3) capture hidden market relationships.",
+    "host_name": "www.reddit.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

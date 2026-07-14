@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.researchgate.net/publication/391292844_Deep_Reinforcement_Learning_for_Optimizing_Order_Book_Imbalance-Based_High-Frequency_Trading_Strategies",
+    "name": "Deep Reinforcement Learning for Optimizing Order Book Imbalance",
+    "snippet": "This paper proposes an innovative deep reinforcement learning (DRL) framework designed to enhance HFT strategies by leveraging order book imbalance as a ...",
+    "host_name": "www.researchgate.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2507.22712v1",
+    "name": "Order Book Filtration and Directional Signal Extraction at  - arXiv",
+    "snippet": "The study finds that this enriched representation of order flow imbalance can improve the prediction of price movements at horizons ranging from ...",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantpedia.com/how-to-use-deep-order-flow-imbalance",
+    "name": "How to Use Deep Order Flow Imbalance - QuantPedia",
+    "snippet": "The novel research of Kolm, Turiel and Westray (2021) utilizes deep-learning for high-frequency return forecasts for 115 NASDAQ stocks based on order book ...",
+    "host_name": "quantpedia.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.imperial.ac.uk/media/imperial-college/faculty-of-natural-sciences/department-of-mathematics/math-finance/Bertermann-_ARVID_01912841.pdf",
+    "name": "[PDF] Reinforcement learning trading strategies with limit orders and high",
+    "snippet": "Chapter 3 focuses on the application of tabular Reinforcement Learning agents to historical limit order book data. First, we theoretically design the agent",
+    "host_name": "www.imperial.ac.uk",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S0169207024000062",
+    "name": "The short-term predictability of returns in order book markets: A deep",
+    "snippet": "This paper uses deep learning techniques to conduct a systematic large-scale analysis of order book-driven predictability in high-frequency returns.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ajcutuli.github.io/OrderBookDeepLearning",
+    "name": "Trading in the Limit Order Book with CNN-LSTM - Aric Cutuli",
+    "snippet": "To select optimal lags, we iteratively fit order flow and imbalance data as VAR models with an increasing estimate for the order p p and selecting the estimate ...",
+    "host_name": "ajcutuli.github.io",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/algotrading/comments/1pgsphr/algo_only_based_on_orderbook_imbalance_could_it",
+    "name": "Algo only based on Orderbook Imbalance (Could it work?) - Reddit",
+    "snippet": "Orderbook imbalance should be used as an execution logic upon your main strategy to improve your slippage.",
+    "host_name": "www.reddit.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ciajournal.com/index.php/jcia/article/view/20/20",
+    "name": "View of Deep Reinforcement Learning for Optimizing Order Book",
+    "snippet": "This paper proposes an innovative deep reinforcement learning (DRL) framework designed to enhance HFT strategies by leveraging order book imbalance as a ...",
+    "host_name": "ciajournal.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

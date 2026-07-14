@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S0004370225001237",
+    "name": "Centralized training with hybrid execution in multi-agent",
+    "snippet": "We study hybrid execution in multi-agent reinforcement learning (MARL), a paradigm where agents aim to complete cooperative tasks with arbitrary communication ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/LantaoYu/MARL-Papers",
+    "name": "Paper list of multi-agent reinforcement learning (MARL) · GitHub",
+    "snippet": "This is a collection of research and review papers of multi-agent reinforcement learning (MARL). Many-agent Reinforcement Learning by Yaodong Yang, 2021.",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openreview.net/forum?id=CpnKq3UJwp",
+    "name": "Efficient Multi-agent Reinforcement Learning by Planning - OpenReview",
+    "snippet": "The paper proposes MAZero, a novel multi-agent reinforcement learning (MARL) algorithm that extends the MuZero framework into multi-agent settings.",
+    "host_name": "openreview.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2411.06389v2",
+    "name": "Optimal Execution with Reinforcement Learning in a Multi-Agent Market",
+    "snippet": "In this paper we present a framework based on RL, specifically the Double Q Network (DQN) [12] algorithm, to learn an optimal execution strategy ...",
+    "host_name": "arxiv.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/2079-9292/14/4/820",
+    "name": "A Review of Multi-Agent Reinforcement Learning Algorithms",
+    "snippet": "This paper introduces the modeling concepts of single-agent and multi-agent systems: the fundamental principles of Markov Decision Processes and Markov Games.",
+    "host_name": "www.mdpi.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://profiles.wustl.edu/en/publications/efficient-multi-agent-reinforcement-learning-by-planning",
+    "name": "EFFICIENT MULTI-AGENT REINFORCEMENT LEARNING BY",
+    "snippet": "Multi-agent reinforcement learning (MARL) algorithms have accomplished remarkable breakthroughs in solving large-scale decision-making tasks.",
+    "host_name": "profiles.wustl.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/370842313_Multi-Agent_Reinforcement_Learning_Methods_Applications_Visionary_Prospects_and_Challenges",
+    "name": "(PDF) Multi-Agent Reinforcement Learning: Methods, Applications",
+    "snippet": "This paper aims to review methods and applications and point out research trends and visionary prospects for the next decade.",
+    "host_name": "www.researchgate.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/abs/10.1145/3580305.3599856",
+    "name": "Learning Multi-Agent Intention-Aware Communication for Optimal Multi",
+    "snippet": "In this paper, we first present a multi-agent RL (MARL) method for multi-order execution considering practical constraints.",
+    "host_name": "dl.acm.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

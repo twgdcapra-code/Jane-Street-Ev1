@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.tensorflow.org/js",
+    "name": "Machine Learning for JavaScript Developers - TensorFlow.js",
+    "snippet": "In this blog post we demonstrate how to convert and run Python-based JAX functions and Flax machine learning models in the browser using TensorFlow.js.",
+    "host_name": "www.tensorflow.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://shreyansh26.github.io/post/2021-01-25_deep_learning_in_the_browser",
+    "name": "Deep Learning in the Browser - Exploring TF.js, WebDNN and",
+    "snippet": "In this tutorial I will be giving an overview of three frameworks, Tensorflow.js, WebDNN and ONNX.js. I will be a deploying a simple pretrained image ...",
+    "host_name": "shreyansh26.github.io",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@ThinkingLoop/machine-learning-in-the-browser-js-just-got-smarter-af16b7d7af42",
+    "name": "Machine Learning in the Browser: JS Just Got Smarter | by Thinking Loop",
+    "snippet": "Brings ONNX (Open Neural Network Exchange) models into the browser. Works with models exported from PyTorch or TensorFlow. Optimized to run with ...",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/webdev/comments/1157h6h/library_for_running_deep_learning_models_in_the",
+    "name": "Library for running deep learning models in the browser - Reddit",
+    "snippet": "Introducing TensorFlow.js, a WebGL accelerated, browser based JavaScript library for training and deploying ML models",
+    "host_name": "www.reddit.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/azure/inference-machine-learning-models-in-the-browser-with-javascript-and-onnx-runtime-web-9gk",
+    "name": "Inference machine learning models in the browser with JavaScript and",
+    "snippet": "In this video tutorial we will go over how to do client side inferencing in the browser with ONNX Runtime web.",
+    "host_name": "dev.to",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://blog.logrocket.com/ai-in-browsers-comparing-tensorflow-onnx-and-webdnn-for-image-classification",
+    "name": "AI in browsers: Comparing TensorFlow, ONNX, and WebDNN",
+    "snippet": "TensorFlow.js allows users to develop machine learning models in JavaScript. ONNX.js uses a combination of web worker and web assembly to ...",
+    "host_name": "blog.logrocket.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantumobile.com/rd-blog/running-your-deep-learning-models-in-a-browser-using-tensorflow-js-and-onnx-js",
+    "name": "Running your Deep Learning models in a browser using Tensorflow.js",
+    "snippet": "Today we will discuss how to launch semantic segmentation and style transfer models in your browser using Tensorflow.js and ONNX.js.",
+    "host_name": "quantumobile.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mlconference.ai/blog/machine-learning-in-the-browser-what-possibilities-are-there-with-tensorflow-js",
+    "name": "TensorFlow.js: What is possible with Machine learning in the browser?",
+    "snippet": "TensorFlow.js is a JavaScript library that runs in the browser and with Node.js on a server. It makes machine learning easily available in web applications.",
+    "host_name": "mlconference.ai",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

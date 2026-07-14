@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.janestreet.com/performance-engineering",
+    "name": "Performance Engineering :: Jane Street",
+    "snippet": "Jane Street is a quantitative trading firm and liquidity provider. NTT algorithms on FPGAs with Hardcaml Accelerating machine learning\nJane Street is a quantitative trading firm and liquidity provider with a unique focus on technology and collaborative problem solving.",
+    "host_name": "www.janestreet.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=pFRFZDLnr-s",
+    "name": "Building FPGA-based Machine Learning Accelerators in Python",
+    "snippet": "In this talk, we will demo a simple machine learning accelerator deployed on a commodity FPGA and developed using a Python-based toolchain.",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2601.19263v1",
+    "name": "A Reconfigurable Framework for AI-FPGA Agent Integration  - arXiv",
+    "snippet": "This paper presents AI FPGA Agent, an agent-driven framework that paradigms that offer finer-grained control over performance, power, and ...",
+    "host_name": "arxiv.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jane-street-global_results-from-the-advent-of-fpga-challenge-activity-7430253609549942784-DS-p",
+    "name": "FPGA Advent Challenge Results: Top Submissions from 46 Countries",
+    "snippet": "Our Advent of FPGA Challenge asked the community to solve Advent of Code puzzles in hardware. 213 submissions from 46 countries later, ...",
+    "host_name": "www.linkedin.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sytaylor_jane-street-ai-engineer-explained-how-the-activity-7459588345724207105-_LBh",
+    "name": "Jane Street's $20.5B Hedge Fund Uses LLMs for Profit - LinkedIn",
+    "snippet": "Jane Street AI Engineer explained how the hedge fund uses LLMs to make $20.5B/year They trained their own model that generates code that ...",
+    "host_name": "www.linkedin.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openreview.net/pdf/5bf07b31f77dddf3dadc1f78a7492173aef554be.pdf",
+    "name": "[PDF] An FPGA-Accelerated Reinforcement Learning Environment Simulation",
+    "snippet": "FPGA-Gym achieves a 4.36 to 972.6× speedup over 9 the existing fastest software-based framework for parallel environment execution.",
+    "host_name": "openreview.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.marketcalls.in/fintech/stop-calling-jane-street-a-hedge-fund-its-an-ai-lab-that-happens-to-print-money-from-markets.html",
+    "name": "Stop Calling Jane Street a “Hedge Fund.” It's an AI Lab That Happens",
+    "snippet": "Jane Street operates across multiple time horizons simultaneously, from sub-100 nanosecond FPGA decisions wired into exchange fiber to multi- ...",
+    "host_name": "www.marketcalls.in",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://par.nsf.gov/servlets/purl/10196432",
+    "name": "[PDF] A Generic FPGA based Design for Q-Table based Reinforcement",
+    "snippet": "We evaluate our architecture for Q-Learning and SARSA algorithms and show that our designs achieve a high throughput of up to 180 million samples per second.",
+    "host_name": "par.nsf.gov",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

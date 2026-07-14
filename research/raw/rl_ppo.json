@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1707.06347",
+    "name": "[1707.06347] Proximal Policy Optimization Algorithms - arXiv",
+    "snippet": "Proximal Policy Optimization Algorithms, by John Schulman … optimizing a \"surrogate\" objective function using stochastic gradient ascent.",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@EleventhHourEnthusiast/proximal-policy-optimization-algorithms-8b8e6596c713",
+    "name": "Proximal Policy Optimization Algorithms | by Eleventh Hour Enthusiast - Medium",
+    "snippet": "At the core of PPO's method is the use of a clipped surrogate objective function. This objective function guides policy updates, ensuring they ...",
+    "host_name": "medium.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emergentmind.com/topics/proximal-policy-optimization-ppo-algorithm",
+    "name": "Proximal-Policy Optimization (PPO) Algorithm - Emergent Mind",
+    "snippet": "Proximal-Policy Optimization (PPO) is a reinforcement learning algorithm that uses a clipped surrogate objective function to ensure stable ...",
+    "host_name": "www.emergentmind.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Proximal_policy_optimization",
+    "name": "Proximal policy optimization - Wikipedia",
+    "snippet": "The surrogate objective allows PPO to avoid the new policy moving too far from the old policy; the clip function regularizes the policy update and reuses ...",
+    "host_name": "en.wikipedia.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ai.stackexchange.com/questions/7832/why-does-the-clipped-surrogate-objective-work-in-proximal-policy-optimization",
+    "name": "Why does the clipped surrogate objective work in Proximal Policy Optimization?",
+    "snippet": "With clipped surrogate objective, you don't give too much importance to promising actions. You learn that bad actions are bad, so you decrease their ...",
+    "host_name": "ai.stackexchange.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://vitalab.github.io/article/2019/05/09/PPO.html",
+    "name": "Clipped Proximal Policy Optimization Algorithm - The VITALab website",
+    "snippet": "The paper has two main contributions: the clipped surrogate objective. The clip function prevents the ratio going away from the interval (1−ε,1 ...\nThe paper has two main contributions: the clipped surrogate objective and multiple epochs for policy updates.",
+    "host_name": "vitalab.github.io",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://towardsdatascience.com/understanding-and-implementing-proximal-policy-optimization-schulman-et-al-2017-9523078521ce",
+    "name": "Understanding and Implementing Proximal Policy Optimization (Schulman et al., 2017)",
+    "snippet": "Understand the core contribution of PPO: Clipped Surrogate Objective and Multiple Epochs Policy Update. Motives. Destructive Policy Updates. We ...\nProximal Policy Optimization attempts to simplify the optimization process while retaining the advantages of TRPO. e (Schulman et al., 2017) we ...",
+    "host_name": "towardsdatascience.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aitinkerers.org/technologies/proximal-policy-optimization",
+    "name": "Proximal Policy Optimization Projects - AI Tinkerers",
+    "snippet": "It solves the instability issue common in policy gradient methods by using a clipped surrogate objective function: this mechanism limits the policy update size ...",
+    "host_name": "aitinkerers.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

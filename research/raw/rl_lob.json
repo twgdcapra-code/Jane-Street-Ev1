@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/html/2510.27334v1",
+    "name": "When AI Trading Agents Compete: Adverse Selection of Meta  - arXiv",
+    "snippet": "This implementation of TWAP in the limit order book simulation achieves the stylised facts of meta-orders' market impact as seen in (Maitrier, ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mfe.baruch.cuny.edu/wp-content/uploads/2012/09/Chicago2016OptimalExecution.pdf",
+    "name": "[PDF] Three models of market impact - Baruch MFE Program",
+    "snippet": "Intuition: At high trading rates, the order book has insufficient time to refresh. Page 42. Introduction. Square-root law. Models. Model implications.",
+    "host_name": "mfe.baruch.cuny.edu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5152207.pdf?abstractid=5152207&mirid=1",
+    "name": "[PDF] Event-Based Limit Order Book Simulation under a Neural Hawkes",
+    "snippet": "In this paper, we propose an event-driven Limit Order Book (LOB) model that captures twelve of the most observed LOB events in exchange- based ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jean-philippe-bouchaud-bb08a15_the-square-root-law-of-market-impact-activity-7266521587678416896-DsqS",
+    "name": "Jean-Philippe Bouchaud's Post - LinkedIn",
+    "snippet": "The square-root law for price impact is arguably one of the most fascinating robust empirical regularities discovered in the last 30 years.",
+    "host_name": "www.linkedin.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.financialresearch.gov/working-papers/files/OFRwp2014-09_PaddrikHayesSchererBeling_EffectsLimitOrderBookInformationLevelMarketStabilityMetrics.pdf",
+    "name": "[PDF] Effects of Limit Order Book Information Level on Market Stability Metrics",
+    "snippet": "We tested market data produced by an agent-based simulation model that incorporates a limit order book mechanism and associated microstructure ...",
+    "host_name": "www.financialresearch.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cfm.com/wp-content/uploads/2022/12/38-2014-A-fully-consistent-minimal-model-for-non-linear-market-impact.pdf",
+    "name": "[PDF] A fully consistent, minimal model for non-linear market impact",
+    "snippet": "We account for the universally observed square-root impact law, and predict non-trivial trajectories when trading is interrupted or reversed.",
+    "host_name": "www.cfm.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://freeportlogbook.substack.com/p/market-impact",
+    "name": "Market Impact - by Lihong - The Logbook",
+    "snippet": "The square-root formula typically used for the market impact of traded volumes is highly non-trivial; in particular, it means that trading ...",
+    "host_name": "freeportlogbook.substack.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://haas.berkeley.edu/wp-content/uploads/hiddenImpact13.pdf",
+    "name": "[PDF] The market impact of large trading orders - Berkeley Haas",
+    "snippet": "their theory predicts impact increases as the square root of volume, for limit orders impact is felt largely by selective execution due to adverse information ...",
+    "host_name": "haas.berkeley.edu",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

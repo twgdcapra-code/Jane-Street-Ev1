@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf",
+    "name": "[PDF] LETTER - Human-level control through deep reinforcement learning",
+    "snippet": "DQN agent—the replay memory, separate target Q-network. The effects of replay and separating the target Q-network DQN agents were trained for 10 million frames ...",
+    "host_name": "web.stanford.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://sesen.ai/blog/deep-q-networks-experience-replay-target-networks",
+    "name": "Deep Q-Networks: Experience Replay and Target Networks - Sesen AI",
+    "snippet": "Experience replay and the target network reduce instability, but they don't eliminate it. In practice, DQN agents often exhibit catastrophic ...",
+    "host_name": "sesen.ai",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/nerd-for-tech/reinforcement-learning-deep-q-learning-with-atari-games-63f5242440b1",
+    "name": "Reinforcement Learning: Deep Q-Learning with Atari games",
+    "snippet": "The paper combines the concept of Double Q learning with DQN to create a simple Double DQN modification, where we can use the target network as ...",
+    "host_name": "medium.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DGWD9rUIDyO",
+    "name": "How did DeepMind's DQN revolutionize RL? Mnih et al. (2015",
+    "snippet": "Mnih et al. (2015) introduced Deep Q-Networks (DQN), training neural networks to master Atari games from raw pixels—outperforming humans in ...",
+    "host_name": "www.instagram.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/1312.5602",
+    "name": "[1312.5602] Playing Atari with Deep Reinforcement Learning - arXiv",
+    "snippet": "We present the first deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning.",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf",
+    "name": "[PDF] Playing Atari with Deep Reinforcement Learning",
+    "snippet": "This paper introduced a new deep learning model for reinforcement learning, and demonstrated its ability to master difficult control policies for Atari 2600 ...",
+    "host_name": "www.cs.toronto.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.neuralaspect.com/posts/breakout-2013",
+    "name": "Revisiting Playing Atari with Deep Reinforcement Learning",
+    "snippet": "Interestingly there's no target network as this concept was introduced in the 2015 follow-up and so our implementation does not include this.",
+    "host_name": "www.neuralaspect.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://keras.io/examples/rl/deep_q_network_breakout",
+    "name": "Deep Q-Learning for Atari Breakout - Keras",
+    "snippet": "This network learns an approximation of the Q-table, which is a mapping between the states and actions that an agent will take.",
+    "host_name": "keras.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

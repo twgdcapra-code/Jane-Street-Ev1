@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.smallake.kr/wp-content/uploads/2016/03/optliq.pdf",
+    "name": "[PDF] Optimal Execution of Portfolio Transactions∗",
+    "snippet": "First, we obtain closed form solutions for trading optimal trading strategy for any level of risk aversion. efficient frontier of optimal",
+    "host_name": "www.smallake.kr",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scirp.org/reference/referencespapers?referenceid=1331632",
+    "name": "Almgren, R. and Chriss, N. (2000) Optimal Execution of Portfolio",
+    "snippet": "We present a trading execution model that describes the behaviour of a big trader and of a multitude of retail traders operating on the shares of a risky asset.",
+    "host_name": "www.scirp.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.simtrade.fr/blog_simtrade/understanding-almgren-chriss-model-for-optimal-trade-execution",
+    "name": "Understanding the Almgren-Chriss Model for Optimal Trade Execution",
+    "snippet": "One of the most elegant results of the Almgren-Chriss model is the closed-form solution for the optimal trading trajectory.\nThe Almgren-Chriss model, developed by Robert Almgren and Neil Chriss in 2000, provides a mathematical framework to solve this problem. It has become an important model of algorithmic trading strategies used by investment banks, hedge funds, and asset managers worldwide.",
+    "host_name": "www.simtrade.fr",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/understanding-almgren-chriss-model-optimal-portfolio-execution-pal-pmeqc",
+    "name": "Understanding the Almgren-Chriss Model for Optimal Portfolio Execution",
+    "snippet": "The Almgren-Chriss model allows traders to systematically determine the optimal execution strategy, quantitative methods in modern finance.",
+    "host_name": "www.linkedin.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2167059_code434076.pdf?abstractid=2038387&mirid=1",
+    "name": "[PDF] OPTIMAL EXECUTION HORIZON",
+    "snippet": "Optimal execution strategies compute a trajectory that minimizes the shortfall cost of acquiring or disposing of a position in an asset. Well-known ...",
+    "host_name": "papers.ssrn.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://static1.squarespace.com/static/5df018ec4c9d61288094246c/t/5e39db229a16b072d97fce9b/1754575862869/Optimal+Execution+of+Portfolio+Transaction+_+Almgren%26Chriss+1999.pdf",
+    "name": "[PDF] Optimal Execution of Portfolio Transactions* - Squarespace",
+    "snippet": "In Appendix A, we extend our analysis to multiple asset portfolios and again produce closed form expressions for optimal trading paths.",
+    "host_name": "static1.squarespace.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://epubs.siam.org/doi/abs/10.1137/16M1058406",
+    "name": "A Closed-Form Execution Strategy to Target Volume Weighted Average",
+    "snippet": "We provide two explicit closed-form optimal execution. Almgren--Chriss execution strategy adjusted by the expected volume and net order-flow. Almgren and N. ...",
+    "host_name": "epubs.siam.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dm13450.github.io/2024/06/06/Solving-the-Almgren-Chris-Model.html",
+    "name": "Solving the Almgren Chris Model - Dean Markwick",
+    "snippet": "The Almgren Chris model from Optimal Execution of Portfolio Transactions is the most well known optimal execution model and provides the foundational math.\nWe’ve gone through the full problem set-up and show how the TWAP minimises expected costs for a risk-neutral investor and how an exponential execution schedule minimises cost for a risk-sensitive investor.",
+    "host_name": "dm13450.github.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

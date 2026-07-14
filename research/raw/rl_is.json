@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.quantitativebrokers.com/blog/a-brief-history-of-implementation-shortfall",
+    "name": "A Brief History Of Implementation Shortfall | Execution Algorithm",
+    "snippet": "Implementation Shortfall (IS) is defined as the difference in price between the time a portfolio manager makes an investment decision and the actual price ...",
+    "host_name": "www.quantitativebrokers.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ryanoconnellfinance.com/implementation-shortfall",
+    "name": "Implementation Shortfall: Perold Framework and Transaction Cost",
+    "snippet": "Implementation shortfall measures the total cost gap between a paper portfolio and the actual portfolio after execution.",
+    "host_name": "ryanoconnellfinance.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cube.exchange/what-is/implementation-shortfall",
+    "name": "What Is Implementation Shortfall? | Cube Exchange",
+    "snippet": "implementation shortfall = realized execution cost ... arrival price to the final realized outcome, including partial fills and opportunity cost.",
+    "host_name": "www.cube.exchange",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tandfonline.com/doi/full/10.1080/1351847X.2025.2558117",
+    "name": "Full article: The risk of falling short: implementation shortfall variance in",
+    "snippet": "The measure we use to measure transaction costs is implementation shortfall (IS), which is the most common measure used in literature to quantify transaction ...",
+    "host_name": "www.tandfonline.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://questdb.com/glossary/implementation-shortfall-analysis",
+    "name": "Implementation Shortfall Analysis (Examples) - QuestDB",
+    "snippet": "Implementation shortfall analysis measures the difference between the theoretical value of a trade at decision time and its actual executed value.",
+    "host_name": "questdb.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cis.upenn.edu/~mkearns/finread/impshort.pdf",
+    "name": "[PDF] Implementation Shortfall --- One Objective, Many Algorithms",
+    "snippet": "In short, a trader/algorithm's ability to achieve execution prices close to arrival prices depends on the size of the order, the liquidity available for the.",
+    "host_name": "www.cis.upenn.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.pastpaperhero.com/resources/cfa-level3-trade-implementation-implementation-shortfall-and-arrival-price",
+    "name": "Implementation shortfall and arrival price - PastPaperHero",
+    "snippet": "Implementation shortfall measures the total cost of executing a trade, quantified as the gap between the hypothetical 'paper' return based on decision price",
+    "host_name": "www.pastpaperhero.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.bestexresearch.com/insights/adaptive",
+    "name": "Designing Optimal Implementation Shortfall Algorithms with the BestEx",
+    "snippet": "The Adaptive Optimal (IS) Framework by BestEx Research is a more sophisticated, more customizable approach to minimizing implementation shortfall.",
+    "host_name": "www.bestexresearch.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

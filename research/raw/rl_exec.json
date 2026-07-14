@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/html/2601.04896v1",
+    "name": "Deep Reinforcement Learning for Optimum Order Execution - arXiv",
+    "snippet": "Our experimental findings clearly demonstrate that our DRL-based approach outperforms both VWAP and TWAP in terms of return on investment and ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/2674-1032/2/3/23",
+    "name": "Practical Application of Deep Reinforcement Learning to Optimal",
+    "snippet": "The two most commonly used trade execution strategies are the time-weighted average price (TWAP) and volume-weighted average price (VWAP) ...",
+    "host_name": "www.mdpi.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cs224r.stanford.edu/spring_2025/projects/pdfs/CS224r_final_paper%20(4).pdf",
+    "name": "[PDF] Extended Abstract - CS 224R Deep Reinforcement Learning",
+    "snippet": "TWAP breaks an order into equal parts over time, and VWAP targets execution in proportion to market volume. consistently outperform benchmark prices inventory)",
+    "host_name": "cs224r.stanford.edu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417424011291",
+    "name": "An adaptive dual-level reinforcement learning approach for optimal trade",
+    "snippet": "Funds and traders often use VWAP as a benchmark to compare the price at which they executed trades to the overall market price for the security,",
+    "host_name": "www.sciencedirect.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mathworks.com/help/deeplearning/ug/deep-reinforcement-learning-for-optimal-trade-execution.html",
+    "name": "Deep Reinforcement Learning for Optimal Trade Execution - MathWorks",
+    "snippet": "This example shows how to use the Reinforcement Learning Toolbox™ and Deep Learning Toolbox™ to design agents for optimal trade execution.",
+    "host_name": "www.mathworks.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ijcai.org/proceedings/2020/0627.pdf",
+    "name": "[PDF] An End-to-End Optimal Trade Execution Framework based on",
+    "snippet": "The proposed frame- work has outperformed the industry commonly used baseline models such as TWAP, VWAP, and AC as well as several Deep Reinforcement Learning.",
+    "host_name": "www.ijcai.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mbrenndoerfer.com/writing/execution-algorithms-optimal-trading-strategies",
+    "name": "Optimal Execution Algorithms: TWAP, VWAP & Market Impact",
+    "snippet": "VWAP improves on TWAP by executing in proportion to expected market volume. The key insight motivating VWAP is that markets naturally absorb ...",
+    "host_name": "mbrenndoerfer.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/Alqama-svg/optimal_execution_with_RL_Agent",
+    "name": "Deep Reinforcement Learning for Optimal Trade Execution  - GitHub",
+    "snippet": "This repository implements a Reinforcement Learning (RL) agent to solve the optimal execution problem in algorithmic trading using Deep Q-Learning (DQN).",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]
