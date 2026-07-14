@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.ortecfinance.com/-/media/project/ortec/shared/files/whitepapers/ip-multi-period-performance-attribution-ortec-finance_bas-leerink.pdf",
+    "name": "[PDF] Multi-Period Performance Attribution: Framework for an Allocation Effect",
+    "snippet": "To calculate the selection effect for the whole period you would first geometrically link the portfolio and benchmark return separately and then multiply this ...",
+    "host_name": "www.ortecfinance.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ideas.repec.org/a/taf/ufajxx/v60y2004i4p76-91.html",
+    "name": "Multiperiod Arithmetic Attribution - IDEAS/RePEc",
+    "snippet": "This article presents a set of qualitative characteristics and quantitative properties for arithmetic multiperiod performance attribution.",
+    "host_name": "ideas.repec.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://patents.google.com/patent/WO2002005066A2/en",
+    "name": "Method and system for multi-period performance attribution",
+    "snippet": "A method for arithmetic and geometric performance attribution which accurately links single-periods attribution effects over multiple periods.",
+    "host_name": "patents.google.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rpc.cfainstitute.org/research/financial-analysts-journal/2004/multiperiod-arithmetic-attribution",
+    "name": "Multiperiod Arithmetic Attribution",
+    "snippet": "This article presents a set of qualitative characteristics and quantitative properties for arithmetic multiperiod performance attribution.",
+    "host_name": "rpc.cfainstitute.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=861844",
+    "name": "Multi-Period Performance Attribution: A Refreshing Perspective",
+    "snippet": "We present some of the most popular algorithms used in the performance measurement industry and discuss some properties from an entirely new perspective.",
+    "host_name": "papers.ssrn.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://metricgate.com/docs/multi-period-attribution",
+    "name": "Multi-Period Attribution Calculator - MetricGate",
+    "snippet": "Arithmetic linking: Simply sums single-period allocation and selection effects. Produces a compounding residual that equals the difference ...",
+    "host_name": "metricgate.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantdare.com/linking-attribution-factors",
+    "name": "Linking Attribution Factors - Quantdare",
+    "snippet": "This step is known as attribution linking, and it requires a return smoothing algorithm. The smoothing algorithm will slightly distort single-period ...",
+    "host_name": "quantdare.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tsgperformance.com/geometric-attribution-residuals",
+    "name": "Geometric attribution has residuals, too! - TSG Performance",
+    "snippet": "Geometric attribution has residuals: the only difference is that arithmetic needs it across time periods, while geometric requires it within time periods.",
+    "host_name": "tsgperformance.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

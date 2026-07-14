@@ -17,6 +17,7 @@ import {
   LineChart,
   type LucideIcon,
   Newspaper,
+  PieChart,
   Radar,
   RefreshCw,
   Calculator,
@@ -68,6 +69,7 @@ import { TcaDashboard } from "@/components/trading/TcaDashboard";
 import { KillSwitchPanel } from "@/components/trading/KillSwitchPanel";
 import { ComplianceAuditLog } from "@/components/trading/ComplianceAuditLog";
 import { CrossAssetHeatmap } from "@/components/trading/CrossAssetHeatmap";
+import { StrategyAttribution } from "@/components/trading/StrategyAttribution";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -104,7 +106,8 @@ type ModuleId =
   | "tca"
   | "killswitch"
   | "audit"
-  | "heatmap";
+  | "heatmap"
+  | "attribution";
 
 interface ModuleDef {
   id: ModuleId;
@@ -145,6 +148,7 @@ const MODULES: ModuleDef[] = [
   { id: "killswitch", name: "Kill Switch / Auto-Derisk", icon: ShieldAlert, description: "Real-time risk triggers: daily loss, VaR, drawdown, margin, circuit breakers, 16-rule latched kill" },
   { id: "audit", name: "Compliance & Audit Log", icon: ShieldCheck, description: "MiFID II / CFTC / SEC append-only hash-chained event log, state replay, export" },
   { id: "heatmap", name: "Cross-Asset Heatmap", icon: BarChart3, description: "Performance matrix: 23 contracts × 6 timeframes (1D/1W/1M/3M/YTD/1Y), colour-coded" },
+  { id: "attribution", name: "Strategy Attribution", icon: PieChart, description: "Brinson-Fachler P&L decomposition: allocation vs selection vs interaction effects" },
   { id: "research", name: "Research", icon: TrendingUp, description: "Factor analysis and cointegration tools" },
   { id: "system", name: "System Monitor", icon: Activity, description: "Latency, throughput, event log" },
 ];
@@ -382,6 +386,8 @@ function ModuleRenderer({ active, selectedSymbol }: { active: ModuleId; selected
       return <ComplianceAuditLog />;
     case "heatmap":
       return <CrossAssetHeatmap />;
+    case "attribution":
+      return <StrategyAttribution />;
     case "research":
       return <ResearchTerminal />;
     case "system":

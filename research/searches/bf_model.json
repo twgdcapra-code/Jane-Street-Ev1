@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-lit-review/2019/rflr-performance-attribution.pdf",
+    "name": "PERFORMANCE ATTRIBUTION",
+    "snippet": "Brinson and Fachler (1985) variant for asset allocation is far more common and better aligned with most investment decision processes.",
+    "host_name": "rpc.cfainstitute.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.neoxam.com/datahub/performance-attribution-brinson-fachler-method-explained",
+    "name": "Performance Attribution – Brinson-Fachler Method Explained",
+    "snippet": "Allocation effect – difference in segment weight vs benchmark, multiplied by benchmark segment return. Selection effect – difference in portfolio vs benchmark ...",
+    "host_name": "www.neoxam.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://analystprep.com/study-notes/cfa-level-iii/sources-of-portfolio-returns",
+    "name": "Sources of Portfolio Returns and Attribution",
+    "snippet": "Which of the following is a true statement about simple arithmetic returns as compared to geometric returns?\nA. For all positive series of returns with ...\nLearn how portfolio returns are attributed using models like Brinson, and how allocation and selection effects explain performance.",
+    "host_name": "analystprep.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ortecfinance.com/-/media/project/ortec/shared/files/whitepapers/ip-multi-period-performance-attribution-ortec-finance_bas-leerink.pdf",
+    "name": "Multi-Period Performance Attribution: Framework for an",
+    "snippet": "The formula for the interaction effect is interaction effect = ∑ − ∗ ( − ) (4) The Brinson model is an arithmetic model. The sum of the allocation, selection ...",
+    "host_name": "www.ortecfinance.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.kiski.com/blog-posts/understanding-brinson-analysis-as-a-performance-attribution-tool",
+    "name": "Understanding Brinson Analysis as a Performance Attribution",
+    "snippet": "Brinson analysis helps fund managers and investors attribute portfolio returns by breaking them down into allocation and selection effects.",
+    "host_name": "www.kiski.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Performance_attribution",
+    "name": "Performance attribution",
+    "snippet": ". The three attribution terms (asset allocation, stock selection, and interaction) sum exactly to the active return. The Brinson model performance attribution ...\nThe three attribution terms (asset allocation, stock selection, and interaction) sum exactly to the active return without the need for any fudge factors. Some other versions of decision attribution analysis omit the interaction effect.",
+    "host_name": "en.wikipedia.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ryanoconnellfinance.com/brinson-attribution-model",
+    "name": "Brinson Attribution Model: Allocation, Selection & Interaction",
+    "snippet": "The Brinson attribution model decomposes portfolio active return into allocation, selection, and interaction effects.\nThe Brinson attribution model decomposes portfolio active return into allocation, selection, and interaction effects. Learn the BF and BHB formulas with a worked example.",
+    "host_name": "ryanoconnellfinance.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=TSWKwcv42QI",
+    "name": "Portfolio Performance Attribution: The Brinson-Fachler Model",
+    "snippet": "This video covers everything you need to know about the brenson factor model when you're doing performance attribution on a portfolio.",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "Jul 15, 2022",
+    "favicon": ""
+  }
+]

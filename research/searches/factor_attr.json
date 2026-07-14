@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://python.plainenglish.io/factor-models-in-quantitative-finance-from-fama-french-to-momentum-and-value-signals-b97fedd7537e",
+    "name": "Factor Models in Quantitative Finance: From Fama–French to Momentum and Value Signals",
+    "snippet": "Understand factor models in quantitative finance, from Fama–French theory to momentum and value signals driving portfolio returns.",
+    "host_name": "python.plainenglish.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ifa.com/articles/momentum_fourth_factor",
+    "name": "Momentum: From Theory to Practical Application | Index Fund Advisors, Inc.",
+    "snippet": "For a diversified portfolio of domestic equities, the Fama/French three-factor model has been found to explain more than 90% of the variation of returns.",
+    "host_name": "www.ifa.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quant.stackexchange.com/questions/70177/how-to-correctly-use-fama-french-factors-from-investment-portfolio-perspective",
+    "name": "How to correctly use Fama-French factors (from investment portfolio perspective)?",
+    "snippet": "Fama-French 5 factors + Momentum +. Prominent examples are DFA and AQR. momentum strategies work well in economic booms, but not so well during ...",
+    "host_name": "quant.stackexchange.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_developed_mom.html",
+    "name": "Kenneth R. French - Description of Fama/French Factors - Dartmouth",
+    "snippet": "Momentum Factors for Developed Markets. The market factor is the return on a region's value-weight market portfolio minus the U.S. one month T-bill rate. ...",
+    "host_name": "mba.tuck.dartmouth.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=OHMxuk1d2iA",
+    "name": "Factor Models Explained: Your 'Alpha' Might Just Be Hidden Beta - YouTube",
+    "snippet": "2:30 — Fama-French 5-Factor: RMW and CMA — the full modern baseline 2:50 — Portfolio attribution: when your alpha is just value factor ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rpc.cfainstitute.org/blogs/enterprising-investor/2022/fama-and-french-the-five-factor-model-revisited",
+    "name": "Fama and French: The Five-Factor Model Revisited",
+    "snippet": "Fama and Kenneth R. French introduced their three-factor model augmenting the capital asset pricing model (CAPM) nearly three decades ago.",
+    "host_name": "rpc.cfainstitute.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.analyticalplatform.com/how-to-use-the-fama-french-method-in-real-life-portfolio-management",
+    "name": "How to Use the Fama-French Method in Real-Life Portfolio Management",
+    "snippet": "The Fama-French method provides a more nuanced view of the market and portfolio performance by considering the size and value factors.",
+    "host_name": "www.analyticalplatform.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/data-and-beyond/does-momentum-truly-improve-the-fama-french-five-factor-model-18247e7b5700",
+    "name": "Does Momentum Truly Improve the Fama-French Five-Factor Model? | by Dima Iakubovskyi | Data And Beyond | Medium",
+    "snippet": "Fama-French 5-factor model has become the backbone of modern empirical asset pricing. It improves on Capital Asset Pricing Model (CAPM)",
+    "host_name": "medium.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.youtube.com/watch?v=Ju4y98yU2KE",
+    "name": "Power BI Upgrade: Easy Vertical Waterfall Charts with Visual Calcs",
+    "snippet": "Learn how to build a dynamic vertical waterfall chart using Power BI's native stacked column visual and visual calculations.",
+    "host_name": "www.youtube.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://inforiver.com/ebooks/waterfall-charts-power-bi",
+    "name": "Waterfall Chart in Power BI | Types, Variance & Forecast - Inforiver",
+    "snippet": "Master waterfall charts in Power BI. Explore types, variance, forecast, and best practices to build insightful reports with Inforiver Analytics+.",
+    "host_name": "inforiver.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sigmacomputing.com/blog/waterfall-charts-data-visualization",
+    "name": "When Waterfall Charts Are The Best Option For Data Visualization",
+    "snippet": "Rating 4.4 (500) Learn the significance of waterfall charts in data analysis and how they can be used for better BI analytics reporting, with industry examples.",
+    "host_name": "www.sigmacomputing.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.domo.com/learn/charts/waterfall-charts",
+    "name": "Waterfall Charts: A Complete Guide to Visualizing Change - Domo",
+    "snippet": "Learn what a waterfall chart is, when to use it, and how to build one. See examples, design best practices, and common pitfalls to avoid.",
+    "host_name": "www.domo.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.think-cell.com/en/resources/content-hub/expert-guide-to-multiple-series-waterfall-charts",
+    "name": "Expert guide to multiple series waterfall charts - think-cell",
+    "snippet": "You can use a multiple series think-cell waterfall chart to visualize performance metrics along a funnel, as demonstrated in this think-cell Library template.",
+    "host_name": "www.think-cell.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://help.altair.com/2023/panopticon/vizguide/onlinehelp/46_WaterfallChart.htm",
+    "name": "Altair Panopticon Visualizations - Waterfall Chart",
+    "snippet": "Waterfall Charts are a form of cumulative Bar Chart, showing the cumulative effect across a series of changes.",
+    "host_name": "help.altair.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.analytica.com/index.php/Waterfall_Charts",
+    "name": "Waterfall Charts - Analytica Docs",
+    "snippet": "A waterfall chart is a type of bar chart, similar to a stacked bar chart except that bars don't overlap and the origin of each bar starts where the previous ...",
+    "host_name": "docs.analytica.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://xviz.com/blogs/7-visualization-techniques-with-waterfall-chart-in-power-bi",
+    "name": "7 Visualization Techniques with Waterfall Chart in Power BI - xViz",
+    "snippet": "A stacked Waterfall is helpful to visualize the decomposition of individual categories' contributions.",
+    "host_name": "xviz.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

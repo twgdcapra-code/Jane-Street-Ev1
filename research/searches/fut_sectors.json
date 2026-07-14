@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://www.cmegroup.com/markets/equities.html",
+    "name": "Equity Index Products",
+    "snippet": "Equity Index Sector futures are liquid and capital-efficient ways to manage exposure across 19 sectors from technology to communication services.",
+    "host_name": "www.cmegroup.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.simplify.us/etfs/cta-simplify-managed-futures-strategy-etf",
+    "name": "CTA Simplify Managed Futures Strategy ETF",
+    "snippet": "The index rebalances monthly to 60% equities and 40% fixed income. The equity and fixed represented by Bloomberg US Large Cap . Distribution ...",
+    "host_name": "www.simplify.us",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/CFTCGlossary/index.htm",
+    "name": "Futures Glossary | CFTC",
+    "snippet": "A trading strategy that uses stock index futures and/or stock index options to protect stock portfolios against market declines.",
+    "host_name": "www.cftc.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.rjoasis.com/what-is-a-cta",
+    "name": "What is a CTA? | Managed Futures - Pooled Investments",
+    "snippet": "Commodity Trading Advisors (CTAs) are professional investment managers, energies, metals, interest rates, equity indices and commodities.",
+    "host_name": "www.rjoasis.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://thehedgefundjournal.com/ctas-under-threat",
+    "name": "CTAs Under Threat",
+    "snippet": "CTAs/trend followers now trade global diversified portfolios of futures, representing products in asset classes other than commodities such as interest rates, ...",
+    "host_name": "thehedgefundjournal.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ssga.com/us/en/institutional/capabilities/equities/sector-investing/gics-sector-and-industry-map",
+    "name": "GICS Sector and Industry Map",
+    "snippet": "The Global Industry Classification Standard (GICS) consists of 11 sectors: Communication Services, Consumer Discretionary, Consumer Staples, Energy, Financials,",
+    "host_name": "www.ssga.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ftinstitutionalemea.com/articles/2026/equity/global-equity-pulse-a-closer-look-at-the-energy-sector",
+    "name": "Global Equity Pulse: A closer look at the energy sector",
+    "snippet": "AC World Energy Index had a dividend yield of 3.4% as of February 27, 2026. All securities in the index are classified in the energy sector as ...",
+    "host_name": "www.ftinstitutionalemea.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://assets.bbhub.io/professional/sites/10/Bloomberg-Global-Equity-Indices-Methodology.pdf",
+    "name": "Bloomberg Global Equity Indices Methodology",
+    "snippet": "The Indices offer various size and regional segmentations and an array of services in investable index products and custom index.",
+    "host_name": "assets.bbhub.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://wholesale.banking.societegenerale.com/en/prime-services-indices",
+    "name": "Prime Services Indices - Wholesale Banking - Société Générale",
+    "snippet": "SG CTA Index calculates the net daily rate of return for a pool of CTAs selected from the largest managers open to new investment. It is equal-weighted",
+    "host_name": "wholesale.banking.societegenerale.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://wholesale.banking.societegenerale.com/fileadmin/indices_feeds/SG_Trend_Index_Methodology.pdf",
+    "name": "SG TREND INDEX - Wholesale Banking",
+    "snippet": "• A subset of the SG CTA Index, designed to track the largest trend following CTAs and be representative of the trend followers in the managed futures space. Read more 3 pages\nMust be broadly diversified (across asset classes and/or markets) (as determined by SG) Must be an industry recognized trend follower (as determined by SG) Must exhibit significant correlation to trend following peers and the SG Trend determined by SG) Must be open to new investment",
+    "host_name": "wholesale.banking.societegenerale.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portal.barclayhedge.com/cgi-bin/indices/displayHfIndex.cgi?indexCat=SG-Prime-Services-Indices&indexName=SG-Trend-Index",
+    "name": "SG Trend Index - BarclayHedge Indices",
+    "snippet": "The SG CTA Index is equal weighted, calculates the daily rate of return for a pool of CTAs selected from the larger managers that are open to new investment. Read more",
+    "host_name": "portal.barclayhedge.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://wholesale.banking.societegenerale.com/fileadmin/indices_feeds/ti_screen/index.html",
+    "name": "SG Trend Indicator Daily Report",
+    "snippet": "SG Trend Indicator, -1.44%, -2.12%, 14.19%. SG CTA Index, -0.67%, 8.67 %. SG Trend Index, -0.84%, 8.21%. SG STTI, -0.68%, 4.38%. S&P 500 TR, 0.82%, 0.61%, 10.88%. Read more\nMarkets with highest probability of reversal/signal switch next trading day.",
+    "host_name": "wholesale.banking.societegenerale.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://marketing-indx.bnpparibas.com/wp-content/uploads/sites/2/Multi-Asset-Trend-Index-Brochure.pdf",
+    "name": "MULTI-ASSET TREND INDEX - BNP Paribas Indices",
+    "snippet": "The Index methodology is designed to adjust each component's expected return to reflect correlation levels, aiming to limit spreads between expected returns. Read more 12 pages",
+    "host_name": "marketing-indx.bnpparibas.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hedgenordic.com/2026/04/build-your-index",
+    "name": "Build Your Index",
+    "snippet": "Apr 22, 2026 — the SG Trend Index currently includes the ten largest trend following CTA managers, as determined by Société Générale , which also need to be ...",
+    "host_name": "hedgenordic.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://content.sgmarkets.com/CTA_UPDATE_KEEPING_UP_WITH_THE_TRENDFOLLOWERS_2025",
+    "name": "CTA INDUSTRY UPDATE - Keeping Up With The Trend-",
+    "snippet": "May 13, 2025 — The Trend Indicator is a hypothetical model positioned either Long or Short in major liquid futures markets across the four main asset classes, ... Read more\nThe SG Trend Indicator allows us to analyse CTA performance and has realised a correlation to the SG Trend Index of 0.75 over its lifetime, which we consider more than adequate and in line with the pairwise correlations of the Trend Index constituents.",
+    "host_name": "content.sgmarkets.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.aima.org/static/uploaded/06348e9a-035b-42d3-954e5ea4c9498d20.pdf",
+    "name": "Managed Futures - RIDING THE WAVE",
+    "snippet": "CTAs in the Societe Generale managed futures database reported positive returns and many were up by more than 30% for the year. During 2008 the SG CTA index ... 32 pages",
+    "host_name": "www.aima.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

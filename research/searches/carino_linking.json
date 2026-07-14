@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://rdrr.io/github/R-Finance/PortfolioAttribution/man/Carino.html",
+    "name": "Carino: calculates total attribution effects using",
+    "snippet": "Arithmetic attribution effects do not naturally link over time. This function uses logarithmic smoothing to adjust attribution effects so that they can be summed up over multiple periods.",
+    "host_name": "rdrr.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tsgperformance.com/product/combining-attribution-effects-time",
+    "name": "Combining Attribution Effects Over Time - TSG Performance",
+    "snippet": "When the author's colleagues asked if we'd like to be the first to reveal those details by publishing a paper by David Carino, creator of the much talked about attribution model, we gratefully accepted.",
+    "host_name": "tsgperformance.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://eagledocs.atlassian.net/wiki/spaces/Performance2017/pages/856719637/Carino+Multiple-Period+Smoothing",
+    "name": "Carino Multiple-Period Smoothing - Performance V17 - Confluence",
+    "snippet": "This multiple-period smoothing calculation follows David Carino, Combining Attribution Effects Over Time, Russell Research Commentary (August 1999).",
+    "host_name": "eagledocs.atlassian.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://patents.google.com/patent/WO2002005066A2/en",
+    "name": "Method and system for multi-period performance attribution",
+    "snippet": "Carino describes one possible algorithm for linking attribution effects over time that results in a multi-period arithmetic performance attribution system. Furthermore, the result is...",
+    "host_name": "patents.google.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tsgperformance.com/insights/spaulding-group-books-and-articles",
+    "name": "Past Articles of The Journal of Performance Measurement | TSG",
+    "snippet": "TSG Books and Articles TSG books and past articles of The Journal of Performance Measurement are available for purchase. Clicking on any link below will take you to the book or article’s page in our online store.",
+    "host_name": "tsgperformance.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rdrr.io/github/R-Finance/PortfolioAttribution/src/R/Carino.R",
+    "name": "R-Finance/PortfolioAttribution source: R/Carino.R",
+    "snippet": "Arithmetic attribution effects do not naturally link over time. #' This function uses logarithmic smoothing to adjust attribution effects #' so that they can be summed up over multiple periods.",
+    "host_name": "rdrr.io",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://frongello.com/support/Works/Chap20RiskBook.pdf",
+    "name": "Linking of Attributes Results - frongello.com",
+    "snippet": "Although the compounding of single-period total returns is rather straightforward, the linking of attribution effects introduces additional challenges. We will begin by looking at the two approaches for defining excess return, geometric and arithmetic.",
+    "host_name": "frongello.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  }
+]

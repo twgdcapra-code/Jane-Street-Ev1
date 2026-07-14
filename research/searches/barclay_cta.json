@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://portal.barclayhedge.com/cgi-bin/indices/displayCtaIndex.cgi?indexCat=Barclay-CTA-Indices&indexName=Barclay-CTA-Index&",
+    "name": "Barclay CTA Index",
+    "snippet": "The Barclay CTA Index is a leading industry benchmark of representative performance of commodity trading advisors. There are currently 356 programs included ...",
+    "host_name": "portal.barclayhedge.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portal.barclayhedge.com/cgi-bin/indices/displayHfIndex.cgi?indexCat=SG-Prime-Services-Indices&indexName=SG-CTA-Index",
+    "name": "SG CTA Index - BarclayHedge Indices",
+    "snippet": "The SG CTA Index provides the market with a reliable daily performance benchmark of major commodity trading advisors (CTAs). Managed Futures Funds against an ...",
+    "host_name": "portal.barclayhedge.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/education/files/a-comparison-of-cta-indexes.pdf",
+    "name": "[PDF] A Comparison of CTA Indexes - CME Group",
+    "snippet": "BarclayHedge December 2014, the 20 programs in the index represented assets of approximately $93.5 billion.",
+    "host_name": "www.cmegroup.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.managedfuturesinvesting.com/benchmark-your-performance-with-cta-indexes",
+    "name": "Benchmark Your Performance with CTA Indexes - aiSource",
+    "snippet": "The Barclay Systematic Index is used to represent the performance of CTA strategies in the Barclay Hedge database whose strategy is at least 95% ...",
+    "host_name": "www.managedfuturesinvesting.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.returnstacked.com/managed-futures-trend-following",
+    "name": "Managed Futures Trend Following - Return Stacked® Portfolio Solutions",
+    "snippet": "The most cited of these benchmarks may be the … the BarclayHedge BTOP50 Index. Barclay CTA Index, serves as a broad benchmark for managed futures strategies.",
+    "host_name": "www.returnstacked.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://wholesale.banking.societegenerale.com/en/prime-services-indices",
+    "name": "Prime Services Indices - Wholesale Banking - Société Générale",
+    "snippet": "The SG CTA Index calculates the net daily rate of return for a pool of CTAs selected from the largest managers open to new investment. It is equal-weighted",
+    "host_name": "wholesale.banking.societegenerale.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portal.barclayhedge.com/cgi-bin/indices/displayIndices.cgi?indexID=cta",
+    "name": "Barclay CTA Indices",
+    "snippet": "Managed Futures (CTA) CTA Index -1.08% 69.79% The Barclay CTA Indices are recalculated and updated real-time on this page",
+    "host_name": "portal.barclayhedge.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.steben.com/uploads/1709_TimingMF.pdf",
+    "name": "[PDF] Can You Time Managed Futures? - Steben & Company",
+    "snippet": "Barclay CTA Index, which represents the equally- weighted average net returns of a large set of managed futures programs, a majority of which are trend- ...",
+    "host_name": "www.steben.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

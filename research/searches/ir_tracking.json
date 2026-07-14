@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://tsgperformance.com/wp-content/uploads/2020/11/Menchero-11-2.pdf",
+    "name": "Risk-adjusted Performance Attribution",
+    "snippet": "The information ratio is perhaps the most pertinent measure of risk-adjusted performance for active portfo-lio managers. In this article, we present a general methodology for attributing the realized information ratio to a set of investment decisions.",
+    "host_name": "tsgperformance.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://link.springer.com/article/10.1057/jam.2008.37",
+    "name": "Risk-adjusted performance attribution and portfolio",
+    "snippet": "This paper analyses and discusses the information ratio decomposition proposed by Menchero (2007) in the light of the analysis of risk-adjusted performance attribution developed by Bertrand (2005).",
+    "host_name": "link.springer.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/228267067_Risk-Adjusted_Performance_Attribution_and_Portfolio_Optimizations_Under_Tracking-Error_Constraints",
+    "name": "Risk-Adjusted Performance Attribution and Portfolio",
+    "snippet": "This article analyzes and discusses the information ratio decomposition proposed by Menchero (2007) in the light of the analysis of risk-adjusted performance attribution developed in...",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/Risk-adjusted-performance-attribution-and-portfolio-Bertrand/a6116d0970bc6a1150067172523a79f2d19f4e93",
+    "name": "Risk-adjusted performance attribution and portfolio",
+    "snippet": "This paper analyses and discusses the information ratio decomposition proposed by Menchero (2007) in the light of the analysis of risk-adjusted performance attribution developed by Bertrand (2005).",
+    "host_name": "www.semanticscholar.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ryanoconnellfinance.com/information-ratio",
+    "name": "Information Ratio and Tracking Error: Active Management Guide",
+    "snippet": "Master the Information Ratio and tracking error to evaluate active fund managers. Learn the formulas, interpretation benchmarks, and when active management is worth the fees.",
+    "host_name": "ryanoconnellfinance.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://financedictionarypro.com/investing/portfolio-management/performance-measurement-and-attribution/risk-adjusted-performance-ratios/alpha-information-ratio-and-tracking-error",
+    "name": "Alpha, Information Ratio, and Tracking Error | Investing",
+    "snippet": "Alpha, Information Ratio, and Tracking Error terms measure portfolio return, attribution, benchmark-relative results, tracking error, and risk-adjusted performance. Use this branch when the question depends on how performance was calculated, attributed, benchmarked, or adjusted for risk.",
+    "host_name": "financedictionarypro.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/rohanmuk/Systematic-Strategy-Backtester-Performance-Attribution-Platform",
+    "name": "GitHub - rohanmuk/Systematic-Strategy-Backtester-Performance",
+    "snippet": "The analytical core (backtester.metrics) contains no hidden library calls: CAGR, Sharpe, tracking error, information ratio, up/down capture, beta, alpha, and the risk decomposition are all written out explicitly and unit-tested against hand-computed values (and cross-checked against empyrical).",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  }
+]

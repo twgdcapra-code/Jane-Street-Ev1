@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://thehedgefundjournal.com/trend-following-ctas-vs-alternative-risk-premia",
+    "name": "Trend-Following CTAs vs Alternative Risk-Premia",
+    "snippet": "First, we select a benchmark to analyse the performance of a strategy relative to this benchmark . In our examples, we choose the S&P 500 total return index.",
+    "host_name": "thehedgefundjournal.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://uncipc.org/wp-content/uploads/2022/02/IPC-Performance-Attribution-Analysis-2022-01-23.pdf",
+    "name": "Performance Analysis and Attribution with Alternative",
+    "snippet": "This white paper provides a summary of existing methods and current research on performance analysis and attribution for complex portfolios that include ... 74 pages",
+    "host_name": "uncipc.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.efficient.com/resources",
+    "name": "Managed Futures Research & Insights",
+    "snippet": "Selecting the largest CTAs based on recent past performance makes it difficult to outperform industry benchmarks.",
+    "host_name": "www.efficient.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.aima.org/article/ep-42-the-long-short-2022-the-year-of-the-cta-strategy.html",
+    "name": "Ep. 42 The Long-Short | 2022: The year of the CTA strategy",
+    "snippet": "Oct 19, 2022 — But in our discussions, we try to focus less on the specifics of the performance , and more on the longer-term profile of managed futures and the ...",
+    "host_name": "www.aima.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://portal.barclayhedge.com/cgi-bin/indices/displayHfIndex.cgi?indexCat=Barclay-Hedge-Fund-Indices&indexName=Multi-Strategy-Index",
+    "name": "Multi Strategy Index - BarclayHedge Indices",
+    "snippet": "The Barclay Multi Strategy Index is recalculated and updated real-time on this page as soon as the monthly returns for the underlying funds are recorded.",
+    "host_name": "portal.barclayhedge.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantpedia.com/exploration-of-cta-momentum-strategies-using-etfs",
+    "name": "Exploration of CTA Momentum Strategies Using ETFs",
+    "snippet": "Jan 18, 2024 — This paper aims to delve into the exploration of individual components of the CTA strategy , understanding the performance of different assets ...",
+    "host_name": "quantpedia.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.cmegroup.com/education/files/Lintner_Revisited_Quantitative_Analysis.pdf",
+    "name": "A Quantitative Analysis of Managed Futures Strategies",
+    "snippet": "CME Group exchanges offer the widest range of global benchmark products across all major asset classes, including futures and options based on interest rates, ... 40 pages",
+    "host_name": "www.cmegroup.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rpc.cfainstitute.org/blogs/enterprising-investor/2026/decoding-cta-allocations-by-trend-horizon",
+    "name": "Decoding CTA Allocations by Trend Horizon",
+    "snippet": "Jan 28, 2026 — Decompose CTA returns into fast, medium, and slow trend horizons to reveal true risk drivers, benchmark overlap, and behavior during market ...",
+    "host_name": "rpc.cfainstitute.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

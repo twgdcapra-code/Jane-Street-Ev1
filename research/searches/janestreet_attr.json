@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://blog.janestreet.com",
+    "name": "Jane Street Blog",
+    "snippet": "If you're interested in working at a place where functional programming meets the real world, then apply for a job at Jane Street.",
+    "host_name": "blog.janestreet.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1jpqd1s/why_does_jane_street_use_purely_ocaml",
+    "name": "Why does Jane street use purely Ocaml : r/ExperiencedDevs - Reddit",
+    "snippet": "Jane street uses Ocaml for pretty much everything. In Jane Street's case, it also gives them something unique to advertise and intrigue people. ...\nI just learnt that Jane street uses Ocaml for pretty much everything. I also assume that they have a lot of talented developers and are very smart people. Why does JS make these? (Meet the Machine Learning Team at ... AMA: Worked at Jane Street : r/csMajors - Reddit More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=nBmYSJvJr0s",
+    "name": "Get to Know Us: Matt Talks Machine Learning at Jane Street - YouTube",
+    "snippet": "Get to Know Us | Meet Matt who is based in Jane Street's Hong Kong office. He works on the Trading team and has been full-time since 2012.",
+    "host_name": "www.youtube.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/quant/comments/1gzkjg9/why_does_js_make_these_meet_the_machine_learning",
+    "name": "Why does JS make these? (Meet the Machine Learning Team at Jane",
+    "snippet": "Jane Street has also launched a Kaggle Jane Street Real Time Market Data Forecasting Competition So they are shaking a few trees vigorously;",
+    "host_name": "www.reddit.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.janestreet.com/join-jane-street/machine-learning",
+    "name": "Machine Learning - Jane Street",
+    "snippet": "Our machine learning team creates the neural network models driving our trading strategies, and builds the infrastructure that make training and inference ...",
+    "host_name": "www.janestreet.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/ai-simplified-in-plain-english/how-jane-street-built-an-ocaml-based-ai-system-without-public-data-ee524e9c24ff",
+    "name": "How Jane Street Built an OCaml-Based AI System Without",
+    "snippet": "Jane Street overcame scarce OCaml datasets with four-tier AI services, reinforcement-style training, and real-time workspace snapshotting.",
+    "host_name": "medium.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@chaitanya.mahalsa/how-jane-street-trains-llms-when-ocaml-makes-it-hard-03957a3c9fbe",
+    "name": "How Jane Street Trains LLMs (When OCaml Makes It Hard) - Medium",
+    "snippet": "Jane Street utilizes LLM models. would undergo type checks and tests to verify correctness. This introduces a reinforcement learning angle, ...",
+    "host_name": "medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quora.com/What-kind-of-trading-strategies-does-Jane-Street-use-How-do-they-make-money-if-they-don%E2%80%99t-rely-on-high-frequency-algorithmic-models-Why-do-they-need-so-much-mathematical-talent",
+    "name": "What kind of trading strategies does Jane Street use? How do  - Quora",
+    "snippet": "What is the typical trading strategy of professional day traders? Do they primarily buy and sell stocks on a daily basis or do they also hold ...",
+    "host_name": "www.quora.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

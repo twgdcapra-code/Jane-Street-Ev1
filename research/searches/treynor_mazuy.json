@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://timelyportfolio.github.io/PerformanceAnalytics/reference/MarketTiming.html",
+    "name": "Market timing models MarketTiming • PerformanceAnalytics",
+    "snippet": "Allows to estimate Treynor-Mazuy or Merton-Henriksson market timing model. The Treynor-Mazuy model is essentially a quadratic extension of the basic CAPM. It is estimated using a multiple regression. The second term in the regression is the value of excess return squared.",
+    "host_name": "timelyportfolio.github.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://search.r-project.org/CRAN/refmans/PerformanceAnalytics/html/MarketTiming.html",
+    "name": "R: Market timing models",
+    "snippet": "Allows to estimate Treynor-Mazuy or Merton-Henriksson market timing model.The Treynor-Mazuy model is essentially a quadratic extension of the basicCAPM. It is estimated using a multiple regression. The second term in theregression is the value of excess return squared. If the gamma coefficientin the regression is positive, then the estimated equati...",
+    "host_name": "search.r-project.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rdrr.io/cran/PerformanceAnalytics/man/MarketTiming.html",
+    "name": "MarketTiming: Market timing models in PerformanceAnalytics",
+    "snippet": "Allows to estimate Treynor-Mazuy or Merton-Henriksson market timing model. The Treynor-Mazuy model is essentially a quadratic extension of the basic CAPM. It is estimated using a multiple regression. The second term in the regression is the value of excess return squared.",
+    "host_name": "rdrr.io",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://r-packages.io/packages/PerformanceAnalytics/MarketTiming",
+    "name": "MarketTiming() R function from [PerformanceAnalytics]",
+    "snippet": "Allows to estimate Treynor-Mazuy or Merton-Henriksson market timing model. The Treynor-Mazuy model is essentially a quadratic extension of the basic CAPM. It is estimated using a multiple regression. The second term in the regression is the value of excess return squared.",
+    "host_name": "r-packages.io",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://rdrr.io/github/ecjbosu/PerformanceAnalytics/man/MarketTiming.html",
+    "name": "MarketTiming: Market timing models in ecjbosu",
+    "snippet": "Allows to estimate Treynor-Mazuy or Merton-Henriksson market timing model. The Treynor-Mazuy model is essentially a quadratic extension of the basic CAPM. It is estimated using a multiple regression. The second term in the regression is the value of excess return squared.",
+    "host_name": "rdrr.io",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.rdocumentation.org/packages/PerformanceAnalytics/versions/2.0.8/topics/MarketTiming",
+    "name": "MarketTiming function - RDocumentation",
+    "snippet": "Allows to estimate Treynor-Mazuy or Merton-Henriksson market timing model. The Treynor-Mazuy model is essentially a quadratic extension of the basic CAPM. It is estimated using a multiple regression. The second term in the regression is the value of excess return squared.",
+    "host_name": "www.rdocumentation.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quantargo.com/help/r/latest/packages/PerformanceAnalytics/2.0.4/MarketTiming",
+    "name": "PerformanceAnalytics: MarketTiming – R documentation – Quantargo",
+    "snippet": "Description Allows to estimate Treynor-Mazuy or Merton-Henriksson market timing model. The Treynor-Mazuy model is essentially a quadratic extension of the basic CAPM. It is estimated using a multiple regression. The second term in the regression is the value of excess return squared.",
+    "host_name": "www.quantargo.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  }
+]

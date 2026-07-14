@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://analystprep.com/study-notes/cfa-level-iii/sources-of-portfolio-returns",
+    "name": "Sources of Portfolio Returns and Attribution - AnalystPrep",
+    "snippet": "This allows for proper allocation effect calculation, regardless of whether or not the sector return is less than the overall benchmark return.",
+    "host_name": "analystprep.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ryanoconnellfinance.com/brinson-attribution-model",
+    "name": "Brinson Attribution Model: Allocation, Selection & Interaction",
+    "snippet": "Formula: Σ(wp,j − wB,j) × (RB,j − RB); Uses sector excess return over the overall benchmark as the allocation baseline; Allocation is ...\nBrinson-Fachler Allocation (1985) · Formula: Σ(wp,j − wB,j) × (RB,j − RB) · Uses sector excess return over the overall benchmark as the allocation ... The Brinson-Fachler... · BHB vs Brinson-Fachler...",
+    "host_name": "ryanoconnellfinance.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.neoxam.com/datahub/performance-attribution-brinson-fachler-method-explained",
+    "name": "Performance Attribution with the Brinson-Fachler Method - NeoXam",
+    "snippet": "Allocation effect – difference in segment weight vs benchmark, multiplied by benchmark segment return. Selection effect – difference in portfolio vs ...",
+    "host_name": "www.neoxam.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/CFA/comments/102xgsw/allocation_effect_brinson_model_different",
+    "name": "Allocation Effect (Brinson Model) - Different calculation MM  - Reddit",
+    "snippet": "The formula you provided for the allocation effect, (Pw - Bw) x (Ri - Rb), is the correct formula for calculating the allocation effect ... Wi)(Bi – B). am I wrong or is this the allocation effect plus the Selection ... Allocation effect - benchmark returns or excess returns? : r/CFA - Reddit More results from www.reddit.com\nJust did a MM mock and the allocation effect for performance evaluation is calculated as: Allocation effect = (Pw - Bw) x (Ri - Rb). Question about Allocation Effect - Portfolio Attribution Level 3 : r/CFA Wi)(Bi – B). am I wrong or is this the allocation effect plus the Selection ... More results from www.reddit.com",
+    "host_name": "www.reddit.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=TSWKwcv42QI",
+    "name": "Portfolio Performance Attribution: The Brinson-Fachler Model - YouTube",
+    "snippet": "This video demonstrates how to do performance attribution using the Brinson-Fachler model. This is one of the more popular methods for ...",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mantarisk.com/docs/methodologies/performance-attribution/performance-attribution-models",
+    "name": "Performance Attribution Models - MantaRisk Docs",
+    "snippet": "The Brinson-Fachler model calculates these effects using the following formulas: Allocation Effect: (Portfolio Weight - Benchmark Weight) × ( ...",
+    "host_name": "www.mantarisk.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tsgperformance.com/performance-perspectives-november-2024",
+    "name": "Performance Perspectives November 2024",
+    "snippet": "The allocation effect is derived by multiplying the difference in portfolio and benchmark weights by the benchmark return for each sector.",
+    "host_name": "tsgperformance.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.pastpaperhero.com/resources/cfa-level3-attribution-methods-brinson-fachler-allocation-selection-and-interaction",
+    "name": "Attribution methods - Brinson-fachler allocation selection and interaction",
+    "snippet": "The allocation effect will be negative. The portfolio overweighted a sector whose benchmark return was below the total benchmark return, so. ( w P i − w B i ) ...\nThe Brinson-Fachler method is the standard arithmetic framework for decomposing active return into allocation, selection, and interaction components.",
+    "host_name": "www.pastpaperhero.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

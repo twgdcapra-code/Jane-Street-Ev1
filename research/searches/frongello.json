@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://frongello.com/support/Works/LinkingSydney.pdf",
+    "name": "[PDF] Linking Single Period Arithmetic Attribution Results - Frongello",
+    "snippet": "the multi-period results should be the same as the single period results. The Frongello method is not dependent on future returns. Prior period scaling does ...",
+    "host_name": "frongello.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ortecfinance.com/-/media/project/ortec/shared/files/whitepapers/ip-multi-period-performance-attribution-ortec-finance_bas-leerink.pdf",
+    "name": "[PDF] Multi-Period Performance Attribution: Framework for an Allocation",
+    "snippet": "The smoothing algorithms developed by Cariño, Menchero and Frongello, that combine the single period results into results that add up to the multiple period ...",
+    "host_name": "www.ortecfinance.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2463378_code2239063.pdf?abstractid=2463378&mirid=1",
+    "name": "[PDF] Comparing Performance Attribution Linking Methods",
+    "snippet": "The Frongello methods are designed such that each one assigns the cross product to the prior effect, the latter effect or a combination of the two.",
+    "host_name": "papers.ssrn.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://frongello.com/support/Works/LemelsonPrize.pdf",
+    "name": "[PDF] The Frongello Linking Algorithm",
+    "snippet": "He proposes that; 1. Any strong algorithm should work with any single period attribution scheme, 2. A separate multi- period presentation format was unnecessary ...",
+    "host_name": "frongello.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quantdare.com/linking-attribution-factors",
+    "name": "Linking Attribution Factors - Quantdare",
+    "snippet": "This step is known as attribution linking, and it requires a return smoothing algorithm. The smoothing algorithm will slightly distort single-period ...",
+    "host_name": "quantdare.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/Linking-Single-Period-Attribution-Results-Frongello/bc5a2b8984f9ffc8d7c393a325cefddb871c91c0",
+    "name": "[PDF] Linking Single Period Attribution Results | Semantic Scholar",
+    "snippet": "This article presents a set of qualitative characteristics and quantitative properties for arithmetic multiperiod performance attribution.",
+    "host_name": "www.semanticscholar.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://frongello.com/support/Works/JPMSpring2002.pdf",
+    "name": "[PDF] Linking Single Period Attribution Results - Frongello",
+    "snippet": "The author pre- sents a linking methodology that seeks to retain explanatory power while presenting multiple period attribution results by means of a method ...",
+    "host_name": "frongello.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/finance/comments/1rh21j/geometricmultiperiod_attribution_where_can_i",
+    "name": "Geometric/Multi-Period Attribution: Where can I learn more about it?",
+    "snippet": "multiple period attribution gets a bit tricky because it chain-links multiple periods and you need to use geometric means, creating some ...",
+    "host_name": "www.reddit.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]
